@@ -125,6 +125,18 @@ public class PlanSpecificConfig {
         new PlanSpecific("org.mmtk.plan.stickyms.StickyMS")
         .addExpectedSpaces("ms"),
         "StickyMS");
+    register(
+        new PlanSpecific("org.mmtk.plan.rcimmix.RCImmix")
+        .addExpectedSpaces("rc", "rclos"),
+        "RCImmix");
+    register(
+        new PlanSpecific("org.mmtk.plan.rcimmixconcurrent.RCImmix")
+        .addExpectedSpaces("rc", "rclos"),
+        "RCImmixConcurrent");
+    register(
+        new PlanSpecific("org.mmtk.plan.concurrent.marksweep.CMS")
+        .addExpectedSpaces("ms"),
+        "ConcMS");
   }
 
   /**
