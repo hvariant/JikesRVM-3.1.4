@@ -19,12 +19,12 @@ import org.vmmagic.pragma.Uninterruptible;
 import org.vmmagic.unboxed.ObjectReference;
 
 /**
- * This class implements a dec-buffer for RCImmix collector
+ * This class implements a dec-buffer for RCImmixConcurrent collector
  *
  * @see org.mmtk.plan.TransitiveClosure
  */
 @Uninterruptible
-public final class RCImmixDecBuffer extends ObjectReferenceBuffer {
+public final class RCImmixConcurrentDecBuffer extends ObjectReferenceBuffer {
   /****************************************************************************
    *
    * Initialization
@@ -35,14 +35,14 @@ public final class RCImmixDecBuffer extends ObjectReferenceBuffer {
    *
    * @param queue The shared deque that is used.
    */
-  public RCImmixDecBuffer(SharedDeque queue) {
+  public RCImmixConcurrentDecBuffer(SharedDeque queue) {
     super("dec", queue);
   }
 
   @Override
   @Inline
   protected void process(ObjectReference object) {
-    if (RCImmix.isRCObject(object)) {
+    if (RCImmixConcurrent.isRCObject(object)) {
       push(object);
     }
   }

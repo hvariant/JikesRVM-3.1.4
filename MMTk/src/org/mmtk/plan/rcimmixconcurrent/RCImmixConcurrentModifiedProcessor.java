@@ -27,11 +27,11 @@ import org.vmmagic.unboxed.ObjectReference;
  * @see org.mmtk.plan.TraceLocal
  */
 @Uninterruptible
-public final class RCImmixModifiedProcessor extends TransitiveClosure {
+public final class RCImmixConcurrentModifiedProcessor extends TransitiveClosure {
 
-  private RCImmixCollector collector;
+  private RCImmixConcurrentCollector collector;
 
-  public RCImmixModifiedProcessor(RCImmixCollector ctor) {
+  public RCImmixConcurrentModifiedProcessor(RCImmixConcurrentCollector ctor) {
     this.collector = ctor;
   }
 
@@ -39,17 +39,17 @@ public final class RCImmixModifiedProcessor extends TransitiveClosure {
   @Inline
   public void processEdge(ObjectReference source, Address slot) {
     ObjectReference object = slot.loadObjectReference();
-    if (RCImmix.isRCObject(object)) {
-      if (RCImmix.CC_BACKUP_TRACE && RCImmix.performCycleCollection) {
+    if (RCImmixConcurrent.isRCObject(object)) {
+      if (RCImmixConcurrent.CC_BACKUP_TRACE && RCImmixConcurrent.performCycleCollection) {
         if (RCImmixObjectHeader.remainRC(object) == RCImmixObjectHeader.INC_NEW) {
           collector.getModBuffer().push(object);
         }
       } else {
-        if (RCImmix.RC_SURVIVOR_COPY) {
+        if (RCImmixConcurrent.RC_SURVIVOR_COPY) {
           collector.survivorCopy(slot, object, false);
         } else {
           if (RCImmixObjectHeader.incRC(object) == RCImmixObjectHeader.INC_NEW) {
-            if (Space.isInSpace(RCImmix.REF_COUNT, object)) {
+            if (Space.isInSpace(RCImmixConcurrent.REF_COUNT, object)) {
               RCImmixObjectHeader.incLines(object);
             }
             collector.getModBuffer().push(object);

@@ -10,7 +10,7 @@ def print_usage():
 positionals = []
 opts = {
     "verbose": 2,
-    "initHeap": "20M",
+    "initHeap": "10M",
     #"scheduler": "DETERMINISTIC",
     "timeout": 30,
     # "variableSizeHeap" : "true",
@@ -60,3 +60,5 @@ for i in range(repeat):
 
 print("return codes:")
 print(returncodes)
+
+sys.exit(max(returncodes))

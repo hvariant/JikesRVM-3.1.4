@@ -16,6 +16,8 @@ import static org.mmtk.utility.Constants.BITS_IN_BYTE;
 import static org.mmtk.utility.Constants.BITS_IN_ADDRESS;
 
 import org.mmtk.utility.ForwardingWord;
+import org.mmtk.utility.Log;
+import org.mmtk.utility.options.Options;
 import org.mmtk.vm.VM;
 import org.vmmagic.pragma.Inline;
 import org.vmmagic.pragma.Uninterruptible;
@@ -486,7 +488,19 @@ public class RCImmixObjectHeader {
 
   @Inline
   private static void decLineRC(Address address) {
-    if (VM.VERIFY_ASSERTIONS) VM.assertions._assert(!RCImmixBlock.isUnused(RCImmixBlock.align(address)));
+    if (VM.VERIFY_ASSERTIONS){
+      if(RCImmixBlock.isUnused(RCImmixBlock.align(address))){
+        Log.write("block is unused, line address:"); Log.writeln(address);
+      }
+      VM.assertions._assert(!RCImmixBlock.isUnused(RCImmixBlock.align(address)));
+    }
+
+    //MYNOTE:
+    if(Options.verbose.getValue() > 1) {
+      Log.write("decLineRC address:");
+      Log.writeln(address);
+    }
+
     address = RCImmixLine.align(address);
     Address line = RCImmixLine.getRCAddress(address);
     byte oldValue = line.loadByte();

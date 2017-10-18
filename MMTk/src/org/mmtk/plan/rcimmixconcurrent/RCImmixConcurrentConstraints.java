@@ -24,7 +24,7 @@ import static org.mmtk.policy.rcimmix.RCImmixConstants.MAX_IMMIX_OBJECT_BYTES;
  * issues with ordering of static initialization.
  */
 @Uninterruptible
-public class RCImmixConstraints extends StopTheWorldConstraints {
+public class RCImmixConcurrentConstraints extends StopTheWorldConstraints {
   @Override
   public int gcHeaderBits() { return 8; }
   @Override
@@ -39,4 +39,10 @@ public class RCImmixConstraints extends StopTheWorldConstraints {
   public boolean movesObjects() { return true;}
   @Override
   public int maxNonLOSCopyBytes() { return MAX_IMMIX_OBJECT_BYTES; }
+
+  //MYNOTE:
+  @Override
+  public boolean needsConcurrentWorkers(){ return true; }
+//  @Override
+//  public int maxNumGCThreads(){ return 1; }
 }

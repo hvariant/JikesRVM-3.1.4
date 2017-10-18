@@ -1,0 +1,176 @@
+['java', '-ea', '-jar', 'dist/mmtk-harness.jar', 'MMTk/harness/test-scripts/SpreadAlloc.script', 'plan=RCImmixConcurrent', 'verbose=1', 'initHeap=10M', 'timeout=30', 'variableSizeHeap=false']
+iteration #0
+[Harness] Configuring heap size [10.00MB..1.50MB]
+Setting default thread count for MMTk to minimum of default thread count 1 and maximal thread count 1 supported by current GC plan.
+New default thread count value is 1
+Setting actual thread count for MMTk to minimum of desired thread count 1 and maximal thread count 1 supported by current GC plan.
+New actual thread count is 1
+[currentDecPool=0] [GC 1 Start 0.02 s   0KB [MUT] switching to pool 1
+-> 0KB   3.16 ms]
+[GC 2 Start 0.02 s   0KB -> 0KB   0.05 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 0 enqueued page:0
+
+[currentDecPool=1] [GC 3 Start 0.41 s   10020KB [MUT] switching to pool 0
+-> 1000KB   51.15 ms]
+[GC 4 Start 0.46 s   1000KB -> 1000KB   0.06 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 1 enqueued page:0
+
+[currentDecPool=0] [GC 5 Start 0.67 s   9104KB [MUT] switching to pool 1
+-> 1808KB   107.53 ms]
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+ [CC][currentDecPool=1] [GC 6 Start 0.78 s   1808KB [Defrag]flushing both pools
+[MUT] switching to pool 0
+-> 964KB   22.38 ms]
+[GC 7 Start 0.80 s   964KB -> 964KB   0.04 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 1 enqueued page:0
+
+[currentDecPool=0] [GC 8 Start 1.00 s   9132KB [MUT] switching to pool 1
+-> 1804KB   77.71 ms]
+[GC 9 Start 1.07 s   1804KB -> 1804KB   0.04 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 0 enqueued page:1
+
+[currentDecPool=1] [GC 10 Start 1.27 s   9204KB [MUT] switching to pool 0
+-> 2772KB   77.25 ms]
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+ [CC][currentDecPool=0] [GC 11 Start 1.35 s   2772KB [Defrag]flushing both pools
+[MUT] switching to pool 1
+-> 1128KB   26.89 ms]
+[GC 12 Start 1.38 s   1128KB -> 1128KB   0.03 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 0 enqueued page:0
+
+[currentDecPool=1] [GC 13 Start 1.52 s   9136KB [MUT] switching to pool 0
+-> 2000KB   60.84 ms]
+[GC 14 Start 1.58 s   2000KB -> 2000KB   0.03 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 1 enqueued page:1
+
+[currentDecPool=0] [GC 15 Start 1.72 s   10040KB [MUT] switching to pool 1
+-> 2872KB   11.53 ms]
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+ [CC][currentDecPool=1] [GC 16 Start 1.73 s   2872KB [Defrag]flushing both pools
+[MUT] switching to pool 0
+-> 1036KB   15.06 ms]
+[GC 17 Start 1.75 s   1036KB -> 1036KB   0.02 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 1 enqueued page:0
+
+[currentDecPool=0] [GC 18 Start 1.87 s   8948KB [MUT] switching to pool 1
+-> 1940KB   51.68 ms]
+[GC 19 Start 1.93 s   1940KB -> 1940KB   0.02 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 0 enqueued page:1
+
+[currentDecPool=1] [GC 20 Start 2.04 s   9048KB [MUT] switching to pool 0
+-> 2744KB   45.29 ms]
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+ [CC][currentDecPool=0] [GC 21 Start 2.09 s   2744KB [Defrag]flushing both pools
+[MUT] switching to pool 1
+-> 1100KB   19.59 ms]
+[GC 22 Start 2.11 s   1100KB -> 1100KB   0.05 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 0 enqueued page:0
+
+[currentDecPool=1] [GC 23 Start 2.23 s   8948KB [MUT] switching to pool 0
+-> 1972KB   54.25 ms]
+[GC 24 Start 2.29 s   1972KB -> 1972KB   0.03 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 1 enqueued page:1
+
+[currentDecPool=0] [GC 25 Start 2.41 s   9080KB [MUT] switching to pool 1
+-> 2872KB   49.12 ms]
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+ [CC][currentDecPool=1] [GC 26 Start 2.46 s   2872KB [Defrag]flushing both pools
+[MUT] switching to pool 0
+-> 1068KB   14.41 ms]
+[GC 27 Start 2.48 s   1068KB -> 1068KB   0.03 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 1 enqueued page:0
+
+[currentDecPool=0] [GC 28 Start 2.62 s   10036KB [MUT] switching to pool 1
+-> 1940KB   9.40 ms]
+[GC 29 Start 2.63 s   1940KB -> 1940KB   0.03 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 0 enqueued page:1
+
+[currentDecPool=1] [GC 30 Start 2.75 s   9144KB [MUT] switching to pool 0
+-> 2680KB   46.08 ms]
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+ [CC][currentDecPool=0] [GC 31 Start 2.79 s   2680KB [Defrag]flushing both pools
+[MUT] switching to pool 1
+-> 1004KB   15.88 ms]
+[GC 32 Start 2.81 s   1004KB -> 1004KB   0.03 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 0 enqueued page:0
+
+[currentDecPool=1] [GC 33 Start 2.94 s   9012KB [MUT] switching to pool 0
+-> 1812KB   46.43 ms]
+[GC 34 Start 2.99 s   1812KB -> 1812KB   0.09 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 1 enqueued page:1
+
+[currentDecPool=0] [GC 35 Start 3.10 s   9112KB [MUT] switching to pool 1
+-> 2648KB   45.18 ms]
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+ [CC][currentDecPool=1] [GC 36 Start 3.15 s   2648KB [Defrag]flushing both pools
+[MUT] switching to pool 0
+-> 1068KB   7.25 ms]
+[GC 37 Start 3.16 s   1068KB -> 1068KB   0.04 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 1 enqueued page:0
+
+[currentDecPool=0] [GC 38 Start 3.29 s   9044KB [MUT] switching to pool 1
+-> 1908KB   47.54 ms]
+[GC 39 Start 3.34 s   1908KB -> 1908KB   0.03 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 0 enqueued page:1
+
+[currentDecPool=1] [GC 40 Start 3.47 s   10040KB [MUT] switching to pool 0
+-> 2808KB   6.47 ms]
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+ [CC][currentDecPool=0] [GC 41 Start 3.48 s   2808KB [Defrag]flushing both pools
+[MUT] switching to pool 1
+-> 1196KB   15.61 ms]
+[GC 42 Start 3.50 s   1196KB -> 1196KB   0.01 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 0 enqueued page:0
+
+[currentDecPool=1] [GC 43 Start 3.62 s   8916KB [MUT] switching to pool 0
+-> 2068KB   48.25 ms]
+[GC 44 Start 3.67 s   2068KB -> 2068KB   0.02 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 1 enqueued page:1
+
+[currentDecPool=0] [GC 45 Start 3.78 s   9016KB [MUT] switching to pool 1
+-> 2808KB   43.96 ms]
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+ [CC][currentDecPool=1] [GC 46 Start 3.82 s   2808KB [Defrag]flushing both pools
+[MUT] switching to pool 0
+-> 1004KB   15.78 ms]
+[GC 47 Start 3.84 s   1004KB -> 1004KB   0.01 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 1 enqueued page:0
+
+[currentDecPool=0] [GC 48 Start 3.96 s   8884KB [MUT] switching to pool 1
+-> 1876KB   48.58 ms]
+[GC 49 Start 4.01 s   1876KB -> 1876KB   0.02 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 0 enqueued page:1
+
+[currentDecPool=1] [GC 50 Start 4.15 s   9016KB [MUT] switching to pool 0
+-> 2744KB   71.99 ms]
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+[CONC(1)] In CONCURRENT_PREEMPT
+ [CC][currentDecPool=0] [GC 51 Start 4.23 s   2744KB [Defrag]flushing both pools
+[MUT] switching to pool 1
+-> 1068KB   24.01 ms]
+[GC 52 Start 4.25 s   1068KB -> 1068KB   0.02 ms]
+[CONC(2)] In CONCURRENT doing DecBuf using decpool 0 enqueued page:0
+
+[End 4.25 s]
+SUCCESS
+return codes:
+[0]

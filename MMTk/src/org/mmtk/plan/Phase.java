@@ -471,6 +471,7 @@ public abstract class Phase {
       if (log) {
         Log.write("Execute ");
         p.logPhase();
+        Log.write("\n");
       }
 
       /* Execute a single simple scheduled phase */

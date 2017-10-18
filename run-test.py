@@ -7,15 +7,17 @@ import os
 def print_usage():
     print("./run-test.py <testsuite> <plan>")
 
-# plan = "FastAdaptiveRCImmixConcurrent"
-plan = "production"
+plan = "FullAdaptiveRCImmixConcurrent"
+# plan = "production"
 if len(sys.argv) > 1: plan = sys.argv[1]
 testsuite = "basic"
 if len(sys.argv) > 2: testsuite = sys.argv[2]
 
-host = "localhost"
+#host = "localhost"
+host = "fisher.moma"
 
 cmds = ["./bin/buildit", host, "-t", testsuite, plan]
+# cmds = ["./bin/buildit", host, "-t", testsuite, "--nuke", plan]
 
 ret = subprocess.run(cmds)
 print("return state:")

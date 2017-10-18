@@ -99,12 +99,16 @@
     <startResults/>
 
     <!-- Heapsize set to 6x minimum heap size with MarkCompact -->
-    <dacapo name="antlr"    heapsize="120"/>
-    <dacapo name="bloat"    heapsize="150"/>
-    <dacapo name="chart"    heapsize="240" requires-display="true"/>
-    <dacapo name="eclipse"  heapsize="400"/>
+    <!--<dacapo name="antlr"    heapsize="120"/>-->
+    <!--<dacapo name="bloat"    heapsize="150"/>-->
+    <dacapo name="antlr"    heapsize="240"/>
+    <dacapo name="bloat"    heapsize="300"/>
+    <!--<dacapo name="chart"    heapsize="240" requires-display="true"/>-->
+    <!--<dacapo name="eclipse"  heapsize="400"/>-->
+    <dacapo name="eclipse"  heapsize="600"/>
     <dacapo name="fop"      heapsize="180"/>
-    <dacapo name="hsqldb"   heapsize="500"/>
+    <!--<dacapo name="hsqldb"   heapsize="500"/>-->
+    <dacapo name="hsqldb"   heapsize="700"/>
     <dacapo name="jython"   heapsize="200"/>
     <dacapo name="luindex"  heapsize="120"/>
     <dacapo name="lusearch" heapsize="300"/>

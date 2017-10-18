@@ -18,8 +18,10 @@ import org.mmtk.policy.LargeObjectLocal;
 import org.mmtk.policy.Space;
 import org.mmtk.policy.rcimmix.RCImmixMutatorLocal;
 import org.mmtk.policy.rcimmix.RCImmixObjectHeader;
+import org.mmtk.utility.Log;
 import org.mmtk.utility.alloc.Allocator;
 import org.mmtk.utility.deque.ObjectReferenceDeque;
+import org.mmtk.utility.options.Options;
 import org.mmtk.vm.VM;
 import org.vmmagic.pragma.Inline;
 import org.vmmagic.pragma.NoInline;
@@ -32,10 +34,10 @@ import org.vmmagic.unboxed.Word;
 import static org.mmtk.policy.rcimmix.RCImmixConstants.BYTES_IN_LINE;
 
 /**
- * This class implements the mutator context for RCImmix collector.
+ * This class implements the mutator context for RCImmixConcurrent collector.
  */
 @Uninterruptible
-public class RCImmixMutator extends StopTheWorldMutator {
+public class RCImmixConcurrentMutator extends StopTheWorldMutator {
 
   /************************************************************************
    * Instance fields
@@ -43,7 +45,11 @@ public class RCImmixMutator extends StopTheWorldMutator {
   protected final RCImmixMutatorLocal rc;
   private final LargeObjectLocal rclos;
   private final ObjectReferenceDeque modBuffer;
-  private final RCImmixDecBuffer decBuffer;
+
+  //MYNOTE:
+  private final RCImmixConcurrentDecBuffer decBuffer0;
+  private final RCImmixConcurrentDecBuffer decBuffer1;
+  private RCImmixConcurrentDecBuffer decBuffer;
 
   /************************************************************************
    *
@@ -53,11 +59,15 @@ public class RCImmixMutator extends StopTheWorldMutator {
   /**
    * Constructor. One instance is created per physical processor.
    */
-  public RCImmixMutator() {
-    rc = new RCImmixMutatorLocal(RCImmix.rcSpace, false);
-    rclos = new LargeObjectLocal(RCImmix.rcloSpace);
+  public RCImmixConcurrentMutator() {
+    rc = new RCImmixMutatorLocal(RCImmixConcurrent.rcSpace, false);
+    rclos = new LargeObjectLocal(RCImmixConcurrent.rcloSpace);
     modBuffer = new ObjectReferenceDeque("mod", global().modPool);
-    decBuffer = new RCImmixDecBuffer(global().decPool);
+
+    //MYNOTE:
+    decBuffer0 = new RCImmixConcurrentDecBuffer(global().decPool0);
+    decBuffer1 = new RCImmixConcurrentDecBuffer(global().decPool1);
+    decBuffer = global().currentDecPool == 0 ? decBuffer0 : decBuffer1;
   }
 
   /****************************************************************************
@@ -72,15 +82,18 @@ public class RCImmixMutator extends StopTheWorldMutator {
   @Inline
   public Address alloc(int bytes, int align, int offset, int allocator, int site) {
     switch (allocator) {
-      case RCImmix.ALLOC_DEFAULT:
-        return rc.alloc(bytes, align, offset);
-      case RCImmix.ALLOC_LOS:
-      case RCImmix.ALLOC_PRIMITIVE_LOS:
-      case RCImmix.ALLOC_LARGE_CODE:
+      case RCImmixConcurrent.ALLOC_DEFAULT:
+//        return rc.alloc(bytes, align, offset);
+        Address ret = rc.alloc(bytes, align, offset);
+//        Log.write("address allocated:"); Log.writeln(ret);
+        return ret;
+      case RCImmixConcurrent.ALLOC_LOS:
+      case RCImmixConcurrent.ALLOC_PRIMITIVE_LOS:
+      case RCImmixConcurrent.ALLOC_LARGE_CODE:
         return rclos.alloc(bytes, align, offset);
-      case RCImmix.ALLOC_NON_MOVING:
-      case RCImmix.ALLOC_CODE:
-      case RCImmix.ALLOC_IMMORTAL:
+      case RCImmixConcurrent.ALLOC_NON_MOVING:
+      case RCImmixConcurrent.ALLOC_CODE:
+      case RCImmixConcurrent.ALLOC_IMMORTAL:
         return super.alloc(bytes, align, offset, allocator, site);
       default:
         VM.assertions.fail("Allocator not understood by RC");
@@ -92,19 +105,19 @@ public class RCImmixMutator extends StopTheWorldMutator {
   @Inline
   public void postAlloc(ObjectReference ref, ObjectReference typeRef, int bytes, int allocator) {
     switch (allocator) {
-      case RCImmix.ALLOC_DEFAULT:
+      case RCImmixConcurrent.ALLOC_DEFAULT:
         if (bytes > BYTES_IN_LINE) RCImmixObjectHeader.initializeHeader(ref);
         break;
-      case RCImmix.ALLOC_LOS:
-      case RCImmix.ALLOC_PRIMITIVE_LOS:
-      case RCImmix.ALLOC_LARGE_CODE:
+      case RCImmixConcurrent.ALLOC_LOS:
+      case RCImmixConcurrent.ALLOC_PRIMITIVE_LOS:
+      case RCImmixConcurrent.ALLOC_LARGE_CODE:
         decBuffer.push(ref);
-        RCImmix.rcloSpace.initializeHeader(ref, true);
+        RCImmixConcurrent.rcloSpace.initializeHeader(ref, true);
         RCImmixObjectHeader.initializeHeaderOther(ref, true);
         return;
-      case RCImmix.ALLOC_NON_MOVING:
-      case RCImmix.ALLOC_CODE:
-      case RCImmix.ALLOC_IMMORTAL:
+      case RCImmixConcurrent.ALLOC_NON_MOVING:
+      case RCImmixConcurrent.ALLOC_CODE:
+      case RCImmixConcurrent.ALLOC_IMMORTAL:
         decBuffer.push(ref);
         RCImmixObjectHeader.initializeHeaderOther(ref, true);
         return;
@@ -116,8 +129,8 @@ public class RCImmixMutator extends StopTheWorldMutator {
 
   @Override
   public Allocator getAllocatorFromSpace(Space space) {
-    if (space == RCImmix.rcSpace) return rc;
-    if (space == RCImmix.rcloSpace) return rclos;
+    if (space == RCImmixConcurrent.rcSpace) return rc;
+    if (space == RCImmixConcurrent.rcloSpace) return rclos;
     return super.getAllocatorFromSpace(space);
   }
 
@@ -131,25 +144,35 @@ public class RCImmixMutator extends StopTheWorldMutator {
    */
   @Override
   public void collectionPhase(short phaseId, boolean primary) {
-    if (phaseId == RCImmix.PREPARE) {
+    if (phaseId == RCImmixConcurrent.PREPARE) {
       rc.prepare();
       return;
     }
 
-    if (phaseId == RCImmix.PROCESS_MODBUFFER) {
+    if (phaseId == RCImmixConcurrent.PROCESS_MODBUFFER) {
       modBuffer.flushLocal();
       return;
     }
 
-    if (phaseId == RCImmix.PROCESS_DECBUFFER) {
+    if (phaseId == RCImmixConcurrent.PROCESS_DECBUFFER) {
       decBuffer.flushLocal();
       return;
     }
 
-    if (phaseId == RCImmix.RELEASE) {
+    if (phaseId == RCImmixConcurrent.RELEASE) {
       rc.release();
       if (VM.VERIFY_ASSERTIONS) VM.assertions._assert(modBuffer.isEmpty());
-      if (VM.VERIFY_ASSERTIONS) VM.assertions._assert(decBuffer.isEmpty());
+//      if (VM.VERIFY_ASSERTIONS) VM.assertions._assert(decBuffer.isEmpty());
+      return;
+    }
+
+    //MYNOTE:
+    if(phaseId == RCImmixConcurrent.SWITCH_DECPOOL){
+      if(Options.verbose.getValue() > 0){
+        Log.write("[MUT] switching to pool ");
+        Log.writeln(global().currentDecPool);
+      }
+      decBuffer = global().currentDecPool == 0 ? decBuffer0 : decBuffer1;
       return;
     }
 
@@ -261,7 +284,7 @@ public class RCImmixMutator extends StopTheWorldMutator {
 
   /** @return The active global plan as an <code>RC</code> instance. */
   @Inline
-  private static RCImmix global() {
-    return (RCImmix) VM.activePlan.global();
+  private static RCImmixConcurrent global() {
+    return (RCImmixConcurrent) VM.activePlan.global();
   }
 }

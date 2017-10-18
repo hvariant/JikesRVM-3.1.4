@@ -12,6 +12,7 @@
  */
 package org.mmtk.plan.rcimmixconcurrent;
 
+import org.mmtk.plan.Plan;
 import org.mmtk.plan.Trace;
 import org.mmtk.plan.TraceLocal;
 import org.mmtk.policy.Space;
@@ -24,19 +25,18 @@ import org.vmmagic.unboxed.ObjectReference;
 import static org.mmtk.policy.rcimmix.RCImmixConstants.MARK_LINE_AT_SCAN_TIME;
 
 /**
- * This class implements the thread-local functionality for a transitive
- * closure over an immix space.
+ * This class implements the thread-local functionality for a defragmenting
+ * transitive closure over an immix space.
  */
 @Uninterruptible
-public final class RCImmixBTTraceLocal extends TraceLocal {
+public final class RCImmixConcurrentBTDefragTraceLocal extends TraceLocal {
 
-  /**
+ /**
    * Constructor
-   *
-   * @param trace The trace associated with this trace local.
-   * @param modBuffer The modified objects buffer associated with this trace local.  Possibly null.
+   * @param trace TODO
+   * @param modBuffer TODO
    */
-  public RCImmixBTTraceLocal(Trace trace) {
+  public RCImmixConcurrentBTDefragTraceLocal(Trace trace) {
     super(trace);
   }
 
@@ -50,9 +50,10 @@ public final class RCImmixBTTraceLocal extends TraceLocal {
    */
   @Override
   public boolean isLive(ObjectReference object) {
+    if (VM.VERIFY_ASSERTIONS) VM.assertions._assert(RCImmixConcurrent.rcSpace.inImmixDefragCollection());
     if (object.isNull()) return false;
-    else if (Space.isInSpace(RCImmix.REF_COUNT, object)) {
-      return RCImmix.rcSpace.fastIsLive(object);
+    else if (Space.isInSpace(RCImmixConcurrent.REF_COUNT, object)) {
+      return RCImmixConcurrent.rcSpace.isLive(object);
     } else return RCImmixObjectHeader.isMarked(object);
   }
 
@@ -68,11 +69,12 @@ public final class RCImmixBTTraceLocal extends TraceLocal {
   @Override
   @Inline
   public ObjectReference traceObject(ObjectReference object) {
-    if (RCImmix.isRCObject(object)) {
-      if (Space.isInSpace(RCImmix.REF_COUNT, object)) {
-        return RCImmix.rcSpace.fastTraceObjectAndLine(this, object);
+    if (VM.VERIFY_ASSERTIONS) VM.assertions._assert(RCImmixConcurrent.rcSpace.inImmixDefragCollection());
+    if (RCImmixConcurrent.isRCObject(object)) {
+      if (Space.isInSpace(RCImmixConcurrent.REF_COUNT, object)) {
+        return RCImmixConcurrent.rcSpace.defragTraceObject(this, object, Plan.ALLOC_DEFAULT);
       } else {
-        return RCImmix.rcSpace.fastTraceObject(this, object);
+        return RCImmixConcurrent.rcSpace.defragTraceObject(this, object);
       }
     } else return object;
   }
@@ -80,20 +82,27 @@ public final class RCImmixBTTraceLocal extends TraceLocal {
   @Override
   @Inline
   protected void scanObject(ObjectReference object) {
+    if (VM.VERIFY_ASSERTIONS) VM.assertions._assert(RCImmixConcurrent.rcSpace.inImmixDefragCollection());
     super.scanObject(object);
-    if (MARK_LINE_AT_SCAN_TIME && Space.isInSpace(RCImmix.REF_COUNT, object))
+    if (MARK_LINE_AT_SCAN_TIME && Space.isInSpace(RCImmixConcurrent.REF_COUNT, object))
       RCImmixObjectHeader.testAndMarkLines(object);
   }
 
   /**
-   * Ensure that the referenced object will not move from this point through
-   * to the end of the collection. This can involve forwarding the object
-   * if necessary.
+   * Return {@code true} if this object is guaranteed not to move during this
+   * collection (i.e. this object is defintely not an unforwarded
+   * object).
+   *
+   * @param object
+   * @return {@code true} if this object is guaranteed not to move during this
+   *         collection.
    */
   @Override
   @Inline
   public boolean willNotMoveInCurrentCollection(ObjectReference object) {
-    if (VM.VERIFY_ASSERTIONS) VM.assertions._assert(!RCImmix.rcSpace.inImmixDefragCollection());
+    if (VM.VERIFY_ASSERTIONS) VM.assertions._assert(RCImmixConcurrent.rcSpace.inImmixDefragCollection());
+    if (Space.isInSpace(RCImmixConcurrent.REF_COUNT, object))
+      return RCImmixConcurrent.rcSpace.willNotMoveThisGC(object);
     return true;
   }
 }

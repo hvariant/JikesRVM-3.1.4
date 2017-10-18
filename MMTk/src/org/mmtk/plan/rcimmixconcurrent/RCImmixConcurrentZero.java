@@ -25,7 +25,7 @@ import org.vmmagic.unboxed.ObjectReference;
  * @see org.mmtk.plan.TraceLocal
  */
 @Uninterruptible
-public final class RCImmixZero extends TransitiveClosure {
+public final class RCImmixConcurrentZero extends TransitiveClosure {
 
   @Override
   @Inline

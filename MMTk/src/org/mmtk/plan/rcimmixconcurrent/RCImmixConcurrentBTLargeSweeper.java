@@ -21,7 +21,7 @@ import org.vmmagic.unboxed.ObjectReference;
  * This class implements the freeing of large objects during a backup trace.
  */
 @Uninterruptible
-public final class RCImmixBTLargeSweeper extends ExplicitLargeObjectSpace.Sweeper {
+public final class RCImmixConcurrentBTLargeSweeper extends ExplicitLargeObjectSpace.Sweeper {
 
   @Override
   public boolean sweepLargeObject(ObjectReference object) {

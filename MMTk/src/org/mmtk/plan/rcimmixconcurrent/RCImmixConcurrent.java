@@ -39,17 +39,18 @@ import org.vmmagic.unboxed.Word;
 import static org.mmtk.policy.rcimmix.RCImmixConstants.PAGES_IN_BLOCK;
 
 /**
- * This class implements the global state of RCImmix collector.
+ * This class implements the global state of RCImmixConcurrent collector.
  */
 @Uninterruptible
-public class RCImmix extends StopTheWorld {
+public class RCImmixConcurrent extends StopTheWorld {
   public static final short PROCESS_OLDROOTBUFFER  = Phase.createSimple("old-root");
   public static final short PROCESS_NEWROOTBUFFER  = Phase.createSimple("new-root");
   public static final short PROCESS_MODBUFFER      = Phase.createSimple("mods");
   public static final short PROCESS_DECBUFFER      = Phase.createSimple("decs");
 
   /** Is cycle collection enabled? */
-  public static final boolean CC_ENABLED           = true;
+//  public static final boolean CC_ENABLED           = true;
+  public static final boolean CC_ENABLED           = false;
   /** Force full cycle collection at each GC? */
   public static boolean CC_FORCE_FULL        = false;
   /** Use backup tracing for cycle collection (currently the only option) */
@@ -62,6 +63,7 @@ public class RCImmix extends StopTheWorld {
   public static int defragTriggerThreshold;
   public static final short BT_CLOSURE_INIT        = Phase.createSimple("closure-bt-init");
   public static final short BT_CLOSURE             = Phase.createSimple("closure-bt");
+  public static final short BT_CLOSURE_FLUSH_POOL  = Phase.createSimple("closure-flush-pool");
 
   // CHECKSTYLE:OFF
 
@@ -82,7 +84,8 @@ public class RCImmix extends StopTheWorld {
       Phase.scheduleGlobal     (BT_CLOSURE_INIT),
       Phase.scheduleCollector  (BT_CLOSURE_INIT), 
       Phase.scheduleGlobal     (BT_CLOSURE),
-      Phase.scheduleCollector  (BT_CLOSURE));     
+      Phase.scheduleCollector  (BT_CLOSURE),
+      Phase.scheduleCollector  (BT_CLOSURE_FLUSH_POOL));
  
   /**
    * Perform the initial determination of liveness from the roots.
@@ -99,6 +102,20 @@ public class RCImmix extends StopTheWorld {
       Phase.scheduleGlobal     (CLOSURE),
       Phase.scheduleCollector  (CLOSURE));
 
+  //MYNOTE:
+  public static final short SWITCH_DECPOOL = Phase.createSimple("switch-dec");
+
+  public static final short CONCURRENT_PREPARE = Phase.createSimple("conc-prepare");
+  public static final short CONCURRENT_PREEMPT = Phase.createSimple("conc-pre");
+  public static final short CONCURRENT = Phase.createConcurrent("conc", Phase.scheduleCollector(CONCURRENT_PREEMPT));
+
+  /**
+   * Is concurrent collection allowed?
+   */
+
+//  public static boolean CONC_DECBUF = true;
+  public static boolean CONC_DECBUF = false;
+
   /**
    * This is the phase that is executed to perform a collection.
    */
@@ -107,8 +124,18 @@ public class RCImmix extends StopTheWorld {
       Phase.scheduleComplex(rootClosurePhase),
       Phase.scheduleComplex(refCountCollectionPhase),
       Phase.scheduleComplex(completeClosurePhase),
-      Phase.scheduleComplex(finishPhase));
-  
+
+      //MYNOTE:
+      Phase.scheduleGlobal(SWITCH_DECPOOL),
+      Phase.scheduleMutator(SWITCH_DECPOOL),
+
+      Phase.scheduleComplex(finishPhase),
+
+      Phase.scheduleGlobal(CONCURRENT_PREPARE)
+      //MYNOTE:
+      ,Phase.scheduleConcurrent(CONCURRENT)
+  );
+
   // CHECKSTYLE:ON
 
   /*****************************************************************************
@@ -122,7 +149,12 @@ public class RCImmix extends StopTheWorld {
   public static final int REF_COUNT_LOS = rcloSpace.getDescriptor();
 
   public final SharedDeque modPool = new SharedDeque("mod", metaDataSpace, 1);
-  public final SharedDeque decPool = new SharedDeque("dec", metaDataSpace, 1);
+
+  //MYNOTE:
+  public final SharedDeque decPool0 = new SharedDeque("dec0", metaDataSpace, 1);
+  public final SharedDeque decPool1 = new SharedDeque("dec1", metaDataSpace, 1);
+  public volatile int currentDecPool;
+
   public final SharedDeque newRootPool = new SharedDeque("newRoot", metaDataSpace, 1);
   public final SharedDeque newRootBackPool = new SharedDeque("newRootBack", metaDataSpace, 1);
   public final SharedDeque oldRootPool = new SharedDeque("oldRoot", metaDataSpace, 1);
@@ -133,7 +165,7 @@ public class RCImmix extends StopTheWorld {
    */
   public final Trace rootTrace;
   public final Trace backupTrace;
-  private final RCImmixBTLargeSweeper loFreeSweeper;
+  private final RCImmixConcurrentBTLargeSweeper loFreeSweeper;
   public int beginningPagesUsed = 0;
   public static double lineSurvivalRateExp = 1.0f;
 
@@ -144,7 +176,7 @@ public class RCImmix extends StopTheWorld {
   /**
    * Constructor
    */
-  public RCImmix() {
+  public RCImmixConcurrent() {
     Options.noReferenceTypes.setDefaultValue(true);
     Options.noFinalizer.setDefaultValue(true);
     Options.cycleTriggerFraction = new CycleTriggerFraction();
@@ -153,7 +185,10 @@ public class RCImmix extends StopTheWorld {
     
     rootTrace = new Trace(metaDataSpace);
     backupTrace = new Trace(metaDataSpace);
-    loFreeSweeper = new RCImmixBTLargeSweeper();
+    loFreeSweeper = new RCImmixConcurrentBTLargeSweeper();
+
+    //MYNOTE:
+    currentDecPool = 0;
   }
 
   @Override
@@ -178,6 +213,12 @@ public class RCImmix extends StopTheWorld {
     return !object.isNull() && !Space.isInSpace(VM_SPACE, object);
   }
 
+  //MYNOTE:
+  @Override
+  protected boolean concurrentCollectionRequired() {
+    return !Phase.concurrentPhaseActive();
+  }
+
   @Override
   public boolean lastCollectionFullHeap() {
     return performCycleCollection;
@@ -191,7 +232,12 @@ public class RCImmix extends StopTheWorld {
         CC_FORCE_FULL = Options.fullHeapSystemGC.getValue();
         performCycleCollection |= (collectionAttempt > 1) || emergencyCollection || CC_FORCE_FULL;
         RCImmixObjectHeader.performCycleCollection = performCycleCollection;
-        if (performCycleCollection && Options.verbose.getValue() > 0) Log.write(" [CC] ");
+        if (performCycleCollection && Options.verbose.getValue() > 0){
+          Log.write(" [CC]");
+        }
+        if(Options.verbose.getValue() > 0){
+          Log.write("[currentDecPool="); Log.write(currentDecPool); Log.write("] ");
+        }
         if (performCycleCollection) {
           rcSpace.decideWhetherToDefrag(emergencyCollection, true, collectionAttempt, userTriggeredCollection, performDefrag);
           RCImmixObjectHeader.performSurvivorCopy = false;
@@ -239,7 +285,11 @@ public class RCImmix extends StopTheWorld {
     }
 
     if (phaseId == PROCESS_DECBUFFER) {
-      decPool.prepare();
+      //MYNOTE:
+//      if(!CONC_DECBUF) {
+      decPool0.prepare();
+      decPool1.prepare();
+//      }
       return;
     }
 
@@ -247,6 +297,11 @@ public class RCImmix extends StopTheWorld {
       if (CC_BACKUP_TRACE && performCycleCollection) {
         newRootBackPool.prepare();
       }
+
+      //MYNOTE:
+//      decPool0.prepare();
+//      decPool1.prepare();
+
       return;
     }
 
@@ -289,6 +344,21 @@ public class RCImmix extends StopTheWorld {
 
       if (performCycleCollection) lineSurvivalRateExp = 0;
 
+      return;
+    }
+
+    //MYNOTE:
+    if(phaseId == SWITCH_DECPOOL){
+      currentDecPool = 1-currentDecPool;
+      return;
+    }
+
+    if (phaseId == CONCURRENT_PREPARE) {
+      //MYNOTE:
+      if(CONC_DECBUF) {
+        decPool0.prepare();
+        decPool1.prepare();
+      }
       return;
     }
 

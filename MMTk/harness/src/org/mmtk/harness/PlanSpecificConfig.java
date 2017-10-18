@@ -130,7 +130,7 @@ public class PlanSpecificConfig {
         .addExpectedSpaces("rc", "rclos"),
         "RCImmix");
     register(
-        new PlanSpecific("org.mmtk.plan.rcimmixconcurrent.RCImmix")
+        new PlanSpecific("org.mmtk.plan.rcimmixconcurrent.RCImmixConcurrent")
         .addExpectedSpaces("rc", "rclos"),
         "RCImmixConcurrent");
     register(

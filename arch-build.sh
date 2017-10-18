@@ -6,7 +6,8 @@ build_project=false
 build_eclipse_project=false
 build_harness=false
 
-HOST=localhost
+#HOST=localhost
+HOST=fisher.moma
 JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
 
 while getopts peh opt; do
@@ -20,15 +21,15 @@ done
 # remove parsed options
 shift $(( OPTIND - 1 ))
 
-#config=${1:-FullAdaptiveRCImmixConcurrent}
-config=${1:-production}
+config=${1:-FullAdaptiveRCImmixConcurrent}
+#config=${1:-production}
 
 if [ "$build_project" = true ]; then
     ./bin/buildit -j $JAVA_HOME $HOST ${config}
 fi
 
 if [ "$build_eclipse_project" = true ]; then
-    ./bin/buildit -j $JAVA_HOME --eclipse $HOST
+    ant -Dhost.name=x86_64-linux -Dconfig.name=production eclipse-project
 fi
 
 if [ "$build_harness" = true ]; then

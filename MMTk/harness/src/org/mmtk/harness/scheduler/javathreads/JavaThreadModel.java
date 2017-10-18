@@ -107,8 +107,33 @@ public final class JavaThreadModel extends ThreadModel {
 
   @Override
   public Mutator currentMutator() {
-    assert Thread.currentThread() instanceof MutatorThread  : "Current thread is not a Mutator";
-    return ((MutatorThread)Thread.currentThread()).env;
+//    assert Thread.currentThread() instanceof MutatorThread  : "Current thread is not a Mutator";
+//    return ((MutatorThread)Thread.currentThread()).env;
+
+    //MYNOTE:
+    Thread cur = Thread.currentThread();
+    if(cur instanceof MutatorThread) { //shortcut
+      return ((MutatorThread)cur).env;
+    }
+
+    // https://stackoverflow.com/questions/1323408/get-a-list-of-all-threads-currently-running-in-java
+    ThreadGroup root = Thread.currentThread().getThreadGroup();
+    while(root.getParent() != null) root = root.getParent(); // get root threadgroup
+
+    Thread[] threads = new Thread[2*root.activeCount()];
+    while(root.enumerate(threads,true) == threads.length){ // make sure threads is large enough
+      threads = new Thread[threads.length*2];
+    }
+
+    for(Thread t : threads){
+      if(t instanceof MutatorThread) {
+        if(t.isAlive()) // getting stale copy?
+          return ((MutatorThread)t).env;
+      }
+    }
+    assert false : "No mutator currently running";
+    System.out.println("This should never happen (hopefully)!");
+    return null;
   }
 
   /**

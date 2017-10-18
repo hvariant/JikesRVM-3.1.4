@@ -26,14 +26,14 @@ import org.vmmagic.unboxed.ObjectReference;
  * closure over the heap graph.
  */
 @Uninterruptible
-public final class RCImmixRootSetTraceLocal extends TraceLocal {
+public final class RCImmixConcurrentRootSetTraceLocal extends TraceLocal {
 
   private final AddressDeque rootPointerBuffer;
 
   /**
    * Constructor
    */
-  public RCImmixRootSetTraceLocal(Trace trace, AddressDeque rootPointerBuffer) {
+  public RCImmixConcurrentRootSetTraceLocal(Trace trace, AddressDeque rootPointerBuffer) {
     super(trace);
     this.rootPointerBuffer = rootPointerBuffer;
   }
@@ -51,7 +51,7 @@ public final class RCImmixRootSetTraceLocal extends TraceLocal {
    */
   @Override
   public boolean isLive(ObjectReference object) {
-    return RCImmix.isRCObject(object) && RCImmixObjectHeader.isLiveRC(object) || super.isLive(object);
+    return RCImmixConcurrent.isRCObject(object) && RCImmixObjectHeader.isLiveRC(object) || super.isLive(object);
   }
 
   /**

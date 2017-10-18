@@ -271,7 +271,9 @@ public final class RCImmixSpace extends Space {
     if (!rtn.isZero()) {
       RCImmixBlock.setBlockAsInUse(rtn);
       RCImmixChunk.updateHighWater(rtn);
-      if (VM.VERIFY_ASSERTIONS && Options.verbose.getValue() >= 9) {
+      //MYNOTE:
+//      if (VM.VERIFY_ASSERTIONS && Options.verbose.getValue() >= 9) {
+      if (VM.VERIFY_ASSERTIONS && Options.verbose.getValue() > 1) {
         Log.write("gs["); Log.write(rtn); Log.write(" -> "); Log.write(rtn.plus(BYTES_IN_BLOCK-1)); Log.write(" copy: "); Log.write(copy); Log.writeln("]");
       }
     }
@@ -338,6 +340,16 @@ public final class RCImmixSpace extends Space {
     }
     if (VM.VERIFY_ASSERTIONS) VM.assertions._assert(RCImmixBlock.isAligned(block));
     RCImmixBlock.setBlockAsUnallocated(block);
+
+    //MYNOTE:
+    if(Options.verbose.getValue() > 1) {
+      Log.write("released block:");
+      Log.writeln(block);
+    }
+//    for (StackTraceElement ste : Thread.currentThread().getStackTrace()) {
+//      Log.writeln(ste.toString());
+//    }
+
     ((FreeListPageResource) pr).releasePages(block);
   }
 

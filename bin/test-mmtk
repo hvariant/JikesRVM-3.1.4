@@ -17,8 +17,11 @@ TEST_DIR=MMTk/harness/test-scripts
 JARFILE=dist/mmtk-harness.jar
 
 #plans="CopyMS GenCopy GenImmix GenMS Immix MC MS Poisoned PrimitiveWB RC GenRC SS StickyImmix StickyMS"
-plans="GenImmix"
+#plans="RCImmix"
+plans="RCImmixConcurrent"
+#plans="ConcMS"
 
+opts="initHeap=10M"
 #opts="$opts gcEvery=SAFEPOINT"
 
 jvm_opts="-ea"
