@@ -62,7 +62,7 @@ public class RCImmixConcurrentCollector extends SimpleCollector {
   private final RCImmixConcurrentModifiedProcessor modProcessor;
 
   //MYNOTE:
-  private static volatile boolean performCycleCollection;
+  private static volatile boolean performCycleCollection = false;
 
   /**
    * Constructor.

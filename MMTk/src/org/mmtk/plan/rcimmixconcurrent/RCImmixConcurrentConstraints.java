@@ -44,5 +44,5 @@ public class RCImmixConcurrentConstraints extends StopTheWorldConstraints {
   @Override
   public boolean needsConcurrentWorkers(){ return true; }
   @Override
-  public int maxNumGCThreads(){ return 1; }
+  public int maxNumGCThreads(){ return 2; }
 }

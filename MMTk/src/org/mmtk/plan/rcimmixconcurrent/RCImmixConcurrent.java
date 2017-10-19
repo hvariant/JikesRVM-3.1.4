@@ -52,6 +52,7 @@ public class RCImmixConcurrent extends StopTheWorld {
 
   /** Is cycle collection enabled? */
   public static final boolean CC_ENABLED           = true;
+//  public static final boolean CC_ENABLED           = false;
   /** Force full cycle collection at each GC? */
   public static boolean CC_FORCE_FULL        = false;
   /** Use backup tracing for cycle collection (currently the only option) */
@@ -245,6 +246,11 @@ public class RCImmixConcurrent extends StopTheWorld {
       }
       rcSpace.maxCleanPagesForCopy = getCopyReserve();
       rcSpace.exhaustedCopySpace = false;
+
+      if(Options.verbose.getValue() > 0){
+        Log.write("[STW]");
+      }
+
       return;
     }
 

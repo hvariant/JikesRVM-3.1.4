@@ -48,10 +48,12 @@ public class RCImmix extends StopTheWorld {
 
   /** Is cycle collection enabled? */
   public static final boolean CC_ENABLED           = true;
+//  public static final boolean CC_ENABLED           = false;
   /** Force full cycle collection at each GC? */
   public static boolean CC_FORCE_FULL        = false;
   /** Use backup tracing for cycle collection (currently the only option) */
   public static final boolean CC_BACKUP_TRACE      = true;
+//  public static final boolean CC_BACKUP_TRACE      = false;
   public static final boolean RC_SURVIVOR_COPY = true;
 
   public static boolean performCycleCollection;
