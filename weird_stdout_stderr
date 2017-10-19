@@ -1,0 +1,199 @@
+Setting default thread count for MMTk to minimum of default thread count 8 and maximal thread count 2147483647 supported by current GC plan.
+New default thread count value is 8
+Setting actual thread count for MMTk to minimum of desired thread count 8 and maximal thread count 2147483647 supported by current GC plan.
+New actual thread count is 8
+[currentDecPool=0] [GC 1 Start 0.00 s   2960KB [MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[COL] using decBuffer 0
+[COL] using decBuffer 0
+[COL] using decBuffer 0
+[COL] using decBuffer 0
+[COL] using decBuffer 0
+[COL] using decBuffer 0
+[COL] using decBuffer 0
+[COL] using decBuffer 0
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+-> 3080KB   8.33 ms]
+[GC 2 Start 0.01 s   3080KB -> 3080KB   0.03 ms]
+[CONC(15)] In CONCURRENT doing DecBuf processDecBuf using pool=1 with enqueued page:0 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+[CONC(14)] In CONCURRENT doing DecBuf processDecBuf using pool=1 with enqueued page:0 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+[CONC(8)] In CONCURRENT doing DecBuf processDecBuf using pool=1 with enqueued page:0 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+
+
+[CONC(11)] In CONCURRENT doing DecBuf processDecBuf using pool=1 with enqueued page:0 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+[CONC(14)] trying to terminate
+
+
+[CONC(11)] trying to terminate
+[CONC(15)] trying to terminate
+[CONC(13)] In CONCURRENT doing DecBuf processDecBuf using pool=1 with enqueued page:0 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+[CONC(8)] trying to terminate
+
+[CONC(10)] In CONCURRENT doing DecBuf processDecBuf using pool=1 with enqueued page:0 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+[CONC(12)] In CONCURRENT doing DecBuf processDecBuf using pool=1 with enqueued page:0 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+
+[CONC(9)] In CONCURRENT doing DecBuf processDecBuf using pool=1 with enqueued page:0 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+
+
+[CONC(12)] trying to terminate
+[CONC(10)] trying to terminate
+[CONC(9)] trying to terminate
+[CONC(13)] trying to terminate
+[CONC(14)] terminating
+[CONC(14)] decBuffer1 should be empty
+[currentDecPool=1] [GC 3 Start 0.05 s   20196KB [MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[COL] using decBuffer 1
+[COL] using decBuffer 1
+[COL] using decBuffer 1
+[COL] using decBuffer 1
+[COL] using decBuffer 1
+[COL] using decBuffer 1
+[COL] using decBuffer 1
+[COL] using decBuffer 1
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+-> 17080KB   16.30 ms]
+[GC 4 Start 0.07 s   17080KB -> 17080KB   0.04 ms]
+[CONC(14)] In CONCURRENT doing DecBuf processDecBuf using pool=0 with enqueued page:2 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+[CONC(12)] In CONCURRENT doing DecBuf processDecBuf using pool=0 with enqueued page:2 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+
+[CONC(8)] In CONCURRENT doing DecBuf processDecBuf using pool=0 with enqueued page:2 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+
+[CONC(10)] In CONCURRENT doing DecBuf processDecBuf using pool=0 with enqueued page:2 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+
+[CONC(14)] trying to terminate
+[CONC(9)] In CONCURRENT doing DecBuf processDecBuf using pool=0 with enqueued page:2 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+[CONC(12)] trying to terminate
+
+[CONC(8)] trying to terminate
+[CONC(9)] trying to terminate
+[CONC(13)] In CONCURRENT doing DecBuf processDecBuf using pool=0 with enqueued page:0 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+
+[CONC(15)] In CONCURRENT doing DecBuf processDecBuf using pool=0 with enqueued page:0 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+[CONC(11)] In CONCURRENT doing DecBuf processDecBuf using pool=0 with enqueued page:0 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+[CONC(10)] trying to terminate
+
+
+
+[CONC(11)] trying to terminate
+[CONC(13)] trying to terminate
+[CONC(15)] trying to terminate
+[CONC(14)] terminating
+[CONC(14)] decBuffer0 should be empty
+vm: error flushing stdout, stderr
+We got an uncaught exception while (recursively) handling 1 uncaught exception.
+Exception in thread "MainThread": -- Stack --
+(0x69d06b14 21381)   at [0x69d06b14, 0x64b13efa] Lorg/jikesrvm/runtime/Statics; findObjectLiteral(Ljava/lang/Object;)I at line 284 at bytecode index 10 at machine code offset 0x000000b2
+(0x69d06b54 21380)   at [0x69d06b54, 0x64d8a3cd] Lorg/jikesrvm/runtime/Statics; findOrCreateObjectLiteral(Ljava/lang/Object;)I at line 264 at bytecode index 1 at machine code offset 0x0000004a
+(0x69d06bc4 10046)   at [0x69d06bc4, 0x64b3f847] Lorg/jikesrvm/jni/ia32/JNICompiler; compile(Lorg/jikesrvm/classloader/NativeMethod;)Lorg/jikesrvm/compilers/common/CompiledMethod; at line 386 at bytecode index 717 at machine code offset 0x00000fa5
+(0x69d06c34 20100)   at [0x69d06c34, 0x6405f7fb] Lorg/jikesrvm/compilers/common/RuntimeCompiler; compile(Lorg/jikesrvm/classloader/NativeMethod;)Lorg/jikesrvm/compilers/common/CompiledMethod; at line 773 at bytecode index 20 at machine code offset 0x000000c3
+(0x69d06c5c 17530)   at [0x69d06c5c, 0x64014b64] Lorg/jikesrvm/classloader/NativeMethod; genCode()Lorg/jikesrvm/compilers/common/CompiledMethod; at line 88 at bytecode index 52 at machine code offset 0x00000413
+(0x69d06ca8 1130)   at [0x69d06ca8, 0x64e847f4] Lorg/jikesrvm/classloader/RVMMethod; compile()V at line 636 at bytecode index 58 at machine code offset 0x00000208
+(0x69d06cd4 5146)   at [0x69d06cd4, 0x64f78d26] Lorg/jikesrvm/runtime/DynamicLinker$DL_Helper; compileMethod(Lorg/jikesrvm/runtime/DynamicLink;Lorg/jikesrvm/classloader/RVMMethod;)V at line 161 at bytecode index 13 at machine code offset 0x0000006c
+(0x69d06d24 582)   at [0x69d06d24, 0x6405fb54] Lorg/jikesrvm/runtime/DynamicLinker; lazyMethodInvoker()V at line 47 at bytecode index 11 at machine code offset 0x0000007e
+(0x69d06d4c 19720)   at [0x69d06d4c, 0x6406a9d0] Lgnu/java/nio/VMChannel; write(Ljava/nio/ByteBuffer;)I at line 410 at bytecode index 40 at machine code offset 0x00000084
+(0x69d06d98 17295)   at [0x69d06d98, 0x6439db40] Lgnu/java/nio/FileChannelImpl; write(Ljava/nio/ByteBuffer;)I at line 261 at bytecode index 5 at machine code offset 0x000001b4
+   at [0x69d06d98, 0x6439db40] Ljava/io/FileOutputStream; write([BII)V at line 283 at bytecode index 34 at machine code offset 0x000001b4
+(0x69d06dc8 19356)   at [0x69d06dc8, 0x6439ddf5] Ljava/io/BufferedOutputStream; flush()V at line 109 at bytecode index 21 at machine code offset 0x000000ac
+(0x69d06e04 19355)   at [0x69d06e04, 0x6439d607] Ljava/io/BufferedOutputStream; write([BII)V at line 186 at bytecode index 42 at machine code offset 0x000001b5
+(0x69d06e50 19986)   at [0x69d06e50, 0x6439cb24] Ljava/io/PrintStream; writeChars(Ljava/lang/String;II)V at line 355 at bytecode index 27 at machine code offset 0x000000ff
+   at [0x69d06e50, 0x6439cb24] Ljava/io/PrintStream; print(Ljava/lang/String;Z)V at line 307 at bytecode index 7 at machine code offset 0x000000ff
+(0x69d06e74 19996)   at [0x69d06e74, 0x64845263] Ljava/io/PrintStream; print(Ljava/lang/String;)V at line 434 at bytecode index 12 at machine code offset 0x00000058
+(0x69d06e98 173)   at [0x69d06e98, 0x648452e4] Ljava/lang/Throwable; printStackTrace(Ljava/io/PrintStream;)V at line 365 at bytecode index 5 at machine code offset 0x00000053
+(0x69d06eb8 172)   at [0x69d06eb8, 0x648ad8c8] Ljava/lang/Throwable; printStackTrace()V at line 354 at bytecode index 4 at machine code offset 0x00000040
+(0x69d06ee4 21815)   at [0x69d06ee4, 0x64f7ff8c] Lorg/jikesrvm/scheduler/RVMThread; handleUncaughtException(Ljava/lang/Throwable;)V at line 5041 at bytecode index 76 at machine code offset 0x00000120
+(0x69d06f30 13804)   at [0x69d06f30, 0x64f81a42] Lorg/jikesrvm/runtime/RuntimeEntrypoints; handleUncaughtException(Ljava/lang/Throwable;)V at line 1091 at bytecode index 4 at machine code offset 0x000001e8
+   at [0x69d06f30, 0x64f81a42] Lorg/jikesrvm/runtime/RuntimeEntrypoints; deliverException(Ljava/lang/Throwable;Lorg/jikesrvm/architecture/AbstractRegisters;)V at line 1086 at bytecode index 203 at machine code offset 0x000001e8
+(0x69d06f5c 13791)   at [0x69d06f5c, 0x64d816d1] Lorg/jikesrvm/runtime/RuntimeEntrypoints; athrow(Ljava/lang/Throwable;)V at line 672 at bytecode index 23 at machine code offset 0x000000ee
+(0x69d06f80 10086)   at [0x69d06f80, 0x648d1af2] Ljava/security/AccessController; doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; at line 100 at bytecode index 21 at machine code offset 0x000000bd
+(0x69d06fc0 21763)   at [0x69d06fc0, 0x64f726e2] Lorg/jikesrvm/scheduler/RVMThread; callSystemExit(I)V at line 2961 at bytecode index 9 at machine code offset 0x000003fe
+   at [0x69d06fc0, 0x64f726e2] Lorg/jikesrvm/scheduler/RVMThread; terminate()V at line 2912 at bytecode index 170 at machine code offset 0x000003fe
+(0x69d06ff8 21850)   at [0x69d06ff8, 0xf77813d6] Lorg/jikesrvm/scheduler/RVMThread; startoff()V at line 2795 at bytecode index 82 at machine code offset 0x00000202
+Thread 27: VM.sysExit(): We're in a (likely) recursive call to VM.sysExit(), 2 deep
+

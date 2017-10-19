@@ -248,7 +248,8 @@ public class RCImmixObjectHeader {
   @Inline
   public static void writeMarkState(ObjectReference object, boolean straddling) {
     byte oldValue = VM.objectModel.readAvailableByte(object);
-    if (VM.VERIFY_ASSERTIONS) VM.assertions._assert(!isMarked(oldValue));
+    //MYNOTE: does it matter?
+//    if (VM.VERIFY_ASSERTIONS) VM.assertions._assert(!isMarked(oldValue));
     byte newValue = (byte) (oldValue & ~ForwardingWord.FORWARDING_MASK);
     newValue = (byte) (newValue | ForwardingWord.CLEAR_FORWARDING);
     newValue = (byte) (newValue ^ MARK_BIT_MASK.toInt());
@@ -496,7 +497,7 @@ public class RCImmixObjectHeader {
     }
 
     //MYNOTE:
-    if(Options.verbose.getValue() > 1) {
+    if(Options.verbose.getValue() > 3) {
       Log.write("decLineRC address:");
       Log.writeln(address);
     }

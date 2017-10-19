@@ -1,0 +1,1482 @@
+Key: (I)mmortal (N)onmoving (D)iscontiguous (E)xtent (F)raction
+     HEAP_START 0x60000000
+AVAILABLE_START 0x68000000
+       boot IN  0x60000000->0x67ffffff E 0x08000000
+   immortal IND []
+       meta  ND [0x68400000->0x687fffff]
+        los  ND []
+     sanity  ND []
+ non-moving  ND [0x68000000->0x683fffff]
+    sm-code  ND []
+    lg-code  ND []
+         rc  ND [0x68800000->0x68bfffff]
+      rclos  ND []
+  AVAILABLE_END 0xb0000000
+       HEAP_END 0xb0000000
+================ MMTk Configuration ================
+plan = org.mmtk.plan.rcimmixconcurrent.RCImmixConcurrent
+HEADER_MARK_BITS = true
+ZERO_PAGES_ON_RELEASE = false
+PINNING_BIT = false
+====================================================
+gs[0x68810000 -> 0x68817fff copy: false]
+gs[0x68818000 -> 0x6881ffff copy: false]
+gs[0x68820000 -> 0x68827fff copy: false]
+Setting default thread count for MMTk to minimum of default thread count 8 and maximal thread count 1 supported by current GC plan.
+New default thread count value is 1
+Setting actual thread count for MMTk to minimum of desired thread count 1 and maximal thread count 1 supported by current GC plan.
+New actual thread count is 1
+
+
+
+[currentDecPool=0] Collection 1:        reserved = 1 MB (448 pgs)      used = 1 MB (367 pgs)      total = 20 MB (5120 pgs)
+  Before Collection: used = 1.56 Mb = boot 0.00 Mb + immortal 0.00 Mb + meta 0.01 Mb + los 0.00 Mb + sanity 0.00 Mb + non-moving 0.15 Mb + sm-code 0.13 Mb + lg-code 0.00 Mb + rc 0.21 Mb + rclos 1.04 Mb
+                     used = 401 pgs = boot 0 pgs + immortal 0 pgs + meta 4 pgs + los 0 pgs + sanity 0 pgs + non-moving 40 pgs + sm-code 34 pgs + lg-code 0 pgs + rc 56 pgs + rclos 267 pgs
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[COL] using decBuffer 0
+Thread 4:     Processing GC in parallel
+gs[0x68828000 -> 0x6882ffff copy: false]
+released block:0x68808000
+released block:0x68810000
+released block:0x68818000
+released block:0x68820000
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+   After Collection: used = 1.48 Mb = boot 0.00 Mb + immortal 0.00 Mb + meta 0.02 Mb + los 0.00 Mb + sanity 0.00 Mb + non-moving 0.15 Mb + sm-code 0.13 Mb + lg-code 0.00 Mb + rc 0.12 Mb + rclos 1.04 Mb
+                     used = 379 pgs = boot 0 pgs + immortal 0 pgs + meta 6 pgs + los 0 pgs + sanity 0 pgs + non-moving 40 pgs + sm-code 34 pgs + lg-code 0 pgs + rc 32 pgs + rclos 267 pgs
+                     reserved = 1 MB (345 pgs)      used = 1 MB (345 pgs)      total = 20 MB (5120 pgs)
+    Collection time: 6.55 ms
+
+
+Collection 2:        reserved = 1 MB (345 pgs)      used = 1 MB (345 pgs)      total = 20 MB (5120 pgs)
+  Before Collection: used = 1.48 Mb = boot 0.00 Mb + immortal 0.00 Mb + meta 0.02 Mb + los 0.00 Mb + sanity 0.00 Mb + non-moving 0.15 Mb + sm-code 0.13 Mb + lg-code 0.00 Mb + rc 0.12 Mb + rclos 1.04 Mb
+                     used = 379 pgs = boot 0 pgs + immortal 0 pgs + meta 6 pgs + los 0 pgs + sanity 0 pgs + non-moving 40 pgs + sm-code 34 pgs + lg-code 0 pgs + rc 32 pgs + rclos 267 pgs
+   After Collection: used = 1.48 Mb = boot 0.00 Mb + immortal 0.00 Mb + meta 0.02 Mb + los 0.00 Mb + sanity 0.00 Mb + non-moving 0.15 Mb + sm-code 0.13 Mb + lg-code 0.00 Mb + rc 0.12 Mb + rclos 1.04 Mb
+                     used = 379 pgs = boot 0 pgs + immortal 0 pgs + meta 6 pgs + los 0 pgs + sanity 0 pgs + non-moving 40 pgs + sm-code 34 pgs + lg-code 0 pgs + rc 32 pgs + rclos 267 pgs
+                     reserved = 1 MB (345 pgs)      used = 1 MB (345 pgs)      total = 20 MB (5120 pgs)
+    Collection time: 0.52 ms
+[CONC(1)] In CONCURRENT doing DecBuf processDecBuf using pool=0 with enqueued page:1 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+[CONC(1)] trying to terminate
+[CONC(1)] terminating
+gs[0x68808000 -> 0x6880ffff copy: false]
+[CONC(1)] decBuffer0 should be empty
+gs[0x68810000 -> 0x68817fff copy: false]
+gs[0x68818000 -> 0x6881ffff copy: false]
+gs[0x68820000 -> 0x68827fff copy: false]
+gs[0x68830000 -> 0x68837fff copy: false]
+gs[0x68838000 -> 0x6883ffff copy: false]
+gs[0x68840000 -> 0x68847fff copy: false]
+gs[0x68848000 -> 0x6884ffff copy: false]
+gs[0x68850000 -> 0x68857fff copy: false]
+gs[0x68858000 -> 0x6885ffff copy: false]
+gs[0x68860000 -> 0x68867fff copy: false]
+gs[0x68868000 -> 0x6886ffff copy: false]
+gs[0x68870000 -> 0x68877fff copy: false]
+gs[0x68878000 -> 0x6887ffff copy: false]
+gs[0x68880000 -> 0x68887fff copy: false]
+gs[0x68888000 -> 0x6888ffff copy: false]
+gs[0x68890000 -> 0x68897fff copy: false]
+gs[0x68898000 -> 0x6889ffff copy: false]
+gs[0x688a0000 -> 0x688a7fff copy: false]
+gs[0x688a8000 -> 0x688affff copy: false]
+gs[0x688b0000 -> 0x688b7fff copy: false]
+gs[0x688b8000 -> 0x688bffff copy: false]
+gs[0x688c0000 -> 0x688c7fff copy: false]
+gs[0x688c8000 -> 0x688cffff copy: false]
+gs[0x688d0000 -> 0x688d7fff copy: false]
+gs[0x688d8000 -> 0x688dffff copy: false]
+gs[0x688e0000 -> 0x688e7fff copy: false]
+gs[0x688e8000 -> 0x688effff copy: false]
+gs[0x688f0000 -> 0x688f7fff copy: false]
+gs[0x688f8000 -> 0x688fffff copy: false]
+gs[0x68900000 -> 0x68907fff copy: false]
+gs[0x68908000 -> 0x6890ffff copy: false]
+gs[0x68910000 -> 0x68917fff copy: false]
+gs[0x68918000 -> 0x6891ffff copy: false]
+gs[0x68920000 -> 0x68927fff copy: false]
+gs[0x68928000 -> 0x6892ffff copy: false]
+gs[0x68930000 -> 0x68937fff copy: false]
+gs[0x68938000 -> 0x6893ffff copy: false]
+gs[0x68940000 -> 0x68947fff copy: false]
+gs[0x68948000 -> 0x6894ffff copy: false]
+gs[0x68950000 -> 0x68957fff copy: false]
+gs[0x68958000 -> 0x6895ffff copy: false]
+gs[0x68960000 -> 0x68967fff copy: false]
+gs[0x68968000 -> 0x6896ffff copy: false]
+gs[0x68970000 -> 0x68977fff copy: false]
+gs[0x68978000 -> 0x6897ffff copy: false]
+gs[0x68980000 -> 0x68987fff copy: false]
+gs[0x68988000 -> 0x6898ffff copy: false]
+gs[0x68990000 -> 0x68997fff copy: false]
+gs[0x68998000 -> 0x6899ffff copy: false]
+gs[0x689a0000 -> 0x689a7fff copy: false]
+gs[0x689a8000 -> 0x689affff copy: false]
+gs[0x689b0000 -> 0x689b7fff copy: false]
+gs[0x689b8000 -> 0x689bffff copy: false]
+gs[0x689c0000 -> 0x689c7fff copy: false]
+gs[0x689c8000 -> 0x689cffff copy: false]
+gs[0x689d0000 -> 0x689d7fff copy: false]
+gs[0x689d8000 -> 0x689dffff copy: false]
+gs[0x689e0000 -> 0x689e7fff copy: false]
+gs[0x689e8000 -> 0x689effff copy: false]
+gs[0x689f0000 -> 0x689f7fff copy: false]
+gs[0x689f8000 -> 0x689fffff copy: false]
+gs[0x68a00000 -> 0x68a07fff copy: false]
+gs[0x68a08000 -> 0x68a0ffff copy: false]
+gs[0x68a10000 -> 0x68a17fff copy: false]
+gs[0x68a18000 -> 0x68a1ffff copy: false]
+gs[0x68a20000 -> 0x68a27fff copy: false]
+gs[0x68a28000 -> 0x68a2ffff copy: false]
+gs[0x68a30000 -> 0x68a37fff copy: false]
+gs[0x68a38000 -> 0x68a3ffff copy: false]
+gs[0x68a40000 -> 0x68a47fff copy: false]
+gs[0x68a48000 -> 0x68a4ffff copy: false]
+gs[0x68a50000 -> 0x68a57fff copy: false]
+gs[0x68a58000 -> 0x68a5ffff copy: false]
+gs[0x68a60000 -> 0x68a67fff copy: false]
+gs[0x68a68000 -> 0x68a6ffff copy: false]
+gs[0x68a70000 -> 0x68a77fff copy: false]
+gs[0x68a78000 -> 0x68a7ffff copy: false]
+gs[0x68a80000 -> 0x68a87fff copy: false]
+gs[0x68a88000 -> 0x68a8ffff copy: false]
+gs[0x68a90000 -> 0x68a97fff copy: false]
+gs[0x68a98000 -> 0x68a9ffff copy: false]
+gs[0x68aa0000 -> 0x68aa7fff copy: false]
+gs[0x68aa8000 -> 0x68aaffff copy: false]
+gs[0x68ab0000 -> 0x68ab7fff copy: false]
+gs[0x68ab8000 -> 0x68abffff copy: false]
+gs[0x68ac0000 -> 0x68ac7fff copy: false]
+gs[0x68ac8000 -> 0x68acffff copy: false]
+gs[0x68ad0000 -> 0x68ad7fff copy: false]
+gs[0x68ad8000 -> 0x68adffff copy: false]
+gs[0x68ae0000 -> 0x68ae7fff copy: false]
+gs[0x68ae8000 -> 0x68aeffff copy: false]
+gs[0x68af0000 -> 0x68af7fff copy: false]
+gs[0x68af8000 -> 0x68afffff copy: false]
+gs[0x68b00000 -> 0x68b07fff copy: false]
+gs[0x68b08000 -> 0x68b0ffff copy: false]
+gs[0x68b10000 -> 0x68b17fff copy: false]
+gs[0x68b18000 -> 0x68b1ffff copy: false]
+gs[0x68b20000 -> 0x68b27fff copy: false]
+gs[0x68b28000 -> 0x68b2ffff copy: false]
+gs[0x68b30000 -> 0x68b37fff copy: false]
+gs[0x68b38000 -> 0x68b3ffff copy: false]
+gs[0x68b40000 -> 0x68b47fff copy: false]
+gs[0x68b48000 -> 0x68b4ffff copy: false]
+gs[0x68b50000 -> 0x68b57fff copy: false]
+gs[0x68b58000 -> 0x68b5ffff copy: false]
+gs[0x68b60000 -> 0x68b67fff copy: false]
+gs[0x68b68000 -> 0x68b6ffff copy: false]
+gs[0x68b70000 -> 0x68b77fff copy: false]
+gs[0x68b78000 -> 0x68b7ffff copy: false]
+gs[0x68b80000 -> 0x68b87fff copy: false]
+gs[0x68b88000 -> 0x68b8ffff copy: false]
+gs[0x68b90000 -> 0x68b97fff copy: false]
+gs[0x68b98000 -> 0x68b9ffff copy: false]
+gs[0x68ba0000 -> 0x68ba7fff copy: false]
+gs[0x68ba8000 -> 0x68baffff copy: false]
+gs[0x68bb0000 -> 0x68bb7fff copy: false]
+gs[0x68bb8000 -> 0x68bbffff copy: false]
+gs[0x68bc0000 -> 0x68bc7fff copy: false]
+gs[0x68bc8000 -> 0x68bcffff copy: false]
+gs[0x68bd0000 -> 0x68bd7fff copy: false]
+gs[0x68bd8000 -> 0x68bdffff copy: false]
+gs[0x68be0000 -> 0x68be7fff copy: false]
+gs[0x68be8000 -> 0x68beffff copy: false]
+gs[0x68bf0000 -> 0x68bf7fff copy: false]
+gs[0x68bf8000 -> 0x68bfffff copy: false]
+gs[0x69408000 -> 0x6940ffff copy: false]
+gs[0x69410000 -> 0x69417fff copy: false]
+gs[0x69418000 -> 0x6941ffff copy: false]
+gs[0x69420000 -> 0x69427fff copy: false]
+gs[0x69428000 -> 0x6942ffff copy: false]
+gs[0x69430000 -> 0x69437fff copy: false]
+gs[0x69438000 -> 0x6943ffff copy: false]
+gs[0x69440000 -> 0x69447fff copy: false]
+gs[0x69448000 -> 0x6944ffff copy: false]
+gs[0x69450000 -> 0x69457fff copy: false]
+gs[0x69458000 -> 0x6945ffff copy: false]
+gs[0x69460000 -> 0x69467fff copy: false]
+gs[0x69468000 -> 0x6946ffff copy: false]
+gs[0x69470000 -> 0x69477fff copy: false]
+gs[0x69478000 -> 0x6947ffff copy: false]
+gs[0x69480000 -> 0x69487fff copy: false]
+gs[0x69488000 -> 0x6948ffff copy: false]
+gs[0x69490000 -> 0x69497fff copy: false]
+gs[0x69498000 -> 0x6949ffff copy: false]
+gs[0x694a0000 -> 0x694a7fff copy: false]
+gs[0x694a8000 -> 0x694affff copy: false]
+gs[0x694b0000 -> 0x694b7fff copy: false]
+gs[0x694b8000 -> 0x694bffff copy: false]
+gs[0x694c0000 -> 0x694c7fff copy: false]
+gs[0x694c8000 -> 0x694cffff copy: false]
+gs[0x694d0000 -> 0x694d7fff copy: false]
+gs[0x694d8000 -> 0x694dffff copy: false]
+gs[0x694e0000 -> 0x694e7fff copy: false]
+gs[0x694e8000 -> 0x694effff copy: false]
+gs[0x694f0000 -> 0x694f7fff copy: false]
+gs[0x694f8000 -> 0x694fffff copy: false]
+gs[0x69500000 -> 0x69507fff copy: false]
+gs[0x69508000 -> 0x6950ffff copy: false]
+gs[0x69510000 -> 0x69517fff copy: false]
+gs[0x69518000 -> 0x6951ffff copy: false]
+gs[0x69520000 -> 0x69527fff copy: false]
+gs[0x69528000 -> 0x6952ffff copy: false]
+gs[0x69530000 -> 0x69537fff copy: false]
+gs[0x69538000 -> 0x6953ffff copy: false]
+gs[0x69540000 -> 0x69547fff copy: false]
+gs[0x69548000 -> 0x6954ffff copy: false]
+gs[0x69550000 -> 0x69557fff copy: false]
+gs[0x69558000 -> 0x6955ffff copy: false]
+gs[0x69560000 -> 0x69567fff copy: false]
+gs[0x69568000 -> 0x6956ffff copy: false]
+gs[0x69570000 -> 0x69577fff copy: false]
+gs[0x69578000 -> 0x6957ffff copy: false]
+gs[0x69580000 -> 0x69587fff copy: false]
+gs[0x69588000 -> 0x6958ffff copy: false]
+gs[0x69590000 -> 0x69597fff copy: false]
+gs[0x69598000 -> 0x6959ffff copy: false]
+gs[0x695a0000 -> 0x695a7fff copy: false]
+gs[0x695a8000 -> 0x695affff copy: false]
+gs[0x695b0000 -> 0x695b7fff copy: false]
+gs[0x695b8000 -> 0x695bffff copy: false]
+gs[0x695c0000 -> 0x695c7fff copy: false]
+gs[0x695c8000 -> 0x695cffff copy: false]
+gs[0x695d0000 -> 0x695d7fff copy: false]
+gs[0x695d8000 -> 0x695dffff copy: false]
+gs[0x695e0000 -> 0x695e7fff copy: false]
+gs[0x695e8000 -> 0x695effff copy: false]
+gs[0x695f0000 -> 0x695f7fff copy: false]
+gs[0x695f8000 -> 0x695fffff copy: false]
+gs[0x69600000 -> 0x69607fff copy: false]
+gs[0x69608000 -> 0x6960ffff copy: false]
+gs[0x69610000 -> 0x69617fff copy: false]
+gs[0x69618000 -> 0x6961ffff copy: false]
+gs[0x69620000 -> 0x69627fff copy: false]
+gs[0x69628000 -> 0x6962ffff copy: false]
+gs[0x69630000 -> 0x69637fff copy: false]
+gs[0x69638000 -> 0x6963ffff copy: false]
+gs[0x69640000 -> 0x69647fff copy: false]
+gs[0x69648000 -> 0x6964ffff copy: false]
+gs[0x69650000 -> 0x69657fff copy: false]
+gs[0x69658000 -> 0x6965ffff copy: false]
+gs[0x69660000 -> 0x69667fff copy: false]
+gs[0x69668000 -> 0x6966ffff copy: false]
+gs[0x69670000 -> 0x69677fff copy: false]
+gs[0x69678000 -> 0x6967ffff copy: false]
+gs[0x69680000 -> 0x69687fff copy: false]
+gs[0x69688000 -> 0x6968ffff copy: false]
+gs[0x69690000 -> 0x69697fff copy: false]
+gs[0x69698000 -> 0x6969ffff copy: false]
+gs[0x696a0000 -> 0x696a7fff copy: false]
+gs[0x696a8000 -> 0x696affff copy: false]
+gs[0x696b0000 -> 0x696b7fff copy: false]
+gs[0x696b8000 -> 0x696bffff copy: false]
+gs[0x696c0000 -> 0x696c7fff copy: false]
+gs[0x696c8000 -> 0x696cffff copy: false]
+gs[0x696d0000 -> 0x696d7fff copy: false]
+gs[0x696d8000 -> 0x696dffff copy: false]
+gs[0x696e0000 -> 0x696e7fff copy: false]
+gs[0x696e8000 -> 0x696effff copy: false]
+gs[0x696f0000 -> 0x696f7fff copy: false]
+gs[0x696f8000 -> 0x696fffff copy: false]
+gs[0x69700000 -> 0x69707fff copy: false]
+gs[0x69708000 -> 0x6970ffff copy: false]
+gs[0x69710000 -> 0x69717fff copy: false]
+gs[0x69718000 -> 0x6971ffff copy: false]
+gs[0x69720000 -> 0x69727fff copy: false]
+gs[0x69728000 -> 0x6972ffff copy: false]
+gs[0x69730000 -> 0x69737fff copy: false]
+gs[0x69738000 -> 0x6973ffff copy: false]
+gs[0x69740000 -> 0x69747fff copy: false]
+gs[0x69748000 -> 0x6974ffff copy: false]
+gs[0x69750000 -> 0x69757fff copy: false]
+gs[0x69758000 -> 0x6975ffff copy: false]
+gs[0x69760000 -> 0x69767fff copy: false]
+gs[0x69768000 -> 0x6976ffff copy: false]
+gs[0x69770000 -> 0x69777fff copy: false]
+gs[0x69778000 -> 0x6977ffff copy: false]
+gs[0x69780000 -> 0x69787fff copy: false]
+gs[0x69788000 -> 0x6978ffff copy: false]
+gs[0x69790000 -> 0x69797fff copy: false]
+gs[0x69798000 -> 0x6979ffff copy: false]
+gs[0x697a0000 -> 0x697a7fff copy: false]
+gs[0x697a8000 -> 0x697affff copy: false]
+gs[0x697b0000 -> 0x697b7fff copy: false]
+gs[0x697b8000 -> 0x697bffff copy: false]
+gs[0x697c0000 -> 0x697c7fff copy: false]
+gs[0x697c8000 -> 0x697cffff copy: false]
+gs[0x697d0000 -> 0x697d7fff copy: false]
+gs[0x697d8000 -> 0x697dffff copy: false]
+gs[0x697e0000 -> 0x697e7fff copy: false]
+gs[0x697e8000 -> 0x697effff copy: false]
+gs[0x697f0000 -> 0x697f7fff copy: false]
+gs[0x697f8000 -> 0x697fffff copy: false]
+gs[0x69808000 -> 0x6980ffff copy: false]
+gs[0x69810000 -> 0x69817fff copy: false]
+gs[0x69818000 -> 0x6981ffff copy: false]
+gs[0x69820000 -> 0x69827fff copy: false]
+gs[0x69828000 -> 0x6982ffff copy: false]
+gs[0x69830000 -> 0x69837fff copy: false]
+gs[0x69838000 -> 0x6983ffff copy: false]
+gs[0x69840000 -> 0x69847fff copy: false]
+gs[0x69848000 -> 0x6984ffff copy: false]
+gs[0x69850000 -> 0x69857fff copy: false]
+gs[0x69858000 -> 0x6985ffff copy: false]
+gs[0x69860000 -> 0x69867fff copy: false]
+gs[0x69868000 -> 0x6986ffff copy: false]
+gs[0x69870000 -> 0x69877fff copy: false]
+gs[0x69878000 -> 0x6987ffff copy: false]
+gs[0x69880000 -> 0x69887fff copy: false]
+gs[0x69888000 -> 0x6988ffff copy: false]
+gs[0x69890000 -> 0x69897fff copy: false]
+gs[0x69898000 -> 0x6989ffff copy: false]
+gs[0x698a0000 -> 0x698a7fff copy: false]
+gs[0x698a8000 -> 0x698affff copy: false]
+gs[0x698b0000 -> 0x698b7fff copy: false]
+gs[0x698b8000 -> 0x698bffff copy: false]
+gs[0x698c0000 -> 0x698c7fff copy: false]
+gs[0x698c8000 -> 0x698cffff copy: false]
+gs[0x698d0000 -> 0x698d7fff copy: false]
+gs[0x698d8000 -> 0x698dffff copy: false]
+gs[0x698e0000 -> 0x698e7fff copy: false]
+gs[0x698e8000 -> 0x698effff copy: false]
+gs[0x698f0000 -> 0x698f7fff copy: false]
+gs[0x698f8000 -> 0x698fffff copy: false]
+gs[0x69900000 -> 0x69907fff copy: false]
+gs[0x69908000 -> 0x6990ffff copy: false]
+gs[0x69910000 -> 0x69917fff copy: false]
+gs[0x69918000 -> 0x6991ffff copy: false]
+gs[0x69920000 -> 0x69927fff copy: false]
+gs[0x69928000 -> 0x6992ffff copy: false]
+gs[0x69930000 -> 0x69937fff copy: false]
+gs[0x69938000 -> 0x6993ffff copy: false]
+gs[0x69940000 -> 0x69947fff copy: false]
+gs[0x69948000 -> 0x6994ffff copy: false]
+gs[0x69950000 -> 0x69957fff copy: false]
+gs[0x69958000 -> 0x6995ffff copy: false]
+gs[0x69960000 -> 0x69967fff copy: false]
+gs[0x69968000 -> 0x6996ffff copy: false]
+gs[0x69970000 -> 0x69977fff copy: false]
+gs[0x69978000 -> 0x6997ffff copy: false]
+gs[0x69980000 -> 0x69987fff copy: false]
+gs[0x69988000 -> 0x6998ffff copy: false]
+gs[0x69990000 -> 0x69997fff copy: false]
+gs[0x69998000 -> 0x6999ffff copy: false]
+gs[0x699a0000 -> 0x699a7fff copy: false]
+gs[0x699a8000 -> 0x699affff copy: false]
+gs[0x699b0000 -> 0x699b7fff copy: false]
+gs[0x699b8000 -> 0x699bffff copy: false]
+gs[0x699c0000 -> 0x699c7fff copy: false]
+gs[0x699c8000 -> 0x699cffff copy: false]
+gs[0x699d0000 -> 0x699d7fff copy: false]
+gs[0x699d8000 -> 0x699dffff copy: false]
+gs[0x699e0000 -> 0x699e7fff copy: false]
+gs[0x699e8000 -> 0x699effff copy: false]
+gs[0x699f0000 -> 0x699f7fff copy: false]
+gs[0x699f8000 -> 0x699fffff copy: false]
+gs[0x69a00000 -> 0x69a07fff copy: false]
+gs[0x69a08000 -> 0x69a0ffff copy: false]
+gs[0x69a10000 -> 0x69a17fff copy: false]
+gs[0x69a18000 -> 0x69a1ffff copy: false]
+gs[0x69a20000 -> 0x69a27fff copy: false]
+gs[0x69a28000 -> 0x69a2ffff copy: false]
+gs[0x69a30000 -> 0x69a37fff copy: false]
+gs[0x69a38000 -> 0x69a3ffff copy: false]
+gs[0x69a40000 -> 0x69a47fff copy: false]
+gs[0x69a48000 -> 0x69a4ffff copy: false]
+gs[0x69a50000 -> 0x69a57fff copy: false]
+gs[0x69a58000 -> 0x69a5ffff copy: false]
+gs[0x69a60000 -> 0x69a67fff copy: false]
+gs[0x69a68000 -> 0x69a6ffff copy: false]
+gs[0x69a70000 -> 0x69a77fff copy: false]
+gs[0x69a78000 -> 0x69a7ffff copy: false]
+gs[0x69a80000 -> 0x69a87fff copy: false]
+gs[0x69a88000 -> 0x69a8ffff copy: false]
+gs[0x69a90000 -> 0x69a97fff copy: false]
+gs[0x69a98000 -> 0x69a9ffff copy: false]
+gs[0x69aa0000 -> 0x69aa7fff copy: false]
+gs[0x69aa8000 -> 0x69aaffff copy: false]
+gs[0x69ab0000 -> 0x69ab7fff copy: false]
+gs[0x69ab8000 -> 0x69abffff copy: false]
+gs[0x69ac0000 -> 0x69ac7fff copy: false]
+gs[0x69ac8000 -> 0x69acffff copy: false]
+gs[0x69ad0000 -> 0x69ad7fff copy: false]
+gs[0x69ad8000 -> 0x69adffff copy: false]
+gs[0x69ae0000 -> 0x69ae7fff copy: false]
+gs[0x69ae8000 -> 0x69aeffff copy: false]
+gs[0x69af0000 -> 0x69af7fff copy: false]
+gs[0x69af8000 -> 0x69afffff copy: false]
+gs[0x69b00000 -> 0x69b07fff copy: false]
+gs[0x69b08000 -> 0x69b0ffff copy: false]
+gs[0x69b10000 -> 0x69b17fff copy: false]
+gs[0x69b18000 -> 0x69b1ffff copy: false]
+gs[0x69b20000 -> 0x69b27fff copy: false]
+gs[0x69b28000 -> 0x69b2ffff copy: false]
+gs[0x69b30000 -> 0x69b37fff copy: false]
+gs[0x69b38000 -> 0x69b3ffff copy: false]
+gs[0x69b40000 -> 0x69b47fff copy: false]
+gs[0x69b48000 -> 0x69b4ffff copy: false]
+gs[0x69b50000 -> 0x69b57fff copy: false]
+gs[0x69b58000 -> 0x69b5ffff copy: false]
+gs[0x69b60000 -> 0x69b67fff copy: false]
+gs[0x69b68000 -> 0x69b6ffff copy: false]
+gs[0x69b70000 -> 0x69b77fff copy: false]
+gs[0x69b78000 -> 0x69b7ffff copy: false]
+gs[0x69b80000 -> 0x69b87fff copy: false]
+gs[0x69b88000 -> 0x69b8ffff copy: false]
+gs[0x69b90000 -> 0x69b97fff copy: false]
+gs[0x69b98000 -> 0x69b9ffff copy: false]
+gs[0x69ba0000 -> 0x69ba7fff copy: false]
+gs[0x69ba8000 -> 0x69baffff copy: false]
+gs[0x69bb0000 -> 0x69bb7fff copy: false]
+gs[0x69bb8000 -> 0x69bbffff copy: false]
+gs[0x69bc0000 -> 0x69bc7fff copy: false]
+gs[0x69bc8000 -> 0x69bcffff copy: false]
+gs[0x69bd0000 -> 0x69bd7fff copy: false]
+gs[0x69bd8000 -> 0x69bdffff copy: false]
+gs[0x69be0000 -> 0x69be7fff copy: false]
+gs[0x69be8000 -> 0x69beffff copy: false]
+gs[0x69bf0000 -> 0x69bf7fff copy: false]
+gs[0x69bf8000 -> 0x69bfffff copy: false]
+gs[0x69c08000 -> 0x69c0ffff copy: false]
+gs[0x69c10000 -> 0x69c17fff copy: false]
+gs[0x69c18000 -> 0x69c1ffff copy: false]
+gs[0x69c20000 -> 0x69c27fff copy: false]
+gs[0x69c28000 -> 0x69c2ffff copy: false]
+gs[0x69c30000 -> 0x69c37fff copy: false]
+gs[0x69c38000 -> 0x69c3ffff copy: false]
+gs[0x69c40000 -> 0x69c47fff copy: false]
+gs[0x69c48000 -> 0x69c4ffff copy: false]
+gs[0x69c50000 -> 0x69c57fff copy: false]
+gs[0x69c58000 -> 0x69c5ffff copy: false]
+gs[0x69c60000 -> 0x69c67fff copy: false]
+gs[0x69c68000 -> 0x69c6ffff copy: false]
+gs[0x69c70000 -> 0x69c77fff copy: false]
+gs[0x69c78000 -> 0x69c7ffff copy: false]
+gs[0x69c80000 -> 0x69c87fff copy: false]
+gs[0x69c88000 -> 0x69c8ffff copy: false]
+gs[0x69c90000 -> 0x69c97fff copy: false]
+gs[0x69c98000 -> 0x69c9ffff copy: false]
+gs[0x69ca0000 -> 0x69ca7fff copy: false]
+gs[0x69ca8000 -> 0x69caffff copy: false]
+gs[0x69cb0000 -> 0x69cb7fff copy: false]
+gs[0x69cb8000 -> 0x69cbffff copy: false]
+gs[0x69cc0000 -> 0x69cc7fff copy: false]
+gs[0x69cc8000 -> 0x69ccffff copy: false]
+gs[0x69cd0000 -> 0x69cd7fff copy: false]
+gs[0x69cd8000 -> 0x69cdffff copy: false]
+gs[0x69ce0000 -> 0x69ce7fff copy: false]
+gs[0x69ce8000 -> 0x69ceffff copy: false]
+gs[0x69cf0000 -> 0x69cf7fff copy: false]
+gs[0x69cf8000 -> 0x69cfffff copy: false]
+gs[0x69d00000 -> 0x69d07fff copy: false]
+gs[0x69d08000 -> 0x69d0ffff copy: false]
+gs[0x69d10000 -> 0x69d17fff copy: false]
+gs[0x69d18000 -> 0x69d1ffff copy: false]
+gs[0x69d20000 -> 0x69d27fff copy: false]
+gs[0x69d28000 -> 0x69d2ffff copy: false]
+gs[0x69d30000 -> 0x69d37fff copy: false]
+gs[0x69d38000 -> 0x69d3ffff copy: false]
+gs[0x69d40000 -> 0x69d47fff copy: false]
+gs[0x69d48000 -> 0x69d4ffff copy: false]
+gs[0x69d50000 -> 0x69d57fff copy: false]
+gs[0x69d58000 -> 0x69d5ffff copy: false]
+gs[0x69d60000 -> 0x69d67fff copy: false]
+gs[0x69d68000 -> 0x69d6ffff copy: false]
+gs[0x69d70000 -> 0x69d77fff copy: false]
+gs[0x69d78000 -> 0x69d7ffff copy: false]
+gs[0x69d80000 -> 0x69d87fff copy: false]
+gs[0x69d88000 -> 0x69d8ffff copy: false]
+gs[0x69d90000 -> 0x69d97fff copy: false]
+gs[0x69d98000 -> 0x69d9ffff copy: false]
+gs[0x69da0000 -> 0x69da7fff copy: false]
+gs[0x69da8000 -> 0x69daffff copy: false]
+gs[0x69db0000 -> 0x69db7fff copy: false]
+gs[0x69db8000 -> 0x69dbffff copy: false]
+gs[0x69dc0000 -> 0x69dc7fff copy: false]
+gs[0x69dc8000 -> 0x69dcffff copy: false]
+gs[0x69dd0000 -> 0x69dd7fff copy: false]
+gs[0x69dd8000 -> 0x69ddffff copy: false]
+gs[0x69de0000 -> 0x69de7fff copy: false]
+gs[0x69de8000 -> 0x69deffff copy: false]
+gs[0x69df0000 -> 0x69df7fff copy: false]
+gs[0x69df8000 -> 0x69dfffff copy: false]
+gs[0x69e00000 -> 0x69e07fff copy: false]
+gs[0x69e08000 -> 0x69e0ffff copy: false]
+gs[0x69e10000 -> 0x69e17fff copy: false]
+gs[0x69e18000 -> 0x69e1ffff copy: false]
+gs[0x69e20000 -> 0x69e27fff copy: false]
+gs[0x69e28000 -> 0x69e2ffff copy: false]
+gs[0x69e30000 -> 0x69e37fff copy: false]
+gs[0x69e38000 -> 0x69e3ffff copy: false]
+gs[0x69e40000 -> 0x69e47fff copy: false]
+gs[0x69e48000 -> 0x69e4ffff copy: false]
+gs[0x69e50000 -> 0x69e57fff copy: false]
+gs[0x69e58000 -> 0x69e5ffff copy: false]
+gs[0x69e60000 -> 0x69e67fff copy: false]
+gs[0x69e68000 -> 0x69e6ffff copy: false]
+gs[0x69e70000 -> 0x69e77fff copy: false]
+gs[0x69e78000 -> 0x69e7ffff copy: false]
+gs[0x69e80000 -> 0x69e87fff copy: false]
+gs[0x69e88000 -> 0x69e8ffff copy: false]
+gs[0x69e90000 -> 0x69e97fff copy: false]
+gs[0x69e98000 -> 0x69e9ffff copy: false]
+gs[0x69ea0000 -> 0x69ea7fff copy: false]
+gs[0x69ea8000 -> 0x69eaffff copy: false]
+gs[0x69eb0000 -> 0x69eb7fff copy: false]
+gs[0x69eb8000 -> 0x69ebffff copy: false]
+
+
+[currentDecPool=1] Collection 3:        reserved = 19 MB (5118 pgs)      used = 19 MB (5042 pgs)      total = 20 MB (5120 pgs)
+  Before Collection: used = 20.16 Mb = boot 0.00 Mb + immortal 0.00 Mb + meta 0.06 Mb + los 0.00 Mb + sanity 0.00 Mb + non-moving 0.33 Mb + sm-code 0.47 Mb + lg-code 0.00 Mb + rc 14.87 Mb + rclos 4.42 Mb
+                     used = 5163 pgs = boot 0 pgs + immortal 0 pgs + meta 16 pgs + los 0 pgs + sanity 0 pgs + non-moving 86 pgs + sm-code 121 pgs + lg-code 0 pgs + rc 3808 pgs + rclos 1132 pgs
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[COL] using decBuffer 1
+Thread 4:     Processing GC in parallel
+gs[0x69ec0000 -> 0x69ec7fff copy: false]
+released block:0x68808000
+released block:0x69430000
+released block:0x69438000
+released block:0x69440000
+released block:0x69448000
+released block:0x69450000
+released block:0x69458000
+released block:0x69460000
+released block:0x69468000
+released block:0x69470000
+released block:0x69478000
+released block:0x69480000
+released block:0x69488000
+released block:0x69490000
+released block:0x69498000
+released block:0x694a0000
+released block:0x69708000
+released block:0x69718000
+released block:0x69720000
+released block:0x69728000
+released block:0x69730000
+released block:0x69738000
+released block:0x69740000
+released block:0x69748000
+released block:0x69750000
+released block:0x69758000
+released block:0x69760000
+released block:0x69768000
+released block:0x69770000
+released block:0x69778000
+released block:0x69780000
+released block:0x69788000
+released block:0x69790000
+released block:0x69798000
+released block:0x697a0000
+released block:0x697a8000
+released block:0x697b0000
+released block:0x697b8000
+released block:0x697c0000
+released block:0x697c8000
+released block:0x697d0000
+released block:0x697d8000
+released block:0x697e0000
+released block:0x697e8000
+released block:0x697f0000
+released block:0x697f8000
+released block:0x69808000
+released block:0x69810000
+released block:0x69818000
+released block:0x69820000
+released block:0x69828000
+released block:0x69830000
+released block:0x69838000
+released block:0x69840000
+released block:0x69848000
+released block:0x69850000
+released block:0x69858000
+released block:0x69860000
+released block:0x69868000
+released block:0x69870000
+released block:0x69878000
+released block:0x69880000
+released block:0x69888000
+released block:0x69890000
+released block:0x69898000
+released block:0x698a0000
+released block:0x698a8000
+released block:0x698b0000
+released block:0x698b8000
+released block:0x698c0000
+released block:0x698c8000
+released block:0x698d0000
+released block:0x698d8000
+released block:0x698e0000
+released block:0x698e8000
+released block:0x698f0000
+released block:0x698f8000
+released block:0x69900000
+released block:0x69908000
+released block:0x69910000
+released block:0x69918000
+released block:0x69b80000
+released block:0x69b88000
+released block:0x69b90000
+released block:0x69b98000
+released block:0x69ba0000
+released block:0x69ba8000
+released block:0x69bb0000
+released block:0x69bb8000
+released block:0x69bc0000
+released block:0x69bc8000
+released block:0x69bd0000
+released block:0x69bd8000
+released block:0x69be0000
+released block:0x69be8000
+released block:0x69bf0000
+released block:0x69bf8000
+released block:0x69c08000
+released block:0x69c10000
+released block:0x69d08000
+released block:0x69d20000
+released block:0x69eb8000
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+   After Collection: used = 17.00 Mb = boot 0.00 Mb + immortal 0.00 Mb + meta 0.05 Mb + los 0.00 Mb + sanity 0.00 Mb + non-moving 0.33 Mb + sm-code 0.47 Mb + lg-code 0.00 Mb + rc 11.71 Mb + rclos 4.42 Mb
+                     used = 4353 pgs = boot 0 pgs + immortal 0 pgs + meta 14 pgs + los 0 pgs + sanity 0 pgs + non-moving 86 pgs + sm-code 121 pgs + lg-code 0 pgs + rc 3000 pgs + rclos 1132 pgs
+                     reserved = 16 MB (4292 pgs)      used = 16 MB (4232 pgs)      total = 20 MB (5120 pgs)
+    Collection time: 17.52 ms
+
+
+Collection 4:        reserved = 16 MB (4292 pgs)      used = 16 MB (4232 pgs)      total = 20 MB (5120 pgs)
+  Before Collection: used = 17.00 Mb = boot 0.00 Mb + immortal 0.00 Mb + meta 0.05 Mb + los 0.00 Mb + sanity 0.00 Mb + non-moving 0.33 Mb + sm-code 0.47 Mb + lg-code 0.00 Mb + rc 11.71 Mb + rclos 4.42 Mb
+                     used = 4353 pgs = boot 0 pgs + immortal 0 pgs + meta 14 pgs + los 0 pgs + sanity 0 pgs + non-moving 86 pgs + sm-code 121 pgs + lg-code 0 pgs + rc 3000 pgs + rclos 1132 pgs
+   After Collection: used = 17.00 Mb = boot 0.00 Mb + immortal 0.00 Mb + meta 0.05 Mb + los 0.00 Mb + sanity 0.00 Mb + non-moving 0.33 Mb + sm-code 0.47 Mb + lg-code 0.00 Mb + rc 11.71 Mb + rclos 4.42 Mb
+                     used = 4353 pgs = boot 0 pgs + immortal 0 pgs + meta 14 pgs + los 0 pgs + sanity 0 pgs + non-moving 86 pgs + sm-code 121 pgs + lg-code 0 pgs + rc 3000 pgs + rclos 1132 pgs
+                     reserved = 16 MB (4292 pgs)      used = 16 MB (4232 pgs)      total = 20 MB (5120 pgs)
+    Collection time: 0.48 ms
+[CONC(1)] In CONCURRENT doing DecBuf processDecBuf using pool=1 with enqueued page:9 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+gs[0x69eb8000 -> 0x69ebffff copy: false]
+decLineRC address:0x6882806c
+decLineRC address:0x68828018
+decLineRC address:0x68828000
+decLineRC address:0x6882ab0c
+decLineRC address:0x6882ac00
+decLineRC address:0x6882ad00
+decLineRC address:0x6882a9e8
+decLineRC address:0x6882a8c4
+decLineRC address:0x6882a7bc
+decLineRC address:0x6882a79c
+decLineRC address:0x6882aeac
+decLineRC address:0x688288e0
+decLineRC address:0x68828ab8
+decLineRC address:0x68828864
+decLineRC address:0x6882895c
+decLineRC address:0x6882aecc
+decLineRC address:0x6882807c
+decLineRC address:0x6882b600
+decLineRC address:0x6882a9c8
+decLineRC address:0x6882aa84
+decLineRC address:0x6882aa28
+decLineRC address:0x6882a9f4
+[CONC(1)] trying to terminate
+[CONC(1)] terminating
+[CONC(1)] decBuffer1 should be empty
+gs[0x69d20000 -> 0x69d27fff copy: false]
+gs[0x69d08000 -> 0x69d0ffff copy: false]
+===== DaCapo fop starting =====
+gs[0x69c08000 -> 0x69c0ffff copy: false]
+gs[0x69c10000 -> 0x69c17fff copy: false]
+gs[0x69b80000 -> 0x69b87fff copy: false]
+gs[0x69b88000 -> 0x69b8ffff copy: false]
+gs[0x69b90000 -> 0x69b97fff copy: false]
+gs[0x69b98000 -> 0x69b9ffff copy: false]
+gs[0x69ba0000 -> 0x69ba7fff copy: false]
+gs[0x69ba8000 -> 0x69baffff copy: false]
+gs[0x69bb0000 -> 0x69bb7fff copy: false]
+gs[0x69bb8000 -> 0x69bbffff copy: false]
+gs[0x69bc0000 -> 0x69bc7fff copy: false]
+gs[0x69bc8000 -> 0x69bcffff copy: false]
+gs[0x69bd0000 -> 0x69bd7fff copy: false]
+gs[0x69bd8000 -> 0x69bdffff copy: false]
+gs[0x69be0000 -> 0x69be7fff copy: false]
+gs[0x69be8000 -> 0x69beffff copy: false]
+gs[0x69bf0000 -> 0x69bf7fff copy: false]
+gs[0x69bf8000 -> 0x69bfffff copy: false]
+gs[0x69808000 -> 0x6980ffff copy: false]
+gs[0x69810000 -> 0x69817fff copy: false]
+gs[0x69818000 -> 0x6981ffff copy: false]
+gs[0x69820000 -> 0x69827fff copy: false]
+gs[0x69828000 -> 0x6982ffff copy: false]
+gs[0x69830000 -> 0x69837fff copy: false]
+gs[0x69838000 -> 0x6983ffff copy: false]
+gs[0x69840000 -> 0x69847fff copy: false]
+gs[0x69848000 -> 0x6984ffff copy: false]
+gs[0x69850000 -> 0x69857fff copy: false]
+gs[0x69858000 -> 0x6985ffff copy: false]
+gs[0x69860000 -> 0x69867fff copy: false]
+gs[0x69868000 -> 0x6986ffff copy: false]
+gs[0x69870000 -> 0x69877fff copy: false]
+
+
+[currentDecPool=0] Collection 5:        reserved = 19 MB (5109 pgs)      used = 18 MB (4772 pgs)      total = 20 MB (5120 pgs)
+  Before Collection: used = 19.18 Mb = boot 0.00 Mb + immortal 0.00 Mb + meta 0.06 Mb + los 0.00 Mb + sanity 0.00 Mb + non-moving 0.37 Mb + sm-code 0.54 Mb + lg-code 0.00 Mb + rc 12.81 Mb + rclos 5.38 Mb
+                     used = 4912 pgs = boot 0 pgs + immortal 0 pgs + meta 17 pgs + los 0 pgs + sanity 0 pgs + non-moving 96 pgs + sm-code 140 pgs + lg-code 0 pgs + rc 3280 pgs + rclos 1379 pgs
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[COL] using decBuffer 0
+Thread 4:     Processing GC in parallel
+gs[0x69878000 -> 0x6987ffff copy: false]
+gs[0x69880000 -> 0x69887fff copy: false]
+gs[0x69888000 -> 0x6988ffff copy: false]
+gs[0x69890000 -> 0x69897fff copy: false]
+gs[0x69898000 -> 0x6989ffff copy: false]
+gs[0x698a0000 -> 0x698a7fff copy: false]
+gs[0x698a8000 -> 0x698affff copy: false]
+gs[0x698b0000 -> 0x698b7fff copy: false]
+gs[0x698b8000 -> 0x698bffff copy: false]
+gs[0x698c0000 -> 0x698c7fff copy: false]
+gs[0x698c8000 -> 0x698cffff copy: false]
+gs[0x698d0000 -> 0x698d7fff copy: false]
+gs[0x698d8000 -> 0x698dffff copy: false]
+gs[0x698e0000 -> 0x698e7fff copy: false]
+gs[0x698e8000 -> 0x698effff copy: false]
+gs[0x698f0000 -> 0x698f7fff copy: false]
+gs[0x698f8000 -> 0x698fffff copy: false]
+gs[0x69900000 -> 0x69907fff copy: false]
+gs[0x69908000 -> 0x6990ffff copy: false]
+gs[0x69910000 -> 0x69917fff copy: false]
+released block:0x69808000
+released block:0x69810000
+released block:0x69818000
+released block:0x69820000
+released block:0x69828000
+released block:0x69830000
+released block:0x69838000
+released block:0x69840000
+released block:0x69848000
+released block:0x69850000
+released block:0x69858000
+released block:0x69860000
+released block:0x69868000
+released block:0x69870000
+released block:0x69b80000
+released block:0x69b88000
+released block:0x69b90000
+released block:0x69b98000
+released block:0x69ba0000
+released block:0x69ba8000
+released block:0x69bb0000
+released block:0x69bb8000
+released block:0x69bc0000
+released block:0x69bc8000
+released block:0x69bd0000
+released block:0x69bd8000
+released block:0x69be0000
+released block:0x69be8000
+released block:0x69bf0000
+released block:0x69bf8000
+released block:0x69c08000
+released block:0x69c10000
+released block:0x69d08000
+released block:0x69d20000
+released block:0x69eb8000
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+   After Collection: used = 18.72 Mb = boot 0.00 Mb + immortal 0.00 Mb + meta 0.07 Mb + los 0.00 Mb + sanity 0.00 Mb + non-moving 0.37 Mb + sm-code 0.54 Mb + lg-code 0.00 Mb + rc 12.34 Mb + rclos 5.38 Mb
+                     used = 4793 pgs = boot 0 pgs + immortal 0 pgs + meta 18 pgs + los 0 pgs + sanity 0 pgs + non-moving 96 pgs + sm-code 140 pgs + lg-code 0 pgs + rc 3160 pgs + rclos 1379 pgs
+                     reserved = 18 MB (4716 pgs)      used = 18 MB (4653 pgs)      total = 20 MB (5120 pgs)
+    Collection time: 6.72 ms
+[CONC(0)] In CONCURRENT_PREEMPT
+processDecBuf using pool=0 with enqueued page:12 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+decLineRC address:0x69eb7fdc
+decLineRC address:0x69eb7104
+decLineRC address:0x69eb70c0
+decLineRC address:0x69eb7684
+decLineRC address:0x69eb7700
+decLineRC address:0x69eb7800
+decLineRC address:0x69eb7900
+decLineRC address:0x69dd3620
+decLineRC address:0x696f5e7c
+decLineRC address:0x69ead6f0
+decLineRC address:0x69ead700
+decLineRC address:0x69ead800
+decLineRC address:0x69ead900
+decLineRC address:0x69eada00
+decLineRC address:0x69eadb00
+decLineRC address:0x69927bbc
+decLineRC address:0x69d8ce64
+decLineRC address:0x69d8cf00
+decLineRC address:0x69d8d000
+decLineRC address:0x69d8d100
+decLineRC address:0x69d8d200
+decLineRC address:0x69d8d300
+decLineRC address:0x69d8d400
+decLineRC address:0x69d8d500
+decLineRC address:0x69d8d600
+decLineRC address:0x69d8d700
+decLineRC address:0x69d8d800
+decLineRC address:0x69d8d900
+decLineRC address:0x69d8da00
+decLineRC address:0x69d8db00
+decLineRC address:0x69d8dc00
+decLineRC address:0x69d8dd00
+decLineRC address:0x69e01a34
+decLineRC address:0x69e01b00
+decLineRC address:0x69e01c00
+decLineRC address:0x69df2a4c
+decLineRC address:0x69ea4dd4
+decLineRC address:0x69ea4e00
+decLineRC address:0x69ea4f00
+decLineRC address:0x69ea5000
+decLineRC address:0x69ea5100
+decLineRC address:0x69ea5200
+decLineRC address:0x69ea5300
+decLineRC address:0x69ea5400
+decLineRC address:0x69ea5500
+decLineRC address:0x69ea5600
+decLineRC address:0x69ea5700
+decLineRC address:0x69ea5800
+decLineRC address:0x69c4ff80
+decLineRC address:0x69900da0
+decLineRC address:0x69900d8c
+decLineRC address:0x69900db4
+decLineRC address:0x69900d78
+decLineRC address:0x69900d64
+decLineRC address:0x69900dc8
+decLineRC address:0x69900ddc
+decLineRC address:0x69900d50
+decLineRC address:0x69900df0
+decLineRC address:0x69e6d630
+decLineRC address:0x69da2898
+decLineRC address:0x69eb3e34
+decLineRC address:0x69eb3f00
+decLineRC address:0x69eb4000
+decLineRC address:0x69eb4100
+decLineRC address:0x69eb4200
+decLineRC address:0x69eb4300
+decLineRC address:0x69eb4400
+decLineRC address:0x69eb4500
+decLineRC address:0x69eb4600
+decLineRC address:0x69eb4700
+decLineRC address:0x69eb4800
+decLineRC address:0x69eb4900
+decLineRC address:0x69eb4a00
+decLineRC address:0x694d467c
+decLineRC address:0x69e86e34
+decLineRC address:0x69e6fa0c
+decLineRC address:0x69dc2678
+decLineRC address:0x69e01e4c
+decLineRC address:0x69c6ffb0
+decLineRC address:0x69c4ffd4
+decLineRC address:0x69d7d0fc
+decLineRC address:0x69da2da0
+decLineRC address:0x69df2e5c
+decLineRC address:0x69dd9f6c
+0 should be empty
+[CONC(0)] In CONCURRENT_PREEMPT
+processDecBuf using pool=0 with enqueued page:0 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+0 should be empty
+[CONC(0)] In CONCURRENT_PREEMPT
+processDecBuf using pool=0 with enqueued page:0 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+0 should be empty
+
+
+ [CC][currentDecPool=1] Collection 6:        reserved = 16 MB (4166 pgs)      used = 16 MB (4103 pgs)      total = 20 MB (5120 pgs)
+  Before Collection: used = 16.57 Mb = boot 0.00 Mb + immortal 0.00 Mb + meta 0.02 Mb + los 0.00 Mb + sanity 0.00 Mb + non-moving 0.37 Mb + sm-code 0.54 Mb + lg-code 0.00 Mb + rc 12.34 Mb + rclos 3.28 Mb
+                     used = 4243 pgs = boot 0 pgs + immortal 0 pgs + meta 7 pgs + los 0 pgs + sanity 0 pgs + non-moving 96 pgs + sm-code 140 pgs + lg-code 0 pgs + rc 3160 pgs + rclos 840 pgs
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[MUT] using decBuffer 1
+[Defrag][threshold: cl: 7409 al: 134816 lm: 136177 (64 136177,0) (63 136177,0) (62 136177,0) (61 136177,0) (60 136177,0) (59 136177,0) (58 136177,0) (57 136177,0) (56 136177,0) (55 136177,0) (54 136177,0) (53 136177,0) (52 136177,0) (51 136177,0) (50 136177,0) (49 136177,0) (48 136177,0) (47 136177,0) (46 136177,0) (45 136177,0) (44 136177,0) (43 136177,0) (42 136177,0) (41 136177,0) (40 136177,0) (39 136177,0) (38 136177,0) (37 136177,0) (36 136177,0) (35 136177,0) (34 136177,0) (33 136177,0) (32 136177,0) (31 136177,0) (30 136177,0) (29 136177,0) (28 136177,0) (27 136177,0) (26 136177,0) (25 136114,40) (24 136114,40) (23 136067,98) (22 136067,98) (21 136067,98) (20 136024,163) (19 135817,392) (18 135572,587) (17 135545,671) (16 135458,696) (15 135074,990) (14 134560,1388) (13 134318,1606) (12 134053,1805) (11 133947,2167) (10 133537,2465) (9 133087,2729) (8 132529,3491) (7 132139,4189) (6 131859,4275) (5 131710,4618) (4 131103,5003) (3 130533,5183) (2 129935,6222) threshold: 2][COL] using decBuffer 1
+Thread 4:     Processing GC in parallel
+processDecBuf using pool=1 with enqueued page:3 performCycleCollection=true RCImmixConcurrent.performCycleCollection=true
+Thread 4:     Processing GC in parallel
+gs[0x69eb8000 -> 0x69ebffff copy: true]
+gs[0x69d20000 -> 0x69d27fff copy: true]
+gs[0x69d08000 -> 0x69d0ffff copy: true]
+gs[0x69c08000 -> 0x69c0ffff copy: true]
+gs[0x69c10000 -> 0x69c17fff copy: true]
+gs[0x69b80000 -> 0x69b87fff copy: true]
+gs[0x69b88000 -> 0x69b8ffff copy: true]
+gs[0x69b90000 -> 0x69b97fff copy: true]
+gs[0x69b98000 -> 0x69b9ffff copy: true]
+gs[0x69ba0000 -> 0x69ba7fff copy: true]
+gs[0x69ba8000 -> 0x69baffff copy: true]
+gs[0x69bb0000 -> 0x69bb7fff copy: true]
+gs[0x69bb8000 -> 0x69bbffff copy: true]
+gs[0x69bc0000 -> 0x69bc7fff copy: true]
+gs[0x69bc8000 -> 0x69bcffff copy: true]
+gs[0x69bd0000 -> 0x69bd7fff copy: true]
+gs[0x69bd8000 -> 0x69bdffff copy: true]
+gs[0x69be0000 -> 0x69be7fff copy: true]
+gs[0x69be8000 -> 0x69beffff copy: true]
+gs[0x69bf0000 -> 0x69bf7fff copy: true]
+gs[0x69bf8000 -> 0x69bfffff copy: true]
+released block:0x68810000
+released block:0x68818000
+released block:0x68828000
+released block:0x68830000
+released block:0x68838000
+released block:0x68840000
+released block:0x68848000
+released block:0x68850000
+released block:0x68858000
+released block:0x68a70000
+released block:0x69428000
+released block:0x694b0000
+released block:0x694b8000
+released block:0x694c0000
+released block:0x694c8000
+released block:0x694d0000
+released block:0x69538000
+released block:0x696e8000
+released block:0x696f0000
+released block:0x696f8000
+released block:0x69700000
+released block:0x69710000
+released block:0x69920000
+released block:0x69928000
+released block:0x69958000
+released block:0x69960000
+released block:0x69968000
+released block:0x69b68000
+released block:0x69b70000
+released block:0x69b78000
+released block:0x69c18000
+released block:0x69c20000
+released block:0x69c28000
+released block:0x69c30000
+released block:0x69c38000
+released block:0x69c48000
+released block:0x69c50000
+released block:0x69c58000
+released block:0x69c60000
+released block:0x69c68000
+released block:0x69c70000
+released block:0x69c78000
+released block:0x69c80000
+released block:0x69c88000
+released block:0x69c90000
+released block:0x69c98000
+released block:0x69ca0000
+released block:0x69ca8000
+released block:0x69cb0000
+released block:0x69cb8000
+released block:0x69cc8000
+released block:0x69cd8000
+released block:0x69cf8000
+released block:0x69d00000
+released block:0x69d10000
+released block:0x69d18000
+released block:0x69d28000
+released block:0x69d38000
+released block:0x69d40000
+released block:0x69d48000
+released block:0x69d50000
+released block:0x69d58000
+released block:0x69d60000
+released block:0x69d68000
+released block:0x69d70000
+released block:0x69d78000
+released block:0x69d80000
+released block:0x69d88000
+released block:0x69d90000
+released block:0x69d98000
+released block:0x69da0000
+released block:0x69da8000
+released block:0x69db0000
+released block:0x69db8000
+released block:0x69dc0000
+released block:0x69dc8000
+released block:0x69dd0000
+released block:0x69dd8000
+released block:0x69de0000
+released block:0x69de8000
+released block:0x69df0000
+released block:0x69df8000
+released block:0x69e00000
+released block:0x69e08000
+released block:0x69e10000
+released block:0x69e18000
+released block:0x69e20000
+released block:0x69e28000
+released block:0x69e30000
+released block:0x69e38000
+released block:0x69e40000
+released block:0x69e48000
+released block:0x69e50000
+released block:0x69e58000
+released block:0x69e60000
+released block:0x69e68000
+released block:0x69e70000
+released block:0x69e78000
+released block:0x69e80000
+released block:0x69e88000
+released block:0x69e90000
+released block:0x69e98000
+released block:0x69ea0000
+released block:0x69ea8000
+released block:0x69eb0000
+(Defrag summary: cu: 688128 nf: 0 fr: 3440640 av: 4165632)[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+[MUT] switching to pool 0
+   After Collection: used = 13.93 Mb = boot 0.00 Mb + immortal 0.00 Mb + meta 0.01 Mb + los 0.00 Mb + sanity 0.00 Mb + non-moving 0.37 Mb + sm-code 0.54 Mb + lg-code 0.00 Mb + rc 9.71 Mb + rclos 3.28 Mb
+                     used = 3568 pgs = boot 0 pgs + immortal 0 pgs + meta 4 pgs + los 0 pgs + sanity 0 pgs + non-moving 96 pgs + sm-code 140 pgs + lg-code 0 pgs + rc 2488 pgs + rclos 840 pgs
+                     reserved = 13 MB (3477 pgs)      used = 13 MB (3428 pgs)      total = 20 MB (5120 pgs)
+    Collection time: 33.27 ms
+
+
+Collection 7:        reserved = 13 MB (3477 pgs)      used = 13 MB (3428 pgs)      total = 20 MB (5120 pgs)
+  Before Collection: used = 13.93 Mb = boot 0.00 Mb + immortal 0.00 Mb + meta 0.01 Mb + los 0.00 Mb + sanity 0.00 Mb + non-moving 0.37 Mb + sm-code 0.54 Mb + lg-code 0.00 Mb + rc 9.71 Mb + rclos 3.28 Mb
+                     used = 3568 pgs = boot 0 pgs + immortal 0 pgs + meta 4 pgs + los 0 pgs + sanity 0 pgs + non-moving 96 pgs + sm-code 140 pgs + lg-code 0 pgs + rc 2488 pgs + rclos 840 pgs
+   After Collection: used = 13.93 Mb = boot 0.00 Mb + immortal 0.00 Mb + meta 0.01 Mb + los 0.00 Mb + sanity 0.00 Mb + non-moving 0.37 Mb + sm-code 0.54 Mb + lg-code 0.00 Mb + rc 9.71 Mb + rclos 3.28 Mb
+                     used = 3568 pgs = boot 0 pgs + immortal 0 pgs + meta 4 pgs + los 0 pgs + sanity 0 pgs + non-moving 96 pgs + sm-code 140 pgs + lg-code 0 pgs + rc 2488 pgs + rclos 840 pgs
+                     reserved = 13 MB (3477 pgs)      used = 13 MB (3428 pgs)      total = 20 MB (5120 pgs)
+    Collection time: 0.43 ms
+[CONC(1)] In CONCURRENT
+gs[0x69d38000 -> 0x69d3ffff copy: false]
+[CONC(1)] trying to terminate
+[CONC(1)] terminating
+gs[0x69d40000 -> 0x69d47fff copy: false]
+gs[0x69d48000 -> 0x69d4ffff copy: false]
+gs[0x69d50000 -> 0x69d57fff copy: false]
+gs[0x69d58000 -> 0x69d5ffff copy: false]
+gs[0x69d60000 -> 0x69d67fff copy: false]
+gs[0x69d68000 -> 0x69d6ffff copy: false]
+gs[0x69d70000 -> 0x69d77fff copy: false]
+gs[0x69d78000 -> 0x69d7ffff copy: false]
+gs[0x69d80000 -> 0x69d87fff copy: false]
+gs[0x69d88000 -> 0x69d8ffff copy: false]
+gs[0x69d90000 -> 0x69d97fff copy: false]
+gs[0x69d98000 -> 0x69d9ffff copy: false]
+gs[0x69da0000 -> 0x69da7fff copy: false]
+gs[0x69da8000 -> 0x69daffff copy: false]
+gs[0x69db0000 -> 0x69db7fff copy: false]
+gs[0x69db8000 -> 0x69dbffff copy: false]
+gs[0x69dc0000 -> 0x69dc7fff copy: false]
+gs[0x69dc8000 -> 0x69dcffff copy: false]
+gs[0x69dd0000 -> 0x69dd7fff copy: false]
+gs[0x69dd8000 -> 0x69ddffff copy: false]
+gs[0x69de0000 -> 0x69de7fff copy: false]
+gs[0x69de8000 -> 0x69deffff copy: false]
+gs[0x69df0000 -> 0x69df7fff copy: false]
+gs[0x69df8000 -> 0x69dfffff copy: false]
+gs[0x69e00000 -> 0x69e07fff copy: false]
+gs[0x69e08000 -> 0x69e0ffff copy: false]
+gs[0x69e10000 -> 0x69e17fff copy: false]
+gs[0x69e18000 -> 0x69e1ffff copy: false]
+gs[0x69e20000 -> 0x69e27fff copy: false]
+gs[0x69e28000 -> 0x69e2ffff copy: false]
+gs[0x69e30000 -> 0x69e37fff copy: false]
+gs[0x69e38000 -> 0x69e3ffff copy: false]
+gs[0x69e40000 -> 0x69e47fff copy: false]
+gs[0x69e48000 -> 0x69e4ffff copy: false]
+gs[0x69e50000 -> 0x69e57fff copy: false]
+gs[0x69e58000 -> 0x69e5ffff copy: false]
+gs[0x69e60000 -> 0x69e67fff copy: false]
+gs[0x69e68000 -> 0x69e6ffff copy: false]
+gs[0x69e70000 -> 0x69e77fff copy: false]
+gs[0x69e78000 -> 0x69e7ffff copy: false]
+gs[0x69e80000 -> 0x69e87fff copy: false]
+gs[0x69e88000 -> 0x69e8ffff copy: false]
+gs[0x69e90000 -> 0x69e97fff copy: false]
+gs[0x69e98000 -> 0x69e9ffff copy: false]
+gs[0x69ea0000 -> 0x69ea7fff copy: false]
+gs[0x69ea8000 -> 0x69eaffff copy: false]
+gs[0x69eb0000 -> 0x69eb7fff copy: false]
+gs[0x69d28000 -> 0x69d2ffff copy: false]
+gs[0x69d10000 -> 0x69d17fff copy: false]
+gs[0x69d18000 -> 0x69d1ffff copy: false]
+gs[0x69cf8000 -> 0x69cfffff copy: false]
+gs[0x69d00000 -> 0x69d07fff copy: false]
+gs[0x69cd8000 -> 0x69cdffff copy: false]
+gs[0x69cc8000 -> 0x69ccffff copy: false]
+gs[0x69c48000 -> 0x69c4ffff copy: false]
+gs[0x69c50000 -> 0x69c57fff copy: false]
+gs[0x69c58000 -> 0x69c5ffff copy: false]
+gs[0x69c60000 -> 0x69c67fff copy: false]
+gs[0x69c68000 -> 0x69c6ffff copy: false]
+gs[0x69c70000 -> 0x69c77fff copy: false]
+gs[0x69c78000 -> 0x69c7ffff copy: false]
+gs[0x69c80000 -> 0x69c87fff copy: false]
+gs[0x69c88000 -> 0x69c8ffff copy: false]
+gs[0x69c90000 -> 0x69c97fff copy: false]
+gs[0x69c98000 -> 0x69c9ffff copy: false]
+gs[0x69ca0000 -> 0x69ca7fff copy: false]
+gs[0x69ca8000 -> 0x69caffff copy: false]
+gs[0x69cb0000 -> 0x69cb7fff copy: false]
+gs[0x69cb8000 -> 0x69cbffff copy: false]
+gs[0x69c18000 -> 0x69c1ffff copy: false]
+
+
+[currentDecPool=0] Collection 8:        reserved = 19 MB (5113 pgs)      used = 17 MB (4492 pgs)      total = 20 MB (5120 pgs)
+  Before Collection: used = 18.11 Mb = boot 0.00 Mb + immortal 0.00 Mb + meta 0.06 Mb + los 0.00 Mb + sanity 0.00 Mb + non-moving 0.40 Mb + sm-code 0.57 Mb + lg-code 0.00 Mb + rc 11.93 Mb + rclos 5.14 Mb
+                     used = 4638 pgs = boot 0 pgs + immortal 0 pgs + meta 17 pgs + los 0 pgs + sanity 0 pgs + non-moving 103 pgs + sm-code 146 pgs + lg-code 0 pgs + rc 3056 pgs + rclos 1316 pgs
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[MUT] using decBuffer 0
+[COL] using decBuffer 0
+Thread 4:     Processing GC in parallel
+gs[0x69c20000 -> 0x69c27fff copy: false]
+gs[0x69c28000 -> 0x69c2ffff copy: false]
+gs[0x69c30000 -> 0x69c37fff copy: false]
+gs[0x69c38000 -> 0x69c3ffff copy: false]
+gs[0x69b68000 -> 0x69b6ffff copy: false]
+gs[0x69b70000 -> 0x69b77fff copy: false]
+gs[0x69b78000 -> 0x69b7ffff copy: false]
+gs[0x69958000 -> 0x6995ffff copy: false]
+gs[0x69960000 -> 0x69967fff copy: false]
+gs[0x69968000 -> 0x6996ffff copy: false]
+gs[0x69918000 -> 0x6991ffff copy: false]
+gs[0x69920000 -> 0x69927fff copy: false]
+gs[0x69928000 -> 0x6992ffff copy: false]
+gs[0x696e8000 -> 0x696effff copy: false]
+gs[0x696f0000 -> 0x696f7fff copy: false]
+released block:0x69c18000
+released block:0x69c48000
+released block:0x69c50000
+released block:0x69c58000
+released block:0x69c60000
+released block:0x69c68000
+released block:0x69c70000
+released block:0x69c78000
+released block:0x69c80000
+released block:0x69c88000
+released block:0x69c90000
+released block:0x69c98000
+released block:0x69ca0000
+released block:0x69ca8000
+released block:0x69cb0000
+released block:0x69cb8000
+released block:0x69cc8000
+released block:0x69cd8000
+released block:0x69cf8000
+released block:0x69d00000
+released block:0x69d10000
+released block:0x69d18000
+released block:0x69d28000
+released block:0x69d38000
+released block:0x69d40000
+released block:0x69d48000
+released block:0x69d50000
+released block:0x69d58000
+released block:0x69d60000
+released block:0x69d68000
+released block:0x69d70000
+released block:0x69d78000
+released block:0x69d80000
+released block:0x69d88000
+released block:0x69d90000
+released block:0x69d98000
+released block:0x69da0000
+released block:0x69da8000
+released block:0x69db0000
+released block:0x69db8000
+released block:0x69dc0000
+released block:0x69dc8000
+released block:0x69dd0000
+released block:0x69dd8000
+released block:0x69de0000
+released block:0x69de8000
+released block:0x69df0000
+released block:0x69df8000
+released block:0x69e00000
+released block:0x69e08000
+released block:0x69e10000
+released block:0x69e18000
+released block:0x69e20000
+released block:0x69e28000
+released block:0x69e30000
+released block:0x69e38000
+released block:0x69e40000
+released block:0x69e48000
+released block:0x69e50000
+released block:0x69e58000
+released block:0x69e60000
+released block:0x69e68000
+released block:0x69e70000
+released block:0x69e78000
+released block:0x69e80000
+released block:0x69e88000
+released block:0x69e90000
+released block:0x69e98000
+released block:0x69ea0000
+released block:0x69ea8000
+released block:0x69eb0000
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+[MUT] switching to pool 1
+   After Collection: used = 16.37 Mb = boot 0.00 Mb + immortal 0.00 Mb + meta 0.07 Mb + los 0.00 Mb + sanity 0.00 Mb + non-moving 0.40 Mb + sm-code 0.57 Mb + lg-code 0.00 Mb + rc 10.18 Mb + rclos 5.14 Mb
+                     used = 4192 pgs = boot 0 pgs + immortal 0 pgs + meta 19 pgs + los 0 pgs + sanity 0 pgs + non-moving 103 pgs + sm-code 146 pgs + lg-code 0 pgs + rc 2608 pgs + rclos 1316 pgs
+                     reserved = 16 MB (4098 pgs)      used = 15 MB (4046 pgs)      total = 20 MB (5120 pgs)
+    Collection time: 6.49 ms
+
+
+Collection 9:        reserved = 16 MB (4098 pgs)      used = 15 MB (4046 pgs)      total = 20 MB (5120 pgs)
+  Before Collection: used = 16.37 Mb = boot 0.00 Mb + immortal 0.00 Mb + meta 0.07 Mb + los 0.00 Mb + sanity 0.00 Mb + non-moving 0.40 Mb + sm-code 0.57 Mb + lg-code 0.00 Mb + rc 10.18 Mb + rclos 5.14 Mb
+                     used = 4192 pgs = boot 0 pgs + immortal 0 pgs + meta 19 pgs + los 0 pgs + sanity 0 pgs + non-moving 103 pgs + sm-code 146 pgs + lg-code 0 pgs + rc 2608 pgs + rclos 1316 pgs
+   After Collection: used = 16.37 Mb = boot 0.00 Mb + immortal 0.00 Mb + meta 0.07 Mb + los 0.00 Mb + sanity 0.00 Mb + non-moving 0.40 Mb + sm-code 0.57 Mb + lg-code 0.00 Mb + rc 10.18 Mb + rclos 5.14 Mb
+                     used = 4192 pgs = boot 0 pgs + immortal 0 pgs + meta 19 pgs + los 0 pgs + sanity 0 pgs + non-moving 103 pgs + sm-code 146 pgs + lg-code 0 pgs + rc 2608 pgs + rclos 1316 pgs
+                     reserved = 16 MB (4098 pgs)      used = 15 MB (4046 pgs)      total = 20 MB (5120 pgs)
+    Collection time: 0.43 ms
+[CONC(1)] In CONCURRENT doing DecBuf processDecBuf using pool=0 with enqueued page:13 performCycleCollection=false RCImmixConcurrent.performCycleCollection=false
+gs[0x69d38000 -> 0x69d3ffff copy: false]
+
+
+
+block is unused, line address:0x6882b24c
+Died in GC:
+vm internal error at:
+Thread #5
+-- Stack --
+(0x690f2ebc 7420)   at [0x690f2ebc, 0x64f98605] Lorg/jikesrvm/VM; sysFail(Ljava/lang/String;)V at line 2298 at bytecode index 27 at machine code offset 0x000000a2
+(0x690f2f08 7250)   at [0x690f2f08, 0x64864fa9] Lorg/jikesrvm/VM; _assertionFailure(Ljava/lang/String;Ljava/lang/String;)V at line 650 at bytecode index 34 at machine code offset 0x00000079
+(0x690f2f5c 9144)   at [0x690f2f5c, 0x648653ab] Lorg/jikesrvm/VM; _assert(ZLjava/lang/String;Ljava/lang/String;)V at line 633 at bytecode index 6 at machine code offset 0x00004641
+   at [0x690f2f5c, 0x648653ab] Lorg/jikesrvm/VM; _assert(Z)V at line 608 at bytecode index 3 at machine code offset 0x00004641
+   at [0x690f2f5c, 0x648653ab] Lorg/jikesrvm/mm/mmtk/Assert; _assert(Z)V at line 57 at bytecode index 12 at machine code offset 0x00004641
+   at [0x690f2f5c, 0x648653ab] Lorg/mmtk/policy/rcimmix/RCImmixObjectHeader; decLineRC(Lorg/vmmagic/unboxed/Address;)V at line 496 at bytecode index 43 at machine code offset 0x00004641
+   at [0x690f2f5c, 0x648653ab] Lorg/mmtk/policy/rcimmix/RCImmixObjectHeader; decLines(Lorg/vmmagic/unboxed/ObjectReference;)V at line 561 at bytecode index 9 at machine code offset gs[0x69d40000 -> 0x69d47fff copy: false]
+0x00004641
+   at [0x690f2f5c, 0x648653ab] Lorg/mmtk/plan/rcimmixconcurrent/RCImmixConcurrentCollector; processDecBuf(Lorg/mmtk/plan/rcimmixconcurrent/RCImmixConcurrentDecBuffer;)V at line 432 at bytecode index 244 at machine code offset 0x00004641
+   at [0x690f2f5c, 0x648653ab] Lorg/mmtk/plan/rcimmixconcurrent/RCImmixConcurrentCollector; concurrentCollectionPhase(S)V at line 140 at bytecode index 106 at machine code offset 0x00004641
+(0x690f2f80 9143)   at [0x690f2f80, 0x6487cc10] Lorg/mmtk/plan/rcimmixconcurrent/RCImmixConcurrentCollector; concurrentCollect()V at line 115 at bytecode index 29 at machine code offset 0x0000004b
+(0x690f2fa0 9137)   at [0x690f2fa0, 0x648c1638] Lorg/mmtk/plan/rcimmixconcurrent/RCImmixConcurrentCollector; run()V at line 192 at bytecode index 15 at machine code offset 0x000000b8
+(0x690f2fc0 16613)   at [0x690f2fc0, 0x64f725be] Lorg/jikesrvm/mm/mminterface/CollectorThread; run()V at line 82 at bytecode index 7 at machine code offset 0x0000002c
+(0x690f2ff8 21851)   at [0x690f2ff8, 0xf76f63d6] Lorg/jikesrvm/scheduler/RVMThread; startoff()V at line 2787 at bytecode index 71 at machine code offset 0x000001e2
+Virtual machine state:
+
+-- Threads --
+gs[0x69d48000 -> 0x69d4ffff copy: false]
+13-main-IN_JAVA-RUNNABLE      
+2-daemon-system-IN_JAVA-RUNNABLE
+3-daemon-system-BLOCKED_IN_NATIVE-RUNNABLE
+4-daemon-system-collector-IN_JAVA-RUNNABLEgs[0x69d50000 -> 0x69d57fff copy: false]
+
+5-daemon-system-collector-IN_JAVA-RUNNABLE
+6-daemon-system-collector-IN_JAVA-RUNNABLE
+7-daemon-system-IN_NATIVE-WAITING
+8-daemon-system-BLOCKED_IN_NATIVE-RUNNABLEgs[0x69d58000 -> 0x69d5ffff copy: false]
+
+9-daemon-system-BLOCKED_IN_NATIVE-RUNNABLE
+10-daemon-system-BLOCKED_IN_NATIVE-RUNNABLE
+11-daemon-system-IN_NATIVE-RUNNABLE
+12-daemon-system-IN_NATIVE-WAITINGgs[0x69d60000 -> 0x69d67fff copy: false]
+
+
+
+-- Locks in use --
+Lock 1:
+ lockedObject: 0x68821dcc   thin lock = 0x800004ed object type = Lorg/jikesrvm/adaptive/util/BlockingPriorityQueue;
+ ownerId: 0 (0) recursionCount: 1
+ entering: gs[0x69d68000 -> 0x69d6ffff copy: false]
+
+head: null
+tail: null
+ waiting: 7-daemon-system-IN_NATIVE-WAITING
+head: 7
+tail: 7
+ mutexLatestContender: <null>
+Lock 2:
+ lockedObject: 0x68821de0   thin lock = 0x800008edgs[0x69d70000 -> 0x69d77fff copy: false]
+ object type = Lorg/jikesrvm/adaptive/util/BlockingPriorityQueue;
+ ownerId: 0 (0) recursionCount: 1
+ entering: 
+head: null
+tail: null
+ waiting: 12-daemon-system-IN_NATIVE-WAITINGgs[0x69d78000 -> 0x69d7ffff copy: false]
+
+head: 12
+tail: 12
+ mutexLatestContender: <null>
+
+lock availability stats: 3 locks allocated, 0 locks freed, 0 free locks
+Dumping stack of active thread
+
+Dumping stack for Thread #5
+gs[0x69d80000 -> 0x69d87fff copy: false]
+-- Stack --
+(0x690f2ea4 21919)   at [0x690f2ea4, 0x64f91613] Lorg/jikesrvm/scheduler/RVMThread; dumpVirtualMachine()V at line 5770 at bytecode index 77 at machine code offset 0x000000b7gs[0x69d88000 -> 0x69d8ffff copy: false]
+
+(0x690f2ebc 7420)   at [0x690f2ebc, 0x64f98605] Lorg/jikesrvm/VM; sysFail(Ljava/lang/String;)V at line 2300 at bytecode index 36 at machine code offset 0x000000b7
+(0x690f2f08 7250)   at [0x690f2f08, 0x64864fa9] Lorg/jikesrvm/VM;gs[0x69d90000 -> 0x69d97fff copy: false]
+ _assertionFailure(Ljava/lang/String;Ljava/lang/String;)V at line 650 at bytecode index 34 at machine code offset 0x00000079
+(0x690f2f5c 9144)   at [0x690f2f5c, 0x648653ab] Lorg/jikesrvm/VM; _assert(ZLjava/lang/String;Ljava/lang/String;)V at line gs[0x69d98000 -> 0x69d9ffff copy: false]
+633 at bytecode index 6 at machine code offset 0x00004641
+   at [0x690f2f5c, 0x648653ab] Lorg/jikesrvm/VM; _assert(Z)V at line 608 at bytecode index 3 at machine code offset 0x00004641
+   at [0x690f2f5c, 0x648653ab] Lorg/jikesrvm/mm/mmtk/Assert;gs[0x69da0000 -> 0x69da7fff copy: false]
+ _assert(Z)V at line 57 at bytecode index 12 at machine code offset 0x00004641
+   at [0x690f2f5c, 0x648653ab] Lorg/mmtk/policy/rcimmix/RCImmixObjectHeader; decLineRC(Lorg/vmmagic/unboxed/Address;)Vgs[0x69da8000 -> 0x69daffff copy: false]
+ at line 496 at bytecode index 43 at machine code offset 0x00004641
+   at [0x690f2f5c, 0x648653ab] Lorg/mmtk/policy/rcimmix/RCImmixObjectHeader; decLinesgs[0x69db0000 -> 0x69db7fff copy: false]
+(Lorg/vmmagic/unboxed/ObjectReference;)V at line 561 at bytecode index 9 at machine code offset gs[0x69db8000 -> 0x69dbffff copy: false]
+0x00004641
+   at [0x690f2f5c, 0x648653ab] Lorg/mmtk/plan/rcimmixconcurrent/RCImmixConcurrentCollector; processDecBuf(Lorg/mmtk/plan/rcimmixconcurrent/RCImmixConcurrentDecBuffer;)Vgs[0x69dc0000 -> 0x69dc7fff copy: false]
+ at line 432 at bytecode index 244 at machine code offset 0x00004641
+   at [0x690f2f5c, 0x648653ab] Lorg/mmtk/plan/rcimmixconcurrent/RCImmixConcurrentCollector;gs[0x69dc8000 -> 0x69dcffff copy: false]
+ concurrentCollectionPhase(S)V at line 140 at bytecode index 106 at machine code offset 0x00004641
+(0x690f2f80 9143)   at [0x690f2f80, 0x6487cc10] Lorg/mmtk/plan/rcimmixconcurrent/RCImmixConcurrentCollector; gs[0x69dd0000 -> 0x69dd7fff copy: false]
+concurrentCollect()V at line gs[0x69dd8000 -> 0x69ddffff copy: false]
+115 at bytecode index 29 at machine code offset 0x0000004b
+(0x690f2fa0 9137)   at [0x690f2fa0, 0x648c1638] Lorg/mmtk/plan/rcimmixconcurrent/RCImmixConcurrentCollector; run()V at line 192 at bytecode index 15 at machine code offset gs[0x69de0000 -> 0x69de7fff copy: false]
+0x000000b8
+(0x690f2fc0 16613)   at [0x690f2fc0, 0x64f725be] Lorg/jikesrvm/mm/mminterface/CollectorThread; run()V at line 82 at bytecode index 7 at machine code offset 0x0000002c
+(0x690f2ff8 21851)   at [0x690f2ff8, 0xf76f63d6] Lorg/jikesrvm/scheduler/RVMThread; startoff()V at line 2787 at bytecode index 71 at machine code offset 0x000001e2gs[0x69de8000 -> 0x69deffff copy: false]
+
+Attempting to dump the stack of all other live threads
+This is somewhat risky since if the thread is running we're going to be quite confused
+13-main-IN_JAVA-RUNNABLEgs[0x69df0000 -> 0x69df7fff copy: false]
+-- Stack --
+(0x64f52ab1 416)    WARNING: Instruction pointer 0x64f52cc4 not in method code   at [0x64f52ab1, 0x1068058b] Ljava/util/AbstractMap$SimpleEntry; <init>(Ljava/lang/Object;Ljava/lang/Object;)Vgs[0x69df8000 -> 0x69dfffff copy: false]
+
+Bogus looking frame pointer: 0x40244489 end of stack dump
+2-daemon-system-IN_JAVA-RUNNABLE3-daemon-system-BLOCKED_IN_NATIVE-RUNNABLEgs[0x69e00000 -> 0x69e07fff copy: false]
+-- Stack --
+(0x690c4fc0 20386)   at [0x690c4fc0, 0x64f725be] Lorg/jikesrvm/scheduler/FinalizerThread; run()V at line 78 at bytecode index 15 at machine code offset 0x000000d3
+(0x690c4ff8 21851)   at [0x690c4ff8, 0xf76f63d6] Lorg/jikesrvm/scheduler/RVMThread; startoff()V at line 2787 at bytecode index gs[0x69e08000 -> 0x69e0ffff copy: false]
+71 at machine code offset 0x000001e2
+4-daemon-system-collector-IN_JAVA-RUNNABLEEmpty stack
+6-daemon-system-collector-IN_JAVA-RUNNABLEEmpty stack
+7-daemon-system-IN_NATIVE-WAITING-- Stack --
+(0x691aef34 gs[0x69e10000 -> 0x69e17fff copy: false]
+21775)   at [0x691aef34, 0x64a342ff] Lorg/jikesrvm/scheduler/RVMThread; waitImpl(Ljava/lang/Object;ZJ)V at line 3426 at bytecode index 264 at machine code offset 0x00000baf
+(0x691aef68 13523)   at [0x691aef68, 0x648cded7] Lorg/jikesrvm/scheduler/RVMThread;gs[0x69e18000 -> 0x69e1ffff copy: false]
+ wait(Ljava/lang/Object;)V at line 3481 at bytecode index 6 at machine code offset 0x000000ef
+   at [0x691aef68, 0x648cded7] Ljava/lang/Object; wait()V at line 66 at bytecode index 1 at machine code offset 0x000000ef
+   at [gs[0x69e20000 -> 0x69e27fff copy: false]
+0x691aef68, 0x648cded7] Lorg/jikesrvm/adaptive/util/BlockingPriorityQueue; deleteMin()Ljava/lang/Object; at line 82 at bytecode index 15 at machine code offset 0x000000ef
+(0x691aefc0gs[0x69e28000 -> 0x69e2ffff copy: false]
+ 10067)   at [0x691aefc0, 0x64f725be] Lorg/jikesrvm/adaptive/controller/ControllerThread; run()V at line 161 at bytecode index 261 at machine code offset 0x000013fb
+(0x691aeff8 21851)   at [0x691aeff8, 0xf76f63d6] Lorg/jikesrvm/scheduler/RVMThread; gs[0x69e30000 -> 0x69e37fff copy: false]
+startoff()V at line 2787 at bytecode index 71 at machine code offset 0x000001e2
+8-daemon-system-BLOCKED_IN_NATIVE-RUNNABLE-- Stack --
+gs[0x69e38000 -> 0x69e3ffff copy: false]
+(0x6920ef50 2421)   at [0x6920ef50, 0x648c1b48] Lorg/jikesrvm/scheduler/Latch; waitAndCloseWithHandshake()V at line 95 at bytecode index 18 at machine code offset gs[0x69e40000 -> 0x69e47fff copy: false]
+0x00000064
+(0x6920ef6c 9778)   at [0x6920ef6c, 0x648c1bfb] Lorg/jikesrvm/adaptive/measurements/organizers/Organizer; passivate()V at line 92 at bytecode index 36 at machine code offset gs[0x69e48000 -> 0x69e4ffff copy: false]
+0x00000048
+(0x6920efc0 9776)   at [0x6920efc0, 0x64f725be] Lorg/jikesrvm/adaptive/measurements/organizers/Organizer; run()V at line 53 at bytecode index gs[0x69e50000 -> 0x69e57fff copy: false]
+5 at machine code offset gs[0x69e58000 -> 0x69e5ffff copy: false]
+0x00000077
+(0x6920eff8 21851)   at [0x6920eff8, 0xf76f63d6] Lorg/jikesrvm/scheduler/RVMThread; startoff()V at line 2787 at bytecode index 71 at machine code offset 0x000001e2
+9-daemon-system-BLOCKED_IN_NATIVE-RUNNABLEgs[0x69e60000 -> 0x69e67fff copy: false]
+-- Stack --
+(0x69252f50 2421)   at [0x69252f50, 0x648c1b48] Lorg/jikesrvm/scheduler/Latch; waitAndCloseWithHandshake()V at line 95 at bytecode index gs[0x69e68000 -> 0x69e6ffff copy: false]
+18 at machine code offset 0x00000064
+(0x69252f6c 9778)   at [0x69252f6c, 0x648c1bfb] Lorg/jikesrvm/adaptive/measurements/organizers/Organizer; passivate()V at line 92 at bytecode index 36 at machine code offset gs[0x69e70000 -> 0x69e77fff copy: false]
+0x00000048
+(0x69252fc0 9776)   at [0x69252fc0, 0x64f725be] Lorg/jikesrvm/adaptive/measurements/organizers/Organizer; run()V at line 53 at bytecode index 5 at machine code offset 0x00000077
+(0x69252ff8 21851)   at [0x69252ff8, 0xf76f63d6] Lorg/jikesrvm/scheduler/RVMThread; startoff()V at line 2787 at bytecode index 71 at machine code offset gs[0x69e78000 -> 0x69e7ffff copy: false]
+0x000001e2
+10-daemon-system-BLOCKED_IN_NATIVE-RUNNABLE-- Stack --
+(0x69296f50 2421)   at [0x69296f50, 0x648c1b48] Lorg/jikesrvm/scheduler/Latch;gs[0x69e80000 -> 0x69e87fff copy: false]
+ waitAndCloseWithHandshakegs[0x69e88000 -> 0x69e8ffff copy: false]
+()V at line 95 at bytecode index 18 at machine code offset 0x00000064
+(0x69296f6c 9778)   at [0x69296f6c, 0x648c1bfb] Lorg/jikesrvm/adaptive/measurements/organizers/Organizer; passivate()V at line 92 at bytecode index 36 at machine code offset 0x00000048
+(0x69296fc0 gs[0x69e90000 -> 0x69e97fff copy: false]
+9776)   at [0x69296fc0, 0x64f725be] Lorg/jikesrvm/adaptive/measurements/organizers/Organizer; run()V at line 53 at bytecode index 5 at machine code offset 0x00000077
+(0x69296ff8 21851)   at [0x69296ff8, 0xf76f63d6] Lorg/jikesrvm/scheduler/RVMThread; startoff()V at line 2787 at bytecode index 71gs[0x69e98000 -> 0x69e9ffff copy: false]
+ at machine code offset 0x000001e2
+11-daemon-system-IN_NATIVE-RUNNABLE-- Stack --
+(0x692dafc0 20390)   at [0x692dafc0, 0x64f725be] Lorg/jikesrvm/adaptive/OSROrganizerThread; run()V at line 43 at bytecode index 24 at machine code offset 0x00000072
+(0x692daff8 21851)   at [0x692daff8, 0xf76f63d6] Lorg/jikesrvm/scheduler/RVMThread; startoffgs[0x69ea0000 -> 0x69ea7fff copy: false]
+()V at line 2787 at bytecode index 71 at machine code offset 0x000001e2
+12-daemon-system-IN_NATIVE-WAITING-- Stack --
+(0x6931ef70 21775)   at [0x6931ef70gs[0x69ea8000 -> 0x69eaffff copy: false]
+, 0x64a342ff] Lorg/jikesrvm/scheduler/RVMThread; waitImpl(Ljava/lang/Object;ZJ)V at line 3426 at bytecode index 264 at machine code offset 0x00000baf
+gs[0x69eb0000 -> 0x69eb7fff copy: false]
+(0x6931efa4 13523)   at [0x6931efa4, 0x648c1a3c] Lorg/jikesrvm/scheduler/RVMThread; wait(Ljava/lang/Object;)V at line 3481 at bytecode index 6 at machine code offset 0x000000ef
+   at [0x6931efa4, 0x648c1a3c] Ljava/lang/Object; wait()V at line 66 at bytecode index 1 at machine code offset 0x000000ef
+   at [0x6931efa4, 0x648c1a3c] Lorg/jikesrvm/adaptive/util/BlockingPriorityQueue; deleteMin()Ljava/lang/Object; at line 82 at bytecode index 15 at machine code offset 0x000000ef
+(0x6931efc0 10450)   at [0x6931efc0, 0x64f725be] Lorg/jikesrvm/adaptive/recompilation/CompilationThread; run()V at line 50 at bytecode index 3 at machine code offset 0x00000058
+(0x6931eff8 21851)   at [0x6931eff8, 0xf76f63d6] Lorg/jikesrvm/scheduler/RVMThread; startoff()V at line 2787 at bytecode index 71 at machine code offset 0x000001e2
+********************************************************************************
+*                      Abnormal termination of Jikes RVM                       *
+* Jikes RVM terminated abnormally indicating a problem in the virtual machine. *
+* Jikes RVM relies on community support to get debug information. Help improve *
+* Jikes RVM for everybody by reporting this error. Please see:                 *
+*                    http://www.jikesrvm.org/ReportingBugs/                    *
+********************************************************************************

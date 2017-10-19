@@ -128,32 +128,52 @@ public class RCImmixConcurrentCollector extends SimpleCollector {
         VM.assertions._assert(!Plan.gcInProgress());
       }
 
-      if(Options.verbose.getValue() > 0){
+      if(RCImmixConcurrent.VERBOSE && Options.verbose.getValue() > 0){
         Log.write("[CONC("); Log.write(getId()); Log.write(")] In CONCURRENT");
       }
 
-      if(RCImmixConcurrent.CONC_DECBUF) {
-        if(Options.verbose.getValue() > 0) {
+      if(!performCycleCollection) {
+        if(RCImmixConcurrent.VERBOSE && Options.verbose.getValue() > 0) {
           Log.write(" doing DecBuf ");
         }
-        processDecBuf(true);
+        decBuffer = global().currentDecPool == 0 ? decBuffer1 : decBuffer0;
+        processDecBuf(decBuffer);
       }
 
-      if(Options.verbose.getValue() > 0){
+      if(RCImmixConcurrent.VERBOSE && Options.verbose.getValue() > 0){
         Log.writeln();
       }
 
+      if(RCImmixConcurrent.VERBOSE && Options.verbose.getValue() > 0){
+        Log.write("[CONC("); Log.write(getId()); Log.writeln(")] trying to terminate");
+      }
+
       if (rendezvous() == 0) {
-        if (!group.isAborted()) {
+        if(RCImmixConcurrent.VERBOSE && Options.verbose.getValue() > 0){
+          Log.write("[CONC("); Log.write(getId()); Log.writeln(")] terminating");
+        }
+
+        if (VM.VERIFY_ASSERTIONS && !performCycleCollection) {
+          if(RCImmixConcurrent.VERBOSE && Options.verbose.getValue() > 0) {
+            Log.write("[CONC(");
+            Log.write(getId());
+            Log.write(")] decBuffer");
+            Log.write(decBuffer == decBuffer0 ? 0 : 1);
+            Log.writeln(" should be empty");
+          }
+          VM.assertions._assert(decBuffer.isEmpty());
+        }
+
+//        if (!group.isAborted()) {
           /* We are responsible for ensuring termination. */
 //          if (Options.verbose.getValue() >= 2) Log.writeln("[CONC]< requesting mutator flush >");
 //          VM.collection.requestMutatorFlush();
 //
 //          if (Options.verbose.getValue() >= 2) Log.writeln("[CONC]< mutators flushed >");
 //          Phase.notifyConcurrentPhaseComplete();
-        }
+//        }
       }
-      rendezvous();
+//      rendezvous();
       return;
     }
 
@@ -206,6 +226,11 @@ public class RCImmixConcurrentCollector extends SimpleCollector {
       decBuffer = global().currentDecPool == 0 ? decBuffer0 : decBuffer1;
       performCycleCollection = RCImmixConcurrent.performCycleCollection;
 
+      if(RCImmixConcurrent.VERBOSE && Options.verbose.getValue() > 0){
+        Log.write("[COL] using decBuffer ");
+        Log.writeln(global().currentDecPool);
+      }
+
       return;
     }
 
@@ -226,9 +251,19 @@ public class RCImmixConcurrentCollector extends SimpleCollector {
 
     if (phaseId == RCImmixConcurrent.PROCESS_OLDROOTBUFFER) {
       ObjectReference current;
+
+      //boolean wrote = false;
+
       while(!(current = oldRootBuffer.pop()).isNull()) {
+        //wrote = true;
         decBuffer.push(current);
       }
+
+      //MYNOTE:
+//      if(wrote && Options.verbose.getValue() > 3){
+//        Log.write("+PROCESS_OLDROOTBUFFER: writing to pool=");
+//        Log.writeln(decBuffer == decBuffer0 ? 0 : 1);
+//      }
       return;
     }
 
@@ -279,10 +314,13 @@ public class RCImmixConcurrentCollector extends SimpleCollector {
 
     //MYNOTE:
     if (phaseId == RCImmixConcurrent.PROCESS_DECBUFFER) {
-      if(!RCImmixConcurrent.CONC_DECBUF) {
-        processDecBuf(false);
+      if(performCycleCollection) {
+        //XXX:
+        processDecBuf(decBuffer0);
+        processDecBuf(decBuffer1);
       } else {
-        decBuffer.flushLocal();
+        decBuffer0.flushLocal();
+        decBuffer1.flushLocal();
       }
       return;
     }
@@ -312,17 +350,6 @@ public class RCImmixConcurrentCollector extends SimpleCollector {
       return;
     }
 
-    //MYNOTE:
-    if(phaseId == RCImmixConcurrent.BT_CLOSURE_FLUSH_POOL){
-      if (RCImmixConcurrent.CC_BACKUP_TRACE && RCImmixConcurrent.performCycleCollection) {
-//        Log.writeln("flushing both pools");
-//        processDecCycle(decBuffer0);
-//        processDecCycle(decBuffer1);
-      }
-
-      return;
-    }
-
     if (phaseId == RCImmixConcurrent.RELEASE) {
       if (RCImmixConcurrent.CC_BACKUP_TRACE && RCImmixConcurrent.performCycleCollection) {
         backupTrace.release();
@@ -332,19 +359,32 @@ public class RCImmixConcurrentCollector extends SimpleCollector {
       if (VM.VERIFY_ASSERTIONS) {
         VM.assertions._assert(newRootPointerBuffer.isEmpty());
         VM.assertions._assert(modBuffer.isEmpty());
-//        VM.assertions._assert(decBuffer.isEmpty());
+        if(performCycleCollection)
+          VM.assertions._assert(decBuffer.isEmpty());
       }
       return;
     }
 
     //MYNOTE: what should we do here
     if (phaseId == RCImmixConcurrent.CONCURRENT_PREEMPT){
-      if(Options.verbose.getValue() > 0) {
+      if(RCImmixConcurrent.VERBOSE && Options.verbose.getValue() > 0) {
         Log.write("[CONC(");
         Log.write(getId());
         Log.write(")] In CONCURRENT_PREEMPT");
         Log.writeln();
       }
+
+      if(!performCycleCollection) {
+        processDecBuf(decBuffer);
+        if (VM.VERIFY_ASSERTIONS) {
+          if(RCImmixConcurrent.VERBOSE && Options.verbose.getValue() > 0) {
+            Log.write(decBuffer == decBuffer0 ? 0 : 1);
+            Log.writeln(" should be empty");
+          }
+          VM.assertions._assert(decBuffer.isEmpty());
+        }
+      }
+
       return;
     }
 
@@ -366,36 +406,25 @@ public class RCImmixConcurrentCollector extends SimpleCollector {
   }
 
   @Inline
-  private void processDecBuf(boolean conc){ // in concurrent collector thread
-    if(conc) {
-      decBuffer = global().currentDecPool == 0 ? decBuffer1 : decBuffer0;
-    }
+  private void processDecBuf(RCImmixConcurrentDecBuffer decBuffer){ // in concurrent collector thread
     SharedDeque curDecPool = decBuffer == decBuffer0 ? global().decPool0 : global().decPool1;
 
-    if(conc) {
-      if (Options.verbose.getValue() > 0) {
-        Log.write("using decpool ");
-        Log.write(1 - global().currentDecPool);
-        Log.write(" enqueued page:");
-        Log.writeln(curDecPool.enqueuedPages());
-      }
-    } else {
-      if (Options.verbose.getValue() > 0) {
-        Log.write("processDecBuf using pool=");
-        Log.write(decBuffer == decBuffer0 ? 0 : 1);
-        Log.write(" with enqueued page:");
-        Log.write(curDecPool.enqueuedPages());
-        Log.write(" performCycleCollection=");
-        Log.write(performCycleCollection);
-        Log.write(" RCImmixConcurrent.performCycleCollection=");
-        Log.writeln(RCImmixConcurrent.performCycleCollection);
-      }
+    if (RCImmixConcurrent.VERBOSE && Options.verbose.getValue() > 0) {
+      Log.write("processDecBuf using pool=");
+      Log.write(decBuffer == decBuffer0 ? 0 : 1);
+      Log.write(" with enqueued page:");
+      Log.write(curDecPool.enqueuedPages());
+      Log.write(" performCycleCollection=");
+      Log.write(performCycleCollection);
+      Log.write(" RCImmixConcurrent.performCycleCollection=");
+      Log.writeln(RCImmixConcurrent.performCycleCollection);
     }
 
     ObjectReference current;
     if(RCImmixConcurrent.CC_BACKUP_TRACE && performCycleCollection) {
-//      while (!(current = decBuffer.pop()).isNull()) {
-      while (curDecPool.enqueuedPages() > 0 && !(current = decBuffer.pop()).isNull()) {
+      while (!(current = decBuffer.pop()).isNull()) {
+        //MYNOTE: this will cause issues!!!
+//      while (curDecPool.enqueuedPages() > 0 && !(current = decBuffer.pop()).isNull()) {
         if (RCImmixObjectHeader.isNew(current)) {
           if (Space.isInSpace(RCImmixConcurrent.REF_COUNT_LOS, current)) {
             RCImmixConcurrent.rcloSpace.free(current);
@@ -405,8 +434,9 @@ public class RCImmixConcurrentCollector extends SimpleCollector {
         }
       }
     } else {
-//      while (!(current = decBuffer.pop()).isNull()) {
-      while (curDecPool.enqueuedPages() > 0 && !(current = decBuffer.pop()).isNull()) {
+      while (!(current = decBuffer.pop()).isNull()) {
+        //MYNOTE: this will cause issues!!!
+//      while (curDecPool.enqueuedPages() > 0 && !(current = decBuffer.pop()).isNull()) {
         if (RCImmixObjectHeader.isNew(current)) {
           if (Space.isInSpace(RCImmixConcurrent.REF_COUNT_LOS, current)) {
             RCImmixConcurrent.rcloSpace.free(current);
@@ -467,7 +497,7 @@ public class RCImmixConcurrentCollector extends SimpleCollector {
        VM.assertions._assert(bytes <= Plan.MAX_NON_LOS_COPY_BYTES);
        VM.assertions._assert(allocator == RCImmixConcurrent.ALLOC_DEFAULT);
      }
-     if (RCImmixConcurrent.performCycleCollection && RCImmixConcurrent.rcSpace.inImmixDefragCollection()) {
+     if (performCycleCollection && RCImmixConcurrent.rcSpace.inImmixDefragCollection()) {
        return copy.alloc(bytes, align, offset);
      } else return young.alloc(bytes, align, offset);
    }
@@ -479,7 +509,7 @@ public class RCImmixConcurrentCollector extends SimpleCollector {
        int bytes, int allocator) {
      if (VM.VERIFY_ASSERTIONS) VM.assertions._assert(allocator == RCImmixConcurrent.ALLOC_DEFAULT);
      if (VM.VERIFY_ASSERTIONS) VM.assertions._assert(Space.isInSpace(RCImmixConcurrent.REF_COUNT, object));
-     if (RCImmixConcurrent.performCycleCollection && RCImmixConcurrent.rcSpace.inImmixDefragCollection()) {
+     if (performCycleCollection && RCImmixConcurrent.rcSpace.inImmixDefragCollection()) {
        RCImmixConcurrent.rcSpace.postCopy(object, bytes);
 
        if (VM.VERIFY_ASSERTIONS) {

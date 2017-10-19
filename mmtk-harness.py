@@ -52,7 +52,9 @@ sys.stdout.flush()
 
 returncodes = []
 for i in range(repeat):
+    print("#"*20)
     print("iteration #{}".format(i))
+    print("#"*20)
     sys.stdout.flush()
 
     ret = subprocess.run(cmds)

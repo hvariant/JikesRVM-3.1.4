@@ -21,6 +21,7 @@ import org.mmtk.policy.rcimmix.RCImmixObjectHeader;
 import org.mmtk.utility.Log;
 import org.mmtk.utility.alloc.Allocator;
 import org.mmtk.utility.deque.ObjectReferenceDeque;
+import org.mmtk.utility.deque.SharedDeque;
 import org.mmtk.utility.options.Options;
 import org.mmtk.vm.VM;
 import org.vmmagic.pragma.Inline;
@@ -111,6 +112,11 @@ public class RCImmixConcurrentMutator extends StopTheWorldMutator {
       case RCImmixConcurrent.ALLOC_LOS:
       case RCImmixConcurrent.ALLOC_PRIMITIVE_LOS:
       case RCImmixConcurrent.ALLOC_LARGE_CODE:
+        //MYNOTE:
+//        if(Options.verbose.getValue() > 3){
+//          Log.write("writing to pool=");
+//          Log.writeln(decBuffer == decBuffer0 ? 0 : 1);
+//        }
         decBuffer.push(ref);
         RCImmixConcurrent.rcloSpace.initializeHeader(ref, true);
         RCImmixObjectHeader.initializeHeaderOther(ref, true);
@@ -118,6 +124,11 @@ public class RCImmixConcurrentMutator extends StopTheWorldMutator {
       case RCImmixConcurrent.ALLOC_NON_MOVING:
       case RCImmixConcurrent.ALLOC_CODE:
       case RCImmixConcurrent.ALLOC_IMMORTAL:
+        //MYNOTE:
+//        if(Options.verbose.getValue() > 3){
+//          Log.write("writing to pool=");
+//          Log.writeln(decBuffer == decBuffer0 ? 0 : 1);
+//        }
         decBuffer.push(ref);
         RCImmixObjectHeader.initializeHeaderOther(ref, true);
         return;
@@ -146,6 +157,12 @@ public class RCImmixConcurrentMutator extends StopTheWorldMutator {
   public void collectionPhase(short phaseId, boolean primary) {
     if (phaseId == RCImmixConcurrent.PREPARE) {
       rc.prepare();
+
+      if(RCImmixConcurrent.VERBOSE && Options.verbose.getValue() > 0){
+        Log.write("[MUT] using decBuffer ");
+        Log.writeln(decBuffer == decBuffer0 ? 0 : 1);
+      }
+
       return;
     }
 
@@ -155,20 +172,42 @@ public class RCImmixConcurrentMutator extends StopTheWorldMutator {
     }
 
     if (phaseId == RCImmixConcurrent.PROCESS_DECBUFFER) {
-      decBuffer.flushLocal();
+      //MYNOTE:
+//      decBuffer.flushLocal();
+      decBuffer0.flushLocal();
+      decBuffer1.flushLocal();
       return;
     }
 
     if (phaseId == RCImmixConcurrent.RELEASE) {
       rc.release();
       if (VM.VERIFY_ASSERTIONS) VM.assertions._assert(modBuffer.isEmpty());
-//      if (VM.VERIFY_ASSERTIONS) VM.assertions._assert(decBuffer.isEmpty());
+      if (VM.VERIFY_ASSERTIONS){ //MYNOTE:
+        if(RCImmixConcurrent.VERBOSE && Options.verbose.getValue() > 0){
+          Log.write("otherpool=");
+          Log.write(decBuffer == decBuffer1 ? 0 : 1);
+        }
+        RCImmixConcurrentDecBuffer otherDecBuffer = decBuffer == decBuffer0 ? decBuffer1 : decBuffer0;
+        SharedDeque otherDecPool = decBuffer == decBuffer0 ? global().decPool1 : global().decPool0;
+        boolean empty = otherDecBuffer.isEmpty();
+        if(RCImmixConcurrent.VERBOSE && Options.verbose.getValue() > 0) {
+          Log.write(" enqueuedPages=");
+          Log.write(otherDecPool.enqueuedPages());
+          Log.write(" ");
+          if (!empty) {
+            Log.writeln("IS NOT EMPTY");
+          } else {
+            Log.writeln();
+          }
+        }
+//        VM.assertions._assert(empty);
+      }
       return;
     }
 
     //MYNOTE:
     if(phaseId == RCImmixConcurrent.SWITCH_DECPOOL){
-      if(Options.verbose.getValue() > 0){
+      if(RCImmixConcurrent.VERBOSE && Options.verbose.getValue() > 0){
         Log.write("[MUT] switching to pool ");
         Log.writeln(global().currentDecPool);
       }
@@ -181,7 +220,10 @@ public class RCImmixConcurrentMutator extends StopTheWorldMutator {
 
   @Override
   public final void flushRememberedSets() {
-    decBuffer.flushLocal();
+    //MYNOTE:
+//    decBuffer.flushLocal();
+    decBuffer0.flushLocal();
+    decBuffer1.flushLocal();
     modBuffer.flushLocal();
     assertRemsetsFlushed();
   }
@@ -189,7 +231,8 @@ public class RCImmixConcurrentMutator extends StopTheWorldMutator {
   @Override
   public final void assertRemsetsFlushed() {
     if (VM.VERIFY_ASSERTIONS) {
-      VM.assertions._assert(decBuffer.isFlushed());
+      VM.assertions._assert(decBuffer0.isFlushed());
+      VM.assertions._assert(decBuffer1.isFlushed());
       VM.assertions._assert(modBuffer.isFlushed());
     }
   }
@@ -272,7 +315,14 @@ public class RCImmixConcurrentMutator extends StopTheWorldMutator {
   private void coalescingWriteBarrierSlow(ObjectReference srcObj) {
     if (RCImmixObjectHeader.attemptToLog(srcObj)) {
       modBuffer.push(srcObj);
+
+      //MYNOTE:
+//      if(Options.verbose.getValue() > 3){
+//        Log.write("writing to pool=");
+//        Log.writeln(decBuffer == decBuffer0 ? 0 : 1);
+//      }
       decBuffer.processChildren(srcObj);
+
       RCImmixObjectHeader.makeLogged(srcObj);
     }
   }

@@ -48,13 +48,15 @@ public class RCImmixConcurrent extends StopTheWorld {
   public static final short PROCESS_MODBUFFER      = Phase.createSimple("mods");
   public static final short PROCESS_DECBUFFER      = Phase.createSimple("decs");
 
+  public static final boolean VERBOSE = false;
+
   /** Is cycle collection enabled? */
-//  public static final boolean CC_ENABLED           = true;
-  public static final boolean CC_ENABLED           = false;
+  public static final boolean CC_ENABLED           = true;
   /** Force full cycle collection at each GC? */
   public static boolean CC_FORCE_FULL        = false;
   /** Use backup tracing for cycle collection (currently the only option) */
   public static final boolean CC_BACKUP_TRACE      = true;
+//  public static final boolean CC_BACKUP_TRACE      = false;
   public static final boolean RC_SURVIVOR_COPY = true;
 
   public static boolean performCycleCollection;
@@ -63,7 +65,7 @@ public class RCImmixConcurrent extends StopTheWorld {
   public static int defragTriggerThreshold;
   public static final short BT_CLOSURE_INIT        = Phase.createSimple("closure-bt-init");
   public static final short BT_CLOSURE             = Phase.createSimple("closure-bt");
-  public static final short BT_CLOSURE_FLUSH_POOL  = Phase.createSimple("closure-flush-pool");
+//  public static final short BT_CLOSURE_FLUSH_POOL  = Phase.createSimple("closure-flush-pool");
 
   // CHECKSTYLE:OFF
 
@@ -82,11 +84,10 @@ public class RCImmixConcurrent extends StopTheWorld {
       Phase.scheduleGlobal     (PROCESS_DECBUFFER),
       Phase.scheduleCollector  (PROCESS_DECBUFFER),
       Phase.scheduleGlobal     (BT_CLOSURE_INIT),
-      Phase.scheduleCollector  (BT_CLOSURE_INIT), 
+      Phase.scheduleCollector  (BT_CLOSURE_INIT),
       Phase.scheduleGlobal     (BT_CLOSURE),
-      Phase.scheduleCollector  (BT_CLOSURE),
-      Phase.scheduleCollector  (BT_CLOSURE_FLUSH_POOL));
- 
+      Phase.scheduleCollector  (BT_CLOSURE));
+
   /**
    * Perform the initial determination of liveness from the roots.
    */
@@ -112,9 +113,6 @@ public class RCImmixConcurrent extends StopTheWorld {
   /**
    * Is concurrent collection allowed?
    */
-
-//  public static boolean CONC_DECBUF = true;
-  public static boolean CONC_DECBUF = false;
 
   /**
    * This is the phase that is executed to perform a collection.
@@ -182,7 +180,7 @@ public class RCImmixConcurrent extends StopTheWorld {
     Options.cycleTriggerFraction = new CycleTriggerFraction();
     Options.defragTriggerFraction = new DefragTriggerFraction();
     Options.survivorCopyMultiplier = new SurvivorCopyMultiplier();
-    
+
     rootTrace = new Trace(metaDataSpace);
     backupTrace = new Trace(metaDataSpace);
     loFreeSweeper = new RCImmixConcurrentBTLargeSweeper();
@@ -286,10 +284,8 @@ public class RCImmixConcurrent extends StopTheWorld {
 
     if (phaseId == PROCESS_DECBUFFER) {
       //MYNOTE:
-//      if(!CONC_DECBUF) {
       decPool0.prepare();
       decPool1.prepare();
-//      }
       return;
     }
 
@@ -355,10 +351,8 @@ public class RCImmixConcurrent extends StopTheWorld {
 
     if (phaseId == CONCURRENT_PREPARE) {
       //MYNOTE:
-      if(CONC_DECBUF) {
-        decPool0.prepare();
-        decPool1.prepare();
-      }
+      decPool0.prepare();
+      decPool1.prepare();
       return;
     }
 

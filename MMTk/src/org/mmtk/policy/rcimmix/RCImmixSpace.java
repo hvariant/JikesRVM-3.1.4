@@ -273,7 +273,7 @@ public final class RCImmixSpace extends Space {
       RCImmixChunk.updateHighWater(rtn);
       //MYNOTE:
 //      if (VM.VERIFY_ASSERTIONS && Options.verbose.getValue() >= 9) {
-      if (VM.VERIFY_ASSERTIONS && Options.verbose.getValue() > 1) {
+      if (VM.VERIFY_ASSERTIONS && Options.verbose.getValue() > 3) {
         Log.write("gs["); Log.write(rtn); Log.write(" -> "); Log.write(rtn.plus(BYTES_IN_BLOCK-1)); Log.write(" copy: "); Log.write(copy); Log.writeln("]");
       }
     }
@@ -342,7 +342,7 @@ public final class RCImmixSpace extends Space {
     RCImmixBlock.setBlockAsUnallocated(block);
 
     //MYNOTE:
-    if(Options.verbose.getValue() > 1) {
+    if(Options.verbose.getValue() > 3) {
       Log.write("released block:");
       Log.writeln(block);
     }

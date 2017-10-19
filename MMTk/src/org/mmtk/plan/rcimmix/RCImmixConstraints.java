@@ -39,4 +39,6 @@ public class RCImmixConstraints extends StopTheWorldConstraints {
   public boolean movesObjects() { return true;}
   @Override
   public int maxNonLOSCopyBytes() { return MAX_IMMIX_OBJECT_BYTES; }
+  @Override
+  public int maxNumGCThreads(){ return 1; }
 }
