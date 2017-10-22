@@ -40,5 +40,5 @@ public class RCImmixConstraints extends StopTheWorldConstraints {
   @Override
   public int maxNonLOSCopyBytes() { return MAX_IMMIX_OBJECT_BYTES; }
   @Override
-  public int maxNumGCThreads(){ return 2; }
+  public int maxNumGCThreads(){ return 1; }
 }

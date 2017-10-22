@@ -119,8 +119,11 @@ public class RCImmixDefrag {
     if (forceDefrag) {
       inDefragCollection = true;
     } else {
-      inDefragCollection =  (collectionAttempt > 1) ||
-          emergencyCollection ||
+      //MYNOTE:
+//      inDefragCollection =  (collectionAttempt > 1) ||
+//          emergencyCollection ||
+//          collectWholeHeap && (Options.defragStress.getValue() || (userTriggered && Options.fullHeapSystemGC.getValue()));
+      inDefragCollection = emergencyCollection ||
           collectWholeHeap && (Options.defragStress.getValue() || (userTriggered && Options.fullHeapSystemGC.getValue()));
     }
     /*if (inDefragCollection) {

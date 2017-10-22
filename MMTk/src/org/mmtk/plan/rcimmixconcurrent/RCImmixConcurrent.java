@@ -229,7 +229,8 @@ public class RCImmixConcurrent extends StopTheWorld {
       super.collectionPhase(phaseId);
       if (CC_ENABLED) {
         CC_FORCE_FULL = Options.fullHeapSystemGC.getValue();
-        performCycleCollection |= (collectionAttempt > 1) || emergencyCollection || CC_FORCE_FULL;
+//        performCycleCollection |= (collectionAttempt > 1) || emergencyCollection || CC_FORCE_FULL;
+        performCycleCollection |= (collectionAttempt > 2) || emergencyCollection || CC_FORCE_FULL;
         RCImmixObjectHeader.performCycleCollection = performCycleCollection;
         if (performCycleCollection && Options.verbose.getValue() > 0){
           Log.write(" [CC]");
