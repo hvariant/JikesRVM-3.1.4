@@ -169,7 +169,7 @@ public final class RCImmixSpace extends Space {
    * @param userTriggeredCollection Was this collection requested by the user?
    */
   public void decideWhetherToDefrag(boolean emergencyCollection, boolean collectWholeHeap, int collectionAttempt, boolean userTriggeredCollection, boolean forceDefrag) {
-//    rCImmixDefrag.decideWhetherToDefrag(emergencyCollection, collectWholeHeap, collectionAttempt, userTriggeredCollection, exhaustedReusableSpace, forceDefrag);
+    rCImmixDefrag.decideWhetherToDefrag(emergencyCollection, collectWholeHeap, collectionAttempt, userTriggeredCollection, exhaustedReusableSpace, forceDefrag);
   }
 
   /**
