@@ -1,0 +1,4334 @@
+M 80 < BootstrapCL, Lorg/jikesrvm/Options;, process, (Ljava/lang/String;)Z >
+	6	forwbranch < 0, 0 > Never Executed
+	20	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+	126	forwbranch < 0, 0 > Never Executed
+	143	forwbranch < 0, 0 > Never Executed
+	152	forwbranch < 0, 0 > Never Executed
+	167	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	193	forwbranch < 0, 0 > Never Executed
+	208	forwbranch < 0, 0 > Never Executed
+	225	forwbranch < 0, 0 > Never Executed
+	234	forwbranch < 0, 0 > Never Executed
+	249	forwbranch < 0, 0 > Never Executed
+	266	forwbranch < 0, 0 > Never Executed
+	275	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 0, 0 > Never Executed
+	307	forwbranch < 0, 0 > Never Executed
+	316	forwbranch < 0, 0 > Never Executed
+	331	forwbranch < 0, 0 > Never Executed
+	348	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 0 > Never Executed
+	372	forwbranch < 0, 0 > Never Executed
+	389	forwbranch < 0, 0 > Never Executed
+	398	forwbranch < 0, 0 > Never Executed
+	413	forwbranch < 0, 0 > Never Executed
+	430	forwbranch < 0, 0 > Never Executed
+	448	forwbranch < 0, 0 > Never Executed
+	466	forwbranch < 0, 0 > Never Executed
+	484	forwbranch < 0, 0 > Never Executed
+	502	forwbranch < 0, 0 > Never Executed
+	520	forwbranch < 0, 0 > Never Executed
+	535	forwbranch < 0, 0 > Never Executed
+	553	forwbranch < 0, 0 > Never Executed
+	571	forwbranch < 0, 0 > Never Executed
+	589	forwbranch < 0, 0 > Never Executed
+	607	forwbranch < 0, 0 > Never Executed
+	622	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshake, ()V >
+	9	forwbranch < 0, 4247 > 0.0% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, unlock, ()V >
+	11	forwbranch < 41508, 219152 > 15.924192% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshake, (Lorg/jikesrvm/scheduler/Monitor;Lorg/vmmagic/unboxed/Word;Lorg/jikesrvm/scheduler/Monitor;Lorg/vmmagic/unboxed/Word;)V >
+	5	forwbranch < 825, 1253 > 39.701637% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockNoHandshake, ()V >
+	9	forwbranch < 41739, 215724 > 16.211649% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/RVMThread;, transferExecutionToNewStack, ([BLorg/jikesrvm/architecture/AbstractRegisters;)V >
+	61	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/lang/Package;, <init>, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/URL;Ljava/lang/ClassLoader;)V >
+	5	forwbranch < 399, 0 > 100.0% taken
+M 20 < BootstrapCL, Ljava/lang/reflect/Array;, getLength, (Ljava/lang/Object;)I >
+	4	forwbranch < 24031, 41085 > 36.904907% taken
+	20	forwbranch < 24031, 0 > 100.0% taken
+	36	forwbranch < 24031, 0 > 100.0% taken
+	52	forwbranch < 24030, 1 > 99.99584% taken
+	68	forwbranch < 24030, 0 > 100.0% taken
+	84	forwbranch < 0, 24030 > 0.0% taken
+	100	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 0 > Never Executed
+	132	forwbranch < 0, 0 > Never Executed
+	145	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljava/lang/VMClassLoader;, <clinit>, ()V >
+	45	forwbranch < 0, 1 > 0.0% taken
+	81	forwbranch < 1, 399 > 0.25% taken
+M 598 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 0, 0 > Never Executed
+	21	forwbranch < 0, 0 > Never Executed
+	34	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 0, 0 > Never Executed
+	70	forwbranch < 0, 0 > Never Executed
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 0, 0 > Never Executed
+	240	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 0, 0 > Never Executed
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 0, 0 > Never Executed
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 0, 0 > Never Executed
+	378	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 0, 0 > Never Executed
+	414	forwbranch < 0, 0 > Never Executed
+	424	forwbranch < 0, 0 > Never Executed
+	441	forwbranch < 0, 0 > Never Executed
+	460	forwbranch < 0, 0 > Never Executed
+	470	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 0, 0 > Never Executed
+	516	forwbranch < 0, 0 > Never Executed
+	533	forwbranch < 0, 0 > Never Executed
+	552	forwbranch < 0, 0 > Never Executed
+	562	forwbranch < 0, 0 > Never Executed
+	579	forwbranch < 0, 0 > Never Executed
+	598	forwbranch < 0, 0 > Never Executed
+	608	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	644	forwbranch < 0, 0 > Never Executed
+	654	forwbranch < 0, 0 > Never Executed
+	671	forwbranch < 0, 0 > Never Executed
+	690	forwbranch < 0, 0 > Never Executed
+	700	forwbranch < 0, 0 > Never Executed
+	717	forwbranch < 0, 0 > Never Executed
+	736	forwbranch < 0, 0 > Never Executed
+	746	forwbranch < 0, 0 > Never Executed
+	763	forwbranch < 0, 0 > Never Executed
+	782	forwbranch < 0, 0 > Never Executed
+	792	forwbranch < 0, 0 > Never Executed
+	809	forwbranch < 0, 0 > Never Executed
+	828	forwbranch < 0, 0 > Never Executed
+	838	forwbranch < 0, 0 > Never Executed
+	855	forwbranch < 0, 0 > Never Executed
+	874	forwbranch < 0, 0 > Never Executed
+	884	forwbranch < 0, 0 > Never Executed
+	901	forwbranch < 0, 0 > Never Executed
+	920	forwbranch < 0, 0 > Never Executed
+	930	forwbranch < 0, 0 > Never Executed
+	947	forwbranch < 0, 0 > Never Executed
+	966	forwbranch < 0, 0 > Never Executed
+	976	forwbranch < 0, 0 > Never Executed
+	993	forwbranch < 0, 0 > Never Executed
+	1012	forwbranch < 0, 0 > Never Executed
+	1022	forwbranch < 0, 0 > Never Executed
+	1039	forwbranch < 0, 0 > Never Executed
+	1058	forwbranch < 0, 0 > Never Executed
+	1068	forwbranch < 0, 0 > Never Executed
+	1085	forwbranch < 0, 0 > Never Executed
+	1104	forwbranch < 0, 0 > Never Executed
+	1114	forwbranch < 0, 0 > Never Executed
+	1131	forwbranch < 0, 0 > Never Executed
+	1150	forwbranch < 0, 0 > Never Executed
+	1160	forwbranch < 0, 0 > Never Executed
+	1177	forwbranch < 0, 0 > Never Executed
+	1196	forwbranch < 0, 0 > Never Executed
+	1206	forwbranch < 0, 0 > Never Executed
+	1223	forwbranch < 0, 0 > Never Executed
+	1242	forwbranch < 0, 0 > Never Executed
+	1252	forwbranch < 0, 0 > Never Executed
+	1269	forwbranch < 0, 0 > Never Executed
+	1288	forwbranch < 0, 0 > Never Executed
+	1298	forwbranch < 0, 0 > Never Executed
+	1315	forwbranch < 0, 0 > Never Executed
+	1334	forwbranch < 0, 0 > Never Executed
+	1344	forwbranch < 0, 0 > Never Executed
+	1361	forwbranch < 0, 0 > Never Executed
+	1380	forwbranch < 0, 0 > Never Executed
+	1390	forwbranch < 0, 0 > Never Executed
+	1407	forwbranch < 0, 0 > Never Executed
+	1426	forwbranch < 0, 0 > Never Executed
+	1436	forwbranch < 0, 0 > Never Executed
+	1453	forwbranch < 0, 0 > Never Executed
+	1472	forwbranch < 0, 0 > Never Executed
+	1482	forwbranch < 0, 0 > Never Executed
+	1499	forwbranch < 0, 0 > Never Executed
+	1518	forwbranch < 0, 0 > Never Executed
+	1528	forwbranch < 0, 0 > Never Executed
+	1545	forwbranch < 0, 0 > Never Executed
+	1564	forwbranch < 0, 0 > Never Executed
+	1574	forwbranch < 0, 0 > Never Executed
+	1591	forwbranch < 0, 0 > Never Executed
+	1610	forwbranch < 0, 0 > Never Executed
+	1620	forwbranch < 0, 0 > Never Executed
+	1637	forwbranch < 0, 0 > Never Executed
+	1656	forwbranch < 0, 0 > Never Executed
+	1666	forwbranch < 0, 0 > Never Executed
+	1683	forwbranch < 0, 0 > Never Executed
+	1702	forwbranch < 0, 0 > Never Executed
+	1712	forwbranch < 0, 0 > Never Executed
+	1729	forwbranch < 0, 0 > Never Executed
+	1748	forwbranch < 0, 0 > Never Executed
+	1758	forwbranch < 0, 0 > Never Executed
+	1775	forwbranch < 0, 0 > Never Executed
+	1794	forwbranch < 0, 0 > Never Executed
+	1804	forwbranch < 0, 0 > Never Executed
+	1821	forwbranch < 0, 0 > Never Executed
+	1840	forwbranch < 0, 0 > Never Executed
+	1850	forwbranch < 0, 0 > Never Executed
+	1867	forwbranch < 0, 0 > Never Executed
+	1886	forwbranch < 0, 0 > Never Executed
+	1896	forwbranch < 0, 0 > Never Executed
+	1913	forwbranch < 0, 0 > Never Executed
+	1932	forwbranch < 0, 0 > Never Executed
+	1942	forwbranch < 0, 0 > Never Executed
+	1959	forwbranch < 0, 0 > Never Executed
+	1978	forwbranch < 0, 0 > Never Executed
+	1988	forwbranch < 0, 0 > Never Executed
+	2005	forwbranch < 0, 0 > Never Executed
+	2024	forwbranch < 0, 0 > Never Executed
+	2034	forwbranch < 0, 0 > Never Executed
+	2051	forwbranch < 0, 0 > Never Executed
+	2070	forwbranch < 0, 0 > Never Executed
+	2080	forwbranch < 0, 0 > Never Executed
+	2097	forwbranch < 0, 0 > Never Executed
+	2116	forwbranch < 0, 0 > Never Executed
+	2126	forwbranch < 0, 0 > Never Executed
+	2143	forwbranch < 0, 0 > Never Executed
+	2162	forwbranch < 0, 0 > Never Executed
+	2172	forwbranch < 0, 0 > Never Executed
+	2189	forwbranch < 0, 0 > Never Executed
+	2208	forwbranch < 0, 0 > Never Executed
+	2218	forwbranch < 0, 0 > Never Executed
+	2235	forwbranch < 0, 0 > Never Executed
+	2254	forwbranch < 0, 0 > Never Executed
+	2264	forwbranch < 0, 0 > Never Executed
+	2281	forwbranch < 0, 0 > Never Executed
+	2300	forwbranch < 0, 0 > Never Executed
+	2310	forwbranch < 0, 0 > Never Executed
+	2327	forwbranch < 0, 0 > Never Executed
+	2346	forwbranch < 0, 0 > Never Executed
+	2356	forwbranch < 0, 0 > Never Executed
+	2373	forwbranch < 0, 0 > Never Executed
+	2392	forwbranch < 0, 0 > Never Executed
+	2402	forwbranch < 0, 0 > Never Executed
+	2419	forwbranch < 0, 0 > Never Executed
+	2438	forwbranch < 0, 0 > Never Executed
+	2448	forwbranch < 0, 0 > Never Executed
+	2465	forwbranch < 0, 0 > Never Executed
+	2484	forwbranch < 0, 0 > Never Executed
+	2494	forwbranch < 0, 0 > Never Executed
+	2511	forwbranch < 0, 0 > Never Executed
+	2530	forwbranch < 0, 0 > Never Executed
+	2540	forwbranch < 0, 0 > Never Executed
+	2557	forwbranch < 0, 0 > Never Executed
+	2576	forwbranch < 0, 0 > Never Executed
+	2586	forwbranch < 0, 0 > Never Executed
+	2603	forwbranch < 0, 0 > Never Executed
+	2622	forwbranch < 0, 0 > Never Executed
+	2632	forwbranch < 0, 0 > Never Executed
+	2649	forwbranch < 0, 0 > Never Executed
+	2668	forwbranch < 0, 0 > Never Executed
+	2678	forwbranch < 0, 0 > Never Executed
+	2695	forwbranch < 0, 0 > Never Executed
+	2714	forwbranch < 0, 0 > Never Executed
+	2724	forwbranch < 0, 0 > Never Executed
+	2741	forwbranch < 0, 0 > Never Executed
+	2760	forwbranch < 0, 0 > Never Executed
+	2770	forwbranch < 0, 0 > Never Executed
+	2787	forwbranch < 0, 0 > Never Executed
+	2806	forwbranch < 0, 0 > Never Executed
+	2816	forwbranch < 0, 0 > Never Executed
+	2833	forwbranch < 0, 0 > Never Executed
+	2852	forwbranch < 0, 0 > Never Executed
+	2862	forwbranch < 0, 0 > Never Executed
+	2879	forwbranch < 0, 0 > Never Executed
+	2898	forwbranch < 0, 0 > Never Executed
+	2908	forwbranch < 0, 0 > Never Executed
+	2925	forwbranch < 0, 0 > Never Executed
+	2944	forwbranch < 0, 0 > Never Executed
+	2954	forwbranch < 0, 0 > Never Executed
+	2971	forwbranch < 0, 0 > Never Executed
+	2990	forwbranch < 0, 0 > Never Executed
+	3000	forwbranch < 0, 0 > Never Executed
+	3017	forwbranch < 0, 0 > Never Executed
+	3036	forwbranch < 0, 0 > Never Executed
+	3046	forwbranch < 0, 0 > Never Executed
+	3063	forwbranch < 0, 0 > Never Executed
+	3082	forwbranch < 0, 0 > Never Executed
+	3092	forwbranch < 0, 0 > Never Executed
+	3109	forwbranch < 0, 0 > Never Executed
+	3128	forwbranch < 0, 0 > Never Executed
+	3138	forwbranch < 0, 0 > Never Executed
+	3155	forwbranch < 0, 0 > Never Executed
+	3174	forwbranch < 0, 0 > Never Executed
+	3184	forwbranch < 0, 0 > Never Executed
+	3201	forwbranch < 0, 0 > Never Executed
+	3220	forwbranch < 0, 0 > Never Executed
+	3230	forwbranch < 0, 0 > Never Executed
+	3247	forwbranch < 0, 0 > Never Executed
+	3266	forwbranch < 0, 0 > Never Executed
+	3276	forwbranch < 0, 0 > Never Executed
+	3293	forwbranch < 0, 0 > Never Executed
+	3312	forwbranch < 0, 0 > Never Executed
+	3322	forwbranch < 0, 0 > Never Executed
+	3339	forwbranch < 0, 0 > Never Executed
+	3358	forwbranch < 0, 0 > Never Executed
+	3368	forwbranch < 0, 0 > Never Executed
+	3385	forwbranch < 0, 0 > Never Executed
+	3404	forwbranch < 0, 0 > Never Executed
+	3414	forwbranch < 0, 0 > Never Executed
+	3431	forwbranch < 0, 0 > Never Executed
+	3450	forwbranch < 0, 0 > Never Executed
+	3460	forwbranch < 0, 0 > Never Executed
+	3477	forwbranch < 0, 0 > Never Executed
+	3496	forwbranch < 0, 0 > Never Executed
+	3506	forwbranch < 0, 0 > Never Executed
+	3523	forwbranch < 0, 0 > Never Executed
+	3543	forwbranch < 0, 0 > Never Executed
+	3553	forwbranch < 0, 0 > Never Executed
+	3570	forwbranch < 0, 0 > Never Executed
+	3590	forwbranch < 0, 0 > Never Executed
+	3600	forwbranch < 0, 0 > Never Executed
+	3617	forwbranch < 0, 0 > Never Executed
+	3637	forwbranch < 0, 0 > Never Executed
+	3647	forwbranch < 0, 0 > Never Executed
+	3664	forwbranch < 0, 0 > Never Executed
+	3684	forwbranch < 0, 0 > Never Executed
+	3694	forwbranch < 0, 0 > Never Executed
+	3711	forwbranch < 0, 0 > Never Executed
+	3731	forwbranch < 0, 0 > Never Executed
+	3741	forwbranch < 0, 0 > Never Executed
+	3758	forwbranch < 0, 0 > Never Executed
+	3778	forwbranch < 0, 0 > Never Executed
+	3788	forwbranch < 0, 0 > Never Executed
+	3805	forwbranch < 0, 0 > Never Executed
+	3825	forwbranch < 0, 0 > Never Executed
+	3835	forwbranch < 0, 0 > Never Executed
+	3852	forwbranch < 0, 0 > Never Executed
+	3872	forwbranch < 0, 0 > Never Executed
+	3879	forwbranch < 0, 0 > Never Executed
+	3913	forwbranch < 0, 0 > Never Executed
+	3935	forwbranch < 0, 0 > Never Executed
+	3954	forwbranch < 0, 0 > Never Executed
+	3973	forwbranch < 0, 0 > Never Executed
+	3984	forwbranch < 0, 0 > Never Executed
+	4002	forwbranch < 0, 0 > Never Executed
+	4020	forwbranch < 0, 0 > Never Executed
+	4038	forwbranch < 0, 0 > Never Executed
+	4058	forwbranch < 0, 0 > Never Executed
+	4080	forwbranch < 0, 0 > Never Executed
+	4103	forwbranch < 0, 0 > Never Executed
+	4125	forwbranch < 0, 0 > Never Executed
+	4147	forwbranch < 0, 0 > Never Executed
+	4169	forwbranch < 0, 0 > Never Executed
+	4180	forwbranch < 0, 0 > Never Executed
+	4198	forwbranch < 0, 0 > Never Executed
+	4216	forwbranch < 0, 0 > Never Executed
+	4236	forwbranch < 0, 0 > Never Executed
+	4259	forwbranch < 0, 0 > Never Executed
+	4282	forwbranch < 0, 0 > Never Executed
+	4304	forwbranch < 0, 0 > Never Executed
+	4326	forwbranch < 0, 0 > Never Executed
+	4348	forwbranch < 0, 0 > Never Executed
+	4370	forwbranch < 0, 0 > Never Executed
+	4393	forwbranch < 0, 0 > Never Executed
+	4415	forwbranch < 0, 0 > Never Executed
+	4437	forwbranch < 0, 0 > Never Executed
+	4459	forwbranch < 0, 0 > Never Executed
+	4481	forwbranch < 0, 0 > Never Executed
+	4504	forwbranch < 0, 0 > Never Executed
+	4527	forwbranch < 0, 0 > Never Executed
+	4550	forwbranch < 0, 0 > Never Executed
+	4573	forwbranch < 0, 0 > Never Executed
+	4596	forwbranch < 0, 0 > Never Executed
+	4619	forwbranch < 0, 0 > Never Executed
+	4642	forwbranch < 0, 0 > Never Executed
+	4665	forwbranch < 0, 0 > Never Executed
+	4688	forwbranch < 0, 0 > Never Executed
+	4710	forwbranch < 0, 0 > Never Executed
+	4733	forwbranch < 0, 0 > Never Executed
+	4744	forwbranch < 0, 0 > Never Executed
+	4762	forwbranch < 0, 0 > Never Executed
+	4780	forwbranch < 0, 0 > Never Executed
+	4800	forwbranch < 0, 0 > Never Executed
+	4807	forwbranch < 0, 0 > Never Executed
+M 16 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, printOptions, ()V >
+	332	forwbranch < 0, 0 > Never Executed
+	345	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 0 > Never Executed
+	370	forwbranch < 0, 0 > Never Executed
+	383	forwbranch < 0, 0 > Never Executed
+	397	forwbranch < 0, 0 > Never Executed
+	410	forwbranch < 0, 0 > Never Executed
+	424	forwbranch < 0, 0 > Never Executed
+M 180 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 4, 0 > 100.0% taken
+	21	forwbranch < 4, 0 > 100.0% taken
+	34	forwbranch < 4, 0 > 100.0% taken
+	50	forwbranch < 0, 4 > 0.0% taken
+	60	forwbranch < 0, 4 > 0.0% taken
+	70	forwbranch < 4, 0 > 100.0% taken
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 4, 0 > 100.0% taken
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 4, 0 > 100.0% taken
+	194	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 3, 1 > 75.0% taken
+	240	forwbranch < 0, 1 > 0.0% taken
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 3, 0 > 100.0% taken
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 3, 0 > 100.0% taken
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 3, 0 > 100.0% taken
+	378	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 0, 0 > Never Executed
+	414	forwbranch < 3, 0 > 100.0% taken
+	424	forwbranch < 0, 0 > Never Executed
+	441	forwbranch < 0, 0 > Never Executed
+	460	forwbranch < 3, 0 > 100.0% taken
+	470	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 3, 0 > 100.0% taken
+	516	forwbranch < 0, 0 > Never Executed
+	533	forwbranch < 0, 0 > Never Executed
+	552	forwbranch < 3, 0 > 100.0% taken
+	562	forwbranch < 0, 0 > Never Executed
+	579	forwbranch < 0, 0 > Never Executed
+	598	forwbranch < 3, 0 > 100.0% taken
+	608	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	644	forwbranch < 3, 0 > 100.0% taken
+	654	forwbranch < 0, 0 > Never Executed
+	671	forwbranch < 0, 0 > Never Executed
+	690	forwbranch < 3, 0 > 100.0% taken
+	700	forwbranch < 0, 0 > Never Executed
+	717	forwbranch < 0, 0 > Never Executed
+	736	forwbranch < 3, 0 > 100.0% taken
+	746	forwbranch < 0, 0 > Never Executed
+	763	forwbranch < 0, 0 > Never Executed
+	782	forwbranch < 3, 0 > 100.0% taken
+	792	forwbranch < 0, 0 > Never Executed
+	809	forwbranch < 0, 0 > Never Executed
+	828	forwbranch < 3, 0 > 100.0% taken
+	838	forwbranch < 0, 0 > Never Executed
+	855	forwbranch < 0, 0 > Never Executed
+	874	forwbranch < 3, 0 > 100.0% taken
+	895	forwbranch < 3, 0 > 100.0% taken
+	905	forwbranch < 0, 0 > Never Executed
+	922	forwbranch < 0, 0 > Never Executed
+	941	forwbranch < 3, 0 > 100.0% taken
+	951	forwbranch < 0, 0 > Never Executed
+	968	forwbranch < 0, 0 > Never Executed
+	987	forwbranch < 3, 0 > 100.0% taken
+	997	forwbranch < 0, 0 > Never Executed
+	1014	forwbranch < 0, 0 > Never Executed
+	1033	forwbranch < 3, 0 > 100.0% taken
+	1043	forwbranch < 0, 0 > Never Executed
+	1060	forwbranch < 0, 0 > Never Executed
+	1079	forwbranch < 3, 0 > 100.0% taken
+	1097	forwbranch < 2, 1 > 66.666664% taken
+	1115	forwbranch < 1, 1 > 50.0% taken
+	1133	forwbranch < 1, 0 > 100.0% taken
+	1151	forwbranch < 1, 0 > 100.0% taken
+	1169	forwbranch < 1, 0 > 100.0% taken
+	1187	forwbranch < 1, 0 > 100.0% taken
+	1208	forwbranch < 1, 0 > 100.0% taken
+	1229	forwbranch < 0, 1 > 0.0% taken
+	1250	forwbranch < 0, 0 > Never Executed
+	1271	forwbranch < 0, 0 > Never Executed
+	1293	forwbranch < 0, 0 > Never Executed
+	1314	forwbranch < 0, 0 > Never Executed
+	1336	forwbranch < 0, 0 > Never Executed
+	1358	forwbranch < 0, 0 > Never Executed
+	1376	forwbranch < 0, 0 > Never Executed
+	1397	forwbranch < 0, 0 > Never Executed
+	1418	forwbranch < 0, 0 > Never Executed
+	1439	forwbranch < 0, 0 > Never Executed
+	1460	forwbranch < 0, 0 > Never Executed
+M 16 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, toString, ()Ljava/lang/String; >
+	696	forwbranch < 0, 0 > Never Executed
+	711	forwbranch < 0, 0 > Never Executed
+	725	forwbranch < 0, 0 > Never Executed
+	740	forwbranch < 0, 0 > Never Executed
+	754	forwbranch < 0, 0 > Never Executed
+	769	forwbranch < 0, 0 > Never Executed
+	783	forwbranch < 0, 0 > Never Executed
+	798	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lgnu/java/net/loader/Resource;, getCodeSource, ()Ljava/security/CodeSource; >
+	6	forwbranch < 0, 133 > 0.0% taken
+M 18 < BootstrapCL, Ljava/lang/reflect/Array;, newInstance, (Ljava/lang/Class;I)Ljava/lang/Object; >
+	4	forwbranch < 23124, 23571 > 49.521362% taken
+	17	forwbranch < 23124, 0 > 100.0% taken
+	28	forwbranch < 23124, 0 > 100.0% taken
+	39	forwbranch < 23124, 0 > 100.0% taken
+	50	forwbranch < 23124, 0 > 100.0% taken
+	61	forwbranch < 0, 23124 > 0.0% taken
+	72	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 0, 0 > Never Executed
+	94	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Ljava/lang/reflect/Array;, set, (Ljava/lang/Object;ILjava/lang/Object;)V >
+	4	forwbranch < 0, 485 > 0.0% taken
+	8	forwbranch < 0, 485 > 0.0% taken
+	22	forwbranch < 485, 0 > 100.0% taken
+	50	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	94	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 0 > Never Executed
+	138	forwbranch < 0, 0 > Never Executed
+	160	forwbranch < 0, 0 > Never Executed
+	182	forwbranch < 0, 0 > Never Executed
+	204	forwbranch < 0, 0 > Never Executed
+	223	forwbranch < 0, 0 > Never Executed
+M 54 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 2, 0 > 100.0% taken
+	21	forwbranch < 2, 0 > 100.0% taken
+	34	forwbranch < 2, 0 > 100.0% taken
+	50	forwbranch < 0, 2 > 0.0% taken
+	60	forwbranch < 0, 2 > 0.0% taken
+	70	forwbranch < 2, 0 > 100.0% taken
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 2, 0 > 100.0% taken
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 1, 1 > 50.0% taken
+	194	forwbranch < 0, 1 > 0.0% taken
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 1, 0 > 100.0% taken
+	240	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 1, 0 > 100.0% taken
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 1, 0 > 100.0% taken
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 0, 1 > 0.0% taken
+	386	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, printOptions, ()V >
+	53	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, toString, ()Ljava/lang/String; >
+	107	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, printOptions, ()V >
+	1109	forwbranch < 0, 0 > Never Executed
+	1123	forwbranch < 0, 0 > Never Executed
+	1137	forwbranch < 0, 0 > Never Executed
+	1151	forwbranch < 0, 0 > Never Executed
+	1164	forwbranch < 0, 0 > Never Executed
+	1178	forwbranch < 0, 0 > Never Executed
+	1192	forwbranch < 0, 0 > Never Executed
+	1205	forwbranch < 0, 0 > Never Executed
+	1219	forwbranch < 0, 0 > Never Executed
+	1233	forwbranch < 0, 0 > Never Executed
+	1246	forwbranch < 0, 0 > Never Executed
+	1274	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, toString, ()Ljava/lang/String; >
+	2322	forwbranch < 0, 0 > Never Executed
+	2338	forwbranch < 0, 0 > Never Executed
+	2354	forwbranch < 0, 0 > Never Executed
+	2370	forwbranch < 0, 0 > Never Executed
+	2385	forwbranch < 0, 0 > Never Executed
+	2401	forwbranch < 0, 0 > Never Executed
+	2417	forwbranch < 0, 0 > Never Executed
+	2432	forwbranch < 0, 0 > Never Executed
+	2448	forwbranch < 0, 0 > Never Executed
+	2464	forwbranch < 0, 0 > Never Executed
+	2479	forwbranch < 0, 0 > Never Executed
+	2518	forwbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Lorg/jikesrvm/runtime/ReflectionBase;, invoke, (Lorg/jikesrvm/classloader/RVMMethod;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; >
+	1	forwbranch < 48, 2 > 96.0% taken
+	19	forwbranch < 50, 0 > 100.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshakeNoRecImpl, ()V >
+	16	forwbranch < 3, 4249 > 0.07055503% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, relockWithHandshakeImpl, (I)V >
+	16	forwbranch < 11, 90432 > 0.012162357% taken
+M 16 < BootstrapCL, Lgnu/classpath/SystemProperties;, <clinit>, ()V >
+	46	forwbranch < 1, 0 > 100.0% taken
+	68	forwbranch < 1, 0 > 100.0% taken
+	89	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 1 > 0.0% taken
+	203	forwbranch < 1, 0 > 100.0% taken
+	225	forwbranch < 1, 0 > 100.0% taken
+	253	forwbranch < 0, 1 > 0.0% taken
+	269	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/lang/reflect/Modifier;, isPublic, (I)Z >
+	3	forwbranch < 0, 10 > 0.0% taken
+M 2 < BootstrapCL, Ljava/lang/Character;, <clinit>, ()V >
+	22	forwbranch < 1, 128 > 0.7751938% taken
+M 2 < BootstrapCL, Ljava/util/Calendar;, getTime, ()Ljava/util/Date; >
+	4	forwbranch < 0, 6 > 0.0% taken
+M 8 < BootstrapCL, Ljava/lang/ClassLoader$StaticData;, <clinit>, ()V >
+	13	forwbranch < 1, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 0, 0 > Never Executed
+	37	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/net/URL;, <clinit>, ()V >
+	17	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/util/Calendar;, get, (I)I >
+	6	forwbranch < 12, 0 > 100.0% taken
+M 10 < BootstrapCL, Ljava/util/zip/InflaterHuffmanTree;, <clinit>, ()V >
+	12	forwbranch < 1, 144 > 0.6896552% taken
+	30	forwbranch < 1, 112 > 0.88495576% taken
+	48	forwbranch < 1, 24 > 4.0% taken
+	66	forwbranch < 1, 8 > 11.111111% taken
+	101	forwbranch < 1, 32 > 3.030303% taken
+M 10 < BootstrapCL, Ljava/util/zip/DeflaterHuffman;, <clinit>, ()V >
+	131	forwbranch < 1, 144 > 0.6896552% taken
+	166	forwbranch < 1, 112 > 0.88495576% taken
+	202	forwbranch < 1, 24 > 4.0% taken
+	238	forwbranch < 1, 6 > 14.285714% taken
+	288	forwbranch < 1, 30 > 3.2258065% taken
+M 6 < BootstrapCL, Lgnu/java/locale/LocaleHelper;, getFallbackLocale, (Ljava/util/Locale;)Ljava/util/Locale; >
+	26	forwbranch < 3, 0 > 100.0% taken
+	50	forwbranch < 3, 0 > 100.0% taken
+	69	forwbranch < 2, 1 > 66.666664% taken
+M 2 < BootstrapCL, Ljava/util/Locale;, <clinit>, ()V >
+	233	forwbranch < 1, 0 > 100.0% taken
+M 42 < BootstrapCL, Lgnu/java/security/hash/HashFactory;, getInstance, (Ljava/lang/String;)Lgnu/java/security/hash/IMessageDigest; >
+	1	forwbranch < 10, 0 > 100.0% taken
+	19	forwbranch < 10, 0 > 100.0% taken
+	39	forwbranch < 0, 10 > 0.0% taken
+	48	forwbranch < 10, 0 > 100.0% taken
+	68	forwbranch < 0, 10 > 0.0% taken
+	77	forwbranch < 10, 0 > 100.0% taken
+	97	forwbranch < 10, 0 > 100.0% taken
+	106	forwbranch < 0, 0 > Never Executed
+	115	forwbranch < 0, 0 > Never Executed
+	124	forwbranch < 0, 0 > Never Executed
+	144	forwbranch < 0, 0 > Never Executed
+	164	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	204	forwbranch < 0, 0 > Never Executed
+	224	forwbranch < 0, 0 > Never Executed
+	244	forwbranch < 0, 0 > Never Executed
+	264	forwbranch < 0, 0 > Never Executed
+	284	forwbranch < 0, 0 > Never Executed
+	304	forwbranch < 0, 0 > Never Executed
+	316	forwbranch < 0, 10 > 0.0% taken
+	325	forwbranch < 10, 0 > 100.0% taken
+M 8 < BootstrapCL, Ljava/util/logging/StreamHandler;, <init>, (Ljava/io/OutputStream;Ljava/lang/String;Ljava/util/logging/Level;Ljava/util/logging/Formatter;Ljava/lang/Class;)V >
+	70	forwbranch < 1, 0 > 100.0% taken
+	144	forwbranch < 1, 0 > 100.0% taken
+	152	forwbranch < 0, 0 > Never Executed
+	180	forwbranch < 0, 1 > 0.0% taken
+M 6 < BootstrapCL, Ljava/util/logging/StreamHandler;, changeWriter, (Ljava/io/OutputStream;Ljava/lang/String;)V >
+	1	forwbranch < 0, 1 > 0.0% taken
+	30	forwbranch < 0, 1 > 0.0% taken
+	37	forwbranch < 1, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/EventObject;, <init>, (Ljava/lang/Object;)V >
+	5	forwbranch < 1, 0 > 100.0% taken
+M 18 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, initialize, ()V >
+	43	forwbranch < 0, 1 > 0.0% taken
+	76	forwbranch < 1, 1 > 50.0% taken
+	124	forwbranch < 1, 0 > 100.0% taken
+	185	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	207	forwbranch < 0, 0 > Never Executed
+	239	forwbranch < 0, 0 > Never Executed
+	273	forwbranch < 0, 0 > Never Executed
+	323	forwbranch < 0, 0 > Never Executed
+M 14 < BootstrapCL, Lgnu/java/net/IndexListParser;, <init>, (Ljava/util/jar/JarFile;Ljava/net/URL;Ljava/net/URL;)V >
+	21	forwbranch < 0, 1 > 0.0% taken
+	67	forwbranch < 1, 0 > 100.0% taken
+	105	forwbranch < 1, 0 > 100.0% taken
+	121	forwbranch < 1, 1 > 50.0% taken
+	153	forwbranch < 0, 519 > 0.0% taken
+	163	forwbranch < 518, 1 > 99.80732% taken
+	197	forwbranch < 1, 0 > 100.0% taken
+M 14 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, getResource, (Ljava/lang/String;)Lgnu/java/net/loader/Resource; >
+	6	forwbranch < 241, 0 > 100.0% taken
+	19	forwbranch < 188, 53 > 78.0083% taken
+	33	forwbranch < 0, 53 > 0.0% taken
+	53	forwbranch < 45, 8 > 84.90566% taken
+	62	forwbranch < 232, 1 > 99.570816% taken
+	73	forwbranch < 188, 45 > 80.6867% taken
+	88	forwbranch < 53, 135 > 28.19149% taken
+M 2 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, getManifest, ()Ljava/util/jar/Manifest; >
+	4	forwbranch < 12, 0 > 100.0% taken
+M 74 < SystemAppCL, Ldacapo/TestHarness;, main, ([Ljava/lang/String;)V >
+	2	forwbranch < 1, 0 > 100.0% taken
+	14	forwbranch < 0, 3 > 0.0% taken
+	26	forwbranch < 1, 2 > 33.333332% taken
+	37	forwbranch < 2, 0 > 100.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 2, 0 > 100.0% taken
+	99	forwbranch < 2, 0 > 100.0% taken
+	116	forwbranch < 2, 0 > 100.0% taken
+	134	forwbranch < 1, 1 > 50.0% taken
+	142	forwbranch < 1, 0 > 100.0% taken
+	222	forwbranch < 1, 0 > 100.0% taken
+	281	forwbranch < 0, 1 > 0.0% taken
+	289	forwbranch < 1, 0 > 100.0% taken
+	328	forwbranch < 0, 0 > Never Executed
+	346	forwbranch < 0, 0 > Never Executed
+	354	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+	401	forwbranch < 0, 0 > Never Executed
+	444	forwbranch < 0, 0 > Never Executed
+	452	forwbranch < 0, 0 > Never Executed
+	491	forwbranch < 0, 0 > Never Executed
+	509	forwbranch < 0, 0 > Never Executed
+	527	forwbranch < 0, 0 > Never Executed
+	545	forwbranch < 0, 0 > Never Executed
+	563	forwbranch < 0, 0 > Never Executed
+	581	forwbranch < 0, 0 > Never Executed
+	604	forwbranch < 0, 0 > Never Executed
+	612	forwbranch < 0, 0 > Never Executed
+	728	forwbranch < 1, 0 > 100.0% taken
+	747	forwbranch < 1, 0 > 100.0% taken
+	783	forwbranch < 1, 1 > 50.0% taken
+	819	forwbranch < 0, 1 > 0.0% taken
+	849	forwbranch < 1, 0 > 100.0% taken
+	898	forwbranch < 1, 0 > 100.0% taken
+	912	forwbranch < 1, 0 > 100.0% taken
+	923	forwbranch < 0, 1 > 0.0% taken
+	949	forwbranch < 0, 1 > 0.0% taken
+M 8 < SystemAppCL, Ldacapo/TestHarness;, rmdir, (Ljava/io/File;)V >
+	6	forwbranch < 0, 1 > 0.0% taken
+	14	forwbranch < 1, 10 > 9.090909% taken
+	33	forwbranch < 10, 0 > 100.0% taken
+	44	forwbranch < 10, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/TestHarness;, <init>, (Ljava/io/InputStream;)V >
+	16	forwbranch < 1, 0 > 100.0% taken
+M 40 < SystemAppCL, Ldacapo/TestHarness;, runBenchmark, (Ljava/io/File;Ljava/lang/String;Ldacapo/TestHarness;)V >
+	13	forwbranch < 0, 1 > 0.0% taken
+	37	forwbranch < 0, 1 > 0.0% taken
+	90	forwbranch < 1, 0 > 100.0% taken
+	108	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	148	forwbranch < 0, 0 > Never Executed
+	153	forwbranch < 0, 0 > Never Executed
+	186	forwbranch < 0, 0 > Never Executed
+	192	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	272	forwbranch < 0, 0 > Never Executed
+	277	forwbranch < 0, 0 > Never Executed
+	311	forwbranch < 1, 4 > 20.0% taken
+	326	forwbranch < 0, 4 > 0.0% taken
+	331	forwbranch < 0, 4 > 0.0% taken
+	359	forwbranch < 0, 1 > 0.0% taken
+	364	forwbranch < 0, 1 > 0.0% taken
+	381	forwbranch < 1, 0 > 100.0% taken
+	423	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Ldacapo/Benchmark;, run, (Ldacapo/Callback;Ljava/lang/String;Z)Z >
+	16	forwbranch < 4, 1 > 80.0% taken
+	58	forwbranch < 4, 1 > 80.0% taken
+	80	forwbranch < 4, 1 > 80.0% taken
+M 2 < SystemAppCL, Ldacapo/Benchmark;, cleanup, ()V >
+	3	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormat;, setMaximumFractionDigits, (I)V >
+	1	forwbranch < 6, 1 > 85.71429% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormat;, setMinimumFractionDigits, (I)V >
+	1	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/lang/reflect/Modifier;, isStatic, (I)Z >
+	4	forwbranch < 0, 1 > 0.0% taken
+M 24 < BootstrapCL, Ljava/text/DecimalFormat;, applyPatternWithSymbols, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;)V >
+	10	forwbranch < 8, 0 > 100.0% taken
+	71	forwbranch < 0, 8 > 0.0% taken
+	87	forwbranch < 1, 7 > 12.5% taken
+	116	forwbranch < 8, 0 > 100.0% taken
+	132	forwbranch < 8, 0 > 100.0% taken
+	149	forwbranch < 8, 0 > 100.0% taken
+	164	forwbranch < 8, 0 > 100.0% taken
+	175	forwbranch < 0, 0 > Never Executed
+	183	forwbranch < 0, 0 > Never Executed
+	203	forwbranch < 8, 0 > 100.0% taken
+	218	forwbranch < 7, 1 > 87.5% taken
+	226	forwbranch < 1, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/NumberFormat;, setMaximumFractionDigits, (I)V >
+	13	forwbranch < 7, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/NumberFormat;, setMinimumFractionDigits, (I)V >
+	13	forwbranch < 1, 0 > 100.0% taken
+M 48 < BootstrapCL, Ljava/text/DecimalFormat;, scanFix, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;IZ)I >
+	80	forwbranch < 8, 0 > 100.0% taken
+	106	forwbranch < 0, 8 > 0.0% taken
+	119	forwbranch < 0, 8 > 0.0% taken
+	126	forwbranch < 8, 0 > 100.0% taken
+	133	forwbranch < 0, 0 > Never Executed
+	176	forwbranch < 0, 8 > 0.0% taken
+	183	forwbranch < 0, 8 > 0.0% taken
+	190	forwbranch < 7, 1 > 87.5% taken
+	197	forwbranch < 1, 0 > 100.0% taken
+	204	forwbranch < 0, 0 > Never Executed
+	212	forwbranch < 0, 0 > Never Executed
+	219	forwbranch < 0, 0 > Never Executed
+	232	forwbranch < 0, 0 > Never Executed
+	239	forwbranch < 0, 0 > Never Executed
+	258	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 0, 0 > Never Executed
+	325	forwbranch < 0, 0 > Never Executed
+	354	forwbranch < 0, 0 > Never Executed
+	384	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+	406	forwbranch < 0, 0 > Never Executed
+	425	forwbranch < 0, 0 > Never Executed
+	454	forwbranch < 0, 8 > 0.0% taken
+M 26 < BootstrapCL, Ljava/text/DecimalFormat;, scanNumberInteger, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;I)I >
+	63	forwbranch < 1, 51 > 1.9230769% taken
+	78	forwbranch < 7, 44 > 13.725491% taken
+	85	forwbranch < 44, 0 > 100.0% taken
+	95	forwbranch < 44, 0 > 100.0% taken
+	102	forwbranch < 0, 0 > Never Executed
+	136	forwbranch < 23, 21 > 52.272728% taken
+	141	forwbranch < 21, 0 > 100.0% taken
+	195	forwbranch < 7, 16 > 30.434782% taken
+	221	forwbranch < 0, 7 > 0.0% taken
+	247	forwbranch < 1, 7 > 12.5% taken
+	265	forwbranch < 1, 7 > 12.5% taken
+	272	forwbranch < 0, 7 > 0.0% taken
+	279	forwbranch < 7, 0 > 100.0% taken
+M 20 < BootstrapCL, Ljava/text/DecimalFormat;, scanFractionalPortion, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;I)I >
+	47	forwbranch < 7, 0 > 100.0% taken
+	91	forwbranch < 7, 21 > 25.0% taken
+	106	forwbranch < 0, 21 > 0.0% taken
+	113	forwbranch < 21, 0 > 100.0% taken
+	123	forwbranch < 0, 21 > 0.0% taken
+	130	forwbranch < 21, 0 > 100.0% taken
+	175	forwbranch < 0, 21 > 0.0% taken
+	188	forwbranch < 0, 0 > Never Executed
+	193	forwbranch < 0, 0 > Never Executed
+	243	forwbranch < 7, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, <init>, (Ljava/util/Locale;)V >
+	57	forwbranch < 0, 7 > 0.0% taken
+M 10 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, getInstance, (Ljava/util/Locale;)Ljava/text/DecimalFormatSymbols; >
+	7	forwbranch < 0, 6 > 0.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	74	forwbranch < 0, 0 > Never Executed
+	89	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljava/text/NumberFormat;, computeInstance, (Ljava/util/Locale;Ljava/lang/String;Ljava/lang/String;)Ljava/text/NumberFormat; >
+	7	forwbranch < 6, 0 > 100.0% taken
+	34	forwbranch < 6, 0 > 100.0% taken
+M 8 < BootstrapCL, Ljava/text/NumberFormat;, getNumberInstance, (Ljava/util/Locale;)Ljava/text/NumberFormat; >
+	25	forwbranch < 0, 0 > Never Executed
+	56	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 0 > Never Executed
+M 12 < BootstrapCL, Ljava/util/Currency;, getInstance, (Ljava/lang/String;)Ljava/util/Currency; >
+	1	forwbranch < 9, 0 > 100.0% taken
+	20	forwbranch < 0, 9 > 0.0% taken
+	47	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 0 > Never Executed
+M 10 < BootstrapCL, Ljava/util/Currency;, getInstance, (Ljava/util/Locale;)Ljava/util/Currency; >
+	6	forwbranch < 0, 9 > 0.0% taken
+	10	forwbranch < 9, 0 > 100.0% taken
+	28	forwbranch < 7, 2 > 77.77778% taken
+	53	forwbranch < 6, 1 > 85.71429% taken
+	71	forwbranch < 1, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, safeGetChar, (Ljava/util/ResourceBundle;Ljava/lang/String;C)C >
+	4	forwbranch < 0, 90 > 0.0% taken
+	21	forwbranch < 18, 72 > 20.0% taken
+	30	forwbranch < 72, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, safeGetString, (Ljava/util/ResourceBundle;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	1	forwbranch < 0, 18 > 0.0% taken
+M 10 < BootstrapCL, Ljava/util/Currency;, getSymbol, (Ljava/util/Locale;)Ljava/lang/String; >
+	50	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 0, 0 > Never Executed
+	99	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 0 > Never Executed
+	138	forwbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Ljava/util/Currency;, <init>, (Ljava/util/Locale;)V >
+	15	forwbranch < 1, 0 > 100.0% taken
+	101	forwbranch < 1, 0 > 100.0% taken
+	119	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, LMMTkHarness;, <init>, ()V >
+	55	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/Callback;, start, (Ljava/lang/String;Z)V >
+	48	forwbranch < 1, 4 > 20.0% taken
+M 6 < SystemAppCL, Ldacapo/Callback;, complete, (Ljava/lang/String;ZZ)V >
+	26	forwbranch < 0, 5 > 0.0% taken
+	33	forwbranch < 1, 4 > 20.0% taken
+	98	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Ldacapo/parser/Config;, getSize, (Ljava/lang/String;)Ldacapo/parser/Config$Size; >
+	13	forwbranch < 104, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFile;, <init>, (Ljava/io/InputStream;)V >
+	83	forwbranch < 1, 17 > 5.5555553% taken
+M 10 < SystemAppCL, Ldacapo/parser/ConfigFile;, configFile, ()Ldacapo/parser/Config; >
+	10	forwbranch < 3, 1 > 75.0% taken
+	24	switch     < 1, 3, 0 >
+	97	forwbranch < 0, 4 > 0.0% taken
+	111	switch     < 1, 2, 1 >
+M 2 < SystemAppCL, Ldacapo/parser/Config$OutputFile;, hasDigest, ()Z >
+	4	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/Config$OutputFile;, hasBytes, ()Z >
+	8	forwbranch < 10, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/Config$OutputFile;, hasLines, ()Z >
+	5	forwbranch < 10, 0 > 100.0% taken
+M 4 < SystemAppCL, Ldacapo/parser/Config;, addOutputFile, (Ljava/lang/String;Ljava/lang/String;)V >
+	15	forwbranch < 3, 3 > 50.0% taken
+	24	forwbranch < 0, 3 > 0.0% taken
+M 8 < SystemAppCL, Ldacapo/parser/ConfigFile;, config, ()Ldacapo/parser/Config; >
+	31	forwbranch < 0, 1 > 0.0% taken
+	45	switch     < 1, 0 >
+	91	forwbranch < 0, 1 > 0.0% taken
+	105	switch     < 0, 1 >
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFile;, jj_ntk, ()I >
+	12	forwbranch < 0, 95 > 0.0% taken
+M 5 < SystemAppCL, Ldacapo/parser/ConfigFile;, sizeSpec, (Ldacapo/parser/Config;)V >
+	28	forwbranch < 6, 0 > 100.0% taken
+	42	switch     < 0, 3, 3 >
+M 4 < SystemAppCL, Ldacapo/parser/ConfigFile;, description, (Ldacapo/parser/Config;)V >
+	17	forwbranch < 0, 9 > 0.0% taken
+	31	switch     < 8, 1 >
+M 4 < SystemAppCL, Ldacapo/parser/ConfigFile;, jj_consume_token, (I)Ldacapo/parser/Token; >
+	9	forwbranch < 52, 94 > 35.61644% taken
+	58	forwbranch < 0, 146 > 0.0% taken
+M 17 < SystemAppCL, Ldacapo/parser/ConfigFile;, sizeClause, (Ldacapo/parser/Config;Ljava/lang/String;)V >
+	13	forwbranch < 3, 3 > 50.0% taken
+	27	switch     < 3, 3, 0 >
+	64	forwbranch < 0, 3 > 0.0% taken
+	78	switch     < 3, 0 >
+	114	forwbranch < 0, 40 > 0.0% taken
+	128	switch     < 37, 3 >
+	225	forwbranch < 6, 0 > 100.0% taken
+	239	switch     < 3, 3 >
+M 19 < SystemAppCL, Ldacapo/parser/ConfigFile;, outputFile, (Ldacapo/parser/Config;Ljava/lang/String;)V >
+	5	forwbranch < 0, 6 > 0.0% taken
+	19	switch     < 3, 3, 0, 0 >
+	122	forwbranch < 0, 12 > 0.0% taken
+	136	switch     < 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 6 >
+M 21 < SystemAppCL, Ldacapo/parser/ConfigFile;, outputClause, (Ldacapo/parser/Config;Ljava/lang/String;Ljava/lang/String;)V >
+	5	forwbranch < 6, 0 > 100.0% taken
+	19	switch     < 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0 >
+	84	forwbranch < 0, 6 > 0.0% taken
+	98	switch     < 0, 6 >
+	135	forwbranch < 0, 0 > Never Executed
+	149	switch     < 0, 0 >
+M 29 < SystemAppCL, Ldacapo/parser/ConfigFile;, descId, ()Ljava/lang/String; >
+	5	forwbranch < 0, 9 > 0.0% taken
+	19	switch     < 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0 >
+M 49 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, getNextToken, ()Ldacapo/parser/Token; >
+	52	switch     < 147, 0, 0, 0, 0 >
+	98	forwbranch < 146, 246 > 37.2449% taken
+	113	forwbranch < 0, 246 > 0.0% taken
+	179	forwbranch < 0, 0 > Never Executed
+	188	forwbranch < 0, 0 > Never Executed
+	221	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 0, 0 > Never Executed
+	263	forwbranch < 0, 0 > Never Executed
+	272	forwbranch < 0, 0 > Never Executed
+	287	forwbranch < 0, 146 > 0.0% taken
+	298	forwbranch < 102, 44 > 69.863014% taken
+	340	forwbranch < 0, 146 > 0.0% taken
+	362	forwbranch < 146, 0 > 100.0% taken
+	402	forwbranch < 0, 0 > Never Executed
+	428	forwbranch < 0, 0 > Never Executed
+	437	forwbranch < 0, 0 > Never Executed
+	479	backbranch < 0, 0 > Never Executed
+	510	forwbranch < 0, 0 > Never Executed
+	601	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	634	forwbranch < 0, 0 > Never Executed
+	651	forwbranch < 0, 0 > Never Executed
+	665	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, backup, (I)V >
+	21	forwbranch < 193, 0 > 100.0% taken
+M 6 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, readChar, ()C >
+	4	forwbranch < 1511, 44 > 97.17042% taken
+	32	forwbranch < 44, 0 > 100.0% taken
+	65	forwbranch < 1508, 3 > 99.80145% taken
+M 16 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, FillBuff, ()V >
+	8	forwbranch < 3, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	29	forwbranch < 0, 0 > Never Executed
+	57	forwbranch < 0, 0 > Never Executed
+	89	forwbranch < 0, 0 > Never Executed
+	115	forwbranch < 0, 0 > Never Executed
+	161	forwbranch < 1, 1 > 50.0% taken
+	211	forwbranch < 0, 2 > 0.0% taken
+M 12 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, UpdateLineColumn, (C)V >
+	14	forwbranch < 1466, 43 > 97.15043% taken
+	44	forwbranch < 1466, 0 > 100.0% taken
+	55	forwbranch < 0, 0 > Never Executed
+	82	switch     < 36, 44, 0, 0, 0, 1429 >
+M 2 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, GetImage, ()Ljava/lang/String; >
+	8	forwbranch < 0, 60 > 0.0% taken
+M 47 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjStopStringLiteralDfa_0, (IJ)I >
+	1	switch     < 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	63	forwbranch < 3, 0 > 100.0% taken
+	75	forwbranch < 0, 3 > 0.0% taken
+	95	forwbranch < 1, 0 > 100.0% taken
+	107	forwbranch < 0, 1 > 0.0% taken
+	132	forwbranch < 0, 0 > Never Executed
+	155	forwbranch < 0, 0 > Never Executed
+	169	forwbranch < 0, 0 > Never Executed
+	192	forwbranch < 0, 0 > Never Executed
+	206	forwbranch < 0, 0 > Never Executed
+	229	forwbranch < 0, 0 > Never Executed
+	243	forwbranch < 0, 0 > Never Executed
+	266	forwbranch < 0, 0 > Never Executed
+	280	forwbranch < 0, 0 > Never Executed
+	292	forwbranch < 0, 0 > Never Executed
+	318	forwbranch < 0, 0 > Never Executed
+	344	forwbranch < 0, 0 > Never Executed
+	356	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 0 > Never Executed
+M 136 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveNfa_0, (II)I >
+	36	forwbranch < 1055, 0 > 100.0% taken
+	49	forwbranch < 628, 427 > 59.526066% taken
+	70	switch     < 0, 0, 0, 55, 0, 40, 0, 0, 156, 0, 176, 176, 0, 176, 0, 0, 0, 0, 0, 0 >
+	168	forwbranch < 49, 6 > 89.09091% taken
+	175	forwbranch < 0, 6 > 0.0% taken
+	197	forwbranch < 0, 49 > 0.0% taken
+	215	forwbranch < 0, 0 > Never Executed
+	222	forwbranch < 0, 0 > Never Executed
+	243	forwbranch < 0, 0 > Never Executed
+	269	forwbranch < 49, 6 > 89.09091% taken
+	299	forwbranch < 0, 0 > Never Executed
+	330	forwbranch < 0, 0 > Never Executed
+	337	forwbranch < 0, 0 > Never Executed
+	353	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 0 > Never Executed
+	392	forwbranch < 0, 0 > Never Executed
+	415	forwbranch < 2, 38 > 5.0% taken
+	425	forwbranch < 0, 2 > 0.0% taken
+	446	forwbranch < 0, 0 > Never Executed
+	478	forwbranch < 150, 6 > 96.15385% taken
+	488	forwbranch < 0, 150 > 0.0% taken
+	522	forwbranch < 0, 0 > Never Executed
+	542	forwbranch < 49, 127 > 27.84091% taken
+	562	forwbranch < 0, 0 > Never Executed
+	580	forwbranch < 127, 49 > 72.15909% taken
+	587	forwbranch < 0, 49 > 0.0% taken
+	605	forwbranch < 0, 0 > Never Executed
+	626	forwbranch < 0, 0 > Never Executed
+	646	forwbranch < 0, 0 > Never Executed
+	678	forwbranch < 0, 0 > Never Executed
+	698	forwbranch < 0, 0 > Never Executed
+	708	forwbranch < 0, 0 > Never Executed
+	728	backbranch < 352, 427 > 45.186134% taken
+	741	forwbranch < 0, 628 > 0.0% taken
+	765	switch     < 0, 0, 1, 0, 42, 0, 6, 90, 0, 489, 489, 0, 495 >
+	836	forwbranch < 43, 0 > 100.0% taken
+	846	forwbranch < 0, 43 > 0.0% taken
+	865	forwbranch < 0, 0 > Never Executed
+	883	forwbranch < 6, 0 > 100.0% taken
+	893	forwbranch < 0, 6 > 0.0% taken
+	917	forwbranch < 90, 0 > 100.0% taken
+	927	forwbranch < 0, 90 > 0.0% taken
+	951	forwbranch < 0, 489 > 0.0% taken
+	969	forwbranch < 489, 0 > 100.0% taken
+	991	forwbranch < 0, 0 > Never Executed
+	1007	backbranch < 984, 628 > 61.042183% taken
+	1047	switch     < 0, 0, 0 >
+	1083	forwbranch < 0, 0 > Never Executed
+	1090	forwbranch < 0, 0 > Never Executed
+	1111	forwbranch < 0, 0 > Never Executed
+	1127	backbranch < 0, 0 > Never Executed
+	1134	forwbranch < 709, 346 > 67.20379% taken
+	1175	forwbranch < 962, 93 > 91.18484% taken
+M 18 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa1_0, (J)I >
+	28	switch     < 0, 0, 2, 5, 2, 10, 1, 2, 4, 6, 4, 0, 0, 1 >
+	151	forwbranch < 0, 0 > Never Executed
+	170	forwbranch < 0, 0 > Never Executed
+M 33 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa2_0, (JJ)I >
+	7	forwbranch < 34, 2 > 94.44444% taken
+	46	switch     < 1, 0, 1, 6, 0, 1, 9, 0, 0, 0, 0, 1, 0, 2, 1, 2, 0, 2, 1, 4, 0, 0, 0, 0, 0, 3, 0 >
+	225	forwbranch < 0, 1 > 0.0% taken
+	307	forwbranch < 0, 0 > Never Executed
+M 38 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa3_0, (JJ)I >
+	7	forwbranch < 32, 0 > 100.0% taken
+	46	switch     < 0, 0, 2, 0, 15, 0, 1, 1, 0, 0, 0, 0, 0, 0, 3, 3, 0, 1, 5, 0, 0, 0, 0, 0, 1, 0 >
+	185	forwbranch < 12, 3 > 80.0% taken
+	213	forwbranch < 0, 1 > 0.0% taken
+	250	forwbranch < 3, 0 > 100.0% taken
+	287	forwbranch < 2, 3 > 40.0% taken
+	315	forwbranch < 0, 0 > Never Executed
+M 32 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa4_0, (JJ)I >
+	7	forwbranch < 25, 0 > 100.0% taken
+	46	switch     < 2, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 5, 7, 1, 6, 0 >
+	214	forwbranch < 7, 0 > 100.0% taken
+	233	forwbranch < 6, 1 > 85.71429% taken
+	252	forwbranch < 6, 0 > 100.0% taken
+	280	forwbranch < 0, 1 > 0.0% taken
+M 43 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa5_0, (JJ)I >
+	7	forwbranch < 23, 0 > 100.0% taken
+	46	switch     < 1, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0, 1, 0, 0, 4, 1, 13, 0, 0, 0, 0, 0, 0 >
+	155	forwbranch < 1, 0 > 100.0% taken
+	210	forwbranch < 3, 1 > 75.0% taken
+	229	forwbranch < 3, 0 > 100.0% taken
+	248	forwbranch < 0, 3 > 0.0% taken
+	267	forwbranch < 1, 0 > 100.0% taken
+	295	forwbranch < 7, 6 > 53.846153% taken
+	314	forwbranch < 4, 3 > 57.142857% taken
+	333	forwbranch < 1, 3 > 25.0% taken
+	361	forwbranch < 0, 0 > Never Executed
+M 30 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa6_0, (JJ)I >
+	7	forwbranch < 7, 0 > 100.0% taken
+	47	switch     < 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 2, 0 >
+	152	forwbranch < 0, 1 > 0.0% taken
+	181	forwbranch < 0, 1 > 0.0% taken
+	210	forwbranch < 1, 1 > 50.0% taken
+	230	forwbranch < 0, 1 > 0.0% taken
+M 6 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa7_0, (JJ)I >
+	7	forwbranch < 3, 0 > 100.0% taken
+	48	switch     < 1, 1, 1, 0 >
+M 10 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa8_0, (JJ)I >
+	7	forwbranch < 3, 0 > 100.0% taken
+	49	switch     < 1, 1, 1, 0 >
+	100	forwbranch < 0, 1 > 0.0% taken
+	120	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa9_0, (JJ)I >
+	7	forwbranch < 1, 0 > 100.0% taken
+	49	switch     < 1, 0 >
+M 6 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa10_0, (JJ)I >
+	7	forwbranch < 1, 0 > 100.0% taken
+	49	switch     < 1, 0 >
+	75	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjCheckNAdd, (I)V >
+	10	forwbranch < 0, 2142 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjCheckNAddStates, (II)V >
+	14	backbranch < 1330, 665 > 66.666664% taken
+M 1 < SystemAppCL, Ldacapo/parser/Token;, newToken, (I)Ldacapo/parser/Token; >
+	1	switch     < 147 >
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjFillToken, ()Ldacapo/parser/Token; >
+	27	forwbranch < 87, 60 > 59.183674% taken
+M 80 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa0_0, ()I >
+	4	switch     < 0, 0, 0, 0, 48, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 1, 2, 9, 0, 0, 0, 1, 0, 0, 0, 3, 0, 0, 3, 0, 0, 1, 11, 1, 1, 1, 49 >
+M 8 < SystemAppCL, Ldacapo/Benchmark;, preIteration, (Ljava/lang/String;)V >
+	3	forwbranch < 5, 0 > 100.0% taken
+	28	forwbranch < 0, 0 > Never Executed
+	73	forwbranch < 5, 0 > 100.0% taken
+	81	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Ldacapo/Benchmark;, startIteration, ()V >
+	3	forwbranch < 0, 5 > 0.0% taken
+	23	forwbranch < 1, 4 > 20.0% taken
+M 2 < SystemAppCL, Ldacapo/Benchmark;, stopIteration, ()V >
+	3	forwbranch < 0, 5 > 0.0% taken
+M 44 < SystemAppCL, Ldacapo/Benchmark;, validate, (Ljava/lang/String;)Z >
+	3	forwbranch < 5, 0 > 100.0% taken
+	11	forwbranch < 5, 0 > 100.0% taken
+	76	forwbranch < 5, 10 > 33.333332% taken
+	100	forwbranch < 0, 10 > 0.0% taken
+	179	forwbranch < 10, 0 > 100.0% taken
+	226	forwbranch < 10, 0 > 100.0% taken
+	236	forwbranch < 0, 0 > Never Executed
+	246	forwbranch < 0, 0 > Never Executed
+	259	forwbranch < 10, 0 > 100.0% taken
+	316	forwbranch < 10, 0 > 100.0% taken
+	355	forwbranch < 10, 0 > 100.0% taken
+	438	forwbranch < 0, 0 > Never Executed
+	486	forwbranch < 0, 0 > Never Executed
+	543	forwbranch < 0, 0 > Never Executed
+	582	forwbranch < 10, 0 > 100.0% taken
+	669	forwbranch < 0, 0 > Never Executed
+	718	forwbranch < 0, 0 > Never Executed
+	775	forwbranch < 0, 0 > Never Executed
+	814	forwbranch < 10, 0 > 100.0% taken
+	833	forwbranch < 0, 0 > Never Executed
+	875	forwbranch < 0, 0 > Never Executed
+	910	forwbranch < 5, 0 > 100.0% taken
+M 4 < SystemAppCL, Ldacapo/FileDigest;, get, (Ljava/lang/String;ZZLjava/io/File;)[B >
+	1	forwbranch < 0, 10 > 0.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Ldacapo/Digest;, toString, ([B)Ljava/lang/String; >
+	17	forwbranch < 4, 80 > 4.7619047% taken
+	36	forwbranch < 72, 8 > 90.0% taken
+M 6 < SystemAppCL, Ldacapo/Benchmark;, deleteFile, (Ljava/io/File;)V >
+	3	forwbranch < 10, 0 > 100.0% taken
+	38	forwbranch < 10, 0 > 100.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Ldacapo/Benchmark;, deleteTree, (Ljava/io/File;)V >
+	3	forwbranch < 1, 0 > 100.0% taken
+	38	forwbranch < 0, 1 > 0.0% taken
+	59	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Ldacapo/Benchmark;, <init>, (Ldacapo/parser/Config;Ljava/io/File;)V >
+	22	forwbranch < 0, 1 > 0.0% taken
+	34	forwbranch < 0, 1 > 0.0% taken
+	81	forwbranch < 0, 1 > 0.0% taken
+M 50 < SystemAppCL, Ldacapo/hsqldb/PseudoJDBCBench;, main, ([Ljava/lang/String;)V >
+	23	forwbranch < 5, 35 > 12.5% taken
+	35	forwbranch < 30, 5 > 85.71429% taken
+	44	forwbranch < 0, 5 > 0.0% taken
+	72	forwbranch < 25, 5 > 83.333336% taken
+	81	forwbranch < 0, 5 > 0.0% taken
+	98	forwbranch < 5, 0 > 100.0% taken
+	112	forwbranch < 5, 0 > 100.0% taken
+	121	forwbranch < 5, 0 > 100.0% taken
+	135	forwbranch < 0, 5 > 0.0% taken
+	155	forwbranch < 20, 5 > 80.0% taken
+	164	forwbranch < 0, 5 > 0.0% taken
+	187	forwbranch < 15, 5 > 75.0% taken
+	196	forwbranch < 0, 5 > 0.0% taken
+	219	forwbranch < 15, 0 > 100.0% taken
+	228	forwbranch < 0, 0 > Never Executed
+	280	forwbranch < 15, 0 > 100.0% taken
+	289	forwbranch < 0, 0 > Never Executed
+	313	forwbranch < 10, 5 > 66.666664% taken
+	322	forwbranch < 0, 5 > 0.0% taken
+	350	forwbranch < 5, 5 > 50.0% taken
+	368	forwbranch < 0, 5 > 0.0% taken
+	377	forwbranch < 0, 5 > 0.0% taken
+	405	forwbranch < 0, 0 > Never Executed
+	422	forwbranch < 0, 5 > 0.0% taken
+	429	forwbranch < 5, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/TeeOutputStream;, version, ()V >
+	54	forwbranch < 8, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/TeeOutputStream;, flush, ()V >
+	8	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/TeeOutputStream;, write, (I)V >
+	9	forwbranch < 0, 5210 > 0.0% taken
+M 22 < SystemAppCL, Ldacapo/hsqldb/PseudoJDBCBench;, <init>, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V >
+	36	forwbranch < 0, 5 > 0.0% taken
+	112	forwbranch < 5, 100 > 4.7619047% taken
+	163	forwbranch < 5, 100 > 4.7619047% taken
+	218	forwbranch < 5, 100 > 4.7619047% taken
+	269	forwbranch < 5, 100 > 4.7619047% taken
+	324	forwbranch < 5, 100 > 4.7619047% taken
+	375	forwbranch < 5, 100 > 4.7619047% taken
+	430	forwbranch < 5, 100 > 4.7619047% taken
+	481	forwbranch < 5, 100 > 4.7619047% taken
+	573	forwbranch < 0, 5 > 0.0% taken
+	619	forwbranch < 5, 0 > 100.0% taken
+M 76 < SystemAppCL, Ldacapo/hsqldb/PseudoJDBCBench;, createDatabase, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V >
+	55	forwbranch < 0, 1 > 0.0% taken
+	146	forwbranch < 0, 0 > Never Executed
+	165	forwbranch < 0, 0 > Never Executed
+	191	forwbranch < 0, 0 > Never Executed
+	359	forwbranch < 0, 1 > 0.0% taken
+	396	forwbranch < 1, 0 > 100.0% taken
+	501	forwbranch < 1, 0 > 100.0% taken
+	550	forwbranch < 1, 0 > 100.0% taken
+	677	forwbranch < 1, 0 > 100.0% taken
+	726	forwbranch < 1, 0 > 100.0% taken
+	853	forwbranch < 1, 0 > 100.0% taken
+	902	forwbranch < 1, 0 > 100.0% taken
+	1073	forwbranch < 1, 0 > 100.0% taken
+	1119	forwbranch < 0, 1 > 0.0% taken
+	1242	forwbranch < 0, 1 > 0.0% taken
+	1262	forwbranch < 0, 1 > 0.0% taken
+	1304	forwbranch < 1, 64 > 1.5384616% taken
+	1310	forwbranch < 0, 64 > 0.0% taken
+	1383	forwbranch < 63, 1 > 98.4375% taken
+	1389	forwbranch < 0, 1 > 0.0% taken
+	1408	forwbranch < 0, 1 > 0.0% taken
+	1421	forwbranch < 0, 1 > 0.0% taken
+	1434	forwbranch < 0, 1 > 0.0% taken
+	1464	forwbranch < 1, 640 > 0.15600625% taken
+	1470	forwbranch < 0, 640 > 0.0% taken
+	1571	forwbranch < 633, 7 > 98.90625% taken
+	1577	forwbranch < 0, 7 > 0.0% taken
+	1596	forwbranch < 0, 1 > 0.0% taken
+	1609	forwbranch < 0, 1 > 0.0% taken
+	1622	forwbranch < 0, 1 > 0.0% taken
+	1652	forwbranch < 1, 640000 > 1.5624975E-4% taken
+	1658	forwbranch < 0, 640000 > 0.0% taken
+	1760	forwbranch < 639936, 64 > 99.99% taken
+	1766	forwbranch < 0, 64 > 0.0% taken
+	1778	forwbranch < 1, 639999 > 1.5625E-4% taken
+	1786	forwbranch < 639992, 7 > 99.99891% taken
+	1829	forwbranch < 0, 1 > 0.0% taken
+	1842	forwbranch < 0, 1 > 0.0% taken
+M 6 < SystemAppCL, Ldacapo/hsqldb/PseudoJDBCBench$ClientThread;, <init>, (Ldacapo/hsqldb/PseudoJDBCBench;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V >
+	60	forwbranch < 400, 0 > 100.0% taken
+	75	forwbranch < 200, 200 > 50.0% taken
+	91	forwbranch < 200, 200 > 50.0% taken
+M 16 < SystemAppCL, Ldacapo/hsqldb/PseudoJDBCBench;, reportDone, ()V >
+	20	forwbranch < 20, 0 > 100.0% taken
+	91	forwbranch < 10, 10 > 50.0% taken
+	105	forwbranch < 10, 0 > 100.0% taken
+	130	forwbranch < 10, 0 > 100.0% taken
+	144	forwbranch < 10, 10 > 50.0% taken
+	158	forwbranch < 10, 0 > 100.0% taken
+	183	forwbranch < 10, 0 > 100.0% taken
+	259	forwbranch < 20, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/hsqldb/PseudoJDBCBench;, connectClose, (Ljava/sql/Connection;)V >
+	1	forwbranch < 410, 0 > 100.0% taken
+M 4 < BootstrapCL, Ljava/sql/DriverManager;, getConnection, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection; >
+	9	forwbranch < 0, 410 > 0.0% taken
+	21	forwbranch < 0, 410 > 0.0% taken
+M 6 < SystemAppCL, Ldacapo/hsqldb/PseudoJDBCBench;, getRandomID, (I)I >
+	9	switch     < 16000, 16000, 15999, 0 >
+	48	forwbranch < 16000, 16000 > 50.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/jdbcDriver;, getConnection, (Ljava/lang/String;Ljava/util/Properties;)Ljava/sql/Connection; >
+	7	forwbranch < 410, 0 > 100.0% taken
+	27	forwbranch < 410, 0 > 100.0% taken
+M 60 < SystemAppCL, Lorg/hsqldb/DatabaseURL;, parseURL, (Ljava/lang/String;Z)Lorg/hsqldb/persist/HsqlProperties; >
+	26	forwbranch < 0, 410 > 0.0% taken
+	35	forwbranch < 0, 410 > 0.0% taken
+	79	forwbranch < 0, 410 > 0.0% taken
+	129	forwbranch < 410, 0 > 100.0% taken
+	140	forwbranch < 0, 0 > Never Executed
+	158	forwbranch < 0, 410 > 0.0% taken
+	176	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	212	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 0, 0 > Never Executed
+	256	forwbranch < 0, 0 > Never Executed
+	282	forwbranch < 0, 0 > Never Executed
+	307	forwbranch < 0, 0 > Never Executed
+	324	forwbranch < 410, 0 > 100.0% taken
+	338	forwbranch < 410, 0 > 100.0% taken
+	369	forwbranch < 410, 0 > 100.0% taken
+	386	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+	414	forwbranch < 0, 0 > Never Executed
+	421	forwbranch < 0, 0 > Never Executed
+	477	forwbranch < 0, 0 > Never Executed
+	495	forwbranch < 0, 0 > Never Executed
+	568	forwbranch < 0, 0 > Never Executed
+	582	forwbranch < 0, 0 > Never Executed
+	590	forwbranch < 0, 0 > Never Executed
+	627	forwbranch < 410, 0 > 100.0% taken
+	634	forwbranch < 0, 0 > Never Executed
+	654	forwbranch < 410, 0 > 100.0% taken
+	664	forwbranch < 0, 0 > Never Executed
+	707	forwbranch < 410, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/persist/HsqlProperties;, addProperties, (Ljava/util/Properties;)V >
+	1	forwbranch < 410, 0 > 100.0% taken
+	16	forwbranch < 410, 820 > 33.333332% taken
+M 18 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcConnection;, <init>, (Lorg/hsqldb/persist/HsqlProperties;)V >
+	74	forwbranch < 0, 410 > 0.0% taken
+	81	forwbranch < 410, 0 > 100.0% taken
+	92	forwbranch < 410, 0 > 100.0% taken
+	99	forwbranch < 410, 0 > 100.0% taken
+	126	forwbranch < 0, 410 > 0.0% taken
+	150	forwbranch < 0, 0 > Never Executed
+	157	forwbranch < 0, 0 > Never Executed
+	195	forwbranch < 0, 0 > Never Executed
+	202	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/sql/DriverManager;, registerDriver, (Ljava/sql/Driver;)V >
+	7	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/jdbcDriver;, acceptsURL, (Ljava/lang/String;)Z >
+	1	forwbranch < 0, 410 > 0.0% taken
+	18	forwbranch < 0, 410 > 0.0% taken
+M 4 < BootstrapCL, Ljava/sql/DriverManager;, getDriver, (Ljava/lang/String;)Ljava/sql/Driver; >
+	13	forwbranch < 0, 410 > 0.0% taken
+	33	forwbranch < 0, 410 > 0.0% taken
+M 2 < BootstrapCL, Ljava/sql/DriverManager;, getConnection, (Ljava/lang/String;Ljava/util/Properties;)Ljava/sql/Connection; >
+	6	forwbranch < 410, 0 > 100.0% taken
+M 4 < BootstrapCL, Ljava/sql/DriverManager;, <clinit>, ()V >
+	17	forwbranch < 1, 0 > 100.0% taken
+	33	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/DatabaseURL;, isFileBasedDatabaseType, (Ljava/lang/String;)Z >
+	3	forwbranch < 0, 30 > 0.0% taken
+	9	forwbranch < 30, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/DatabaseURL;, isInProcessDatabaseType, (Ljava/lang/String;)Z >
+	3	forwbranch < 0, 410 > 0.0% taken
+	9	forwbranch < 0, 410 > 0.0% taken
+	15	forwbranch < 0, 410 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/FileUtil;, getDefaultInstance, ()Lorg/hsqldb/lib/FileUtil; >
+	3	forwbranch < 4, 1 > 80.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/persist/HsqlProperties;, isPropertyTrue, (Ljava/lang/String;Z)Z >
+	10	forwbranch < 2, 9412 > 0.021244954% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/ArrayUtil;, resizeArray, (Ljava/lang/Object;I)Ljava/lang/Object; >
+	19	forwbranch < 46084, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/persist/HsqlProperties;, getIntegerProperty, (Ljava/lang/String;I)I >
+	7	forwbranch < 410, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcConnection;, checkClosed, ()V >
+	4	forwbranch < 58733, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcPreparedStatement;, <init>, (Lorg/hsqldb/jdbc/jdbcConnection;Ljava/lang/String;I)V >
+	53	forwbranch < 1015, 0 > 100.0% taken
+	126	forwbranch < 200, 815 > 19.704433% taken
+M 14 < SystemAppCL, Lorg/hsqldb/Trace;, getMessage, (IZ[Ljava/lang/Object;)Ljava/lang/String; >
+	1	forwbranch < 25, 0 > 100.0% taken
+	15	forwbranch < 25, 0 > 100.0% taken
+	44	forwbranch < 0, 25 > 0.0% taken
+	77	forwbranch < 0, 25 > 0.0% taken
+	111	forwbranch < 0, 0 > Never Executed
+	121	forwbranch < 0, 0 > Never Executed
+	139	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcConnection;, xlateRSType, (I)I >
+	1	switch     < 0, 5, 0, 0 >
+M 3 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcConnection;, xlateRSConcurrency, (I)I >
+	1	switch     < 5, 0, 0 >
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseManager;, newSession, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/hsqldb/persist/HsqlProperties;)Lorg/hsqldb/Session; >
+	11	forwbranch < 410, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcConnection;, close, ()V >
+	4	forwbranch < 0, 410 > 0.0% taken
+	11	forwbranch < 410, 0 > 100.0% taken
+M 67 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcConnection;, nativeSQL, (Ljava/lang/String;)Ljava/lang/String; >
+	5	forwbranch < 0, 41090 > 0.0% taken
+	12	forwbranch < 0, 41089 > 0.0% taken
+	22	forwbranch < 0, 41089 > 0.0% taken
+	63	forwbranch < 0, 0 > Never Executed
+	76	switch     < 0, 0, 0, 0, 0, 0, 0 >
+	120	forwbranch < 0, 0 > Never Executed
+	132	forwbranch < 0, 0 > Never Executed
+	144	forwbranch < 0, 0 > Never Executed
+	178	forwbranch < 0, 0 > Never Executed
+	192	forwbranch < 0, 0 > Never Executed
+	206	forwbranch < 0, 0 > Never Executed
+	247	forwbranch < 0, 0 > Never Executed
+	261	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 0, 0 > Never Executed
+	311	forwbranch < 0, 0 > Never Executed
+	356	forwbranch < 0, 0 > Never Executed
+	412	forwbranch < 0, 0 > Never Executed
+	425	forwbranch < 0, 0 > Never Executed
+	438	forwbranch < 0, 0 > Never Executed
+	450	forwbranch < 0, 0 > Never Executed
+	462	forwbranch < 0, 0 > Never Executed
+	479	forwbranch < 0, 0 > Never Executed
+	495	forwbranch < 0, 0 > Never Executed
+	521	forwbranch < 0, 0 > Never Executed
+	535	forwbranch < 0, 0 > Never Executed
+	549	forwbranch < 0, 0 > Never Executed
+	590	forwbranch < 0, 0 > Never Executed
+	604	forwbranch < 0, 0 > Never Executed
+	633	forwbranch < 0, 0 > Never Executed
+	654	forwbranch < 0, 0 > Never Executed
+	699	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/lib/IntKeyHashMap;, values, ()Lorg/hsqldb/lib/Collection; >
+	4	forwbranch < 0, 5 > 0.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/Database;, close, (I)V >
+	26	forwbranch < 5, 0 > 100.0% taken
+	42	forwbranch < 0, 5 > 0.0% taken
+	76	forwbranch < 0, 0 > Never Executed
+	124	forwbranch < 5, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/IntKeyHashMap;, get, (I)Ljava/lang/Object; >
+	8	forwbranch < 6, 181543 > 0.003304893% taken
+M 7 < SystemAppCL, Lorg/hsqldb/DatabaseManager;, getDatabase, (Ljava/lang/String;Ljava/lang/String;Lorg/hsqldb/persist/HsqlProperties;)Lorg/hsqldb/Database; >
+	16	switch     < 405, 0, 0, 5, 0 >
+	68	forwbranch < 5, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/DatabaseManager;, getDatabaseObject, (Ljava/lang/String;Ljava/lang/String;Lorg/hsqldb/persist/HsqlProperties;)Lorg/hsqldb/Database; >
+	6	forwbranch < 410, 0 > 100.0% taken
+	26	forwbranch < 410, 0 > 100.0% taken
+	40	forwbranch < 0, 410 > 0.0% taken
+	72	forwbranch < 405, 5 > 98.78049% taken
+M 6 < SystemAppCL, Lorg/hsqldb/DatabaseManager;, lookupDatabaseObject, (Ljava/lang/String;Ljava/lang/String;)Lorg/hsqldb/Database; >
+	5	forwbranch < 5, 0 > 100.0% taken
+	23	forwbranch < 5, 0 > 100.0% taken
+	36	forwbranch < 0, 5 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Database;, open, ()V >
+	4	forwbranch < 5, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/HashMap;, get, (Ljava/lang/Object;)Ljava/lang/Object; >
+	14	forwbranch < 80312, 45374 > 63.898922% taken
+M 6 < SystemAppCL, Lorg/hsqldb/Database;, <init>, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/hsqldb/persist/HsqlProperties;)V >
+	37	forwbranch < 5, 0 > 100.0% taken
+	84	forwbranch < 5, 0 > 100.0% taken
+	116	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/DatabaseManager;, notifyServers, (Lorg/hsqldb/Database;)V >
+	18	forwbranch < 5, 0 > 100.0% taken
+	47	backbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/lib/HashMap;, keySet, ()Lorg/hsqldb/lib/Set; >
+	4	forwbranch < 3324, 15162 > 17.981174% taken
+M 2 < SystemAppCL, Lorg/hsqldb/store/ValuePool;, resetPool, ()V >
+	3	forwbranch < 5, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/HashMap;, values, ()Lorg/hsqldb/lib/Collection; >
+	4	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/HashSet;, remove, (Ljava/lang/Object;)Z >
+	16	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/HashSet;, add, (Ljava/lang/Object;)Z >
+	20	forwbranch < 0, 145 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Trace;, error, (ILjava/lang/Object;)Lorg/hsqldb/HsqlException; >
+	11	forwbranch < 0, 20 > 0.0% taken
+M 14 < SystemAppCL, Lorg/hsqldb/DatabaseManager;, removeDatabase, (Lorg/hsqldb/Database;)V >
+	25	forwbranch < 5, 0 > 100.0% taken
+	66	forwbranch < 0, 0 > Never Executed
+	86	backbranch < 0, 0 > Never Executed
+	98	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 5, 0 > 100.0% taken
+	133	forwbranch < 0, 5 > 0.0% taken
+	175	forwbranch < 0, 5 > 0.0% taken
+M 20 < SystemAppCL, Lorg/hsqldb/store/BaseHashMap;, <init>, (IFIIZ)V >
+	15	forwbranch < 0, 8266 > 0.0% taken
+	22	forwbranch < 8266, 0 > 100.0% taken
+	53	forwbranch < 8266, 0 > 100.0% taken
+	71	forwbranch < 8266, 0 > 100.0% taken
+	100	forwbranch < 8160, 106 > 98.717636% taken
+	121	forwbranch < 5, 8155 > 0.06127451% taken
+	157	forwbranch < 8124, 142 > 98.28212% taken
+	179	forwbranch < 45, 8079 > 0.5539143% taken
+	202	forwbranch < 45, 0 > 100.0% taken
+	228	forwbranch < 8260, 6 > 99.927414% taken
+M 72 < SystemAppCL, Lorg/hsqldb/store/BaseHashMap;, addOrRemove, (JJLjava/lang/Object;Ljava/lang/Object;Z)Ljava/lang/Object; >
+	8	forwbranch < 642141, 4019 > 99.37802% taken
+	13	forwbranch < 4019, 0 > 100.0% taken
+	56	forwbranch < 646129, 1368 > 99.78873% taken
+	63	forwbranch < 42, 1326 > 3.0701754% taken
+	78	forwbranch < 1323, 3 > 99.77376% taken
+	88	forwbranch < 0, 42 > 0.0% taken
+	101	forwbranch < 14, 28 > 33.333332% taken
+	111	forwbranch < 0, 0 > Never Executed
+	123	forwbranch < 0, 0 > Never Executed
+	149	forwbranch < 646129, 31 > 99.9952% taken
+	154	forwbranch < 0, 31 > 0.0% taken
+	161	forwbranch < 28, 3 > 90.32258% taken
+	178	forwbranch < 28, 0 > 100.0% taken
+	195	forwbranch < 0, 28 > 0.0% taken
+	221	forwbranch < 9, 22 > 29.032259% taken
+	248	forwbranch < 0, 9 > 0.0% taken
+	266	forwbranch < 0, 0 > Never Executed
+	294	forwbranch < 31, 0 > 100.0% taken
+	309	forwbranch < 31, 0 > 100.0% taken
+	319	forwbranch < 0, 0 > Never Executed
+	337	forwbranch < 0, 0 > Never Executed
+	365	forwbranch < 0, 0 > Never Executed
+	384	forwbranch < 0, 0 > Never Executed
+	399	forwbranch < 0, 0 > Never Executed
+	425	forwbranch < 4091, 642038 > 0.6331553% taken
+	441	forwbranch < 4067, 24 > 99.413345% taken
+	448	forwbranch < 0, 24 > 0.0% taken
+	483	forwbranch < 74, 3993 > 1.819523% taken
+	502	forwbranch < 0, 74 > 0.0% taken
+	517	forwbranch < 72, 2 > 97.297295% taken
+	538	forwbranch < 0, 0 > Never Executed
+	552	forwbranch < 0, 0 > Never Executed
+	570	forwbranch < 1831, 2236 > 45.0209% taken
+	589	forwbranch < 127, 1704 > 6.9361005% taken
+	608	forwbranch < 127, 0 > 100.0% taken
+	623	forwbranch < 4067, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/store/BaseHashMap;, removeObject, (Ljava/lang/Object;)Ljava/lang/Object; >
+	1	forwbranch < 15, 0 > 100.0% taken
+	39	forwbranch < 0, 15 > 0.0% taken
+	53	forwbranch < 0, 15 > 0.0% taken
+	80	forwbranch < 10, 5 > 66.666664% taken
+M 4 < SystemAppCL, Lorg/hsqldb/store/BaseHashMap;, containsKey, (Ljava/lang/Object;)Z >
+	1	forwbranch < 91774, 0 > 100.0% taken
+	18	forwbranch < 22882, 68892 > 24.932987% taken
+M 2 < SystemAppCL, Lorg/hsqldb/store/HashIndex;, unlinkNode, (III)V >
+	2	forwbranch < 0, 1910 > 0.0% taken
+M 16 < SystemAppCL, Lorg/hsqldb/store/BaseHashMap;, rehash, (I)V >
+	27	forwbranch < 150, 0 > 100.0% taken
+	79	forwbranch < 150, 3628 > 3.9703548% taken
+	98	forwbranch < 160, 3468 > 4.4101434% taken
+	117	forwbranch < 0, 160 > 0.0% taken
+	146	forwbranch < 1678, 1950 > 46.251377% taken
+	165	forwbranch < 0, 1678 > 0.0% taken
+	185	forwbranch < 0, 0 > Never Executed
+	215	backbranch < 3628, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/hsqldb/store/BaseHashMap;, reset, ()Z >
+	4	forwbranch < 150, 0 > 100.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+	39	forwbranch < 0, 0 > Never Executed
+	53	forwbranch < 0, 0 > Never Executed
+	80	forwbranch < 0, 0 > Never Executed
+	106	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/store/HashIndex;, linkNode, (II)I >
+	7	forwbranch < 593, 45787 > 1.2785684% taken
+	37	forwbranch < 4420, 41960 > 9.52997% taken
+M 2 < SystemAppCL, Lorg/hsqldb/store/BaseHashMap;, clear, ()V >
+	47	forwbranch < 20204, 0 > 100.0% taken
+M 20 < SystemAppCL, Lorg/hsqldb/store/BaseHashMap;, nextLookup, (IIZI)I >
+	5	forwbranch < 150, 3628 > 3.9703548% taken
+	12	forwbranch < 160, 3468 > 4.4101434% taken
+	21	forwbranch < 0, 3468 > 0.0% taken
+	30	forwbranch < 0, 160 > 0.0% taken
+	39	forwbranch < 0, 160 > 0.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	51	forwbranch < 0, 0 > Never Executed
+	64	forwbranch < 0, 0 > Never Executed
+	70	forwbranch < 0, 0 > Never Executed
+	76	forwbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lorg/hsqldb/store/BaseHashMap;, resizeElementArrays, (II)V >
+	2	forwbranch < 0, 150 > 0.0% taken
+	16	forwbranch < 140, 10 > 93.333336% taken
+	47	forwbranch < 87, 63 > 58.0% taken
+	78	forwbranch < 150, 0 > 100.0% taken
+	109	forwbranch < 150, 0 > 100.0% taken
+	140	forwbranch < 10, 140 > 6.6666665% taken
+	172	forwbranch < 63, 87 > 42.0% taken
+	204	forwbranch < 150, 0 > 100.0% taken
+M 28 < SystemAppCL, Lorg/hsqldb/store/BaseHashMap;, clearElementArrays, (II)V >
+	4	forwbranch < 33485, 55 > 99.83601% taken
+	14	forwbranch < 55, 960 > 5.4187193% taken
+	31	forwbranch < 33540, 0 > 100.0% taken
+	41	forwbranch < 0, 0 > Never Executed
+	58	forwbranch < 55, 33485 > 0.1639833% taken
+	68	forwbranch < 33485, 337540 > 9.024999% taken
+	85	forwbranch < 33070, 470 > 98.59869% taken
+	95	forwbranch < 470, 13600 > 3.3404408% taken
+	112	forwbranch < 33540, 0 > 100.0% taken
+	122	forwbranch < 0, 0 > Never Executed
+	139	forwbranch < 16470, 17070 > 49.105545% taken
+	149	forwbranch < 17070, 68900 > 19.855764% taken
+	166	forwbranch < 33540, 0 > 100.0% taken
+	176	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/store/HashIndex;, clear, ()V >
+	15	forwbranch < 8763, 88504 > 9.009222% taken
+M 4 < SystemAppCL, Lorg/hsqldb/store/BaseHashMap;, getLookup, (Ljava/lang/Object;I)I >
+	10	forwbranch < 36863, 52538 > 41.23332% taken
+	27	forwbranch < 26580, 25958 > 50.591953% taken
+M 4 < SystemAppCL, Lorg/hsqldb/store/BaseHashMap;, getLookup, (I)I >
+	10	forwbranch < 1360, 647798 > 0.20950216% taken
+	22	forwbranch < 204, 647594 > 0.0314913% taken
+M 20 < SystemAppCL, Lorg/hsqldb/store/BaseHashMap;, nextLookup, (I)I >
+	11	forwbranch < 0, 10407 > 0.0% taken
+	18	forwbranch < 37, 10370 > 0.35552993% taken
+	27	forwbranch < 0, 10370 > 0.0% taken
+	36	forwbranch < 0, 37 > 0.0% taken
+	45	forwbranch < 32, 5 > 86.48649% taken
+	54	forwbranch < 32, 0 > 100.0% taken
+	62	forwbranch < 0, 0 > Never Executed
+	75	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/store/BaseHashMap;, isEmpty, ()Z >
+	7	forwbranch < 0, 5 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/store/HashIndex;, resetTables, ()V >
+	15	forwbranch < 19428, 254529 > 7.091624% taken
+M 4 < SystemAppCL, Lorg/hsqldb/lib/HsqlArrayHeap;, <init>, (ILorg/hsqldb/lib/ObjectComparator;)V >
+	5	forwbranch < 1, 0 > 100.0% taken
+	36	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/HsqlThreadFactory;, setImpl, (Lorg/hsqldb/lib/ThreadFactory;)Lorg/hsqldb/lib/ThreadFactory; >
+	7	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Database;, isShutdown, ()Z >
+	6	forwbranch < 0, 5 > 0.0% taken
+M 14 < SystemAppCL, Lorg/hsqldb/Database;, reopen, ()V >
+	24	forwbranch < 10, 0 > 100.0% taken
+	34	forwbranch < 0, 0 > Never Executed
+	44	forwbranch < 0, 10 > 0.0% taken
+	56	forwbranch < 10, 0 > 100.0% taken
+	211	forwbranch < 10, 0 > 100.0% taken
+	223	forwbranch < 0, 10 > 0.0% taken
+	292	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/persist/HsqlDatabaseProperties;, <init>, (Lorg/hsqldb/Database;)V >
+	154	forwbranch < 10, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/persist/HsqlDatabaseProperties;, load, ()Z >
+	10	forwbranch < 0, 10 > 0.0% taken
+	48	forwbranch < 0, 0 > Never Executed
+	77	forwbranch < 0, 0 > Never Executed
+	104	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/hsqldb/persist/HsqlDatabaseProperties;, setURLProperties, (Lorg/hsqldb/persist/HsqlProperties;)V >
+	1	forwbranch < 0, 10 > 0.0% taken
+	15	forwbranch < 10, 50 > 16.666666% taken
+	33	forwbranch < 0, 50 > 0.0% taken
+	41	forwbranch < 0, 50 > 0.0% taken
+	49	forwbranch < 0, 50 > 0.0% taken
+	58	backbranch < 50, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseInformation;, newDatabaseInformation, (Lorg/hsqldb/Database;)Lorg/hsqldb/DatabaseInformation; >
+	31	forwbranch < 9, 1 > 90.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/persist/HsqlDatabaseProperties;, setDatabaseVariables, ()V >
+	6	forwbranch < 10, 0 > 100.0% taken
+	22	forwbranch < 10, 0 > 100.0% taken
+	51	forwbranch < 10, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/persist/Logger;, synchLogForce, ()V >
+	4	forwbranch < 10, 0 > 100.0% taken
+M 13 < SystemAppCL, Lorg/hsqldb/persist/Logger;, closeLog, (I)Z >
+	4	forwbranch < 0, 10 > 0.0% taken
+	11	forwbranch < 10, 0 > 100.0% taken
+	36	switch     < 0, 0, 0, 0, 0 >
+	105	forwbranch < 0, 0 > Never Executed
+	138	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/persist/Logger;, releaseLock, ()V >
+	4	forwbranch < 5, 0 > 100.0% taken
+	22	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Database;, clearStructures, ()V >
+	4	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/SchemaManager;, clearStructures, ()V >
+	19	forwbranch < 10, 10 > 50.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/UserManager;, getUser, (Ljava/lang/String;Ljava/lang/String;)Lorg/hsqldb/User; >
+	1	forwbranch < 410, 0 > 100.0% taken
+	8	forwbranch < 410, 0 > 100.0% taken
+	20	forwbranch < 410, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/persist/Logger;, logConnectUser, (Lorg/hsqldb/Session;)V >
+	4	forwbranch < 410, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/SessionManager;, closeAllSessions, ()V >
+	10	forwbranch < 5, 5 > 50.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Database;, getJavaName, (Ljava/lang/String;)Ljava/lang/String; >
+	13	forwbranch < 0, 5 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Database;, getDefaultTableType, ()I >
+	16	forwbranch < 20, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/Database;, closeIfLast, ()V >
+	4	forwbranch < 410, 0 > 100.0% taken
+	14	forwbranch < 0, 0 > Never Executed
+	24	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/Database;, setMetaDirty, (Z)V >
+	4	forwbranch < 0, 40 > 0.0% taken
+	15	forwbranch < 40, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/persist/Logger;, writeToLog, (Lorg/hsqldb/Session;Ljava/lang/String;)V >
+	4	forwbranch < 645, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/persist/Logger;, synchLog, ()V >
+	4	forwbranch < 40005, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/persist/Logger;, writeInsertStatement, (Lorg/hsqldb/Session;Lorg/hsqldb/Table;[Ljava/lang/Object;)V >
+	4	forwbranch < 339831, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/persist/Logger;, writeDeleteStatement, (Lorg/hsqldb/Session;Lorg/hsqldb/Table;[Ljava/lang/Object;)V >
+	4	forwbranch < 9044, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/persist/Logger;, writeCommitStatement, (Lorg/hsqldb/Session;)V >
+	4	forwbranch < 8375, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/lib/IntValueHashMap;, get, (Ljava/lang/Object;I)I >
+	1	forwbranch < 226493, 0 > 100.0% taken
+	28	forwbranch < 153456, 73037 > 67.75309% taken
+M 16 < SystemAppCL, Lorg/hsqldb/CompiledStatementManager;, freeStatement, (IIZ)V >
+	2	forwbranch < 1015, 0 > 100.0% taken
+	21	forwbranch < 1015, 0 > 100.0% taken
+	36	forwbranch < 1015, 0 > 100.0% taken
+	45	forwbranch < 1015, 0 > 100.0% taken
+	49	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 1015, 0 > 100.0% taken
+	81	forwbranch < 950, 65 > 93.59606% taken
+	99	forwbranch < 0, 65 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/IntKeyIntValueHashMap;, get, (II)I >
+	8	forwbranch < 1080, 2980 > 26.600985% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/IntKeyIntValueHashMap;, put, (II)Z >
+	22	forwbranch < 1900, 1080 > 63.75839% taken
+M 4 < SystemAppCL, Lorg/hsqldb/lib/IntValueHashMap;, put, (Ljava/lang/Object;I)Z >
+	1	forwbranch < 11170, 0 > 100.0% taken
+	33	forwbranch < 0, 11170 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/IntKeyIntValueHashMap;, remove, (I)Z >
+	21	forwbranch < 0, 1080 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/IntValueHashMap;, remove, (Ljava/lang/Object;)Z >
+	20	forwbranch < 0, 65 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/IntKeyIntValueHashMap;, keySet, ()Lorg/hsqldb/lib/Set; >
+	4	forwbranch < 0, 205 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/CompiledStatementManager;, getStatementID, (Lorg/hsqldb/HsqlNameManager$HsqlName;Ljava/lang/String;)I >
+	16	forwbranch < 1010, 5 > 99.50739% taken
+M 4 < SystemAppCL, Lorg/hsqldb/CompiledStatementManager;, registerStatement, (ILorg/hsqldb/CompiledStatement;)I >
+	1	forwbranch < 0, 65 > 0.0% taken
+	32	forwbranch < 60, 5 > 92.30769% taken
+M 4 < SystemAppCL, Lorg/hsqldb/CompiledStatementManager;, linkSession, (II)V >
+	13	forwbranch < 810, 205 > 79.802956% taken
+	54	forwbranch < 0, 1015 > 0.0% taken
+M 15 < SystemAppCL, Lorg/hsqldb/Session;, sqlCompileStatement, (Ljava/lang/String;)Lorg/hsqldb/CompiledStatement; >
+	28	switch     < 0, 0, 25, 10, 30, 0, 0 >
+	172	forwbranch < 0, 65 > 0.0% taken
+	189	forwbranch < 65, 0 > 100.0% taken
+	206	backbranch < 0, 0 > Never Executed
+	216	backbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/CompiledStatementManager;, getStatement, (Lorg/hsqldb/Session;I)Lorg/hsqldb/CompiledStatement; >
+	13	forwbranch < 130012, 0 > 100.0% taken
+	22	forwbranch < 130012, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/CompiledStatementManager;, removeSession, (I)V >
+	13	forwbranch < 205, 205 > 50.0% taken
+	35	forwbranch < 205, 0 > 100.0% taken
+	61	forwbranch < 0, 0 > Never Executed
+	79	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/hsqldb/CompiledStatementManager;, compile, (Lorg/hsqldb/Session;Ljava/lang/String;)Lorg/hsqldb/CompiledStatement; >
+	25	forwbranch < 65, 950 > 6.4039407% taken
+	33	forwbranch < 0, 950 > 0.0% taken
+	40	forwbranch < 950, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/hsqldb/Trace;, error, (II[Ljava/lang/Object;)Lorg/hsqldb/HsqlException; >
+	19	forwbranch < 0, 5 > 0.0% taken
+	38	forwbranch < 5, 0 > 100.0% taken
+	92	forwbranch < 5, 0 > 100.0% taken
+	102	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	145	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/lib/HashSet;, addAll, ([Ljava/lang/Object;)Z >
+	7	forwbranch < 7, 45 > 13.461538% taken
+	17	forwbranch < 0, 45 > 0.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/HsqlNameManager;, newAutoName, (Ljava/lang/String;Ljava/lang/String;)Lorg/hsqldb/HsqlNameManager$HsqlName; >
+	9	forwbranch < 0, 485 > 0.0% taken
+	16	forwbranch < 0, 485 > 0.0% taken
+	40	forwbranch < 485, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/GranteeManager;, addRole, (Ljava/lang/String;)Ljava/lang/String; >
+	1	forwbranch < 10, 0 > 100.0% taken
+	20	forwbranch < 10, 0 > 100.0% taken
+	53	forwbranch < 10, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/GranteeManager;, getRole, (Ljava/lang/String;)Lorg/hsqldb/Grantee; >
+	5	forwbranch < 20, 0 > 100.0% taken
+	49	forwbranch < 20, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/GranteeManager;, isImmutable, (Ljava/lang/String;)Z >
+	6	forwbranch < 0, 460 > 0.0% taken
+	15	forwbranch < 460, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Grantee;, grant, (Ljava/lang/Object;I)V >
+	1	forwbranch < 450, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Grantee;, updateAllRights, ()V >
+	29	forwbranch < 460, 10 > 97.87234% taken
+M 6 < SystemAppCL, Lorg/hsqldb/GranteeManager;, isReserved, (Ljava/lang/String;)Z >
+	6	forwbranch < 10, 30 > 25.0% taken
+	15	forwbranch < 10, 20 > 33.333332% taken
+	24	forwbranch < 10, 10 > 50.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/IntValueHashMap;, keySet, ()Lorg/hsqldb/lib/Set; >
+	4	forwbranch < 440, 30 > 93.61702% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/HsqlArrayList;, add, (Ljava/lang/Object;)Z >
+	9	forwbranch < 371522, 369 > 99.90078% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/HsqlArrayList;, toArray, (Ljava/lang/Object;)Ljava/lang/Object; >
+	8	forwbranch < 16085, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/GranteeManager;, validRightString, (Ljava/lang/String;)Z >
+	4	forwbranch < 10, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/GranteeManager;, addGrantee, (Ljava/lang/String;)Lorg/hsqldb/Grantee; >
+	8	forwbranch < 40, 0 > 100.0% taken
+	25	forwbranch < 30, 10 > 75.0% taken
+	36	forwbranch < 10, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/HashMappedList;, add, (Ljava/lang/Object;Ljava/lang/Object;)Z >
+	10	forwbranch < 18481, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/GranteeManager;, grant, (Ljava/lang/String;Ljava/lang/Object;I)V >
+	9	forwbranch < 450, 0 > 100.0% taken
+	24	forwbranch < 450, 0 > 100.0% taken
+	52	forwbranch < 450, 0 > 100.0% taken
+M 14 < SystemAppCL, Lorg/hsqldb/GranteeManager;, grant, (Ljava/lang/String;Ljava/lang/String;)V >
+	7	forwbranch < 10, 0 > 100.0% taken
+	22	forwbranch < 10, 0 > 100.0% taken
+	42	forwbranch < 10, 0 > 100.0% taken
+	58	forwbranch < 10, 0 > 100.0% taken
+	75	forwbranch < 10, 0 > 100.0% taken
+	130	forwbranch < 10, 0 > 100.0% taken
+	154	forwbranch < 10, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/lib/IntValueHashMap;, get, (Ljava/lang/Object;)I >
+	1	forwbranch < 10350, 0 > 100.0% taken
+	26	forwbranch < 0, 10350 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/IntValueHashMap;, putAll, (Lorg/hsqldb/lib/IntValueHashMap;)V >
+	16	forwbranch < 470, 10350 > 4.3438077% taken
+M 4 < SystemAppCL, Lorg/hsqldb/lib/HashMappedList;, checkRange, (I)V >
+	1	forwbranch < 0, 704890 > 0.0% taken
+	9	forwbranch < 704890, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Grantee;, addGranteeAndRoles, (Lorg/hsqldb/lib/HashSet;)Lorg/hsqldb/lib/HashSet; >
+	23	forwbranch < 10, 0 > 100.0% taken
+	41	backbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/hsqldb/Grantee;, isAccessible, (Lorg/hsqldb/HsqlNameManager$HsqlName;I)Z >
+	4	forwbranch < 0, 29139 > 0.0% taken
+	13	forwbranch < 0, 0 > Never Executed
+	25	forwbranch < 0, 0 > Never Executed
+	41	forwbranch < 0, 0 > Never Executed
+	47	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/hsqldb/Grantee;, isAccessible, (Ljava/lang/String;)Z >
+	6	forwbranch < 5, 0 > 100.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+	24	forwbranch < 0, 0 > Never Executed
+	33	forwbranch < 0, 0 > Never Executed
+	44	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Grantee;, check, (Lorg/hsqldb/HsqlNameManager$HsqlName;I)V >
+	6	forwbranch < 40085, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Grantee;, check, (Ljava/lang/String;)V >
+	5	forwbranch < 5, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Grantee;, checkAdmin, ()V >
+	4	forwbranch < 55, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/UserManager;, createUser, (Ljava/lang/String;Ljava/lang/String;)Lorg/hsqldb/User; >
+	1	forwbranch < 30, 0 > 100.0% taken
+	41	forwbranch < 20, 10 > 66.666664% taken
+	61	forwbranch < 20, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/User;, <init>, (Ljava/lang/String;Ljava/lang/String;Lorg/hsqldb/Grantee;)V >
+	23	forwbranch < 30, 0 > 100.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+	42	forwbranch < 30, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Trace;, check, (ZILjava/lang/Object;)V >
+	1	forwbranch < 111, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/UserManager;, get, (Ljava/lang/String;)Lorg/hsqldb/User; >
+	13	forwbranch < 410, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Library;, register, (Lorg/hsqldb/lib/HashMap;[[Ljava/lang/String;)V >
+	5	forwbranch < 40, 760 > 5.0% taken
+M 32 < BootstrapCL, Ljava/util/Calendar;, set, (II)V >
+	4	forwbranch < 0, 6 > 0.0% taken
+	12	forwbranch < 6, 102 > 5.5555553% taken
+	48	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6 >
+	204	forwbranch < 0, 0 > Never Executed
+	280	forwbranch < 0, 0 > Never Executed
+	409	forwbranch < 0, 0 > Never Executed
+	544	forwbranch < 0, 6 > 0.0% taken
+	550	forwbranch < 0, 6 > 0.0% taken
+	556	forwbranch < 0, 6 > 0.0% taken
+M 68 < SystemAppCL, Lorg/hsqldb/Library;, invoke, (I[Ljava/lang/Object;)Ljava/lang/Object; >
+	1	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 2 < SystemAppCL, Lorg/hsqldb/Library;, functionID, (Ljava/lang/String;)I >
+	6	forwbranch < 0, 5 > 0.0% taken
+M 26 < BootstrapCL, Ljava/text/SimpleDateFormat;, compileFormat, (Ljava/lang/String;)V >
+	12	forwbranch < 6, 66 > 8.333333% taken
+	33	forwbranch < 50, 16 > 75.757576% taken
+	42	forwbranch < 16, 0 > 100.0% taken
+	48	forwbranch < 0, 0 > Never Executed
+	54	forwbranch < 16, 0 > 100.0% taken
+	60	forwbranch < 0, 0 > Never Executed
+	108	forwbranch < 16, 0 > 100.0% taken
+	127	forwbranch < 0, 0 > Never Executed
+	160	forwbranch < 0, 0 > Never Executed
+	216	forwbranch < 0, 0 > Never Executed
+	228	forwbranch < 0, 0 > Never Executed
+	296	forwbranch < 21, 29 > 42.0% taken
+	306	forwbranch < 0, 29 > 0.0% taken
+M 2 < BootstrapCL, Ljava/util/Calendar;, clear, ()V >
+	114	forwbranch < 24, 408 > 5.5555553% taken
+M 16 < BootstrapCL, Ljava/util/TimeZone;, getTimeZone, (Ljava/lang/String;)Ljava/util/TimeZone; >
+	6	forwbranch < 0, 1 > 0.0% taken
+	14	forwbranch < 1, 0 > 100.0% taken
+	28	forwbranch < 0, 0 > Never Executed
+	46	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	114	forwbranch < 0, 0 > Never Executed
+	179	forwbranch < 0, 0 > Never Executed
+	293	forwbranch < 0, 1 > 0.0% taken
+M 12 < BootstrapCL, Ljava/util/Calendar;, <init>, (Ljava/util/TimeZone;Ljava/util/Locale;)V >
+	124	forwbranch < 0, 6 > 0.0% taken
+	167	forwbranch < 4, 2 > 66.666664% taken
+	182	forwbranch < 0, 6 > 0.0% taken
+	211	forwbranch < 0, 6 > 0.0% taken
+	221	forwbranch < 6, 48 > 11.111111% taken
+	233	forwbranch < 42, 6 > 87.5% taken
+M 2 < BootstrapCL, Ljava/util/GregorianCalendar;, isGregorian, (II)Z >
+	72	forwbranch < 0, 12 > 0.0% taken
+M 2 < BootstrapCL, Ljava/util/GregorianCalendar;, getLinearDay, (IIZ)J >
+	27	forwbranch < 0, 36 > 0.0% taken
+M 8 < BootstrapCL, Ljava/util/GregorianCalendar;, isLeapYear, (I)Z >
+	3	forwbranch < 0, 24 > 0.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+	24	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+M 14 < BootstrapCL, Ljava/util/GregorianCalendar;, calculateDay, ([IJZ)V >
+	13	forwbranch < 6, 6 > 50.0% taken
+	30	forwbranch < 0, 12 > 0.0% taken
+	69	forwbranch < 6, 6 > 50.0% taken
+	90	forwbranch < 0, 12 > 0.0% taken
+	122	forwbranch < 12, 0 > 100.0% taken
+	154	forwbranch < 12, 0 > 100.0% taken
+	172	forwbranch < 12, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/GregorianCalendar;, getWeekDay, (II)I >
+	28	forwbranch < 6, 6 > 50.0% taken
+M 74 < BootstrapCL, Ljava/util/GregorianCalendar;, computeTime, ()V >
+	216	forwbranch < 6, 0 > 100.0% taken
+	229	forwbranch < 0, 6 > 0.0% taken
+	239	forwbranch < 6, 0 > 100.0% taken
+	248	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 6, 0 > 100.0% taken
+	282	forwbranch < 0, 0 > Never Executed
+	294	forwbranch < 0, 0 > Never Executed
+	352	forwbranch < 0, 0 > Never Executed
+	390	forwbranch < 0, 0 > Never Executed
+	409	forwbranch < 0, 0 > Never Executed
+	419	forwbranch < 0, 0 > Never Executed
+	481	forwbranch < 0, 0 > Never Executed
+	511	forwbranch < 0, 0 > Never Executed
+	523	forwbranch < 0, 0 > Never Executed
+	578	forwbranch < 0, 0 > Never Executed
+	592	forwbranch < 6, 0 > 100.0% taken
+	596	forwbranch < 0, 0 > Never Executed
+	610	forwbranch < 6, 0 > 100.0% taken
+	630	forwbranch < 0, 0 > Never Executed
+	700	forwbranch < 6, 0 > 100.0% taken
+	720	forwbranch < 0, 0 > Never Executed
+	733	forwbranch < 6, 0 > 100.0% taken
+	759	forwbranch < 6, 0 > 100.0% taken
+	772	forwbranch < 6, 0 > 100.0% taken
+	777	forwbranch < 0, 0 > Never Executed
+	791	forwbranch < 0, 0 > Never Executed
+	832	forwbranch < 6, 54 > 10.0% taken
+	856	backbranch < 54, 0 > 100.0% taken
+	870	forwbranch < 0, 0 > Never Executed
+	901	forwbranch < 6, 0 > 100.0% taken
+	907	forwbranch < 0, 0 > Never Executed
+	988	forwbranch < 0, 6 > 0.0% taken
+	1029	forwbranch < 0, 6 > 0.0% taken
+	1057	forwbranch < 6, 0 > 100.0% taken
+	1084	forwbranch < 6, 0 > 100.0% taken
+	1100	forwbranch < 6, 0 > 100.0% taken
+	1109	forwbranch < 6, 0 > 100.0% taken
+M 4 < BootstrapCL, Ljava/util/Calendar;, complete, ()V >
+	4	forwbranch < 12, 0 > 100.0% taken
+	15	forwbranch < 12, 0 > 100.0% taken
+M 12 < BootstrapCL, Ljava/util/GregorianCalendar;, computeFields, ()V >
+	9	forwbranch < 0, 12 > 0.0% taken
+	65	forwbranch < 6, 6 > 50.0% taken
+	160	forwbranch < 12, 0 > 100.0% taken
+	257	forwbranch < 0, 12 > 0.0% taken
+	339	forwbranch < 4, 8 > 33.333332% taken
+	370	forwbranch < 0, 12 > 0.0% taken
+M 2 < BootstrapCL, Ljava/util/SimpleTimeZone;, <init>, (ILjava/lang/String;IIIIIIII)V >
+	73	forwbranch < 55, 0 > 100.0% taken
+M 16 < BootstrapCL, Ljava/util/TimeZone;, getTimeZoneInternal, (Ljava/lang/String;)Ljava/util/TimeZone; >
+	8	forwbranch < 0, 2 > 0.0% taken
+	29	forwbranch < 1, 1 > 50.0% taken
+	40	forwbranch < 1, 0 > 100.0% taken
+	71	forwbranch < 1, 0 > 100.0% taken
+	104	forwbranch < 0, 1 > 0.0% taken
+	110	forwbranch < 0, 1 > 0.0% taken
+	129	forwbranch < 0, 0 > Never Executed
+	168	forwbranch < 0, 0 > Never Executed
+M 8 < BootstrapCL, Ljava/util/TimeZone;, timezones, ()Ljava/util/HashMap; >
+	3	forwbranch < 1, 1 > 50.0% taken
+	29	forwbranch < 1, 0 > 100.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	55	forwbranch < 1, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/TimeZone;, setID, (Ljava/lang/String;)V >
+	1	forwbranch < 90, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/TimeZone;, defaultZone, ()Ljava/util/TimeZone; >
+	3	forwbranch < 5, 1 > 83.333336% taken
+M 108 < BootstrapCL, Ljava/util/TimeZone;, getDefaultTimeZone, (Ljava/lang/String;)Ljava/util/TimeZone; >
+	23	forwbranch < 0, 4 > 0.0% taken
+	30	forwbranch < 0, 4 > 0.0% taken
+	37	forwbranch < 0, 4 > 0.0% taken
+	44	forwbranch < 0, 4 > 0.0% taken
+	52	forwbranch < 0, 4 > 0.0% taken
+	57	forwbranch < 0, 4 > 0.0% taken
+	67	backbranch < 3, 1 > 75.0% taken
+	74	forwbranch < 0, 1 > 0.0% taken
+	109	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 0 > Never Executed
+	123	forwbranch < 0, 0 > Never Executed
+	131	forwbranch < 0, 0 > Never Executed
+	138	backbranch < 0, 0 > Never Executed
+	145	forwbranch < 0, 0 > Never Executed
+	173	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	214	forwbranch < 0, 0 > Never Executed
+	227	forwbranch < 0, 0 > Never Executed
+	238	forwbranch < 0, 0 > Never Executed
+	247	forwbranch < 0, 0 > Never Executed
+	275	forwbranch < 0, 0 > Never Executed
+	282	forwbranch < 0, 0 > Never Executed
+	289	forwbranch < 0, 0 > Never Executed
+	296	forwbranch < 0, 0 > Never Executed
+	304	forwbranch < 0, 0 > Never Executed
+	309	forwbranch < 0, 0 > Never Executed
+	319	backbranch < 0, 0 > Never Executed
+	326	forwbranch < 0, 0 > Never Executed
+	337	forwbranch < 0, 0 > Never Executed
+	346	forwbranch < 0, 0 > Never Executed
+	354	forwbranch < 0, 0 > Never Executed
+	389	forwbranch < 0, 0 > Never Executed
+	396	forwbranch < 0, 0 > Never Executed
+	403	forwbranch < 0, 0 > Never Executed
+	411	forwbranch < 0, 0 > Never Executed
+	418	backbranch < 0, 0 > Never Executed
+	425	forwbranch < 0, 0 > Never Executed
+	435	forwbranch < 0, 0 > Never Executed
+	442	forwbranch < 0, 0 > Never Executed
+	449	forwbranch < 0, 0 > Never Executed
+	482	forwbranch < 0, 0 > Never Executed
+	493	forwbranch < 0, 0 > Never Executed
+	523	forwbranch < 0, 0 > Never Executed
+	536	forwbranch < 0, 0 > Never Executed
+	547	forwbranch < 0, 0 > Never Executed
+	556	forwbranch < 0, 0 > Never Executed
+	564	forwbranch < 0, 0 > Never Executed
+	575	forwbranch < 0, 0 > Never Executed
+	599	forwbranch < 0, 0 > Never Executed
+	610	forwbranch < 0, 0 > Never Executed
+	628	forwbranch < 0, 0 > Never Executed
+	639	forwbranch < 0, 0 > Never Executed
+	681	forwbranch < 0, 0 > Never Executed
+	731	forwbranch < 0, 0 > Never Executed
+M 8 < BootstrapCL, Ljava/util/TimeZone$1;, run, ()Ljava/lang/Object; >
+	9	forwbranch < 0, 1 > 0.0% taken
+	18	forwbranch < 0, 1 > 0.0% taken
+	27	forwbranch < 0, 1 > 0.0% taken
+	35	forwbranch < 0, 1 > 0.0% taken
+M 10 < BootstrapCL, Ljava/util/SimpleTimeZone;, getDaysInMonth, (II)I >
+	2	forwbranch < 126, 2 > 98.4375% taken
+	8	forwbranch < 0, 2 > 0.0% taken
+	18	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 0, 0 > Never Executed
+	36	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Ljava/util/SimpleTimeZone;, checkRule, (III)I >
+	1	forwbranch < 0, 110 > 0.0% taken
+	7	forwbranch < 110, 0 > 100.0% taken
+	29	forwbranch < 105, 5 > 95.454544% taken
+	33	forwbranch < 0, 5 > 0.0% taken
+	39	forwbranch < 5, 0 > 100.0% taken
+	55	forwbranch < 4, 101 > 3.8095238% taken
+	70	forwbranch < 101, 0 > 100.0% taken
+	86	forwbranch < 101, 0 > 100.0% taken
+	102	forwbranch < 0, 4 > 0.0% taken
+	111	forwbranch < 4, 0 > 100.0% taken
+	127	forwbranch < 4, 0 > 100.0% taken
+	141	forwbranch < 4, 0 > 100.0% taken
+M 44 < BootstrapCL, Ljava/util/SimpleTimeZone;, getOffset, (IIIIII)I >
+	11	forwbranch < 0, 18 > 0.0% taken
+	18	forwbranch < 18, 0 > 100.0% taken
+	34	forwbranch < 0, 18 > 0.0% taken
+	41	forwbranch < 18, 0 > 100.0% taken
+	55	forwbranch < 0, 18 > 0.0% taken
+	61	forwbranch < 18, 0 > 100.0% taken
+	98	forwbranch < 18, 0 > 100.0% taken
+	103	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+	126	forwbranch < 0, 0 > Never Executed
+	170	forwbranch < 0, 0 > Never Executed
+	193	forwbranch < 0, 0 > Never Executed
+	219	forwbranch < 0, 0 > Never Executed
+	231	forwbranch < 0, 0 > Never Executed
+	248	forwbranch < 0, 0 > Never Executed
+	266	forwbranch < 0, 0 > Never Executed
+	313	forwbranch < 0, 0 > Never Executed
+	327	forwbranch < 0, 0 > Never Executed
+	332	forwbranch < 0, 0 > Never Executed
+	337	forwbranch < 0, 0 > Never Executed
+	355	forwbranch < 0, 0 > Never Executed
+	360	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Ljava/text/DateFormatSymbols;, getStringArray, (Ljava/util/List;Ljava/lang/String;I[Ljava/lang/String;)[Ljava/lang/String; >
+	24	forwbranch < 12, 30 > 28.571428% taken
+	63	forwbranch < 30, 230 > 11.538462% taken
+	71	forwbranch < 0, 230 > 0.0% taken
+	79	forwbranch < 0, 230 > 0.0% taken
+	90	forwbranch < 126, 104 > 54.782608% taken
+	101	forwbranch < 20, 84 > 19.23077% taken
+	127	forwbranch < 8, 4 > 66.666664% taken
+	133	forwbranch < 0, 4 > 0.0% taken
+	144	forwbranch < 4, 42 > 8.695652% taken
+	155	forwbranch < 38, 4 > 90.47619% taken
+	162	forwbranch < 0, 4 > 0.0% taken
+	172	forwbranch < 4, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/text/DateFormatSymbols;, getString, (Ljava/util/List;Ljava/lang/String;)Ljava/lang/String; >
+	15	forwbranch < 0, 18 > 0.0% taken
+	37	forwbranch < 0, 18 > 0.0% taken
+	44	forwbranch < 0, 18 > 0.0% taken
+M 2 < BootstrapCL, Ljava/text/DateFormatSymbols;, formatsForKey, (Ljava/util/List;Ljava/lang/String;)[Ljava/lang/String; >
+	15	forwbranch < 4, 16 > 20.0% taken
+M 42 < BootstrapCL, Ljava/text/DateFormatSymbols;, getZoneStrings, (Ljava/util/List;Ljava/util/Locale;)[[Ljava/lang/String; >
+	31	forwbranch < 2, 5 > 28.571428% taken
+	79	forwbranch < 5, 901 > 0.55187637% taken
+	132	forwbranch < 0, 901 > 0.0% taken
+	167	forwbranch < 6, 895 > 0.66592675% taken
+	180	forwbranch < 212, 689 > 23.529411% taken
+	211	forwbranch < 689, 1339 > 33.974358% taken
+	248	forwbranch < 322, 579 > 35.738068% taken
+	255	forwbranch < 0, 579 > 0.0% taken
+	266	forwbranch < 579, 2316 > 20.0% taken
+	279	forwbranch < 1283, 1033 > 55.397236% taken
+	340	forwbranch < 2, 322 > 0.61728394% taken
+	364	forwbranch < 318, 4 > 98.75777% taken
+	376	forwbranch < 0, 4 > 0.0% taken
+	399	forwbranch < 4, 1284 > 0.310559% taken
+	435	forwbranch < 1276, 8 > 99.376945% taken
+	502	forwbranch < 0, 8 > 0.0% taken
+	535	forwbranch < 0, 8 > 0.0% taken
+	605	forwbranch < 2, 0 > 100.0% taken
+	638	forwbranch < 0, 0 > Never Executed
+	654	forwbranch < 0, 0 > Never Executed
+	674	forwbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Ljava/text/DateFormatSymbols;, retrieveData, (Ljava/util/Locale;)Ljava/text/DateFormatSymbols$DFSData; >
+	14	forwbranch < 4, 2 > 66.666664% taken
+	59	forwbranch < 2, 3 > 40.0% taken
+	200	forwbranch < 2, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/DateFormatSymbols$DFSData;, getZoneStrings, ()[[Ljava/lang/String; >
+	16	forwbranch < 6, 966 > 0.61728394% taken
+M 18 < BootstrapCL, Ljava/util/concurrent/ConcurrentHashMap;, <init>, (IFI)V >
+	7	forwbranch < 0, 1 > 0.0% taken
+	11	forwbranch < 0, 1 > 0.0% taken
+	15	forwbranch < 1, 0 > 100.0% taken
+	29	forwbranch < 1, 0 > 100.0% taken
+	44	forwbranch < 1, 4 > 20.0% taken
+	88	forwbranch < 1, 0 > 100.0% taken
+	106	forwbranch < 1, 0 > 100.0% taken
+	119	forwbranch < 1, 0 > 100.0% taken
+	141	forwbranch < 1, 16 > 5.882353% taken
+M 10 < BootstrapCL, Ljava/util/concurrent/ConcurrentHashMap$Segment;, get, (Ljava/lang/Object;I)Ljava/lang/Object; >
+	4	forwbranch < 2, 4 > 33.333332% taken
+	14	forwbranch < 0, 4 > 0.0% taken
+	22	forwbranch < 0, 4 > 0.0% taken
+	33	forwbranch < 0, 4 > 0.0% taken
+	44	forwbranch < 0, 4 > 0.0% taken
+M 12 < BootstrapCL, Ljava/util/concurrent/ConcurrentHashMap$Segment;, put, (Ljava/lang/Object;ILjava/lang/Object;Z)Ljava/lang/Object; >
+	19	forwbranch < 2, 0 > 100.0% taken
+	54	forwbranch < 2, 0 > 100.0% taken
+	63	forwbranch < 0, 0 > Never Executed
+	75	forwbranch < 0, 0 > Never Executed
+	90	forwbranch < 2, 0 > 100.0% taken
+	102	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/util/concurrent/ConcurrentHashMap;, putIfAbsent, (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; >
+	1	forwbranch < 2, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/util/concurrent/locks/AbstractQueuedSynchronizer;, release, (I)Z >
+	5	forwbranch < 0, 2 > 0.0% taken
+	14	forwbranch < 2, 0 > 100.0% taken
+	21	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljava/util/concurrent/locks/ReentrantLock$Sync;, tryRelease, (I)Z >
+	14	forwbranch < 2, 0 > 100.0% taken
+	28	forwbranch < 0, 2 > 0.0% taken
+M 2 < BootstrapCL, Ljava/util/concurrent/locks/ReentrantLock$NonfairSync;, lock, ()V >
+	6	forwbranch < 0, 2 > 0.0% taken
+M 2 < BootstrapCL, Ljava/util/ServiceLoader;, load, (Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader; >
+	1	forwbranch < 2, 0 > 100.0% taken
+M 6 < BootstrapCL, Lgnu/classpath/ServiceFactory;, lookupProviders, (Ljava/lang/Class;Ljava/lang/ClassLoader;Z)Ljava/util/Iterator; >
+	1	forwbranch < 2, 0 > 100.0% taken
+	13	forwbranch < 2, 0 > 100.0% taken
+	67	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljava/util/ServiceLoader$1;, hasNext, ()Z >
+	9	forwbranch < 2, 0 > 100.0% taken
+	21	forwbranch < 0, 2 > 0.0% taken
+M 18 < BootstrapCL, Lgnu/classpath/ServiceFactory$ServiceIterator;, loadNextServiceProvider, ()Ljava/lang/Object; >
+	4	forwbranch < 0, 2 > 0.0% taken
+	15	forwbranch < 0, 2 > 0.0% taken
+	51	forwbranch < 0, 0 > Never Executed
+	86	forwbranch < 0, 0 > Never Executed
+	105	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 0 > Never Executed
+	190	forwbranch < 0, 0 > Never Executed
+	200	forwbranch < 0, 0 > Never Executed
+	243	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lgnu/classpath/ServiceFactory$ServiceIterator;, hasNext, ()Z >
+	4	forwbranch < 2, 0 > 100.0% taken
+M 10 < BootstrapCL, Lgnu/classpath/ServiceFactory$ServiceIterator;, advanceReader, ()V >
+	4	forwbranch < 2, 0 > 100.0% taken
+	48	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 2 > 0.0% taken
+	182	forwbranch < 0, 0 > Never Executed
+	220	backbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/SchemaManager$Schema;, clearStructures, ()V >
+	4	forwbranch < 0, 10 > 0.0% taken
+	17	forwbranch < 10, 20 > 33.333332% taken
+M 6 < SystemAppCL, Lorg/hsqldb/HsqlNameManager$HsqlName;, rename, (Ljava/lang/String;Z)V >
+	19	forwbranch < 335, 0 > 100.0% taken
+	39	forwbranch < 335, 0 > 100.0% taken
+	70	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/hsqldb/SchemaManager;, getSchemaHsqlName, (Ljava/lang/String;)Lorg/hsqldb/HsqlNameManager$HsqlName; >
+	1	forwbranch < 65, 0 > 100.0% taken
+	15	forwbranch < 65, 0 > 100.0% taken
+	35	forwbranch < 65, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/HsqlNameManager$HsqlName;, equals, (Ljava/lang/Object;)Z >
+	4	forwbranch < 0, 13380 > 0.0% taken
+	18	forwbranch < 3030, 10350 > 22.64574% taken
+M 6 < SystemAppCL, Lorg/hsqldb/SchemaManager;, findUserTable, (Lorg/hsqldb/Session;Ljava/lang/String;Ljava/lang/String;)Lorg/hsqldb/Table; >
+	15	forwbranch < 20216, 0 > 100.0% taken
+	37	forwbranch < 15, 52527 > 0.028548589% taken
+	62	forwbranch < 32326, 20201 > 61.541683% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Session;, commit, ()V >
+	4	forwbranch < 1723, 0 > 100.0% taken
+	22	forwbranch < 48, 1675 > 2.7858386% taken
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseObjectNames;, addName, (Ljava/lang/String;Lorg/hsqldb/HsqlNameManager$HsqlName;I)V >
+	5	forwbranch < 15, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/SequenceManager;, logSequences, (Lorg/hsqldb/Session;Lorg/hsqldb/persist/Logger;)Ljava/lang/String; >
+	10	forwbranch < 445393, 0 > 100.0% taken
+	31	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/SessionManager;, getAllSessions, ()[Lorg/hsqldb/Session; >
+	32	forwbranch < 5, 5 > 50.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Session;, checkDDLWrite, ()V >
+	7	forwbranch < 30, 0 > 100.0% taken
+	17	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/hsqldb/Table;, dropTriggers, ()V >
+	7	forwbranch < 20, 240 > 7.6923075% taken
+	18	forwbranch < 0, 240 > 0.0% taken
+	34	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/SchemaManager;, isSystemSchema, (Lorg/hsqldb/HsqlNameManager$HsqlName;)Z >
+	7	forwbranch < 0, 40 > 0.0% taken
+	17	forwbranch < 40, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/SchemaManager;, checkUserTableNotExists, (Lorg/hsqldb/Session;Ljava/lang/String;Ljava/lang/String;)V >
+	7	forwbranch < 20, 0 > 100.0% taken
+	19	forwbranch < 20, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/SchemaManager;, getTable, (Lorg/hsqldb/Session;Ljava/lang/String;Ljava/lang/String;)Lorg/hsqldb/Table; >
+	11	forwbranch < 40085, 5 > 99.987526% taken
+	20	forwbranch < 0, 5 > 0.0% taken
+	36	forwbranch < 0, 0 > Never Executed
+	55	forwbranch < 40085, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/SchemaManager;, logSequences, (Lorg/hsqldb/Session;Lorg/hsqldb/persist/Logger;)V >
+	14	forwbranch < 243913, 243913 > 50.0% taken
+M 12 < SystemAppCL, Lorg/hsqldb/SchemaManager;, dropTable, (Lorg/hsqldb/Session;Ljava/lang/String;Ljava/lang/String;ZZZ)V >
+	32	forwbranch < 20, 0 > 100.0% taken
+	57	forwbranch < 0, 0 > Never Executed
+	67	forwbranch < 0, 0 > Never Executed
+	89	forwbranch < 0, 20 > 0.0% taken
+	94	forwbranch < 20, 0 > 100.0% taken
+	100	forwbranch < 20, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Session;, close, ()V >
+	4	forwbranch < 307, 3 > 99.03226% taken
+	19	forwbranch < 307, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Session;, resetSchema, ()V >
+	10	forwbranch < 0, 420 > 0.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Session;, rollback, ()V >
+	4	forwbranch < 410, 0 > 100.0% taken
+	22	forwbranch < 410, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Session;, clearIndexRoots, ()V >
+	4	forwbranch < 2544, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Session;, clearIndexRootsKeep, ()V >
+	4	forwbranch < 410, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/TransactionManager;, addTransaction, (Lorg/hsqldb/Session;Lorg/hsqldb/Transaction;)V >
+	4	forwbranch < 355831, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/Table;, removeRowFromStore, (Lorg/hsqldb/Row;)V >
+	4	forwbranch < 0, 16000 > 0.0% taken
+	11	forwbranch < 16000, 0 > 100.0% taken
+	18	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/Table;, commitRowToStore, (Lorg/hsqldb/Row;)V >
+	4	forwbranch < 641224, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Session;, getAutoCommitStatement, ()Ljava/lang/String; >
+	4	forwbranch < 205, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/TransactionManager;, commit, (Lorg/hsqldb/Session;)V >
+	22	forwbranch < 31, 120705 > 0.025675856% taken
+M 4 < SystemAppCL, Lorg/hsqldb/TransactionManager;, rollbackTransactions, (Lorg/hsqldb/Session;IZ)V >
+	27	forwbranch < 410, 0 > 100.0% taken
+	60	forwbranch < 410, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Parser;, compileSelectStatement, (I)Lorg/hsqldb/CompiledStatement; >
+	18	forwbranch < 1602, 0 > 100.0% taken
+	58	forwbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lorg/hsqldb/Parser;, compileInsertStatement, ()Lorg/hsqldb/CompiledStatement; >
+	101	forwbranch < 0, 8025 > 0.0% taken
+	113	forwbranch < 0, 8025 > 0.0% taken
+	147	forwbranch < 8025, 0 > 100.0% taken
+	179	forwbranch < 8025, 32080 > 20.009974% taken
+	234	forwbranch < 0, 0 > Never Executed
+	253	switch     < 0, 8025, 0, 0 >
+	375	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/hsqldb/Parser;, compileUpdateStatement, ()Lorg/hsqldb/CompiledStatement; >
+	70	forwbranch < 9402, 0 > 100.0% taken
+	83	forwbranch < 0, 0 > Never Executed
+	113	forwbranch < 9402, 0 > 100.0% taken
+	151	backbranch < 0, 9402 > 0.0% taken
+	163	forwbranch < 0, 9402 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Parser;, compileDeleteStatement, ()Lorg/hsqldb/CompiledStatement; >
+	36	forwbranch < 20, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/Result;, <init>, (Ljava/lang/Throwable;Ljava/lang/String;)V >
+	18	forwbranch < 0, 25 > 0.0% taken
+	43	forwbranch < 0, 25 > 0.0% taken
+	96	forwbranch < 0, 0 > Never Executed
+	169	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/lib/java/JavaSystem;, gc, ()V >
+	3	forwbranch < 1494378, 0 > 99.99999% taken
+	12	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Session;, sqlExecute, (Lorg/hsqldb/Result;)Lorg/hsqldb/Result; >
+	16	forwbranch < 444752, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Session;, performPostExecute, (Lorg/hsqldb/Result;)Lorg/hsqldb/Result; >
+	4	forwbranch < 0, 245192 > 0.0% taken
+	29	forwbranch < 245191, 1 > 99.999596% taken
+M 12 < SystemAppCL, Lorg/hsqldb/CompiledStatement;, describeResult, ()Lorg/hsqldb/Result; >
+	4	switch     < 215, 0, 600, 0, 200, 0, 0, 0, 0, 0 >
+	93	forwbranch < 0, 200 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/CompiledStatement;, describeParameters, ()Lorg/hsqldb/Result; >
+	24	forwbranch < 1015, 2225 > 31.32716% taken
+M 10 < SystemAppCL, Lorg/hsqldb/DatabaseCommandInterpreter;, execute, (Ljava/lang/String;)Lorg/hsqldb/Result; >
+	43	forwbranch < 10540, 10530 > 50.02373% taken
+	67	forwbranch < 10540, 0 > 100.0% taken
+	93	forwbranch < 10530, 0 > 100.0% taken
+	113	backbranch < 10519, 11 > 99.89554% taken
+	175	forwbranch < 10540, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/CompiledStatementExecutor;, execute, (Lorg/hsqldb/CompiledStatement;[Ljava/lang/Object;)Lorg/hsqldb/Result; >
+	15	forwbranch < 643421, 1281344 > 33.428547% taken
+	80	forwbranch < 643421, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/Result;, <init>, (I)V >
+	11	forwbranch < 0, 12514 > 0.0% taken
+	16	forwbranch < 0, 12514 > 0.0% taken
+	22	forwbranch < 0, 12514 > 0.0% taken
+	28	forwbranch < 12514, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Result;, getParameterData, ()[Ljava/lang/Object; >
+	4	forwbranch < 640704, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Result;, add, ([Ljava/lang/Object;)V >
+	17	forwbranch < 2030, 17020 > 10.656168% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Session;, setAutoCommit, (Z)V >
+	4	forwbranch < 205, 0 > 100.0% taken
+	20	forwbranch < 0, 205 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Session;, getSchemaHsqlName, (Ljava/lang/String;)Lorg/hsqldb/HsqlNameManager$HsqlName; >
+	1	forwbranch < 0, 40 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Session;, getSchemaHsqlNameForWrite, (Ljava/lang/String;)Lorg/hsqldb/HsqlNameManager$HsqlName; >
+	17	forwbranch < 40, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Session;, checkReadWrite, ()V >
+	4	forwbranch < 32095, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Session;, addDeleteAction, (Lorg/hsqldb/Table;Lorg/hsqldb/Row;)Z >
+	4	forwbranch < 8000, 8000 > 50.0% taken
+	11	forwbranch < 0, 8000 > 0.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Session;, addInsertAction, (Lorg/hsqldb/Table;Lorg/hsqldb/Row;)Z >
+	4	forwbranch < 182297, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Session;, beginNestedTransaction, ()V >
+	4	forwbranch < 12166, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/Session;, endNestedTransaction, (Z)V >
+	4	forwbranch < 16000, 0 > 100.0% taken
+	14	forwbranch < 16000, 0 > 100.0% taken
+	43	forwbranch < 8000, 8000 > 50.0% taken
+M 24 < SystemAppCL, Lorg/hsqldb/Session;, execute, (Lorg/hsqldb/Result;)Lorg/hsqldb/Result; >
+	4	forwbranch < 87890, 0 > 100.0% taken
+	49	forwbranch < 0, 87890 > 0.0% taken
+	78	switch     < 0, 0, 0, 0, 0, 14, 87871, 2, 3, 0, 0, 0 >
+	364	switch     < 0, 0, 0, 0, 0, 0 >
+	480	switch     < 0, 0 >
+M 2 < SystemAppCL, Lorg/hsqldb/Session;, isSchemaDefintion, ()Z >
+	4	forwbranch < 40085, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Session;, endSchemaDefinition, ()V >
+	4	forwbranch < 0, 40085 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Session;, getSchemaName, (Ljava/lang/String;)Ljava/lang/String; >
+	1	forwbranch < 0, 40090 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Result;, <init>, (II)V >
+	25	forwbranch < 205, 1015 > 16.803278% taken
+M 53 < SystemAppCL, Lorg/hsqldb/Column;, compare, (Lorg/hsqldb/Collation;Ljava/lang/Object;Ljava/lang/Object;I)I >
+	5	forwbranch < 1233179, 0 > 100.0% taken
+	11	forwbranch < 1233179, 0 > 100.0% taken
+	17	forwbranch < 1233179, 0 > 100.0% taken
+	23	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1233179, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	277	forwbranch < 0, 1233179 > 0.0% taken
+	288	forwbranch < 0, 0 > Never Executed
+	320	forwbranch < 0, 0 > Never Executed
+	332	forwbranch < 0, 0 > Never Executed
+	364	forwbranch < 0, 0 > Never Executed
+	376	forwbranch < 0, 0 > Never Executed
+	459	forwbranch < 0, 0 > Never Executed
+	468	forwbranch < 0, 0 > Never Executed
+	481	forwbranch < 0, 0 > Never Executed
+	488	forwbranch < 0, 0 > Never Executed
+	517	forwbranch < 0, 0 > Never Executed
+	526	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Result;, isEmpty, ()Z >
+	4	forwbranch < 32005, 0 > 100.0% taken
+M 16 < SystemAppCL, Lorg/hsqldb/Result;, trimResult, (II)V >
+	6	forwbranch < 16000, 0 > 100.0% taken
+	15	forwbranch < 16000, 0 > 100.0% taken
+	50	forwbranch < 16000, 0 > 100.0% taken
+	59	forwbranch < 0, 0 > Never Executed
+	90	forwbranch < 16000, 0 > 100.0% taken
+	98	forwbranch < 0, 0 > Never Executed
+	108	forwbranch < 0, 0 > Never Executed
+	117	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Result;, setParameterData, ([Ljava/lang/Object;)V >
+	4	forwbranch < 244491, 3 > 99.99877% taken
+M 12 < SystemAppCL, Lorg/hsqldb/store/ValuePoolHashMap;, resetCapacity, (II)V >
+	1	forwbranch < 0, 30 > 0.0% taken
+	12	forwbranch < 30, 0 > 100.0% taken
+	39	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 0, 30 > 0.0% taken
+	68	forwbranch < 30, 0 > 100.0% taken
+	84	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/store/ValuePool;, resetPool, ([II)V >
+	3	forwbranch < 5, 0 > 100.0% taken
+	30	forwbranch < 5, 30 > 14.285714% taken
+M 10 < SystemAppCL, Lorg/hsqldb/store/ValuePoolHashMap;, getOrAddInteger, (I)Ljava/lang/Integer; >
+	25	forwbranch < 2872, 30637 > 8.570831% taken
+	44	forwbranch < 6718, 23919 > 21.927734% taken
+	53	forwbranch < 23919, 0 > 100.0% taken
+	109	forwbranch < 2872, 0 > 100.0% taken
+	158	forwbranch < 2872, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/hsqldb/store/ValuePoolHashMap;, getOrAddLong, (J)Ljava/lang/Long; >
+	33	forwbranch < 1385, 22798 > 5.727164% taken
+	53	forwbranch < 0, 22798 > 0.0% taken
+	62	forwbranch < 22798, 0 > 100.0% taken
+	118	forwbranch < 1385, 0 > 100.0% taken
+	168	forwbranch < 1385, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/store/ValuePool;, initPool, ()V >
+	9	forwbranch < 0, 1 > 0.0% taken
+	50	forwbranch < 1, 6 > 14.285714% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/HsqlArrayList;, increaseCapacity, ()V >
+	5	forwbranch < 3345, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/BaseList;, isEmpty, ()Z >
+	4	forwbranch < 1675, 48 > 97.214165% taken
+M 4 < SystemAppCL, Lorg/hsqldb/lib/HsqlArrayList;, get, (I)Ljava/lang/Object; >
+	5	forwbranch < 56156, 0 > 100.0% taken
+	48	forwbranch < 56156, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/lib/HsqlArrayList;, clear, ()V >
+	4	forwbranch < 80315, 16615 > 82.858765% taken
+	14	forwbranch < 16255, 360 > 97.83328% taken
+	39	forwbranch < 96570, 40150 > 70.63341% taken
+M 12 < SystemAppCL, Lorg/hsqldb/lib/HsqlArrayList;, setSize, (I)V >
+	5	forwbranch < 410, 0 > 100.0% taken
+	12	forwbranch < 0, 0 > Never Executed
+	16	forwbranch < 0, 0 > Never Executed
+	26	forwbranch < 0, 0 > Never Executed
+	51	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 410, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/Tokenizer;, getSimpleToken, ()Ljava/lang/String; >
+	10	forwbranch < 0, 176685 > 0.0% taken
+	18	forwbranch < 0, 176685 > 0.0% taken
+	27	forwbranch < 176685, 0 > 100.0% taken
+	35	forwbranch < 0, 0 > Never Executed
+M 38 < SystemAppCL, Lorg/hsqldb/DatabaseCommandInterpreter;, executePart, (ILjava/lang/String;)Lorg/hsqldb/Result; >
+	14	forwbranch < 20027, 0 > 100.0% taken
+	18	switch     < 0, 0, 0 >
+	95	switch     < 0, 3, 0, 0, 17, 12, 0, 12, 0, 3995, 0, 0, 0, 0, 3999, 0, 11987, 0, 0, 0, 0, 2, 0 >
+	346	forwbranch < 3996, 0 > 100.0% taken
+	407	forwbranch < 3995, 0 > 100.0% taken
+	468	forwbranch < 11987, 0 > 100.0% taken
+	529	forwbranch < 12, 0 > 100.0% taken
+	590	forwbranch < 3, 0 > 100.0% taken
+M 29 < SystemAppCL, Lorg/hsqldb/DatabaseCommandInterpreter;, processCreate, ()V >
+	35	forwbranch < 30, 0 > 100.0% taken
+	62	forwbranch < 30, 0 > 100.0% taken
+	79	forwbranch < 30, 0 > 100.0% taken
+	98	switch     < 20, 0, 0, 0, 10 >
+	151	forwbranch < 20, 0 > 100.0% taken
+	173	forwbranch < 0, 0 > Never Executed
+	201	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 10, 0 > 100.0% taken
+	246	switch     < 10, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 9 < SystemAppCL, Lorg/hsqldb/DatabaseCommandInterpreter;, processDrop, ()V >
+	36	switch     < 20, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 12 < SystemAppCL, Lorg/hsqldb/DatabaseCommandInterpreter;, processShutdown, ()V >
+	7	forwbranch < 0, 5 > 0.0% taken
+	34	forwbranch < 5, 0 > 100.0% taken
+	49	forwbranch < 0, 5 > 0.0% taken
+	64	forwbranch < 0, 0 > Never Executed
+	79	forwbranch < 0, 0 > Never Executed
+	89	forwbranch < 0, 0 > Never Executed
+M 13 < SystemAppCL, Lorg/hsqldb/Tokenizer;, wasValue, ()Z >
+	4	forwbranch < 392540, 0 > 100.0% taken
+	17	switch     < 176050, 0, 0, 0, 0, 0, 0, 0, 0, 0, 216490 >
+M 12 < SystemAppCL, Lorg/hsqldb/Tokenizer;, getType, ()I >
+	4	forwbranch < 88035, 0 > 100.0% taken
+	17	switch     < 88035, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 2 < SystemAppCL, Lorg/hsqldb/Tokenizer;, back, ()V >
+	4	forwbranch < 35361, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/Tokenizer;, isGetThis, (Ljava/lang/String;)Z >
+	10	forwbranch < 0, 19508 > 0.0% taken
+	18	forwbranch < 0, 19508 > 0.0% taken
+	29	forwbranch < 13065, 6443 > 66.97253% taken
+M 40 < SystemAppCL, Lorg/hsqldb/DatabaseCommandInterpreter;, processCreateTable, (I)V >
+	93	switch     < 0, 0, 0, 0, 0, 85 >
+	151	forwbranch < 0, 0 > Never Executed
+	161	forwbranch < 0, 0 > Never Executed
+	180	forwbranch < 85, 0 > 100.0% taken
+	204	forwbranch < 70, 15 > 82.35294% taken
+	209	forwbranch < 0, 15 > 0.0% taken
+	254	forwbranch < 20, 65 > 23.529411% taken
+	269	forwbranch < 0, 20 > 0.0% taken
+	303	forwbranch < 20, 0 > 100.0% taken
+	311	forwbranch < 0, 0 > Never Executed
+	346	forwbranch < 0, 0 > Never Executed
+	358	forwbranch < 0, 0 > Never Executed
+	428	forwbranch < 5, 15 > 25.0% taken
+	436	forwbranch < 0, 15 > 0.0% taken
+	511	forwbranch < 20, 0 > 100.0% taken
+	532	forwbranch < 0, 0 > Never Executed
+	580	forwbranch < 0, 0 > Never Executed
+	661	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseCommandInterpreter;, processCreateUser, ()V >
+	46	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Table;, getColumnNr, (Ljava/lang/String;)I >
+	8	forwbranch < 8156, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Tokenizer;, getName, ()Ljava/lang/String; >
+	8	forwbranch < 96240, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Tokenizer;, getLongNameFirst, ()Ljava/lang/String; >
+	4	forwbranch < 64160, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Tokenizer;, wasQuotedIdentifier, ()Z >
+	4	forwbranch < 304610, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Tokenizer;, getInt, ()I >
+	10	forwbranch < 0, 20 > 0.0% taken
+	18	forwbranch < 20, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Tokenizer;, getSimpleName, ()Ljava/lang/String; >
+	8	forwbranch < 95, 0 > 100.0% taken
+	16	forwbranch < 0, 0 > Never Executed
+M 64 < SystemAppCL, Lorg/hsqldb/DatabaseCommandInterpreter;, processCreateColumn, (Lorg/hsqldb/HsqlNameManager$HsqlName;)Lorg/hsqldb/Column; >
+	51	forwbranch < 65, 20 > 76.47059% taken
+	63	forwbranch < 20, 0 > 100.0% taken
+	77	forwbranch < 85, 0 > 100.0% taken
+	89	forwbranch < 85, 0 > 100.0% taken
+	111	forwbranch < 65, 20 > 76.47059% taken
+	140	forwbranch < 0, 20 > 0.0% taken
+	145	forwbranch < 20, 0 > 100.0% taken
+	164	forwbranch < 20, 0 > 100.0% taken
+	202	forwbranch < 65, 0 > 100.0% taken
+	212	forwbranch < 0, 0 > Never Executed
+	225	forwbranch < 65, 0 > 100.0% taken
+	235	forwbranch < 0, 0 > Never Executed
+	249	forwbranch < 85, 0 > 100.0% taken
+	259	forwbranch < 0, 0 > Never Executed
+	270	forwbranch < 85, 0 > 100.0% taken
+	277	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 80, 5 > 94.117645% taken
+	295	forwbranch < 0, 5 > 0.0% taken
+	307	forwbranch < 0, 0 > Never Executed
+	314	forwbranch < 0, 0 > Never Executed
+	339	forwbranch < 85, 0 > 100.0% taken
+	373	forwbranch < 85, 0 > 100.0% taken
+	425	forwbranch < 0, 0 > Never Executed
+	465	forwbranch < 0, 0 > Never Executed
+	528	forwbranch < 85, 0 > 100.0% taken
+	552	forwbranch < 85, 0 > 100.0% taken
+	574	forwbranch < 70, 15 > 82.35294% taken
+	606	forwbranch < 85, 0 > 100.0% taken
+	610	forwbranch < 0, 0 > Never Executed
+	642	forwbranch < 70, 15 > 82.35294% taken
+	669	forwbranch < 85, 0 > 100.0% taken
+	674	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Types;, getTypeNr, (Ljava/lang/String;)I >
+	13	forwbranch < 0, 85 > 0.0% taken
+M 12 < SystemAppCL, Lorg/hsqldb/Types;, acceptsPrecisionCreateParam, (I)Z >
+	1	switch     < 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 16 < SystemAppCL, Lorg/hsqldb/Tokenizer;, getBigint, ()J >
+	15	forwbranch < 20, 0 > 100.0% taken
+	36	forwbranch < 20, 0 > 100.0% taken
+	42	forwbranch < 0, 0 > Never Executed
+	47	forwbranch < 0, 0 > Never Executed
+	62	forwbranch < 20, 0 > 100.0% taken
+	72	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 20, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/Column;, setIdentity, (ZJJ)V >
+	20	forwbranch < 85, 0 > 100.0% taken
+	28	forwbranch < 0, 0 > Never Executed
+	39	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 0, 0 > Never Executed
+M 245 < SystemAppCL, Lorg/hsqldb/Expression;, resolveTypes, (Lorg/hsqldb/Session;)V >
+	4	forwbranch < 216180, 135 > 99.93759% taken
+	12	forwbranch < 160110, 56070 > 74.06328% taken
+	27	forwbranch < 160110, 56070 > 74.06328% taken
+	42	switch     < 88015, 72090, 0, 0, 0, 0, 5, 0, 0, 0, 24030, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32040, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	342	forwbranch < 88015, 0 > 100.0% taken
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 0, 0 > Never Executed
+	448	forwbranch < 0, 0 > Never Executed
+	476	forwbranch < 0, 0 > Never Executed
+	515	forwbranch < 0, 24030 > 0.0% taken
+	528	forwbranch < 24030, 0 > 100.0% taken
+	547	forwbranch < 0, 0 > Never Executed
+	588	forwbranch < 0, 0 > Never Executed
+	607	forwbranch < 0, 0 > Never Executed
+	629	forwbranch < 24030, 0 > 100.0% taken
+	639	forwbranch < 0, 0 > Never Executed
+	656	forwbranch < 24030, 0 > 100.0% taken
+	722	forwbranch < 24030, 0 > 100.0% taken
+	749	forwbranch < 24000, 30 > 99.87515% taken
+	804	forwbranch < 0, 0 > Never Executed
+	845	forwbranch < 0, 0 > Never Executed
+	864	forwbranch < 0, 0 > Never Executed
+	886	forwbranch < 32040, 0 > 100.0% taken
+	896	forwbranch < 0, 0 > Never Executed
+	913	forwbranch < 32040, 0 > 100.0% taken
+	923	forwbranch < 0, 0 > Never Executed
+	937	forwbranch < 0, 0 > Never Executed
+	974	forwbranch < 32040, 0 > 100.0% taken
+	988	forwbranch < 0, 0 > Never Executed
+	1014	forwbranch < 0, 0 > Never Executed
+	1038	forwbranch < 32000, 40 > 99.87515% taken
+	1052	forwbranch < 40, 0 > 100.0% taken
+	1078	forwbranch < 0, 40 > 0.0% taken
+	1132	forwbranch < 0, 0 > Never Executed
+	1150	forwbranch < 0, 0 > Never Executed
+	1168	forwbranch < 0, 0 > Never Executed
+	1172	forwbranch < 0, 0 > Never Executed
+	1177	forwbranch < 0, 0 > Never Executed
+	1182	forwbranch < 0, 0 > Never Executed
+	1198	forwbranch < 0, 0 > Never Executed
+	1206	forwbranch < 0, 0 > Never Executed
+	1232	forwbranch < 0, 0 > Never Executed
+	1243	forwbranch < 0, 0 > Never Executed
+	1247	forwbranch < 0, 0 > Never Executed
+	1258	forwbranch < 0, 0 > Never Executed
+	1287	forwbranch < 0, 0 > Never Executed
+	1306	forwbranch < 0, 0 > Never Executed
+	1344	forwbranch < 0, 0 > Never Executed
+	1362	forwbranch < 0, 0 > Never Executed
+	1380	forwbranch < 0, 0 > Never Executed
+	1384	forwbranch < 0, 0 > Never Executed
+	1389	forwbranch < 0, 0 > Never Executed
+	1394	forwbranch < 0, 0 > Never Executed
+	1410	forwbranch < 0, 0 > Never Executed
+	1418	forwbranch < 0, 0 > Never Executed
+	1444	forwbranch < 0, 0 > Never Executed
+	1455	forwbranch < 0, 0 > Never Executed
+	1459	forwbranch < 0, 0 > Never Executed
+	1470	forwbranch < 0, 0 > Never Executed
+	1498	forwbranch < 0, 0 > Never Executed
+	1517	forwbranch < 0, 0 > Never Executed
+	1542	forwbranch < 0, 0 > Never Executed
+	1557	forwbranch < 0, 0 > Never Executed
+	1584	forwbranch < 0, 0 > Never Executed
+	1609	forwbranch < 0, 0 > Never Executed
+	1619	forwbranch < 0, 0 > Never Executed
+	1634	forwbranch < 0, 0 > Never Executed
+	1661	forwbranch < 0, 0 > Never Executed
+	1726	forwbranch < 0, 0 > Never Executed
+	1754	forwbranch < 0, 0 > Never Executed
+	1795	forwbranch < 0, 0 > Never Executed
+	1805	forwbranch < 0, 0 > Never Executed
+	1837	forwbranch < 0, 0 > Never Executed
+	1875	forwbranch < 0, 0 > Never Executed
+	1882	forwbranch < 0, 0 > Never Executed
+	1899	forwbranch < 0, 0 > Never Executed
+	1906	forwbranch < 0, 0 > Never Executed
+	1924	forwbranch < 0, 0 > Never Executed
+	1931	forwbranch < 0, 0 > Never Executed
+	1946	forwbranch < 0, 0 > Never Executed
+	1953	forwbranch < 0, 0 > Never Executed
+	1968	forwbranch < 0, 0 > Never Executed
+	1978	forwbranch < 0, 0 > Never Executed
+	2008	forwbranch < 0, 0 > Never Executed
+	2018	forwbranch < 0, 0 > Never Executed
+	2037	forwbranch < 0, 0 > Never Executed
+	2045	forwbranch < 0, 0 > Never Executed
+	2084	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/Expression;, getValue, (Lorg/hsqldb/Session;I)Ljava/lang/Object; >
+	7	forwbranch < 0, 130412 > 0.0% taken
+	15	forwbranch < 0, 130412 > 0.0% taken
+M 3 < SystemAppCL, Lorg/hsqldb/DatabaseCommandInterpreter;, newTable, (ILjava/lang/String;ZLorg/hsqldb/HsqlNameManager$HsqlName;)Lorg/hsqldb/Table; >
+	22	switch     < 0, 0, 20 >
+M 4 < SystemAppCL, Lorg/hsqldb/Tokenizer;, wasLongName, ()Z >
+	4	forwbranch < 192495, 0 > 100.0% taken
+	18	forwbranch < 192495, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/hsqldb/Table;, addColumn, (Lorg/hsqldb/Column;)V >
+	11	forwbranch < 4125, 0 > 100.0% taken
+	24	forwbranch < 4125, 0 > 100.0% taken
+	32	forwbranch < 0, 0 > Never Executed
+	41	forwbranch < 0, 0 > Never Executed
+	66	forwbranch < 0, 0 > Never Executed
+	98	forwbranch < 4125, 0 > 100.0% taken
+M 29 < SystemAppCL, Lorg/hsqldb/DatabaseCommandInterpreter;, processCreateConstraints, (Lorg/hsqldb/Table;Z[I)Lorg/hsqldb/lib/HsqlArrayList; >
+	37	forwbranch < 0, 20 > 0.0% taken
+	55	forwbranch < 0, 0 > Never Executed
+	78	forwbranch < 0, 0 > Never Executed
+	106	forwbranch < 0, 0 > Never Executed
+	153	switch     < 0, 0, 0, 0, 0 >
+	237	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	296	forwbranch < 0, 0 > Never Executed
+	369	forwbranch < 0, 0 > Never Executed
+	407	forwbranch < 0, 0 > Never Executed
+	466	forwbranch < 0, 0 > Never Executed
+	530	forwbranch < 0, 0 > Never Executed
+	543	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/hsqldb/Table;, createPrimaryKey, (Lorg/hsqldb/HsqlNameManager$HsqlName;[IZ)V >
+	4	forwbranch < 470, 0 > 100.0% taken
+	14	forwbranch < 395, 75 > 84.04256% taken
+	31	forwbranch < 395, 1505 > 20.789474% taken
+	35	forwbranch < 1270, 235 > 84.38538% taken
+	143	forwbranch < 470, 4125 > 10.228509% taken
+	207	forwbranch < 470, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Table;, hasPrimaryKey, ()Z >
+	5	forwbranch < 150, 790 > 15.957447% taken
+M 10 < SystemAppCL, Lorg/hsqldb/Tokenizer;, matchThis, (Ljava/lang/String;)V >
+	4	forwbranch < 72225, 0 > 100.0% taken
+	21	forwbranch < 0, 72225 > 0.0% taken
+	30	forwbranch < 0, 72225 > 0.0% taken
+	38	forwbranch < 72225, 0 > 100.0% taken
+	46	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/hsqldb/Parser;, getColumnNames, (Lorg/hsqldb/Database;Lorg/hsqldb/Table;Lorg/hsqldb/Tokenizer;Z)Lorg/hsqldb/lib/HsqlArrayList; >
+	10	forwbranch < 23372, 0 > 100.0% taken
+	63	forwbranch < 23372, 0 > 100.0% taken
+	80	forwbranch < 0, 0 > Never Executed
+	106	forwbranch < 5847, 17525 > 25.017115% taken
+	119	forwbranch < 0, 5847 > 0.0% taken
+M 109 < SystemAppCL, Lorg/hsqldb/Parser;, parseSelect, (IZZZZ)Lorg/hsqldb/Select; >
+	19	forwbranch < 7858, 0 > 100.0% taken
+	24	forwbranch < 0, 0 > Never Executed
+	36	forwbranch < 0, 7858 > 0.0% taken
+	48	forwbranch < 7858, 0 > 100.0% taken
+	78	forwbranch < 7858, 0 > 100.0% taken
+	99	forwbranch < 7858, 0 > 100.0% taken
+	145	forwbranch < 7858, 0 > 100.0% taken
+	186	forwbranch < 7858, 0 > 100.0% taken
+	229	backbranch < 0, 7858 > 0.0% taken
+	239	forwbranch < 7858, 0 > 100.0% taken
+	261	forwbranch < 0, 0 > Never Executed
+	269	switch     < 0, 0, 0, 0, 0 >
+	366	forwbranch < 0, 0 > Never Executed
+	388	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 7853, 0 > 100.0% taken
+	535	forwbranch < 7853, 0 > 100.0% taken
+	562	forwbranch < 7853, 0 > 100.0% taken
+	572	forwbranch < 0, 0 > Never Executed
+	655	forwbranch < 7853, 0 > 100.0% taken
+	665	forwbranch < 0, 0 > Never Executed
+	791	forwbranch < 7853, 0 > 100.0% taken
+	807	backbranch < 0, 0 > Never Executed
+	856	forwbranch < 7853, 0 > 100.0% taken
+	911	forwbranch < 0, 7853 > 0.0% taken
+	954	forwbranch < 7853, 0 > 100.0% taken
+	1005	backbranch < 0, 0 > Never Executed
+	1024	forwbranch < 7853, 0 > 100.0% taken
+	1064	forwbranch < 7853, 0 > 100.0% taken
+	1069	forwbranch < 0, 0 > Never Executed
+	1081	forwbranch < 7853, 0 > 100.0% taken
+	1120	forwbranch < 7853, 0 > 100.0% taken
+	1145	forwbranch < 7853, 0 > 100.0% taken
+	1155	forwbranch < 0, 0 > Never Executed
+	1190	forwbranch < 7853, 0 > 100.0% taken
+	1195	forwbranch < 0, 0 > Never Executed
+	1206	forwbranch < 7853, 0 > 100.0% taken
+	1221	forwbranch < 7853, 0 > 100.0% taken
+	1233	forwbranch < 7853, 0 > 100.0% taken
+	1238	forwbranch < 0, 0 > Never Executed
+	1243	forwbranch < 0, 0 > Never Executed
+	1255	forwbranch < 7853, 0 > 100.0% taken
+	1259	forwbranch < 0, 0 > Never Executed
+	1270	forwbranch < 7853, 0 > 100.0% taken
+	1274	forwbranch < 0, 0 > Never Executed
+	1294	forwbranch < 7853, 0 > 100.0% taken
+	1316	forwbranch < 0, 0 > Never Executed
+	1367	forwbranch < 0, 7853 > 0.0% taken
+	1371	forwbranch < 7853, 0 > 100.0% taken
+	1376	forwbranch < 0, 0 > Never Executed
+	1384	forwbranch < 0, 7853 > 0.0% taken
+	1396	forwbranch < 7853, 0 > 100.0% taken
+	1441	forwbranch < 7853, 0 > 100.0% taken
+	1471	forwbranch < 0, 7853 > 0.0% taken
+M 38 < SystemAppCL, Lorg/hsqldb/Select;, prepareResult, (Lorg/hsqldb/Session;)V >
+	11	forwbranch < 5819, 0 > 100.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	129	forwbranch < 5819, 5819 > 50.0% taken
+	182	forwbranch < 5819, 0 > 100.0% taken
+	194	forwbranch < 5819, 0 > 100.0% taken
+	201	forwbranch < 0, 0 > Never Executed
+	214	forwbranch < 0, 0 > Never Executed
+	234	forwbranch < 5819, 0 > 100.0% taken
+	246	forwbranch < 0, 0 > Never Executed
+	259	forwbranch < 0, 0 > Never Executed
+	279	forwbranch < 5819, 0 > 100.0% taken
+	286	forwbranch < 0, 0 > Never Executed
+	299	forwbranch < 0, 0 > Never Executed
+	321	forwbranch < 0, 5819 > 0.0% taken
+	390	forwbranch < 0, 5819 > 0.0% taken
+	481	forwbranch < 0, 5819 > 0.0% taken
+	488	forwbranch < 0, 5819 > 0.0% taken
+	495	forwbranch < 0, 5819 > 0.0% taken
+	502	forwbranch < 0, 5819 > 0.0% taken
+M 10 < SystemAppCL, Lorg/hsqldb/Tokenizer;, wasSimpleName, ()Z >
+	4	forwbranch < 256660, 0 > 100.0% taken
+	19	forwbranch < 256655, 5 > 99.998055% taken
+	29	forwbranch < 0, 5 > 0.0% taken
+	39	forwbranch < 136280, 120375 > 53.09852% taken
+	51	forwbranch < 72105, 64175 > 52.90945% taken
+M 6 < SystemAppCL, Lorg/hsqldb/Tokenizer;, wasSimpleToken, ()Z >
+	6	forwbranch < 0, 8010 > 0.0% taken
+	14	forwbranch < 0, 8010 > 0.0% taken
+	23	forwbranch < 0, 8010 > 0.0% taken
+M 12 < SystemAppCL, Lorg/hsqldb/DatabaseCommandInterpreter;, processDropTable, (Z)V >
+	14	forwbranch < 20, 0 > 100.0% taken
+	58	forwbranch < 20, 0 > 100.0% taken
+	85	forwbranch < 0, 20 > 0.0% taken
+	99	forwbranch < 20, 0 > 100.0% taken
+	104	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/hsqldb/Table;, setDataReadOnly, (Z)V >
+	1	forwbranch < 450, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+	18	forwbranch < 0, 0 > Never Executed
+M 19 < SystemAppCL, Lorg/hsqldb/Tokenizer;, getAsValue, ()Ljava/lang/Object; >
+	4	forwbranch < 48103, 0 > 100.0% taken
+	21	switch     < 48103, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	103	forwbranch < 0, 48103 > 0.0% taken
+	127	forwbranch < 0, 0 > Never Executed
+	205	forwbranch < 0, 0 > Never Executed
+M 24 < SystemAppCL, Lorg/hsqldb/Table;, <init>, (Lorg/hsqldb/Database;Lorg/hsqldb/HsqlNameManager$HsqlName;I)V >
+	50	switch     < 450, 0, 0, 20, 0, 0, 0, 0, 0, 0 >
+	125	forwbranch < 0, 0 > Never Executed
+	152	forwbranch < 0, 0 > Never Executed
+	198	forwbranch < 0, 20 > 0.0% taken
+	232	forwbranch < 0, 0 > Never Executed
+	283	forwbranch < 0, 0 > Never Executed
+	387	forwbranch < 470, 0 > 100.0% taken
+	394	forwbranch < 0, 0 > Never Executed
+M 130 < SystemAppCL, Lorg/hsqldb/Tokenizer;, getToken, ()V >
+	4	forwbranch < 88365, 27447 > 76.300385% taken
+	25	forwbranch < 0, 88365 > 0.0% taken
+	46	forwbranch < 6228, 161910 > 3.7041001% taken
+	63	forwbranch < 82137, 79773 > 50.730034% taken
+	101	forwbranch < 82137, 6228 > 92.95196% taken
+	147	forwbranch < 38535, 43602 > 46.91552% taken
+	162	forwbranch < 24872, 13663 > 64.54392% taken
+	176	switch     < 0, 2, 0, 0, 2490, 2490, 1, 3731, 7445, 0, 0, 0, 0, 0, 8708, 0, 5, 0, 0 >
+	572	forwbranch < 2, 0 > 100.0% taken
+	591	forwbranch < 2, 0 > 100.0% taken
+	624	forwbranch < 0, 0 > Never Executed
+	734	forwbranch < 289098, 4988 > 98.303894% taken
+	749	forwbranch < 0, 4988 > 0.0% taken
+	758	forwbranch < 0, 4988 > 0.0% taken
+	790	switch     < 240479, 0, 0, 53607, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	872	forwbranch < 43602, 196877 > 18.131313% taken
+	904	forwbranch < 43602, 0 > 100.0% taken
+	937	forwbranch < 0, 0 > Never Executed
+	972	forwbranch < 42357, 1245 > 97.14462% taken
+	994	forwbranch < 42354, 3 > 99.99292% taken
+	1009	forwbranch < 0, 0 > Never Executed
+	1021	forwbranch < 0, 0 > Never Executed
+	1042	forwbranch < 0, 0 > Never Executed
+	1058	forwbranch < 0, 0 > Never Executed
+	1078	forwbranch < 0, 0 > Never Executed
+	1090	forwbranch < 0, 0 > Never Executed
+	1096	forwbranch < 0, 0 > Never Executed
+	1107	forwbranch < 0, 0 > Never Executed
+	1114	forwbranch < 0, 0 > Never Executed
+	1129	forwbranch < 0, 0 > Never Executed
+	1136	forwbranch < 0, 0 > Never Executed
+	1151	forwbranch < 0, 0 > Never Executed
+	1158	forwbranch < 0, 0 > Never Executed
+	1173	forwbranch < 0, 0 > Never Executed
+	1179	forwbranch < 0, 0 > Never Executed
+	1185	forwbranch < 0, 0 > Never Executed
+	1213	forwbranch < 13663, 39944 > 25.487343% taken
+	1224	forwbranch < 13663, 0 > 100.0% taken
+	1234	forwbranch < 0, 0 > Never Executed
+	1253	forwbranch < 0, 13663 > 0.0% taken
+	1259	forwbranch < 13663, 0 > 100.0% taken
+	1264	forwbranch < 0, 0 > Never Executed
+	1294	forwbranch < 13663, 0 > 100.0% taken
+	1299	forwbranch < 0, 0 > Never Executed
+	1311	forwbranch < 13663, 0 > 100.0% taken
+	1316	forwbranch < 0, 0 > Never Executed
+	1329	forwbranch < 13663, 0 > 100.0% taken
+	1333	forwbranch < 0, 0 > Never Executed
+	1344	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/hsqldb/Tokenizer;, wasName, ()Z >
+	4	forwbranch < 96240, 0 > 100.0% taken
+	19	forwbranch < 96240, 0 > 100.0% taken
+	29	forwbranch < 96240, 0 > 100.0% taken
+	37	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 0, 96240 > 0.0% taken
+M 18 < BootstrapCL, Ljava/math/BigDecimal;, <init>, (D)V >
+	13	forwbranch < 0, 2 > 0.0% taken
+	20	forwbranch < 2, 0 > 100.0% taken
+	79	forwbranch < 1, 1 > 50.0% taken
+	93	forwbranch < 1, 1 > 50.0% taken
+	118	forwbranch < 1, 1 > 50.0% taken
+	133	forwbranch < 2, 1126 > 0.17730497% taken
+	142	forwbranch < 0, 1126 > 0.0% taken
+	165	forwbranch < 2, 0 > 100.0% taken
+	186	forwbranch < 2, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/hsqldb/Tokenizer;, getString, (C)Ljava/lang/String; >
+	18	forwbranch < 15, 0 > 100.0% taken
+	34	forwbranch < 0, 15 > 0.0% taken
+	48	forwbranch < 15, 0 > 100.0% taken
+	90	forwbranch < 15, 0 > 100.0% taken
+	104	forwbranch < 0, 0 > Never Executed
+	113	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/hsqldb/Tokenizer;, wasThis, (Ljava/lang/String;)Z >
+	8	forwbranch < 136215, 8010 > 94.446175% taken
+	17	forwbranch < 0, 8010 > 0.0% taken
+	25	forwbranch < 0, 8010 > 0.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/CompiledStatement;, materializeSubQueries, (Lorg/hsqldb/Session;)V >
+	8	forwbranch < 382901, 0 > 100.0% taken
+	22	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/hsqldb/CompiledStatementExecutor;, executeImpl, (Lorg/hsqldb/CompiledStatement;)Lorg/hsqldb/Result; >
+	4	switch     < 794944, 0, 9600, 8, 3200, 0, 2, 0, 0, 0 >
+M 4 < SystemAppCL, Lorg/hsqldb/CompiledStatement;, dematerializeSubQueries, (Lorg/hsqldb/Session;)V >
+	4	forwbranch < 807754, 0 > 100.0% taken
+	16	forwbranch < 807754, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/CompiledStatementExecutor;, executeSelectStatement, (Lorg/hsqldb/CompiledStatement;)Lorg/hsqldb/Result; >
+	9	forwbranch < 16000, 0 > 100.0% taken
+	53	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/CompiledStatementExecutor;, executeInsertValuesStatement, (Lorg/hsqldb/CompiledStatement;)Lorg/hsqldb/Result; >
+	48	forwbranch < 45449, 136283 > 25.008804% taken
+M 14 < SystemAppCL, Lorg/hsqldb/CompiledStatementExecutor;, executeUpdateStatement, (Lorg/hsqldb/CompiledStatement;)Lorg/hsqldb/Result; >
+	21	forwbranch < 6400, 3200 > 66.666664% taken
+	73	forwbranch < 0, 3200 > 0.0% taken
+	85	forwbranch < 0, 3200 > 0.0% taken
+	121	forwbranch < 3200, 3200 > 50.0% taken
+	182	backbranch < 0, 3200 > 0.0% taken
+	215	forwbranch < 3200, 0 > 100.0% taken
+	237	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/hsqldb/CompiledStatementExecutor;, executeDeleteStatement, (Lorg/hsqldb/CompiledStatement;)Lorg/hsqldb/Result; >
+	21	forwbranch < 20, 0 > 100.0% taken
+	41	forwbranch < 0, 0 > Never Executed
+	53	forwbranch < 0, 0 > Never Executed
+	74	backbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/CompiledStatementExecutor;, executeCallStatement, (Lorg/hsqldb/CompiledStatement;)Lorg/hsqldb/Result; >
+	18	forwbranch < 5, 0 > 100.0% taken
+	30	forwbranch < 5, 0 > 100.0% taken
+M 29 < SystemAppCL, Lorg/hsqldb/Expression;, getValue, (Lorg/hsqldb/Session;)Ljava/lang/Object; >
+	4	switch     < 3320853, 19200, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3200 >
+	259	forwbranch < 0, 0 > Never Executed
+	337	forwbranch < 0, 3200 > 0.0% taken
+	357	forwbranch < 0, 3200 > 0.0% taken
+	377	switch     < 3200, 0, 0, 0, 0, 0, 0 >
+M 6 < SystemAppCL, Lorg/hsqldb/Expression;, getValueClassName, ()Ljava/lang/String; >
+	4	forwbranch < 2090, 8150 > 20.410156% taken
+	12	forwbranch < 5, 8145 > 0.061349694% taken
+	21	forwbranch < 8145, 0 > 100.0% taken
+M 28 < SystemAppCL, Lorg/hsqldb/TableFilter;, findFirst, (Lorg/hsqldb/Session;)Z >
+	14	forwbranch < 16515, 8 > 99.951584% taken
+	32	forwbranch < 16523, 0 > 100.0% taken
+	66	forwbranch < 0, 0 > Never Executed
+	80	forwbranch < 0, 0 > Never Executed
+	100	forwbranch < 0, 0 > Never Executed
+	144	forwbranch < 0, 0 > Never Executed
+	181	forwbranch < 0, 0 > Never Executed
+	206	forwbranch < 16515, 8 > 99.951584% taken
+	214	forwbranch < 0, 8 > 0.0% taken
+	317	forwbranch < 8259, 8264 > 49.98487% taken
+	338	forwbranch < 0, 8259 > 0.0% taken
+	349	forwbranch < 8259, 0 > 100.0% taken
+	359	forwbranch < 8259, 0 > 100.0% taken
+	370	backbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/hsqldb/TableFilter;, next, (Lorg/hsqldb/Session;)Z >
+	29	forwbranch < 32000, 0 > 100.0% taken
+	50	forwbranch < 0, 32000 > 0.0% taken
+	61	forwbranch < 0, 32000 > 0.0% taken
+	71	forwbranch < 0, 0 > Never Executed
+	82	backbranch < 0, 0 > Never Executed
+	91	forwbranch < 32000, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Select;, getResult, (Lorg/hsqldb/Session;I)Lorg/hsqldb/Result; >
+	4	forwbranch < 0, 16000 > 0.0% taken
+	27	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/hsqldb/Table;, getNewRowData, (Lorg/hsqldb/Session;[Z)[Ljava/lang/Object; >
+	9	forwbranch < 0, 794944 > 0.0% taken
+	16	forwbranch < 794944, 0 > 100.0% taken
+	28	forwbranch < 0, 0 > Never Executed
+	44	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 0, 0 > Never Executed
+M 195 < SystemAppCL, Lorg/hsqldb/Column;, convertObject, (Ljava/lang/Object;I)Ljava/lang/Object; >
+	1	forwbranch < 112010, 0 > 100.0% taken
+	7	switch     < 0, 32000, 0, 0, 0, 0, 0, 5, 0, 0, 80000, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0 >
+	198	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 0, 0 > Never Executed
+	244	forwbranch < 0, 0 > Never Executed
+	250	forwbranch < 0, 0 > Never Executed
+	265	forwbranch < 0, 0 > Never Executed
+	281	forwbranch < 0, 0 > Never Executed
+	289	forwbranch < 0, 0 > Never Executed
+	313	forwbranch < 0, 0 > Never Executed
+	331	forwbranch < 0, 0 > Never Executed
+	347	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 0 > Never Executed
+	376	forwbranch < 0, 0 > Never Executed
+	408	forwbranch < 0, 0 > Never Executed
+	423	forwbranch < 0, 0 > Never Executed
+	430	forwbranch < 0, 0 > Never Executed
+	445	forwbranch < 0, 0 > Never Executed
+	461	forwbranch < 0, 0 > Never Executed
+	469	forwbranch < 0, 0 > Never Executed
+	493	forwbranch < 0, 0 > Never Executed
+	500	forwbranch < 0, 0 > Never Executed
+	518	forwbranch < 0, 0 > Never Executed
+	534	forwbranch < 0, 0 > Never Executed
+	544	forwbranch < 0, 0 > Never Executed
+	563	forwbranch < 16000, 64000 > 20.0% taken
+	572	forwbranch < 16000, 0 > 100.0% taken
+	604	forwbranch < 0, 16000 > 0.0% taken
+	620	forwbranch < 0, 16000 > 0.0% taken
+	628	forwbranch < 16000, 0 > 100.0% taken
+	652	forwbranch < 0, 0 > Never Executed
+	659	forwbranch < 0, 0 > Never Executed
+	677	forwbranch < 0, 0 > Never Executed
+	689	forwbranch < 0, 0 > Never Executed
+	699	forwbranch < 0, 0 > Never Executed
+	718	forwbranch < 32000, 0 > 100.0% taken
+	727	forwbranch < 32000, 0 > 100.0% taken
+	759	forwbranch < 0, 32000 > 0.0% taken
+	777	forwbranch < 0, 0 > Never Executed
+	784	forwbranch < 0, 0 > Never Executed
+	803	forwbranch < 0, 0 > Never Executed
+	815	forwbranch < 0, 0 > Never Executed
+	825	forwbranch < 0, 0 > Never Executed
+	844	forwbranch < 0, 0 > Never Executed
+	853	forwbranch < 0, 0 > Never Executed
+	892	forwbranch < 0, 0 > Never Executed
+	904	forwbranch < 0, 0 > Never Executed
+	914	forwbranch < 0, 0 > Never Executed
+	933	forwbranch < 0, 0 > Never Executed
+	942	forwbranch < 0, 0 > Never Executed
+	960	forwbranch < 0, 0 > Never Executed
+	970	forwbranch < 0, 0 > Never Executed
+	987	forwbranch < 0, 0 > Never Executed
+	999	forwbranch < 0, 0 > Never Executed
+	1023	forwbranch < 0, 0 > Never Executed
+	1040	forwbranch < 0, 0 > Never Executed
+	1050	forwbranch < 0, 0 > Never Executed
+	1067	forwbranch < 0, 0 > Never Executed
+	1079	forwbranch < 0, 0 > Never Executed
+	1096	forwbranch < 0, 0 > Never Executed
+	1108	forwbranch < 0, 0 > Never Executed
+	1125	forwbranch < 0, 0 > Never Executed
+	1138	forwbranch < 0, 0 > Never Executed
+	1161	forwbranch < 0, 10 > 0.0% taken
+	1170	forwbranch < 0, 0 > Never Executed
+	1186	forwbranch < 0, 0 > Never Executed
+	1202	forwbranch < 0, 0 > Never Executed
+	1218	forwbranch < 0, 0 > Never Executed
+	1233	forwbranch < 0, 0 > Never Executed
+	1248	forwbranch < 0, 0 > Never Executed
+	1263	forwbranch < 0, 0 > Never Executed
+	1278	forwbranch < 0, 0 > Never Executed
+	1295	forwbranch < 0, 0 > Never Executed
+	1304	forwbranch < 0, 0 > Never Executed
+	1319	forwbranch < 0, 0 > Never Executed
+	1334	forwbranch < 0, 0 > Never Executed
+	1349	forwbranch < 0, 0 > Never Executed
+	1364	forwbranch < 0, 0 > Never Executed
+	1379	forwbranch < 0, 0 > Never Executed
+	1394	forwbranch < 0, 0 > Never Executed
+	1411	forwbranch < 0, 0 > Never Executed
+	1420	forwbranch < 0, 0 > Never Executed
+	1440	forwbranch < 0, 0 > Never Executed
+	1473	forwbranch < 0, 0 > Never Executed
+	1482	forwbranch < 0, 0 > Never Executed
+	1504	forwbranch < 0, 0 > Never Executed
+	1538	forwbranch < 0, 0 > Never Executed
+M 18 < SystemAppCL, Lorg/hsqldb/Table;, update, (Lorg/hsqldb/Session;Lorg/hsqldb/lib/HashMappedList;[I)I >
+	4	forwbranch < 7983, 3 > 99.96243% taken
+	32	forwbranch < 7983, 3 > 99.96243% taken
+	65	forwbranch < 7986, 7986 > 50.0% taken
+	112	forwbranch < 0, 7986 > 0.0% taken
+	124	forwbranch < 7986, 7986 > 50.0% taken
+	189	forwbranch < 7986, 0 > 100.0% taken
+	202	forwbranch < 0, 0 > Never Executed
+	265	forwbranch < 7986, 0 > 100.0% taken
+	333	forwbranch < 7986, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Table;, checkDataReadOnly, ()V >
+	4	forwbranch < 32075, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/hsqldb/Select;, resolveAll, (Lorg/hsqldb/Session;Z)Z >
+	4	forwbranch < 8010, 0 > 100.0% taken
+	27	forwbranch < 8010, 0 > 100.0% taken
+	41	forwbranch < 0, 0 > Never Executed
+	56	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/Expression;, getAlias, ()Ljava/lang/String; >
+	4	forwbranch < 8210, 0 > 100.0% taken
+	17	forwbranch < 0, 8210 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/ArrayUtil;, fillSequence, ([I)V >
+	5	forwbranch < 470, 1505 > 23.797468% taken
+M 26 < SystemAppCL, Lorg/hsqldb/Parser;, parseTableFilter, (Z)Lorg/hsqldb/TableFilter; >
+	19	forwbranch < 8015, 0 > 100.0% taken
+	126	forwbranch < 8010, 0 > 100.0% taken
+	174	forwbranch < 8010, 0 > 100.0% taken
+	191	forwbranch < 0, 8010 > 0.0% taken
+	201	forwbranch < 8010, 0 > 100.0% taken
+	211	forwbranch < 0, 0 > Never Executed
+	231	forwbranch < 8010, 0 > 100.0% taken
+	241	forwbranch < 0, 0 > Never Executed
+	262	forwbranch < 0, 0 > Never Executed
+	288	forwbranch < 8010, 0 > 100.0% taken
+	304	forwbranch < 0, 0 > Never Executed
+	332	forwbranch < 8010, 0 > 100.0% taken
+	344	forwbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lorg/hsqldb/Parser;, resolveSelectTableFilter, (Lorg/hsqldb/Select;Lorg/hsqldb/lib/HsqlArrayList;Lorg/hsqldb/lib/HsqlArrayList;)V >
+	35	forwbranch < 4062, 4062 > 50.0% taken
+	56	forwbranch < 4062, 0 > 100.0% taken
+	81	forwbranch < 0, 0 > Never Executed
+	92	backbranch < 0, 0 > Never Executed
+	131	forwbranch < 0, 0 > Never Executed
+	166	forwbranch < 0, 4062 > 0.0% taken
+	177	forwbranch < 4062, 4062 > 50.0% taken
+	209	forwbranch < 4062, 4062 > 50.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Parser;, addCondition, (Lorg/hsqldb/Expression;Lorg/hsqldb/Expression;)Lorg/hsqldb/Expression; >
+	1	forwbranch < 0, 8010 > 0.0% taken
+	7	forwbranch < 0, 0 > Never Executed
+M 11 < SystemAppCL, Lorg/hsqldb/Parser;, parseUnion, (Ljava/lang/String;)I >
+	9	forwbranch < 0, 8010 > 0.0% taken
+	16	switch     < 0, 0, 0, 0, 8010 >
+	74	forwbranch < 0, 0 > Never Executed
+	88	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Parser;, parseOpenBrackets, ()I >
+	11	forwbranch < 8025, 8025 > 50.0% taken
+M 12 < SystemAppCL, Lorg/hsqldb/Select;, prepareUnions, ()V >
+	5	forwbranch < 8010, 8010 > 50.0% taken
+	21	forwbranch < 0, 8010 > 0.0% taken
+	28	forwbranch < 8010, 0 > 100.0% taken
+	51	forwbranch < 0, 0 > Never Executed
+	70	forwbranch < 0, 0 > Never Executed
+	113	forwbranch < 0, 0 > Never Executed
+M 132 < SystemAppCL, Lorg/hsqldb/Parser;, read, ()V >
+	29	forwbranch < 84038, 34188 > 71.082504% taken
+	69	forwbranch < 59152, 24886 > 70.38721% taken
+	92	forwbranch < 59152, 0 > 100.0% taken
+	127	forwbranch < 0, 0 > Never Executed
+	154	forwbranch < 46708, 12444 > 78.96267% taken
+	186	forwbranch < 37378, 9330 > 80.02483% taken
+	199	switch     < 32, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 12442, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9330, 4, 3118, 0, 9334, 0, 0, 0, 9330, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3114, 0, 0, 0, 0 >
+M 31 < SystemAppCL, Lorg/hsqldb/Parser;, readTerm, ()Lorg/hsqldb/Expression; >
+	6	switch     < 75328, 54867, 113, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5 >
+	230	forwbranch < 0, 0 > Never Executed
+	260	forwbranch < 0, 0 > Never Executed
+	298	forwbranch < 0, 0 > Never Executed
+	486	forwbranch < 0, 5 > 0.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/Expression;, getTableName, ()Ljava/lang/String; >
+	6	forwbranch < 8210, 0 > 100.0% taken
+	19	forwbranch < 0, 8210 > 0.0% taken
+	26	forwbranch < 8210, 0 > 100.0% taken
+M 33 < SystemAppCL, Lorg/hsqldb/Expression;, resolveTables, (Lorg/hsqldb/TableFilter;)V >
+	4	forwbranch < 5, 32533 > 0.015366648% taken
+	8	forwbranch < 4791, 27742 > 14.726585% taken
+	16	forwbranch < 19300, 8442 > 69.5696% taken
+	24	forwbranch < 10858, 8442 > 56.259068% taken
+	39	forwbranch < 10858, 8442 > 56.259068% taken
+	54	switch     < 10858, 0, 0, 0, 0, 0, 8442 >
+	116	forwbranch < 9650, 1208 > 88.874565% taken
+	131	forwbranch < 9650, 0 > 100.0% taken
+	142	forwbranch < 0, 0 > Never Executed
+	163	forwbranch < 0, 9650 > 0.0% taken
+	194	forwbranch < 0, 0 > Never Executed
+	215	forwbranch < 0, 0 > Never Executed
+	240	forwbranch < 0, 0 > Never Executed
+	258	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/Expression;, getColumnName, ()Ljava/lang/String; >
+	5	forwbranch < 0, 8210 > 0.0% taken
+	12	forwbranch < 8210, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Parser;, checkTableWriteAccess, (Lorg/hsqldb/Table;I)V >
+	23	forwbranch < 19002, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/TableFilter;, <init>, (Lorg/hsqldb/Table;Ljava/lang/String;Lorg/hsqldb/lib/HashMappedList;Z)V >
+	11	forwbranch < 0, 2145 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Parser;, readOr, ()Lorg/hsqldb/Expression; >
+	11	forwbranch < 96175, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Parser;, readThis, (I)V >
+	5	forwbranch < 0, 15 > 0.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/Expression;, setDistinctAggregate, (Z)V >
+	2	forwbranch < 5, 0 > 100.0% taken
+	14	forwbranch < 0, 0 > Never Executed
+	31	forwbranch < 0, 5 > 0.0% taken
+	36	forwbranch < 5, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Parser;, readAnd, ()Lorg/hsqldb/Expression; >
+	11	forwbranch < 96175, 0 > 100.0% taken
+M 29 < SystemAppCL, Lorg/hsqldb/Parser;, readCondition, ()Lorg/hsqldb/Expression; >
+	4	switch     < 0, 0, 56661 >
+	78	forwbranch < 0, 0 > Never Executed
+	100	forwbranch < 0, 0 > Never Executed
+	166	forwbranch < 56661, 0 > 100.0% taken
+	179	forwbranch < 0, 0 > Never Executed
+	198	forwbranch < 0, 0 > Never Executed
+	205	forwbranch < 0, 0 > Never Executed
+	243	forwbranch < 0, 0 > Never Executed
+	268	forwbranch < 56661, 0 > 100.0% taken
+	281	switch     < 0, 0, 0, 56661 >
+	344	forwbranch < 0, 56661 > 0.0% taken
+	364	forwbranch < 37783, 18878 > 66.68255% taken
+	393	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Parser;, readConcat, ()Lorg/hsqldb/Expression; >
+	11	forwbranch < 22498, 0 > 100.0% taken
+M 7 < SystemAppCL, Lorg/hsqldb/Expression;, isCompare, (I)Z >
+	1	switch     < 18878, 0, 0, 0, 0, 0, 37783 >
+M 4 < SystemAppCL, Lorg/hsqldb/Parser;, readSum, ()Lorg/hsqldb/Expression; >
+	11	forwbranch < 128215, 24030 > 84.21623% taken
+	26	forwbranch < 128215, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Parser;, readFactor, ()Lorg/hsqldb/Expression; >
+	11	forwbranch < 0, 10063 > 0.0% taken
+	20	forwbranch < 10063, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/Parser;, readColumnExpression, ()Lorg/hsqldb/Expression; >
+	32	forwbranch < 11646, 1 > 99.99142% taken
+	84	forwbranch < 1, 0 > 100.0% taken
+	107	forwbranch < 0, 0 > Never Executed
+	151	forwbranch < 11646, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Expression;, <init>, (ILjava/lang/Object;Z)V >
+	12	forwbranch < 0, 113 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Expression;, <init>, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V >
+	40	forwbranch < 0, 5 > 0.0% taken
+M 12 < SystemAppCL, Lorg/hsqldb/Expression;, isAggregate, (I)Z >
+	1	switch     < 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 43932 >
+M 16 < SystemAppCL, Lorg/hsqldb/Parser;, readAggregate, ()Lorg/hsqldb/Expression; >
+	29	forwbranch < 5, 0 > 100.0% taken
+	44	forwbranch < 5, 0 > 100.0% taken
+	78	forwbranch < 0, 5 > 0.0% taken
+	82	forwbranch < 5, 0 > 100.0% taken
+	88	forwbranch < 0, 0 > Never Executed
+	94	forwbranch < 0, 0 > Never Executed
+	100	forwbranch < 0, 0 > Never Executed
+	106	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Expression;, <init>, (Ljava/lang/String;Ljava/lang/String;Z)V >
+	35	forwbranch < 11647, 0 > 100.0% taken
+M 28 < SystemAppCL, Lorg/hsqldb/Function;, <init>, (Ljava/lang/String;Ljava/lang/String;Z)V >
+	38	forwbranch < 0, 5 > 0.0% taken
+	79	forwbranch < 4, 1 > 80.0% taken
+	144	forwbranch < 0, 60 > 0.0% taken
+	164	forwbranch < 59, 1 > 98.333336% taken
+	175	forwbranch < 0, 1 > 0.0% taken
+	197	forwbranch < 0, 1 > 0.0% taken
+	242	forwbranch < 4, 1 > 80.0% taken
+	263	forwbranch < 5, 0 > 100.0% taken
+	337	forwbranch < 5, 0 > 100.0% taken
+	358	forwbranch < 0, 0 > Never Executed
+	366	forwbranch < 0, 0 > Never Executed
+	387	forwbranch < 0, 0 > Never Executed
+	421	forwbranch < 0, 0 > Never Executed
+	448	forwbranch < 5, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Expression;, <init>, (Lorg/hsqldb/Function;)V >
+	44	forwbranch < 5, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Parser;, getSortedSubqueries, ()[Lorg/hsqldb/SubQuery; >
+	7	forwbranch < 0, 20174 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Parser;, getParameters, ()[Lorg/hsqldb/Expression; >
+	7	forwbranch < 29, 20121 > 0.1439206% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Parser;, parseSimpleTableFilter, (I)Lorg/hsqldb/TableFilter; >
+	66	forwbranch < 12154, 0 > 100.0% taken
+	87	forwbranch < 12154, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/CompiledStatement;, <init>, (Lorg/hsqldb/Session;Lorg/hsqldb/Database;Lorg/hsqldb/HsqlNameManager$HsqlName;Lorg/hsqldb/TableFilter;Lorg/hsqldb/Expression;[Lorg/hsqldb/SubQuery;[Lorg/hsqldb/Expression;)V >
+	31	forwbranch < 20, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/Parser;, getInsertColumnValueExpressions, (Lorg/hsqldb/Table;[Lorg/hsqldb/Expression;I)V >
+	16	forwbranch < 0, 30776 > 0.0% taken
+	62	forwbranch < 7699, 23077 > 25.016247% taken
+	75	forwbranch < 0, 7699 > 0.0% taken
+	83	forwbranch < 0, 7699 > 0.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/CompiledStatement;, <init>, (Lorg/hsqldb/HsqlNameManager$HsqlName;Lorg/hsqldb/Table;[I[Lorg/hsqldb/Expression;[Z[Lorg/hsqldb/SubQuery;[Lorg/hsqldb/Expression;)V >
+	44	forwbranch < 8025, 32080 > 20.009974% taken
+	59	forwbranch < 32015, 65 > 99.79738% taken
+M 4 < SystemAppCL, Lorg/hsqldb/CompiledStatement;, <init>, (Lorg/hsqldb/Session;Lorg/hsqldb/Database;Lorg/hsqldb/HsqlNameManager$HsqlName;Lorg/hsqldb/Select;[Lorg/hsqldb/SubQuery;[Lorg/hsqldb/Expression;)V >
+	30	forwbranch < 6885, 6885 > 50.0% taken
+	48	forwbranch < 6885, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/CompiledStatement;, <init>, (Lorg/hsqldb/Session;Lorg/hsqldb/Database;Lorg/hsqldb/HsqlNameManager$HsqlName;Lorg/hsqldb/TableFilter;[I[Lorg/hsqldb/Expression;Lorg/hsqldb/Expression;[Lorg/hsqldb/SubQuery;[Lorg/hsqldb/Expression;)V >
+	49	forwbranch < 14412, 14412 > 50.0% taken
+	64	forwbranch < 14412, 0 > 100.0% taken
+	105	forwbranch < 0, 14412 > 0.0% taken
+M 10 < SystemAppCL, Lorg/hsqldb/Expression;, checkAggregate, ()V >
+	7	forwbranch < 43932, 2 > 99.995445% taken
+	27	forwbranch < 0, 43932 > 0.0% taken
+	37	forwbranch < 43932, 0 > 100.0% taken
+	54	forwbranch < 0, 43932 > 0.0% taken
+	64	forwbranch < 43932, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Expression;, isAggregate, ()Z >
+	4	forwbranch < 187434, 0 > 100.0% taken
+M 19 < SystemAppCL, Lorg/hsqldb/Expression;, isColumn, ()Z >
+	4	switch     < 8010, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	93	forwbranch < 0, 0 > Never Executed
+	103	forwbranch < 0, 0 > Never Executed
+M 20 < SystemAppCL, Lorg/hsqldb/Expression;, isConstant, ()Z >
+	4	switch     < 0, 8010, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	97	forwbranch < 0, 0 > Never Executed
+	107	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Expression;, isSelfAggregate, ()Z >
+	5	forwbranch < 8010, 0 > 100.0% taken
+M 14 < SystemAppCL, Lorg/hsqldb/Expression;, collectInGroupByExpressions, (Lorg/hsqldb/lib/HsqlArrayList;)V >
+	4	forwbranch < 0, 8010 > 0.0% taken
+	11	forwbranch < 0, 8010 > 0.0% taken
+	18	forwbranch < 0, 8010 > 0.0% taken
+	36	forwbranch < 0, 0 > Never Executed
+	48	forwbranch < 0, 0 > Never Executed
+	66	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 0, 0 > Never Executed
+M 46 < SystemAppCL, Lorg/hsqldb/Expression;, checkResolved, (Z)Z >
+	6	forwbranch < 14415, 4805 > 75.0% taken
+	10	forwbranch < 0, 4805 > 0.0% taken
+	21	forwbranch < 0, 4805 > 0.0% taken
+	34	forwbranch < 14415, 4805 > 75.0% taken
+	38	forwbranch < 0, 4805 > 0.0% taken
+	49	forwbranch < 0, 4805 > 0.0% taken
+	62	forwbranch < 19220, 0 > 100.0% taken
+	72	forwbranch < 0, 0 > Never Executed
+	76	forwbranch < 0, 0 > Never Executed
+	90	forwbranch < 0, 0 > Never Executed
+	103	forwbranch < 19220, 0 > 100.0% taken
+	107	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 0 > Never Executed
+	131	forwbranch < 19220, 0 > 100.0% taken
+	142	forwbranch < 0, 0 > Never Executed
+	146	forwbranch < 0, 0 > Never Executed
+	159	forwbranch < 0, 0 > Never Executed
+	179	forwbranch < 9610, 9610 > 50.0% taken
+	186	forwbranch < 9610, 0 > 100.0% taken
+	194	forwbranch < 0, 0 > Never Executed
+	204	forwbranch < 0, 0 > Never Executed
+	208	forwbranch < 0, 0 > Never Executed
+	215	forwbranch < 0, 0 > Never Executed
+M 22 < SystemAppCL, Lorg/hsqldb/Select;, checkResolved, (Z)Z >
+	14	forwbranch < 8010, 8010 > 50.0% taken
+	18	forwbranch < 0, 8010 > 0.0% taken
+	32	forwbranch < 0, 8010 > 0.0% taken
+	51	forwbranch < 0, 8010 > 0.0% taken
+	55	forwbranch < 0, 8010 > 0.0% taken
+	66	forwbranch < 0, 8010 > 0.0% taken
+	79	forwbranch < 8010, 0 > 100.0% taken
+	83	forwbranch < 0, 0 > Never Executed
+	94	forwbranch < 0, 0 > Never Executed
+	113	forwbranch < 8010, 8010 > 50.0% taken
+	126	forwbranch < 8010, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/Expression;, getExpressionForAlias, ([Lorg/hsqldb/Expression;I)Lorg/hsqldb/Expression; >
+	4	forwbranch < 8010, 8010 > 50.0% taken
+	20	forwbranch < 8010, 0 > 100.0% taken
+	27	forwbranch < 0, 0 > Never Executed
+	43	forwbranch < 0, 0 > Never Executed
+M 22 < SystemAppCL, Lorg/hsqldb/Expression;, replaceAliases, ([Lorg/hsqldb/Expression;I)V >
+	4	forwbranch < 8010, 8010 > 50.0% taken
+	15	forwbranch < 0, 8010 > 0.0% taken
+	47	forwbranch < 8010, 8010 > 50.0% taken
+	58	forwbranch < 8010, 0 > 100.0% taken
+	90	switch     < 0, 0, 0, 0, 0, 16020 >
+	147	forwbranch < 0, 0 > Never Executed
+	173	forwbranch < 0, 0 > Never Executed
+	191	forwbranch < 0, 0 > Never Executed
+	202	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/Expression;, setTableColumnAttributes, (Lorg/hsqldb/Table;I)V >
+	43	forwbranch < 12581, 12587 > 49.98808% taken
+	50	forwbranch < 0, 12587 > 0.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/Function;, resolveType, (Lorg/hsqldb/Session;)V >
+	10	forwbranch < 5, 0 > 100.0% taken
+	21	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/Select;, resolveTypes, (Lorg/hsqldb/Session;)V >
+	10	forwbranch < 8010, 8010 > 50.0% taken
+	33	forwbranch < 0, 8010 > 0.0% taken
+M 22 < SystemAppCL, Lorg/hsqldb/Expression;, isFixedConstant, ()Z >
+	4	switch     < 0, 56070, 0, 0, 0, 0, 0, 0, 0, 0, 24030, 0, 0, 0, 0, 0 >
+	84	forwbranch < 0, 0 > Never Executed
+	108	forwbranch < 24030, 0 > 100.0% taken
+	118	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/hsqldb/Types;, isCharacterType, (I)Z >
+	1	switch     < 0, 0, 0, 0, 0, 48060 >
+M 19 < SystemAppCL, Lorg/hsqldb/Column;, getCombinedNumberType, (III)I >
+	14	forwbranch < 0, 24030 > 0.0% taken
+	21	forwbranch < 24030, 0 > 100.0% taken
+	28	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 24030 >
+	107	forwbranch < 0, 0 > Never Executed
+	125	forwbranch < 24030, 0 > 100.0% taken
+	134	forwbranch < 0, 24030 > 0.0% taken
+M 48 < SystemAppCL, Lorg/hsqldb/Expression;, isFixedConditional, ()Z >
+	4	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 16000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32040, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	185	forwbranch < 32040, 0 > 100.0% taken
+	195	forwbranch < 0, 0 > Never Executed
+	227	forwbranch < 0, 0 > Never Executed
+	237	forwbranch < 0, 0 > Never Executed
+M 94 < SystemAppCL, Lorg/hsqldb/Expression;, test, (Lorg/hsqldb/Session;)Ljava/lang/Boolean; >
+	4	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 19200, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25600, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	188	forwbranch < 0, 0 > Never Executed
+	208	forwbranch < 0, 0 > Never Executed
+	219	forwbranch < 0, 0 > Never Executed
+	242	forwbranch < 0, 0 > Never Executed
+	259	forwbranch < 0, 0 > Never Executed
+	268	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 0, 0 > Never Executed
+	305	forwbranch < 0, 0 > Never Executed
+	326	forwbranch < 0, 0 > Never Executed
+	347	forwbranch < 0, 0 > Never Executed
+	381	forwbranch < 0, 0 > Never Executed
+	392	forwbranch < 0, 0 > Never Executed
+	481	forwbranch < 0, 25600 > 0.0% taken
+	488	forwbranch < 25600, 0 > 100.0% taken
+	496	forwbranch < 0, 0 > Never Executed
+	505	forwbranch < 0, 0 > Never Executed
+	515	forwbranch < 0, 0 > Never Executed
+	549	forwbranch < 0, 25600 > 0.0% taken
+	561	forwbranch < 25600, 0 > 100.0% taken
+	597	forwbranch < 0, 25600 > 0.0% taken
+	601	forwbranch < 25600, 0 > 100.0% taken
+	611	forwbranch < 0, 0 > Never Executed
+	624	forwbranch < 0, 0 > Never Executed
+	631	forwbranch < 0, 0 > Never Executed
+	644	forwbranch < 0, 0 > Never Executed
+	648	forwbranch < 0, 0 > Never Executed
+	663	forwbranch < 0, 0 > Never Executed
+M 25 < SystemAppCL, Lorg/hsqldb/Expression;, compareValues, (Lorg/hsqldb/Session;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Boolean; >
+	23	forwbranch < 64000, 0 > 100.0% taken
+	36	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 0, 0 > Never Executed
+	109	switch     < 64000, 0, 0, 0, 0, 0, 0 >
+	150	forwbranch < 32000, 32000 > 50.0% taken
+	165	forwbranch < 0, 0 > Never Executed
+	180	forwbranch < 0, 0 > Never Executed
+	195	forwbranch < 0, 0 > Never Executed
+	210	forwbranch < 0, 0 > Never Executed
+	225	forwbranch < 0, 0 > Never Executed
+M 19 < SystemAppCL, Lorg/hsqldb/Column;, add, (Ljava/lang/Object;Ljava/lang/Object;I)Ljava/lang/Object; >
+	1	forwbranch < 0, 16000 > 0.0% taken
+	5	forwbranch < 16000, 0 > 100.0% taken
+	11	switch     < 0, 16000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 21 < SystemAppCL, Lorg/hsqldb/Function;, getValue, (Lorg/hsqldb/Session;)Ljava/lang/Object; >
+	4	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5 >
+	118	forwbranch < 0, 0 > Never Executed
+	143	forwbranch < 0, 0 > Never Executed
+	160	forwbranch < 0, 0 > Never Executed
+	180	forwbranch < 0, 0 > Never Executed
+	210	forwbranch < 5, 0 > 100.0% taken
+M 32 < SystemAppCL, Lorg/hsqldb/Index;, findFirstRow, (Lorg/hsqldb/Session;Ljava/lang/Object;I)Lorg/hsqldb/index/RowIterator; >
+	3	forwbranch < 4785, 0 > 100.0% taken
+	9	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 4785, 0 > 100.0% taken
+	39	forwbranch < 4785, 0 > 100.0% taken
+	44	forwbranch < 0, 0 > Never Executed
+	53	forwbranch < 0, 66209 > 0.0% taken
+	84	forwbranch < 31061, 35148 > 46.913563% taken
+	96	forwbranch < 31061, 35148 > 46.913563% taken
+	108	forwbranch < 31871, 3277 > 90.67657% taken
+	130	forwbranch < 29553, 1508 > 95.145035% taken
+	145	forwbranch < 2387, 5675 > 29.608038% taken
+	184	forwbranch < 2398, 3277 > 42.25551% taken
+	200	forwbranch < 0, 2398 > 0.0% taken
+	205	forwbranch < 2398, 0 > 100.0% taken
+	216	forwbranch < 0, 0 > Never Executed
+	232	forwbranch < 2398, 2387 > 50.11494% taken
+M 10 < SystemAppCL, Lorg/hsqldb/Table;, isWritable, ()Z >
+	4	forwbranch < 0, 38025 > 0.0% taken
+	14	forwbranch < 0, 38025 > 0.0% taken
+	24	forwbranch < 38025, 0 > 100.0% taken
+	31	forwbranch < 0, 0 > Never Executed
+	38	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Table;, getCatalogName, ()Ljava/lang/String; >
+	13	forwbranch < 4173, 0 > 100.0% taken
+M 23 < SystemAppCL, Lorg/hsqldb/Types;, getColStClsName, (I)Ljava/lang/String; >
+	1	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 8145, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 2 < SystemAppCL, Lorg/hsqldb/Expression;, setTrue, ()V >
+	5	forwbranch < 0, 30501 > 0.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Expression;, isAliasQuoted, ()Z >
+	4	forwbranch < 8210, 0 > 100.0% taken
+	17	forwbranch < 0, 8210 > 0.0% taken
+M 15 < SystemAppCL, Lorg/hsqldb/Expression;, isResolved, ()Z >
+	4	switch     < 30501, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	66	forwbranch < 0, 0 > Never Executed
+	76	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Expression;, getTableSchemaName, ()Ljava/lang/String; >
+	4	forwbranch < 8010, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Transaction;, commit, (Lorg/hsqldb/Session;)V >
+	4	forwbranch < 80705, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/LongKeyIntValueHashMap;, remove, (J)Z >
+	20	forwbranch < 440705, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/TransactionManager;, checkDelete, (Lorg/hsqldb/Session;Lorg/hsqldb/lib/HashMappedList;)V >
+	4	forwbranch < 0, 16000 > 0.0% taken
+	26	forwbranch < 0, 0 > Never Executed
+	58	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseInformation;, <clinit>, ()V >
+	297	forwbranch < 1, 46 > 2.1276596% taken
+M 6 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_PROCEDURECOLUMNS, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	53	forwbranch < 0, 0 > Never Executed
+	149	backbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_PROCEDURES, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	38	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_SUPERTABLES, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_SUPERTYPES, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_UDTATTRIBUTES, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_UDTS, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_VERSIONCOLUMNS, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+M 14 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_ALIASES, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	147	forwbranch < 0, 0 > Never Executed
+	191	forwbranch < 0, 0 > Never Executed
+	216	forwbranch < 0, 0 > Never Executed
+	297	forwbranch < 0, 0 > Never Executed
+	324	forwbranch < 0, 0 > Never Executed
+	371	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_CACHEINFO, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	142	forwbranch < 0, 0 > Never Executed
+	162	backbranch < 0, 0 > Never Executed
+	171	backbranch < 0, 0 > Never Executed
+	181	backbranch < 0, 0 > Never Executed
+	208	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_CLASSPRIVILEGES, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	152	forwbranch < 0, 0 > Never Executed
+	179	forwbranch < 0, 0 > Never Executed
+	204	forwbranch < 0, 0 > Never Executed
+	234	forwbranch < 0, 0 > Never Executed
+	347	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_SESSIONINFO, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	97	forwbranch < 0, 0 > Never Executed
+	157	forwbranch < 0, 0 > Never Executed
+	192	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_PROPERTIES, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	129	forwbranch < 0, 0 > Never Executed
+	213	forwbranch < 0, 0 > Never Executed
+	297	forwbranch < 0, 0 > Never Executed
+	517	forwbranch < 0, 0 > Never Executed
+	572	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_SESSIONS, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	153	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_TRIGGERCOLUMNS, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+M 20 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_TRIGGERS, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	251	forwbranch < 0, 0 > Never Executed
+	275	forwbranch < 0, 0 > Never Executed
+	287	forwbranch < 0, 0 > Never Executed
+	335	backbranch < 0, 0 > Never Executed
+	347	forwbranch < 0, 0 > Never Executed
+	363	forwbranch < 0, 0 > Never Executed
+	380	forwbranch < 0, 0 > Never Executed
+	411	forwbranch < 0, 0 > Never Executed
+	444	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_VIEWS, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	140	forwbranch < 0, 0 > Never Executed
+	159	backbranch < 0, 0 > Never Executed
+	168	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_TEXTTABLES, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	164	forwbranch < 0, 0 > Never Executed
+	181	backbranch < 0, 0 > Never Executed
+	189	forwbranch < 0, 0 > Never Executed
+	236	forwbranch < 0, 0 > Never Executed
+	246	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_USAGE_PRIVILEGES, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+M 18 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_CHECK_COLUMN_USAGE, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	220	forwbranch < 0, 0 > Never Executed
+	241	forwbranch < 0, 0 > Never Executed
+	282	backbranch < 0, 0 > Never Executed
+	298	forwbranch < 0, 0 > Never Executed
+	353	forwbranch < 0, 0 > Never Executed
+	388	backbranch < 0, 0 > Never Executed
+	397	forwbranch < 0, 0 > Never Executed
+	477	forwbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_CHECK_ROUTINE_USAGE, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	149	forwbranch < 0, 0 > Never Executed
+	175	forwbranch < 0, 0 > Never Executed
+	216	backbranch < 0, 0 > Never Executed
+	232	forwbranch < 0, 0 > Never Executed
+	286	forwbranch < 0, 0 > Never Executed
+	326	forwbranch < 0, 0 > Never Executed
+	360	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_CHECK_TABLE_USAGE, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+M 23 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_TABLE_CONSTRAINTS, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	186	forwbranch < 0, 0 > Never Executed
+	203	backbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	227	forwbranch < 0, 0 > Never Executed
+	345	backbranch < 0, 0 > Never Executed
+	360	forwbranch < 0, 0 > Never Executed
+	372	forwbranch < 0, 0 > Never Executed
+	406	forwbranch < 0, 0 > Never Executed
+	432	switch     < 0, 0, 0, 0, 0 >
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_VIEW_TABLE_USAGE, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+M 18 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_VIEW_COLUMN_USAGE, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	220	forwbranch < 0, 0 > Never Executed
+	251	backbranch < 0, 0 > Never Executed
+	260	backbranch < 0, 0 > Never Executed
+	322	forwbranch < 0, 0 > Never Executed
+	359	forwbranch < 0, 0 > Never Executed
+	394	backbranch < 0, 0 > Never Executed
+	403	forwbranch < 0, 0 > Never Executed
+	483	backbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_VIEW_ROUTINE_USAGE, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	148	forwbranch < 0, 0 > Never Executed
+	173	backbranch < 0, 0 > Never Executed
+	182	backbranch < 0, 0 > Never Executed
+	245	forwbranch < 0, 0 > Never Executed
+	292	forwbranch < 0, 0 > Never Executed
+	332	backbranch < 0, 0 > Never Executed
+	363	backbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_AUTHORIZATIONS, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	91	forwbranch < 0, 0 > Never Executed
+	160	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_ROLE_AUTHORIZATION_DESCRIPTORS, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	109	forwbranch < 0, 0 > Never Executed
+	147	backbranch < 0, 0 > Never Executed
+	175	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_SCHEMATA, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	152	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, SYSTEM_COLLATIONS, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	166	forwbranch < 0, 0 > Never Executed
+M 36 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, generateTable, (I)Lorg/hsqldb/Table; >
+	8	switch     < 10, 10, 10, 10, 10, 10, 10, 0, 0, 10, 0, 0, 10, 10, 10, 10, 0, 0, 10, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 10, 0, 10, 0 >
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, SYSTEM_PROCEDURECOLUMNS, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, SYSTEM_PROCEDURES, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, init, ()V >
+	234	forwbranch < 10, 460 > 2.1276596% taken
+	251	forwbranch < 10, 450 > 2.173913% taken
+	280	forwbranch < 10, 460 > 2.1276596% taken
+	289	forwbranch < 10, 450 > 2.173913% taken
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, addColumn, (Lorg/hsqldb/Table;Ljava/lang/String;IIZ)V >
+	14	forwbranch < 3820, 220 > 94.55446% taken
+M 14 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, SYSTEM_BESTROWIDENTIFIER, ()Lorg/hsqldb/Table; >
+	8	forwbranch < 0, 10 > 0.0% taken
+	200	forwbranch < 0, 0 > Never Executed
+	229	forwbranch < 0, 0 > Never Executed
+	249	backbranch < 0, 0 > Never Executed
+	258	forwbranch < 0, 0 > Never Executed
+	273	forwbranch < 0, 0 > Never Executed
+	341	backbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, SYSTEM_CATALOGS, ()Lorg/hsqldb/Table; >
+	8	forwbranch < 0, 10 > 0.0% taken
+	60	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, SYSTEM_COLUMNPRIVILEGES, ()Lorg/hsqldb/Table; >
+	8	forwbranch < 0, 10 > 0.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, SYSTEM_COLUMNS, ()Lorg/hsqldb/Table; >
+	8	forwbranch < 0, 10 > 0.0% taken
+	278	forwbranch < 0, 0 > Never Executed
+	299	forwbranch < 0, 0 > Never Executed
+	349	backbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, SYSTEM_CROSSREFERENCE, ()Lorg/hsqldb/Table; >
+	8	forwbranch < 0, 10 > 0.0% taken
+	238	forwbranch < 0, 0 > Never Executed
+	259	forwbranch < 0, 0 > Never Executed
+	284	backbranch < 0, 0 > Never Executed
+	299	forwbranch < 0, 0 > Never Executed
+	311	forwbranch < 0, 0 > Never Executed
+	338	forwbranch < 0, 0 > Never Executed
+	489	forwbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, SYSTEM_INDEXINFO, ()Lorg/hsqldb/Table; >
+	8	forwbranch < 0, 10 > 0.0% taken
+	211	forwbranch < 0, 0 > Never Executed
+	240	forwbranch < 0, 0 > Never Executed
+	260	backbranch < 0, 0 > Never Executed
+	269	forwbranch < 0, 0 > Never Executed
+	325	backbranch < 0, 0 > Never Executed
+	340	forwbranch < 0, 0 > Never Executed
+	413	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, SYSTEM_PRIMARYKEYS, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	131	forwbranch < 0, 0 > Never Executed
+	160	forwbranch < 0, 0 > Never Executed
+	180	backbranch < 0, 0 > Never Executed
+	189	backbranch < 0, 0 > Never Executed
+	197	forwbranch < 0, 0 > Never Executed
+	269	backbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, SYSTEM_SCHEMAS, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	95	forwbranch < 0, 0 > Never Executed
+	141	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, SYSTEM_TABLEPRIVILEGES, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	164	forwbranch < 0, 0 > Never Executed
+	192	forwbranch < 0, 0 > Never Executed
+	234	backbranch < 0, 0 > Never Executed
+	261	forwbranch < 0, 0 > Never Executed
+	288	forwbranch < 0, 0 > Never Executed
+	308	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, SYSTEM_TABLES, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	186	forwbranch < 0, 0 > Never Executed
+	204	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, SYSTEM_TABLETYPES, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	57	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, SYSTEM_TYPEINFO, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, SYSTEM_USERS, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	85	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, SYSTEM_ALLTYPEINFO, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	380	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, SYSTEM_CHECK_CONSTRAINTS, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	114	forwbranch < 0, 0 > Never Executed
+	132	forwbranch < 0, 0 > Never Executed
+	156	backbranch < 0, 0 > Never Executed
+	172	forwbranch < 0, 0 > Never Executed
+	199	forwbranch < 0, 0 > Never Executed
+M 7 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, SYSTEM_SEQUENCES, ()Lorg/hsqldb/Table; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	205	forwbranch < 0, 0 > Never Executed
+	321	switch     < 0, 0, 0 >
+M 4 < SystemAppCL, Lorg/hsqldb/DINameSpace;, classForName, (Ljava/lang/String;)Ljava/lang/Class; >
+	7	forwbranch < 90, 0 > 100.0% taken
+	16	forwbranch < 0, 90 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/DatabaseInformationMain;, <clinit>, ()V >
+	68	forwbranch < 1, 46 > 2.1276596% taken
+M 40 < SystemAppCL, Lorg/hsqldb/DatabaseInformationFull;, generateTable, (I)Lorg/hsqldb/Table; >
+	1	switch     < 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 70 >
+M 2 < SystemAppCL, Lorg/hsqldb/lib/ArrayUtil;, fillArray, ([II)V >
+	7	forwbranch < 470, 4125 > 10.228509% taken
+M 6 < SystemAppCL, Lorg/hsqldb/Table;, resetDefaultsFlag, ()V >
+	12	forwbranch < 470, 4125 > 10.228509% taken
+	20	forwbranch < 0, 4125 > 0.0% taken
+	29	forwbranch < 4125, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Index;, getRoot, (Lorg/hsqldb/Session;)Lorg/hsqldb/Node; >
+	4	forwbranch < 726728, 0 > 100.0% taken
+	8	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Row;, getNode, (I)Lorg/hsqldb/Node; >
+	10	forwbranch < 333365, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Index;, setRoot, (Lorg/hsqldb/Session;Lorg/hsqldb/Node;)V >
+	4	forwbranch < 33, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Table;, setColumnTypeVars, (I)V >
+	57	forwbranch < 4125, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/ArrayUtil;, copyColumnValues, ([I[I[I)V >
+	5	forwbranch < 470, 1505 > 23.797468% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Table;, createPrimaryIndex, ([ILorg/hsqldb/HsqlNameManager$HsqlName;)V >
+	12	forwbranch < 470, 1505 > 23.797468% taken
+M 42 < SystemAppCL, Lorg/hsqldb/Table;, setBestRowIdentifiers, ()V >
+	13	forwbranch < 470, 0 > 100.0% taken
+	53	forwbranch < 470, 470 > 50.0% taken
+	81	forwbranch < 0, 470 > 0.0% taken
+	88	forwbranch < 75, 395 > 15.957447% taken
+	103	forwbranch < 0, 395 > 0.0% taken
+	122	forwbranch < 395, 0 > 100.0% taken
+	129	forwbranch < 0, 0 > Never Executed
+	151	forwbranch < 395, 1505 > 20.789474% taken
+	164	forwbranch < 820, 685 > 54.48505% taken
+	180	forwbranch < 395, 0 > 100.0% taken
+	193	forwbranch < 250, 145 > 63.291138% taken
+	197	forwbranch < 145, 0 > 100.0% taken
+	203	forwbranch < 0, 0 > Never Executed
+	209	forwbranch < 0, 0 > Never Executed
+	228	forwbranch < 0, 250 > 0.0% taken
+	235	forwbranch < 0, 0 > Never Executed
+	241	forwbranch < 0, 0 > Never Executed
+	248	forwbranch < 0, 0 > Never Executed
+	269	forwbranch < 325, 145 > 69.14893% taken
+	275	forwbranch < 0, 145 > 0.0% taken
+	300	forwbranch < 75, 395 > 15.957447% taken
+M 6 < SystemAppCL, Lorg/hsqldb/Index;, <init>, (Lorg/hsqldb/Database;Lorg/hsqldb/HsqlNameManager$HsqlName;Lorg/hsqldb/Table;[I[IZZZZ[I[IZ)V >
+	56	forwbranch < 470, 0 > 100.0% taken
+	64	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 395, 75 > 84.04256% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Table;, addIndex, (Lorg/hsqldb/Index;)I >
+	8	forwbranch < 470, 0 > 100.0% taken
+	31	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/Index;, firstRow, (Lorg/hsqldb/Session;)Lorg/hsqldb/index/RowIterator; >
+	14	forwbranch < 20, 0 > 100.0% taken
+	38	forwbranch < 0, 20 > 0.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Node;, newNode, (Lorg/hsqldb/Row;ILorg/hsqldb/Table;)Lorg/hsqldb/Node; >
+	4	switch     < 446588, 0, 0, 0 >
+M 8 < SystemAppCL, Lorg/hsqldb/Index;, insert, (Lorg/hsqldb/Session;Lorg/hsqldb/Row;I)V >
+	19	forwbranch < 589363, 41279 > 93.454445% taken
+	24	forwbranch < 41276, 3 > 99.99273% taken
+	69	forwbranch < 589363, 0 > 100.0% taken
+	87	forwbranch < 589363, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/hsqldb/lib/ArrayUtil;, copyAdjustArray, (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;II)V >
+	7	forwbranch < 485, 0 > 100.0% taken
+	30	forwbranch < 485, 0 > 100.0% taken
+	49	forwbranch < 0, 0 > Never Executed
+	70	forwbranch < 485, 0 > 100.0% taken
+	83	forwbranch < 0, 0 > Never Executed
+	114	forwbranch < 485, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/Table;, setIdentityColumn, (Lorg/hsqldb/Session;[Ljava/lang/Object;)V >
+	5	forwbranch < 130503, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/hsqldb/Table;, enforceNullConstraints, ([Ljava/lang/Object;)V >
+	7	forwbranch < 129181, 516660 > 20.001982% taken
+	13	forwbranch < 387479, 129181 > 74.9969% taken
+	22	forwbranch < 129181, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Table;, newRow, ([Ljava/lang/Object;)Lorg/hsqldb/Row; >
+	4	forwbranch < 131216, 0 > 100.0% taken
+	34	forwbranch < 131216, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/Table;, indexRow, (Lorg/hsqldb/Session;Lorg/hsqldb/Row;)V >
+	8	forwbranch < 45904, 45904 > 50.0% taken
+	53	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 0, 0 > Never Executed
+	105	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Table;, fireAll, (Lorg/hsqldb/Session;I)V >
+	6	forwbranch < 487163, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Table;, insertRow, (Lorg/hsqldb/Session;[Ljava/lang/Object;)V >
+	7	forwbranch < 318896, 0 > 100.0% taken
+	44	forwbranch < 318896, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Table;, checkRowDataInsert, (Lorg/hsqldb/Session;[Ljava/lang/Object;)V >
+	18	forwbranch < 0, 80705 > 0.0% taken
+	33	forwbranch < 80705, 80705 > 50.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Table;, insertNoCheck, (Lorg/hsqldb/Session;[Ljava/lang/Object;)V >
+	13	forwbranch < 0, 126201 > 0.0% taken
+	27	forwbranch < 0, 126201 > 0.0% taken
+M 12 < SystemAppCL, Lorg/hsqldb/Table;, enforceFieldValueLimits, ([Ljava/lang/Object;[I)V >
+	4	forwbranch < 182848, 0 > 100.0% taken
+	8	forwbranch < 0, 0 > Never Executed
+	21	forwbranch < 0, 0 > Never Executed
+	38	forwbranch < 0, 0 > Never Executed
+	48	forwbranch < 0, 0 > Never Executed
+	55	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Row;, isCascadeDeleted, ()Z >
+	4	forwbranch < 32000, 0 > 100.0% taken
+M 50 < SystemAppCL, Lorg/hsqldb/Table;, checkCascadeUpdate, (Lorg/hsqldb/Session;Lorg/hsqldb/Table;Lorg/hsqldb/lib/HashMappedList;Lorg/hsqldb/Row;[Ljava/lang/Object;[ILorg/hsqldb/Table;Lorg/hsqldb/lib/HashSet;)V >
+	14	forwbranch < 16000, 16000 > 50.0% taken
+	31	forwbranch < 16000, 0 > 100.0% taken
+	39	forwbranch < 0, 0 > Never Executed
+	44	forwbranch < 0, 0 > Never Executed
+	54	forwbranch < 0, 0 > Never Executed
+	67	forwbranch < 0, 0 > Never Executed
+	91	forwbranch < 16000, 0 > 100.0% taken
+	99	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 0 > Never Executed
+	147	forwbranch < 0, 0 > Never Executed
+	171	forwbranch < 0, 0 > Never Executed
+	188	forwbranch < 0, 0 > Never Executed
+	214	forwbranch < 0, 0 > Never Executed
+	226	forwbranch < 0, 0 > Never Executed
+	287	forwbranch < 0, 0 > Never Executed
+	317	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	369	forwbranch < 0, 0 > Never Executed
+	403	forwbranch < 0, 0 > Never Executed
+	414	forwbranch < 0, 0 > Never Executed
+	438	forwbranch < 0, 0 > Never Executed
+	449	forwbranch < 0, 0 > Never Executed
+	491	forwbranch < 0, 0 > Never Executed
+	529	forwbranch < 0, 0 > Never Executed
+	561	forwbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lorg/hsqldb/Table;, updateRowSet, (Lorg/hsqldb/Session;Lorg/hsqldb/lib/HashMappedList;[IZ)V >
+	10	forwbranch < 3725, 3725 > 50.0% taken
+	40	forwbranch < 3725, 0 > 100.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	75	forwbranch < 3725, 3725 > 50.0% taken
+	93	forwbranch < 3725, 0 > 100.0% taken
+	133	forwbranch < 3725, 3725 > 50.0% taken
+	165	forwbranch < 3725, 0 > 100.0% taken
+	204	forwbranch < 3725, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/hsqldb/Table;, deleteNoCheck, (Lorg/hsqldb/Session;Lorg/hsqldb/Row;Z)V >
+	4	forwbranch < 4749, 0 > 100.0% taken
+	30	forwbranch < 4749, 4749 > 50.0% taken
+	65	forwbranch < 0, 4749 > 0.0% taken
+	76	forwbranch < 0, 4749 > 0.0% taken
+	83	forwbranch < 0, 4749 > 0.0% taken
+M 48 < SystemAppCL, Lorg/hsqldb/Index;, delete, (Lorg/hsqldb/Session;Lorg/hsqldb/Node;)V >
+	1	forwbranch < 16000, 0 > 100.0% taken
+	18	forwbranch < 16000, 0 > 100.0% taken
+	38	forwbranch < 8327, 7673 > 52.04375% taken
+	53	forwbranch < 7577, 750 > 90.99316% taken
+	83	forwbranch < 7577, 7725 > 49.516403% taken
+	139	forwbranch < 7577, 0 > 100.0% taken
+	156	forwbranch < 0, 7577 > 0.0% taken
+	169	forwbranch < 3795, 3782 > 50.085785% taken
+	191	forwbranch < 3874, 3703 > 51.128414% taken
+	209	forwbranch < 0, 3703 > 0.0% taken
+	303	forwbranch < 6833, 744 > 90.18081% taken
+	344	forwbranch < 0, 25782 > 0.0% taken
+	351	forwbranch < 12581, 13201 > 48.79761% taken
+	368	switch     < 8252, 15924, 1606, 0 >
+	415	forwbranch < 586, 1020 > 36.48817% taken
+	440	forwbranch < 560, 1046 > 34.86924% taken
+	455	forwbranch < 152, 894 > 14.5315485% taken
+	485	forwbranch < 970, 76 > 92.73422% taken
+	555	forwbranch < 434, 126 > 77.5% taken
+	574	forwbranch < 434, 126 > 77.5% taken
+	591	forwbranch < 434, 126 > 77.5% taken
+	624	forwbranch < 485, 75 > 86.60714% taken
+	644	forwbranch < 241, 319 > 43.035713% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Table;, clearUpdateLists, (Lorg/hsqldb/lib/HashMappedList;)V >
+	7	forwbranch < 16000, 0 > 100.0% taken
+M 20 < SystemAppCL, Lorg/hsqldb/Constraint;, checkInsert, (Lorg/hsqldb/Session;[Ljava/lang/Object;)V >
+	5	forwbranch < 0, 183966 > 0.0% taken
+	13	forwbranch < 0, 183966 > 0.0% taken
+	21	forwbranch < 0, 183966 > 0.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+	51	forwbranch < 0, 0 > Never Executed
+	76	forwbranch < 0, 0 > Never Executed
+	93	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+	141	forwbranch < 0, 0 > Never Executed
+	158	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Row;, <init>, (Lorg/hsqldb/Table;[Ljava/lang/Object;)V >
+	31	forwbranch < 758633, 0 > 99.99999% taken
+M 8 < SystemAppCL, Lorg/hsqldb/Table;, getIndexForColumn, (Lorg/hsqldb/Session;I)Lorg/hsqldb/Index; >
+	9	forwbranch < 19224, 0 > 100.0% taken
+	17	forwbranch < 0, 0 > Never Executed
+	24	forwbranch < 0, 0 > Never Executed
+	73	forwbranch < 19224, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/lib/ArrayUtil;, intIndexesToBooleanArray, ([I[Z)V >
+	7	forwbranch < 470, 1505 > 23.797468% taken
+	15	forwbranch < 0, 1505 > 0.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Index;, set, (Lorg/hsqldb/Node;ZLorg/hsqldb/Node;)V >
+	1	forwbranch < 729341, 243113 > 75.000046% taken
+	18	forwbranch < 121571, 850883 > 12.501466% taken
+M 22 < SystemAppCL, Lorg/hsqldb/Index;, compareRowForInsert, (Lorg/hsqldb/Session;Lorg/hsqldb/Row;Lorg/hsqldb/Row;)I >
+	25	forwbranch < 0, 598483 > 0.0% taken
+	70	forwbranch < 0, 598483 > 0.0% taken
+	78	forwbranch < 0, 0 > Never Executed
+	94	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 0 > Never Executed
+	106	forwbranch < 0, 0 > Never Executed
+	121	forwbranch < 0, 0 > Never Executed
+	166	forwbranch < 0, 0 > Never Executed
+	182	forwbranch < 0, 0 > Never Executed
+	198	forwbranch < 0, 0 > Never Executed
+	209	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/Index;, child, (Lorg/hsqldb/Node;Z)Lorg/hsqldb/Node; >
+	1	forwbranch < 1315315, 80671 > 94.22122% taken
+M 26 < SystemAppCL, Lorg/hsqldb/Index;, balance, (Lorg/hsqldb/Session;Lorg/hsqldb/Node;Z)V >
+	1	forwbranch < 128359, 0 > 100.0% taken
+	18	switch     < 42779, 85580, 0, 0 >
+	76	forwbranch < 0, 42779 > 0.0% taken
+	94	forwbranch < 0, 42779 > 0.0% taken
+	112	forwbranch < 0, 42779 > 0.0% taken
+	142	forwbranch < 0, 0 > Never Executed
+	167	forwbranch < 0, 0 > Never Executed
+	201	forwbranch < 0, 0 > Never Executed
+	219	forwbranch < 0, 0 > Never Executed
+	244	forwbranch < 0, 0 > Never Executed
+	262	forwbranch < 0, 0 > Never Executed
+	291	forwbranch < 85550, 30 > 99.96494% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Index;, replace, (Lorg/hsqldb/Session;Lorg/hsqldb/Node;Lorg/hsqldb/Node;)V >
+	9	forwbranch < 81670, 28 > 99.96573% taken
+	19	forwbranch < 0, 28 > 0.0% taken
+M 10 < SystemAppCL, Lorg/hsqldb/Index;, next, (Lorg/hsqldb/Node;)Lorg/hsqldb/Node; >
+	1	forwbranch < 37819, 0 > 100.0% taken
+	12	forwbranch < 28308, 9511 > 74.851265% taken
+	23	forwbranch < 9511, 8870 > 51.74365% taken
+	46	forwbranch < 11237, 115576 > 8.861079% taken
+	57	forwbranch < 17071, 98505 > 14.770368% taken
+M 16 < SystemAppCL, Lorg/hsqldb/Column;, getNumTypeWidth, (I)I >
+	1	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48060, 0, 0, 0, 0, 0 >
+M 8 < BootstrapCL, Ljava/math/BigInteger;, valueOf, (J)Ljava/math/BigInteger; >
+	3	forwbranch < 6, 0 > 100.0% taken
+	29	forwbranch < 2, 4 > 33.333332% taken
+	37	forwbranch < 2, 2 > 50.0% taken
+	57	forwbranch < 2, 2 > 50.0% taken
+M 2 < BootstrapCL, Ljava/math/BigInteger;, <init>, ()V >
+	23	forwbranch < 2, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/math/BigInteger;, alloc, (I)Ljava/math/BigInteger; >
+	10	forwbranch < 0, 2 > 0.0% taken
+M 6 < BootstrapCL, Ljava/math/BigInteger;, shiftLeft, (I)Ljava/math/BigInteger; >
+	1	forwbranch < 0, 2 > 0.0% taken
+	9	forwbranch < 0, 0 > Never Executed
+	21	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljava/math/BigInteger;, <clinit>, ()V >
+	11	forwbranch < 1, 0 > 100.0% taken
+	61	forwbranch < 1, 1125 > 0.088809945% taken
+M 2 < SystemAppCL, Lorg/hsqldb/lib/ArrayUtil;, <clinit>, ()V >
+	112	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Index$IndexRowIterator;, <init>, (Lorg/hsqldb/Session;Lorg/hsqldb/Index;Lorg/hsqldb/Node;)V >
+	5	forwbranch < 2398, 471 > 83.58313% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Index$IndexRowIterator;, hasNext, ()Z >
+	4	forwbranch < 32020, 64000 > 33.347218% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Index$IndexRowIterator;, next, ()Lorg/hsqldb/Row; >
+	4	forwbranch < 32020, 64000 > 33.347218% taken
+M 2 < SystemAppCL, Lorg/hsqldb/store/BaseHashMap$BaseHashIterator;, hasNext, ()Z >
+	14	forwbranch < 1165, 20750 > 5.315994% taken
+M 12 < SystemAppCL, Lorg/hsqldb/store/BaseHashMap$BaseHashIterator;, next, ()Ljava/lang/Object; >
+	4	forwbranch < 15, 10360 > 0.14457831% taken
+	14	forwbranch < 0, 10360 > 0.0% taken
+	21	forwbranch < 10360, 15 > 99.85542% taken
+	31	forwbranch < 15, 0 > 100.0% taken
+	53	forwbranch < 0, 10375 > 0.0% taken
+	85	forwbranch < 15, 10360 > 0.14457831% taken
+M 40 < SystemAppCL, Lorg/hsqldb/DIProcedureInfo;, setNameSpace, (Lorg/hsqldb/DINameSpace;)V >
+	60	forwbranch < 9, 1 > 90.0% taken
+	108	forwbranch < 9, 1 > 90.0% taken
+	187	forwbranch < 9, 1 > 90.0% taken
+	217	forwbranch < 9, 1 > 90.0% taken
+	247	forwbranch < 9, 1 > 90.0% taken
+	315	forwbranch < 9, 1 > 90.0% taken
+	351	forwbranch < 9, 1 > 90.0% taken
+	381	forwbranch < 9, 1 > 90.0% taken
+	489	forwbranch < 9, 1 > 90.0% taken
+	537	forwbranch < 9, 1 > 90.0% taken
+	584	forwbranch < 9, 1 > 90.0% taken
+	621	forwbranch < 9, 1 > 90.0% taken
+	657	forwbranch < 9, 1 > 90.0% taken
+	687	forwbranch < 9, 1 > 90.0% taken
+	722	forwbranch < 9, 1 > 90.0% taken
+	769	forwbranch < 9, 1 > 90.0% taken
+	848	forwbranch < 9, 1 > 90.0% taken
+	916	forwbranch < 9, 1 > 90.0% taken
+	952	forwbranch < 9, 1 > 90.0% taken
+	1000	forwbranch < 9, 1 > 90.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/resources/BundleHandler;, getString, (ILjava/lang/String;)Ljava/lang/String; >
+	8	forwbranch < 0, 26 > 0.0% taken
+	18	forwbranch < 0, 26 > 0.0% taken
+	22	forwbranch < 26, 0 > 100.0% taken
+	56	forwbranch < 26, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/resources/BundleHandler;, getBundleHandle, (Ljava/lang/String;Ljava/lang/ClassLoader;)I >
+	67	forwbranch < 0, 1 > 0.0% taken
+	134	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Token;, <clinit>, ()V >
+	425	forwbranch < 1, 67 > 1.4705882% taken
+M 12 < SystemAppCL, Lorg/hsqldb/Trace;, check, (ZILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V >
+	1	forwbranch < 128690, 0 > 100.0% taken
+	9	forwbranch < 0, 0 > Never Executed
+	34	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 0, 0 > Never Executed
+	87	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/hsqldb/Trace;, <clinit>, ()V >
+	31	forwbranch < 0, 1 > 0.0% taken
+	39	forwbranch < 1, 0 > 100.0% taken
+	53	forwbranch < 0, 1 > 0.0% taken
+	61	forwbranch < 1, 0 > 100.0% taken
+	93	forwbranch < 1, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/resources/BundleHandler;, getBundle, (Ljava/lang/String;Ljava/util/Locale;Ljava/lang/ClassLoader;)Ljava/util/ResourceBundle; >
+	1	forwbranch < 0, 1 > 0.0% taken
+	13	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/hsqldb/resources/BundleHandler;, getNewGetBundleMethod, ()Ljava/lang/reflect/Method; >
+	3	forwbranch < 0, 1 > 0.0% taken
+	31	forwbranch < 0, 1 > 0.0% taken
+	55	forwbranch < 0, 1 > 0.0% taken
+	79	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcStatement;, checkClosed, ()V >
+	4	forwbranch < 1622113, 0 > 100.0% taken
+	20	forwbranch < 1622113, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcStatement;, fetchResult, (Ljava/lang/String;)V >
+	4	forwbranch < 0, 21817 > 0.0% taken
+	68	forwbranch < 21802, 15 > 99.931244% taken
+M 6 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcResultSet;, <init>, (Lorg/hsqldb/jdbc/jdbcStatement;Lorg/hsqldb/Result;Lorg/hsqldb/persist/HsqlProperties;Z)V >
+	32	forwbranch < 14743, 0 > 100.0% taken
+	51	forwbranch < 14743, 0 > 100.0% taken
+	62	forwbranch < 0, 14743 > 0.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcStatement;, executeUpdate, (Ljava/lang/String;)I >
+	20	forwbranch < 0, 32000 > 0.0% taken
+	31	forwbranch < 32000, 0 > 100.0% taken
+	56	forwbranch < 32000, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcStatement;, close, ()V >
+	4	forwbranch < 9040, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcStatement;, execute, (Ljava/lang/String;)Z >
+	24	forwbranch < 45, 0 > 100.0% taken
+M 24 < SystemAppCL, Lorg/hsqldb/Types;, getParameterTypeNr, (Ljava/lang/Class;)I >
+	1	forwbranch < 5, 0 > 100.0% taken
+	17	forwbranch < 5, 0 > 100.0% taken
+	29	forwbranch < 5, 0 > 100.0% taken
+	63	forwbranch < 5, 0 > 100.0% taken
+	70	forwbranch < 0, 0 > Never Executed
+	77	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 0, 0 > Never Executed
+	98	forwbranch < 0, 0 > Never Executed
+	120	forwbranch < 0, 0 > Never Executed
+	133	forwbranch < 0, 0 > Never Executed
+	155	forwbranch < 0, 0 > Never Executed
+	165	forwbranch < 0, 5 > 0.0% taken
+M 14 < SystemAppCL, Lorg/hsqldb/Function;, getArguments, (Lorg/hsqldb/Session;)[Ljava/lang/Object; >
+	4	forwbranch < 5, 0 > 100.0% taken
+	26	forwbranch < 5, 0 > 100.0% taken
+	42	forwbranch < 0, 0 > Never Executed
+	61	forwbranch < 0, 0 > Never Executed
+	70	forwbranch < 0, 0 > Never Executed
+	80	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/Function;, getValue, (Lorg/hsqldb/Session;[Ljava/lang/Object;)Ljava/lang/Object; >
+	4	forwbranch < 5, 0 > 100.0% taken
+	18	forwbranch < 0, 5 > 0.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/Types;, <clinit>, ()V >
+	1334	forwbranch < 0, 1 > 0.0% taken
+	1362	forwbranch < 0, 1 > 0.0% taken
+	1390	forwbranch < 0, 1 > 0.0% taken
+M 12 < SystemAppCL, Lorg/hsqldb/TableFilter;, setConditions, (Lorg/hsqldb/Session;Lorg/hsqldb/Expression;)V >
+	10	forwbranch < 5726, 0 > 100.0% taken
+	32	forwbranch < 5726, 0 > 100.0% taken
+	39	forwbranch < 0, 0 > Never Executed
+	46	forwbranch < 0, 0 > Never Executed
+	58	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/hsqldb/CompiledStatement;, setParameters, ([Lorg/hsqldb/Expression;)V >
+	21	forwbranch < 10298, 32 > 99.69022% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Select;, describeResult, ()Lorg/hsqldb/Result; >
+	27	forwbranch < 200, 200 > 50.0% taken
+	121	forwbranch < 0, 200 > 0.0% taken
+M 12 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcResultSet;, getColumnInType, (II)Ljava/lang/Object; >
+	55	forwbranch < 16005, 0 > 100.0% taken
+	62	forwbranch < 16000, 5 > 99.96876% taken
+	70	forwbranch < 5, 0 > 100.0% taken
+	75	forwbranch < 0, 0 > Never Executed
+	164	switch     < 0, 0, 0, 16005 >
+M 2 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcResultSet;, getInt, (I)I >
+	8	forwbranch < 16000, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcResultSet;, checkAvailable, ()V >
+	4	forwbranch < 0, 16005 > 0.0% taken
+	11	forwbranch < 0, 16005 > 0.0% taken
+	18	forwbranch < 16005, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcResultSet;, checkNull, (Ljava/lang/Object;)Z >
+	1	forwbranch < 16005, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcResultSet;, next, ()Z >
+	9	forwbranch < 0, 32005 > 0.0% taken
+	19	forwbranch < 32005, 0 > 100.0% taken
+	28	forwbranch < 16000, 16005 > 49.992188% taken
+	59	forwbranch < 16000, 0 > 100.0% taken
+	89	forwbranch < 16005, 16000 > 50.007812% taken
+M 2 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcResultSet;, close, ()V >
+	14	forwbranch < 0, 5 > 0.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/Result$ResultMetaData;, isTableColumn, (I)Z >
+	6	forwbranch < 0, 8210 > 0.0% taken
+	18	forwbranch < 0, 8210 > 0.0% taken
+	27	forwbranch < 0, 8210 > 0.0% taken
+	39	forwbranch < 0, 8210 > 0.0% taken
+M 12 < SystemAppCL, Lorg/hsqldb/Select;, resolveTables, ()V >
+	11	forwbranch < 8010, 0 > 100.0% taken
+	24	forwbranch < 0, 0 > Never Executed
+	37	forwbranch < 0, 0 > Never Executed
+	74	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 8010 > 0.0% taken
+	144	forwbranch < 8010, 8010 > 50.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Select;, setFilterConditions, (Lorg/hsqldb/Session;)V >
+	4	forwbranch < 8010, 0 > 100.0% taken
+	16	forwbranch < 8010, 8010 > 50.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Select;, resolveTables, (Lorg/hsqldb/TableFilter;)V >
+	10	forwbranch < 8010, 8010 > 50.0% taken
+	33	forwbranch < 0, 8010 > 0.0% taken
+M 10 < SystemAppCL, Lorg/hsqldb/Select;, checkAggregateOrGroupByColumns, (II)V >
+	2	forwbranch < 2844, 1422 > 66.666664% taken
+	19	forwbranch < 1422, 1422 > 50.0% taken
+	52	forwbranch < 1422, 1422 > 50.0% taken
+	72	forwbranch < 0, 1422 > 0.0% taken
+	82	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/hsqldb/Select;, prepareSort, ()V >
+	4	forwbranch < 0, 8010 > 0.0% taken
+	52	forwbranch < 0, 0 > Never Executed
+	68	forwbranch < 0, 0 > Never Executed
+	104	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/hsqldb/Select;, getSingleResult, (Lorg/hsqldb/Session;I)Lorg/hsqldb/Result; >
+	4	forwbranch < 16000, 0 > 100.0% taken
+	28	forwbranch < 16000, 0 > 100.0% taken
+	44	forwbranch < 0, 16000 > 0.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Select;, sortResult, (Lorg/hsqldb/Session;Lorg/hsqldb/Result;)V >
+	4	forwbranch < 0, 518 > 0.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Select;, getLimitStart, (Lorg/hsqldb/Session;)I >
+	4	forwbranch < 32000, 0 > 100.0% taken
+	23	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/hsqldb/Select;, getLimitCount, (Lorg/hsqldb/Session;I)I >
+	6	forwbranch < 24402, 0 > 100.0% taken
+	27	forwbranch < 0, 0 > Never Executed
+	37	forwbranch < 24402, 0 > 100.0% taken
+	41	forwbranch < 0, 0 > Never Executed
+	46	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/hsqldb/Select;, getMaxRowCount, (Lorg/hsqldb/Session;I)I >
+	18	forwbranch < 16000, 0 > 100.0% taken
+	28	forwbranch < 0, 16000 > 0.0% taken
+	35	forwbranch < 16000, 0 > 100.0% taken
+	43	forwbranch < 0, 0 > Never Executed
+M 84 < SystemAppCL, Lorg/hsqldb/Select;, buildResult, (Lorg/hsqldb/Session;I)Lorg/hsqldb/Result; >
+	46	forwbranch < 0, 12149 > 0.0% taken
+	56	forwbranch < 0, 12149 > 0.0% taken
+	67	forwbranch < 0, 12149 > 0.0% taken
+	79	forwbranch < 0, 36447 > 0.0% taken
+	84	forwbranch < 12149, 24298 > 33.333332% taken
+	101	forwbranch < 12149, 12149 > 50.0% taken
+	121	forwbranch < 12149, 0 > 100.0% taken
+	126	forwbranch < 0, 0 > Never Executed
+	134	forwbranch < 0, 0 > Never Executed
+	142	forwbranch < 0, 0 > Never Executed
+	151	forwbranch < 0, 0 > Never Executed
+	190	forwbranch < 12149, 0 > 100.0% taken
+	195	forwbranch < 0, 0 > Never Executed
+	203	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	219	forwbranch < 0, 0 > Never Executed
+	228	forwbranch < 0, 0 > Never Executed
+	249	forwbranch < 12149, 12149 > 50.0% taken
+	254	forwbranch < 0, 12149 > 0.0% taken
+	269	forwbranch < 12149, 0 > 100.0% taken
+	283	forwbranch < 12149, 0 > 100.0% taken
+	304	forwbranch < 0, 12149 > 0.0% taken
+	315	backbranch < 0, 12149 > 0.0% taken
+	337	forwbranch < 12149, 0 > 100.0% taken
+	379	forwbranch < 12149, 12149 > 50.0% taken
+	390	forwbranch < 12149, 0 > 100.0% taken
+	403	forwbranch < 0, 0 > Never Executed
+	453	forwbranch < 12149, 0 > 100.0% taken
+	464	forwbranch < 0, 0 > Never Executed
+	477	forwbranch < 0, 0 > Never Executed
+	528	forwbranch < 12149, 0 > 100.0% taken
+	546	forwbranch < 12149, 0 > 100.0% taken
+	553	forwbranch < 0, 0 > Never Executed
+	560	forwbranch < 0, 0 > Never Executed
+	577	forwbranch < 0, 0 > Never Executed
+	594	forwbranch < 0, 0 > Never Executed
+	638	forwbranch < 12149, 12149 > 50.0% taken
+	657	forwbranch < 12149, 0 > 100.0% taken
+	667	forwbranch < 0, 0 > Never Executed
+	680	forwbranch < 0, 0 > Never Executed
+	714	backbranch < 12149, 0 > 100.0% taken
+	735	backbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/hsqldb/Select;, inAggregateOrGroupByClause, (Lorg/hsqldb/Expression;)Z >
+	4	forwbranch < 8010, 0 > 100.0% taken
+	25	forwbranch < 0, 0 > Never Executed
+	36	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 8010, 0 > 100.0% taken
+	61	forwbranch < 8010, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/GroupedResult;, <init>, (Lorg/hsqldb/Select;Lorg/hsqldb/Result$ResultMetaData;)V >
+	46	forwbranch < 16000, 0 > 100.0% taken
+	69	forwbranch < 16000, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/hsqldb/GroupedResult;, getRow, ([Ljava/lang/Object;)[Ljava/lang/Object; >
+	4	forwbranch < 16000, 0 > 100.0% taken
+	31	forwbranch < 0, 0 > Never Executed
+	51	forwbranch < 16000, 0 > 100.0% taken
+	58	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/hsqldb/GroupedResult;, addRow, ([Ljava/lang/Object;)V >
+	4	forwbranch < 16000, 0 > 100.0% taken
+	37	forwbranch < 0, 0 > Never Executed
+	90	forwbranch < 16000, 0 > 100.0% taken
+	97	forwbranch < 0, 0 > Never Executed
+M 56 < SystemAppCL, Lorg/hsqldb/TableFilter;, setCondition, (Lorg/hsqldb/Session;Lorg/hsqldb/Expression;)V >
+	25	forwbranch < 5590, 0 > 100.0% taken
+	46	forwbranch < 5590, 0 > 100.0% taken
+	53	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 0, 0 > Never Executed
+	68	forwbranch < 0, 0 > Never Executed
+	90	forwbranch < 5590, 0 > 100.0% taken
+	100	forwbranch < 0, 5590 > 0.0% taken
+	109	forwbranch < 5590, 0 > 100.0% taken
+	124	forwbranch < 0, 5590 > 0.0% taken
+	131	forwbranch < 0, 5590 > 0.0% taken
+	138	forwbranch < 5590, 0 > 100.0% taken
+	148	forwbranch < 0, 0 > Never Executed
+	153	forwbranch < 0, 0 > Never Executed
+	173	forwbranch < 0, 0 > Never Executed
+	188	forwbranch < 5590, 0 > 100.0% taken
+	197	forwbranch < 5590, 0 > 100.0% taken
+	206	forwbranch < 0, 0 > Never Executed
+	212	forwbranch < 5590, 0 > 100.0% taken
+	224	forwbranch < 5590, 0 > 100.0% taken
+	254	forwbranch < 0, 5590 > 0.0% taken
+	263	forwbranch < 0, 5590 > 0.0% taken
+	270	forwbranch < 5590, 0 > 100.0% taken
+	287	switch     < 5590, 0, 0, 0 >
+	316	forwbranch < 0, 5590 > 0.0% taken
+	323	forwbranch < 5590, 0 > 100.0% taken
+	359	forwbranch < 0, 0 > Never Executed
+	387	forwbranch < 0, 0 > Never Executed
+M 17 < SystemAppCL, Lorg/hsqldb/TableFilter;, getConditionType, (Lorg/hsqldb/Expression;)I >
+	6	switch     < 30501, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	82	forwbranch < 0, 0 > Never Executed
+M 9 < SystemAppCL, Lorg/hsqldb/TableFilter;, getFirstIterator, (Lorg/hsqldb/Session;ILjava/lang/Object;ILorg/hsqldb/Index;I)Lorg/hsqldb/index/RowIterator; >
+	6	forwbranch < 64000, 0 > 100.0% taken
+	19	forwbranch < 0, 64000 > 0.0% taken
+	43	switch     < 0, 0, 0 >
+	70	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcPreparedStatement;, checkIsRowCount, (Z)V >
+	5	forwbranch < 125535, 0 > 100.0% taken
+	9	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcPreparedStatement;, setIntParameter, (II)V >
+	16	switch     < 0, 361774, 0, 0 >
+M 8 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcPreparedStatement;, checkSetParameterIndex, (IZ)V >
+	6	forwbranch < 0, 90066 > 0.0% taken
+	15	forwbranch < 90066, 0 > 100.0% taken
+	48	forwbranch < 90066, 0 > 100.0% taken
+	55	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcPreparedStatement;, executeQuery, ()Ljava/sql/ResultSet; >
+	84	forwbranch < 4573, 0 > 100.0% taken
+	105	forwbranch < 4573, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcPreparedStatement;, executeUpdate, ()I >
+	73	forwbranch < 245722, 0 > 100.0% taken
+	94	forwbranch < 245722, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/hsqldb/jdbc/jdbcPreparedStatement;, close, ()V >
+	4	forwbranch < 1015, 0 > 100.0% taken
+	17	forwbranch < 0, 1015 > 0.0% taken
+	96	forwbranch < 1015, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/Result$ResultIterator;, hasNext, ()Z >
+	11	forwbranch < 16000, 35045 > 31.344893% taken
+M 4 < SystemAppCL, Lorg/hsqldb/Result$ResultIterator;, next, ()Ljava/lang/Object; >
+	4	forwbranch < 0, 19045 > 0.0% taken
+	16	forwbranch < 17015, 2030 > 89.341034% taken
+M 2 < SystemAppCL, Lorg/hsqldb/BaseMemoryNode;, isRoot, ()Z >
+	4	forwbranch < 377820, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/hsqldb/BaseMemoryNode;, equals, (Lorg/hsqldb/Node;)Z >
+	2	forwbranch < 2126883, 287546 > 88.09052% taken
+M 2 < SystemAppCL, Lorg/hsqldb/BaseMemoryNode;, isFromLeft, ()Z >
+	4	forwbranch < 129984, 0 > 100.0% taken
+M 6 < SystemAppCL, Ldacapo/hsqldb/PseudoJDBCBench$MemoryWatcherThread;, run, ()V >
+	4	forwbranch < 5, 17 > 22.727272% taken
+	33	forwbranch < 15, 2 > 88.23529% taken
+	49	forwbranch < 3, 14 > 17.647058% taken
+M 12 < SystemAppCL, Ldacapo/hsqldb/PseudoJDBCBench$ClientThread;, doOne, (IIII)I >
+	7	forwbranch < 3200, 0 > 100.0% taken
+	22	forwbranch < 1600, 1600 > 50.0% taken
+	105	forwbranch < 1600, 1600 > 50.0% taken
+	439	forwbranch < 1600, 1600 > 50.0% taken
+	771	forwbranch < 1600, 1600 > 50.0% taken
+	832	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Ldacapo/hsqldb/PseudoJDBCBench$ClientThread;, run, ()V >
+	19	forwbranch < 80, 3200 > 2.4390244% taken
+	69	forwbranch < 40, 40 > 50.0% taken
+	76	forwbranch < 0, 40 > 0.0% taken
+	92	forwbranch < 0, 40 > 0.0% taken
+	108	forwbranch < 0, 40 > 0.0% taken
+	124	forwbranch < 0, 40 > 0.0% taken
+	140	forwbranch < 0, 40 > 0.0% taken
+M 6 < SystemAppCL, Ldacapo/FileDigest;, getText, (Ljava/io/File;ZLjava/io/File;)[B >
+	29	forwbranch < 10, 205 > 4.6511626% taken
+	33	forwbranch < 0, 205 > 0.0% taken
+	88	forwbranch < 205, 5005 > 3.9347408% taken
+M 2 < SystemAppCL, Ldacapo/FileDigest;, replaceAllFixed, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	12	forwbranch < 615, 0 > 100.0% taken
+M 8 < BootstrapCL, Ljava/security/Security;, loadProviders, (Ljava/lang/String;Ljava/lang/String;)Z >
+	1	forwbranch < 0, 2 > 0.0% taken
+	5	forwbranch < 2, 0 > 100.0% taken
+	94	forwbranch < 0, 0 > Never Executed
+	151	forwbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Ljava/security/Security;, <clinit>, ()V >
+	44	forwbranch < 0, 1 > 0.0% taken
+	48	forwbranch < 0, 1 > 0.0% taken
+	57	forwbranch < 0, 1 > 0.0% taken
+M 26 < BootstrapCL, Lgnu/java/security/Engine;, getInstance, (Ljava/lang/String;Ljava/lang/String;Ljava/security/Provider;[Ljava/lang/Object;)Ljava/lang/Object; >
+	1	forwbranch < 10, 0 > 100.0% taken
+	23	forwbranch < 10, 0 > 100.0% taken
+	37	forwbranch < 10, 0 > 100.0% taken
+	59	forwbranch < 10, 0 > 100.0% taken
+	73	forwbranch < 10, 0 > 100.0% taken
+	87	forwbranch < 10, 0 > 100.0% taken
+	131	forwbranch < 0, 900 > 0.0% taken
+	174	forwbranch < 890, 10 > 98.888885% taken
+	228	backbranch < 880, 10 > 98.8764% taken
+	245	backbranch < 0, 10 > 0.0% taken
+	257	forwbranch < 10, 0 > 100.0% taken
+	319	forwbranch < 10, 0 > 100.0% taken
+	443	forwbranch < 10, 0 > 100.0% taken
+M 10 < BootstrapCL, Lgnu/java/security/Engine;, getCompatibleConstructor, (Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/reflect/Constructor; >
+	10	forwbranch < 0, 10 > 0.0% taken
+	26	forwbranch < 10, 0 > 100.0% taken
+	40	forwbranch < 10, 0 > 100.0% taken
+	47	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 0, 0 > Never Executed
+M 12 < BootstrapCL, Lgnu/java/security/hash/Sha160;, sha, (IIIII[BI)[I >
+	23	forwbranch < 86, 1376 > 5.882353% taken
+	102	forwbranch < 86, 5504 > 1.5384616% taken
+	174	forwbranch < 86, 1720 > 4.7619047% taken
+	258	forwbranch < 86, 1720 > 4.7619047% taken
+	337	forwbranch < 86, 1720 > 4.7619047% taken
+	425	forwbranch < 86, 1720 > 4.7619047% taken
+M 6 < BootstrapCL, Lgnu/java/security/hash/BaseHash;, update, ([BII)V >
+	39	forwbranch < 0, 11 > 0.0% taken
+	78	forwbranch < 11, 0 > 100.0% taken
+	108	forwbranch < 11, 0 > 100.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/BaseHash;, reset, ()V >
+	12	forwbranch < 11, 704 > 1.5384616% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/BaseHash;, update, (B)V >
+	36	forwbranch < 4933, 75 > 98.502396% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/Sha160;, padBuffer, ()[B >
+	13	forwbranch < 0, 11 > 0.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/Sha160;, selfTest, ()Z >
+	3	forwbranch < 9, 1 > 90.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/util/Util;, toString, ([BII)Ljava/lang/String; >
+	15	forwbranch < 1, 20 > 4.7619047% taken

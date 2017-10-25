@@ -1,0 +1,6129 @@
+M 80 < BootstrapCL, Lorg/jikesrvm/Options;, process, (Ljava/lang/String;)Z >
+	6	forwbranch < 0, 0 > Never Executed
+	20	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+	126	forwbranch < 0, 0 > Never Executed
+	143	forwbranch < 0, 0 > Never Executed
+	152	forwbranch < 0, 0 > Never Executed
+	167	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	193	forwbranch < 0, 0 > Never Executed
+	208	forwbranch < 0, 0 > Never Executed
+	225	forwbranch < 0, 0 > Never Executed
+	234	forwbranch < 0, 0 > Never Executed
+	249	forwbranch < 0, 0 > Never Executed
+	266	forwbranch < 0, 0 > Never Executed
+	275	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 0, 0 > Never Executed
+	307	forwbranch < 0, 0 > Never Executed
+	316	forwbranch < 0, 0 > Never Executed
+	331	forwbranch < 0, 0 > Never Executed
+	348	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 0 > Never Executed
+	372	forwbranch < 0, 0 > Never Executed
+	389	forwbranch < 0, 0 > Never Executed
+	398	forwbranch < 0, 0 > Never Executed
+	413	forwbranch < 0, 0 > Never Executed
+	430	forwbranch < 0, 0 > Never Executed
+	448	forwbranch < 0, 0 > Never Executed
+	466	forwbranch < 0, 0 > Never Executed
+	484	forwbranch < 0, 0 > Never Executed
+	502	forwbranch < 0, 0 > Never Executed
+	520	forwbranch < 0, 0 > Never Executed
+	535	forwbranch < 0, 0 > Never Executed
+	553	forwbranch < 0, 0 > Never Executed
+	571	forwbranch < 0, 0 > Never Executed
+	589	forwbranch < 0, 0 > Never Executed
+	607	forwbranch < 0, 0 > Never Executed
+	622	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshake, ()V >
+	9	forwbranch < 0, 10679 > 0.0% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, unlock, ()V >
+	11	forwbranch < 247409, 240654 > 50.69202% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshake, (Lorg/jikesrvm/scheduler/Monitor;Lorg/vmmagic/unboxed/Word;Lorg/jikesrvm/scheduler/Monitor;Lorg/vmmagic/unboxed/Word;)V >
+	5	forwbranch < 2266, 2859 > 44.214634% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockNoHandshake, ()V >
+	9	forwbranch < 248316, 229173 > 52.004547% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/RVMThread;, transferExecutionToNewStack, ([BLorg/jikesrvm/architecture/AbstractRegisters;)V >
+	61	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/lang/Package;, <init>, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/URL;Ljava/lang/ClassLoader;)V >
+	5	forwbranch < 399, 0 > 100.0% taken
+M 20 < BootstrapCL, Ljava/lang/reflect/Array;, getLength, (Ljava/lang/Object;)I >
+	4	forwbranch < 79, 111 > 41.57895% taken
+	20	forwbranch < 79, 0 > 100.0% taken
+	36	forwbranch < 51, 28 > 64.55696% taken
+	52	forwbranch < 23, 28 > 45.098038% taken
+	68	forwbranch < 23, 0 > 100.0% taken
+	84	forwbranch < 0, 23 > 0.0% taken
+	100	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 0 > Never Executed
+	132	forwbranch < 0, 0 > Never Executed
+	145	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljava/lang/VMClassLoader;, <clinit>, ()V >
+	45	forwbranch < 0, 1 > 0.0% taken
+	81	forwbranch < 1, 399 > 0.25% taken
+M 598 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 0, 0 > Never Executed
+	21	forwbranch < 0, 0 > Never Executed
+	34	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 0, 0 > Never Executed
+	70	forwbranch < 0, 0 > Never Executed
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 0, 0 > Never Executed
+	240	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 0, 0 > Never Executed
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 0, 0 > Never Executed
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 0, 0 > Never Executed
+	378	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 0, 0 > Never Executed
+	414	forwbranch < 0, 0 > Never Executed
+	424	forwbranch < 0, 0 > Never Executed
+	441	forwbranch < 0, 0 > Never Executed
+	460	forwbranch < 0, 0 > Never Executed
+	470	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 0, 0 > Never Executed
+	516	forwbranch < 0, 0 > Never Executed
+	533	forwbranch < 0, 0 > Never Executed
+	552	forwbranch < 0, 0 > Never Executed
+	562	forwbranch < 0, 0 > Never Executed
+	579	forwbranch < 0, 0 > Never Executed
+	598	forwbranch < 0, 0 > Never Executed
+	608	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	644	forwbranch < 0, 0 > Never Executed
+	654	forwbranch < 0, 0 > Never Executed
+	671	forwbranch < 0, 0 > Never Executed
+	690	forwbranch < 0, 0 > Never Executed
+	700	forwbranch < 0, 0 > Never Executed
+	717	forwbranch < 0, 0 > Never Executed
+	736	forwbranch < 0, 0 > Never Executed
+	746	forwbranch < 0, 0 > Never Executed
+	763	forwbranch < 0, 0 > Never Executed
+	782	forwbranch < 0, 0 > Never Executed
+	792	forwbranch < 0, 0 > Never Executed
+	809	forwbranch < 0, 0 > Never Executed
+	828	forwbranch < 0, 0 > Never Executed
+	838	forwbranch < 0, 0 > Never Executed
+	855	forwbranch < 0, 0 > Never Executed
+	874	forwbranch < 0, 0 > Never Executed
+	884	forwbranch < 0, 0 > Never Executed
+	901	forwbranch < 0, 0 > Never Executed
+	920	forwbranch < 0, 0 > Never Executed
+	930	forwbranch < 0, 0 > Never Executed
+	947	forwbranch < 0, 0 > Never Executed
+	966	forwbranch < 0, 0 > Never Executed
+	976	forwbranch < 0, 0 > Never Executed
+	993	forwbranch < 0, 0 > Never Executed
+	1012	forwbranch < 0, 0 > Never Executed
+	1022	forwbranch < 0, 0 > Never Executed
+	1039	forwbranch < 0, 0 > Never Executed
+	1058	forwbranch < 0, 0 > Never Executed
+	1068	forwbranch < 0, 0 > Never Executed
+	1085	forwbranch < 0, 0 > Never Executed
+	1104	forwbranch < 0, 0 > Never Executed
+	1114	forwbranch < 0, 0 > Never Executed
+	1131	forwbranch < 0, 0 > Never Executed
+	1150	forwbranch < 0, 0 > Never Executed
+	1160	forwbranch < 0, 0 > Never Executed
+	1177	forwbranch < 0, 0 > Never Executed
+	1196	forwbranch < 0, 0 > Never Executed
+	1206	forwbranch < 0, 0 > Never Executed
+	1223	forwbranch < 0, 0 > Never Executed
+	1242	forwbranch < 0, 0 > Never Executed
+	1252	forwbranch < 0, 0 > Never Executed
+	1269	forwbranch < 0, 0 > Never Executed
+	1288	forwbranch < 0, 0 > Never Executed
+	1298	forwbranch < 0, 0 > Never Executed
+	1315	forwbranch < 0, 0 > Never Executed
+	1334	forwbranch < 0, 0 > Never Executed
+	1344	forwbranch < 0, 0 > Never Executed
+	1361	forwbranch < 0, 0 > Never Executed
+	1380	forwbranch < 0, 0 > Never Executed
+	1390	forwbranch < 0, 0 > Never Executed
+	1407	forwbranch < 0, 0 > Never Executed
+	1426	forwbranch < 0, 0 > Never Executed
+	1436	forwbranch < 0, 0 > Never Executed
+	1453	forwbranch < 0, 0 > Never Executed
+	1472	forwbranch < 0, 0 > Never Executed
+	1482	forwbranch < 0, 0 > Never Executed
+	1499	forwbranch < 0, 0 > Never Executed
+	1518	forwbranch < 0, 0 > Never Executed
+	1528	forwbranch < 0, 0 > Never Executed
+	1545	forwbranch < 0, 0 > Never Executed
+	1564	forwbranch < 0, 0 > Never Executed
+	1574	forwbranch < 0, 0 > Never Executed
+	1591	forwbranch < 0, 0 > Never Executed
+	1610	forwbranch < 0, 0 > Never Executed
+	1620	forwbranch < 0, 0 > Never Executed
+	1637	forwbranch < 0, 0 > Never Executed
+	1656	forwbranch < 0, 0 > Never Executed
+	1666	forwbranch < 0, 0 > Never Executed
+	1683	forwbranch < 0, 0 > Never Executed
+	1702	forwbranch < 0, 0 > Never Executed
+	1712	forwbranch < 0, 0 > Never Executed
+	1729	forwbranch < 0, 0 > Never Executed
+	1748	forwbranch < 0, 0 > Never Executed
+	1758	forwbranch < 0, 0 > Never Executed
+	1775	forwbranch < 0, 0 > Never Executed
+	1794	forwbranch < 0, 0 > Never Executed
+	1804	forwbranch < 0, 0 > Never Executed
+	1821	forwbranch < 0, 0 > Never Executed
+	1840	forwbranch < 0, 0 > Never Executed
+	1850	forwbranch < 0, 0 > Never Executed
+	1867	forwbranch < 0, 0 > Never Executed
+	1886	forwbranch < 0, 0 > Never Executed
+	1896	forwbranch < 0, 0 > Never Executed
+	1913	forwbranch < 0, 0 > Never Executed
+	1932	forwbranch < 0, 0 > Never Executed
+	1942	forwbranch < 0, 0 > Never Executed
+	1959	forwbranch < 0, 0 > Never Executed
+	1978	forwbranch < 0, 0 > Never Executed
+	1988	forwbranch < 0, 0 > Never Executed
+	2005	forwbranch < 0, 0 > Never Executed
+	2024	forwbranch < 0, 0 > Never Executed
+	2034	forwbranch < 0, 0 > Never Executed
+	2051	forwbranch < 0, 0 > Never Executed
+	2070	forwbranch < 0, 0 > Never Executed
+	2080	forwbranch < 0, 0 > Never Executed
+	2097	forwbranch < 0, 0 > Never Executed
+	2116	forwbranch < 0, 0 > Never Executed
+	2126	forwbranch < 0, 0 > Never Executed
+	2143	forwbranch < 0, 0 > Never Executed
+	2162	forwbranch < 0, 0 > Never Executed
+	2172	forwbranch < 0, 0 > Never Executed
+	2189	forwbranch < 0, 0 > Never Executed
+	2208	forwbranch < 0, 0 > Never Executed
+	2218	forwbranch < 0, 0 > Never Executed
+	2235	forwbranch < 0, 0 > Never Executed
+	2254	forwbranch < 0, 0 > Never Executed
+	2264	forwbranch < 0, 0 > Never Executed
+	2281	forwbranch < 0, 0 > Never Executed
+	2300	forwbranch < 0, 0 > Never Executed
+	2310	forwbranch < 0, 0 > Never Executed
+	2327	forwbranch < 0, 0 > Never Executed
+	2346	forwbranch < 0, 0 > Never Executed
+	2356	forwbranch < 0, 0 > Never Executed
+	2373	forwbranch < 0, 0 > Never Executed
+	2392	forwbranch < 0, 0 > Never Executed
+	2402	forwbranch < 0, 0 > Never Executed
+	2419	forwbranch < 0, 0 > Never Executed
+	2438	forwbranch < 0, 0 > Never Executed
+	2448	forwbranch < 0, 0 > Never Executed
+	2465	forwbranch < 0, 0 > Never Executed
+	2484	forwbranch < 0, 0 > Never Executed
+	2494	forwbranch < 0, 0 > Never Executed
+	2511	forwbranch < 0, 0 > Never Executed
+	2530	forwbranch < 0, 0 > Never Executed
+	2540	forwbranch < 0, 0 > Never Executed
+	2557	forwbranch < 0, 0 > Never Executed
+	2576	forwbranch < 0, 0 > Never Executed
+	2586	forwbranch < 0, 0 > Never Executed
+	2603	forwbranch < 0, 0 > Never Executed
+	2622	forwbranch < 0, 0 > Never Executed
+	2632	forwbranch < 0, 0 > Never Executed
+	2649	forwbranch < 0, 0 > Never Executed
+	2668	forwbranch < 0, 0 > Never Executed
+	2678	forwbranch < 0, 0 > Never Executed
+	2695	forwbranch < 0, 0 > Never Executed
+	2714	forwbranch < 0, 0 > Never Executed
+	2724	forwbranch < 0, 0 > Never Executed
+	2741	forwbranch < 0, 0 > Never Executed
+	2760	forwbranch < 0, 0 > Never Executed
+	2770	forwbranch < 0, 0 > Never Executed
+	2787	forwbranch < 0, 0 > Never Executed
+	2806	forwbranch < 0, 0 > Never Executed
+	2816	forwbranch < 0, 0 > Never Executed
+	2833	forwbranch < 0, 0 > Never Executed
+	2852	forwbranch < 0, 0 > Never Executed
+	2862	forwbranch < 0, 0 > Never Executed
+	2879	forwbranch < 0, 0 > Never Executed
+	2898	forwbranch < 0, 0 > Never Executed
+	2908	forwbranch < 0, 0 > Never Executed
+	2925	forwbranch < 0, 0 > Never Executed
+	2944	forwbranch < 0, 0 > Never Executed
+	2954	forwbranch < 0, 0 > Never Executed
+	2971	forwbranch < 0, 0 > Never Executed
+	2990	forwbranch < 0, 0 > Never Executed
+	3000	forwbranch < 0, 0 > Never Executed
+	3017	forwbranch < 0, 0 > Never Executed
+	3036	forwbranch < 0, 0 > Never Executed
+	3046	forwbranch < 0, 0 > Never Executed
+	3063	forwbranch < 0, 0 > Never Executed
+	3082	forwbranch < 0, 0 > Never Executed
+	3092	forwbranch < 0, 0 > Never Executed
+	3109	forwbranch < 0, 0 > Never Executed
+	3128	forwbranch < 0, 0 > Never Executed
+	3138	forwbranch < 0, 0 > Never Executed
+	3155	forwbranch < 0, 0 > Never Executed
+	3174	forwbranch < 0, 0 > Never Executed
+	3184	forwbranch < 0, 0 > Never Executed
+	3201	forwbranch < 0, 0 > Never Executed
+	3220	forwbranch < 0, 0 > Never Executed
+	3230	forwbranch < 0, 0 > Never Executed
+	3247	forwbranch < 0, 0 > Never Executed
+	3266	forwbranch < 0, 0 > Never Executed
+	3276	forwbranch < 0, 0 > Never Executed
+	3293	forwbranch < 0, 0 > Never Executed
+	3312	forwbranch < 0, 0 > Never Executed
+	3322	forwbranch < 0, 0 > Never Executed
+	3339	forwbranch < 0, 0 > Never Executed
+	3358	forwbranch < 0, 0 > Never Executed
+	3368	forwbranch < 0, 0 > Never Executed
+	3385	forwbranch < 0, 0 > Never Executed
+	3404	forwbranch < 0, 0 > Never Executed
+	3414	forwbranch < 0, 0 > Never Executed
+	3431	forwbranch < 0, 0 > Never Executed
+	3450	forwbranch < 0, 0 > Never Executed
+	3460	forwbranch < 0, 0 > Never Executed
+	3477	forwbranch < 0, 0 > Never Executed
+	3496	forwbranch < 0, 0 > Never Executed
+	3506	forwbranch < 0, 0 > Never Executed
+	3523	forwbranch < 0, 0 > Never Executed
+	3543	forwbranch < 0, 0 > Never Executed
+	3553	forwbranch < 0, 0 > Never Executed
+	3570	forwbranch < 0, 0 > Never Executed
+	3590	forwbranch < 0, 0 > Never Executed
+	3600	forwbranch < 0, 0 > Never Executed
+	3617	forwbranch < 0, 0 > Never Executed
+	3637	forwbranch < 0, 0 > Never Executed
+	3647	forwbranch < 0, 0 > Never Executed
+	3664	forwbranch < 0, 0 > Never Executed
+	3684	forwbranch < 0, 0 > Never Executed
+	3694	forwbranch < 0, 0 > Never Executed
+	3711	forwbranch < 0, 0 > Never Executed
+	3731	forwbranch < 0, 0 > Never Executed
+	3741	forwbranch < 0, 0 > Never Executed
+	3758	forwbranch < 0, 0 > Never Executed
+	3778	forwbranch < 0, 0 > Never Executed
+	3788	forwbranch < 0, 0 > Never Executed
+	3805	forwbranch < 0, 0 > Never Executed
+	3825	forwbranch < 0, 0 > Never Executed
+	3835	forwbranch < 0, 0 > Never Executed
+	3852	forwbranch < 0, 0 > Never Executed
+	3872	forwbranch < 0, 0 > Never Executed
+	3879	forwbranch < 0, 0 > Never Executed
+	3913	forwbranch < 0, 0 > Never Executed
+	3935	forwbranch < 0, 0 > Never Executed
+	3954	forwbranch < 0, 0 > Never Executed
+	3973	forwbranch < 0, 0 > Never Executed
+	3984	forwbranch < 0, 0 > Never Executed
+	4002	forwbranch < 0, 0 > Never Executed
+	4020	forwbranch < 0, 0 > Never Executed
+	4038	forwbranch < 0, 0 > Never Executed
+	4058	forwbranch < 0, 0 > Never Executed
+	4080	forwbranch < 0, 0 > Never Executed
+	4103	forwbranch < 0, 0 > Never Executed
+	4125	forwbranch < 0, 0 > Never Executed
+	4147	forwbranch < 0, 0 > Never Executed
+	4169	forwbranch < 0, 0 > Never Executed
+	4180	forwbranch < 0, 0 > Never Executed
+	4198	forwbranch < 0, 0 > Never Executed
+	4216	forwbranch < 0, 0 > Never Executed
+	4236	forwbranch < 0, 0 > Never Executed
+	4259	forwbranch < 0, 0 > Never Executed
+	4282	forwbranch < 0, 0 > Never Executed
+	4304	forwbranch < 0, 0 > Never Executed
+	4326	forwbranch < 0, 0 > Never Executed
+	4348	forwbranch < 0, 0 > Never Executed
+	4370	forwbranch < 0, 0 > Never Executed
+	4393	forwbranch < 0, 0 > Never Executed
+	4415	forwbranch < 0, 0 > Never Executed
+	4437	forwbranch < 0, 0 > Never Executed
+	4459	forwbranch < 0, 0 > Never Executed
+	4481	forwbranch < 0, 0 > Never Executed
+	4504	forwbranch < 0, 0 > Never Executed
+	4527	forwbranch < 0, 0 > Never Executed
+	4550	forwbranch < 0, 0 > Never Executed
+	4573	forwbranch < 0, 0 > Never Executed
+	4596	forwbranch < 0, 0 > Never Executed
+	4619	forwbranch < 0, 0 > Never Executed
+	4642	forwbranch < 0, 0 > Never Executed
+	4665	forwbranch < 0, 0 > Never Executed
+	4688	forwbranch < 0, 0 > Never Executed
+	4710	forwbranch < 0, 0 > Never Executed
+	4733	forwbranch < 0, 0 > Never Executed
+	4744	forwbranch < 0, 0 > Never Executed
+	4762	forwbranch < 0, 0 > Never Executed
+	4780	forwbranch < 0, 0 > Never Executed
+	4800	forwbranch < 0, 0 > Never Executed
+	4807	forwbranch < 0, 0 > Never Executed
+M 16 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, printOptions, ()V >
+	332	forwbranch < 0, 0 > Never Executed
+	345	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 0 > Never Executed
+	370	forwbranch < 0, 0 > Never Executed
+	383	forwbranch < 0, 0 > Never Executed
+	397	forwbranch < 0, 0 > Never Executed
+	410	forwbranch < 0, 0 > Never Executed
+	424	forwbranch < 0, 0 > Never Executed
+M 180 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 4, 0 > 100.0% taken
+	21	forwbranch < 4, 0 > 100.0% taken
+	34	forwbranch < 4, 0 > 100.0% taken
+	50	forwbranch < 0, 4 > 0.0% taken
+	60	forwbranch < 0, 4 > 0.0% taken
+	70	forwbranch < 4, 0 > 100.0% taken
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 4, 0 > 100.0% taken
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 4, 0 > 100.0% taken
+	194	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 3, 1 > 75.0% taken
+	240	forwbranch < 0, 1 > 0.0% taken
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 3, 0 > 100.0% taken
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 3, 0 > 100.0% taken
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 3, 0 > 100.0% taken
+	378	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 0, 0 > Never Executed
+	414	forwbranch < 3, 0 > 100.0% taken
+	424	forwbranch < 0, 0 > Never Executed
+	441	forwbranch < 0, 0 > Never Executed
+	460	forwbranch < 3, 0 > 100.0% taken
+	470	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 3, 0 > 100.0% taken
+	516	forwbranch < 0, 0 > Never Executed
+	533	forwbranch < 0, 0 > Never Executed
+	552	forwbranch < 3, 0 > 100.0% taken
+	562	forwbranch < 0, 0 > Never Executed
+	579	forwbranch < 0, 0 > Never Executed
+	598	forwbranch < 3, 0 > 100.0% taken
+	608	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	644	forwbranch < 3, 0 > 100.0% taken
+	654	forwbranch < 0, 0 > Never Executed
+	671	forwbranch < 0, 0 > Never Executed
+	690	forwbranch < 3, 0 > 100.0% taken
+	700	forwbranch < 0, 0 > Never Executed
+	717	forwbranch < 0, 0 > Never Executed
+	736	forwbranch < 3, 0 > 100.0% taken
+	746	forwbranch < 0, 0 > Never Executed
+	763	forwbranch < 0, 0 > Never Executed
+	782	forwbranch < 3, 0 > 100.0% taken
+	792	forwbranch < 0, 0 > Never Executed
+	809	forwbranch < 0, 0 > Never Executed
+	828	forwbranch < 3, 0 > 100.0% taken
+	838	forwbranch < 0, 0 > Never Executed
+	855	forwbranch < 0, 0 > Never Executed
+	874	forwbranch < 3, 0 > 100.0% taken
+	895	forwbranch < 3, 0 > 100.0% taken
+	905	forwbranch < 0, 0 > Never Executed
+	922	forwbranch < 0, 0 > Never Executed
+	941	forwbranch < 3, 0 > 100.0% taken
+	951	forwbranch < 0, 0 > Never Executed
+	968	forwbranch < 0, 0 > Never Executed
+	987	forwbranch < 3, 0 > 100.0% taken
+	997	forwbranch < 0, 0 > Never Executed
+	1014	forwbranch < 0, 0 > Never Executed
+	1033	forwbranch < 3, 0 > 100.0% taken
+	1043	forwbranch < 0, 0 > Never Executed
+	1060	forwbranch < 0, 0 > Never Executed
+	1079	forwbranch < 3, 0 > 100.0% taken
+	1097	forwbranch < 2, 1 > 66.666664% taken
+	1115	forwbranch < 1, 1 > 50.0% taken
+	1133	forwbranch < 1, 0 > 100.0% taken
+	1151	forwbranch < 1, 0 > 100.0% taken
+	1169	forwbranch < 1, 0 > 100.0% taken
+	1187	forwbranch < 1, 0 > 100.0% taken
+	1208	forwbranch < 1, 0 > 100.0% taken
+	1229	forwbranch < 0, 1 > 0.0% taken
+	1250	forwbranch < 0, 0 > Never Executed
+	1271	forwbranch < 0, 0 > Never Executed
+	1293	forwbranch < 0, 0 > Never Executed
+	1314	forwbranch < 0, 0 > Never Executed
+	1336	forwbranch < 0, 0 > Never Executed
+	1358	forwbranch < 0, 0 > Never Executed
+	1376	forwbranch < 0, 0 > Never Executed
+	1397	forwbranch < 0, 0 > Never Executed
+	1418	forwbranch < 0, 0 > Never Executed
+	1439	forwbranch < 0, 0 > Never Executed
+	1460	forwbranch < 0, 0 > Never Executed
+M 16 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, toString, ()Ljava/lang/String; >
+	696	forwbranch < 0, 0 > Never Executed
+	711	forwbranch < 0, 0 > Never Executed
+	725	forwbranch < 0, 0 > Never Executed
+	740	forwbranch < 0, 0 > Never Executed
+	754	forwbranch < 0, 0 > Never Executed
+	769	forwbranch < 0, 0 > Never Executed
+	783	forwbranch < 0, 0 > Never Executed
+	798	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lgnu/java/net/loader/Resource;, getCodeSource, ()Ljava/security/CodeSource; >
+	6	forwbranch < 0, 428 > 0.0% taken
+M 18 < BootstrapCL, Ljava/lang/reflect/Array;, newInstance, (Ljava/lang/Class;I)Ljava/lang/Object; >
+	4	forwbranch < 0, 3 > 0.0% taken
+	17	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 0, 0 > Never Executed
+	39	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 0, 0 > Never Executed
+	61	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 0, 0 > Never Executed
+	94	forwbranch < 0, 0 > Never Executed
+M 54 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 2, 0 > 100.0% taken
+	21	forwbranch < 2, 0 > 100.0% taken
+	34	forwbranch < 2, 0 > 100.0% taken
+	50	forwbranch < 0, 2 > 0.0% taken
+	60	forwbranch < 0, 2 > 0.0% taken
+	70	forwbranch < 2, 0 > 100.0% taken
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 2, 0 > 100.0% taken
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 1, 1 > 50.0% taken
+	194	forwbranch < 0, 1 > 0.0% taken
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 1, 0 > 100.0% taken
+	240	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 1, 0 > 100.0% taken
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 1, 0 > 100.0% taken
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 0, 1 > 0.0% taken
+	386	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, printOptions, ()V >
+	53	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, toString, ()Ljava/lang/String; >
+	107	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, printOptions, ()V >
+	1109	forwbranch < 0, 0 > Never Executed
+	1123	forwbranch < 0, 0 > Never Executed
+	1137	forwbranch < 0, 0 > Never Executed
+	1151	forwbranch < 0, 0 > Never Executed
+	1164	forwbranch < 0, 0 > Never Executed
+	1178	forwbranch < 0, 0 > Never Executed
+	1192	forwbranch < 0, 0 > Never Executed
+	1205	forwbranch < 0, 0 > Never Executed
+	1219	forwbranch < 0, 0 > Never Executed
+	1233	forwbranch < 0, 0 > Never Executed
+	1246	forwbranch < 0, 0 > Never Executed
+	1274	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, toString, ()Ljava/lang/String; >
+	2322	forwbranch < 0, 0 > Never Executed
+	2338	forwbranch < 0, 0 > Never Executed
+	2354	forwbranch < 0, 0 > Never Executed
+	2370	forwbranch < 0, 0 > Never Executed
+	2385	forwbranch < 0, 0 > Never Executed
+	2401	forwbranch < 0, 0 > Never Executed
+	2417	forwbranch < 0, 0 > Never Executed
+	2432	forwbranch < 0, 0 > Never Executed
+	2448	forwbranch < 0, 0 > Never Executed
+	2464	forwbranch < 0, 0 > Never Executed
+	2479	forwbranch < 0, 0 > Never Executed
+	2518	forwbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Lorg/jikesrvm/runtime/ReflectionBase;, invoke, (Lorg/jikesrvm/classloader/RVMMethod;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; >
+	1	forwbranch < 18217, 0 > 100.0% taken
+	19	forwbranch < 18219, 0 > 100.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshakeNoRecImpl, ()V >
+	16	forwbranch < 53, 10852 > 0.4860156% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, relockWithHandshakeImpl, (I)V >
+	16	forwbranch < 87, 8177 > 1.0527589% taken
+M 16 < BootstrapCL, Lgnu/classpath/SystemProperties;, <clinit>, ()V >
+	46	forwbranch < 1, 0 > 100.0% taken
+	68	forwbranch < 1, 0 > 100.0% taken
+	89	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 1 > 0.0% taken
+	203	forwbranch < 1, 0 > 100.0% taken
+	225	forwbranch < 1, 0 > 100.0% taken
+	253	forwbranch < 0, 1 > 0.0% taken
+	269	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/lang/reflect/Modifier;, isPublic, (I)Z >
+	3	forwbranch < 0, 12 > 0.0% taken
+M 2 < BootstrapCL, Ljava/lang/Character;, <clinit>, ()V >
+	22	forwbranch < 1, 128 > 0.7751938% taken
+M 8 < BootstrapCL, Ljava/lang/ClassLoader$StaticData;, <clinit>, ()V >
+	13	forwbranch < 1, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 0, 0 > Never Executed
+	37	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/net/URL;, <clinit>, ()V >
+	17	forwbranch < 0, 1 > 0.0% taken
+M 10 < BootstrapCL, Ljava/util/zip/InflaterHuffmanTree;, <clinit>, ()V >
+	12	forwbranch < 1, 144 > 0.6896552% taken
+	30	forwbranch < 1, 112 > 0.88495576% taken
+	48	forwbranch < 1, 24 > 4.0% taken
+	66	forwbranch < 1, 8 > 11.111111% taken
+	101	forwbranch < 1, 32 > 3.030303% taken
+M 10 < BootstrapCL, Ljava/util/zip/DeflaterHuffman;, <clinit>, ()V >
+	131	forwbranch < 1, 144 > 0.6896552% taken
+	166	forwbranch < 1, 112 > 0.88495576% taken
+	202	forwbranch < 1, 24 > 4.0% taken
+	238	forwbranch < 1, 6 > 14.285714% taken
+	288	forwbranch < 1, 30 > 3.2258065% taken
+M 2 < BootstrapCL, Ljava/util/Locale;, <clinit>, ()V >
+	233	forwbranch < 1, 0 > 100.0% taken
+M 42 < BootstrapCL, Lgnu/java/security/hash/HashFactory;, getInstance, (Ljava/lang/String;)Lgnu/java/security/hash/IMessageDigest; >
+	1	forwbranch < 10, 0 > 100.0% taken
+	19	forwbranch < 10, 0 > 100.0% taken
+	39	forwbranch < 0, 10 > 0.0% taken
+	48	forwbranch < 10, 0 > 100.0% taken
+	68	forwbranch < 0, 10 > 0.0% taken
+	77	forwbranch < 10, 0 > 100.0% taken
+	97	forwbranch < 10, 0 > 100.0% taken
+	106	forwbranch < 0, 0 > Never Executed
+	115	forwbranch < 0, 0 > Never Executed
+	124	forwbranch < 0, 0 > Never Executed
+	144	forwbranch < 0, 0 > Never Executed
+	164	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	204	forwbranch < 0, 0 > Never Executed
+	224	forwbranch < 0, 0 > Never Executed
+	244	forwbranch < 0, 0 > Never Executed
+	264	forwbranch < 0, 0 > Never Executed
+	284	forwbranch < 0, 0 > Never Executed
+	304	forwbranch < 0, 0 > Never Executed
+	316	forwbranch < 0, 10 > 0.0% taken
+	325	forwbranch < 10, 0 > 100.0% taken
+M 8 < BootstrapCL, Ljava/util/logging/StreamHandler;, <init>, (Ljava/io/OutputStream;Ljava/lang/String;Ljava/util/logging/Level;Ljava/util/logging/Formatter;Ljava/lang/Class;)V >
+	70	forwbranch < 1, 0 > 100.0% taken
+	144	forwbranch < 1, 0 > 100.0% taken
+	152	forwbranch < 0, 0 > Never Executed
+	180	forwbranch < 0, 1 > 0.0% taken
+M 6 < BootstrapCL, Ljava/util/logging/StreamHandler;, changeWriter, (Ljava/io/OutputStream;Ljava/lang/String;)V >
+	1	forwbranch < 0, 1 > 0.0% taken
+	30	forwbranch < 0, 1 > 0.0% taken
+	37	forwbranch < 1, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/EventObject;, <init>, (Ljava/lang/Object;)V >
+	5	forwbranch < 1, 0 > 100.0% taken
+M 18 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, initialize, ()V >
+	43	forwbranch < 0, 1 > 0.0% taken
+	76	forwbranch < 1, 1 > 50.0% taken
+	124	forwbranch < 1, 0 > 100.0% taken
+	185	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	207	forwbranch < 0, 0 > Never Executed
+	239	forwbranch < 0, 0 > Never Executed
+	273	forwbranch < 0, 0 > Never Executed
+	323	forwbranch < 0, 0 > Never Executed
+M 14 < BootstrapCL, Lgnu/java/net/IndexListParser;, <init>, (Ljava/util/jar/JarFile;Ljava/net/URL;Ljava/net/URL;)V >
+	21	forwbranch < 0, 1 > 0.0% taken
+	67	forwbranch < 1, 0 > 100.0% taken
+	105	forwbranch < 1, 0 > 100.0% taken
+	121	forwbranch < 1, 1 > 50.0% taken
+	153	forwbranch < 0, 519 > 0.0% taken
+	163	forwbranch < 518, 1 > 99.80732% taken
+	197	forwbranch < 1, 0 > 100.0% taken
+M 14 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, getResource, (Ljava/lang/String;)Lgnu/java/net/loader/Resource; >
+	6	forwbranch < 17469, 8492 > 67.2894% taken
+	19	forwbranch < 17459, 8510 > 67.230156% taken
+	33	forwbranch < 2, 8508 > 0.023501763% taken
+	53	forwbranch < 4, 8505 > 0.04700905% taken
+	62	forwbranch < 17462, 1 > 99.99427% taken
+	73	forwbranch < 17460, 4 > 99.9771% taken
+	88	forwbranch < 8510, 8953 > 48.731606% taken
+M 2 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, getManifest, ()Ljava/util/jar/Manifest; >
+	4	forwbranch < 38, 0 > 100.0% taken
+M 74 < SystemAppCL, Ldacapo/TestHarness;, main, ([Ljava/lang/String;)V >
+	2	forwbranch < 1, 0 > 100.0% taken
+	14	forwbranch < 0, 3 > 0.0% taken
+	26	forwbranch < 1, 2 > 33.333332% taken
+	37	forwbranch < 2, 0 > 100.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 2, 0 > 100.0% taken
+	99	forwbranch < 2, 0 > 100.0% taken
+	116	forwbranch < 2, 0 > 100.0% taken
+	134	forwbranch < 1, 1 > 50.0% taken
+	142	forwbranch < 1, 0 > 100.0% taken
+	222	forwbranch < 1, 0 > 100.0% taken
+	281	forwbranch < 0, 1 > 0.0% taken
+	289	forwbranch < 1, 0 > 100.0% taken
+	328	forwbranch < 0, 0 > Never Executed
+	346	forwbranch < 0, 0 > Never Executed
+	354	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+	401	forwbranch < 0, 0 > Never Executed
+	444	forwbranch < 0, 0 > Never Executed
+	452	forwbranch < 0, 0 > Never Executed
+	491	forwbranch < 0, 0 > Never Executed
+	509	forwbranch < 0, 0 > Never Executed
+	527	forwbranch < 0, 0 > Never Executed
+	545	forwbranch < 0, 0 > Never Executed
+	563	forwbranch < 0, 0 > Never Executed
+	581	forwbranch < 0, 0 > Never Executed
+	604	forwbranch < 0, 0 > Never Executed
+	612	forwbranch < 0, 0 > Never Executed
+	728	forwbranch < 1, 0 > 100.0% taken
+	747	forwbranch < 1, 0 > 100.0% taken
+	783	forwbranch < 1, 1 > 50.0% taken
+	819	forwbranch < 0, 1 > 0.0% taken
+	849	forwbranch < 1, 0 > 100.0% taken
+	898	forwbranch < 1, 0 > 100.0% taken
+	912	forwbranch < 1, 0 > 100.0% taken
+	923	forwbranch < 0, 1 > 0.0% taken
+	949	forwbranch < 0, 1 > 0.0% taken
+M 8 < SystemAppCL, Ldacapo/TestHarness;, rmdir, (Ljava/io/File;)V >
+	6	forwbranch < 0, 1 > 0.0% taken
+	14	forwbranch < 1, 8 > 11.111111% taken
+	33	forwbranch < 8, 0 > 100.0% taken
+	44	forwbranch < 8, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/TestHarness;, <init>, (Ljava/io/InputStream;)V >
+	16	forwbranch < 1, 0 > 100.0% taken
+M 40 < SystemAppCL, Ldacapo/TestHarness;, runBenchmark, (Ljava/io/File;Ljava/lang/String;Ldacapo/TestHarness;)V >
+	13	forwbranch < 0, 1 > 0.0% taken
+	37	forwbranch < 0, 1 > 0.0% taken
+	90	forwbranch < 1, 0 > 100.0% taken
+	108	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	148	forwbranch < 0, 0 > Never Executed
+	153	forwbranch < 0, 0 > Never Executed
+	186	forwbranch < 0, 0 > Never Executed
+	192	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	272	forwbranch < 0, 0 > Never Executed
+	277	forwbranch < 0, 0 > Never Executed
+	311	forwbranch < 1, 4 > 20.0% taken
+	326	forwbranch < 0, 4 > 0.0% taken
+	331	forwbranch < 0, 4 > 0.0% taken
+	359	forwbranch < 0, 1 > 0.0% taken
+	364	forwbranch < 0, 1 > 0.0% taken
+	381	forwbranch < 1, 0 > 100.0% taken
+	423	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Ldacapo/Benchmark;, run, (Ldacapo/Callback;Ljava/lang/String;Z)Z >
+	16	forwbranch < 4, 1 > 80.0% taken
+	58	forwbranch < 4, 1 > 80.0% taken
+	80	forwbranch < 4, 1 > 80.0% taken
+M 2 < SystemAppCL, Ldacapo/Benchmark;, cleanup, ()V >
+	3	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormat;, setMaximumFractionDigits, (I)V >
+	1	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormat;, setMinimumFractionDigits, (I)V >
+	1	forwbranch < 0, 1 > 0.0% taken
+M 24 < BootstrapCL, Ljava/text/DecimalFormat;, applyPatternWithSymbols, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;)V >
+	10	forwbranch < 1, 0 > 100.0% taken
+	71	forwbranch < 0, 1 > 0.0% taken
+	87	forwbranch < 0, 1 > 0.0% taken
+	116	forwbranch < 1, 0 > 100.0% taken
+	132	forwbranch < 1, 0 > 100.0% taken
+	149	forwbranch < 1, 0 > 100.0% taken
+	164	forwbranch < 1, 0 > 100.0% taken
+	175	forwbranch < 0, 0 > Never Executed
+	183	forwbranch < 0, 0 > Never Executed
+	203	forwbranch < 1, 0 > 100.0% taken
+	218	forwbranch < 1, 0 > 100.0% taken
+	226	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/text/NumberFormat;, setMaximumFractionDigits, (I)V >
+	13	forwbranch < 1, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/NumberFormat;, setMinimumFractionDigits, (I)V >
+	13	forwbranch < 1, 0 > 100.0% taken
+M 48 < BootstrapCL, Ljava/text/DecimalFormat;, scanFix, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;IZ)I >
+	80	forwbranch < 1, 0 > 100.0% taken
+	106	forwbranch < 0, 1 > 0.0% taken
+	119	forwbranch < 0, 1 > 0.0% taken
+	126	forwbranch < 1, 0 > 100.0% taken
+	133	forwbranch < 0, 0 > Never Executed
+	176	forwbranch < 0, 1 > 0.0% taken
+	183	forwbranch < 0, 1 > 0.0% taken
+	190	forwbranch < 1, 0 > 100.0% taken
+	197	forwbranch < 0, 0 > Never Executed
+	204	forwbranch < 0, 0 > Never Executed
+	212	forwbranch < 0, 0 > Never Executed
+	219	forwbranch < 0, 0 > Never Executed
+	232	forwbranch < 0, 0 > Never Executed
+	239	forwbranch < 0, 0 > Never Executed
+	258	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 0, 0 > Never Executed
+	325	forwbranch < 0, 0 > Never Executed
+	354	forwbranch < 0, 0 > Never Executed
+	384	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+	406	forwbranch < 0, 0 > Never Executed
+	425	forwbranch < 0, 0 > Never Executed
+	454	forwbranch < 0, 1 > 0.0% taken
+M 26 < BootstrapCL, Ljava/text/DecimalFormat;, scanNumberInteger, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;I)I >
+	63	forwbranch < 0, 6 > 0.0% taken
+	78	forwbranch < 1, 5 > 16.666666% taken
+	85	forwbranch < 5, 0 > 100.0% taken
+	95	forwbranch < 5, 0 > 100.0% taken
+	102	forwbranch < 0, 0 > Never Executed
+	136	forwbranch < 2, 3 > 40.0% taken
+	141	forwbranch < 3, 0 > 100.0% taken
+	195	forwbranch < 1, 1 > 50.0% taken
+	221	forwbranch < 0, 1 > 0.0% taken
+	247	forwbranch < 0, 1 > 0.0% taken
+	265	forwbranch < 0, 1 > 0.0% taken
+	272	forwbranch < 0, 1 > 0.0% taken
+	279	forwbranch < 1, 0 > 100.0% taken
+M 20 < BootstrapCL, Ljava/text/DecimalFormat;, scanFractionalPortion, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;I)I >
+	47	forwbranch < 1, 0 > 100.0% taken
+	91	forwbranch < 1, 3 > 25.0% taken
+	106	forwbranch < 0, 3 > 0.0% taken
+	113	forwbranch < 3, 0 > 100.0% taken
+	123	forwbranch < 0, 3 > 0.0% taken
+	130	forwbranch < 3, 0 > 100.0% taken
+	175	forwbranch < 0, 3 > 0.0% taken
+	188	forwbranch < 0, 0 > Never Executed
+	193	forwbranch < 0, 0 > Never Executed
+	243	forwbranch < 1, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, <init>, (Ljava/util/Locale;)V >
+	57	forwbranch < 0, 2 > 0.0% taken
+M 12 < BootstrapCL, Ljava/util/Currency;, getInstance, (Ljava/lang/String;)Ljava/util/Currency; >
+	1	forwbranch < 2, 0 > 100.0% taken
+	20	forwbranch < 0, 2 > 0.0% taken
+	47	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 0 > Never Executed
+M 10 < BootstrapCL, Ljava/util/Currency;, getInstance, (Ljava/util/Locale;)Ljava/util/Currency; >
+	6	forwbranch < 0, 2 > 0.0% taken
+	10	forwbranch < 2, 0 > 100.0% taken
+	28	forwbranch < 2, 0 > 100.0% taken
+	53	forwbranch < 1, 1 > 50.0% taken
+	71	forwbranch < 1, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, safeGetChar, (Ljava/util/ResourceBundle;Ljava/lang/String;C)C >
+	4	forwbranch < 0, 20 > 0.0% taken
+	21	forwbranch < 4, 16 > 20.0% taken
+	30	forwbranch < 16, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, safeGetString, (Ljava/util/ResourceBundle;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	1	forwbranch < 0, 4 > 0.0% taken
+M 10 < BootstrapCL, Ljava/util/Currency;, getSymbol, (Ljava/util/Locale;)Ljava/lang/String; >
+	50	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 0, 0 > Never Executed
+	99	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 0 > Never Executed
+	138	forwbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Ljava/util/Currency;, <init>, (Ljava/util/Locale;)V >
+	15	forwbranch < 1, 0 > 100.0% taken
+	101	forwbranch < 1, 0 > 100.0% taken
+	119	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, LMMTkHarness;, <init>, ()V >
+	55	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/Callback;, start, (Ljava/lang/String;Z)V >
+	48	forwbranch < 1, 4 > 20.0% taken
+M 6 < SystemAppCL, Ldacapo/Callback;, complete, (Ljava/lang/String;ZZ)V >
+	26	forwbranch < 0, 5 > 0.0% taken
+	33	forwbranch < 1, 4 > 20.0% taken
+	98	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Ldacapo/parser/Config;, getSize, (Ljava/lang/String;)Ldacapo/parser/Config$Size; >
+	13	forwbranch < 119, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFile;, <init>, (Ljava/io/InputStream;)V >
+	83	forwbranch < 1, 17 > 5.5555553% taken
+M 10 < SystemAppCL, Ldacapo/parser/ConfigFile;, configFile, ()Ldacapo/parser/Config; >
+	10	forwbranch < 3, 1 > 75.0% taken
+	24	switch     < 1, 3, 0 >
+	97	forwbranch < 0, 4 > 0.0% taken
+	111	switch     < 1, 2, 1 >
+M 2 < SystemAppCL, Ldacapo/parser/Config$OutputFile;, hasDigest, ()Z >
+	4	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/Config$OutputFile;, hasBytes, ()Z >
+	8	forwbranch < 10, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/Config$OutputFile;, hasLines, ()Z >
+	5	forwbranch < 10, 0 > 100.0% taken
+M 4 < SystemAppCL, Ldacapo/parser/Config;, addOutputFile, (Ljava/lang/String;Ljava/lang/String;)V >
+	15	forwbranch < 3, 3 > 50.0% taken
+	24	forwbranch < 0, 3 > 0.0% taken
+M 8 < SystemAppCL, Ldacapo/parser/ConfigFile;, config, ()Ldacapo/parser/Config; >
+	31	forwbranch < 0, 1 > 0.0% taken
+	45	switch     < 1, 0 >
+	91	forwbranch < 0, 1 > 0.0% taken
+	105	switch     < 0, 1 >
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFile;, jj_ntk, ()I >
+	12	forwbranch < 0, 58 > 0.0% taken
+M 5 < SystemAppCL, Ldacapo/parser/ConfigFile;, sizeSpec, (Ldacapo/parser/Config;)V >
+	28	forwbranch < 6, 0 > 100.0% taken
+	42	switch     < 0, 3, 3 >
+M 4 < SystemAppCL, Ldacapo/parser/ConfigFile;, description, (Ldacapo/parser/Config;)V >
+	17	forwbranch < 0, 9 > 0.0% taken
+	31	switch     < 8, 1 >
+M 4 < SystemAppCL, Ldacapo/parser/ConfigFile;, jj_consume_token, (I)Ldacapo/parser/Token; >
+	9	forwbranch < 15, 57 > 20.833334% taken
+	58	forwbranch < 0, 72 > 0.0% taken
+M 17 < SystemAppCL, Ldacapo/parser/ConfigFile;, sizeClause, (Ldacapo/parser/Config;Ljava/lang/String;)V >
+	13	forwbranch < 3, 3 > 50.0% taken
+	27	switch     < 3, 3, 0 >
+	64	forwbranch < 0, 3 > 0.0% taken
+	78	switch     < 3, 0 >
+	114	forwbranch < 0, 3 > 0.0% taken
+	128	switch     < 0, 3 >
+	225	forwbranch < 6, 0 > 100.0% taken
+	239	switch     < 3, 3 >
+M 19 < SystemAppCL, Ldacapo/parser/ConfigFile;, outputFile, (Ldacapo/parser/Config;Ljava/lang/String;)V >
+	5	forwbranch < 0, 6 > 0.0% taken
+	19	switch     < 3, 3, 0, 0 >
+	122	forwbranch < 0, 12 > 0.0% taken
+	136	switch     < 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 6 >
+M 21 < SystemAppCL, Ldacapo/parser/ConfigFile;, outputClause, (Ldacapo/parser/Config;Ljava/lang/String;Ljava/lang/String;)V >
+	5	forwbranch < 6, 0 > 100.0% taken
+	19	switch     < 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0 >
+	84	forwbranch < 0, 6 > 0.0% taken
+	98	switch     < 0, 6 >
+	135	forwbranch < 0, 0 > Never Executed
+	149	switch     < 0, 0 >
+M 29 < SystemAppCL, Ldacapo/parser/ConfigFile;, descId, ()Ljava/lang/String; >
+	5	forwbranch < 0, 9 > 0.0% taken
+	19	switch     < 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0 >
+M 49 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, getNextToken, ()Ldacapo/parser/Token; >
+	52	switch     < 73, 0, 0, 0, 0 >
+	98	forwbranch < 72, 113 > 38.91892% taken
+	113	forwbranch < 0, 113 > 0.0% taken
+	179	forwbranch < 0, 0 > Never Executed
+	188	forwbranch < 0, 0 > Never Executed
+	221	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 0, 0 > Never Executed
+	263	forwbranch < 0, 0 > Never Executed
+	272	forwbranch < 0, 0 > Never Executed
+	287	forwbranch < 0, 72 > 0.0% taken
+	298	forwbranch < 28, 44 > 38.88889% taken
+	340	forwbranch < 0, 72 > 0.0% taken
+	362	forwbranch < 72, 0 > 100.0% taken
+	402	forwbranch < 0, 0 > Never Executed
+	428	forwbranch < 0, 0 > Never Executed
+	437	forwbranch < 0, 0 > Never Executed
+	479	backbranch < 0, 0 > Never Executed
+	510	forwbranch < 0, 0 > Never Executed
+	601	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	634	forwbranch < 0, 0 > Never Executed
+	651	forwbranch < 0, 0 > Never Executed
+	665	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, backup, (I)V >
+	21	forwbranch < 119, 0 > 100.0% taken
+M 6 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, readChar, ()C >
+	4	forwbranch < 994, 44 > 95.76108% taken
+	32	forwbranch < 44, 0 > 100.0% taken
+	65	forwbranch < 991, 3 > 99.69819% taken
+M 16 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, FillBuff, ()V >
+	8	forwbranch < 3, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	29	forwbranch < 0, 0 > Never Executed
+	57	forwbranch < 0, 0 > Never Executed
+	89	forwbranch < 0, 0 > Never Executed
+	115	forwbranch < 0, 0 > Never Executed
+	161	forwbranch < 1, 1 > 50.0% taken
+	211	forwbranch < 0, 2 > 0.0% taken
+M 12 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, UpdateLineColumn, (C)V >
+	14	forwbranch < 965, 27 > 97.27823% taken
+	44	forwbranch < 965, 0 > 100.0% taken
+	55	forwbranch < 0, 0 > Never Executed
+	82	switch     < 12, 28, 0, 0, 0, 952 >
+M 2 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, GetImage, ()Ljava/lang/String; >
+	8	forwbranch < 0, 23 > 0.0% taken
+M 47 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjStopStringLiteralDfa_0, (IJ)I >
+	1	switch     < 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	63	forwbranch < 3, 0 > 100.0% taken
+	75	forwbranch < 0, 3 > 0.0% taken
+	95	forwbranch < 1, 0 > 100.0% taken
+	107	forwbranch < 0, 1 > 0.0% taken
+	132	forwbranch < 0, 0 > Never Executed
+	155	forwbranch < 0, 0 > Never Executed
+	169	forwbranch < 0, 0 > Never Executed
+	192	forwbranch < 0, 0 > Never Executed
+	206	forwbranch < 0, 0 > Never Executed
+	229	forwbranch < 0, 0 > Never Executed
+	243	forwbranch < 0, 0 > Never Executed
+	266	forwbranch < 0, 0 > Never Executed
+	280	forwbranch < 0, 0 > Never Executed
+	292	forwbranch < 0, 0 > Never Executed
+	318	forwbranch < 0, 0 > Never Executed
+	344	forwbranch < 0, 0 > Never Executed
+	356	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 0 > Never Executed
+M 136 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveNfa_0, (II)I >
+	36	forwbranch < 708, 0 > 100.0% taken
+	49	forwbranch < 422, 286 > 59.60452% taken
+	70	switch     < 0, 0, 0, 18, 0, 40, 0, 0, 138, 0, 90, 90, 0, 90, 0, 0, 0, 0, 0, 0 >
+	168	forwbranch < 12, 6 > 66.666664% taken
+	175	forwbranch < 0, 6 > 0.0% taken
+	197	forwbranch < 0, 12 > 0.0% taken
+	215	forwbranch < 0, 0 > Never Executed
+	222	forwbranch < 0, 0 > Never Executed
+	243	forwbranch < 0, 0 > Never Executed
+	269	forwbranch < 12, 6 > 66.666664% taken
+	299	forwbranch < 0, 0 > Never Executed
+	330	forwbranch < 0, 0 > Never Executed
+	337	forwbranch < 0, 0 > Never Executed
+	353	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 0 > Never Executed
+	392	forwbranch < 0, 0 > Never Executed
+	415	forwbranch < 2, 38 > 5.0% taken
+	425	forwbranch < 0, 2 > 0.0% taken
+	446	forwbranch < 0, 0 > Never Executed
+	478	forwbranch < 132, 6 > 95.652176% taken
+	488	forwbranch < 0, 132 > 0.0% taken
+	522	forwbranch < 0, 0 > Never Executed
+	542	forwbranch < 12, 78 > 13.333333% taken
+	562	forwbranch < 0, 0 > Never Executed
+	580	forwbranch < 78, 12 > 86.666664% taken
+	587	forwbranch < 0, 12 > 0.0% taken
+	605	forwbranch < 0, 0 > Never Executed
+	626	forwbranch < 0, 0 > Never Executed
+	646	forwbranch < 0, 0 > Never Executed
+	678	forwbranch < 0, 0 > Never Executed
+	698	forwbranch < 0, 0 > Never Executed
+	708	forwbranch < 0, 0 > Never Executed
+	728	backbranch < 180, 286 > 38.62661% taken
+	741	forwbranch < 0, 422 > 0.0% taken
+	765	switch     < 0, 0, 1, 0, 39, 0, 6, 108, 0, 268, 268, 0, 274 >
+	836	forwbranch < 40, 0 > 100.0% taken
+	846	forwbranch < 0, 40 > 0.0% taken
+	865	forwbranch < 0, 0 > Never Executed
+	883	forwbranch < 6, 0 > 100.0% taken
+	893	forwbranch < 0, 6 > 0.0% taken
+	917	forwbranch < 108, 0 > 100.0% taken
+	927	forwbranch < 0, 108 > 0.0% taken
+	951	forwbranch < 0, 268 > 0.0% taken
+	969	forwbranch < 268, 0 > 100.0% taken
+	991	forwbranch < 0, 0 > Never Executed
+	1007	backbranch < 542, 422 > 56.224068% taken
+	1047	switch     < 0, 0, 0 >
+	1083	forwbranch < 0, 0 > Never Executed
+	1090	forwbranch < 0, 0 > Never Executed
+	1111	forwbranch < 0, 0 > Never Executed
+	1127	backbranch < 0, 0 > Never Executed
+	1134	forwbranch < 402, 306 > 56.77966% taken
+	1175	forwbranch < 652, 56 > 92.09039% taken
+M 18 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa1_0, (J)I >
+	28	switch     < 0, 0, 2, 5, 2, 10, 1, 2, 4, 6, 4, 0, 0, 1 >
+	151	forwbranch < 0, 0 > Never Executed
+	170	forwbranch < 0, 0 > Never Executed
+M 33 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa2_0, (JJ)I >
+	7	forwbranch < 34, 2 > 94.44444% taken
+	46	switch     < 1, 0, 1, 6, 0, 1, 9, 0, 0, 0, 0, 1, 0, 2, 1, 2, 0, 2, 1, 4, 0, 0, 0, 0, 0, 3, 0 >
+	225	forwbranch < 0, 1 > 0.0% taken
+	307	forwbranch < 0, 0 > Never Executed
+M 38 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa3_0, (JJ)I >
+	7	forwbranch < 32, 0 > 100.0% taken
+	46	switch     < 0, 0, 2, 0, 15, 0, 1, 1, 0, 0, 0, 0, 0, 0, 3, 3, 0, 1, 5, 0, 0, 0, 0, 0, 1, 0 >
+	185	forwbranch < 12, 3 > 80.0% taken
+	213	forwbranch < 0, 1 > 0.0% taken
+	250	forwbranch < 3, 0 > 100.0% taken
+	287	forwbranch < 2, 3 > 40.0% taken
+	315	forwbranch < 0, 0 > Never Executed
+M 32 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa4_0, (JJ)I >
+	7	forwbranch < 25, 0 > 100.0% taken
+	46	switch     < 2, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 5, 7, 1, 6, 0 >
+	214	forwbranch < 7, 0 > 100.0% taken
+	233	forwbranch < 6, 1 > 85.71429% taken
+	252	forwbranch < 6, 0 > 100.0% taken
+	280	forwbranch < 0, 1 > 0.0% taken
+M 43 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa5_0, (JJ)I >
+	7	forwbranch < 23, 0 > 100.0% taken
+	46	switch     < 1, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0, 1, 0, 0, 4, 1, 13, 0, 0, 0, 0, 0, 0 >
+	155	forwbranch < 1, 0 > 100.0% taken
+	210	forwbranch < 3, 1 > 75.0% taken
+	229	forwbranch < 3, 0 > 100.0% taken
+	248	forwbranch < 0, 3 > 0.0% taken
+	267	forwbranch < 1, 0 > 100.0% taken
+	295	forwbranch < 7, 6 > 53.846153% taken
+	314	forwbranch < 4, 3 > 57.142857% taken
+	333	forwbranch < 1, 3 > 25.0% taken
+	361	forwbranch < 0, 0 > Never Executed
+M 30 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa6_0, (JJ)I >
+	7	forwbranch < 7, 0 > 100.0% taken
+	47	switch     < 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 2, 0 >
+	152	forwbranch < 0, 1 > 0.0% taken
+	181	forwbranch < 0, 1 > 0.0% taken
+	210	forwbranch < 1, 1 > 50.0% taken
+	230	forwbranch < 0, 1 > 0.0% taken
+M 6 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa7_0, (JJ)I >
+	7	forwbranch < 3, 0 > 100.0% taken
+	48	switch     < 1, 1, 1, 0 >
+M 10 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa8_0, (JJ)I >
+	7	forwbranch < 3, 0 > 100.0% taken
+	49	switch     < 1, 1, 1, 0 >
+	100	forwbranch < 0, 1 > 0.0% taken
+	120	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa9_0, (JJ)I >
+	7	forwbranch < 1, 0 > 100.0% taken
+	49	switch     < 1, 0 >
+M 6 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa10_0, (JJ)I >
+	7	forwbranch < 1, 0 > 100.0% taken
+	49	switch     < 1, 0 >
+	75	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjCheckNAdd, (I)V >
+	10	forwbranch < 0, 1236 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjCheckNAddStates, (II)V >
+	14	backbranch < 716, 358 > 66.666664% taken
+M 1 < SystemAppCL, Ldacapo/parser/Token;, newToken, (I)Ldacapo/parser/Token; >
+	1	switch     < 73 >
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjFillToken, ()Ldacapo/parser/Token; >
+	27	forwbranch < 50, 23 > 68.49315% taken
+M 80 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa0_0, ()I >
+	4	switch     < 0, 0, 0, 0, 11, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 1, 2, 9, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 3, 0, 0, 1, 11, 1, 1, 1, 13 >
+M 8 < SystemAppCL, Ldacapo/Benchmark;, preIteration, (Ljava/lang/String;)V >
+	3	forwbranch < 5, 0 > 100.0% taken
+	28	forwbranch < 0, 0 > Never Executed
+	73	forwbranch < 5, 0 > 100.0% taken
+	81	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Ldacapo/Benchmark;, startIteration, ()V >
+	3	forwbranch < 0, 5 > 0.0% taken
+	23	forwbranch < 1, 4 > 20.0% taken
+M 2 < SystemAppCL, Ldacapo/Benchmark;, stopIteration, ()V >
+	3	forwbranch < 0, 5 > 0.0% taken
+M 44 < SystemAppCL, Ldacapo/Benchmark;, validate, (Ljava/lang/String;)Z >
+	3	forwbranch < 5, 0 > 100.0% taken
+	11	forwbranch < 5, 0 > 100.0% taken
+	76	forwbranch < 5, 10 > 33.333332% taken
+	100	forwbranch < 0, 10 > 0.0% taken
+	179	forwbranch < 10, 0 > 100.0% taken
+	226	forwbranch < 10, 0 > 100.0% taken
+	236	forwbranch < 0, 0 > Never Executed
+	246	forwbranch < 0, 0 > Never Executed
+	259	forwbranch < 10, 0 > 100.0% taken
+	316	forwbranch < 10, 0 > 100.0% taken
+	355	forwbranch < 10, 0 > 100.0% taken
+	438	forwbranch < 0, 0 > Never Executed
+	486	forwbranch < 0, 0 > Never Executed
+	543	forwbranch < 0, 0 > Never Executed
+	582	forwbranch < 10, 0 > 100.0% taken
+	669	forwbranch < 0, 0 > Never Executed
+	718	forwbranch < 0, 0 > Never Executed
+	775	forwbranch < 0, 0 > Never Executed
+	814	forwbranch < 10, 0 > 100.0% taken
+	833	forwbranch < 0, 0 > Never Executed
+	875	forwbranch < 0, 0 > Never Executed
+	910	forwbranch < 5, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/Benchmark;, postIteration, (Ljava/lang/String;)V >
+	3	forwbranch < 0, 5 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/Benchmark;, unpackZipFileResource, (Ljava/lang/String;Ljava/io/File;)V >
+	6	forwbranch < 1, 0 > 100.0% taken
+M 8 < SystemAppCL, Ldacapo/Benchmark;, postIterationCleanup, (Ljava/lang/String;)V >
+	20	forwbranch < 5, 10 > 33.333332% taken
+	39	forwbranch < 0, 10 > 0.0% taken
+	48	forwbranch < 10, 0 > 100.0% taken
+	63	forwbranch < 0, 10 > 0.0% taken
+M 4 < SystemAppCL, Ldacapo/FileDigest;, get, (Ljava/lang/String;ZZLjava/io/File;)[B >
+	1	forwbranch < 0, 10 > 0.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Ldacapo/Digest;, toString, ([B)Ljava/lang/String; >
+	17	forwbranch < 10, 200 > 4.7619047% taken
+	36	forwbranch < 185, 15 > 92.5% taken
+M 6 < SystemAppCL, Ldacapo/Benchmark;, deleteFile, (Ljava/io/File;)V >
+	3	forwbranch < 10, 0 > 100.0% taken
+	38	forwbranch < 0, 10 > 0.0% taken
+	45	forwbranch < 0, 10 > 0.0% taken
+M 6 < SystemAppCL, Ldacapo/Benchmark;, deleteTree, (Ljava/io/File;)V >
+	3	forwbranch < 20, 0 > 100.0% taken
+	38	forwbranch < 1, 19 > 5.0% taken
+	59	forwbranch < 1, 19 > 5.0% taken
+M 10 < SystemAppCL, Ldacapo/Benchmark;, unpackZipStream, (Ljava/io/BufferedInputStream;Ljava/io/File;)V >
+	15	forwbranch < 1, 20 > 4.7619047% taken
+	21	forwbranch < 20, 0 > 100.0% taken
+	70	forwbranch < 19, 1 > 95.0% taken
+	78	forwbranch < 0, 1 > 0.0% taken
+	136	forwbranch < 19, 160 > 10.614525% taken
+M 4 < SystemAppCL, Ldacapo/Benchmark;, getURL, (Ljava/lang/String;)Ljava/net/URL; >
+	3	forwbranch < 0, 1 > 0.0% taken
+	34	forwbranch < 1, 0 > 100.0% taken
+M 6 < SystemAppCL, Ldacapo/Benchmark;, <init>, (Ldacapo/parser/Config;Ljava/io/File;)V >
+	22	forwbranch < 0, 1 > 0.0% taken
+	34	forwbranch < 0, 1 > 0.0% taken
+	81	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/Version;, getVersion, ()Ljava/lang/String; >
+	54	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/xalan/XalanHarness;, <init>, (Ldacapo/parser/Config;Ljava/io/File;)V >
+	45	forwbranch < 1, 0 > 100.0% taken
+M 4 < SystemAppCL, Ldacapo/xalan/XalanHarness;, preIteration, (Ljava/lang/String;)V >
+	9	forwbranch < 4, 1 > 80.0% taken
+	26	forwbranch < 5, 40 > 11.111111% taken
+M 6 < SystemAppCL, Ldacapo/xalan/XalanHarness;, iterate, (Ljava/lang/String;)V >
+	22	forwbranch < 5, 500 > 0.990099% taken
+	191	forwbranch < 5, 40 > 11.111111% taken
+	216	forwbranch < 5, 40 > 11.111111% taken
+M 2 < SystemAppCL, Ldacapo/TeeOutputStream;, version, ()V >
+	54	forwbranch < 8, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/TeeOutputStream;, flush, ()V >
+	8	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/TeeOutputStream;, write, (I)V >
+	9	forwbranch < 0, 95 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/processor/XSLProcessorVersion;, <clinit>, ()V >
+	69	forwbranch < 1, 0 > 100.0% taken
+M 8 < BootstrapCL, Ljavax/xml/transform/TransformerFactory;, getFactoryClassName, (Ljava/lang/ClassLoader;I)Ljava/lang/String; >
+	1	switch     < 1, 0, 0, 0 >
+	115	forwbranch < 0, 0 > Never Executed
+	136	forwbranch < 0, 0 > Never Executed
+M 10 < BootstrapCL, Ljavax/xml/transform/TransformerFactory;, newInstance, ()Ljavax/xml/transform/TransformerFactory; >
+	8	forwbranch < 1, 0 > 100.0% taken
+	31	forwbranch < 0, 1 > 0.0% taken
+	35	forwbranch < 0, 1 > 0.0% taken
+	95	forwbranch < 0, 0 > Never Executed
+	100	backbranch < 0, 0 > Never Executed
+M 22 < SystemAppCL, Lorg/apache/xalan/processor/TransformerFactoryImpl;, newTemplates, (Ljavax/xml/transform/Source;)Ljavax/xml/transform/Templates; >
+	14	forwbranch < 1, 0 > 100.0% taken
+	32	forwbranch < 0, 0 > Never Executed
+	151	forwbranch < 1, 0 > 100.0% taken
+	170	forwbranch < 0, 0 > Never Executed
+	212	forwbranch < 1, 0 > 100.0% taken
+	226	forwbranch < 1, 0 > 100.0% taken
+	239	forwbranch < 0, 1 > 0.0% taken
+	307	forwbranch < 1, 0 > 100.0% taken
+	317	forwbranch < 0, 1 > 0.0% taken
+	361	forwbranch < 0, 0 > Never Executed
+	421	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xml/utils/SystemIDResolver;, getAbsoluteURI, (Ljava/lang/String;)Ljava/lang/String; >
+	6	forwbranch < 1, 0 > 100.0% taken
+	28	forwbranch < 1, 0 > 100.0% taken
+	60	forwbranch < 1, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/apache/xalan/processor/TransformerFactoryImpl;, <clinit>, ()V >
+	32	forwbranch < 0, 1 > 0.0% taken
+	60	forwbranch < 0, 1 > 0.0% taken
+	90	forwbranch < 1, 0 > 100.0% taken
+	96	forwbranch < 0, 0 > Never Executed
+	174	forwbranch < 1, 4 > 20.0% taken
+	195	forwbranch < 0, 4 > 0.0% taken
+M 2 < BootstrapCL, Ljavax/xml/transform/TransformerException;, <init>, (Ljava/lang/String;Ljavax/xml/transform/SourceLocator;Ljava/lang/Throwable;)V >
+	11	forwbranch < 9095, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/processor/StylesheetHandler;, init, (Lorg/apache/xalan/processor/TransformerFactoryImpl;)V >
+	4	forwbranch < 0, 1 > 0.0% taken
+	15	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/compiler/FunctionTable;, installFunction, (Ljava/lang/String;Lorg/apache/xpath/Expression;)I >
+	10	forwbranch < 2, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/apache/xpath/XPath;, <init>, (Ljava/lang/String;Ljavax/xml/transform/SourceLocator;Lorg/apache/xml/utils/PrefixResolver;ILjavax/xml/transform/ErrorListener;)V >
+	7	forwbranch < 21471, 0 > 100.0% taken
+	51	forwbranch < 21133, 350 > 98.370804% taken
+	69	forwbranch < 0, 21142 > 0.0% taken
+	125	forwbranch < 0, 21494 > 0.0% taken
+	132	forwbranch < 0, 21491 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/processor/StylesheetHandler;, pushBaseIndentifier, (Ljava/lang/String;)V >
+	2	forwbranch < 0, 1 > 0.0% taken
+	14	forwbranch < 1, 0 > 100.0% taken
+M 26 < SystemAppCL, Lorg/apache/xalan/processor/XSLTElementDef;, getProcessorFor, (Ljava/lang/String;Ljava/lang/String;)Lorg/apache/xalan/processor/XSLTElementProcessor; >
+	7	forwbranch < 3094, 0 > 100.0% taken
+	32	forwbranch < 364, 14976 > 2.3728814% taken
+	54	forwbranch < 14714, 262 > 98.250534% taken
+	63	forwbranch < 1, 261 > 0.3816794% taken
+	96	forwbranch < 11984, 2730 > 81.44624% taken
+	104	forwbranch < 2702, 28 > 98.97436% taken
+	147	forwbranch < 506, 2588 > 16.354235% taken
+	154	forwbranch < 1839, 749 > 71.05873% taken
+	167	forwbranch < 568, 181 > 75.83444% taken
+	183	forwbranch < 210, 358 > 36.971832% taken
+	188	forwbranch < 358, 0 > 100.0% taken
+	197	forwbranch < 358, 210 > 63.028168% taken
+	202	forwbranch < 210, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/processor/StylesheetHandler;, getStylesheet, ()Lorg/apache/xalan/templates/Stylesheet; >
+	7	forwbranch < 151, 0 > 100.0% taken
+M 14 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetRoot;, recompose, ()V >
+	13	forwbranch < 0, 1 > 0.0% taken
+	57	forwbranch < 1, 1 > 50.0% taken
+	122	forwbranch < 1, 1 > 50.0% taken
+	243	forwbranch < 1, 143 > 0.6944444% taken
+	301	forwbranch < 1, 1 > 50.0% taken
+	325	forwbranch < 1, 1 > 50.0% taken
+	359	forwbranch < 1, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/apache/xalan/processor/StylesheetHandler;, checkForFragmentID, (Lorg/xml/sax/Attributes;)V >
+	4	forwbranch < 988, 0 > 100.0% taken
+	9	forwbranch < 0, 0 > Never Executed
+	17	forwbranch < 0, 0 > Never Executed
+	31	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 0, 0 > Never Executed
+	71	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xalan/processor/StylesheetHandler;, flushCharacters, ()V >
+	7	forwbranch < 0, 1976 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/processor/StylesheetHandler;, pushSpaceHandling, (Lorg/xml/sax/Attributes;)V >
+	11	forwbranch < 0, 988 > 0.0% taken
+	38	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Lorg/apache/xalan/processor/StylesheetHandler;, getProcessorFor, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/apache/xalan/processor/XSLTElementProcessor; >
+	25	forwbranch < 1246, 0 > 100.0% taken
+	33	forwbranch < 0, 0 > Never Executed
+	51	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 0, 0 > Never Executed
+	68	forwbranch < 0, 0 > Never Executed
+	77	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 1246, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/processor/XSLTElementProcessor;, startElement, (Lorg/apache/xalan/processor/StylesheetHandler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V >
+	4	forwbranch < 706, 19 > 97.37931% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/processor/XSLTElementProcessor;, endElement, (Lorg/apache/xalan/processor/StylesheetHandler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V >
+	4	forwbranch < 263, 596 > 30.616997% taken
+	14	forwbranch < 0, 596 > 0.0% taken
+	38	forwbranch < 859, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xml/utils/XMLCharacterRecognizer;, isWhiteSpace, ([CII)Z >
+	10	forwbranch < 506, 2393 > 17.454294% taken
+	20	forwbranch < 2393, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/processor/StylesheetHandler;, getLocator, ()Lorg/apache/xml/utils/SAXSourceLocator; >
+	7	forwbranch < 1156, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/BoolStack;, push, (Z)Z >
+	10	forwbranch < 154952, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/BoolStack;, peekOrFalse, ()Z >
+	5	forwbranch < 13330, 71102 > 15.787853% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/processor/StylesheetHandler;, endDocument, ()V >
+	5	forwbranch < 0, 1 > 0.0% taken
+	13	forwbranch < 0, 1 > 0.0% taken
+	48	forwbranch < 0, 1 > 0.0% taken
+	75	forwbranch < 0, 1 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/processor/StylesheetHandler;, startElement, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V >
+	27	forwbranch < 988, 2 > 99.79798% taken
+	104	forwbranch < 988, 0 > 100.0% taken
+	130	forwbranch < 0, 988 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/processor/StylesheetHandler;, endElement, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V >
+	14	forwbranch < 988, 0 > 100.0% taken
+	28	forwbranch < 988, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/processor/StylesheetHandler;, characters, ([CII)V >
+	4	forwbranch < 1917, 0 > 100.0% taken
+	27	forwbranch < 69, 1848 > 3.599374% taken
+	43	forwbranch < 1411, 506 > 73.60459% taken
+	52	forwbranch < 506, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/processor/StylesheetHandler;, pushStylesheet, (Lorg/apache/xalan/templates/Stylesheet;)V >
+	7	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/processor/StylesheetHandler;, popStylesheet, ()Lorg/apache/xalan/templates/Stylesheet; >
+	7	forwbranch < 0, 1 > 0.0% taken
+	25	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/processor/StylesheetHandler;, pushElemTemplateElement, (Lorg/apache/xalan/templates/ElemTemplateElement;)V >
+	5	forwbranch < 0, 857 > 0.0% taken
+M 74 < SystemAppCL, Lorg/apache/xalan/processor/XSLTSchema;, build, ()V >
+	1100	forwbranch < 0, 1 > 0.0% taken
+	1144	forwbranch < 1, 0 > 100.0% taken
+	1303	forwbranch < 0, 1 > 0.0% taken
+	1386	forwbranch < 0, 1 > 0.0% taken
+	1447	forwbranch < 0, 1 > 0.0% taken
+	1503	forwbranch < 0, 1 > 0.0% taken
+	1603	forwbranch < 0, 1 > 0.0% taken
+	1679	forwbranch < 0, 1 > 0.0% taken
+	1741	forwbranch < 0, 1 > 0.0% taken
+	1815	forwbranch < 0, 1 > 0.0% taken
+	1866	forwbranch < 0, 1 > 0.0% taken
+	1925	forwbranch < 0, 1 > 0.0% taken
+	1990	forwbranch < 0, 1 > 0.0% taken
+	2052	forwbranch < 0, 1 > 0.0% taken
+	2110	forwbranch < 0, 1 > 0.0% taken
+	2180	forwbranch < 0, 1 > 0.0% taken
+	2250	forwbranch < 0, 1 > 0.0% taken
+	2314	forwbranch < 0, 1 > 0.0% taken
+	2376	forwbranch < 0, 1 > 0.0% taken
+	2438	forwbranch < 0, 1 > 0.0% taken
+	2502	forwbranch < 0, 1 > 0.0% taken
+	2564	forwbranch < 0, 1 > 0.0% taken
+	2636	forwbranch < 0, 1 > 0.0% taken
+	2693	forwbranch < 0, 1 > 0.0% taken
+	2755	forwbranch < 0, 1 > 0.0% taken
+	2812	forwbranch < 0, 1 > 0.0% taken
+	2869	forwbranch < 0, 1 > 0.0% taken
+	2926	forwbranch < 0, 1 > 0.0% taken
+	2980	forwbranch < 0, 1 > 0.0% taken
+	3243	forwbranch < 1, 23 > 4.1666665% taken
+	4049	forwbranch < 1, 0 > 100.0% taken
+	4113	forwbranch < 1, 0 > 100.0% taken
+	4192	forwbranch < 0, 1 > 0.0% taken
+	4311	forwbranch < 0, 1 > 0.0% taken
+	4348	forwbranch < 0, 1 > 0.0% taken
+	4420	forwbranch < 1, 0 > 100.0% taken
+	4457	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/processor/XSLTAttributeDef;, <init>, (Ljava/lang/String;Ljava/lang/String;ZZZILjava/lang/String;ILjava/lang/String;I)V >
+	29	forwbranch < 4, 1 > 80.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/processor/XSLTAttributeDef;, <init>, (Ljava/lang/String;Ljava/lang/String;ZZZILjava/lang/String;ILjava/lang/String;ILjava/lang/String;I)V >
+	29	forwbranch < 1, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/apache/xalan/processor/XSLTElementDef;, <init>, (Lorg/apache/xalan/processor/XSLTSchema;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Lorg/apache/xalan/processor/XSLTElementDef;[Lorg/apache/xalan/processor/XSLTAttributeDef;Lorg/apache/xalan/processor/XSLTElementProcessor;Ljava/lang/Class;)V >
+	57	forwbranch < 3, 39 > 7.142857% taken
+	66	forwbranch < 32, 7 > 82.051285% taken
+	75	forwbranch < 2, 5 > 28.571428% taken
+	84	forwbranch < 3, 2 > 60.0% taken
+	103	forwbranch < 35, 1 > 97.22222% taken
+M 12 < SystemAppCL, Lorg/apache/xalan/processor/XSLTElementDef;, build, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Lorg/apache/xalan/processor/XSLTElementDef;[Lorg/apache/xalan/processor/XSLTAttributeDef;Lorg/apache/xalan/processor/XSLTElementProcessor;Ljava/lang/Class;)V >
+	43	forwbranch < 45, 2 > 95.74468% taken
+	50	forwbranch < 0, 2 > 0.0% taken
+	67	forwbranch < 2, 26 > 7.142857% taken
+	81	forwbranch < 24, 2 > 92.30769% taken
+	89	forwbranch < 1, 1 > 50.0% taken
+	96	forwbranch < 0, 1 > 0.0% taken
+M 10 < SystemAppCL, Lorg/apache/xalan/processor/XSLTElementDef;, <init>, (Lorg/apache/xalan/processor/XSLTSchema;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Lorg/apache/xalan/processor/XSLTElementDef;[Lorg/apache/xalan/processor/XSLTAttributeDef;Lorg/apache/xalan/processor/XSLTElementProcessor;Ljava/lang/Class;Z)V >
+	63	forwbranch < 0, 4 > 0.0% taken
+	72	forwbranch < 4, 0 > 100.0% taken
+	81	forwbranch < 0, 0 > Never Executed
+	90	forwbranch < 0, 0 > Never Executed
+	109	forwbranch < 4, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/processor/XSLTElementDef;, setElementProcessor, (Lorg/apache/xalan/processor/XSLTElementProcessor;)V >
+	1	forwbranch < 1, 46 > 2.1276596% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/processor/XSLTElementDef;, equalsMayBeNullOrZeroLen, (Ljava/lang/String;Ljava/lang/String;)Z >
+	1	forwbranch < 21025, 7526 > 73.64015% taken
+	14	forwbranch < 24682, 3869 > 86.448814% taken
+	28	forwbranch < 11172, 17379 > 39.12998% taken
+	36	forwbranch < 8022, 3150 > 71.80451% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/processor/XSLTElementDef;, QNameEquals, (Ljava/lang/String;Ljava/lang/String;)Z >
+	8	forwbranch < 7383, 7331 > 50.1767% taken
+	19	forwbranch < 2729, 4602 > 37.22548% taken
+	30	forwbranch < 4601, 1 > 99.97827% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/processor/XSLTElementDef;, setRequiredFound, (Ljava/lang/String;Z)V >
+	8	forwbranch < 27, 1 > 96.42857% taken
+M 28 < SystemAppCL, Lorg/apache/xalan/processor/XSLTElementDef;, getAttributeDef, (Ljava/lang/String;Ljava/lang/String;)Lorg/apache/xalan/processor/XSLTAttributeDef; >
+	20	forwbranch < 0, 1534 > 0.0% taken
+	51	forwbranch < 1318, 216 > 85.91917% taken
+	60	forwbranch < 108, 108 > 50.0% taken
+	65	forwbranch < 0, 108 > 0.0% taken
+	75	forwbranch < 108, 0 > 100.0% taken
+	79	forwbranch < 0, 0 > Never Executed
+	86	forwbranch < 0, 0 > Never Executed
+	99	forwbranch < 1318, 108 > 92.42637% taken
+	104	forwbranch < 108, 0 > 100.0% taken
+	119	forwbranch < 648, 778 > 45.441795% taken
+	128	forwbranch < 219, 559 > 28.1491% taken
+	142	forwbranch < 0, 0 > Never Executed
+	149	forwbranch < 0, 0 > Never Executed
+	158	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xalan/processor/XSLTElementDef;, getRequiredFound, ()Z >
+	4	forwbranch < 21, 838 > 2.444703% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/StringToIntTable;, put, (Ljava/lang/String;I)V >
+	10	forwbranch < 53, 6 > 89.830505% taken
+M 4 < SystemAppCL, Lorg/apache/xml/utils/StringToIntTable;, get, (Ljava/lang/String;)I >
+	7	forwbranch < 0, 30 > 0.0% taken
+	20	forwbranch < 16, 14 > 53.333332% taken
+M 40 < SystemAppCL, Lorg/apache/xalan/templates/AVT;, <init>, (Lorg/apache/xalan/processor/StylesheetHandler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/xalan/templates/ElemTemplateElement;)V >
+	54	forwbranch < 21, 146 > 12.57485% taken
+	105	forwbranch < 21, 24 > 46.666668% taken
+	110	forwbranch < 24, 0 > 100.0% taken
+	136	forwbranch < 2, 22 > 8.333333% taken
+	145	switch     < 0, 0, 21, 0, 1 >
+	212	forwbranch < 21, 0 > 100.0% taken
+	233	forwbranch < 18, 3 > 85.71429% taken
+	270	forwbranch < 21, 42 > 33.333332% taken
+	279	forwbranch < 21, 21 > 50.0% taken
+	288	switch     < 0, 0, 0, 21, 0 >
+	357	forwbranch < 0, 0 > Never Executed
+	484	forwbranch < 21, 0 > 100.0% taken
+	532	forwbranch < 0, 0 > Never Executed
+	599	backbranch < 24, 0 > 100.0% taken
+	637	forwbranch < 21, 0 > 100.0% taken
+	698	forwbranch < 21, 146 > 12.57485% taken
+	706	forwbranch < 146, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/AVT;, isSimple, ()Z >
+	4	forwbranch < 0, 82002 > 0.0% taken
+M 14 < SystemAppCL, Lorg/apache/xml/utils/QName;, <init>, (Ljava/lang/String;Lorg/apache/xml/utils/PrefixResolver;Z)V >
+	22	forwbranch < 113, 0 > 100.0% taken
+	41	forwbranch < 0, 0 > Never Executed
+	70	forwbranch < 0, 0 > Never Executed
+	98	forwbranch < 0, 113 > 0.0% taken
+	117	forwbranch < 0, 113 > 0.0% taken
+	124	forwbranch < 0, 113 > 0.0% taken
+	134	forwbranch < 113, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xml/utils/XMLChar;, isValidNmtoken, (Ljava/lang/String;)Z >
+	4	forwbranch < 1, 0 > 100.0% taken
+	16	forwbranch < 1, 3 > 25.0% taken
+	29	forwbranch < 3, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xml/utils/XMLChar;, isValidNCName, (Ljava/lang/String;)Z >
+	4	forwbranch < 158, 0 > 100.0% taken
+	19	forwbranch < 158, 0 > 100.0% taken
+	31	forwbranch < 158, 804 > 16.424116% taken
+	44	forwbranch < 804, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/StringVector;, addElement, (Ljava/lang/String;)V >
+	10	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/processor/XSLTAttributeDef;, processCDATA, (Lorg/apache/xalan/processor/StylesheetHandler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/xalan/templates/ElemTemplateElement;)Ljava/lang/Object; >
+	4	forwbranch < 2, 14 > 12.5% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/processor/XSLTAttributeDef;, processENUM, (Lorg/apache/xalan/processor/StylesheetHandler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/xalan/templates/ElemTemplateElement;)Ljava/lang/Object; >
+	7	forwbranch < 14, 0 > 100.0% taken
+	33	forwbranch < 0, 0 > Never Executed
+	67	forwbranch < 14, 0 > 100.0% taken
+	112	forwbranch < 14, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/processor/XSLTAttributeDef;, processNMTOKEN, (Lorg/apache/xalan/processor/StylesheetHandler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/xalan/templates/ElemTemplateElement;)Ljava/lang/Object; >
+	4	forwbranch < 1, 0 > 100.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+	38	forwbranch < 0, 0 > Never Executed
+	85	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/processor/XSLTAttributeDef;, processSIMPLEPATTERNLIST, (Lorg/apache/xalan/processor/StylesheetHandler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/xalan/templates/ElemTemplateElement;)Ljava/util/Vector; >
+	38	forwbranch < 1, 1 > 50.0% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/processor/XSLTAttributeDef;, processYESNO, (Lorg/apache/xalan/processor/StylesheetHandler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean; >
+	7	forwbranch < 2, 2 > 50.0% taken
+	17	forwbranch < 2, 0 > 100.0% taken
+	55	forwbranch < 2, 2 > 50.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/processor/XSLTAttributeDef;, processSTRINGLIST, (Lorg/apache/xalan/processor/StylesheetHandler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/apache/xml/utils/StringVector; >
+	38	forwbranch < 1, 1 > 50.0% taken
+M 14 < SystemAppCL, Lorg/apache/xalan/processor/XSLTAttributeDef;, processAVT_QNAME, (Lorg/apache/xalan/processor/StylesheetHandler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/xalan/templates/ElemTemplateElement;)Ljava/lang/Object; >
+	26	forwbranch < 0, 45 > 0.0% taken
+	40	forwbranch < 45, 0 > 100.0% taken
+	58	forwbranch < 0, 0 > Never Executed
+	87	forwbranch < 0, 45 > 0.0% taken
+	108	forwbranch < 0, 45 > 0.0% taken
+	116	forwbranch < 0, 45 > 0.0% taken
+	124	forwbranch < 45, 0 > 100.0% taken
+M 14 < SystemAppCL, Lorg/apache/xalan/processor/XSLTAttributeDef;, setAttrValue, (Lorg/apache/xalan/processor/StylesheetHandler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/xalan/templates/ElemTemplateElement;)Z >
+	7	forwbranch < 0, 775 > 0.0% taken
+	17	forwbranch < 775, 0 > 100.0% taken
+	31	forwbranch < 0, 775 > 0.0% taken
+	42	forwbranch < 775, 0 > 100.0% taken
+	46	forwbranch < 0, 0 > Never Executed
+	143	forwbranch < 775, 0 > 100.0% taken
+	243	forwbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lorg/apache/xalan/processor/XSLTAttributeDef;, getSetterMethodName, ()Ljava/lang/String; >
+	5	forwbranch < 752, 23 > 97.03226% taken
+	12	forwbranch < 23, 0 > 100.0% taken
+	28	forwbranch < 22, 1 > 95.652176% taken
+	61	forwbranch < 22, 0 > 100.0% taken
+	73	forwbranch < 0, 0 > Never Executed
+	95	forwbranch < 22, 162 > 11.956522% taken
+	112	forwbranch < 157, 5 > 96.91358% taken
+	140	forwbranch < 135, 22 > 85.98726% taken
+M 20 < SystemAppCL, Lorg/apache/xalan/processor/XSLTAttributeDef;, processValue, (Lorg/apache/xalan/processor/StylesheetHandler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/xalan/templates/ElemTemplateElement;)Ljava/lang/Object; >
+	11	switch     < 16, 0, 108, 145, 327, 0, 0, 4, 113, 0, 14, 1, 1, 1, 0, 0, 0, 45, 0, 0 >
+M 36 < SystemAppCL, Lorg/apache/xalan/processor/XSLTAttributeDef;, getPrimativeClass, (Ljava/lang/Object;)Ljava/lang/Class; >
+	4	forwbranch < 303, 472 > 39.096775% taken
+	10	forwbranch < 471, 1 > 99.78814% taken
+	38	forwbranch < 302, 1 > 99.66997% taken
+	56	forwbranch < 303, 0 > 100.0% taken
+	67	forwbranch < 302, 1 > 99.66997% taken
+	85	forwbranch < 303, 0 > 100.0% taken
+	99	forwbranch < 302, 1 > 99.66997% taken
+	117	forwbranch < 299, 4 > 98.67987% taken
+	131	forwbranch < 298, 1 > 99.66555% taken
+	149	forwbranch < 299, 0 > 100.0% taken
+	163	forwbranch < 298, 1 > 99.66555% taken
+	181	forwbranch < 299, 0 > 100.0% taken
+	195	forwbranch < 298, 1 > 99.66555% taken
+	213	forwbranch < 299, 0 > 100.0% taken
+	227	forwbranch < 298, 1 > 99.66555% taken
+	245	forwbranch < 285, 14 > 95.317726% taken
+	259	forwbranch < 284, 1 > 99.649124% taken
+	277	forwbranch < 285, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xml/utils/StringToIntTable;, getIgnoreCase, (Ljava/lang/String;)I >
+	2	forwbranch < 39457, 0 > 100.0% taken
+	16	forwbranch < 18922, 58868 > 24.324463% taken
+	29	forwbranch < 38329, 20592 > 65.051506% taken
+M 4 < SystemAppCL, Lorg/apache/xml/utils/XMLCharacterRecognizer;, isWhiteSpace, (Ljava/lang/StringBuffer;)Z >
+	9	forwbranch < 1173, 8134 > 12.603416% taken
+	20	forwbranch < 8094, 40 > 99.50824% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/templates/ElemTemplateElement;, appendChild, (Lorg/apache/xalan/templates/ElemTemplateElement;)Lorg/apache/xalan/templates/ElemTemplateElement; >
+	2	forwbranch < 1158, 0 > 100.0% taken
+	17	forwbranch < 604, 554 > 52.158894% taken
+M 12 < SystemAppCL, Lorg/apache/xalan/processor/ProcessorCharacters;, startNonText, (Lorg/apache/xalan/processor/StylesheetHandler;)V >
+	5	forwbranch < 0, 1342 > 0.0% taken
+	22	forwbranch < 0, 1342 > 0.0% taken
+	30	forwbranch < 129, 1213 > 9.612518% taken
+	40	forwbranch < 40, 1173 > 3.2976093% taken
+	47	forwbranch < 1173, 0 > 100.0% taken
+	102	forwbranch < 40, 129 > 23.668638% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/IntStack;, push, (I)I >
+	10	forwbranch < 27684, 4 > 99.98555% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/IntStack;, empty, ()Z >
+	4	forwbranch < 596, 0 > 100.0% taken
+M 30 < SystemAppCL, Lorg/apache/xalan/processor/XSLTElementProcessor;, setPropertiesFromAttributes, (Lorg/apache/xalan/processor/StylesheetHandler;Ljava/lang/String;Lorg/xml/sax/Attributes;Lorg/apache/xalan/templates/ElemTemplateElement;Z)Lorg/xml/sax/Attributes; >
+	8	forwbranch < 0, 988 > 0.0% taken
+	57	forwbranch < 988, 667 > 59.697884% taken
+	73	forwbranch < 0, 667 > 0.0% taken
+	81	forwbranch < 0, 667 > 0.0% taken
+	97	forwbranch < 0, 667 > 0.0% taken
+	113	forwbranch < 667, 0 > 100.0% taken
+	144	forwbranch < 667, 0 > 100.0% taken
+	149	forwbranch < 0, 0 > Never Executed
+	250	forwbranch < 0, 667 > 0.0% taken
+	295	forwbranch < 988, 3651 > 21.297693% taken
+	315	forwbranch < 3447, 204 > 94.41249% taken
+	325	forwbranch < 96, 108 > 47.058823% taken
+	341	forwbranch < 3427, 224 > 93.86469% taken
+	351	forwbranch < 224, 0 > 100.0% taken
+	361	forwbranch < 0, 0 > Never Executed
+M 22 < SystemAppCL, Lorg/apache/xalan/templates/ElemTemplateElement;, resolvePrefixTables, ()V >
+	10	forwbranch < 1168, 1 > 99.91446% taken
+	30	forwbranch < 1, 2 > 33.333332% taken
+	63	forwbranch < 2, 0 > 100.0% taken
+	85	forwbranch < 1, 1 > 50.0% taken
+	110	forwbranch < 2, 0 > 100.0% taken
+	174	forwbranch < 2, 1167 > 0.1710864% taken
+	187	forwbranch < 0, 1167 > 0.0% taken
+	194	forwbranch < 0, 1167 > 0.0% taken
+	219	forwbranch < 0, 0 > Never Executed
+	256	forwbranch < 0, 0 > Never Executed
+	300	forwbranch < 1, 1 > 50.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemTemplateElement;, getLastChildElem, ()Lorg/apache/xalan/templates/ElemTemplateElement; >
+	8	forwbranch < 604, 11148 > 5.1395507% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemTemplateElement;, getSystemId, ()Ljava/lang/String; >
+	6	forwbranch < 8494, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/templates/ElemTemplateElement;, setPrefixes, (Lorg/xml/sax/helpers/NamespaceSupport;Z)V >
+	11	forwbranch < 1155, 2 > 99.82714% taken
+	30	forwbranch < 1, 1 > 50.0% taken
+	53	forwbranch < 2, 0 > 100.0% taken
+	63	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/apache/xalan/templates/ElemTemplateElement;, getNamespaceForPrefix, (Ljava/lang/String;)Ljava/lang/String; >
+	7	forwbranch < 28586, 8006 > 78.1209% taken
+	21	forwbranch < 8006, 0 > 100.0% taken
+	33	forwbranch < 8005, 16012 > 33.33056% taken
+	56	forwbranch < 16011, 1 > 99.99375% taken
+	76	forwbranch < 8005, 28586 > 21.876965% taken
+	94	forwbranch < 8005, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, containsExtensionElementURI, (Ljava/lang/String;)Z >
+	5	forwbranch < 0, 262 > 0.0% taken
+M 12 < SystemAppCL, Lorg/apache/xalan/templates/ElemTemplateElement;, excludeResultNSDecl, (Ljava/lang/String;Ljava/lang/String;)Z >
+	1	forwbranch < 0, 2 > 0.0% taken
+	10	forwbranch < 1, 1 > 50.0% taken
+	21	forwbranch < 0, 1 > 0.0% taken
+	30	forwbranch < 0, 1 > 0.0% taken
+	39	forwbranch < 1, 0 > 100.0% taken
+	50	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetRoot;, getNamespaceAliasComposed, (Ljava/lang/String;)Lorg/apache/xalan/templates/NamespaceAlias; >
+	5	forwbranch < 2, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, startPrefixMapping, (Ljava/lang/String;Ljava/lang/String;Z)V >
+	1	forwbranch < 0, 44198 > 0.0% taken
+	13	forwbranch < 0, 44196 > 0.0% taken
+	30	forwbranch < 44247, 0 > 100.0% taken
+	49	forwbranch < 0, 44227 > 0.0% taken
+	58	forwbranch < 44250, 0 > 100.0% taken
+	70	forwbranch < 44287, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/templates/ElemTemplateElement;, compose, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	11	forwbranch < 622, 547 > 53.20787% taken
+	20	forwbranch < 520, 27 > 95.06399% taken
+	27	forwbranch < 0, 27 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/templates/ElemTemplateElement;, executeNSDecls, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	5	forwbranch < 0, 18570 > 0.0% taken
+	28	forwbranch < 18639, 37274 > 33.335716% taken
+	50	forwbranch < 37276, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/templates/ElemTemplateElement;, unexecuteNSDecls, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	5	forwbranch < 0, 42714 > 0.0% taken
+	27	forwbranch < 42946, 85863 > 33.34084% taken
+	49	forwbranch < 85876, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/templates/ElemTemplateElement;, compareTo, (Ljava/lang/Object;)I >
+	25	forwbranch < 1228, 0 > 100.0% taken
+	33	forwbranch < 1228, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/processor/ProcessorCharacters;, characters, (Lorg/apache/xalan/processor/StylesheetHandler;[CII)V >
+	17	forwbranch < 0, 1411 > 0.0% taken
+	33	forwbranch < 69, 1342 > 4.8901486% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, characters, ([CII)V >
+	22	forwbranch < 28802, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemTextLiteral;, getNodeValue, ()Ljava/lang/String; >
+	5	forwbranch < 0, 4 > 0.0% taken
+M 10 < SystemAppCL, Lorg/apache/xalan/templates/ElemTextLiteral;, execute, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	3	forwbranch < 5515, 0 > 100.0% taken
+	23	forwbranch < 5516, 0 > 100.0% taken
+	52	forwbranch < 5518, 0 > 100.0% taken
+	66	forwbranch < 5519, 0 > 100.0% taken
+	94	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, setLocaterInfo, (Ljavax/xml/transform/SourceLocator;)V >
+	2	forwbranch < 0, 1 > 0.0% taken
+	30	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/processor/ProcessorTemplateElem;, appendAndPush, (Lorg/apache/xalan/processor/StylesheetHandler;Lorg/apache/xalan/templates/ElemTemplateElement;)V >
+	7	forwbranch < 0, 850 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, setTemplate, (Lorg/apache/xalan/templates/ElemTemplate;)V >
+	5	forwbranch < 134, 1 > 99.25926% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemLiteralResult;, containsExtensionElementURI, (Ljava/lang/String;)Z >
+	5	forwbranch < 0, 452 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemLiteralResult;, setNamespace, (Ljava/lang/String;)V >
+	2	forwbranch < 261, 0 > 100.0% taken
+M 50 < SystemAppCL, Lorg/apache/xalan/processor/ProcessorLRE;, startElement, (Lorg/apache/xalan/processor/StylesheetHandler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V >
+	15	forwbranch < 261, 0 > 100.0% taken
+	95	forwbranch < 0, 0 > Never Executed
+	205	forwbranch < 0, 0 > Never Executed
+	244	forwbranch < 0, 0 > Never Executed
+	254	forwbranch < 0, 0 > Never Executed
+	295	forwbranch < 0, 0 > Never Executed
+	305	forwbranch < 0, 0 > Never Executed
+	315	forwbranch < 0, 0 > Never Executed
+	396	forwbranch < 0, 0 > Never Executed
+	405	forwbranch < 0, 0 > Never Executed
+	544	forwbranch < 261, 845 > 23.598553% taken
+	552	forwbranch < 654, 191 > 77.39645% taken
+	578	forwbranch < 393, 261 > 60.091743% taken
+	599	forwbranch < 0, 261 > 0.0% taken
+	604	forwbranch < 0, 261 > 0.0% taken
+	613	forwbranch < 0, 261 > 0.0% taken
+	622	forwbranch < 261, 0 > 100.0% taken
+	636	forwbranch < 845, 0 > 100.0% taken
+	657	forwbranch < 261, 0 > 100.0% taken
+	674	forwbranch < 261, 0 > 100.0% taken
+	692	forwbranch < 0, 261 > 0.0% taken
+	752	forwbranch < 0, 261 > 0.0% taken
+	836	forwbranch < 0, 261 > 0.0% taken
+	844	forwbranch < 0, 261 > 0.0% taken
+	860	forwbranch < 261, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/processor/ProcessorLRE;, endElement, (Lorg/apache/xalan/processor/StylesheetHandler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V >
+	11	forwbranch < 0, 261 > 0.0% taken
+	22	forwbranch < 261, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/templates/AVT;, fixupVariables, (Ljava/util/Vector;I)V >
+	5	forwbranch < 146, 21 > 87.42515% taken
+	22	forwbranch < 21, 24 > 46.666668% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemLiteralResult;, addLiteralResultAttribute, (Lorg/apache/xalan/templates/AVT;)V >
+	5	forwbranch < 21, 87 > 19.444445% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/templates/AVT;, getSimpleString, ()Ljava/lang/String; >
+	5	forwbranch < 0, 45 > 0.0% taken
+	18	forwbranch < 0, 0 > Never Executed
+	44	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemLiteralResult;, getPrefix, ()Ljava/lang/String; >
+	19	forwbranch < 93407, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, startElement, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V >
+	4	forwbranch < 853636, 4197 > 99.51074% taken
+	22	forwbranch < 842888, 15053 > 98.24545% taken
+	38	forwbranch < 0, 857859 > 0.0% taken
+	65	forwbranch < 857474, 0 > 100.0% taken
+	91	forwbranch < 857658, 0 > 100.0% taken
+	99	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xalan/templates/ElemUse;, execute, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	3	forwbranch < 44064, 0 > 100.0% taken
+	19	forwbranch < 44075, 0 > 100.0% taken
+	38	forwbranch < 44125, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/templates/AVT;, evaluate, (Lorg/apache/xpath/XPathContext;ILorg/apache/xml/utils/PrefixResolver;)Ljava/lang/String; >
+	10	forwbranch < 478, 4137 > 10.35753% taken
+	32	forwbranch < 0, 478 > 0.0% taken
+	57	forwbranch < 478, 478 > 50.0% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, addAttribute, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V >
+	4	forwbranch < 0, 6548 > 0.0% taken
+	13	forwbranch < 6544, 0 > 100.0% taken
+	25	forwbranch < 0, 6547 > 0.0% taken
+	56	forwbranch < 0, 6551 > 0.0% taken
+M 12 < SystemAppCL, Lorg/apache/xalan/transformer/TransformerImpl;, executeChildTemplates, (Lorg/apache/xalan/templates/ElemTemplateElement;Z)V >
+	7	forwbranch < 957642, 30364 > 96.92674% taken
+	15	forwbranch < 939597, 18549 > 98.06407% taken
+	21	forwbranch < 0, 18551 > 0.0% taken
+	110	forwbranch < 938204, 1711403 > 35.409176% taken
+	114	forwbranch < 1712313, 0 > 100.0% taken
+	123	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, endElement, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V >
+	22	forwbranch < 28980, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/templates/ElemLiteralResult;, compose, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	20	forwbranch < 174, 87 > 66.666664% taken
+	40	forwbranch < 87, 108 > 44.615383% taken
+M 24 < SystemAppCL, Lorg/apache/xalan/templates/ElemLiteralResult;, resolvePrefixTables, ()V >
+	14	forwbranch < 0, 261 > 0.0% taken
+	24	forwbranch < 261, 0 > 100.0% taken
+	38	forwbranch < 0, 0 > Never Executed
+	56	forwbranch < 0, 0 > Never Executed
+	63	forwbranch < 0, 0 > Never Executed
+	112	forwbranch < 174, 87 > 66.666664% taken
+	127	forwbranch < 87, 108 > 44.615383% taken
+	153	forwbranch < 0, 108 > 0.0% taken
+	161	forwbranch < 108, 0 > 100.0% taken
+	177	forwbranch < 0, 0 > Never Executed
+	204	forwbranch < 0, 0 > Never Executed
+	212	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/apache/xalan/templates/ElemLiteralResult;, needToCheckExclude, ()Z >
+	5	forwbranch < 0, 261 > 0.0% taken
+	13	forwbranch < 0, 261 > 0.0% taken
+	20	forwbranch < 0, 261 > 0.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xalan/templates/ElemLiteralResult;, execute, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	49	forwbranch < 6719, 1500 > 81.7496% taken
+	67	forwbranch < 1497, 2752 > 35.23182% taken
+	112	forwbranch < 0, 2755 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/templates/ElemValueOf;, setSelect, (Lorg/apache/xpath/XPath;)V >
+	2	forwbranch < 0, 55 > 0.0% taken
+	13	forwbranch < 0, 55 > 0.0% taken
+	22	forwbranch < 54, 1 > 98.181816% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemValueOf;, compose, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	18	forwbranch < 0, 54 > 0.0% taken
+M 12 < SystemAppCL, Lorg/apache/xalan/templates/ElemValueOf;, execute, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	13	forwbranch < 21595, 0 > 100.0% taken
+	47	forwbranch < 21617, 0 > 100.0% taken
+	70	forwbranch < 21620, 0 > 100.0% taken
+	135	forwbranch < 21621, 0 > 100.0% taken
+	159	forwbranch < 21627, 0 > 100.0% taken
+	212	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xml/utils/QName;, <init>, (Ljava/lang/String;Ljava/lang/String;Z)V >
+	5	forwbranch < 79, 0 > 100.0% taken
+	23	forwbranch < 79, 0 > 100.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xml/utils/QName;, toString, ()Ljava/lang/String; >
+	4	forwbranch < 192, 0 > 100.0% taken
+	43	forwbranch < 151, 41 > 78.645836% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/QName;, toNamespacedString, ()Ljava/lang/String; >
+	4	forwbranch < 1, 0 > 100.0% taken
+M 16 < SystemAppCL, Lorg/apache/xml/utils/QName;, equals, (Ljava/lang/Object;)Z >
+	2	forwbranch < 11354, 0 > 100.0% taken
+	11	forwbranch < 0, 11360 > 0.0% taken
+	41	forwbranch < 5671, 5686 > 49.93396% taken
+	46	forwbranch < 5685, 2 > 99.96483% taken
+	52	forwbranch < 0, 2 > 0.0% taken
+	61	forwbranch < 0, 2 > 0.0% taken
+	69	forwbranch < 0, 5686 > 0.0% taken
+	75	forwbranch < 0, 5684 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/QName;, getLocalPart, (Ljava/lang/String;)Ljava/lang/String; >
+	8	forwbranch < 0, 97262 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/QName;, getPrefixPart, (Ljava/lang/String;)Ljava/lang/String; >
+	8	forwbranch < 35224, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/apache/xpath/XPath;, execute, (Lorg/apache/xpath/XPathContext;ILorg/apache/xml/utils/PrefixResolver;)Lorg/apache/xpath/objects/XObject; >
+	55	forwbranch < 0, 0 > Never Executed
+	91	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 0 > Never Executed
+	124	forwbranch < 0, 0 > Never Executed
+	161	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, addAttribute, (I)V >
+	18	forwbranch < 2500, 0 > 100.0% taken
+	31	forwbranch < 0, 2500 > 0.0% taken
+M 12 < SystemAppCL, Lorg/apache/xalan/templates/ElemNumber;, getCountString, (Lorg/apache/xalan/transformer/TransformerImpl;I)Ljava/lang/String; >
+	19	forwbranch < 4980, 0 > 100.0% taken
+	67	forwbranch < 4981, 0 > 100.0% taken
+	99	forwbranch < 4451, 531 > 89.34163% taken
+	123	forwbranch < 0, 4992 > 0.0% taken
+	139	forwbranch < 4993, 11210 > 30.81528% taken
+	177	forwbranch < 0, 4991 > 0.0% taken
+M 8 < SystemAppCL, Lorg/apache/xpath/XPathContext;, getErrorListener, ()Ljavax/xml/transform/ErrorListener; >
+	5	forwbranch < 15451, 0 > 100.0% taken
+	20	forwbranch < 0, 15461 > 0.0% taken
+	48	forwbranch < 15453, 0 > 100.0% taken
+	56	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xalan/transformer/TransformerImpl;, getCountersTable, ()Lorg/apache/xalan/transformer/CountersTable; >
+	5	forwbranch < 59410, 7017 > 89.43652% taken
+M 20 < SystemAppCL, Lorg/apache/xalan/transformer/CountersTable;, countNode, (Lorg/apache/xpath/XPathContext;Lorg/apache/xalan/templates/ElemNumber;I)I >
+	28	forwbranch < 0, 68755 > 0.0% taken
+	38	forwbranch < 38490, 124905 > 23.556412% taken
+	65	forwbranch < 94655, 30308 > 75.74642% taken
+	84	forwbranch < 35262, 3229 > 91.61102% taken
+	105	forwbranch < 15361, 69352 > 18.13299% taken
+	111	forwbranch < 38489, 30873 > 55.490036% taken
+	121	forwbranch < 7757, 71953 > 9.731526% taken
+	148	forwbranch < 0, 71957 > 0.0% taken
+	165	forwbranch < 48845, 23124 > 67.8695% taken
+	183	forwbranch < 0, 23125 > 0.0% taken
+M 14 < SystemAppCL, Lorg/apache/xalan/templates/ElemNumber;, getMatchingAncestors, (Lorg/apache/xpath/XPathContext;IZ)Lorg/apache/xml/utils/NodeVector; >
+	30	forwbranch < 25540, 92828 > 21.576778% taken
+	38	forwbranch < 92863, 0 > 100.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+	58	forwbranch < 0, 0 > Never Executed
+	67	forwbranch < 92872, 0 > 100.0% taken
+	89	forwbranch < 28564, 64336 > 30.74704% taken
+	99	forwbranch < 61317, 3021 > 95.30449% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/NodeVector;, elementAt, (I)I >
+	5	forwbranch < 49083, 0 > 100.0% taken
+M 32 < SystemAppCL, Lorg/apache/xalan/templates/ElemNumber;, formatNumberList, (Lorg/apache/xalan/transformer/TransformerImpl;[JI)Ljava/lang/String; >
+	34	forwbranch < 0, 3133 > 0.0% taken
+	59	forwbranch < 3133, 0 > 100.0% taken
+	85	forwbranch < 3133, 7021 > 30.854836% taken
+	93	forwbranch < 0, 7024 > 0.0% taken
+	118	forwbranch < 3893, 3133 > 55.40848% taken
+	147	forwbranch < 0, 3890 > 0.0% taken
+	159	forwbranch < 3888, 0 > 100.0% taken
+	196	forwbranch < 0, 3887 > 0.0% taken
+	240	forwbranch < 0, 0 > Never Executed
+	278	forwbranch < 3133, 3892 > 44.597866% taken
+	283	forwbranch < 3891, 0 > 100.0% taken
+	299	forwbranch < 0, 7023 > 0.0% taken
+	304	forwbranch < 3133, 3892 > 44.597866% taken
+	344	forwbranch < 3132, 680 > 82.1616% taken
+	358	forwbranch < 3132, 0 > 100.0% taken
+	373	forwbranch < 3133, 3131 > 50.015965% taken
+M 14 < SystemAppCL, Lorg/apache/xalan/templates/ElemNumber;, getCountMatchPattern, (Lorg/apache/xpath/XPathContext;I)Lorg/apache/xpath/XPath; >
+	14	forwbranch < 362432, 20975 > 94.52931% taken
+	25	switch     < 20989, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	84	forwbranch < 0, 20982 > 0.0% taken
+M 10 < SystemAppCL, Lorg/apache/xalan/templates/ElemNumber;, findAncestor, (Lorg/apache/xpath/XPathContext;Lorg/apache/xpath/XPath;Lorg/apache/xpath/XPath;ILorg/apache/xalan/templates/ElemNumber;)I >
+	11	forwbranch < 0, 43136 > 0.0% taken
+	16	forwbranch < 43147, 0 > 100.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+	38	forwbranch < 0, 43154 > 0.0% taken
+	52	forwbranch < 0, 43151 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/NodeSetDTM;, addElement, (I)V >
+	4	forwbranch < 377493, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/transformer/TransformerImpl;, getMsgMgr, ()Lorg/apache/xalan/transformer/MsgMgr; >
+	5	forwbranch < 25500, 6000 > 80.95238% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/templates/ElemNumber;, getLocale, (Lorg/apache/xalan/transformer/TransformerImpl;I)Ljava/util/Locale; >
+	7	forwbranch < 34749, 0 > 100.0% taken
+	32	forwbranch < 0, 0 > Never Executed
+	52	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemNumber$NumberFormatStringTokenizer;, hasMoreTokens, ()Z >
+	8	forwbranch < 10155, 3133 > 76.42233% taken
+M 10 < SystemAppCL, Lorg/apache/xalan/templates/ElemNumber$NumberFormatStringTokenizer;, nextToken, ()Ljava/lang/String; >
+	8	forwbranch < 73560, 0 > 100.0% taken
+	32	forwbranch < 0, 110344 > 0.0% taken
+	49	forwbranch < 73569, 36805 > 66.65428% taken
+	70	forwbranch < 36813, 36804 > 50.00611% taken
+	87	forwbranch < 0, 36800 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/templates/ElemNumber$NumberFormatStringTokenizer;, isLetterOrDigitAhead, ()Z >
+	10	forwbranch < 17375, 44652 > 28.011995% taken
+	24	forwbranch < 19228, 25439 > 43.04744% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemNumber$NumberFormatStringTokenizer;, nextIsSep, ()Z >
+	14	forwbranch < 0, 21728 > 0.0% taken
+M 18 < SystemAppCL, Lorg/apache/xml/utils/FastStringBuffer;, append, (Ljava/lang/String;)V >
+	1	forwbranch < 272324, 0 > 100.0% taken
+	12	forwbranch < 258872, 13572 > 95.018425% taken
+	41	forwbranch < 258849, 258877 > 49.997295% taken
+	47	forwbranch < 0, 258909 > 0.0% taken
+	86	backbranch < 258827, 0 > 100.0% taken
+	104	forwbranch < 0, 0 > Never Executed
+	156	forwbranch < 0, 0 > Never Executed
+	169	forwbranch < 0, 0 > Never Executed
+	180	forwbranch < 0, 0 > Never Executed
+M 72 < SystemAppCL, Lorg/apache/xalan/templates/ElemNumber;, getFormattedNumber, (Lorg/apache/xalan/transformer/TransformerImpl;ICIJLorg/apache/xml/utils/FastStringBuffer;)V >
+	4	forwbranch < 124401, 0 > 100.0% taken
+	27	switch     < 1031, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 123364 >
+	159	forwbranch < 1029, 2 > 99.806015% taken
+	209	forwbranch < 0, 0 > Never Executed
+	356	forwbranch < 0, 0 > Never Executed
+	366	forwbranch < 0, 0 > Never Executed
+	431	forwbranch < 0, 0 > Never Executed
+	441	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 0, 0 > Never Executed
+	516	forwbranch < 0, 0 > Never Executed
+	581	forwbranch < 0, 0 > Never Executed
+	591	forwbranch < 0, 0 > Never Executed
+	654	forwbranch < 0, 0 > Never Executed
+	664	forwbranch < 0, 0 > Never Executed
+	724	forwbranch < 0, 0 > Never Executed
+	734	forwbranch < 0, 0 > Never Executed
+	794	forwbranch < 0, 0 > Never Executed
+	804	forwbranch < 0, 0 > Never Executed
+	864	forwbranch < 0, 0 > Never Executed
+	874	forwbranch < 0, 0 > Never Executed
+	934	forwbranch < 0, 0 > Never Executed
+	944	forwbranch < 0, 0 > Never Executed
+	1004	forwbranch < 0, 0 > Never Executed
+	1014	forwbranch < 0, 0 > Never Executed
+	1074	forwbranch < 0, 0 > Never Executed
+	1084	forwbranch < 0, 0 > Never Executed
+	1134	forwbranch < 0, 123419 > 0.0% taken
+	1154	forwbranch < 0, 123382 > 0.0% taken
+	1191	forwbranch < 123352, 0 > 100.0% taken
+M 14 < SystemAppCL, Lorg/apache/xalan/templates/ElemNumber;, int2alphaCount, (J[CLorg/apache/xml/utils/FastStringBuffer;)V >
+	19	forwbranch < 1500, 37500 > 3.8461537% taken
+	68	forwbranch < 0, 1500 > 0.0% taken
+	75	forwbranch < 1500, 0 > 100.0% taken
+	84	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 1500, 0 > 100.0% taken
+	122	forwbranch < 0, 0 > Never Executed
+	146	backbranch < 0, 1500 > 0.0% taken
+M 16 < SystemAppCL, Lorg/apache/xalan/templates/ElemNumber;, getNumberFormatter, (Lorg/apache/xalan/transformer/TransformerImpl;I)Ljava/text/DecimalFormat; >
+	21	forwbranch < 107688, 0 > 100.0% taken
+	45	forwbranch < 107688, 0 > 100.0% taken
+	55	forwbranch < 0, 0 > Never Executed
+	64	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 107687, 0 > 100.0% taken
+	126	forwbranch < 107688, 0 > 100.0% taken
+	132	forwbranch < 0, 0 > Never Executed
+	140	forwbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lorg/apache/xml/utils/FastStringBuffer;, append, ([CII)V >
+	6	forwbranch < 60148, 0 > 100.0% taken
+	37	forwbranch < 60302, 105053 > 36.468204% taken
+	44	forwbranch < 47414, 58159 > 44.911102% taken
+	88	backbranch < 60283, 45386 > 57.048897% taken
+	106	forwbranch < 42628, 2773 > 93.892204% taken
+	158	forwbranch < 0, 45397 > 0.0% taken
+	171	forwbranch < 45287, 138 > 99.696205% taken
+	182	forwbranch < 138, 0 > 100.0% taken
+M 16 < SystemAppCL, Lorg/apache/xalan/templates/ElemNumber;, compose, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	20	forwbranch < 3, 11 > 21.428572% taken
+	40	forwbranch < 0, 14 > 0.0% taken
+	60	forwbranch < 13, 1 > 92.85714% taken
+	80	forwbranch < 14, 0 > 100.0% taken
+	100	forwbranch < 14, 0 > 100.0% taken
+	120	forwbranch < 14, 0 > 100.0% taken
+	140	forwbranch < 14, 0 > 100.0% taken
+	160	forwbranch < 14, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/templates/ElemNumber;, execute, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	3	forwbranch < 8526, 0 > 100.0% taken
+	48	forwbranch < 8545, 0 > 100.0% taken
+	79	forwbranch < 0, 0 > Never Executed
+M 32 < SystemAppCL, Lorg/apache/xalan/templates/ElemNumber;, getPreviousNode, (Lorg/apache/xpath/XPathContext;I)I >
+	19	forwbranch < 53468, 0 > 100.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+	46	forwbranch < 0, 0 > Never Executed
+	62	forwbranch < 0, 0 > Never Executed
+	68	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 0, 0 > Never Executed
+	97	forwbranch < 0, 0 > Never Executed
+	112	forwbranch < 0, 0 > Never Executed
+	129	backbranch < 0, 0 > Never Executed
+	144	forwbranch < 0, 0 > Never Executed
+	149	forwbranch < 0, 0 > Never Executed
+	162	forwbranch < 0, 0 > Never Executed
+	176	forwbranch < 17773, 120240 > 12.877772% taken
+	190	backbranch < 17773, 102519 > 14.774881% taken
+	195	forwbranch < 0, 102528 > 0.0% taken
+	208	backbranch < 66826, 35722 > 65.16558% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemNumber;, getTargetNode, (Lorg/apache/xpath/XPathContext;I)I >
+	15	forwbranch < 141532, 0 > 100.0% taken
+M 16 < SystemAppCL, Lorg/apache/xalan/templates/ElemVariable;, rewriteChildToExpression, (Lorg/apache/xalan/templates/ElemTemplateElement;)Lorg/apache/xpath/XPath; >
+	7	forwbranch < 2, 6 > 25.0% taken
+	15	forwbranch < 0, 6 > 0.0% taken
+	26	forwbranch < 6, 0 > 100.0% taken
+	38	forwbranch < 0, 0 > Never Executed
+	45	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 2, 4 > 33.333332% taken
+	93	forwbranch < 0, 4 > 0.0% taken
+	100	forwbranch < 0, 4 > 0.0% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/templates/ElemWithParam;, compose, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	5	forwbranch < 32, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+	21	forwbranch < 0, 0 > Never Executed
+	62	forwbranch < 0, 32 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/templates/ElemWithParam;, getValue, (Lorg/apache/xalan/transformer/TransformerImpl;I)Lorg/apache/xpath/objects/XObject; >
+	17	forwbranch < 0, 21277 > 0.0% taken
+	40	forwbranch < 21291, 0 > 100.0% taken
+	67	forwbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lorg/apache/xalan/templates/ElemCallTemplate;, compose, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	14	forwbranch < 192, 16 > 92.30769% taken
+	41	forwbranch < 175, 17 > 91.145836% taken
+	49	forwbranch < 0, 17 > 0.0% taken
+	72	forwbranch < 17, 0 > 100.0% taken
+	85	forwbranch < 17, 16 > 51.515152% taken
+	116	forwbranch < 0, 32 > 0.0% taken
+	126	forwbranch < 16, 16 > 50.0% taken
+	149	forwbranch < 0, 16 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/transformer/TransformerImpl;, getMode, ()Lorg/apache/xml/utils/QName; >
+	7	forwbranch < 635, 40553 > 1.5417112% taken
+M 58 < SystemAppCL, Lorg/apache/xalan/templates/ElemApplyTemplates;, transformSelectedNodes, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	52	forwbranch < 31223, 0 > 100.0% taken
+	66	forwbranch < 0, 31230 > 0.0% taken
+	84	forwbranch < 31269, 0 > 100.0% taken
+	101	forwbranch < 31280, 0 > 100.0% taken
+	179	forwbranch < 31266, 0 > 100.0% taken
+	205	forwbranch < 0, 0 > Never Executed
+	298	forwbranch < 31236, 79080 > 28.315022% taken
+	323	forwbranch < 79149, 0 > 100.0% taken
+	384	forwbranch < 31776, 47591 > 40.036793% taken
+	389	switch     < 507, 0, 46923, 0, 0, 0, 0, 182, 0, 0, 0, 0 >
+	526	forwbranch < 32278, 0 > 100.0% taken
+	539	forwbranch < 31623, 660 > 97.95558% taken
+	569	forwbranch < 660, 0 > 100.0% taken
+	585	forwbranch < 0, 0 > Never Executed
+	595	forwbranch < 0, 0 > Never Executed
+	612	forwbranch < 0, 0 > Never Executed
+	634	forwbranch < 0, 0 > Never Executed
+	670	forwbranch < 0, 0 > Never Executed
+	703	forwbranch < 32274, 0 > 100.0% taken
+	724	forwbranch < 32303, 41619 > 43.698765% taken
+	774	forwbranch < 32309, 0 > 100.0% taken
+	791	forwbranch < 31659, 660 > 97.957855% taken
+	857	forwbranch < 31233, 0 > 100.0% taken
+	893	forwbranch < 31236, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemCallTemplate;, getParamElemCount, ()I >
+	4	forwbranch < 48, 248526 > 0.019310145% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/objects/XNodeSet;, <init>, (Lorg/apache/xml/dtm/DTMIterator;)V >
+	8	forwbranch < 159403, 0 > 100.0% taken
+	51	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xpath/VariableStack;, link, (I)I >
+	27	forwbranch < 12984, 0 > 100.0% taken
+	76	forwbranch < 12985, 0 > 100.0% taken
+M 29 < SystemAppCL, Lorg/apache/xalan/templates/TemplateList;, getTemplateFast, (Lorg/apache/xpath/XPathContext;IILorg/apache/xml/utils/QName;IZLorg/apache/xml/dtm/DTM;)Lorg/apache/xalan/templates/ElemTemplate; >
+	8	switch     < 40766, 0, 59305, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0 >
+	191	forwbranch < 40785, 59606 > 40.626152% taken
+	203	forwbranch < 0, 59622 > 0.0% taken
+	215	forwbranch < 77240, 0 > 100.0% taken
+	225	forwbranch < 0, 0 > Never Executed
+	260	forwbranch < 30572, 46780 > 39.52322% taken
+	270	forwbranch < 6623, 40152 > 14.159273% taken
+	275	forwbranch < 0, 40153 > 0.0% taken
+	308	backbranch < 36644, 540 > 98.54776% taken
+M 14 < SystemAppCL, Lorg/apache/xalan/transformer/StackGuard;, checkForInfinateLoop, ()V >
+	12	forwbranch < 57978, 0 > 100.0% taken
+	19	forwbranch < 0, 57990 > 0.0% taken
+	31	forwbranch < 0, 0 > Never Executed
+	42	forwbranch < 0, 0 > Never Executed
+	61	forwbranch < 0, 0 > Never Executed
+	69	forwbranch < 0, 0 > Never Executed
+	113	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xpath/XPathContext;, pushRTFContext, ()V >
+	17	forwbranch < 18443, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xpath/XPathContext;, popRTFContext, ()V >
+	13	forwbranch < 0, 3278 > 0.0% taken
+	22	forwbranch < 0, 0 > Never Executed
+	26	forwbranch < 0, 0 > Never Executed
+	52	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xpath/XPathContext;, popContextNodeList, ()V >
+	7	forwbranch < 295726, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/templates/ElemForEach;, compose, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	14	forwbranch < 196, 0 > 100.0% taken
+	45	forwbranch < 17, 179 > 8.67347% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemForEach;, endCompose, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	9	forwbranch < 196, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/templates/ElemTemplate;, execute, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	19	forwbranch < 12762, 0 > 100.0% taken
+	39	forwbranch < 12765, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemCallTemplate;, setParamElem, (Lorg/apache/xalan/templates/ElemWithParam;)V >
+	5	forwbranch < 0, 16 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemForEach;, appendChild, (Lorg/apache/xalan/templates/ElemTemplateElement;)Lorg/apache/xalan/templates/ElemTemplateElement; >
+	8	forwbranch < 20, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemForEach;, getSortElemCount, ()I >
+	4	forwbranch < 0, 392 > 0.0% taken
+M 20 < SystemAppCL, Lorg/apache/xalan/templates/ElemForEach;, transformSelectedNodes, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	25	forwbranch < 0, 30500 > 0.0% taken
+	43	forwbranch < 30500, 0 > 100.0% taken
+	60	forwbranch < 30500, 0 > 100.0% taken
+	168	forwbranch < 30500, 2500 > 92.42424% taken
+	192	forwbranch < 2500, 0 > 100.0% taken
+	223	forwbranch < 2500, 0 > 100.0% taken
+	242	forwbranch < 2500, 2500 > 50.0% taken
+	276	forwbranch < 2500, 0 > 100.0% taken
+	296	forwbranch < 2500, 0 > 100.0% taken
+	343	forwbranch < 30500, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/Expression;, exprSetParent, (Lorg/apache/xpath/ExpressionNode;)V >
+	3	forwbranch < 0, 35401 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/templates/ElemForEach;, execute, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	8	forwbranch < 30496, 0 > 100.0% taken
+	40	forwbranch < 30500, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemCallTemplate;, endCompose, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	9	forwbranch < 192, 16 > 92.30769% taken
+M 14 < SystemAppCL, Lorg/apache/xalan/templates/ElemCallTemplate;, execute, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	3	forwbranch < 3393, 0 > 100.0% taken
+	19	forwbranch < 0, 3393 > 0.0% taken
+	58	forwbranch < 0, 3393 > 0.0% taken
+	78	forwbranch < 0, 3393 > 0.0% taken
+	107	forwbranch < 3391, 3389 > 50.014748% taken
+	124	forwbranch < 0, 3389 > 0.0% taken
+	253	forwbranch < 3387, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemCallTemplate;, appendChild, (Lorg/apache/xalan/templates/ElemTemplateElement;)Lorg/apache/xalan/templates/ElemTemplateElement; >
+	7	forwbranch < 0, 16 > 0.0% taken
+M 16 < SystemAppCL, Lorg/apache/xalan/templates/ElemApplyTemplates;, execute, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	16	forwbranch < 687, 41271 > 1.6373516% taken
+	21	forwbranch < 0, 41277 > 0.0% taken
+	29	forwbranch < 2305, 38991 > 5.5816545% taken
+	34	forwbranch < 38991, 0 > 100.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	61	forwbranch < 41977, 0 > 100.0% taken
+	96	forwbranch < 41982, 0 > 100.0% taken
+	108	forwbranch < 39714, 2306 > 94.51214% taken
+M 42 < SystemAppCL, Lorg/apache/xalan/transformer/TransformerImpl;, applyTemplateToNode, (Lorg/apache/xalan/templates/ElemTemplateElement;Lorg/apache/xalan/templates/ElemTemplate;I)Z >
+	28	forwbranch < 0, 8494 > 0.0% taken
+	35	forwbranch < 0, 8495 > 0.0% taken
+	48	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 8499, 0 > 100.0% taken
+	91	forwbranch < 8496, 0 > 100.0% taken
+	97	forwbranch < 0, 0 > Never Executed
+	125	forwbranch < 8500, 0 > 100.0% taken
+	193	forwbranch < 8498, 0 > 100.0% taken
+	198	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	315	forwbranch < 0, 8498 > 0.0% taken
+	346	forwbranch < 8496, 0 > 100.0% taken
+	351	switch     < 0, 0, 0, 0 >
+	411	forwbranch < 8497, 0 > 100.0% taken
+	454	forwbranch < 8500, 0 > 100.0% taken
+	512	forwbranch < 0, 8499 > 0.0% taken
+M 10 < SystemAppCL, Lorg/apache/xpath/XPath;, bool, (Lorg/apache/xpath/XPathContext;ILorg/apache/xml/utils/PrefixResolver;)Z >
+	52	forwbranch < 0, 0 > Never Executed
+	88	forwbranch < 0, 0 > Never Executed
+	113	forwbranch < 0, 0 > Never Executed
+	121	forwbranch < 0, 0 > Never Executed
+	158	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemIf;, compose, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	18	forwbranch < 0, 48 > 0.0% taken
+M 12 < SystemAppCL, Lorg/apache/xalan/templates/ElemIf;, execute, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	13	forwbranch < 33125, 0 > 100.0% taken
+	31	forwbranch < 0, 0 > Never Executed
+	56	forwbranch < 0, 0 > Never Executed
+	62	forwbranch < 0, 0 > Never Executed
+	82	forwbranch < 0, 0 > Never Executed
+	106	forwbranch < 31318, 1838 > 94.456505% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemWhen;, compose, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	18	forwbranch < 0, 28 > 0.0% taken
+M 24 < SystemAppCL, Lorg/apache/xalan/templates/ElemChoose;, execute, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	3	forwbranch < 15384, 0 > 100.0% taken
+	22	forwbranch < 0, 32662 > 0.0% taken
+	35	forwbranch < 8586, 24097 > 26.270538% taken
+	62	forwbranch < 24103, 0 > 100.0% taken
+	84	forwbranch < 0, 0 > Never Executed
+	112	forwbranch < 0, 0 > Never Executed
+	158	forwbranch < 17297, 6831 > 71.68849% taken
+	176	forwbranch < 0, 8585 > 0.0% taken
+	184	forwbranch < 8585, 0 > 100.0% taken
+	204	forwbranch < 8581, 0 > 100.0% taken
+	225	forwbranch < 0, 0 > Never Executed
+	241	forwbranch < 0, 0 > Never Executed
+M 3 < SystemAppCL, Lorg/apache/xalan/templates/ElemChoose;, appendChild, (Lorg/apache/xalan/templates/ElemTemplateElement;)Lorg/apache/xalan/templates/ElemTemplateElement; >
+	6	switch     < 28, 21, 0 >
+M 34 < SystemAppCL, Lorg/apache/xalan/templates/ElemElement;, execute, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	3	forwbranch < 8265, 0 > 100.0% taken
+	34	forwbranch < 8269, 0 > 100.0% taken
+	63	forwbranch < 0, 8270 > 0.0% taken
+	73	forwbranch < 8270, 0 > 100.0% taken
+	82	forwbranch < 0, 0 > Never Executed
+	117	forwbranch < 0, 8270 > 0.0% taken
+	132	forwbranch < 8270, 0 > 100.0% taken
+	151	forwbranch < 0, 0 > Never Executed
+	156	forwbranch < 0, 0 > Never Executed
+	164	forwbranch < 0, 0 > Never Executed
+	172	forwbranch < 0, 0 > Never Executed
+	203	forwbranch < 0, 0 > Never Executed
+	215	forwbranch < 0, 0 > Never Executed
+	272	forwbranch < 0, 8270 > 0.0% taken
+	280	forwbranch < 0, 8270 > 0.0% taken
+	293	forwbranch < 0, 0 > Never Executed
+	359	forwbranch < 8250, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/transformer/TransformerImpl;, transformToString, (Lorg/apache/xalan/templates/ElemTemplateElement;)Ljava/lang/String; >
+	7	forwbranch < 14483, 0 > 100.0% taken
+	17	forwbranch < 14484, 0 > 100.0% taken
+	23	forwbranch < 0, 0 > Never Executed
+	77	forwbranch < 13843, 644 > 95.554634% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/templates/ElemElement;, compose, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	20	forwbranch < 0, 45 > 0.0% taken
+	40	forwbranch < 45, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/templates/ElemAttribute;, constructNode, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	2	forwbranch < 0, 44428 > 0.0% taken
+	9	forwbranch < 0, 44427 > 0.0% taken
+	20	forwbranch < 0, 44428 > 0.0% taken
+	27	forwbranch < 44430, 0 > 100.0% taken
+M 15 < SystemAppCL, Lorg/apache/xalan/templates/ElemAttribute;, appendChild, (Lorg/apache/xalan/templates/ElemTemplateElement;)Lorg/apache/xalan/templates/ElemTemplateElement; >
+	6	switch     < 0, 16, 0, 21, 0, 1, 7, 20, 0, 0, 0, 0, 0, 20, 0 >
+M 4 < SystemAppCL, Lorg/apache/xalan/templates/ElemAttribute;, setName, (Lorg/apache/xalan/templates/AVT;)V >
+	4	forwbranch < 0, 45 > 0.0% taken
+	16	forwbranch < 45, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/templates/ElemVariable;, getValue, (Lorg/apache/xalan/transformer/TransformerImpl;I)Lorg/apache/xpath/objects/XObject; >
+	17	forwbranch < 0, 8192 > 0.0% taken
+	40	forwbranch < 8192, 0 > 100.0% taken
+	67	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetRoot$ComposeState;, addVariableName, (Lorg/apache/xml/utils/QName;)I >
+	34	forwbranch < 0, 4 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetRoot;, recomposeVariables, (Lorg/apache/xalan/templates/ElemVariable;)V >
+	8	forwbranch < 0, 6 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/templates/ElemVariable;, execute, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	3	forwbranch < 22885, 0 > 100.0% taken
+	47	forwbranch < 22884, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/apache/xalan/templates/ElemVariable;, compose, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	5	forwbranch < 2, 8 > 20.0% taken
+	11	forwbranch < 0, 8 > 0.0% taken
+	21	forwbranch < 4, 4 > 50.0% taken
+	44	forwbranch < 4, 6 > 40.0% taken
+	66	forwbranch < 6, 4 > 60.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemVariable;, endCompose, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	12	forwbranch < 4, 6 > 40.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/VariableStack;, isLocalSet, (I)Z >
+	11	forwbranch < 0, 69426 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemParam;, compose, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	29	forwbranch < 6, 1 > 85.71429% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/templates/ElemParam;, execute, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	3	forwbranch < 54653, 0 > 100.0% taken
+	30	forwbranch < 54693, 0 > 100.0% taken
+	68	forwbranch < 54703, 0 > 100.0% taken
+M 18 < SystemAppCL, Lorg/apache/xalan/transformer/ClonerToResultTree;, cloneToResultTree, (IILorg/apache/xml/dtm/DTM;Lorg/apache/xalan/transformer/ResultTreeHandler;Z)V >
+	1	switch     < 30498, 2500, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	94	forwbranch < 0, 30498 > 0.0% taken
+	128	forwbranch < 30499, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, processNSDecls, (IILorg/apache/xml/dtm/DTM;)V >
+	2	forwbranch < 0, 9394 > 0.0% taken
+	18	forwbranch < 9394, 9394 > 50.0% taken
+	56	forwbranch < 9394, 0 > 100.0% taken
+	89	forwbranch < 0, 0 > Never Executed
+	125	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Lorg/apache/xalan/templates/ElemCopy;, execute, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	36	forwbranch < 0, 13751 > 0.0% taken
+	43	forwbranch < 0, 13751 > 0.0% taken
+	55	forwbranch < 13750, 0 > 100.0% taken
+	80	forwbranch < 1041, 12711 > 7.569808% taken
+	146	forwbranch < 13751, 0 > 100.0% taken
+	163	forwbranch < 0, 0 > Never Executed
+	188	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xalan/transformer/MsgMgr;, message, (Ljavax/xml/transform/SourceLocator;Ljava/lang/String;Z)V >
+	12	forwbranch < 0, 9096 > 0.0% taken
+	35	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xalan/templates/ElemMessage;, execute, (Lorg/apache/xalan/transformer/TransformerImpl;)V >
+	3	forwbranch < 31420, 0 > 100.0% taken
+	37	forwbranch < 31494, 0 > 100.0% taken
+	66	forwbranch < 31492, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/ElemTemplate;, compose, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	20	forwbranch < 2, 133 > 1.4814814% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, getStylesheetComposed, ()Lorg/apache/xalan/templates/StylesheetComposed; >
+	6	forwbranch < 2768, 0 > 100.0% taken
+M 50 < SystemAppCL, Lorg/apache/xml/utils/SystemIDResolver;, getAbsoluteURI, (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	10	forwbranch < 0, 1 > 0.0% taken
+	25	forwbranch < 0, 0 > Never Executed
+	51	forwbranch < 1, 0 > 100.0% taken
+	56	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 0, 0 > Never Executed
+	69	forwbranch < 0, 0 > Never Executed
+	79	forwbranch < 0, 0 > Never Executed
+	112	forwbranch < 1, 0 > 100.0% taken
+	116	forwbranch < 0, 0 > Never Executed
+	124	forwbranch < 0, 0 > Never Executed
+	143	forwbranch < 1, 0 > 100.0% taken
+	153	forwbranch < 0, 0 > Never Executed
+	167	forwbranch < 0, 1 > 0.0% taken
+	177	forwbranch < 1, 0 > 100.0% taken
+	191	forwbranch < 1, 0 > 100.0% taken
+	198	forwbranch < 0, 0 > Never Executed
+	202	forwbranch < 0, 0 > Never Executed
+	271	forwbranch < 0, 1 > 0.0% taken
+	282	forwbranch < 1, 0 > 100.0% taken
+	293	forwbranch < 0, 0 > Never Executed
+	302	forwbranch < 0, 0 > Never Executed
+	313	forwbranch < 0, 0 > Never Executed
+	324	forwbranch < 1, 0 > 100.0% taken
+	333	forwbranch < 0, 0 > Never Executed
+	344	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, setStripSpaces, (Lorg/apache/xalan/templates/WhiteSpaceInfo;)V >
+	5	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/processor/ProcessorStripSpace;, startElement, (Lorg/apache/xalan/processor/StylesheetHandler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V >
+	45	forwbranch < 1, 1 > 50.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/templates/OutputProperties;, setProperty, (Ljava/lang/String;Ljava/lang/String;)V >
+	6	forwbranch < 2, 1 > 66.666664% taken
+	20	forwbranch < 3, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/OutputProperties;, setBooleanProperty, (Ljava/lang/String;Z)V >
+	6	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, setOutput, (Lorg/apache/xalan/templates/OutputProperties;)V >
+	5	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/processor/ProcessorOutputElem;, startElement, (Lorg/apache/xalan/processor/StylesheetHandler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V >
+	75	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, setVariable, (Lorg/apache/xalan/templates/ElemVariable;)V >
+	5	forwbranch < 5, 1 > 83.333336% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, <init>, (Lorg/apache/xalan/templates/Stylesheet;)V >
+	11	forwbranch < 1, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/processor/ProcessorStylesheetElement;, startElement, (Lorg/apache/xalan/processor/StylesheetHandler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V >
+	20	forwbranch < 0, 1 > 0.0% taken
+	67	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xml/utils/BoolStack;, popAndTop, ()Z >
+	14	forwbranch < 0, 370702 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/BoolStack;, peekOrTrue, ()Z >
+	5	forwbranch < 446, 102161 > 0.4346682% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/BoolStack;, isEmpty, ()Z >
+	5	forwbranch < 180917, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/Expression;, assertion, (ZLjava/lang/String;)V >
+	1	forwbranch < 97651, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/objects/XNodeSet;, mutableNodeset, ()Lorg/apache/xpath/NodeSetDTM; >
+	7	forwbranch < 9686, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/functions/FunctionOneArg;, fixupVariables, (Ljava/util/Vector;I)V >
+	5	forwbranch < 15, 61 > 19.736841% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/functions/FunctionOneArg;, setArg, (Lorg/apache/xpath/Expression;I)V >
+	2	forwbranch < 0, 51 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/functions/FunctionOneArg;, callArgVisitors, (Lorg/apache/xpath/XPathVisitor;)V >
+	5	forwbranch < 15, 51 > 22.727272% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/functions/Function;, checkNumberArgs, (I)V >
+	1	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/functions/Function;, callVisitors, (Lorg/apache/xpath/ExpressionOwner;Lorg/apache/xpath/XPathVisitor;)V >
+	6	forwbranch < 0, 67 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/functions/FunctionOneArg;, checkNumberArgs, (I)V >
+	2	forwbranch < 31, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/functions/Function2Args;, fixupVariables, (Ljava/util/Vector;I)V >
+	11	forwbranch < 0, 2 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/functions/Function2Args;, setArg, (Lorg/apache/xpath/Expression;I)V >
+	1	forwbranch < 2, 2 > 50.0% taken
+	15	forwbranch < 0, 2 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/functions/Function2Args;, checkNumberArgs, (I)V >
+	2	forwbranch < 2, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/functions/Function2Args;, callArgVisitors, (Lorg/apache/xpath/XPathVisitor;)V >
+	10	forwbranch < 0, 2 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/compiler/FuncLoader;, getFunction, ()Lorg/apache/xpath/functions/Function; >
+	9	forwbranch < 0, 82 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, getDecimalFormatCount, ()I >
+	5	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/Context2;, <init>, (Lorg/apache/xml/utils/Context2;)V >
+	30	forwbranch < 22824, 13505 > 62.82584% taken
+M 8 < SystemAppCL, Lorg/apache/xml/utils/Context2;, declarePrefix, (Ljava/lang/String;Ljava/lang/String;)V >
+	4	forwbranch < 1, 6800 > 0.01470372% taken
+	15	forwbranch < 1, 6802 > 0.014699398% taken
+	45	forwbranch < 6804, 0 > 100.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xml/utils/Context2;, getURI, (Ljava/lang/String;)Ljava/lang/String; >
+	6	forwbranch < 367, 19640 > 1.834358% taken
+	18	forwbranch < 367, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/Context2;, getDeclaredPrefixes, ()Ljava/util/Enumeration; >
+	4	forwbranch < 1, 91224 > 0.0010961908% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/NamespaceSupport2;, pushContext, ()V >
+	17	forwbranch < 7402, 258 > 96.63185% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/NamespaceSupport2;, popContext, ()V >
+	9	forwbranch < 150144, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xml/utils/NamespaceSupport2;, declarePrefix, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 0, 2 > 0.0% taken
+	15	forwbranch < 2, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xml/utils/Context2;, copyTables, ()V >
+	32	forwbranch < 9731, 0 > 100.0% taken
+	50	forwbranch < 9731, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/URI;, toString, ()Ljava/lang/String; >
+	12	forwbranch < 0, 1 > 0.0% taken
+M 16 < BootstrapCL, Ljavax/xml/transform/sax/SAXSource;, sourceToInputSource, (Ljavax/xml/transform/Source;)Lorg/xml/sax/InputSource; >
+	6	forwbranch < 8466, 0 > 100.0% taken
+	24	forwbranch < 0, 8457 > 0.0% taken
+	38	forwbranch < 1, 8466 > 0.011810559% taken
+	61	forwbranch < 1, 0 > 100.0% taken
+	82	forwbranch < 8493, 0 > 100.0% taken
+	86	forwbranch < 0, 0 > Never Executed
+	103	forwbranch < 8481, 1 > 99.98821% taken
+	107	forwbranch < 0, 1 > 0.0% taken
+M 8 < BootstrapCL, Ljavax/xml/parsers/SAXParserFactory;, getFactoryClassName, (Ljava/lang/ClassLoader;I)Ljava/lang/String; >
+	1	switch     < 3573, 3576, 3567, 0 >
+	115	forwbranch < 0, 3566 > 0.0% taken
+	136	forwbranch < 0, 3576 > 0.0% taken
+M 10 < BootstrapCL, Ljavax/xml/parsers/SAXParserFactory;, newInstance, ()Ljavax/xml/parsers/SAXParserFactory; >
+	8	forwbranch < 8490, 0 > 100.0% taken
+	31	forwbranch < 16973, 8501 > 66.62872% taken
+	35	forwbranch < 0, 8501 > 0.0% taken
+	95	forwbranch < 0, 16972 > 0.0% taken
+	100	backbranch < 16983, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/apache/xerces/jaxp/SAXParserImpl;, <init>, (Lorg/apache/xerces/jaxp/SAXParserFactoryImpl;Ljava/util/Hashtable;Z)V >
+	44	forwbranch < 8477, 0 > 100.0% taken
+	59	forwbranch < 8495, 0 > 100.0% taken
+	73	forwbranch < 8493, 0 > 100.0% taken
+	101	forwbranch < 8472, 0 > 100.0% taken
+	165	forwbranch < 8497, 0 > 100.0% taken
+	187	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xerces/jaxp/SAXParserImpl;, setFeatures, (Ljava/util/Hashtable;)V >
+	1	forwbranch < 8461, 0 > 100.0% taken
+	51	backbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, setErrorHandler, (Lorg/xml/sax/ErrorHandler;)V >
+	19	forwbranch < 8493, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, getErrorHandler, ()Lorg/xml/sax/ErrorHandler; >
+	18	forwbranch < 15660, 0 > 100.0% taken
+	25	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, getEntityResolver, ()Lorg/xml/sax/EntityResolver; >
+	18	forwbranch < 6879, 0 > 100.0% taken
+	25	forwbranch < 0, 0 > Never Executed
+	43	forwbranch < 0, 0 > Never Executed
+M 32 < SystemAppCL, Lorg/apache/xerces/jaxp/SAXParserImpl$JAXPSAXParser;, setProperty, (Ljava/lang/String;Ljava/lang/Object;)V >
+	1	forwbranch < 8485, 0 > 100.0% taken
+	16	forwbranch < 0, 8492 > 0.0% taken
+	25	forwbranch < 8494, 0 > 100.0% taken
+	35	forwbranch < 0, 0 > Never Executed
+	74	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 0 > Never Executed
+	113	forwbranch < 0, 0 > Never Executed
+	144	forwbranch < 0, 0 > Never Executed
+	196	forwbranch < 8496, 0 > 100.0% taken
+	206	forwbranch < 0, 0 > Never Executed
+	250	forwbranch < 0, 0 > Never Executed
+	259	forwbranch < 0, 0 > Never Executed
+	271	forwbranch < 0, 0 > Never Executed
+	344	forwbranch < 0, 8495 > 0.0% taken
+	365	forwbranch < 0, 8494 > 0.0% taken
+	375	forwbranch < 8496, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/jaxp/SAXParserImpl$JAXPSAXParser;, parse, (Lorg/xml/sax/InputSource;)V >
+	4	forwbranch < 0, 8475 > 0.0% taken
+	14	forwbranch < 8485, 0 > 100.0% taken
+	24	forwbranch < 0, 0 > Never Executed
+M 48 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, getFeature, (Ljava/lang/String;)Z >
+	6	forwbranch < 1, 8450 > 0.011832919% taken
+	26	forwbranch < 0, 8491 > 0.0% taken
+	35	forwbranch < 0, 8481 > 0.0% taken
+	57	forwbranch < 0, 0 > Never Executed
+	66	forwbranch < 0, 0 > Never Executed
+	77	forwbranch < 0, 0 > Never Executed
+	86	forwbranch < 0, 0 > Never Executed
+	100	forwbranch < 0, 0 > Never Executed
+	109	forwbranch < 0, 0 > Never Executed
+	126	forwbranch < 0, 0 > Never Executed
+	135	forwbranch < 0, 0 > Never Executed
+	149	forwbranch < 0, 0 > Never Executed
+	158	forwbranch < 0, 0 > Never Executed
+	172	forwbranch < 0, 0 > Never Executed
+	181	forwbranch < 0, 0 > Never Executed
+	195	forwbranch < 0, 0 > Never Executed
+	204	forwbranch < 0, 0 > Never Executed
+	215	forwbranch < 0, 0 > Never Executed
+	224	forwbranch < 0, 0 > Never Executed
+	238	forwbranch < 0, 0 > Never Executed
+	247	forwbranch < 0, 0 > Never Executed
+	256	forwbranch < 0, 0 > Never Executed
+	265	forwbranch < 0, 0 > Never Executed
+	291	forwbranch < 0, 0 > Never Executed
+M 58 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, setFeature, (Ljava/lang/String;Z)V >
+	6	forwbranch < 1, 33941 > 0.0029462024% taken
+	26	forwbranch < 16979, 16966 > 50.01915% taken
+	35	forwbranch < 8491, 8477 > 50.041256% taken
+	61	forwbranch < 8491, 16963 > 33.358215% taken
+	70	forwbranch < 0, 16979 > 0.0% taken
+	96	forwbranch < 8478, 0 > 100.0% taken
+	105	forwbranch < 0, 0 > Never Executed
+	109	forwbranch < 0, 0 > Never Executed
+	149	forwbranch < 8471, 0 > 100.0% taken
+	158	forwbranch < 0, 0 > Never Executed
+	173	forwbranch < 8480, 0 > 100.0% taken
+	182	forwbranch < 0, 0 > Never Executed
+	197	forwbranch < 8479, 0 > 100.0% taken
+	206	forwbranch < 0, 0 > Never Executed
+	210	forwbranch < 0, 0 > Never Executed
+	250	forwbranch < 0, 8466 > 0.0% taken
+	259	forwbranch < 8481, 0 > 100.0% taken
+	274	forwbranch < 8493, 0 > 100.0% taken
+	283	forwbranch < 0, 0 > Never Executed
+	291	forwbranch < 0, 0 > Never Executed
+	314	forwbranch < 8478, 0 > 100.0% taken
+	323	forwbranch < 0, 0 > Never Executed
+	332	forwbranch < 8472, 0 > 100.0% taken
+	341	forwbranch < 0, 0 > Never Executed
+	350	forwbranch < 8460, 0 > 100.0% taken
+	359	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 8461, 0 > 100.0% taken
+	377	forwbranch < 0, 0 > Never Executed
+	435	forwbranch < 0, 0 > Never Executed
+M 20 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, getProperty, (Ljava/lang/String;)Ljava/lang/Object; >
+	6	forwbranch < 0, 8483 > 0.0% taken
+	26	forwbranch < 8491, 0 > 100.0% taken
+	35	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 0, 8491 > 0.0% taken
+	58	forwbranch < 0, 8496 > 0.0% taken
+	72	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 0, 0 > Never Executed
+	95	forwbranch < 0, 0 > Never Executed
+	104	forwbranch < 0, 0 > Never Executed
+	151	forwbranch < 0, 0 > Never Executed
+M 18 < SystemAppCL, Lorg/apache/xerces/jaxp/SAXParserImpl$JAXPSAXParser;, setFeature, (Ljava/lang/String;Z)V >
+	1	forwbranch < 8449, 0 > 100.0% taken
+	18	forwbranch < 8470, 0 > 100.0% taken
+	25	forwbranch < 0, 0 > Never Executed
+	47	forwbranch < 0, 0 > Never Executed
+	55	forwbranch < 0, 0 > Never Executed
+	70	forwbranch < 0, 8475 > 0.0% taken
+	85	forwbranch < 8483, 0 > 100.0% taken
+	105	forwbranch < 0, 8486 > 0.0% taken
+	115	forwbranch < 8490, 0 > 100.0% taken
+M 20 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, setProperty, (Ljava/lang/String;Ljava/lang/Object;)V >
+	6	forwbranch < 0, 1624 > 0.0% taken
+	26	forwbranch < 0, 1626 > 0.0% taken
+	35	forwbranch < 0, 1625 > 0.0% taken
+	93	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	160	forwbranch < 0, 0 > Never Executed
+	169	forwbranch < 0, 0 > Never Executed
+	178	forwbranch < 0, 0 > Never Executed
+	187	forwbranch < 0, 0 > Never Executed
+	245	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, parse, (Lorg/xml/sax/InputSource;)V >
+	56	forwbranch < 0, 0 > Never Executed
+	123	forwbranch < 0, 0 > Never Executed
+	135	forwbranch < 0, 0 > Never Executed
+	161	forwbranch < 0, 0 > Never Executed
+	181	forwbranch < 0, 0 > Never Executed
+	195	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xerces/parsers/SAXParser;, <init>, (Lorg/apache/xerces/util/SymbolTable;Lorg/apache/xerces/xni/grammars/XMLGrammarPool;)V >
+	51	forwbranch < 8479, 0 > 100.0% taken
+	67	forwbranch < 8489, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, startNamespaceMapping, ()V >
+	11	forwbranch < 270375, 1 > 99.99963% taken
+	53	forwbranch < 2, 0 > 100.0% taken
+	73	backbranch < 2, 1 > 66.666664% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, endNamespaceMapping, ()V >
+	11	forwbranch < 266409, 1 > 99.999626% taken
+	43	backbranch < 2, 1 > 66.666664% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/xni/XMLString;, toString, ()Ljava/lang/String; >
+	4	forwbranch < 0, 31218 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, setLexicalHandler, (Lorg/xml/sax/ext/LexicalHandler;)V >
+	4	forwbranch < 8479, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, startDocument, (Lorg/apache/xerces/xni/XMLLocator;Ljava/lang/String;Lorg/apache/xerces/xni/NamespaceContext;Lorg/apache/xerces/xni/Augmentations;)V >
+	9	forwbranch < 645, 0 > 100.0% taken
+	13	forwbranch < 0, 0 > Never Executed
+	47	forwbranch < 0, 646 > 0.0% taken
+	51	forwbranch < 0, 649 > 0.0% taken
+M 8 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, startGeneralEntity, (Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V >
+	2	forwbranch < 53613, 0 > 100.0% taken
+	20	forwbranch < 0, 0 > Never Executed
+	27	forwbranch < 0, 0 > Never Executed
+	47	forwbranch < 6, 53610 > 0.011190689% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, endGeneralEntity, (Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V >
+	1	forwbranch < 53611, 0 > 100.0% taken
+	18	forwbranch < 0, 0 > Never Executed
+	25	forwbranch < 6, 53606 > 0.011191525% taken
+M 26 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, startElement, (Lorg/apache/xerces/xni/QName;Lorg/apache/xerces/xni/XMLAttributes;Lorg/apache/xerces/xni/Augmentations;)V >
+	4	forwbranch < 70746, 0 > 100.0% taken
+	36	forwbranch < 0, 70746 > 0.0% taken
+	43	forwbranch < 0, 70750 > 0.0% taken
+	62	forwbranch < 69699, 988 > 98.60229% taken
+	96	forwbranch < 2, 667 > 0.29895365% taken
+	109	forwbranch < 667, 0 > 100.0% taken
+	125	backbranch < 669, 988 > 40.37417% taken
+	135	forwbranch < 0, 69710 > 0.0% taken
+	169	forwbranch < 0, 13162 > 0.0% taken
+	182	forwbranch < 13161, 0 > 100.0% taken
+	229	backbranch < 13160, 69733 > 15.875888% taken
+	241	forwbranch < 70011, 727 > 98.97227% taken
+	259	forwbranch < 0, 70780 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, characters, (Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V >
+	4	forwbranch < 63834, 0 > 100.0% taken
+	12	forwbranch < 63929, 0 > 100.0% taken
+	40	forwbranch < 0, 63955 > 0.0% taken
+M 10 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, endElement, (Lorg/apache/xerces/xni/QName;Lorg/apache/xerces/xni/Augmentations;)V >
+	4	forwbranch < 26728, 0 > 100.0% taken
+	24	forwbranch < 0, 26715 > 0.0% taken
+	36	forwbranch < 25985, 727 > 97.27837% taken
+	53	forwbranch < 0, 26734 > 0.0% taken
+	87	forwbranch < 0, 26706 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, startCDATA, (Lorg/apache/xerces/xni/Augmentations;)V >
+	4	forwbranch < 0, 43999 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, endCDATA, (Lorg/apache/xerces/xni/Augmentations;)V >
+	4	forwbranch < 0, 43998 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, comment, (Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V >
+	4	forwbranch < 272, 8500 > 3.1007752% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser;, endDocument, (Lorg/apache/xerces/xni/Augmentations;)V >
+	4	forwbranch < 8501, 0 > 100.0% taken
+	20	forwbranch < 0, 8501 > 0.0% taken
+M 30 < SystemAppCL, Lorg/apache/xerces/parsers/ObjectFactory;, createObject, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object; >
+	18	forwbranch < 8501, 0 > 100.0% taken
+	39	forwbranch < 0, 8501 > 0.0% taken
+	130	forwbranch < 8500, 0 > 100.0% taken
+	164	forwbranch < 8501, 0 > 100.0% taken
+	169	forwbranch < 0, 0 > Never Executed
+	186	forwbranch < 0, 0 > Never Executed
+	197	forwbranch < 0, 0 > Never Executed
+	215	forwbranch < 8501, 0 > 100.0% taken
+	232	forwbranch < 8501, 0 > 100.0% taken
+	297	forwbranch < 8501, 0 > 100.0% taken
+	329	forwbranch < 8501, 0 > 100.0% taken
+	411	forwbranch < 0, 0 > Never Executed
+	428	forwbranch < 8501, 0 > 100.0% taken
+	448	forwbranch < 8501, 0 > 100.0% taken
+	455	forwbranch < 8501, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/apache/xerces/parsers/ObjectFactory;, findClassLoader, ()Ljava/lang/ClassLoader; >
+	21	forwbranch < 0, 9297 > 0.0% taken
+	27	forwbranch < 9297, 1 > 99.98924% taken
+	58	forwbranch < 0, 9298 > 0.0% taken
+	64	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/apache/xerces/parsers/ObjectFactory;, findJarServiceProvider, (Ljava/lang/String;)Ljava/lang/Object; >
+	40	forwbranch < 0, 8500 > 0.0% taken
+	46	forwbranch < 8501, 0 > 100.0% taken
+	73	forwbranch < 8501, 0 > 100.0% taken
+	89	forwbranch < 0, 8500 > 0.0% taken
+	190	forwbranch < 0, 0 > Never Executed
+	200	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Lorg/apache/xerces/parsers/ObjectFactory;, findProviderClass, (Ljava/lang/String;Ljava/lang/ClassLoader;Z)Ljava/lang/Class; >
+	5	forwbranch < 8500, 0 > 100.0% taken
+	22	forwbranch < 0, 0 > Never Executed
+	41	forwbranch < 8500, 0 > 100.0% taken
+	66	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	97	forwbranch < 0, 0 > Never Executed
+	112	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xerces/parsers/SecuritySupport$6;, run, ()Ljava/lang/Object; >
+	4	forwbranch < 8501, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/parsers/XML11Configuration;, <init>, (Lorg/apache/xerces/util/SymbolTable;Lorg/apache/xerces/xni/grammars/XMLGrammarPool;Lorg/apache/xerces/xni/parser/XMLComponentManager;)V >
+	625	forwbranch < 0, 7005 > 0.0% taken
+	664	forwbranch < 7008, 0 > 100.0% taken
+	962	forwbranch < 0, 7010 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/util/ParserConfigurationSettings;, addRecognizedFeatures, ([Ljava/lang/String;)V >
+	1	forwbranch < 0, 55134 > 0.0% taken
+	30	forwbranch < 82734, 193008 > 30.004135% taken
+	48	backbranch < 275536, 55163 > 83.319275% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/util/ParserConfigurationSettings;, addRecognizedProperties, ([Ljava/lang/String;)V >
+	1	forwbranch < 0, 65188 > 0.0% taken
+	30	forwbranch < 165951, 154161 > 51.84154% taken
+	48	backbranch < 319924, 65233 > 83.06327% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/parsers/XIncludeAwareParserConfiguration;, setFeature, (Ljava/lang/String;Z)V >
+	6	forwbranch < 69109, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/parsers/XML11Configuration;, setProperty, (Ljava/lang/String;Ljava/lang/Object;)V >
+	48	backbranch < 7284, 1828 > 79.938545% taken
+	94	backbranch < 3655, 1825 > 66.69708% taken
+	145	backbranch < 0, 1826 > 0.0% taken
+M 28 < SystemAppCL, Lorg/apache/xerces/parsers/XML11Configuration;, configurePipeline, ()V >
+	8	forwbranch < 0, 8449 > 0.0% taken
+	37	forwbranch < 0, 8487 > 0.0% taken
+	107	forwbranch < 0, 8491 > 0.0% taken
+	162	forwbranch < 0, 8483 > 0.0% taken
+	190	forwbranch < 0, 8485 > 0.0% taken
+	201	forwbranch < 0, 8490 > 0.0% taken
+	280	forwbranch < 0, 8464 > 0.0% taken
+	311	forwbranch < 0, 0 > Never Executed
+	360	forwbranch < 0, 0 > Never Executed
+	428	forwbranch < 0, 0 > Never Executed
+	464	forwbranch < 8483, 0 > 100.0% taken
+	471	forwbranch < 0, 0 > Never Executed
+	520	forwbranch < 0, 0 > Never Executed
+	580	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xerces/parsers/XML11Configuration;, addCommonComponent, (Lorg/apache/xerces/xni/parser/XMLComponent;)V >
+	8	forwbranch < 16971, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/parsers/XML11Configuration;, setFeature, (Ljava/lang/String;Z)V >
+	48	backbranch < 94381, 23601 > 79.9961% taken
+	94	backbranch < 47206, 23608 > 66.66196% taken
+	145	backbranch < 0, 23607 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager;, getEntityScanner, ()Lorg/apache/xerces/impl/XMLEntityScanner; >
+	4	forwbranch < 42391, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xerces/parsers/XML11Configuration;, addComponent, (Lorg/apache/xerces/xni/parser/XMLComponent;)V >
+	8	forwbranch < 31536, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager;, closeReaders, ()V >
+	34	backbranch < 0, 8500 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/parsers/XML11Configuration;, parse, (Z)Z >
+	4	forwbranch < 0, 3075 > 0.0% taken
+	40	forwbranch < 0, 3078 > 0.0% taken
+	56	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xerces/impl/XMLVersionDetector;, reset, (Lorg/apache/xerces/xni/parser/XMLComponentManager;)V >
+	68	backbranch < 42429, 8497 > 83.315% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/parsers/XML11Configuration;, resetCommon, ()V >
+	37	backbranch < 16967, 8485 > 66.662735% taken
+M 16 < SystemAppCL, Lorg/apache/xerces/impl/XMLVersionDetector;, determineDocVersion, (Lorg/apache/xerces/xni/parser/XMLInputSource;)S >
+	39	forwbranch < 1, 8459 > 0.011820331% taken
+	48	forwbranch < 1, 0 > 100.0% taken
+	72	forwbranch < 1, 0 > 100.0% taken
+	102	forwbranch < 1, 0 > 100.0% taken
+	175	backbranch < 3, 1 > 75.0% taken
+	226	forwbranch < 2, 1 > 66.666664% taken
+	241	backbranch < 3, 0 > 100.0% taken
+	250	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/parsers/XML11Configuration;, reset, ()V >
+	37	backbranch < 33929, 8491 > 79.9835% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/impl/XMLVersionDetector;, startDocumentParsing, (Lorg/apache/xerces/impl/XMLEntityHandler;S)V >
+	2	forwbranch < 0, 6053 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/util/ParserConfigurationSettings;, getFeature, (Ljava/lang/String;)Z >
+	13	forwbranch < 21768, 1611 > 93.1092% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/util/ParserConfigurationSettings;, setFeature, (Ljava/lang/String;Z)V >
+	11	forwbranch < 25488, 50978 > 33.332462% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/impl/dtd/XMLDTDValidator;, <init>, ()V >
+	211	backbranch < 31467, 3936 > 88.8823% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/util/ParserConfigurationSettings;, checkFeature, (Ljava/lang/String;)V >
+	8	forwbranch < 35419, 0 > 100.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xerces/util/ParserConfigurationSettings;, checkProperty, (Ljava/lang/String;)V >
+	8	forwbranch < 135841, 0 > 100.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lorg/apache/xerces/parsers/XML11Configuration;, addRecognizedParamsAndSetDefaults, (Lorg/apache/xerces/xni/parser/XMLComponent;)V >
+	25	forwbranch < 0, 18259 > 0.0% taken
+	52	forwbranch < 27396, 42620 > 39.1282% taken
+	64	forwbranch < 12179, 30447 > 28.571764% taken
+	91	backbranch < 70002, 18271 > 79.30171% taken
+	95	forwbranch < 0, 18271 > 0.0% taken
+	122	forwbranch < 76104, 3046 > 96.15161% taken
+	134	forwbranch < 0, 3046 > 0.0% taken
+	161	backbranch < 79141, 18272 > 81.24275% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/util/ParserConfigurationSettings;, getProperty, (Ljava/lang/String;)Ljava/lang/Object; >
+	10	forwbranch < 16929, 7369 > 69.6724% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/parsers/XML11Configuration;, setDocumentHandler, (Lorg/apache/xerces/xni/XMLDocumentHandler;)V >
+	9	forwbranch < 8483, 0 > 100.0% taken
+	29	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xerces/parsers/XML11Configuration;, parse, (Lorg/apache/xerces/xni/parser/XMLInputSource;)V >
+	4	forwbranch < 8471, 0 > 100.0% taken
+M 46 < SystemAppCL, Lorg/apache/xerces/parsers/XML11Configuration;, checkFeature, (Ljava/lang/String;)V >
+	6	forwbranch < 12478, 10391 > 54.562946% taken
+	26	forwbranch < 10400, 1 > 99.99039% taken
+	35	forwbranch < 0, 1 > 0.0% taken
+	45	forwbranch < 10398, 0 > 100.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+	75	forwbranch < 10400, 0 > 100.0% taken
+	84	forwbranch < 0, 0 > Never Executed
+	105	forwbranch < 10400, 0 > 100.0% taken
+	114	forwbranch < 0, 0 > Never Executed
+	124	forwbranch < 10400, 0 > 100.0% taken
+	133	forwbranch < 0, 0 > Never Executed
+	143	forwbranch < 10400, 0 > 100.0% taken
+	152	forwbranch < 0, 0 > Never Executed
+	173	forwbranch < 6242, 4155 > 60.03655% taken
+	182	forwbranch < 0, 4155 > 0.0% taken
+	192	forwbranch < 6242, 0 > 100.0% taken
+	201	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 6242, 0 > 100.0% taken
+	220	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 6241, 0 > 100.0% taken
+	239	forwbranch < 0, 0 > Never Executed
+	249	forwbranch < 4162, 2081 > 66.666664% taken
+	258	forwbranch < 2081, 0 > 100.0% taken
+M 26 < SystemAppCL, Lorg/apache/xerces/parsers/XML11Configuration;, checkProperty, (Ljava/lang/String;)V >
+	6	forwbranch < 294, 4703 > 5.88353% taken
+	26	forwbranch < 4415, 295 > 93.73673% taken
+	35	forwbranch < 0, 295 > 0.0% taken
+	45	forwbranch < 4423, 0 > 100.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+	64	forwbranch < 4427, 0 > 100.0% taken
+	73	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 4435, 294 > 93.78304% taken
+	103	forwbranch < 294, 0 > 100.0% taken
+	112	forwbranch < 0, 0 > Never Executed
+	122	forwbranch < 4730, 0 > 100.0% taken
+	142	forwbranch < 0, 0 > Never Executed
+	151	forwbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lorg/apache/xerces/parsers/XIncludeAwareParserConfiguration;, configurePipeline, ()V >
+	8	forwbranch < 8460, 0 > 100.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+	63	forwbranch < 0, 0 > Never Executed
+	70	forwbranch < 0, 0 > Never Executed
+	163	forwbranch < 0, 0 > Never Executed
+	193	forwbranch < 0, 0 > Never Executed
+	246	forwbranch < 0, 0 > Never Executed
+	278	forwbranch < 8464, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/parsers/XIncludeAwareParserConfiguration;, getFeature, (Ljava/lang/String;)Z >
+	6	forwbranch < 164347, 28329 > 85.29708% taken
+	20	forwbranch < 164481, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xerces/util/SymbolTable;, <init>, (IF)V >
+	10	forwbranch < 8479, 0 > 100.0% taken
+	43	forwbranch < 0, 8478 > 0.0% taken
+	50	forwbranch < 8488, 0 > 100.0% taken
+	81	forwbranch < 8489, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/util/SymbolTable;, rehash, ()V >
+	115	backbranch < 75, 101 > 42.613636% taken
+	123	backbranch < 101, 1 > 99.01961% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/util/SymbolTable;, hash, ([CII)I >
+	29	backbranch < 407400, 113583 > 78.198326% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/util/SymbolTable;, addSymbol, (Ljava/lang/String;)Ljava/lang/String; >
+	29	forwbranch < 0, 0 > Never Executed
+	43	backbranch < 0, 2 > 0.0% taken
+	54	forwbranch < 2, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/apache/xerces/util/SymbolTable;, addSymbol, ([CII)Ljava/lang/String; >
+	33	forwbranch < 1240, 3007 > 29.19708% taken
+	56	forwbranch < 20615, 6 > 99.9709% taken
+	68	backbranch < 20621, 3001 > 87.29574% taken
+	86	backbranch < 4247, 122 > 97.207596% taken
+	97	forwbranch < 121, 1 > 99.18033% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager;, <init>, (Lorg/apache/xerces/impl/XMLEntityManager;)V >
+	116	forwbranch < 1697, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager;, setScannerVersion, (S)V >
+	2	forwbranch < 0, 20946 > 0.0% taken
+	9	forwbranch < 13984, 7003 > 66.63172% taken
+	65	forwbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager;, expandSystemId, (Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String; >
+	1	forwbranch < 1, 8454 > 0.011827321% taken
+	7	forwbranch < 1, 0 > 100.0% taken
+	27	forwbranch < 0, 0 > Never Executed
+	44	forwbranch < 0, 0 > Never Executed
+	51	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 0, 0 > Never Executed
+	98	forwbranch < 0, 0 > Never Executed
+	164	forwbranch < 0, 0 > Never Executed
+M 134 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager;, setupCurrentEntity, (Ljava/lang/String;Lorg/apache/xerces/xni/parser/XMLInputSource;ZZ)Ljava/lang/String; >
+	26	forwbranch < 8459, 0 > 100.0% taken
+	63	forwbranch < 0, 8472 > 0.0% taken
+	72	forwbranch < 0, 8482 > 0.0% taken
+	83	forwbranch < 8498, 1 > 99.988235% taken
+	109	forwbranch < 0, 1 > 0.0% taken
+	129	forwbranch < 0, 0 > Never Executed
+	199	backbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 0, 0 > Never Executed
+	250	forwbranch < 0, 0 > Never Executed
+	275	forwbranch < 0, 8486 > 0.0% taken
+	306	backbranch < 33985, 8499 > 79.99482% taken
+	312	forwbranch < 0, 8499 > 0.0% taken
+	351	forwbranch < 0, 8468 > 0.0% taken
+	361	forwbranch < 0, 8441 > 0.0% taken
+	399	forwbranch < 8477, 0 > 100.0% taken
+	407	forwbranch < 0, 0 > Never Executed
+	415	forwbranch < 0, 0 > Never Executed
+	474	forwbranch < 0, 0 > Never Executed
+	504	forwbranch < 0, 0 > Never Executed
+	516	backbranch < 0, 0 > Never Executed
+	522	forwbranch < 0, 0 > Never Executed
+	532	forwbranch < 0, 0 > Never Executed
+	542	forwbranch < 0, 0 > Never Executed
+	552	forwbranch < 0, 0 > Never Executed
+	590	forwbranch < 0, 0 > Never Executed
+	620	forwbranch < 0, 0 > Never Executed
+	632	backbranch < 0, 0 > Never Executed
+	647	forwbranch < 0, 0 > Never Executed
+	667	forwbranch < 0, 0 > Never Executed
+	675	forwbranch < 0, 0 > Never Executed
+	695	forwbranch < 0, 0 > Never Executed
+	703	forwbranch < 0, 0 > Never Executed
+	721	forwbranch < 0, 0 > Never Executed
+	738	forwbranch < 0, 0 > Never Executed
+	745	forwbranch < 0, 0 > Never Executed
+	750	forwbranch < 0, 0 > Never Executed
+	757	forwbranch < 0, 0 > Never Executed
+	773	forwbranch < 0, 0 > Never Executed
+	778	forwbranch < 0, 0 > Never Executed
+	785	forwbranch < 0, 0 > Never Executed
+	790	forwbranch < 0, 0 > Never Executed
+	824	forwbranch < 0, 0 > Never Executed
+	854	forwbranch < 0, 0 > Never Executed
+	866	backbranch < 0, 0 > Never Executed
+	877	forwbranch < 0, 0 > Never Executed
+	884	forwbranch < 0, 0 > Never Executed
+	891	forwbranch < 0, 0 > Never Executed
+	898	forwbranch < 0, 0 > Never Executed
+	907	forwbranch < 0, 0 > Never Executed
+	924	forwbranch < 0, 0 > Never Executed
+	931	forwbranch < 0, 0 > Never Executed
+	938	forwbranch < 0, 0 > Never Executed
+	945	forwbranch < 0, 0 > Never Executed
+	975	forwbranch < 0, 0 > Never Executed
+	1005	forwbranch < 0, 0 > Never Executed
+	1017	backbranch < 0, 0 > Never Executed
+	1028	forwbranch < 0, 0 > Never Executed
+	1035	forwbranch < 0, 0 > Never Executed
+	1044	forwbranch < 0, 0 > Never Executed
+	1051	forwbranch < 0, 0 > Never Executed
+	1060	forwbranch < 0, 0 > Never Executed
+	1077	forwbranch < 0, 0 > Never Executed
+	1084	forwbranch < 0, 0 > Never Executed
+	1093	forwbranch < 0, 0 > Never Executed
+	1100	forwbranch < 0, 0 > Never Executed
+	1149	forwbranch < 8492, 0 > 100.0% taken
+M 76 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager;, getEncodingName, ([BI)[Ljava/lang/Object; >
+	2	forwbranch < 8463, 0 > 100.0% taken
+	40	forwbranch < 8483, 0 > 100.0% taken
+	48	forwbranch < 0, 0 > Never Executed
+	71	forwbranch < 8488, 0 > 100.0% taken
+	79	forwbranch < 0, 0 > Never Executed
+	100	forwbranch < 8482, 0 > 100.0% taken
+	130	forwbranch < 8492, 0 > 100.0% taken
+	138	forwbranch < 0, 0 > Never Executed
+	146	forwbranch < 0, 0 > Never Executed
+	165	forwbranch < 8469, 0 > 100.0% taken
+	192	forwbranch < 8486, 0 > 100.0% taken
+	197	forwbranch < 0, 0 > Never Executed
+	202	forwbranch < 0, 0 > Never Executed
+	209	forwbranch < 0, 0 > Never Executed
+	231	forwbranch < 7983, 501 > 94.094765% taken
+	236	forwbranch < 501, 0 > 100.0% taken
+	241	forwbranch < 0, 0 > Never Executed
+	246	forwbranch < 0, 0 > Never Executed
+	266	forwbranch < 8455, 0 > 100.0% taken
+	271	forwbranch < 0, 0 > Never Executed
+	278	forwbranch < 0, 0 > Never Executed
+	283	forwbranch < 0, 0 > Never Executed
+	301	forwbranch < 8460, 0 > 100.0% taken
+	308	forwbranch < 0, 0 > Never Executed
+	313	forwbranch < 0, 0 > Never Executed
+	318	forwbranch < 0, 0 > Never Executed
+	336	forwbranch < 8444, 0 > 100.0% taken
+	343	forwbranch < 0, 0 > Never Executed
+	348	forwbranch < 0, 0 > Never Executed
+	355	forwbranch < 0, 0 > Never Executed
+	377	forwbranch < 7975, 501 > 94.089195% taken
+	382	forwbranch < 501, 0 > 100.0% taken
+	389	forwbranch < 0, 0 > Never Executed
+	394	forwbranch < 0, 0 > Never Executed
+	416	forwbranch < 8445, 0 > 100.0% taken
+	423	forwbranch < 0, 0 > Never Executed
+	431	forwbranch < 0, 0 > Never Executed
+	439	forwbranch < 0, 0 > Never Executed
+M 28 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager;, createReader, (Ljava/io/InputStream;Ljava/lang/String;Ljava/lang/Boolean;)Ljava/io/Reader; >
+	1	forwbranch < 7179, 0 > 100.0% taken
+	23	forwbranch < 0, 7212 > 0.0% taken
+	62	forwbranch < 0, 0 > Never Executed
+	66	forwbranch < 0, 0 > Never Executed
+	77	forwbranch < 0, 0 > Never Executed
+	129	forwbranch < 0, 0 > Never Executed
+	133	forwbranch < 0, 0 > Never Executed
+	144	forwbranch < 0, 0 > Never Executed
+	202	forwbranch < 0, 0 > Never Executed
+	209	forwbranch < 0, 0 > Never Executed
+	214	forwbranch < 0, 0 > Never Executed
+	251	forwbranch < 0, 0 > Never Executed
+	258	forwbranch < 0, 0 > Never Executed
+	304	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager;, reset, ()V >
+	5	forwbranch < 8464, 0 > 100.0% taken
+	55	forwbranch < 0, 8475 > 0.0% taken
+	78	forwbranch < 8494, 0 > 100.0% taken
+	101	forwbranch < 8497, 0 > 100.0% taken
+	147	backbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager;, expandSystemIdStrictOff, (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	14	forwbranch < 0, 1 > 0.0% taken
+	25	forwbranch < 0, 1 > 0.0% taken
+	41	forwbranch < 0, 0 > Never Executed
+	48	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xerces/util/URI;, isAbsoluteURI, ()Z >
+	4	forwbranch < 0, 1 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager$CharacterBufferPool;, returnToPool, (Lorg/apache/xerces/impl/XMLEntityManager$CharacterBuffer;)V >
+	4	forwbranch < 0, 8499 > 0.0% taken
+	18	forwbranch < 0, 8500 > 0.0% taken
+	52	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager;, reset, (Lorg/apache/xerces/xni/parser/XMLComponentManager;)V >
+	16	forwbranch < 4441, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager;, setFeature, (Ljava/lang/String;Z)V >
+	6	forwbranch < 37995, 19002 > 66.6614% taken
+	26	forwbranch < 19001, 0 > 100.0% taken
+	35	forwbranch < 0, 0 > Never Executed
+M 28 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager;, setProperty, (Ljava/lang/String;Ljava/lang/Object;)V >
+	6	forwbranch < 0, 29312 > 0.0% taken
+	26	forwbranch < 29313, 0 > 100.0% taken
+	35	forwbranch < 0, 0 > Never Executed
+	53	forwbranch < 29317, 0 > 100.0% taken
+	62	forwbranch < 0, 0 > Never Executed
+	80	forwbranch < 29322, 0 > 100.0% taken
+	89	forwbranch < 0, 0 > Never Executed
+	107	forwbranch < 29317, 0 > 100.0% taken
+	116	forwbranch < 0, 0 > Never Executed
+	127	forwbranch < 0, 0 > Never Executed
+	137	forwbranch < 0, 0 > Never Executed
+	177	forwbranch < 29317, 0 > 100.0% taken
+	186	forwbranch < 0, 0 > Never Executed
+	202	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager;, getFeatureDefault, (Ljava/lang/String;)Ljava/lang/Boolean; >
+	14	forwbranch < 127430, 50979 > 71.425766% taken
+	31	backbranch < 178350, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager;, getPropertyDefault, (Ljava/lang/String;)Ljava/lang/Object; >
+	14	forwbranch < 40932, 16380 > 71.4196% taken
+	31	backbranch < 57308, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager;, endEntity, ()V >
+	4	forwbranch < 0, 4968 > 0.0% taken
+	45	forwbranch < 0, 4967 > 0.0% taken
+	78	forwbranch < 4968, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager;, <clinit>, ()V >
+	341	backbranch < 32, 1 > 96.969696% taken
+	507	backbranch < 15, 1 > 93.75% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/util/AugmentationsImpl$SmallContainer;, clear, ()V >
+	32	backbranch < 0, 142522 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager$CharacterBufferPool;, getBuffer, (Z)Lorg/apache/xerces/impl/XMLEntityManager$CharacterBuffer; >
+	1	forwbranch < 0, 8451 > 0.0% taken
+	9	forwbranch < 8486, 0 > 100.0% taken
+	47	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityScanner;, load, (IZ)Z >
+	34	forwbranch < 3451, 27604 > 11.112542% taken
+	80	forwbranch < 3449, 27621 > 11.10074% taken
+	85	forwbranch < 0, 27624 > 0.0% taken
+	146	forwbranch < 0, 3449 > 0.0% taken
+	160	forwbranch < 0, 3449 > 0.0% taken
+	185	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xerces/util/XMLChar;, isName, (I)Z >
+	3	forwbranch < 0, 90529 > 0.0% taken
+	14	forwbranch < 23889, 66877 > 26.319326% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/util/XMLChar;, isNameStart, (I)Z >
+	3	forwbranch < 0, 336015 > 0.0% taken
+	13	forwbranch < 9227, 326898 > 2.7451098% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/util/XMLChar;, isNCNameStart, (I)Z >
+	3	forwbranch < 0, 72023 > 0.0% taken
+	14	forwbranch < 0, 72064 > 0.0% taken
+M 8 < SystemAppCL, Lorg/apache/xerces/util/XMLChar;, isContent, (I)Z >
+	3	forwbranch < 0, 825506 > 0.0% taken
+	14	forwbranch < 801908, 34853 > 95.83477% taken
+	20	forwbranch < 34859, 0 > 100.0% taken
+	26	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xerces/util/XMLStringBuffer;, append, ([CII)V >
+	11	forwbranch < 178063, 4408 > 97.584274% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/util/XMLChar;, isInvalid, (I)Z >
+	4	forwbranch < 585051, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/util/XMLChar;, isSpace, (I)Z >
+	3	forwbranch < 274507, 23200 > 92.2071% taken
+	13	forwbranch < 0, 23201 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityScanner;, peekChar, ()I >
+	14	forwbranch < 47416, 75 > 99.84207% taken
+	47	forwbranch < 0, 47512 > 0.0% taken
+	53	forwbranch < 3035, 44587 > 6.373105% taken
+M 16 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityScanner;, scanChar, ()I >
+	14	forwbranch < 437032, 4 > 99.999084% taken
+	52	forwbranch < 728, 437038 > 0.1662989% taken
+	58	forwbranch < 437869, 20 > 99.99543% taken
+	70	forwbranch < 0, 20 > 0.0% taken
+	108	forwbranch < 748, 0 > 100.0% taken
+	132	forwbranch < 728, 20 > 97.3262% taken
+	136	forwbranch < 0, 20 > 0.0% taken
+	163	forwbranch < 20, 0 > 100.0% taken
+M 18 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityScanner;, scanName, ()Ljava/lang/String; >
+	14	forwbranch < 22756, 0 > 100.0% taken
+	44	forwbranch < 0, 22756 > 0.0% taken
+	68	forwbranch < 22758, 0 > 100.0% taken
+	97	forwbranch < 0, 0 > Never Executed
+	153	forwbranch < 40419, 0 > 100.0% taken
+	175	forwbranch < 0, 0 > Never Executed
+	244	forwbranch < 0, 0 > Never Executed
+	268	backbranch < 40419, 22758 > 63.977398% taken
+	297	forwbranch < 0, 22759 > 0.0% taken
+M 28 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityScanner;, scanQName, (Lorg/apache/xerces/xni/QName;)Z >
+	14	forwbranch < 70949, 0 > 100.0% taken
+	44	forwbranch < 0, 70982 > 0.0% taken
+	68	forwbranch < 70729, 302 > 99.57484% taken
+	97	forwbranch < 306, 0 > 100.0% taken
+	166	forwbranch < 185781, 1076 > 99.42416% taken
+	171	forwbranch < 1076, 0 > 100.0% taken
+	206	forwbranch < 186878, 66 > 99.9647% taken
+	230	forwbranch < 66, 0 > 100.0% taken
+	298	forwbranch < 61, 5 > 92.42424% taken
+	314	forwbranch < 66, 0 > 100.0% taken
+	338	backbranch < 186871, 70989 > 72.46995% taken
+	368	forwbranch < 0, 71013 > 0.0% taken
+	398	forwbranch < 69879, 1076 > 98.48354% taken
+	452	forwbranch < 1076, 0 > 100.0% taken
+M 42 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityScanner;, scanContent, (Lorg/apache/xerces/xni/XMLString;)I >
+	14	forwbranch < 34622, 356 > 98.982216% taken
+	43	forwbranch < 34621, 2 > 99.994225% taken
+	128	forwbranch < 6601, 28458 > 18.82826% taken
+	134	forwbranch < 16514, 11975 > 57.966232% taken
+	139	forwbranch < 0, 11972 > 0.0% taken
+	168	forwbranch < 25708, 13052 > 66.32611% taken
+	173	forwbranch < 0, 13052 > 0.0% taken
+	214	forwbranch < 13047, 0 > 100.0% taken
+	271	forwbranch < 0, 0 > Never Executed
+	294	forwbranch < 0, 13051 > 0.0% taken
+	325	forwbranch < 18556, 7169 > 72.132164% taken
+	366	forwbranch < 7169, 0 > 100.0% taken
+	423	forwbranch < 0, 0 > Never Executed
+	461	backbranch < 20197, 12 > 99.94062% taken
+	494	backbranch < 20204, 18559 > 52.12187% taken
+	524	forwbranch < 18560, 1 > 99.99461% taken
+	570	forwbranch < 733881, 34609 > 95.49649% taken
+	603	backbranch < 762388, 356 > 99.95332% taken
+	662	forwbranch < 356, 34651 > 1.0169395% taken
+	684	forwbranch < 29601, 5080 > 85.35221% taken
+	689	forwbranch < 0, 5080 > 0.0% taken
+M 50 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityScanner;, scanLiteral, (ILorg/apache/xerces/xni/XMLString;)I >
+	14	forwbranch < 12657, 89 > 99.30174% taken
+	43	forwbranch < 12635, 22 > 99.82618% taken
+	130	forwbranch < 0, 12751 > 0.0% taken
+	137	forwbranch < 12751, 0 > 100.0% taken
+	142	forwbranch < 0, 0 > Never Executed
+	173	forwbranch < 0, 0 > Never Executed
+	178	forwbranch < 0, 0 > Never Executed
+	219	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 0, 0 > Never Executed
+	299	forwbranch < 0, 0 > Never Executed
+	331	forwbranch < 0, 0 > Never Executed
+	372	forwbranch < 0, 0 > Never Executed
+	429	forwbranch < 0, 0 > Never Executed
+	467	backbranch < 0, 0 > Never Executed
+	500	backbranch < 0, 0 > Never Executed
+	530	forwbranch < 0, 0 > Never Executed
+	576	forwbranch < 207445, 12240 > 94.42838% taken
+	586	forwbranch < 12240, 0 > 100.0% taken
+	591	forwbranch < 0, 0 > Never Executed
+	598	forwbranch < 25, 207493 > 0.012047147% taken
+	606	forwbranch < 207118, 398 > 99.808205% taken
+	639	backbranch < 219644, 88 > 99.95995% taken
+	698	forwbranch < 88, 12663 > 0.690142% taken
+	721	forwbranch < 423, 12240 > 3.3404408% taken
+	731	forwbranch < 12241, 0 > 100.0% taken
+M 60 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityScanner;, scanData, (Ljava/lang/String;Lorg/apache/xerces/util/XMLStringBuffer;)Z >
+	38	forwbranch < 28025, 0 > 100.0% taken
+	149	forwbranch < 28025, 32 > 99.88595% taken
+	154	backbranch < 32, 0 > 100.0% taken
+	174	forwbranch < 28025, 0 > 100.0% taken
+	325	forwbranch < 7788, 20239 > 27.78749% taken
+	332	forwbranch < 4116, 16123 > 20.336973% taken
+	337	forwbranch < 0, 16124 > 0.0% taken
+	368	forwbranch < 31664, 16333 > 65.97079% taken
+	373	forwbranch < 0, 16333 > 0.0% taken
+	414	forwbranch < 16333, 0 > 100.0% taken
+	472	forwbranch < 0, 0 > Never Executed
+	495	forwbranch < 0, 16333 > 0.0% taken
+	527	forwbranch < 23878, 7788 > 75.4058% taken
+	568	forwbranch < 7788, 0 > 100.0% taken
+	635	forwbranch < 0, 0 > Never Executed
+	673	backbranch < 24091, 32 > 99.86735% taken
+	707	backbranch < 24118, 23908 > 50.21863% taken
+	738	forwbranch < 23874, 32 > 99.86614% taken
+	786	forwbranch < 841946, 4875 > 99.42432% taken
+	820	forwbranch < 4875, 0 > 100.0% taken
+	872	forwbranch < 3692, 1183 > 75.73333% taken
+	898	backbranch < 4874, 3692 > 56.89937% taken
+	913	forwbranch < 1183, 3692 > 24.266666% taken
+	925	forwbranch < 7788, 834322 > 0.9248198% taken
+	930	forwbranch < 0, 834655 > 0.0% taken
+	937	forwbranch < 818354, 16124 > 98.06777% taken
+	961	forwbranch < 816179, 0 > 100.00001% taken
+	1037	backbranch < 846726, 394 > 99.95349% taken
+	1070	forwbranch < 24305, 3692 > 86.812874% taken
+	1096	forwbranch < 3692, 24306 > 13.186656% taken
+M 16 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityScanner;, skipChar, (I)Z >
+	14	forwbranch < 129569, 41 > 99.96837% taken
+	42	forwbranch < 78138, 52523 > 59.802082% taken
+	61	forwbranch < 52521, 0 > 100.0% taken
+	106	forwbranch < 78173, 0 > 100.0% taken
+	112	forwbranch < 0, 0 > Never Executed
+	122	forwbranch < 0, 0 > Never Executed
+	139	forwbranch < 0, 0 > Never Executed
+	190	forwbranch < 0, 0 > Never Executed
+M 26 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityScanner;, skipSpaces, ()Z >
+	14	forwbranch < 348537, 101 > 99.97103% taken
+	44	forwbranch < 320974, 28394 > 91.87275% taken
+	60	forwbranch < 475, 28792 > 1.6229883% taken
+	64	forwbranch < 0, 28793 > 0.0% taken
+	70	forwbranch < 27367, 1430 > 95.0342% taken
+	110	forwbranch < 1810, 95 > 95.01312% taken
+	132	forwbranch < 0, 0 > Never Executed
+	154	forwbranch < 380, 1430 > 20.994474% taken
+	158	forwbranch < 0, 1431 > 0.0% taken
+	185	forwbranch < 1431, 0 > 100.0% taken
+	218	forwbranch < 0, 29173 > 0.0% taken
+	248	forwbranch < 28456, 717 > 97.54225% taken
+	278	backbranch < 870, 27584 > 3.0575666% taken
+M 26 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityScanner;, skipDeclSpaces, ()Z >
+	14	forwbranch < 3, 4 > 42.857143% taken
+	44	forwbranch < 5, 2 > 71.42857% taken
+	60	forwbranch < 0, 2 > 0.0% taken
+	64	forwbranch < 0, 2 > 0.0% taken
+	70	forwbranch < 2, 0 > 100.0% taken
+	110	forwbranch < 0, 0 > Never Executed
+	132	forwbranch < 0, 0 > Never Executed
+	154	forwbranch < 0, 0 > Never Executed
+	158	forwbranch < 0, 0 > Never Executed
+	185	forwbranch < 0, 0 > Never Executed
+	218	forwbranch < 0, 2 > 0.0% taken
+	248	forwbranch < 1, 1 > 50.0% taken
+	278	backbranch < 0, 2 > 0.0% taken
+M 12 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityScanner;, skipString, (Ljava/lang/String;)Z >
+	14	forwbranch < 8046, 48 > 99.40697% taken
+	65	forwbranch < 31477, 87 > 99.72437% taken
+	89	forwbranch < 8020, 23538 > 25.413525% taken
+	106	forwbranch < 23517, 27 > 99.88532% taken
+	149	forwbranch < 27, 0 > 100.0% taken
+	189	backbranch < 31565, 8013 > 79.75391% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityScanner;, getPublicId, ()Ljava/lang/String; >
+	4	forwbranch < 0, 137 > 0.0% taken
+	14	forwbranch < 0, 137 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityScanner;, getExpandedSystemId, ()Ljava/lang/String; >
+	4	forwbranch < 0, 137 > 0.0% taken
+	14	forwbranch < 0, 137 > 0.0% taken
+	29	forwbranch < 0, 137 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityScanner;, getLineNumber, ()I >
+	4	forwbranch < 0, 1157 > 0.0% taken
+	14	forwbranch < 0, 1157 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityScanner;, getColumnNumber, ()I >
+	4	forwbranch < 0, 1157 > 0.0% taken
+	14	forwbranch < 0, 1157 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/impl/XMLErrorReporter;, setFeature, (Ljava/lang/String;Z)V >
+	6	forwbranch < 9392, 4698 > 66.6572% taken
+	26	forwbranch < 4698, 0 > 100.0% taken
+	35	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xerces/impl/XMLErrorReporter;, setProperty, (Ljava/lang/String;Ljava/lang/Object;)V >
+	6	forwbranch < 0, 36393 > 0.0% taken
+	26	forwbranch < 20795, 15599 > 57.13854% taken
+	35	forwbranch < 10402, 5196 > 66.688034% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLErrorReporter;, getFeatureDefault, (Ljava/lang/String;)Ljava/lang/Boolean; >
+	14	forwbranch < 0, 4009 > 0.0% taken
+	31	backbranch < 4002, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLErrorReporter;, getPropertyDefault, (Ljava/lang/String;)Ljava/lang/Object; >
+	14	forwbranch < 0, 8478 > 0.0% taken
+	31	backbranch < 8469, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl$ElementStack;, pushElement, (Lorg/apache/xerces/xni/QName;)Lorg/apache/xerces/xni/QName; >
+	9	forwbranch < 9839, 0 > 100.0% taken
+	72	backbranch < 0, 0 > Never Executed
+M 44 < SystemAppCL, Lorg/apache/xerces/impl/XMLNSDocumentScannerImpl;, scanAttribute, (Lorg/apache/xerces/util/XMLAttributesImpl;)V >
+	29	forwbranch < 21852, 0 > 100.0% taken
+	74	forwbranch < 0, 21848 > 0.0% taken
+	120	forwbranch < 0, 0 > Never Executed
+	157	forwbranch < 21854, 0 > 100.0% taken
+	164	forwbranch < 0, 0 > Never Executed
+	220	forwbranch < 21573, 279 > 98.72323% taken
+	245	forwbranch < 0, 21856 > 0.0% taken
+	264	forwbranch < 21190, 665 > 96.957214% taken
+	287	forwbranch < 2, 21852 > 0.009151643% taken
+	295	forwbranch < 663, 21188 > 3.0341861% taken
+	303	forwbranch < 21190, 0 > 100.0% taken
+	322	forwbranch < 0, 2 > 0.0% taken
+	330	forwbranch < 2, 0 > 100.0% taken
+	361	forwbranch < 2, 0 > 100.0% taken
+	392	forwbranch < 2, 0 > 100.0% taken
+	400	forwbranch < 0, 0 > Never Executed
+	434	forwbranch < 2, 0 > 100.0% taken
+	465	forwbranch < 0, 2 > 0.0% taken
+	483	forwbranch < 2, 0 > 100.0% taken
+	491	forwbranch < 0, 0 > Never Executed
+	528	forwbranch < 0, 2 > 0.0% taken
+	570	forwbranch < 21191, 663 > 96.96623% taken
+M 20 < SystemAppCL, Lorg/apache/xerces/util/XMLAttributesImpl;, checkDuplicatesNS, ()Lorg/apache/xerces/xni/QName; >
+	6	forwbranch < 0, 36111 > 0.0% taken
+	51	forwbranch < 38666, 0 > 100.0% taken
+	69	forwbranch < 0, 0 > Never Executed
+	86	backbranch < 38667, 37133 > 51.011875% taken
+	99	backbranch < 37132, 36111 > 50.696995% taken
+	160	forwbranch < 0, 0 > Never Executed
+	214	forwbranch < 0, 0 > Never Executed
+	232	forwbranch < 0, 0 > Never Executed
+	249	backbranch < 0, 0 > Never Executed
+	273	backbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xerces/util/XMLAttributesImpl;, addAttributeNS, (Lorg/apache/xerces/xni/QName;Ljava/lang/String;Ljava/lang/String;)V >
+	22	forwbranch < 117388, 1 > 99.999146% taken
+	31	forwbranch < 0, 1 > 0.0% taken
+	107	backbranch < 4, 1 > 80.0% taken
+M 86 < SystemAppCL, Lorg/apache/xerces/impl/XMLScanner;, scanAttributeValue, (Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/XMLString;Ljava/lang/String;ZLjava/lang/String;)Z >
+	13	forwbranch < 0, 202449 > 0.0% taken
+	20	forwbranch < 202455, 0 > 100.0% taken
+	75	forwbranch < 4501, 197947 > 2.2232869% taken
+	87	forwbranch < 0, 198008 > 0.0% taken
+	108	forwbranch < 198019, 0 > 100.0% taken
+	158	forwbranch < 0, 4501 > 0.0% taken
+	185	forwbranch < 7184, 1 > 99.986084% taken
+	204	forwbranch < 0, 1 > 0.0% taken
+	225	forwbranch < 1, 0 > 100.0% taken
+	234	forwbranch < 0, 0 > Never Executed
+	263	forwbranch < 0, 0 > Never Executed
+	280	forwbranch < 1, 0 > 100.0% taken
+	299	forwbranch < 0, 1 > 0.0% taken
+	320	forwbranch < 1, 0 > 100.0% taken
+	347	forwbranch < 0, 1 > 0.0% taken
+	364	forwbranch < 1, 0 > 100.0% taken
+	384	forwbranch < 1, 0 > 100.0% taken
+	404	forwbranch < 1, 0 > 100.0% taken
+	424	forwbranch < 0, 1 > 0.0% taken
+	444	forwbranch < 0, 0 > Never Executed
+	468	forwbranch < 0, 0 > Never Executed
+	498	forwbranch < 0, 0 > Never Executed
+	503	forwbranch < 0, 0 > Never Executed
+	510	forwbranch < 0, 0 > Never Executed
+	569	forwbranch < 7184, 0 > 100.0% taken
+	605	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 376, 6808 > 5.233853% taken
+	632	forwbranch < 6735, 73 > 98.927734% taken
+	659	forwbranch < 0, 449 > 0.0% taken
+	679	forwbranch < 5222, 1513 > 77.53526% taken
+	686	forwbranch < 1493, 20 > 98.67812% taken
+	712	forwbranch < 0, 5242 > 0.0% taken
+	730	forwbranch < 1493, 0 > 100.0% taken
+	738	forwbranch < 0, 0 > Never Executed
+	756	forwbranch < 0, 0 > Never Executed
+	776	forwbranch < 0, 0 > Never Executed
+	796	forwbranch < 1493, 0 > 100.0% taken
+	805	forwbranch < 0, 0 > Never Executed
+	851	forwbranch < 0, 0 > Never Executed
+	882	forwbranch < 0, 7185 > 0.0% taken
+	902	backbranch < 2684, 4501 > 37.355602% taken
+	911	backbranch < 0, 4501 > 0.0% taken
+	956	forwbranch < 4501, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/util/XMLAttributesImpl;, setNonNormalizedValue, (ILjava/lang/String;)V >
+	1	forwbranch < 3506, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentScannerImpl;, reset, (Lorg/apache/xerces/xni/parser/XMLComponentManager;)V >
+	39	forwbranch < 8067, 0 > 100.0% taken
+	169	forwbranch < 8093, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl;, reset, (Lorg/apache/xerces/xni/parser/XMLComponentManager;)V >
+	66	forwbranch < 0, 8461 > 0.0% taken
+	104	forwbranch < 8457, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl;, setFeature, (Ljava/lang/String;Z)V >
+	12	forwbranch < 22877, 11444 > 66.65598% taken
+	32	forwbranch < 7629, 3811 > 66.687065% taken
+	41	forwbranch < 0, 3812 > 0.0% taken
+M 12 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl;, setProperty, (Ljava/lang/String;Ljava/lang/Object;)V >
+	12	forwbranch < 0, 35170 > 0.0% taken
+	32	forwbranch < 35176, 0 > 100.0% taken
+	41	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 35180, 0 > 100.0% taken
+	68	forwbranch < 0, 0 > Never Executed
+	76	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl;, getFeatureDefault, (Ljava/lang/String;)Ljava/lang/Boolean; >
+	14	forwbranch < 50972, 33972 > 60.00659% taken
+	31	backbranch < 84921, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl;, getPropertyDefault, (Ljava/lang/String;)Ljava/lang/Object; >
+	14	forwbranch < 23881, 15912 > 60.01307% taken
+	31	backbranch < 39787, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl;, startEntity, (Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V >
+	9	forwbranch < 8441, 0 > 100.0% taken
+	71	forwbranch < 8491, 0 > 100.0% taken
+	82	forwbranch < 0, 0 > Never Executed
+	103	forwbranch < 0, 8472 > 0.0% taken
+	110	forwbranch < 0, 8484 > 0.0% taken
+	119	forwbranch < 8458, 0 > 100.0% taken
+M 14 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl;, endEntity, (Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V >
+	4	forwbranch < 8501, 0 > 100.0% taken
+	14	forwbranch < 0, 0 > Never Executed
+	21	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 8501, 0 > 100.0% taken
+	79	forwbranch < 0, 8501 > 0.0% taken
+	86	forwbranch < 0, 8501 > 0.0% taken
+	95	forwbranch < 8500, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl$ElementStack;, <init>, ()V >
+	40	backbranch < 6472, 648 > 90.89888% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/impl/XMLScanner;, reset, (Lorg/apache/xerces/xni/parser/XMLComponentManager;)V >
+	25	forwbranch < 4170, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLScanner;, setFeature, (Ljava/lang/String;Z)V >
+	6	forwbranch < 135931, 16978 > 88.89667% taken
+	23	forwbranch < 135943, 0 > 100.0% taken
+M 14 < SystemAppCL, Lorg/apache/xerces/impl/XMLScanner;, setProperty, (Ljava/lang/String;Ljava/lang/Object;)V >
+	6	forwbranch < 0, 103639 > 0.0% taken
+	26	forwbranch < 103673, 0 > 100.0% taken
+	35	forwbranch < 0, 0 > Never Executed
+	55	forwbranch < 103701, 0 > 100.0% taken
+	64	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 103713, 0 > 100.0% taken
+	93	forwbranch < 0, 0 > Never Executed
+M 72 < SystemAppCL, Lorg/apache/xerces/impl/XMLScanner;, scanXMLDeclOrTextDecl, (Z[Ljava/lang/String;)V >
+	64	switch     < 1, 0, 0, 0 >
+	97	forwbranch < 0, 1 > 0.0% taken
+	102	forwbranch < 1, 0 > 100.0% taken
+	107	forwbranch < 0, 0 > Never Executed
+	137	forwbranch < 1, 0 > 100.0% taken
+	164	forwbranch < 0, 0 > Never Executed
+	168	forwbranch < 0, 0 > Never Executed
+	180	forwbranch < 0, 0 > Never Executed
+	185	forwbranch < 0, 0 > Never Executed
+	209	forwbranch < 0, 0 > Never Executed
+	223	forwbranch < 0, 0 > Never Executed
+	251	forwbranch < 0, 0 > Never Executed
+	256	forwbranch < 0, 0 > Never Executed
+	261	forwbranch < 0, 0 > Never Executed
+	285	forwbranch < 0, 0 > Never Executed
+	299	forwbranch < 0, 0 > Never Executed
+	307	forwbranch < 0, 0 > Never Executed
+	312	forwbranch < 0, 0 > Never Executed
+	341	forwbranch < 0, 0 > Never Executed
+	351	forwbranch < 0, 0 > Never Executed
+	387	forwbranch < 0, 0 > Never Executed
+	392	forwbranch < 0, 0 > Never Executed
+	421	forwbranch < 0, 0 > Never Executed
+	431	forwbranch < 0, 0 > Never Executed
+	487	backbranch < 1, 1 > 50.0% taken
+	492	forwbranch < 1, 0 > 100.0% taken
+	502	forwbranch < 1, 0 > 100.0% taken
+	508	forwbranch < 0, 0 > Never Executed
+	519	forwbranch < 1, 0 > 100.0% taken
+	524	forwbranch < 0, 0 > Never Executed
+	529	forwbranch < 0, 0 > Never Executed
+	544	forwbranch < 1, 0 > 100.0% taken
+	548	forwbranch < 0, 0 > Never Executed
+	567	forwbranch < 1, 0 > 100.0% taken
+	586	forwbranch < 1, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/apache/xerces/impl/XMLScanner;, scanComment, (Lorg/apache/xerces/util/XMLStringBuffer;)V >
+	17	forwbranch < 0, 1716 > 0.0% taken
+	24	forwbranch < 1716, 0 > 100.0% taken
+	41	forwbranch < 1716, 0 > 100.0% taken
+	79	backbranch < 1716, 872 > 66.30603% taken
+	91	forwbranch < 872, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/util/XMLStringBuffer;, append, (C)V >
+	11	forwbranch < 28432, 0 > 100.0% taken
+	31	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xerces/util/XMLStringBuffer;, append, (Ljava/lang/String;)V >
+	16	forwbranch < 1, 0 > 100.0% taken
+	37	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xerces/util/XMLChar;, isHighSurrogate, (I)Z >
+	3	forwbranch < 1716, 0 > 100.0% taken
+	9	forwbranch < 0, 0 > Never Executed
+M 78 < SystemAppCL, Lorg/apache/xerces/impl/XMLScanner;, scanCharReferenceValue, (Lorg/apache/xerces/util/XMLStringBuffer;Lorg/apache/xerces/util/XMLStringBuffer;)I >
+	11	forwbranch < 17, 2557 > 0.66045064% taken
+	15	forwbranch < 2557, 0 > 100.0% taken
+	49	forwbranch < 0, 2557 > 0.0% taken
+	56	forwbranch < 2500, 57 > 97.77083% taken
+	63	forwbranch < 0, 57 > 0.0% taken
+	70	forwbranch < 57, 0 > 100.0% taken
+	77	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 0 > Never Executed
+	96	forwbranch < 0, 2557 > 0.0% taken
+	100	forwbranch < 2557, 0 > 100.0% taken
+	141	forwbranch < 0, 10114 > 0.0% taken
+	148	forwbranch < 5056, 5058 > 49.990112% taken
+	155	forwbranch < 5057, 1 > 99.98023% taken
+	162	forwbranch < 1, 0 > 100.0% taken
+	169	forwbranch < 2557, 2500 > 50.563576% taken
+	176	forwbranch < 0, 2500 > 0.0% taken
+	188	forwbranch < 2557, 7557 > 25.281788% taken
+	192	forwbranch < 7557, 0 > 100.0% taken
+	222	backbranch < 7557, 2557 > 74.718216% taken
+	261	forwbranch < 0, 17 > 0.0% taken
+	268	forwbranch < 0, 17 > 0.0% taken
+	280	forwbranch < 0, 17 > 0.0% taken
+	284	forwbranch < 17, 0 > 100.0% taken
+	325	forwbranch < 0, 35 > 0.0% taken
+	332	forwbranch < 17, 18 > 48.57143% taken
+	344	forwbranch < 17, 18 > 48.57143% taken
+	348	forwbranch < 18, 0 > 100.0% taken
+	378	backbranch < 18, 17 > 51.42857% taken
+	400	forwbranch < 2574, 0 > 100.0% taken
+	411	forwbranch < 2574, 0 > 100.0% taken
+	431	forwbranch < 17, 2557 > 0.66045064% taken
+	452	forwbranch < 2574, 0 > 100.0% taken
+	474	forwbranch < 0, 0 > Never Executed
+	554	forwbranch < 0, 0 > Never Executed
+	615	forwbranch < 0, 2574 > 0.0% taken
+	650	forwbranch < 2574, 0 > 100.0% taken
+	656	forwbranch < 0, 0 > Never Executed
+	672	forwbranch < 0, 0 > Never Executed
+	704	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl;, handleCharacter, (CLjava/lang/String;)V >
+	4	forwbranch < 0, 21399 > 0.0% taken
+	11	forwbranch < 0, 21400 > 0.0% taken
+	65	forwbranch < 0, 21401 > 0.0% taken
+M 36 < SystemAppCL, Lorg/apache/xerces/impl/XMLScanner;, scanPseudoAttribute, (ZLorg/apache/xerces/xni/XMLString;)Ljava/lang/String; >
+	19	forwbranch < 1, 0 > 100.0% taken
+	46	forwbranch < 1, 0 > 100.0% taken
+	51	forwbranch < 0, 0 > Never Executed
+	93	forwbranch < 0, 1 > 0.0% taken
+	100	forwbranch < 1, 0 > 100.0% taken
+	105	forwbranch < 0, 0 > Never Executed
+	150	forwbranch < 1, 0 > 100.0% taken
+	171	forwbranch < 0, 0 > Never Executed
+	178	forwbranch < 0, 0 > Never Executed
+	185	forwbranch < 0, 0 > Never Executed
+	192	forwbranch < 0, 0 > Never Executed
+	199	forwbranch < 0, 0 > Never Executed
+	225	forwbranch < 0, 0 > Never Executed
+	246	forwbranch < 0, 0 > Never Executed
+	250	forwbranch < 0, 0 > Never Executed
+	306	backbranch < 0, 0 > Never Executed
+	334	forwbranch < 1, 0 > 100.0% taken
+	339	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLScanner;, isUnchangedByNormalization, (Lorg/apache/xerces/xni/XMLString;)I >
+	30	forwbranch < 3712490, 0 > 100.0% taken
+	45	backbranch < 3712513, 245175 > 93.80509% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLScanner;, normalizeWhitespace, (Lorg/apache/xerces/xni/XMLString;I)V >
+	34	forwbranch < 99403, 0 > 100.0% taken
+	52	backbranch < 99403, 4150 > 95.99239% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLScanner;, normalizeWhitespace, (Lorg/apache/xerces/xni/XMLString;)V >
+	30	forwbranch < 209196, 0 > 100.0% taken
+	46	backbranch < 209196, 4103 > 98.07641% taken
+M 8 < SystemAppCL, Lorg/apache/xerces/xni/XMLString;, equals, ([CII)Z >
+	1	forwbranch < 6028, 0 > 100.0% taken
+	11	forwbranch < 6027, 1 > 99.98341% taken
+	40	forwbranch < 163597, 3505 > 97.90248% taken
+	51	backbranch < 167102, 2522 > 98.51318% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/util/XMLChar;, isSupplemental, (I)Z >
+	3	forwbranch < 2574, 0 > 100.0% taken
+	9	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl;, scanDocument, (Z)Z >
+	29	forwbranch < 25462, 8500 > 74.97203% taken
+	35	backbranch < 25474, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl;, scanXMLDeclOrTextDecl, (Z)V >
+	44	forwbranch < 1, 0 > 100.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+	88	forwbranch < 0, 1 > 0.0% taken
+	92	forwbranch < 1, 0 > 100.0% taken
+	125	forwbranch < 1, 0 > 100.0% taken
+	138	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl;, scanComment, ()V >
+	22	forwbranch < 0, 8772 > 0.0% taken
+M 20 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl;, scanContent, ()I >
+	17	forwbranch < 87921, 0 > 100.0% taken
+	66	forwbranch < 0, 87916 > 0.0% taken
+	73	forwbranch < 56, 87860 > 0.06369717% taken
+	90	forwbranch < 87951, 42 > 99.95227% taken
+	100	forwbranch < 14, 28 > 33.333332% taken
+	139	forwbranch < 28, 0 > 100.0% taken
+	172	backbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	198	forwbranch < 0, 28 > 0.0% taken
+	208	forwbranch < 0, 28 > 0.0% taken
+M 40 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl;, scanCDATASection, (Z)Z >
+	4	forwbranch < 0, 7717 > 0.0% taken
+	40	forwbranch < 61446, 7717 > 88.8423% taken
+	47	forwbranch < 0, 7717 > 0.0% taken
+	57	forwbranch < 0, 7717 > 0.0% taken
+	91	backbranch < 0, 7717 > 0.0% taken
+	98	forwbranch < 0, 7717 > 0.0% taken
+	102	forwbranch < 7717, 0 > 100.0% taken
+	116	forwbranch < 0, 0 > Never Executed
+	155	backbranch < 0, 0 > Never Executed
+	184	backbranch < 0, 0 > Never Executed
+	189	forwbranch < 0, 0 > Never Executed
+	237	backbranch < 0, 0 > Never Executed
+	263	forwbranch < 0, 7717 > 0.0% taken
+	273	backbranch < 0, 0 > Never Executed
+	313	forwbranch < 0, 61443 > 0.0% taken
+	340	backbranch < 0, 61437 > 0.0% taken
+	348	backbranch < 61437, 0 > 100.0% taken
+	355	forwbranch < 0, 0 > Never Executed
+	378	backbranch < 0, 0 > Never Executed
+	442	forwbranch < 0, 7717 > 0.0% taken
+M 14 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl;, scanCharReference, ()V >
+	29	forwbranch < 0, 2574 > 0.0% taken
+	36	forwbranch < 0, 2574 > 0.0% taken
+	43	forwbranch < 2574, 0 > 100.0% taken
+	68	forwbranch < 2574, 0 > 100.0% taken
+	74	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 0, 0 > Never Executed
+	142	forwbranch < 2574, 0 > 100.0% taken
+M 24 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl;, scanEntityReference, ()V >
+	9	forwbranch < 97471, 0 > 100.0% taken
+	29	forwbranch < 97470, 0 > 100.0% taken
+	60	forwbranch < 95971, 1500 > 98.46108% taken
+	79	forwbranch < 65990, 30001 > 68.746025% taken
+	98	forwbranch < 36999, 29000 > 56.05994% taken
+	117	forwbranch < 0, 36999 > 0.0% taken
+	136	forwbranch < 0, 0 > Never Executed
+	159	forwbranch < 0, 0 > Never Executed
+	187	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	201	forwbranch < 0, 0 > Never Executed
+	208	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentScannerImpl;, getRecognizedFeatures, ()[Ljava/lang/String; >
+	6	forwbranch < 0, 8489 > 0.0% taken
+	27	forwbranch < 0, 8484 > 0.0% taken
+M 10 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentScannerImpl;, setFeature, (Ljava/lang/String;Z)V >
+	12	forwbranch < 909, 457 > 66.544655% taken
+	32	forwbranch < 457, 0 > 100.0% taken
+	41	forwbranch < 0, 0 > Never Executed
+	56	forwbranch < 457, 0 > 100.0% taken
+	65	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentScannerImpl;, getRecognizedProperties, ()[Ljava/lang/String; >
+	6	forwbranch < 0, 1859 > 0.0% taken
+	27	forwbranch < 0, 1862 > 0.0% taken
+M 12 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentScannerImpl;, setProperty, (Ljava/lang/String;Ljava/lang/Object;)V >
+	12	forwbranch < 0, 59474 > 0.0% taken
+	32	forwbranch < 50981, 8495 > 85.71693% taken
+	41	forwbranch < 0, 8491 > 0.0% taken
+	58	forwbranch < 50976, 8495 > 85.71573% taken
+	67	forwbranch < 0, 8497 > 0.0% taken
+	71	forwbranch < 0, 8497 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentScannerImpl;, getFeatureDefault, (Ljava/lang/String;)Ljava/lang/Boolean; >
+	14	forwbranch < 76431, 16990 > 81.81351% taken
+	31	backbranch < 93397, 33987 > 73.31925% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentScannerImpl;, getPropertyDefault, (Ljava/lang/String;)Ljava/lang/Object; >
+	14	forwbranch < 127388, 25493 > 83.324936% taken
+	31	backbranch < 152821, 33991 > 81.8047% taken
+M 8 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentScannerImpl;, startEntity, (Ljava/lang/String;Lorg/apache/xerces/xni/XMLResourceIdentifier;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V >
+	15	forwbranch < 8443, 0 > 100.0% taken
+	25	forwbranch < 0, 0 > Never Executed
+	38	forwbranch < 0, 8472 > 0.0% taken
+	47	forwbranch < 0, 8489 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentScannerImpl;, endEntity, (Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V >
+	10	forwbranch < 0, 8500 > 0.0% taken
+	19	forwbranch < 0, 8500 > 0.0% taken
+M 60 < SystemAppCL, Lorg/apache/xerces/impl/XMLNSDocumentScannerImpl;, scanStartElement, ()Z >
+	24	forwbranch < 0, 67044 > 0.0% taken
+	42	forwbranch < 66635, 394 > 99.41219% taken
+	49	forwbranch < 394, 0 > 100.0% taken
+	76	forwbranch < 0, 0 > Never Executed
+	87	forwbranch < 0, 0 > Never Executed
+	162	forwbranch < 16191, 63989 > 20.193316% taken
+	180	forwbranch < 13147, 3046 > 81.1894% taken
+	200	forwbranch < 3046, 0 > 100.0% taken
+	228	forwbranch < 0, 13146 > 0.0% taken
+	232	forwbranch < 13145, 0 > 100.0% taken
+	264	forwbranch < 0, 67118 > 0.0% taken
+	277	forwbranch < 67126, 0 > 100.0% taken
+	313	forwbranch < 66419, 727 > 98.91728% taken
+	368	forwbranch < 727, 66304 > 1.0845728% taken
+	378	forwbranch < 66312, 0 > 100.0% taken
+	408	forwbranch < 66408, 727 > 98.91711% taken
+	418	forwbranch < 727, 0 > 100.0% taken
+	492	forwbranch < 12752, 393 > 97.01027% taken
+	530	forwbranch < 12753, 393 > 97.0105% taken
+	542	forwbranch < 0, 393 > 0.0% taken
+	553	forwbranch < 12753, 0 > 100.0% taken
+	567	forwbranch < 0, 0 > Never Executed
+	629	backbranch < 13146, 67107 > 16.380695% taken
+	635	forwbranch < 65352, 1768 > 97.36591% taken
+	649	forwbranch < 1767, 0 > 100.0% taken
+	657	forwbranch < 0, 0 > Never Executed
+	743	forwbranch < 0, 67127 > 0.0% taken
+	747	forwbranch < 64084, 3046 > 95.46253% taken
+	775	forwbranch < 3046, 0 > 100.0% taken
+	820	forwbranch < 0, 3044 > 0.0% taken
+M 10 < SystemAppCL, Lorg/apache/xerces/impl/XMLNSDocumentScannerImpl;, scanEndElement, ()I >
+	25	forwbranch < 85331, 0 > 100.0% taken
+	65	forwbranch < 85336, 0 > 100.0% taken
+	123	forwbranch < 85419, 0 > 100.0% taken
+	150	forwbranch < 0, 85397 > 0.0% taken
+	171	forwbranch < 0, 85253 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/impl/XMLNSDocumentScannerImpl$NSContentDispatcher;, reconfigurePipeline, ()V >
+	7	forwbranch < 1693, 0 > 100.0% taken
+	33	forwbranch < 0, 1694 > 0.0% taken
+	97	forwbranch < 0, 1689 > 0.0% taken
+M 77 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentFragmentScannerImpl$FragmentContentDispatcher;, dispatch, (Z)Z >
+	9	switch     < 1265374, 2715, 0, 0, 0, 3769, 1309202, 44676, 0, 0, 0, 0, 0, 0, 19622, 0, 0 >
+	100	forwbranch < 993430, 318647 > 75.71431% taken
+	128	forwbranch < 985951, 10779 > 98.91857% taken
+	156	forwbranch < 411414, 949338 > 30.234312% taken
+	184	forwbranch < 377719, 33897 > 91.7649% taken
+	212	forwbranch < 14735, 363043 > 3.9004388% taken
+	223	forwbranch < 363094, 0 > 100.0% taken
+	230	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	267	forwbranch < 0, 0 > Never Executed
+	327	backbranch < 377830, 0 > 100.0% taken
+	358	forwbranch < 657651, 612628 > 51.77217% taken
+	368	forwbranch < 608242, 3793 > 99.380264% taken
+	375	forwbranch < 0, 3792 > 0.0% taken
+	409	forwbranch < 22339, 635440 > 3.3961256% taken
+	444	forwbranch < 0, 22339 > 0.0% taken
+	459	forwbranch < 19624, 2715 > 87.84637% taken
+	474	forwbranch < 2715, 0 > 100.0% taken
+	512	forwbranch < 0, 19622 > 0.0% taken
+	533	forwbranch < 0, 0 > Never Executed
+	561	forwbranch < 0, 0 > Never Executed
+	594	forwbranch < 0, 0 > Never Executed
+	732	forwbranch < 43485, 1193 > 97.32978% taken
+	767	forwbranch < 0, 0 > Never Executed
+	800	forwbranch < 0, 0 > Never Executed
+	832	forwbranch < 0, 0 > Never Executed
+	876	backbranch < 0, 0 > Never Executed
+	920	backbranch < 0, 0 > Never Executed
+	1020	forwbranch < 3793, 0 > 100.0% taken
+	1057	backbranch < 2622462, 0 > 100.0% taken
+	1061	backbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Lorg/apache/xerces/impl/XMLNSDocumentScannerImpl$NSContentDispatcher;, scanRootElementHook, ()Z >
+	7	forwbranch < 6503, 0 > 100.0% taken
+	17	forwbranch < 0, 0 > Never Executed
+	27	forwbranch < 0, 0 > Never Executed
+	37	forwbranch < 0, 0 > Never Executed
+	47	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 6543, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/util/XMLAttributesImpl;, <init>, (I)V >
+	54	backbranch < 6333, 1585 > 79.982315% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/util/XMLAttributesImpl;, getReportableType, (Ljava/lang/String;)Ljava/lang/String; >
+	7	forwbranch < 59051, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/util/XMLAttributesImpl;, getIndex, (Ljava/lang/String;)I >
+	19	forwbranch < 0, 667 > 0.0% taken
+	33	forwbranch < 667, 0 > 100.0% taken
+	46	backbranch < 667, 988 > 40.302116% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/util/XMLAttributesImpl;, getValue, (I)Ljava/lang/String; >
+	1	forwbranch < 0, 21876 > 0.0% taken
+	9	forwbranch < 21878, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/util/XMLAttributesImpl;, removeAttributeAt, (I)V >
+	12	forwbranch < 0, 2 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/util/XMLAttributesImpl;, getType, (I)Ljava/lang/String; >
+	1	forwbranch < 0, 59049 > 0.0% taken
+	9	forwbranch < 59054, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/util/XMLAttributesImpl;, getValue, (Ljava/lang/String;)Ljava/lang/String; >
+	8	forwbranch < 988, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/util/XMLAttributesImpl;, getLocalName, (I)Ljava/lang/String; >
+	4	forwbranch < 77883, 0 > 100.0% taken
+	11	forwbranch < 0, 77888 > 0.0% taken
+	19	forwbranch < 77896, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/util/XMLAttributesImpl;, getQName, (I)Ljava/lang/String; >
+	1	forwbranch < 0, 204482 > 0.0% taken
+	9	forwbranch < 204501, 0 > 100.0% taken
+	28	forwbranch < 0, 204545 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/util/XMLAttributesImpl;, getURI, (I)Ljava/lang/String; >
+	1	forwbranch < 0, 271434 > 0.0% taken
+	9	forwbranch < 271440, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/util/NamespaceSupport;, pushContext, ()V >
+	11	forwbranch < 341077, 1074 > 99.686104% taken
+M 10 < SystemAppCL, Lorg/apache/xerces/util/NamespaceSupport;, declarePrefix, (Ljava/lang/String;Ljava/lang/String;)Z >
+	4	forwbranch < 0, 2 > 0.0% taken
+	11	forwbranch < 2, 0 > 100.0% taken
+	33	forwbranch < 1, 0 > 100.0% taken
+	60	backbranch < 1, 2 > 33.333332% taken
+	72	forwbranch < 2, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/util/NamespaceSupport;, getURI, (Ljava/lang/String;)Ljava/lang/String; >
+	17	forwbranch < 628890, 3841 > 99.39295% taken
+	33	backbranch < 632548, 311862 > 66.97811% taken
+M 10 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentScannerImpl$XMLDeclDispatcher;, dispatch, (Z)Z >
+	34	forwbranch < 8457, 1 > 99.988174% taken
+	63	forwbranch < 1, 0 > 100.0% taken
+	95	forwbranch < 0, 0 > Never Executed
+	135	backbranch < 0, 0 > Never Executed
+	175	backbranch < 0, 0 > Never Executed
+M 61 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentScannerImpl$PrologDispatcher;, dispatch, (Z)Z >
+	9	switch     < 10482, 2010, 0, 0, 10448, 0, 0, 0, 0 >
+	79	forwbranch < 0, 10479 > 0.0% taken
+	107	forwbranch < 0, 0 > Never Executed
+	163	forwbranch < 8493, 2010 > 80.86261% taken
+	178	forwbranch < 0, 2010 > 0.0% taken
+	193	forwbranch < 2010, 0 > 100.0% taken
+	231	forwbranch < 0, 0 > Never Executed
+	277	forwbranch < 0, 8475 > 0.0% taken
+	317	forwbranch < 0, 0 > Never Executed
+	350	forwbranch < 0, 0 > Never Executed
+	434	forwbranch < 0, 0 > Never Executed
+	454	forwbranch < 0, 0 > Never Executed
+	482	forwbranch < 0, 0 > Never Executed
+	517	forwbranch < 0, 0 > Never Executed
+	527	forwbranch < 0, 0 > Never Executed
+	537	forwbranch < 0, 0 > Never Executed
+	547	forwbranch < 0, 0 > Never Executed
+	560	forwbranch < 0, 0 > Never Executed
+	595	forwbranch < 0, 0 > Never Executed
+	605	forwbranch < 0, 0 > Never Executed
+	615	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	638	forwbranch < 0, 0 > Never Executed
+	750	backbranch < 14472, 0 > 100.0% taken
+	754	backbranch < 0, 0 > Never Executed
+	758	forwbranch < 0, 0 > Never Executed
+	773	forwbranch < 0, 0 > Never Executed
+M 37 < SystemAppCL, Lorg/apache/xerces/impl/XMLDocumentScannerImpl$TrailingMiscDispatcher;, dispatch, (Z)Z >
+	9	switch     < 1000, 1000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9500, 0, 0, 0 >
+	103	forwbranch < 0, 1000 > 0.0% taken
+	158	forwbranch < 1000, 0 > 100.0% taken
+	186	forwbranch < 0, 1000 > 0.0% taken
+	214	forwbranch < 0, 0 > Never Executed
+	249	forwbranch < 0, 0 > Never Executed
+	299	forwbranch < 0, 0 > Never Executed
+	376	forwbranch < 1000, 0 > 100.0% taken
+	421	forwbranch < 0, 0 > Never Executed
+	493	backbranch < 3000, 0 > 100.0% taken
+	497	backbranch < 0, 0 > Never Executed
+	551	forwbranch < 8499, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLDTDScannerImpl;, getFeatureDefault, (Ljava/lang/String;)Ljava/lang/Boolean; >
+	14	forwbranch < 8494, 16980 > 33.343803% taken
+	31	backbranch < 25459, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/XMLDTDScannerImpl;, getPropertyDefault, (Ljava/lang/String;)Ljava/lang/Object; >
+	14	forwbranch < 25483, 25484 > 49.99902% taken
+	31	backbranch < 50932, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/dtd/XMLDTDProcessor;, reset, ()V >
+	21	forwbranch < 8485, 0 > 100.0% taken
+	28	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xerces/impl/dtd/XMLDTDProcessor;, reset, (Lorg/apache/xerces/xni/parser/XMLComponentManager;)V >
+	16	forwbranch < 6902, 0 > 100.0% taken
+	54	forwbranch < 0, 6927 > 0.0% taken
+	208	forwbranch < 0, 6899 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/dtd/XMLDTDProcessor;, getFeatureDefault, (Ljava/lang/String;)Ljava/lang/Boolean; >
+	14	forwbranch < 50967, 33970 > 60.00565% taken
+	31	backbranch < 84917, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/dtd/XMLDTDProcessor;, getPropertyDefault, (Ljava/lang/String;)Ljava/lang/Object; >
+	14	forwbranch < 20535, 13694 > 59.99299% taken
+	31	backbranch < 34216, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/dtd/XMLDTDValidator;, init, ()V >
+	4	forwbranch < 0, 8437 > 0.0% taken
+	11	forwbranch < 8480, 1 > 99.98821% taken
+M 14 < SystemAppCL, Lorg/apache/xerces/impl/dtd/XMLDTDValidator;, validate, ()Z >
+	7	forwbranch < 0, 8455 > 0.0% taken
+	14	forwbranch < 1, 8465 > 0.011811954% taken
+	21	forwbranch < 0, 8459 > 0.0% taken
+	28	forwbranch < 8477, 1 > 99.988205% taken
+	35	forwbranch < 1, 0 > 100.0% taken
+	42	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/dtd/XMLDTDValidator;, reset, (Lorg/apache/xerces/xni/parser/XMLComponentManager;)V >
+	82	forwbranch < 8457, 0 > 100.0% taken
+	148	forwbranch < 0, 8492 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/dtd/XMLDTDValidator;, getFeatureDefault, (Ljava/lang/String;)Ljava/lang/Boolean; >
+	14	forwbranch < 1284, 856 > 60.0% taken
+	31	backbranch < 2140, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/impl/dtd/XMLDTDValidator;, getPropertyDefault, (Ljava/lang/String;)Ljava/lang/Object; >
+	14	forwbranch < 84900, 42456 > 66.66353% taken
+	31	backbranch < 127288, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/impl/dtd/XMLDTDValidator;, startDocument, (Lorg/apache/xerces/xni/XMLLocator;Ljava/lang/String;Lorg/apache/xerces/xni/NamespaceContext;Lorg/apache/xerces/xni/Augmentations;)V >
+	4	forwbranch < 8439, 0 > 100.0% taken
+	49	backbranch < 0, 0 > Never Executed
+	66	forwbranch < 0, 8443 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/impl/dtd/XMLDTDValidator;, xmlDecl, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/xerces/xni/Augmentations;)V >
+	5	forwbranch < 1, 0 > 100.0% taken
+	14	forwbranch < 0, 0 > Never Executed
+	29	forwbranch < 0, 1 > 0.0% taken
+M 10 < SystemAppCL, Lorg/apache/xerces/impl/dtd/XMLDTDValidator;, comment, (Lorg/apache/xerces/xni/XMLString;Lorg/apache/xerces/xni/Augmentations;)V >
+	4	forwbranch < 2010, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+	18	forwbranch < 0, 0 > Never Executed
+	45	forwbranch < 0, 0 > Never Executed
+	88	forwbranch < 0, 2010 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/impl/dtd/XMLDTDValidator;, hasGrammar, ()Z >
+	4	forwbranch < 8446, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/apache/xerces/impl/dv/ObjectFactory;, findClassLoader, ()Ljava/lang/ClassLoader; >
+	21	forwbranch < 0, 8501 > 0.0% taken
+	27	forwbranch < 8500, 1 > 99.988235% taken
+	58	forwbranch < 0, 8501 > 0.0% taken
+	64	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Lorg/apache/xerces/impl/dv/ObjectFactory;, findProviderClass, (Ljava/lang/String;Ljava/lang/ClassLoader;Z)Ljava/lang/Class; >
+	5	forwbranch < 8501, 0 > 100.0% taken
+	22	forwbranch < 0, 0 > Never Executed
+	41	forwbranch < 8501, 0 > 100.0% taken
+	66	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	97	forwbranch < 0, 0 > Never Executed
+	112	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xerces/impl/XMLVersionDetector;, fixupCurrentEntity, (Lorg/apache/xerces/impl/XMLEntityManager;[CI)V >
+	25	forwbranch < 1, 0 > 100.0% taken
+	78	forwbranch < 0, 1 > 0.0% taken
+	157	backbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xerces/parsers/AbstractSAXParser$AttributesProxy;, getURI, (I)Ljava/lang/String; >
+	12	forwbranch < 157487, 5074 > 96.87871% taken
+M 58 < SystemAppCL, Lorg/apache/xerces/util/URI;, initialize, (Lorg/apache/xerces/util/URI;Ljava/lang/String;Z)V >
+	5	forwbranch < 0, 1 > 0.0% taken
+	20	forwbranch < 0, 1 > 0.0% taken
+	25	forwbranch < 1, 0 > 100.0% taken
+	29	forwbranch < 0, 0 > Never Executed
+	51	forwbranch < 1, 0 > 100.0% taken
+	75	forwbranch < 0, 1 > 0.0% taken
+	119	forwbranch < 0, 1 > 0.0% taken
+	125	forwbranch < 0, 1 > 0.0% taken
+	131	forwbranch < 0, 1 > 0.0% taken
+	137	forwbranch < 1, 0 > 100.0% taken
+	142	forwbranch < 0, 0 > Never Executed
+	146	forwbranch < 0, 0 > Never Executed
+	151	forwbranch < 0, 0 > Never Executed
+	155	forwbranch < 0, 0 > Never Executed
+	191	forwbranch < 0, 1 > 0.0% taken
+	205	forwbranch < 1, 0 > 100.0% taken
+	219	forwbranch < 0, 0 > Never Executed
+	229	forwbranch < 0, 0 > Never Executed
+	233	forwbranch < 0, 0 > Never Executed
+	252	forwbranch < 0, 1 > 0.0% taken
+	264	forwbranch < 0, 1 > 0.0% taken
+	278	forwbranch < 1, 0 > 100.0% taken
+	307	forwbranch < 0, 0 > Never Executed
+	314	forwbranch < 0, 0 > Never Executed
+	321	forwbranch < 0, 0 > Never Executed
+	334	backbranch < 0, 0 > Never Executed
+	341	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 0 > Never Executed
+	384	forwbranch < 1, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xerces/util/URI;, setScheme, (Ljava/lang/String;)V >
+	1	forwbranch < 1, 0 > 100.0% taken
+	18	forwbranch < 1, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/apache/xerces/util/URI;, initializeScheme, (Ljava/lang/String;)V >
+	27	forwbranch < 1, 4 > 20.0% taken
+	34	forwbranch < 0, 4 > 0.0% taken
+	41	forwbranch < 0, 4 > 0.0% taken
+	48	forwbranch < 4, 0 > 100.0% taken
+	59	backbranch < 5, 0 > 100.0% taken
+	75	forwbranch < 1, 0 > 100.0% taken
+M 70 < SystemAppCL, Lorg/apache/xerces/util/URI;, initializePath, (Ljava/lang/String;I)V >
+	1	forwbranch < 1, 0 > 100.0% taken
+	32	forwbranch < 0, 1 > 0.0% taken
+	39	forwbranch < 0, 1 > 0.0% taken
+	50	forwbranch < 0, 1 > 0.0% taken
+	67	forwbranch < 38, 0 > 100.0% taken
+	75	forwbranch < 0, 0 > Never Executed
+	88	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 0 > Never Executed
+	125	forwbranch < 38, 0 > 100.0% taken
+	132	forwbranch < 0, 0 > Never Executed
+	139	forwbranch < 0, 0 > Never Executed
+	179	backbranch < 38, 1 > 97.4359% taken
+	196	forwbranch < 0, 0 > Never Executed
+	203	forwbranch < 0, 0 > Never Executed
+	213	forwbranch < 0, 0 > Never Executed
+	221	forwbranch < 0, 0 > Never Executed
+	234	forwbranch < 0, 0 > Never Executed
+	247	forwbranch < 0, 0 > Never Executed
+	271	forwbranch < 0, 0 > Never Executed
+	308	backbranch < 0, 0 > Never Executed
+	326	forwbranch < 1, 0 > 100.0% taken
+	349	forwbranch < 0, 0 > Never Executed
+	359	forwbranch < 0, 0 > Never Executed
+	367	forwbranch < 0, 0 > Never Executed
+	380	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+	417	forwbranch < 0, 0 > Never Executed
+	454	backbranch < 0, 0 > Never Executed
+	472	forwbranch < 1, 0 > 100.0% taken
+	495	forwbranch < 0, 0 > Never Executed
+	503	forwbranch < 0, 0 > Never Executed
+	516	forwbranch < 0, 0 > Never Executed
+	529	forwbranch < 0, 0 > Never Executed
+	553	forwbranch < 0, 0 > Never Executed
+	590	backbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xerces/util/URI;, isPathCharacter, (C)Z >
+	3	forwbranch < 0, 38 > 0.0% taken
+	15	forwbranch < 0, 38 > 0.0% taken
+M 10 < SystemAppCL, Lorg/apache/xerces/util/URI;, isConformantSchemeName, (Ljava/lang/String;)Z >
+	1	forwbranch < 0, 1 > 0.0% taken
+	11	forwbranch < 1, 0 > 100.0% taken
+	24	forwbranch < 1, 0 > 100.0% taken
+	49	forwbranch < 3, 0 > 100.0% taken
+	59	backbranch < 3, 1 > 75.0% taken
+M 8 < SystemAppCL, Lorg/apache/xerces/util/URI;, isAlpha, (C)Z >
+	3	forwbranch < 0, 1 > 0.0% taken
+	9	forwbranch < 1, 0 > 100.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+	21	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xerces/util/URI;, isSchemeCharacter, (C)Z >
+	3	forwbranch < 0, 3 > 0.0% taken
+	14	forwbranch < 0, 3 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xerces/util/URI;, <clinit>, ()V >
+	31	backbranch < 10, 1 > 90.90909% taken
+	71	backbranch < 6, 1 > 85.71429% taken
+	111	backbranch < 20, 1 > 95.2381% taken
+M 8 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager$RewindableInputStream;, read, ()I >
+	10	forwbranch < 33970, 0 > 100.0% taken
+	42	forwbranch < 33994, 0 > 100.0% taken
+	56	forwbranch < 34010, 0 > 100.0% taken
+	97	forwbranch < 34009, 0 > 100.0% taken
+M 14 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager$RewindableInputStream;, read, ([BII)I >
+	13	forwbranch < 255, 2085 > 10.897436% taken
+	24	forwbranch < 2085, 0 > 100.0% taken
+	39	forwbranch < 17, 2068 > 0.81534773% taken
+	62	forwbranch < 17, 0 > 100.0% taken
+	86	forwbranch < 255, 0 > 100.0% taken
+	90	forwbranch < 0, 0 > Never Executed
+	99	forwbranch < 0, 254 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xerces/impl/XMLEntityManager$RewindableInputStream;, close, ()V >
+	4	forwbranch < 0, 7194 > 0.0% taken
+M 100 < SystemAppCL, Lorg/apache/xerces/impl/io/UTF8Reader;, read, ([CII)I >
+	8	forwbranch < 1882, 0 > 100.0% taken
+	39	forwbranch < 0, 1884 > 0.0% taken
+	48	forwbranch < 1886, 0 > 100.0% taken
+	75	forwbranch < 1681, 205 > 89.13043% taken
+	124	forwbranch < 0, 2620183 > 0.0% taken
+	144	backbranch < 2618363, 1684 > 99.93573% taken
+	161	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	202	forwbranch < 0, 0 > Never Executed
+	215	forwbranch < 0, 0 > Never Executed
+	246	forwbranch < 0, 0 > Never Executed
+	252	forwbranch < 0, 0 > Never Executed
+	292	forwbranch < 0, 0 > Never Executed
+	298	forwbranch < 0, 0 > Never Executed
+	379	forwbranch < 0, 0 > Never Executed
+	392	forwbranch < 0, 0 > Never Executed
+	423	forwbranch < 0, 0 > Never Executed
+	429	forwbranch < 0, 0 > Never Executed
+	469	forwbranch < 0, 0 > Never Executed
+	477	forwbranch < 0, 0 > Never Executed
+	485	forwbranch < 0, 0 > Never Executed
+	493	forwbranch < 0, 0 > Never Executed
+	501	forwbranch < 0, 0 > Never Executed
+	507	forwbranch < 0, 0 > Never Executed
+	556	forwbranch < 0, 0 > Never Executed
+	587	forwbranch < 0, 0 > Never Executed
+	593	forwbranch < 0, 0 > Never Executed
+	642	forwbranch < 0, 0 > Never Executed
+	648	forwbranch < 0, 0 > Never Executed
+	747	forwbranch < 0, 0 > Never Executed
+	760	forwbranch < 0, 0 > Never Executed
+	791	forwbranch < 0, 0 > Never Executed
+	797	forwbranch < 0, 0 > Never Executed
+	837	forwbranch < 0, 0 > Never Executed
+	845	forwbranch < 0, 0 > Never Executed
+	853	forwbranch < 0, 0 > Never Executed
+	859	forwbranch < 0, 0 > Never Executed
+	908	forwbranch < 0, 0 > Never Executed
+	939	forwbranch < 0, 0 > Never Executed
+	945	forwbranch < 0, 0 > Never Executed
+	994	forwbranch < 0, 0 > Never Executed
+	1000	forwbranch < 0, 0 > Never Executed
+	1058	forwbranch < 0, 0 > Never Executed
+	1089	forwbranch < 0, 0 > Never Executed
+	1095	forwbranch < 0, 0 > Never Executed
+	1153	forwbranch < 0, 0 > Never Executed
+	1159	forwbranch < 0, 0 > Never Executed
+	1236	forwbranch < 0, 0 > Never Executed
+	1342	forwbranch < 0, 0 > Never Executed
+	1379	backbranch < 0, 1684 > 0.0% taken
+M 8 < SystemAppCL, Lorg/apache/xerces/util/XMLChar;, isValid, (I)Z >
+	3	forwbranch < 0, 237963 > 0.0% taken
+	13	forwbranch < 238018, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	25	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xml/utils/SAXSourceLocator;, getPublicId, ()Ljava/lang/String; >
+	5	forwbranch < 136, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/SAXSourceLocator;, getSystemId, ()Ljava/lang/String; >
+	5	forwbranch < 136, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/SAXSourceLocator;, getLineNumber, ()I >
+	5	forwbranch < 1156, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/SAXSourceLocator;, getColumnNumber, ()I >
+	5	forwbranch < 1156, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/IntVector;, addElement, (I)V >
+	10	forwbranch < 14151, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/IntVector;, removeAllElements, ()V >
+	7	forwbranch < 13319, 5490 > 70.811844% taken
+M 10 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetRoot;, addImports, (Lorg/apache/xalan/templates/Stylesheet;ZLjava/util/Vector;)V >
+	8	forwbranch < 1, 0 > 100.0% taken
+	18	forwbranch < 0, 0 > Never Executed
+	51	forwbranch < 1, 0 > 100.0% taken
+	61	forwbranch < 0, 0 > Never Executed
+	87	forwbranch < 0, 1 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetComposed;, recomposeIncludes, (Lorg/apache/xalan/templates/Stylesheet;)V >
+	6	forwbranch < 1, 0 > 100.0% taken
+	14	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetComposed;, recomposeImports, ()V >
+	40	forwbranch < 1, 0 > 100.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+	86	forwbranch < 1, 0 > 100.0% taken
+	115	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetRoot;, getGlobalImportCount, ()I >
+	4	forwbranch < 0, 8501 > 0.0% taken
+M 20 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetComposed;, recompose, (Ljava/util/Vector;)V >
+	9	forwbranch < 1, 1 > 50.0% taken
+	33	forwbranch < 1, 1 > 50.0% taken
+	67	forwbranch < 1, 0 > 100.0% taken
+	101	forwbranch < 1, 0 > 100.0% taken
+	135	forwbranch < 1, 0 > 100.0% taken
+	169	forwbranch < 1, 0 > 100.0% taken
+	203	forwbranch < 1, 135 > 0.7352941% taken
+	237	forwbranch < 1, 6 > 14.285714% taken
+	271	forwbranch < 1, 1 > 50.0% taken
+	305	forwbranch < 1, 0 > 100.0% taken
+M 18 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetRoot;, QuickSort2, (Ljava/util/Vector;II)V >
+	8	forwbranch < 0, 111 > 0.0% taken
+	29	forwbranch < 111, 276 > 28.68217% taken
+	35	forwbranch < 11, 740 > 1.4647137% taken
+	52	forwbranch < 265, 475 > 35.81081% taken
+	64	forwbranch < 21, 488 > 4.1257367% taken
+	81	forwbranch < 255, 233 > 52.254097% taken
+	94	backbranch < 35, 241 > 12.681159% taken
+	140	forwbranch < 57, 54 > 51.351353% taken
+	154	forwbranch < 55, 56 > 49.54955% taken
+M 10 < SystemAppCL, Lorg/apache/xalan/templates/TemplateList;, compose, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	3	forwbranch < 1, 0 > 100.0% taken
+	23	forwbranch < 1, 0 > 100.0% taken
+	40	forwbranch < 0, 0 > Never Executed
+	62	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetComposed;, getIncludeCountComposed, ()I >
+	5	forwbranch < 8502, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetComposed;, getIncludeComposed, (I)Lorg/apache/xalan/templates/Stylesheet; >
+	2	forwbranch < 0, 8500 > 0.0% taken
+	12	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetRoot;, composeTemplates, (Lorg/apache/xalan/templates/ElemTemplateElement;)V >
+	11	forwbranch < 1152, 1151 > 50.02171% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, getImportCount, ()I >
+	5	forwbranch < 2, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, getIncludeCount, ()I >
+	5	forwbranch < 2, 0 > 100.0% taken
+M 16 < SystemAppCL, Lorg/apache/xalan/templates/TemplateList;, setTemplate, (Lorg/apache/xalan/templates/ElemTemplate;)V >
+	5	forwbranch < 134, 2 > 98.52941% taken
+	25	forwbranch < 0, 2 > 0.0% taken
+	64	forwbranch < 0, 0 > Never Executed
+	86	forwbranch < 0, 0 > Never Executed
+	113	forwbranch < 2, 134 > 1.4705882% taken
+	125	forwbranch < 6, 128 > 4.477612% taken
+	144	forwbranch < 0, 6 > 0.0% taken
+	172	forwbranch < 6, 35 > 14.634147% taken
+M 10 < SystemAppCL, Lorg/apache/xalan/templates/TemplateList;, getTemplate, (Lorg/apache/xpath/XPathContext;ILorg/apache/xml/utils/QName;ZLorg/apache/xml/dtm/DTM;)Lorg/apache/xalan/templates/ElemTemplate; >
+	13	forwbranch < 286689, 1699 > 99.410866% taken
+	52	forwbranch < 0, 1699 > 0.0% taken
+	61	forwbranch < 0, 1700 > 0.0% taken
+	66	forwbranch < 0, 1700 > 0.0% taken
+	102	backbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetRoot;, getVariableOrParamComposed, (Lorg/apache/xml/utils/QName;)Lorg/apache/xalan/templates/ElemVariable; >
+	5	forwbranch < 0, 6 > 0.0% taken
+	20	forwbranch < 6, 15 > 28.571428% taken
+	45	forwbranch < 15, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetRoot$ComposeState;, <init>, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	54	forwbranch < 1, 6 > 14.285714% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, getOutputCount, ()I >
+	5	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, getOutput, (I)Lorg/apache/xalan/templates/OutputProperties; >
+	5	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, getAttributeSetCount, ()I >
+	5	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, getKeyCount, ()I >
+	5	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, getNamespaceAliasCount, ()I >
+	5	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, getTemplateCount, ()I >
+	5	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, getTemplate, (I)Lorg/apache/xalan/templates/ElemTemplate; >
+	5	forwbranch < 135, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, getVariableOrParamCount, ()I >
+	5	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, getVariableOrParam, (I)Lorg/apache/xalan/templates/ElemVariable; >
+	5	forwbranch < 6, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, getStripSpaceCount, ()I >
+	5	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, getStripSpace, (I)Lorg/apache/xalan/templates/WhiteSpaceInfo; >
+	5	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, getPreserveSpaceCount, ()I >
+	5	forwbranch < 1, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetRoot;, getImportNumber, (Lorg/apache/xalan/templates/StylesheetComposed;)I >
+	2	forwbranch < 0, 1 > 0.0% taken
+	16	forwbranch < 0, 0 > Never Executed
+	25	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/apache/xalan/templates/Stylesheet;, containsExcludeResultPrefix, (Ljava/lang/String;Ljava/lang/String;)Z >
+	5	forwbranch < 0, 1 > 0.0% taken
+	9	forwbranch < 1, 0 > 100.0% taken
+	24	forwbranch < 0, 1 > 0.0% taken
+	43	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetRoot;, getExtensions, ()Ljava/util/Vector; >
+	4	forwbranch < 8498, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetRoot;, recomposeWhiteSpaceInfo, (Lorg/apache/xalan/templates/WhiteSpaceInfo;)V >
+	5	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/StylesheetRoot;, getWhiteSpaceInfo, (Lorg/apache/xpath/XPathContext;ILorg/apache/xml/dtm/DTM;)Lorg/apache/xalan/templates/WhiteSpaceInfo; >
+	5	forwbranch < 0, 258647 > 0.0% taken
+M 8 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, initXPath, (Lorg/apache/xpath/compiler/Compiler;Ljava/lang/String;Lorg/apache/xml/utils/PrefixResolver;)V >
+	59	forwbranch < 350, 0 > 100.0% taken
+	71	forwbranch < 0, 0 > Never Executed
+	117	backbranch < 0, 0 > Never Executed
+	175	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, initMatchPattern, (Lorg/apache/xpath/compiler/Compiler;Ljava/lang/String;Lorg/apache/xml/utils/PrefixResolver;)V >
+	60	forwbranch < 21141, 0 > 100.0% taken
+	72	forwbranch < 0, 0 > Never Executed
+	118	backbranch < 0, 0 > Never Executed
+M 32 < SystemAppCL, Lorg/apache/xpath/compiler/Compiler;, compile, (I)Lorg/apache/xpath/Expression; >
+	9	switch     < 350, 6, 19, 18, 48, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 67, 38, 0, 0, 82, 53, 30, 360, 0, 21137, 21201, 0 >
+M 2 < SystemAppCL, Lorg/apache/xpath/XPath;, setExpression, (Lorg/apache/xpath/Expression;)V >
+	5	forwbranch < 21487, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, nextToken, ()V >
+	11	forwbranch < 5506, 6990 > 44.0621% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, Pattern, ()V >
+	10	forwbranch < 21140, 55 > 99.7405% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, tokenIs, (Ljava/lang/String;)Z >
+	4	forwbranch < 0, 1813 > 0.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, tokenIs, (C)Z >
+	4	forwbranch < 83405, 96671 > 46.316555% taken
+	12	forwbranch < 95353, 1333 > 98.62131% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, OrExpr, ()V >
+	18	forwbranch < 350, 130 > 72.916664% taken
+	27	forwbranch < 124, 6 > 95.38461% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, AndExpr, ()V >
+	20	forwbranch < 350, 149 > 70.14028% taken
+	29	forwbranch < 130, 19 > 87.24832% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, insertOp, (III)V >
+	19	forwbranch < 115, 1045 > 9.913794% taken
+M 10 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, EqualityExpr, (I)I >
+	11	forwbranch < 66, 499 > 11.681416% taken
+	27	forwbranch < 350, 215 > 61.946903% taken
+	36	forwbranch < 197, 18 > 91.62791% taken
+	46	forwbranch < 0, 18 > 0.0% taken
+	117	forwbranch < 149, 48 > 75.63452% taken
+M 12 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, RelationalExpr, (I)I >
+	11	forwbranch < 3, 565 > 0.52816904% taken
+	27	forwbranch < 350, 218 > 61.619717% taken
+	36	forwbranch < 218, 0 > 100.0% taken
+	49	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 215, 3 > 98.623856% taken
+	141	forwbranch < 3, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, lookahead, (CI)Z >
+	15	forwbranch < 63793, 1494 > 97.71164% taken
+	19	forwbranch < 0, 1494 > 0.0% taken
+	29	forwbranch < 0, 1494 > 0.0% taken
+	56	forwbranch < 320, 1174 > 21.41901% taken
+	66	forwbranch < 854, 320 > 72.74276% taken
+M 8 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, AdditiveExpr, (I)I >
+	11	forwbranch < 0, 568 > 0.0% taken
+	27	forwbranch < 350, 218 > 61.619717% taken
+	36	forwbranch < 218, 0 > 100.0% taken
+	104	forwbranch < 218, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, MultiplicativeExpr, (I)I >
+	11	forwbranch < 0, 568 > 0.0% taken
+	25	forwbranch < 350, 218 > 61.619717% taken
+	34	forwbranch < 218, 0 > 100.0% taken
+	102	forwbranch < 218, 0 > 100.0% taken
+	170	forwbranch < 218, 0 > 100.0% taken
+	238	forwbranch < 218, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, UnaryExpr, ()V >
+	17	forwbranch < 568, 0 > 100.0% taken
+	38	forwbranch < 568, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, UnionExpr, ()V >
+	23	forwbranch < 568, 18 > 96.92833% taken
+	28	forwbranch < 12, 6 > 66.666664% taken
+	46	backbranch < 18, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, PathExpr, ()V >
+	15	forwbranch < 369, 217 > 62.969284% taken
+	20	forwbranch < 216, 1 > 99.53917% taken
+	35	forwbranch < 203, 14 > 93.548386% taken
+	43	forwbranch < 0, 14 > 0.0% taken
+	60	forwbranch < 14, 0 > 100.0% taken
+	71	forwbranch < 202, 15 > 93.087555% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, FilterExpr, ()I >
+	13	forwbranch < 369, 217 > 62.969284% taken
+	22	forwbranch < 216, 1 > 99.53917% taken
+	39	forwbranch < 1, 1 > 50.0% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, RelativeLocationPath, ()Z >
+	4	forwbranch < 383, 0 > 100.0% taken
+	15	forwbranch < 383, 65 > 85.49107% taken
+	26	backbranch < 65, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, LocationPath, ()V >
+	24	forwbranch < 362, 7 > 98.10298% taken
+	79	forwbranch < 0, 369 > 0.0% taken
+	86	forwbranch < 369, 0 > 100.0% taken
+	90	forwbranch < 0, 0 > Never Executed
+M 24 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, PrimaryExpr, ()Z >
+	15	forwbranch < 67, 519 > 11.433447% taken
+	24	forwbranch < 519, 0 > 100.0% taken
+	69	forwbranch < 481, 38 > 92.67823% taken
+	118	forwbranch < 481, 0 > 100.0% taken
+	172	forwbranch < 0, 481 > 0.0% taken
+	181	forwbranch < 422, 59 > 87.73389% taken
+	192	forwbranch < 18, 41 > 30.508474% taken
+	206	forwbranch < 0, 41 > 0.0% taken
+	216	forwbranch < 451, 30 > 93.76299% taken
+	262	forwbranch < 187, 264 > 41.463413% taken
+	272	forwbranch < 264, 0 > 100.0% taken
+	282	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, Predicate, ()V >
+	6	forwbranch < 0, 71 > 0.0% taken
+M 8 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, Literal, ()V >
+	27	forwbranch < 67, 0 > 100.0% taken
+	33	forwbranch < 0, 0 > Never Executed
+	39	forwbranch < 0, 67 > 0.0% taken
+	45	forwbranch < 0, 67 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, QName, ()V >
+	7	forwbranch < 38, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, consumeExpected, (C)V >
+	5	forwbranch < 0, 449 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, Number, ()V >
+	5	forwbranch < 0, 30 > 0.0% taken
+M 19 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, FunctionCall, ()Z >
+	16	forwbranch < 187, 0 > 100.0% taken
+	90	forwbranch < 187, 0 > 100.0% taken
+	111	switch     < 0, 0, 0, 105, 82 >
+	178	forwbranch < 82, 53 > 60.74074% taken
+	185	forwbranch < 0, 53 > 0.0% taken
+	194	forwbranch < 53, 0 > 100.0% taken
+	214	backbranch < 51, 2 > 96.22642% taken
+	229	backbranch < 2, 0 > 100.0% taken
+M 22 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, Step, ()Z >
+	17	forwbranch < 445, 3 > 99.33036% taken
+	142	forwbranch < 430, 18 > 95.98214% taken
+	155	forwbranch < 18, 0 > 100.0% taken
+	219	forwbranch < 389, 41 > 90.46512% taken
+	280	forwbranch < 0, 389 > 0.0% taken
+	289	forwbranch < 139, 250 > 35.732647% taken
+	298	forwbranch < 0, 250 > 0.0% taken
+	305	forwbranch < 0, 250 > 0.0% taken
+	319	forwbranch < 0, 250 > 0.0% taken
+	332	forwbranch < 389, 65 > 85.68282% taken
+	366	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, Basis, ()V >
+	16	forwbranch < 344, 45 > 88.43188% taken
+	41	forwbranch < 205, 139 > 59.59302% taken
+M 8 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, lookahead, (Ljava/lang/String;I)Z >
+	13	forwbranch < 14397, 416 > 97.19166% taken
+	41	forwbranch < 0, 416 > 0.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+	68	forwbranch < 14404, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, AxisName, ()I >
+	13	forwbranch < 45, 0 > 100.0% taken
+M 24 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, NodeTest, (I)V >
+	7	forwbranch < 21499, 106 > 99.50938% taken
+	23	forwbranch < 106, 0 > 100.0% taken
+	102	forwbranch < 106, 0 > 100.0% taken
+	111	forwbranch < 0, 0 > Never Executed
+	169	forwbranch < 21506, 0 > 100.0% taken
+	178	forwbranch < 0, 0 > Never Executed
+	229	forwbranch < 0, 0 > Never Executed
+	238	forwbranch < 0, 0 > Never Executed
+	302	forwbranch < 21458, 48 > 99.77681% taken
+	328	forwbranch < 21459, 0 > 100.0% taken
+	407	forwbranch < 21444, 0 > 100.0% taken
+	416	forwbranch < 0, 0 > Never Executed
+M 22 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, LocationPathPattern, ()V >
+	33	forwbranch < 14636, 1 > 99.99317% taken
+	42	forwbranch < 0, 1 > 0.0% taken
+	51	forwbranch < 1, 0 > 100.0% taken
+	64	forwbranch < 0, 0 > Never Executed
+	77	forwbranch < 0, 0 > Never Executed
+	151	forwbranch < 14643, 2 > 99.98634% taken
+	161	forwbranch < 2, 0 > 100.0% taken
+	240	forwbranch < 0, 14646 > 0.0% taken
+	249	forwbranch < 0, 14644 > 0.0% taken
+	257	forwbranch < 2, 14645 > 0.0136546735% taken
+	270	forwbranch < 2, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, RelativePathPattern, ()V >
+	12	forwbranch < 21193, 24 > 99.88689% taken
+	21	forwbranch < 8, 16 > 33.333332% taken
+M 20 < SystemAppCL, Lorg/apache/xpath/compiler/XPathParser;, AbbreviatedNodeTestStep, (Z)Z >
+	18	forwbranch < 20126, 1 > 99.99503% taken
+	44	forwbranch < 20126, 0 > 100.0% taken
+	53	forwbranch < 0, 0 > Never Executed
+	74	forwbranch < 0, 0 > Never Executed
+	135	forwbranch < 20128, 0 > 100.0% taken
+	139	forwbranch < 0, 0 > Never Executed
+	235	forwbranch < 20128, 5 > 99.97517% taken
+	248	forwbranch < 1, 20123 > 0.004969191% taken
+	257	forwbranch < 20100, 24 > 99.88074% taken
+	267	forwbranch < 16, 8 > 66.666664% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/compiler/Compiler;, variable, (I)Lorg/apache/xpath/Expression; >
+	22	forwbranch < 0, 38 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/compiler/Compiler;, compileFunction, (I)Lorg/apache/xpath/Expression; >
+	28	forwbranch < 0, 82 > 0.0% taken
+	52	forwbranch < 82, 53 > 60.74074% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/compiler/Compiler;, locationPath, (I)Lorg/apache/xpath/Expression; >
+	16	forwbranch < 33, 327 > 9.166667% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/compiler/Compiler;, matchPattern, (I)Lorg/apache/xpath/Expression; >
+	21	forwbranch < 11246, 11296 > 49.889095% taken
+	38	forwbranch < 16, 11232 > 0.14224751% taken
+	85	forwbranch < 16, 71 > 18.390804% taken
+M 10 < SystemAppCL, Lorg/apache/xpath/axes/UnionPathIterator;, createUnionIterator, (Lorg/apache/xpath/compiler/Compiler;I)Lorg/apache/xpath/axes/LocPathIterator; >
+	25	forwbranch < 4, 22 > 15.384615% taken
+	43	forwbranch < 20, 2 > 90.90909% taken
+	57	forwbranch < 20, 0 > 100.0% taken
+	74	forwbranch < 2, 4 > 33.333332% taken
+	92	forwbranch < 4, 20 > 16.666666% taken
+M 36 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, newDTMIterator, (Lorg/apache/xpath/compiler/Compiler;IZ)Lorg/apache/xml/dtm/DTMIterator; >
+	24	forwbranch < 75, 309 > 19.53125% taken
+	32	forwbranch < 291, 18 > 94.17476% taken
+	40	forwbranch < 0, 18 > 0.0% taken
+	48	forwbranch < 0, 18 > 0.0% taken
+	72	forwbranch < 198, 168 > 54.098362% taken
+	77	forwbranch < 8, 160 > 4.7619047% taken
+	85	forwbranch < 55, 105 > 34.375% taken
+	93	forwbranch < 0, 105 > 0.0% taken
+	130	forwbranch < 75, 131 > 36.40777% taken
+	138	forwbranch < 42, 89 > 32.06107% taken
+	159	forwbranch < 75, 42 > 64.10256% taken
+	167	forwbranch < 1, 41 > 2.3809524% taken
+	175	forwbranch < 0, 41 > 0.0% taken
+	183	forwbranch < 0, 41 > 0.0% taken
+	193	forwbranch < 27, 14 > 65.85366% taken
+	234	forwbranch < 73, 3 > 96.052635% taken
+	261	forwbranch < 14, 59 > 19.178082% taken
+	300	forwbranch < 0, 384 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/patterns/UnionPattern;, setPatterns, ([Lorg/apache/xpath/patterns/StepPattern;)V >
+	7	forwbranch < 0, 16 > 0.0% taken
+	15	forwbranch < 16, 71 > 18.390804% taken
+M 14 < SystemAppCL, Lorg/apache/xpath/compiler/Compiler;, stepPattern, (IILorg/apache/xpath/patterns/StepPattern;)Lorg/apache/xpath/patterns/StepPattern; >
+	13	forwbranch < 21214, 21194 > 50.02358% taken
+	30	switch     < 0, 2, 1, 8, 21213, 0 >
+	210	forwbranch < 8, 0 > 100.0% taken
+	317	forwbranch < 24, 21195 > 0.113106176% taken
+	345	forwbranch < 21195, 24 > 99.886894% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/compiler/OpMap;, getStepNS, (I)Ljava/lang/String; >
+	8	forwbranch < 42, 4522 > 0.9202454% taken
+	23	forwbranch < 4522, 0 > 100.0% taken
+	41	forwbranch < 4522, 0 > 100.0% taken
+M 9 < SystemAppCL, Lorg/apache/xpath/compiler/OpMap;, getStepLocalName, (I)Ljava/lang/String; >
+	7	switch     < 0, 42, 0, 21547, 0 >
+	80	forwbranch < 90, 21503 > 0.41680175% taken
+	98	forwbranch < 0, 90 > 0.0% taken
+M 41 < SystemAppCL, Lorg/apache/xpath/compiler/Compiler;, getWhatToShow, (I)I >
+	15	switch     < 21502, 4, 0, 1, 0, 41, 0, 0 >
+	91	switch     < 0, 0, 0, 0, 0, 0, 0, 41, 0, 0, 0, 0, 0, 0, 0 >
+	175	forwbranch < 41, 0 > 100.0% taken
+	193	switch     < 139, 100, 0, 0, 0, 4, 0, 1, 21, 0, 0, 0, 0, 16, 21201, 19 >
+M 2 < SystemAppCL, Lorg/apache/xpath/compiler/Compiler;, getCompiledPredicates, (I)[Lorg/apache/xpath/Expression; >
+	7	forwbranch < 21508, 46 > 99.78658% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/patterns/StepPattern;, setPredicates, ([Lorg/apache/xpath/Expression;)V >
+	7	forwbranch < 21206, 5 > 99.976425% taken
+	15	forwbranch < 5, 5 > 50.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/compiler/Compiler;, countPredicates, (I)I >
+	9	forwbranch < 22195, 138 > 99.38208% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/compiler/Compiler;, compilePredicates, (I[Lorg/apache/xpath/Expression;)V >
+	9	forwbranch < 46, 71 > 39.31624% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/compiler/OpMapVector;, setElementAt, (II)V >
+	5	forwbranch < 541904, 0 > 100.0% taken
+M 14 < SystemAppCL, Lorg/apache/xpath/compiler/OpMap;, getNextStepPos, (I)I >
+	9	forwbranch < 51, 883 > 5.4603853% taken
+	15	forwbranch < 0, 883 > 0.0% taken
+	27	forwbranch < 0, 51 > 0.0% taken
+	33	forwbranch < 0, 51 > 0.0% taken
+	49	forwbranch < 51, 4 > 92.72727% taken
+	70	forwbranch < 4, 47 > 7.8431373% taken
+	76	forwbranch < 47, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/apache/xpath/compiler/OpMap;, getFirstPredicateOpPos, (I)I >
+	12	forwbranch < 60, 999 > 5.6657224% taken
+	18	forwbranch < 0, 999 > 0.0% taken
+	37	forwbranch < 0, 60 > 0.0% taken
+	43	forwbranch < 0, 60 > 0.0% taken
+	62	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xml/utils/ObjectVector;, addElement, (Ljava/lang/Object;)V >
+	10	forwbranch < 22971, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/ObjectVector;, removeAllElements, ()V >
+	7	forwbranch < 7260, 4840 > 60.0% taken
+M 110 < SystemAppCL, Lorg/apache/xpath/compiler/Lexer;, tokenize, (Ljava/lang/String;Ljava/util/Vector;)V >
+	63	forwbranch < 21497, 90151 > 19.254263% taken
+	76	switch     < 0, 0, 0, 664, 18, 0, 38, 67, 188, 188, 48, 0, 2, 107, 123, 90, 0, 66, 3, 140, 71, 0, 71, 0, 73, 88197 >
+	291	forwbranch < 0, 0 > Never Executed
+	315	forwbranch < 0, 0 > Never Executed
+	356	forwbranch < 0, 0 > Never Executed
+	370	forwbranch < 0, 0 > Never Executed
+	383	forwbranch < 0, 0 > Never Executed
+	389	forwbranch < 0, 0 > Never Executed
+	428	forwbranch < 67, 0 > 100.0% taken
+	452	forwbranch < 0, 0 > Never Executed
+	493	forwbranch < 0, 249 > 0.0% taken
+	507	forwbranch < 67, 182 > 26.90763% taken
+	520	forwbranch < 0, 67 > 0.0% taken
+	526	forwbranch < 0, 67 > 0.0% taken
+	565	forwbranch < 568, 96 > 85.54217% taken
+	589	forwbranch < 96, 0 > 100.0% taken
+	633	forwbranch < 140, 107 > 56.68016% taken
+	638	forwbranch < 0, 107 > 0.0% taken
+	644	forwbranch < 0, 107 > 0.0% taken
+	656	forwbranch < 636, 393 > 61.80758% taken
+	680	forwbranch < 393, 0 > 100.0% taken
+	721	forwbranch < 586, 50 > 92.13837% taken
+	726	forwbranch < 41, 9 > 82.0% taken
+	748	forwbranch < 579, 48 > 92.3445% taken
+	769	forwbranch < 436, 593 > 42.371235% taken
+	776	forwbranch < 521, 72 > 87.858345% taken
+	781	forwbranch < 72, 0 > 100.0% taken
+	796	forwbranch < 188, 841 > 18.270164% taken
+	803	forwbranch < 770, 71 > 91.55767% taken
+	816	forwbranch < 188, 582 > 24.415585% taken
+	823	forwbranch < 511, 71 > 87.80069% taken
+	848	forwbranch < 0, 90 > 0.0% taken
+	857	forwbranch < 45, 45 > 50.0% taken
+	863	forwbranch < 0, 45 > 0.0% taken
+	872	forwbranch < 0, 45 > 0.0% taken
+	927	forwbranch < 66413, 21838 > 75.25467% taken
+	946	forwbranch < 66415, 0 > 100.0% taken
+	965	forwbranch < 187, 21309 > 0.8699293% taken
+	986	forwbranch < 0, 21307 > 0.0% taken
+	993	forwbranch < 0, 21309 > 0.0% taken
+	1005	forwbranch < 21299, 0 > 100.0% taken
+	1042	forwbranch < 21495, 0 > 100.0% taken
+	1060	forwbranch < 21497, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xpath/compiler/Lexer;, mapPatternElemPos, (IZZ)Z >
+	2	forwbranch < 140, 21706 > 0.6408496% taken
+	14	forwbranch < 21711, 0 > 100.0% taken
+	57	forwbranch < 21567, 147 > 99.32302% taken
+	93	forwbranch < 21604, 109 > 99.49799% taken
+M 36 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, createDefaultWalker, (Lorg/apache/xpath/compiler/Compiler;ILorg/apache/xpath/axes/WalkingIterator;I)Lorg/apache/xpath/axes/AxesWalker; >
+	25	switch     < 2, 0, 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 50, 42, 0, 0, 0, 0, 27, 0, 0, 0, 0, 4, 0 >
+	433	forwbranch < 141, 15 > 90.38461% taken
+	459	forwbranch < 4, 137 > 2.8368795% taken
+	465	forwbranch < 137, 0 > 100.0% taken
+M 45 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, analyze, (Lorg/apache/xpath/compiler/Compiler;II)I >
+	14	forwbranch < 455, 629 > 41.97417% taken
+	30	forwbranch < 587, 42 > 93.32273% taken
+	42	switch     < 4, 0, 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 36, 189, 247, 0, 3, 0, 4, 68, 1, 21, 18, 0, 11, 0, 0, 0, 0 >
+	269	forwbranch < 0, 3 > 0.0% taken
+	276	forwbranch < 0, 3 > 0.0% taken
+	420	forwbranch < 435, 194 > 69.157394% taken
+	437	forwbranch < 627, 2 > 99.68204% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, isOneStep, (I)Z >
+	6	forwbranch < 75, 309 > 19.53125% taken
+M 10 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, walksSelfOnly, (I)Z >
+	6	forwbranch < 378, 18 > 95.454544% taken
+	13	forwbranch < 0, 18 > 0.0% taken
+	20	forwbranch < 0, 18 > 0.0% taken
+	27	forwbranch < 0, 18 > 0.0% taken
+	34	forwbranch < 0, 18 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, isWild, (I)Z >
+	5	forwbranch < 55, 123 > 30.898876% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, hasPredicate, (I)Z >
+	6	forwbranch < 123, 0 > 100.0% taken
+M 16 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, walksChildrenOnly, (I)Z >
+	4	forwbranch < 176, 190 > 48.087433% taken
+	13	forwbranch < 0, 190 > 0.0% taken
+	20	forwbranch < 5, 185 > 2.631579% taken
+	27	forwbranch < 3, 182 > 1.6216216% taken
+	34	forwbranch < 5, 177 > 2.7472527% taken
+	41	forwbranch < 0, 177 > 0.0% taken
+	48	forwbranch < 168, 9 > 94.91525% taken
+	57	forwbranch < 9, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, walksAttributes, (I)Z >
+	5	forwbranch < 42, 89 > 32.06107% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, walksNamespaces, (I)Z >
+	5	forwbranch < 41, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, walksInDocOrder, (I)Z >
+	4	forwbranch < 0, 41 > 0.0% taken
+	11	forwbranch < 0, 41 > 0.0% taken
+	18	forwbranch < 41, 0 > 100.0% taken
+	27	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, isSet, (II)Z >
+	4	forwbranch < 2404, 315 > 88.414856% taken
+M 61 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, isOptimizableForDescendantIterator, (Lorg/apache/xpath/compiler/Compiler;II)Z >
+	25	forwbranch < 3, 86 > 3.3707864% taken
+	33	forwbranch < 79, 7 > 91.860466% taken
+	40	forwbranch < 7, 0 > 100.0% taken
+	51	forwbranch < 86, 0 > 100.0% taken
+	66	forwbranch < 85, 1 > 98.83721% taken
+	72	switch     < 2, 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 0, 16, 0, 3, 0, 0, 27, 0, 0, 0, 0, 7, 0, 0, 0, 0 >
+	221	forwbranch < 7, 0 > 100.0% taken
+	228	forwbranch < 3, 13 > 18.75% taken
+	233	forwbranch < 13, 0 > 100.0% taken
+	238	forwbranch < 0, 0 > Never Executed
+	249	forwbranch < 3, 0 > 100.0% taken
+	263	forwbranch < 0, 0 > Never Executed
+	314	forwbranch < 13, 0 > 100.0% taken
+	327	forwbranch < 3, 10 > 23.076923% taken
+	335	forwbranch < 10, 0 > 100.0% taken
+M 24 < SystemAppCL, Lorg/apache/xpath/axes/DescendantIterator;, <init>, (Lorg/apache/xpath/compiler/Compiler;II)V >
+	28	forwbranch < 3, 0 > 100.0% taken
+	45	forwbranch < 3, 0 > 100.0% taken
+	58	forwbranch < 0, 3 > 0.0% taken
+	80	forwbranch < 0, 3 > 0.0% taken
+	100	forwbranch < 0, 9 > 0.0% taken
+	114	forwbranch < 3, 6 > 33.333332% taken
+	128	forwbranch < 0, 3 > 0.0% taken
+	136	forwbranch < 0, 3 > 0.0% taken
+	141	forwbranch < 3, 0 > 100.0% taken
+	164	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 3 > 0.0% taken
+	200	forwbranch < 3, 0 > 100.0% taken
+M 53 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, isNaturalDocOrder, (Lorg/apache/xpath/compiler/Compiler;III)Z >
+	4	forwbranch < 59, 14 > 80.821915% taken
+	15	forwbranch < 59, 0 > 100.0% taken
+	26	forwbranch < 59, 0 > 100.0% taken
+	35	forwbranch < 0, 0 > Never Executed
+	58	forwbranch < 58, 124 > 31.868132% taken
+	66	switch     < 2, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 50, 24, 0, 0, 0, 0, 22, 0, 0, 0, 0, 4, 0, 0, 0, 0 >
+	210	forwbranch < 50, 0 > 100.0% taken
+	229	forwbranch < 50, 0 > 100.0% taken
+	240	forwbranch < 46, 0 > 100.0% taken
+	250	forwbranch < 74, 0 > 100.0% taken
+	289	forwbranch < 123, 1 > 99.19355% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/WalkingIterator;, <init>, (Lorg/apache/xpath/compiler/Compiler;IIZ)V >
+	19	forwbranch < 0, 73 > 0.0% taken
+M 38 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, mightBeProximate, (Lorg/apache/xpath/compiler/Compiler;II)Z >
+	3	switch     < 2, 0, 0, 13, 71 >
+	67	forwbranch < 85, 1 > 98.83721% taken
+	89	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0 >
+	217	forwbranch < 0, 0 > Never Executed
+	249	forwbranch < 0, 0 > Never Executed
+	264	forwbranch < 0, 0 > Never Executed
+M 7 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, analyzePredicate, (Lorg/apache/xpath/compiler/Compiler;II)Z >
+	1	switch     < 4, 0, 0, 26, 599 >
+	64	forwbranch < 587, 42 > 93.32273% taken
+M 8 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, walksSubtreeOnlyMaybeAbsolute, (I)Z >
+	4	forwbranch < 41, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+	18	forwbranch < 0, 0 > Never Executed
+	25	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, walksExtraNodesOnly, (I)Z >
+	4	forwbranch < 70, 5 > 93.333336% taken
+	13	forwbranch < 0, 5 > 0.0% taken
+	20	forwbranch < 0, 5 > 0.0% taken
+	27	forwbranch < 0, 5 > 0.0% taken
+	34	forwbranch < 0, 5 > 0.0% taken
+	41	forwbranch < 5, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, walksFollowingOnlyMaybeAbsolute, (I)Z >
+	6	forwbranch < 37, 4 > 90.243904% taken
+	13	forwbranch < 0, 4 > 0.0% taken
+	20	forwbranch < 0, 4 > 0.0% taken
+	27	forwbranch < 4, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, walksChildren, (I)Z >
+	5	forwbranch < 268, 259 > 50.85389% taken
+M 8 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, walksDownOnly, (I)Z >
+	4	forwbranch < 46, 41 > 52.87356% taken
+	11	forwbranch < 10, 31 > 24.390244% taken
+	18	forwbranch < 0, 31 > 0.0% taken
+	25	forwbranch < 22, 9 > 70.96774% taken
+M 12 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, walksChildrenAndExtraAndSelfOnly, (I)Z >
+	4	forwbranch < 46, 41 > 52.87356% taken
+	11	forwbranch < 0, 41 > 0.0% taken
+	18	forwbranch < 10, 31 > 24.390244% taken
+	25	forwbranch < 0, 31 > 0.0% taken
+	32	forwbranch < 9, 22 > 29.032259% taken
+	41	forwbranch < 18, 4 > 81.818184% taken
+M 12 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, walksDescendantsAndExtraAndSelfOnly, (I)Z >
+	4	forwbranch < 28, 46 > 37.837837% taken
+	11	forwbranch < 46, 0 > 100.0% taken
+	18	forwbranch < 0, 0 > Never Executed
+	25	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+	41	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, walksUpOnly, (I)Z >
+	4	forwbranch < 28, 46 > 37.837837% taken
+	11	forwbranch < 6, 40 > 13.043478% taken
+	18	forwbranch < 0, 40 > 0.0% taken
+	25	forwbranch < 0, 40 > 0.0% taken
+M 22 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, canCrissCross, (I)Z >
+	4	forwbranch < 87, 0 > 100.0% taken
+	13	forwbranch < 78, 9 > 89.655174% taken
+	20	forwbranch < 9, 0 > 100.0% taken
+	29	forwbranch < 74, 13 > 85.05747% taken
+	38	forwbranch < 74, 0 > 100.0% taken
+	47	forwbranch < 34, 40 > 45.945946% taken
+	56	forwbranch < 34, 0 > 100.0% taken
+	65	forwbranch < 6, 28 > 17.647058% taken
+	72	forwbranch < 0, 28 > 0.0% taken
+	79	forwbranch < 10, 18 > 35.714287% taken
+	86	forwbranch < 0, 18 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, loadWalkers, (Lorg/apache/xpath/axes/WalkingIterator;Lorg/apache/xpath/compiler/Compiler;II)Lorg/apache/xpath/axes/AxesWalker; >
+	23	forwbranch < 72, 156 > 31.578947% taken
+	54	forwbranch < 83, 73 > 53.205128% taken
+	89	backbranch < 155, 1 > 99.35897% taken
+M 30 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, getAxisFromStep, (Lorg/apache/xpath/compiler/Compiler;I)I >
+	7	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 4, 14, 1, 21, 0, 0, 0, 0 >
+M 22 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, getAnalysisBitFromAxes, (I)I >
+	1	switch     < 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 8 < SystemAppCL, Lorg/apache/xpath/axes/WalkerFactory;, isNaturalDocOrder, (I)Z >
+	4	forwbranch < 14, 0 > 100.0% taken
+	13	forwbranch < 0, 0 > Never Executed
+	20	forwbranch < 0, 0 > Never Executed
+	29	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/PredicatedNodeTest;, setLocPathIterator, (Lorg/apache/xpath/axes/LocPathIterator;)V >
+	7	forwbranch < 1880, 13295 > 12.388798% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/IteratorPool;, getInstance, ()Lorg/apache/xml/dtm/DTMIterator; >
+	7	forwbranch < 249005, 24141 > 91.16187% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/axes/NodeSequence;, setRoot, (ILjava/lang/Object;)V >
+	5	forwbranch < 0, 4831 > 0.0% taken
+	41	forwbranch < 4848, 0 > 100.0% taken
+	48	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xpath/axes/LocPathIterator;, setRoot, (ILjava/lang/Object;)V >
+	34	forwbranch < 19349, 2150 > 89.999535% taken
+	69	forwbranch < 584, 20869 > 2.72223% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/LocPathIterator;, detach, ()V >
+	4	forwbranch < 0, 19310 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/XPathContext;, getSubContextList, ()Lorg/apache/xpath/axes/SubContextList; >
+	7	forwbranch < 64491, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/axes/PredicatedNodeTest;, getPredicateCount, ()I >
+	5	forwbranch < 0, 192501 > 0.0% taken
+	13	forwbranch < 2518, 190109 > 1.3071896% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/axes/PredicatedNodeTest;, clone, ()Ljava/lang/Object; >
+	13	forwbranch < 1180, 0 > 100.0% taken
+	24	forwbranch < 0, 0 > Never Executed
+	61	forwbranch < 290, 890 > 24.576271% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/axes/PredicatedNodeTest;, callPredicateVisitors, (Lorg/apache/xpath/XPathVisitor;)V >
+	5	forwbranch < 428, 41 > 91.257996% taken
+	18	forwbranch < 41, 66 > 38.317757% taken
+	44	forwbranch < 45, 21 > 68.181816% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/axes/PredicatedNodeTest;, resetProximityPositions, ()V >
+	6	forwbranch < 39724, 763 > 98.11545% taken
+	14	forwbranch < 0, 763 > 0.0% taken
+	28	forwbranch < 763, 763 > 50.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/LocPathIterator;, getPrefixResolver, ()Lorg/apache/xml/utils/PrefixResolver; >
+	5	forwbranch < 50625, 0 > 100.0% taken
+M 22 < SystemAppCL, Lorg/apache/xpath/patterns/NodeTest;, execute, (Lorg/apache/xpath/XPathContext;I)Lorg/apache/xpath/objects/XObject; >
+	20	forwbranch < 277848, 0 > 100.0% taken
+	43	switch     < 111237, 106824, 0, 0, 0, 0, 0, 0, 0, 60411 >
+	152	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	202	forwbranch < 44849, 173114 > 20.576427% taken
+	219	forwbranch < 1545, 171473 > 0.8929707% taken
+	236	forwbranch < 16199, 155417 > 9.439096% taken
+M 18 < SystemAppCL, Lorg/apache/xpath/patterns/NodeTest;, calcScore, ()V >
+	4	forwbranch < 0, 9035 > 0.0% taken
+	11	forwbranch < 9015, 23 > 99.74552% taken
+	30	forwbranch < 0, 9014 > 0.0% taken
+	37	forwbranch < 0, 9015 > 0.0% taken
+	46	forwbranch < 8922, 93 > 98.96838% taken
+	65	forwbranch < 0, 8922 > 0.0% taken
+	74	forwbranch < 8922, 0 > 100.0% taken
+	99	forwbranch < 0, 9037 > 0.0% taken
+	108	forwbranch < 8945, 93 > 98.97101% taken
+M 8 < SystemAppCL, Lorg/apache/xpath/patterns/NodeTest;, subPartMatch, (Ljava/lang/String;Ljava/lang/String;)Z >
+	2	forwbranch < 26, 6623 > 0.39103624% taken
+	7	forwbranch < 0, 6631 > 0.0% taken
+	13	forwbranch < 0, 6655 > 0.0% taken
+	21	forwbranch < 1878, 4821 > 28.034035% taken
+M 12 < SystemAppCL, Lorg/apache/xpath/patterns/NodeTest;, subPartMatchNS, (Ljava/lang/String;Ljava/lang/String;)Z >
+	2	forwbranch < 1166982, 1554 > 99.86701% taken
+	7	forwbranch < 0, 1554 > 0.0% taken
+	14	forwbranch < 0, 1554 > 0.0% taken
+	20	forwbranch < 0, 1554 > 0.0% taken
+	28	forwbranch < 1554, 0 > 100.0% taken
+	36	forwbranch < 0, 0 > Never Executed
+M 22 < SystemAppCL, Lorg/apache/xpath/patterns/NodeTest;, execute, (Lorg/apache/xpath/XPathContext;ILorg/apache/xml/dtm/DTM;I)Lorg/apache/xpath/objects/XObject; >
+	5	forwbranch < 70580, 0 > 100.0% taken
+	33	switch     < 61826, 0, 0, 0, 0, 0, 104, 0, 0, 8909 >
+	144	forwbranch < 0, 0 > Never Executed
+	176	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 61793 > 0.0% taken
+	211	forwbranch < 0, 61704 > 0.0% taken
+	228	forwbranch < 23485, 38470 > 37.906544% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/axes/PredicatedNodeTest;, initPredicateInfo, (Lorg/apache/xpath/compiler/Compiler;I)V >
+	7	forwbranch < 0, 344 > 0.0% taken
+	24	forwbranch < 303, 41 > 88.0814% taken
+	37	forwbranch < 41, 66 > 38.317757% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/PredicatedNodeTest;, fixupVariables, (Ljava/util/Vector;I)V >
+	17	forwbranch < 450, 21 > 95.541405% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/axes/PredicatedNodeTest;, acceptNode, (I)S >
+	24	forwbranch < 3277, 20146 > 13.990522% taken
+	31	forwbranch < 20144, 0 > 100.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/LocPathIterator;, executeCharsToContentHandler, (Lorg/apache/xpath/XPathContext;Lorg/xml/sax/ContentHandler;)V >
+	45	forwbranch < 0, 12990 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/LocPathIterator;, bool, (Lorg/apache/xpath/XPathContext;)Z >
+	6	forwbranch < 17875, 2950 > 85.834335% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/axes/LocPathIterator;, returnNextNode, (I)I >
+	2	forwbranch < 9712, 10998 > 46.895218% taken
+	22	forwbranch < 10998, 9715 > 53.097088% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/LocPathIterator;, callVisitors, (Lorg/apache/xpath/ExpressionOwner;Lorg/apache/xpath/XPathVisitor;)V >
+	6	forwbranch < 0, 313 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/axes/ChildIterator;, nextNode, ()I >
+	4	forwbranch < 123212, 0 > 100.0% taken
+	15	forwbranch < 89776, 34081 > 72.48359% taken
+	54	forwbranch < 34135, 89940 > 27.511585% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/objects/XObject;, greaterThan, (Lorg/apache/xpath/objects/XObject;)Z >
+	5	forwbranch < 11817, 0 > 100.0% taken
+	23	forwbranch < 3658, 8159 > 30.955402% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/objects/XObject;, notEquals, (Lorg/apache/xpath/objects/XObject;)Z >
+	5	forwbranch < 6500, 0 > 100.0% taken
+	19	forwbranch < 0, 6500 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/patterns/StepPattern;, fixupVariables, (Ljava/util/Vector;I)V >
+	11	forwbranch < 218, 5 > 97.75785% taken
+	22	forwbranch < 5, 5 > 50.0% taken
+	47	forwbranch < 199, 24 > 89.23767% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/patterns/StepPattern;, calcScore, ()V >
+	4	forwbranch < 5, 14341 > 0.034852922% taken
+	12	forwbranch < 14317, 24 > 99.83265% taken
+	34	forwbranch < 7185, 7163 > 50.076664% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/patterns/StepPattern;, getPredicateCount, ()I >
+	5	forwbranch < 7743, 33326 > 18.853636% taken
+M 11 < SystemAppCL, Lorg/apache/xpath/patterns/StepPattern;, calcTargetString, ()V >
+	6	switch     < 0, 21211, 0, 0, 1, 0, 0, 2, 1 >
+	124	forwbranch < 21212, 1 > 99.995285% taken
+M 12 < SystemAppCL, Lorg/apache/xpath/patterns/StepPattern;, execute, (Lorg/apache/xpath/XPathContext;ILorg/apache/xml/dtm/DTM;I)Lorg/apache/xpath/objects/XObject; >
+	6	forwbranch < 52664, 0 > 100.0% taken
+	14	forwbranch < 0, 0 > Never Executed
+	46	forwbranch < 28763, 24092 > 54.418694% taken
+	57	forwbranch < 28185, 568 > 98.02455% taken
+	67	forwbranch < 403, 165 > 70.95071% taken
+	79	forwbranch < 18396, 10278 > 64.15568% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/patterns/StepPattern;, execute, (Lorg/apache/xpath/XPathContext;I)Lorg/apache/xpath/objects/XObject; >
+	7	forwbranch < 0, 326307 > 0.0% taken
+M 12 < SystemAppCL, Lorg/apache/xpath/patterns/StepPattern;, executePredicates, (Lorg/apache/xpath/XPathContext;Lorg/apache/xml/dtm/DTM;I)Z >
+	24	forwbranch < 17314, 25075 > 40.8455% taken
+	52	forwbranch < 25072, 0 > 100.0% taken
+	65	forwbranch < 0, 0 > Never Executed
+	71	forwbranch < 0, 0 > Never Executed
+	107	forwbranch < 0, 0 > Never Executed
+	133	forwbranch < 17315, 7759 > 69.055595% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/patterns/StepPattern;, executeRelativePathPattern, (Lorg/apache/xpath/XPathContext;Lorg/apache/xml/dtm/DTM;I)Lorg/apache/xpath/objects/XObject; >
+	32	forwbranch < 9593, 14120 > 40.4546% taken
+	53	forwbranch < 13233, 888 > 93.711494% taken
+M 18 < SystemAppCL, Lorg/apache/xpath/patterns/StepPattern;, getProximityPosition, (Lorg/apache/xpath/XPathContext;IZ)I >
+	50	forwbranch < 0, 122282 > 0.0% taken
+	69	forwbranch < 57689, 64624 > 47.165062% taken
+	86	forwbranch < 64624, 0 > 100.0% taken
+	114	forwbranch < 0, 0 > Never Executed
+	127	forwbranch < 0, 0 > Never Executed
+	150	forwbranch < 0, 0 > Never Executed
+	226	forwbranch < 0, 64620 > 0.0% taken
+	233	forwbranch < 0, 64620 > 0.0% taken
+	240	forwbranch < 52238, 12391 > 80.82749% taken
+M 8 < SystemAppCL, Lorg/apache/xpath/patterns/StepPattern;, callSubtreeVisitors, (Lorg/apache/xpath/XPathVisitor;)V >
+	5	forwbranch < 219, 5 > 97.76786% taken
+	18	forwbranch < 5, 5 > 50.0% taken
+	44	forwbranch < 0, 5 > 0.0% taken
+	72	forwbranch < 200, 24 > 89.28571% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/patterns/StepPattern;, callVisitors, (Lorg/apache/xpath/ExpressionOwner;Lorg/apache/xpath/XPathVisitor;)V >
+	6	forwbranch < 0, 224 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/patterns/UnionPattern;, fixupVariables, (Ljava/util/Vector;I)V >
+	8	forwbranch < 15, 69 > 17.857143% taken
+M 10 < SystemAppCL, Lorg/apache/xpath/patterns/UnionPattern;, execute, (Lorg/apache/xpath/XPathContext;)Lorg/apache/xpath/objects/XObject; >
+	14	forwbranch < 57224, 154993 > 26.964851% taken
+	35	forwbranch < 117904, 37236 > 75.99845% taken
+	40	forwbranch < 0, 37241 > 0.0% taken
+	59	forwbranch < 0, 0 > Never Executed
+	73	forwbranch < 37252, 20001 > 65.06558% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/patterns/UnionPattern;, callVisitors, (Lorg/apache/xpath/ExpressionOwner;Lorg/apache/xpath/XPathVisitor;)V >
+	12	forwbranch < 0, 15 > 0.0% taken
+	27	forwbranch < 15, 69 > 17.857143% taken
+M 64 < SystemAppCL, Lorg/apache/xml/utils/URI;, initialize, (Lorg/apache/xml/utils/URI;Ljava/lang/String;)V >
+	1	forwbranch < 0, 1 > 0.0% taken
+	5	forwbranch < 0, 1 > 0.0% taken
+	15	forwbranch < 1, 0 > 100.0% taken
+	34	forwbranch < 0, 1 > 0.0% taken
+	44	forwbranch < 1, 0 > 100.0% taken
+	74	forwbranch < 1, 0 > 100.0% taken
+	78	forwbranch < 0, 0 > Never Executed
+	125	forwbranch < 0, 1 > 0.0% taken
+	139	forwbranch < 1, 0 > 100.0% taken
+	156	forwbranch < 0, 0 > Never Executed
+	171	forwbranch < 0, 0 > Never Executed
+	178	forwbranch < 0, 0 > Never Executed
+	185	forwbranch < 0, 0 > Never Executed
+	201	forwbranch < 0, 0 > Never Executed
+	236	forwbranch < 1, 0 > 100.0% taken
+	246	forwbranch < 0, 0 > Never Executed
+	253	forwbranch < 0, 0 > Never Executed
+	260	forwbranch < 0, 0 > Never Executed
+	307	forwbranch < 0, 0 > Never Executed
+	323	forwbranch < 0, 0 > Never Executed
+	342	forwbranch < 0, 0 > Never Executed
+	380	forwbranch < 0, 0 > Never Executed
+	392	forwbranch < 0, 0 > Never Executed
+	413	forwbranch < 0, 0 > Never Executed
+	428	forwbranch < 0, 0 > Never Executed
+	468	forwbranch < 0, 0 > Never Executed
+	505	forwbranch < 0, 0 > Never Executed
+	542	forwbranch < 0, 0 > Never Executed
+	572	backbranch < 0, 0 > Never Executed
+	590	backbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	655	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xml/utils/URI;, setScheme, (Ljava/lang/String;)V >
+	1	forwbranch < 1, 0 > 100.0% taken
+	23	forwbranch < 1, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/apache/xml/utils/URI;, initializeScheme, (Ljava/lang/String;)V >
+	15	forwbranch < 0, 5 > 0.0% taken
+	29	forwbranch < 1, 4 > 20.0% taken
+	36	forwbranch < 0, 4 > 0.0% taken
+	43	forwbranch < 0, 4 > 0.0% taken
+	50	forwbranch < 4, 0 > 100.0% taken
+	75	forwbranch < 1, 0 > 100.0% taken
+M 56 < SystemAppCL, Lorg/apache/xml/utils/URI;, initializePath, (Ljava/lang/String;)V >
+	1	forwbranch < 1, 0 > 100.0% taken
+	30	forwbranch < 1, 38 > 2.5641026% taken
+	44	forwbranch < 0, 38 > 0.0% taken
+	51	forwbranch < 38, 0 > 100.0% taken
+	61	forwbranch < 38, 0 > 100.0% taken
+	69	forwbranch < 0, 0 > Never Executed
+	82	forwbranch < 0, 0 > Never Executed
+	95	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 6, 32 > 15.789474% taken
+	126	forwbranch < 32, 0 > 100.0% taken
+	133	forwbranch < 0, 0 > Never Executed
+	182	forwbranch < 1, 0 > 100.0% taken
+	193	forwbranch < 0, 0 > Never Executed
+	207	forwbranch < 0, 0 > Never Executed
+	217	forwbranch < 0, 0 > Never Executed
+	225	forwbranch < 0, 0 > Never Executed
+	238	forwbranch < 0, 0 > Never Executed
+	251	forwbranch < 0, 0 > Never Executed
+	269	forwbranch < 0, 0 > Never Executed
+	277	forwbranch < 0, 0 > Never Executed
+	328	forwbranch < 1, 0 > 100.0% taken
+	339	forwbranch < 0, 0 > Never Executed
+	353	forwbranch < 0, 0 > Never Executed
+	361	forwbranch < 0, 0 > Never Executed
+	374	forwbranch < 0, 0 > Never Executed
+	387	forwbranch < 0, 0 > Never Executed
+	405	forwbranch < 0, 0 > Never Executed
+	413	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xml/utils/URI;, isDigit, (C)Z >
+	3	forwbranch < 2, 0 > 100.0% taken
+	9	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xml/utils/URI;, isReservedCharacter, (C)Z >
+	7	forwbranch < 32, 6 > 84.210526% taken
+M 4 < SystemAppCL, Lorg/apache/xml/utils/URI;, isUnreservedCharacter, (C)Z >
+	4	forwbranch < 30, 2 > 93.75% taken
+	14	forwbranch < 0, 2 > 0.0% taken
+M 12 < SystemAppCL, Lorg/apache/xml/utils/URI;, isConformantSchemeName, (Ljava/lang/String;)Z >
+	1	forwbranch < 0, 1 > 0.0% taken
+	11	forwbranch < 1, 0 > 100.0% taken
+	24	forwbranch < 1, 0 > 100.0% taken
+	36	forwbranch < 1, 3 > 25.0% taken
+	49	forwbranch < 3, 0 > 100.0% taken
+	59	forwbranch < 0, 0 > Never Executed
+M 18 < SystemAppCL, Lorg/apache/xml/utils/URI;, getSchemeSpecificPart, ()Ljava/lang/String; >
+	12	forwbranch < 0, 1 > 0.0% taken
+	19	forwbranch < 0, 1 > 0.0% taken
+	27	forwbranch < 1, 0 > 100.0% taken
+	41	forwbranch < 1, 0 > 100.0% taken
+	64	forwbranch < 1, 0 > 100.0% taken
+	81	forwbranch < 1, 0 > 100.0% taken
+	104	forwbranch < 0, 1 > 0.0% taken
+	120	forwbranch < 1, 0 > 100.0% taken
+	143	forwbranch < 1, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xml/utils/URI;, isAlpha, (C)Z >
+	3	forwbranch < 2, 34 > 5.5555553% taken
+	9	forwbranch < 34, 0 > 100.0% taken
+	15	forwbranch < 2, 0 > 100.0% taken
+	21	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xml/utils/URI;, isAlphanum, (C)Z >
+	4	forwbranch < 33, 2 > 94.28571% taken
+	11	forwbranch < 2, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xml/utils/XMLChar;, isName, (I)Z >
+	3	forwbranch < 0, 3 > 0.0% taken
+	14	forwbranch < 0, 3 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xml/utils/XMLChar;, isNCNameStart, (I)Z >
+	3	forwbranch < 0, 158 > 0.0% taken
+	14	forwbranch < 0, 158 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xml/utils/XMLChar;, isNCName, (I)Z >
+	3	forwbranch < 0, 804 > 0.0% taken
+	15	forwbranch < 0, 804 > 0.0% taken
+M 40 < SystemAppCL, Lorg/apache/xml/utils/XMLChar;, <clinit>, ()V >
+	4324	forwbranch < 1, 4 > 20.0% taken
+	4341	forwbranch < 4, 63457 > 0.0063030836% taken
+	4376	forwbranch < 1, 5 > 16.666666% taken
+	4414	forwbranch < 1, 4 > 20.0% taken
+	4443	forwbranch < 1, 2 > 33.333332% taken
+	4475	forwbranch < 1, 151 > 0.65789473% taken
+	4494	forwbranch < 151, 34461 > 0.43626487% taken
+	4530	forwbranch < 1, 53 > 1.8518518% taken
+	4562	forwbranch < 1, 2 > 33.333332% taken
+	4594	forwbranch < 1, 15 > 6.25% taken
+	4613	forwbranch < 15, 149 > 9.146341% taken
+	4649	forwbranch < 1, 66 > 1.4925373% taken
+	4668	forwbranch < 66, 408 > 13.92405% taken
+	4704	forwbranch < 1, 29 > 3.3333333% taken
+	4737	forwbranch < 1, 3 > 25.0% taken
+	4756	forwbranch < 3, 10 > 23.076923% taken
+	4792	forwbranch < 1, 8 > 11.111111% taken
+	4838	forwbranch < 1, 9 > 10.0% taken
+	4870	forwbranch < 1, 3 > 25.0% taken
+	4889	forwbranch < 3, 75 > 3.8461537% taken
+M 8 < SystemAppCL, Lorg/apache/xml/utils/XMLCharacterRecognizer;, isWhiteSpace, (C)Z >
+	3	forwbranch < 8455, 10072 > 45.636097% taken
+	9	forwbranch < 171, 9901 > 1.697776% taken
+	15	forwbranch < 0, 9901 > 0.0% taken
+	21	forwbranch < 8040, 1861 > 81.20392% taken
+M 14 < SystemAppCL, Lorg/apache/xalan/templates/OutputProperties;, getDefaultMethodProperties, (Ljava/lang/String;)Ljava/util/Properties; >
+	14	forwbranch < 8503, 1 > 99.98824% taken
+	46	forwbranch < 8501, 2 > 99.97648% taken
+	62	forwbranch < 8498, 2 > 99.97647% taken
+	69	forwbranch < 1, 1 > 50.0% taken
+	98	forwbranch < 0, 8498 > 0.0% taken
+	105	forwbranch < 8492, 8 > 99.90588% taken
+	130	forwbranch < 8, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/templates/OutputProperties;, fixupPropertyString, (Ljava/lang/String;Z)Ljava/lang/String; >
+	1	forwbranch < 43, 43 > 50.0% taken
+	10	forwbranch < 43, 0 > 100.0% taken
+	27	forwbranch < 86, 0 > 100.0% taken
+	64	forwbranch < 86, 0 > 100.0% taken
+M 26 < SystemAppCL, Lorg/apache/xalan/templates/OutputProperties;, loadPropertiesFile, (Ljava/lang/String;Ljava/util/Properties;)Ljava/util/Properties; >
+	17	forwbranch < 9, 1 > 90.0% taken
+	47	forwbranch < 0, 10 > 0.0% taken
+	97	forwbranch < 10, 0 > 100.0% taken
+	103	forwbranch < 0, 0 > Never Executed
+	151	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	226	forwbranch < 0, 10 > 0.0% taken
+	235	forwbranch < 0, 10 > 0.0% taken
+	263	forwbranch < 10, 43 > 18.867924% taken
+	295	forwbranch < 2, 41 > 4.6511626% taken
+	334	forwbranch < 2, 41 > 4.6511626% taken
+	360	forwbranch < 0, 43 > 0.0% taken
+	367	forwbranch < 43, 0 > 100.0% taken
+M 14 < SystemAppCL, Lorg/apache/xalan/serialize/Encodings;, getMimeEncoding, (Ljava/lang/String;)Ljava/lang/String; >
+	2	forwbranch < 25498, 0 > 100.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+	24	forwbranch < 0, 0 > Never Executed
+	33	forwbranch < 0, 0 > Never Executed
+	42	forwbranch < 0, 0 > Never Executed
+	51	forwbranch < 0, 0 > Never Executed
+	66	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xalan/templates/OutputProperties;, setMethodDefaults, (Ljava/lang/String;)V >
+	12	forwbranch < 0, 2 > 0.0% taken
+	20	forwbranch < 0, 2 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/templates/OutputProperties;, getBooleanProperty, (Ljava/lang/String;Ljava/util/Properties;)Z >
+	8	forwbranch < 0, 72394 > 0.0% taken
+	17	forwbranch < 6582, 65814 > 9.091662% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/OutputProperties;, getIntProperty, (Ljava/lang/String;Ljava/util/Properties;)I >
+	8	forwbranch < 2331, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/apache/xalan/templates/OutputProperties;, copyFrom, (Ljava/util/Properties;Z)V >
+	11	forwbranch < 3, 7 > 30.0% taken
+	31	forwbranch < 7, 0 > 100.0% taken
+	71	forwbranch < 0, 7 > 0.0% taken
+	86	forwbranch < 3, 4 > 42.857143% taken
+	96	forwbranch < 3, 1 > 75.0% taken
+	127	forwbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lorg/apache/xalan/templates/OutputProperties;, getQNameProperties, (Ljava/lang/String;Ljava/util/Properties;)Ljava/util/Vector; >
+	8	forwbranch < 25500, 0 > 100.0% taken
+	44	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 0, 0 > Never Executed
+	73	forwbranch < 0, 0 > Never Executed
+	104	forwbranch < 0, 0 > Never Executed
+	117	forwbranch < 0, 0 > Never Executed
+	141	forwbranch < 0, 0 > Never Executed
+M 24 < SystemAppCL, Lorg/apache/xalan/templates/OutputProperties;, isLegalPropertyKey, (Ljava/lang/String;)Z >
+	6	forwbranch < 0, 7 > 0.0% taken
+	15	forwbranch < 2, 5 > 28.571428% taken
+	24	forwbranch < 0, 5 > 0.0% taken
+	33	forwbranch < 2, 3 > 40.0% taken
+	42	forwbranch < 2, 1 > 66.666664% taken
+	51	forwbranch < 0, 1 > 0.0% taken
+	60	forwbranch < 1, 0 > 100.0% taken
+	69	forwbranch < 0, 0 > Never Executed
+	78	forwbranch < 0, 0 > Never Executed
+	87	forwbranch < 0, 0 > Never Executed
+	94	forwbranch < 0, 0 > Never Executed
+	104	forwbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lorg/apache/xalan/templates/OutputProperties;, checkDuplicates, (Lorg/apache/xalan/templates/OutputProperties;)V >
+	5	forwbranch < 0, 1 > 0.0% taken
+	45	forwbranch < 1, 4 > 20.0% taken
+	67	forwbranch < 4, 0 > 100.0% taken
+	90	forwbranch < 0, 4 > 0.0% taken
+	120	forwbranch < 0, 0 > Never Executed
+	153	forwbranch < 0, 0 > Never Executed
+	158	forwbranch < 0, 0 > Never Executed
+	168	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/OutputProperties;, getProperty, (Ljava/lang/String;)Ljava/lang/String; >
+	6	forwbranch < 8477, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/extensions/ExpressionVisitor;, visitFunction, (Lorg/apache/xpath/ExpressionOwner;Lorg/apache/xpath/functions/Function;)Z >
+	4	forwbranch < 67, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xml/utils/FastStringBuffer;, setLength, (I)V >
+	14	forwbranch < 0, 260207 > 0.0% taken
+	21	forwbranch < 260207, 0 > 100.0% taken
+	50	forwbranch < 0, 260206 > 0.0% taken
+	57	forwbranch < 260206, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/OneStepIterator;, clone, ()Ljava/lang/Object; >
+	12	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/OneStepIterator;, setRoot, (ILjava/lang/Object;)V >
+	11	forwbranch < 0, 2500 > 0.0% taken
+M 20 < SystemAppCL, Lorg/apache/xpath/axes/BasicTestIterator;, nextNode, ()I >
+	4	forwbranch < 13405, 0 > 100.0% taken
+	19	forwbranch < 2136, 11285 > 15.915357% taken
+	31	forwbranch < 1289, 12132 > 9.604351% taken
+	69	forwbranch < 9284, 5330 > 63.528122% taken
+	78	forwbranch < 1179, 4152 > 22.115925% taken
+	86	backbranch < 1179, 0 > 100.0% taken
+	91	forwbranch < 9282, 4150 > 69.10363% taken
+	112	forwbranch < 646, 3505 > 15.562515% taken
+	136	forwbranch < 645, 8640 > 6.946688% taken
+	154	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xpath/axes/BasicTestIterator;, <init>, (Lorg/apache/xpath/compiler/Compiler;II)V >
+	31	forwbranch < 0, 185 > 0.0% taken
+	37	forwbranch < 185, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/ChildTestIterator;, getNextNode, ()I >
+	6	forwbranch < 50995, 20500 > 71.32667% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/AttributeIterator;, getNextNode, ()I >
+	6	forwbranch < 11674, 56710 > 17.071245% taken
+M 28 < SystemAppCL, Lorg/apache/xpath/objects/XString;, toDouble, ()D >
+	7	forwbranch < 4000, 0 > 100.0% taken
+	31	forwbranch < 0, 4000 > 0.0% taken
+	47	forwbranch < 0, 4000 > 0.0% taken
+	68	forwbranch < 0, 4000 > 0.0% taken
+	79	forwbranch < 4000, 0 > 100.0% taken
+	100	forwbranch < 4000, 4000 > 50.0% taken
+	115	forwbranch < 0, 4000 > 0.0% taken
+	123	forwbranch < 4000, 0 > 100.0% taken
+	134	forwbranch < 0, 4000 > 0.0% taken
+	181	forwbranch < 4000, 0 > 100.0% taken
+	196	forwbranch < 0, 0 > Never Executed
+	212	forwbranch < 0, 0 > Never Executed
+	223	forwbranch < 0, 0 > Never Executed
+	269	forwbranch < 4000, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/objects/XString;, str, ()Ljava/lang/String; >
+	5	forwbranch < 0, 31330 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/objects/XString;, bool, ()Z >
+	7	forwbranch < 0, 2000 > 0.0% taken
+M 8 < SystemAppCL, Lorg/apache/xpath/objects/XString;, startsWith, (Lorg/apache/xml/utils/XMLString;I)Z >
+	20	forwbranch < 0, 4602 > 0.0% taken
+	29	forwbranch < 0, 4607 > 0.0% taken
+	39	forwbranch < 0, 0 > Never Executed
+	55	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/apache/xpath/objects/XString;, equals, (Lorg/apache/xpath/objects/XObject;)Z >
+	7	forwbranch < 4838, 0 > 100.0% taken
+	18	forwbranch < 4839, 0 > 100.0% taken
+	29	forwbranch < 0, 0 > Never Executed
+	40	forwbranch < 4652, 189 > 96.09585% taken
+	52	forwbranch < 189, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/objects/XString;, equals, (Lorg/apache/xml/utils/XMLString;)Z >
+	6	forwbranch < 47141, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/operations/Operation;, callVisitors, (Lorg/apache/xpath/ExpressionOwner;Lorg/apache/xpath/XPathVisitor;)V >
+	6	forwbranch < 0, 79 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/operations/Equals;, bool, (Lorg/apache/xpath/XPathContext;)Z >
+	25	forwbranch < 34998, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/operations/Gt;, operate, (Lorg/apache/xpath/objects/XObject;Lorg/apache/xpath/objects/XObject;)Lorg/apache/xpath/objects/XObject; >
+	5	forwbranch < 14693, 32723 > 30.98743% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/ObjectPool;, getInstance, ()Ljava/lang/Object; >
+	7	forwbranch < 235802, 3179 > 98.66977% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/StringBufferPool;, <clinit>, ()V >
+	7	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xml/utils/FastStringBuffer;, <init>, (III)V >
+	39	forwbranch < 0, 1883 > 0.0% taken
+	55	forwbranch < 1883, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/apache/xml/utils/FastStringBuffer;, getString, (Ljava/lang/StringBuffer;III)Ljava/lang/StringBuffer; >
+	38	forwbranch < 16635, 0 > 100.0% taken
+	43	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 16636 > 0.0% taken
+	108	forwbranch < 16639, 0 > 100.0% taken
+	131	forwbranch < 2275, 14365 > 13.671875% taken
+M 12 < SystemAppCL, Lorg/apache/xml/utils/FastStringBuffer;, sendSAXcharacters, (Lorg/xml/sax/ContentHandler;II)V >
+	47	forwbranch < 114736, 138495 > 45.30883% taken
+	52	forwbranch < 138123, 420 > 99.696846% taken
+	59	forwbranch < 420, 0 > 100.0% taken
+	115	forwbranch < 113259, 1439 > 98.7454% taken
+	122	forwbranch < 1440, 0 > 100.0% taken
+	147	forwbranch < 3877, 110844 > 3.3795033% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/templates/AVTPartXPath;, evaluate, (Lorg/apache/xpath/XPathContext;Lorg/apache/xml/utils/FastStringBuffer;ILorg/apache/xml/utils/PrefixResolver;)V >
+	16	forwbranch < 0, 8213 > 0.0% taken
+M 18 < SystemAppCL, Lorg/apache/xpath/functions/FuncId;, getNodesByID, (Lorg/apache/xpath/XPathContext;ILjava/lang/String;Lorg/apache/xml/utils/StringVector;Lorg/apache/xpath/NodeSetDTM;Z)Lorg/apache/xml/utils/StringVector; >
+	2	forwbranch < 0, 67856 > 0.0% taken
+	34	forwbranch < 67895, 67884 > 50.00405% taken
+	54	forwbranch < 67885, 0 > 100.0% taken
+	64	forwbranch < 0, 0 > Never Executed
+	87	forwbranch < 67894, 0 > 100.0% taken
+	102	forwbranch < 0, 67883 > 0.0% taken
+	107	forwbranch < 0, 67892 > 0.0% taken
+	112	forwbranch < 67893, 0 > 100.0% taken
+	118	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/apache/xpath/functions/FuncId;, execute, (Lorg/apache/xpath/XPathContext;)Lorg/apache/xpath/objects/XObject; >
+	22	forwbranch < 8760, 0 > 100.0% taken
+	72	forwbranch < 0, 8761 > 0.0% taken
+	97	forwbranch < 8759, 8764 > 49.985733% taken
+	147	forwbranch < 8763, 0 > 100.0% taken
+	169	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Lorg/apache/xpath/axes/AxesWalker;, cloneDeep, (Lorg/apache/xpath/axes/WalkingIterator;Ljava/util/Vector;)Lorg/apache/xpath/axes/AxesWalker; >
+	8	forwbranch < 24307, 0 > 100.0% taken
+	28	forwbranch < 24312, 0 > 100.0% taken
+	49	forwbranch < 7106, 17210 > 29.223557% taken
+	62	forwbranch < 17208, 7106 > 70.77404% taken
+	80	forwbranch < 24313, 0 > 100.0% taken
+	88	forwbranch < 0, 0 > Never Executed
+	112	forwbranch < 17208, 7106 > 70.77404% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/AxesWalker;, setRoot, (I)V >
+	56	forwbranch < 24465, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xpath/axes/AxesWalker;, nextNode, ()I >
+	12	forwbranch < 19455, 5938 > 76.6156% taken
+	25	forwbranch < 13499, 5977 > 69.31094% taken
+	42	forwbranch < 13490, 0 > 100.0% taken
+	53	forwbranch < 6772, 6728 > 50.162964% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/axes/AxesWalker;, callVisitors, (Lorg/apache/xpath/ExpressionOwner;Lorg/apache/xpath/XPathVisitor;)V >
+	6	forwbranch < 0, 156 > 0.0% taken
+	19	forwbranch < 73, 83 > 46.794872% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/axes/WalkingIterator;, getAnalysisBits, ()I >
+	7	forwbranch < 0, 14 > 0.0% taken
+	17	forwbranch < 14, 32 > 30.434782% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/WalkingIterator;, clone, ()Ljava/lang/Object; >
+	13	forwbranch < 0, 18969 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/WalkingIterator;, setRoot, (ILjava/lang/Object;)V >
+	11	forwbranch < 0, 54604 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/axes/WalkingIterator;, nextNode, ()I >
+	4	forwbranch < 30327, 15984 > 65.48552% taken
+	14	forwbranch < 30329, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/axes/WalkingIterator;, detach, ()V >
+	4	forwbranch < 0, 11490 > 0.0% taken
+	14	forwbranch < 11498, 22987 > 33.342033% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/WalkingIterator;, fixupVariables, (Ljava/util/Vector;I)V >
+	12	forwbranch < 73, 156 > 31.87773% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/axes/WalkingIterator;, callVisitors, (Lorg/apache/xpath/ExpressionOwner;Lorg/apache/xpath/XPathVisitor;)V >
+	6	forwbranch < 0, 73 > 0.0% taken
+	14	forwbranch < 0, 73 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/NodeSequence;, detach, ()V >
+	5	forwbranch < 1421, 24698 > 5.440484% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/FilterExprIteratorSimple;, executeFilterExpr, (ILorg/apache/xpath/XPathContext;Lorg/apache/xml/utils/PrefixResolver;ZILorg/apache/xpath/Expression;)Lorg/apache/xpath/objects/XNodeSet; >
+	20	forwbranch < 0, 4032 > 0.0% taken
+M 18 < SystemAppCL, Lorg/apache/xpath/axes/NodeSequence;, nextNode, ()I >
+	7	forwbranch < 9424, 929 > 91.02676% taken
+	18	forwbranch < 929, 0 > 100.0% taken
+	47	forwbranch < 624, 306 > 67.09677% taken
+	55	forwbranch < 306, 0 > 100.0% taken
+	75	forwbranch < 9738, 0 > 100.0% taken
+	92	forwbranch < 3128, 6643 > 32.0131% taken
+	99	forwbranch < 6625, 0 > 100.0% taken
+	111	forwbranch < 0, 0 > Never Executed
+	142	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xpath/axes/AxesWalker;, findClone, (Lorg/apache/xpath/axes/AxesWalker;Ljava/util/Vector;)Lorg/apache/xpath/axes/AxesWalker; >
+	2	forwbranch < 20727, 0 > 100.0% taken
+	14	forwbranch < 0, 0 > Never Executed
+	23	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/apache/xpath/axes/AxesWalker;, getNextNode, ()I >
+	4	forwbranch < 54183, 0 > 100.0% taken
+	13	forwbranch < 0, 54218 > 0.0% taken
+	44	forwbranch < 0, 0 > Never Executed
+	71	forwbranch < 53885, 339 > 99.37482% taken
+M 9 < SystemAppCL, Lorg/apache/xpath/axes/FilterExprWalker;, init, (Lorg/apache/xpath/compiler/Compiler;II)V >
+	8	switch     < 2, 0, 0, 13, 0 >
+	65	forwbranch < 2, 13 > 13.333333% taken
+	75	forwbranch < 13, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/FilterExprWalker;, clone, ()Ljava/lang/Object; >
+	13	forwbranch < 53494, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/FilterExprWalker;, getNextNode, ()I >
+	5	forwbranch < 0, 59866 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/axes/FilterExprWalker;, getAnalysisBits, ()I >
+	5	forwbranch < 0, 9 > 0.0% taken
+	15	forwbranch < 9, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/axes/NodeSequence;, setShouldCacheNodes, (Z)V >
+	1	forwbranch < 0, 170362 > 0.0% taken
+	8	forwbranch < 138935, 31492 > 81.521706% taken
+M 4 < SystemAppCL, Lorg/apache/xpath/operations/And;, bool, (Lorg/apache/xpath/XPathContext;)Z >
+	8	forwbranch < 17956, 748 > 96.000854% taken
+	19	forwbranch < 748, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xpath/operations/Variable;, execute, (Lorg/apache/xpath/XPathContext;Z)Lorg/apache/xpath/objects/XObject; >
+	9	forwbranch < 0, 36305 > 0.0% taken
+	16	forwbranch < 35659, 651 > 98.20711% taken
+	55	forwbranch < 36301, 0 > 100.0% taken
+	109	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xpath/VariableStack;, getGlobalVariable, (Lorg/apache/xpath/XPathContext;IZ)Lorg/apache/xpath/objects/XObject; >
+	16	forwbranch < 2500, 3500 > 41.666668% taken
+	34	forwbranch < 1000, 1500 > 40.0% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/VariableStack;, getLocalVariable, (Lorg/apache/xpath/XPathContext;IZ)Lorg/apache/xpath/objects/XObject; >
+	18	forwbranch < 30560, 0 > 100.0% taken
+	47	forwbranch < 30556, 0 > 100.0% taken
+	65	forwbranch < 30555, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/operations/Variable;, fixupVariables, (Ljava/util/Vector;I)V >
+	20	forwbranch < 0, 68 > 0.0% taken
+	43	forwbranch < 30, 38 > 44.117645% taken
+	49	forwbranch < 15, 23 > 39.473682% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/WalkingIteratorSorted;, fixupVariables, (Ljava/util/Vector;I)V >
+	15	forwbranch < 14, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/axes/ReverseAxesWalker;, getNextNode, ()I >
+	4	forwbranch < 160797, 0 > 100.0% taken
+	23	forwbranch < 1000, 159888 > 0.6215504% taken
+	33	forwbranch < 159914, 1000 > 99.37855% taken
+M 9 < SystemAppCL, Lorg/apache/xpath/axes/UnionPathIterator;, loadLocationPaths, (Lorg/apache/xpath/compiler/Compiler;II)V >
+	11	forwbranch < 6, 24 > 20.0% taken
+	54	switch     < 0, 0, 0, 0, 6 >
+	120	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/UnionChildIterator;, addNodeTest, (Lorg/apache/xpath/axes/PredicatedNodeTest;)V >
+	5	forwbranch < 16, 4 > 80.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/UnionPathIterator;, createDTMIterator, (Lorg/apache/xpath/compiler/Compiler;I)Lorg/apache/xpath/axes/LocPathIterator; >
+	6	forwbranch < 0, 24 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/UnionPathIterator;, fixupVariables, (Ljava/util/Vector;I)V >
+	8	forwbranch < 2, 4 > 33.333332% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/axes/UnionPathIterator;, callVisitors, (Lorg/apache/xpath/ExpressionOwner;Lorg/apache/xpath/XPathVisitor;)V >
+	6	forwbranch < 0, 2 > 0.0% taken
+	14	forwbranch < 0, 2 > 0.0% taken
+	29	forwbranch < 2, 4 > 33.333332% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/functions/FunctionDef1Arg;, getArg0AsNode, (Lorg/apache/xpath/XPathContext;)I >
+	5	forwbranch < 261067, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/functions/FunctionDef1Arg;, checkNumberArgs, (I)V >
+	2	forwbranch < 48, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/operations/NotEquals;, operate, (Lorg/apache/xpath/objects/XObject;Lorg/apache/xpath/objects/XObject;)Lorg/apache/xpath/objects/XObject; >
+	5	forwbranch < 0, 6500 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/functions/FuncGenerateId;, execute, (Lorg/apache/xpath/XPathContext;)Lorg/apache/xpath/objects/XObject; >
+	8	forwbranch < 59315, 854 > 98.580666% taken
+M 8 < SystemAppCL, Lorg/apache/xpath/functions/FuncLocalPart;, execute, (Lorg/apache/xpath/XPathContext;)Lorg/apache/xpath/objects/XObject; >
+	8	forwbranch < 1881, 78850 > 2.32996% taken
+	23	forwbranch < 0, 1881 > 0.0% taken
+	47	forwbranch < 0, 1881 > 0.0% taken
+	57	forwbranch < 1881, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/OneStepIteratorForward;, getNextNode, ()I >
+	6	forwbranch < 14760, 15280 > 49.134487% taken
+M 22 < SystemAppCL, Lorg/apache/xpath/axes/HasPositionalPredChecker;, visitPredicate, (Lorg/apache/xpath/ExpressionOwner;Lorg/apache/xpath/Expression;)Z >
+	15	forwbranch < 30, 15 > 66.666664% taken
+	22	forwbranch < 0, 15 > 0.0% taken
+	29	forwbranch < 0, 15 > 0.0% taken
+	36	forwbranch < 0, 15 > 0.0% taken
+	43	forwbranch < 0, 15 > 0.0% taken
+	50	forwbranch < 0, 15 > 0.0% taken
+	57	forwbranch < 0, 15 > 0.0% taken
+	64	forwbranch < 0, 15 > 0.0% taken
+	71	forwbranch < 0, 15 > 0.0% taken
+	78	forwbranch < 0, 15 > 0.0% taken
+	85	forwbranch < 15, 0 > 100.0% taken
+M 14 < SystemAppCL, Lorg/apache/xpath/functions/FuncPosition;, getPositionInContextNodeList, (Lorg/apache/xpath/XPathContext;)I >
+	4	forwbranch < 62888, 0 > 100.0% taken
+	18	forwbranch < 0, 62887 > 0.0% taken
+	38	forwbranch < 0, 0 > Never Executed
+	52	forwbranch < 0, 0 > Never Executed
+	61	forwbranch < 0, 0 > Never Executed
+	104	forwbranch < 0, 0 > Never Executed
+	111	backbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xpath/functions/FuncPosition;, postCompileStep, (Lorg/apache/xpath/compiler/Compiler;)V >
+	6	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/functions/FuncStartsWith;, execute, (Lorg/apache/xpath/XPathContext;)Lorg/apache/xpath/objects/XObject; >
+	27	forwbranch < 62942, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/templates/TemplateList;, insertPatternInTable, (Lorg/apache/xpath/patterns/StepPattern;Lorg/apache/xalan/templates/ElemTemplate;)V >
+	7	forwbranch < 0, 163 > 0.0% taken
+	41	forwbranch < 163, 0 > 100.0% taken
+	61	forwbranch < 43, 120 > 26.380367% taken
+	66	forwbranch < 120, 0 > 100.0% taken
+M 36 < SystemAppCL, Lorg/apache/xalan/templates/TemplateList;, insertAssociationIntoList, (Lorg/apache/xalan/templates/TemplateSubPatternAssociation;Lorg/apache/xalan/templates/TemplateSubPatternAssociation;Z)Lorg/apache/xalan/templates/TemplateSubPatternAssociation; >
+	32	forwbranch < 91, 36 > 71.65354% taken
+	53	forwbranch < 91, 0 > 100.0% taken
+	66	forwbranch < 91, 0 > 100.0% taken
+	81	forwbranch < 84, 7 > 92.30769% taken
+	92	forwbranch < 77, 7 > 91.666664% taken
+	109	forwbranch < 77, 0 > 100.0% taken
+	125	forwbranch < 36, 7 > 83.72093% taken
+	131	forwbranch < 0, 7 > 0.0% taken
+	149	forwbranch < 43, 0 > 100.0% taken
+	165	forwbranch < 43, 0 > 100.0% taken
+	179	forwbranch < 37, 6 > 86.04651% taken
+	193	forwbranch < 36, 1 > 97.297295% taken
+	209	forwbranch < 36, 0 > 100.0% taken
+	228	forwbranch < 43, 0 > 100.0% taken
+	233	forwbranch < 0, 0 > Never Executed
+	280	forwbranch < 37, 6 > 86.04651% taken
+	294	forwbranch < 0, 6 > 0.0% taken
+	301	forwbranch < 6, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/templates/TemplateList;, getPriorityOrScore, (Lorg/apache/xalan/templates/TemplateSubPatternAssociation;)D >
+	13	forwbranch < 0, 177 > 0.0% taken
+	27	forwbranch < 0, 177 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/templates/TemplateList;, putHead, (Ljava/lang/String;Lorg/apache/xalan/templates/TemplateSubPatternAssociation;)V >
+	6	forwbranch < 126, 0 > 100.0% taken
+	23	forwbranch < 125, 1 > 99.20635% taken
+	40	forwbranch < 125, 0 > 100.0% taken
+M 15 < SystemAppCL, Lorg/apache/xalan/templates/TemplateList;, getHead, (Lorg/apache/xpath/XPathContext;ILorg/apache/xml/dtm/DTM;)Lorg/apache/xalan/templates/TemplateSubPatternAssociation; >
+	11	switch     < 9408, 0, 0, 0, 0, 0, 0, 0, 54, 0, 0, 0, 0 >
+	187	forwbranch < 55, 9470 > 0.5774278% taken
+M 10 < SystemAppCL, Lorg/apache/xalan/templates/TemplateSubPatternAssociation;, matchModes, (Lorg/apache/xml/utils/QName;Lorg/apache/xml/utils/QName;)Z >
+	2	forwbranch < 4069, 39950 > 9.243735% taken
+	7	forwbranch < 35810, 4169 > 89.57203% taken
+	12	forwbranch < 4171, 4071 > 50.606647% taken
+	17	forwbranch < 0, 4072 > 0.0% taken
+	25	forwbranch < 2035, 2036 > 49.987717% taken
+M 6 < SystemAppCL, Lorg/apache/xml/dtm/ref/ExpandedNameTable;, getExpandedTypeID, (Ljava/lang/String;Ljava/lang/String;I)I >
+	2	forwbranch < 69666, 385 > 99.4504% taken
+	10	forwbranch < 70045, 0 > 100.0% taken
+	40	forwbranch < 7203, 62948 > 10.267851% taken
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/ref/ExpandedNameTable;, getLocalNameID, (I)I >
+	21	forwbranch < 323527, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/ref/ExpandedNameTable;, getNamespace, (I)Ljava/lang/String; >
+	21	forwbranch < 127, 102993 > 0.12315749% taken
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/ref/ExpandedNameTable;, getNamespaceID, (I)I >
+	21	forwbranch < 0, 50546 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/ref/ExpandedNameTable;, <clinit>, ()V >
+	31	forwbranch < 1, 14 > 6.6666665% taken
+M 6 < SystemAppCL, Lorg/apache/xml/dtm/ref/ExpandedNameTable$ExtendedType;, equals, (Ljava/lang/Object;)Z >
+	13	forwbranch < 5792, 45473 > 11.298157% taken
+	27	forwbranch < 5183, 40302 > 11.394965% taken
+	41	forwbranch < 0, 40324 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/xalan/XalanHarness$WorkQueue;, pop, ()Ljava/lang/String; >
+	7	forwbranch < 8540, 19 > 99.778015% taken
+M 2 < SystemAppCL, Ldacapo/xalan/XalanHarness$XalanWorker;, run, ()V >
+	67	forwbranch < 5100, 24 > 99.53162% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/XPathContext;, reset, ()V >
+	4	forwbranch < 2745, 0 > 100.0% taken
+	21	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 2745, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/transformer/TransformerImpl;, resetUserParameters, ()V >
+	5	forwbranch < 0, 8500 > 0.0% taken
+	22	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xml/utils/NodeVector;, removeAllElements, ()V >
+	5	forwbranch < 82576, 0 > 100.0% taken
+	16	forwbranch < 82619, 89062 > 48.123554% taken
+M 22 < SystemAppCL, Lorg/apache/xalan/transformer/TransformerImpl;, transform, (Ljavax/xml/transform/Source;Z)V >
+	7	forwbranch < 5079, 0 > 100.0% taken
+	30	forwbranch < 0, 5080 > 0.0% taken
+	43	forwbranch < 5082, 0 > 100.0% taken
+	70	forwbranch < 0, 0 > Never Executed
+	198	forwbranch < 0, 5082 > 0.0% taken
+	217	forwbranch < 0, 0 > Never Executed
+	242	forwbranch < 5082, 0 > 100.0% taken
+	250	forwbranch < 0, 0 > Never Executed
+	264	forwbranch < 0, 0 > Never Executed
+	297	forwbranch < 5082, 0 > 100.0% taken
+	331	forwbranch < 0, 0 > Never Executed
+M 22 < SystemAppCL, Lorg/apache/xalan/transformer/TransformerImpl;, transformNode, (I)V >
+	57	forwbranch < 3395, 3400 > 49.963207% taken
+	83	forwbranch < 3396, 3400 > 49.97057% taken
+	110	forwbranch < 3394, 481662 > 0.69971305% taken
+	194	forwbranch < 0, 3400 > 0.0% taken
+	218	forwbranch < 0, 0 > Never Executed
+	234	forwbranch < 0, 0 > Never Executed
+	249	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	280	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, endDocument, ()V >
+	9	forwbranch < 65266, 11508 > 85.01055% taken
+	26	forwbranch < 11511, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/transformer/TransformerImpl;, reset, ()V >
+	4	forwbranch < 8500, 8499 > 50.00294% taken
+	11	forwbranch < 0, 8499 > 0.0% taken
+	23	forwbranch < 8500, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/transformer/TransformerImpl;, getOutputFormat, ()Lorg/apache/xalan/templates/OutputProperties; >
+	5	forwbranch < 0, 8473 > 0.0% taken
+M 24 < SystemAppCL, Lorg/apache/xalan/transformer/TransformerImpl;, createResultContentHandler, (Ljavax/xml/transform/Result;Lorg/apache/xalan/templates/OutputProperties;)Lorg/xml/sax/ContentHandler; >
+	9	forwbranch < 8474, 0 > 100.0% taken
+	24	forwbranch < 0, 0 > Never Executed
+	40	forwbranch < 0, 0 > Never Executed
+	94	forwbranch < 0, 0 > Never Executed
+	133	forwbranch < 8492, 0 > 100.0% taken
+	146	forwbranch < 0, 0 > Never Executed
+	163	forwbranch < 0, 8484 > 0.0% taken
+	195	forwbranch < 8499, 0 > 100.0% taken
+	219	forwbranch < 0, 8500 > 0.0% taken
+	243	forwbranch < 0, 0 > Never Executed
+	260	forwbranch < 0, 0 > Never Executed
+	275	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerFactory;, getSerializer, (Ljava/util/Properties;)Lorg/apache/xalan/serialize/Serializer; >
+	10	forwbranch < 17000, 0 > 100.0% taken
+	26	forwbranch < 0, 17000 > 0.0% taken
+	41	forwbranch < 17000, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/transformer/TransformerImpl;, setContentHandler, (Lorg/xml/sax/ContentHandler;)V >
+	1	forwbranch < 425, 0 > 100.0% taken
+	29	forwbranch < 0, 425 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/transformer/TransformerImpl;, setExtensionsTable, (Lorg/apache/xalan/templates/StylesheetRoot;)V >
+	4	forwbranch < 8500, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/transformer/TransformerImpl;, pushGlobalVars, (I)V >
+	42	forwbranch < 1644, 9864 > 14.285714% taken
+	83	forwbranch < 0, 9863 > 0.0% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, init, (Lorg/apache/xalan/transformer/TransformerImpl;Lorg/xml/sax/ContentHandler;)V >
+	12	forwbranch < 0, 3759 > 0.0% taken
+	19	forwbranch < 3761, 0 > 100.0% taken
+	47	forwbranch < 0, 3764 > 0.0% taken
+	98	forwbranch < 0, 3762 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/ObjectStack;, push, (Ljava/lang/Object;)Ljava/lang/Object; >
+	10	forwbranch < 317173, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xml/utils/NodeVector;, push, (I)V >
+	12	forwbranch < 3506, 15 > 99.57398% taken
+	20	forwbranch < 0, 15 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/transformer/TransformerImpl;, setErrorListener, (Ljavax/xml/transform/ErrorListener;)V >
+	8	forwbranch < 8499, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/transformer/TransformerImpl;, getShouldStripSpace, (ILorg/apache/xml/dtm/DTM;)S >
+	16	forwbranch < 0, 67824 > 0.0% taken
+	25	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xalan/trace/TraceManager;, hasTraceListeners, ()Z >
+	5	forwbranch < 16981, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, flushPending, (Z)V >
+	1	forwbranch < 13915, 75129 > 15.627106% taken
+	8	forwbranch < 73595, 1657 > 97.798065% taken
+	19	forwbranch < 75016, 14199 > 84.08452% taken
+	26	forwbranch < 0, 14209 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, checkForSerializerSwitch, (Ljava/lang/String;Ljava/lang/String;)V >
+	4	forwbranch < 0, 4860 > 0.0% taken
+M 14 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, ensurePrefixIsDeclared, (Ljava/lang/String;Ljava/lang/String;)V >
+	1	forwbranch < 0, 489472 > 0.0% taken
+	8	forwbranch < 489681, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	38	forwbranch < 0, 0 > Never Executed
+	55	forwbranch < 0, 0 > Never Executed
+	64	forwbranch < 0, 0 > Never Executed
+	100	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, sendEndPrefixMappings, ()V >
+	19	forwbranch < 91026, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, flushDocEvent, ()V >
+	4	forwbranch < 0, 66016 > 0.0% taken
+	21	forwbranch < 66083, 0 > 100.0% taken
+	52	forwbranch < 66096, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, startAndAddPrefixMappings, ()V >
+	19	forwbranch < 31211, 0 > 100.0% taken
+	55	forwbranch < 0, 0 > Never Executed
+	67	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, flushElem, ()V >
+	4	forwbranch < 0, 5413 > 0.0% taken
+	12	forwbranch < 0, 5417 > 0.0% taken
+	102	forwbranch < 5424, 0 > 100.0% taken
+	138	forwbranch < 5424, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xml/utils/MutableAttrListImpl;, addAttribute, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V >
+	2	forwbranch < 81882, 0 > 100.0% taken
+	17	forwbranch < 81915, 0 > 100.0% taken
+M 16 < SystemAppCL, Lorg/apache/xalan/transformer/SerializerSwitcher;, switchSerializerIfHTML, (Lorg/apache/xalan/transformer/TransformerImpl;Ljava/lang/String;Ljava/lang/String;)V >
+	2	forwbranch < 8499, 0 > 100.0% taken
+	8	forwbranch < 0, 8500 > 0.0% taken
+	15	forwbranch < 0, 8499 > 0.0% taken
+	24	forwbranch < 8499, 0 > 100.0% taken
+	34	forwbranch < 0, 0 > Never Executed
+	80	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	129	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, addNSDeclsToAttrs, ()V >
+	14	forwbranch < 30297, 0 > 100.0% taken
+	31	forwbranch < 0, 0 > Never Executed
+	41	forwbranch < 0, 0 > Never Executed
+	85	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, isDefinedNSDecl, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 0, 138493 > 0.0% taken
+	15	forwbranch < 138572, 0 > 100.0% taken
+	26	forwbranch < 0, 0 > Never Executed
+	56	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xalan/transformer/ResultTreeHandler;, isDefinedNSDecl, (ILorg/apache/xml/dtm/DTM;)Z >
+	9	forwbranch < 2500, 0 > 100.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+	45	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xml/utils/NodeVector;, addElement, (I)V >
+	10	forwbranch < 10123, 4796 > 67.85307% taken
+	18	forwbranch < 0, 4799 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/NodeVector;, RemoveAllNoClear, ()V >
+	5	forwbranch < 0, 17000 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/DTMManager;, newInstance, (Lorg/apache/xml/utils/XMLStringFactory;)Lorg/apache/xml/dtm/DTMManager; >
+	9	forwbranch < 532, 0 > 100.0% taken
+M 30 < SystemAppCL, Lorg/apache/xml/dtm/DTMManager;, findFactory, (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	12	forwbranch < 16999, 0 > 100.0% taken
+	18	forwbranch < 0, 0 > Never Executed
+	55	forwbranch < 8, 16992 > 0.047058824% taken
+	120	forwbranch < 8, 0 > 100.0% taken
+	158	forwbranch < 0, 0 > Never Executed
+	191	forwbranch < 0, 0 > Never Executed
+	205	forwbranch < 0, 0 > Never Executed
+	235	forwbranch < 0, 8 > 0.0% taken
+	261	forwbranch < 8, 0 > 100.0% taken
+	282	forwbranch < 0, 8 > 0.0% taken
+	288	forwbranch < 8, 0 > 100.0% taken
+	352	forwbranch < 8, 0 > 100.0% taken
+	385	forwbranch < 0, 8 > 0.0% taken
+	396	forwbranch < 0, 8 > 0.0% taken
+	410	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/DTMManager;, <clinit>, ()V >
+	13	forwbranch < 1, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMManagerDefault;, addDTM, (Lorg/apache/xml/dtm/DTM;II)V >
+	3	forwbranch < 1699, 0 > 100.0% taken
+	31	forwbranch < 1700, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMManagerDefault;, getFirstFreeDTMID, ()I >
+	10	forwbranch < 0, 8497 > 0.0% taken
+	20	forwbranch < 0, 8495 > 0.0% taken
+M 8 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMManagerDefault;, getXMLReader, (Ljavax/xml/transform/Source;)Lorg/xml/sax/XMLReader; >
+	4	forwbranch < 7000, 0 > 100.0% taken
+	20	forwbranch < 7012, 0 > 100.0% taken
+	31	forwbranch < 0, 7013 > 0.0% taken
+	97	forwbranch < 6979, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, <init>, (Lorg/apache/xml/dtm/DTMManager;Ljavax/xml/transform/Source;ILorg/apache/xml/dtm/DTMWSFilter;Lorg/apache/xml/utils/XMLStringFactory;Z)V >
+	199	forwbranch < 6862, 0 > 100.0% taken
+	221	forwbranch < 6862, 0 > 100.0% taken
+	243	forwbranch < 6862, 0 > 100.0% taken
+M 48 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMManagerDefault;, getDTM, (Ljavax/xml/transform/Source;ZLorg/apache/xml/dtm/DTMWSFilter;ZZ)Lorg/apache/xml/dtm/DTM; >
+	21	forwbranch < 0, 7388 > 0.0% taken
+	28	forwbranch < 7389, 0 > 100.0% taken
+	66	forwbranch < 0, 7392 > 0.0% taken
+	81	forwbranch < 0, 7395 > 0.0% taken
+	96	forwbranch < 0, 7394 > 0.0% taken
+	101	forwbranch < 0, 7390 > 0.0% taken
+	106	forwbranch < 7393, 0 > 100.0% taken
+	141	forwbranch < 7355, 0 > 100.0% taken
+	190	forwbranch < 7376, 0 > 100.0% taken
+	194	forwbranch < 0, 0 > Never Executed
+	199	forwbranch < 0, 0 > Never Executed
+	204	forwbranch < 0, 0 > Never Executed
+	258	forwbranch < 0, 7394 > 0.0% taken
+	274	forwbranch < 7393, 0 > 100.0% taken
+	286	forwbranch < 7394, 0 > 100.0% taken
+	297	forwbranch < 7394, 0 > 100.0% taken
+	302	forwbranch < 0, 0 > Never Executed
+	310	forwbranch < 0, 0 > Never Executed
+	333	forwbranch < 0, 0 > Never Executed
+	339	forwbranch < 0, 0 > Never Executed
+	384	forwbranch < 0, 0 > Never Executed
+	398	forwbranch < 0, 0 > Never Executed
+	464	forwbranch < 7395, 0 > 100.0% taken
+	496	forwbranch < 0, 7393 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, getDTMIDs, ()Lorg/apache/xml/utils/SuballocatedIntVector; >
+	4	forwbranch < 8500, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/SuballocatedIntVector;, elementAt, (I)I >
+	5	forwbranch < 61588, 201958 > 23.368975% taken
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMManagerDefault;, getDTM, (I)Lorg/apache/xml/dtm/DTM; >
+	13	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMManagerDefault;, release, (Lorg/apache/xml/dtm/DTM;Z)Z >
+	4	forwbranch < 0, 8499 > 0.0% taken
+	18	forwbranch < 0, 8500 > 0.0% taken
+	39	forwbranch < 8500, 8499 > 50.00294% taken
+	73	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xml/utils/Trie;, get, (Ljava/lang/String;)Ljava/lang/Object; >
+	16	forwbranch < 36978, 82777 > 30.878042% taken
+	42	forwbranch < 83238, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToXML;, writeParentTagEnd, ()V >
+	7	forwbranch < 64911, 24705 > 72.43238% taken
+M 12 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToXML;, pushState, (Ljava/lang/String;Ljava/lang/String;Ljava/util/Vector;Lorg/apache/xml/utils/BoolStack;)V >
+	2	forwbranch < 7096, 0 > 100.0% taken
+	10	forwbranch < 0, 0 > Never Executed
+	17	forwbranch < 0, 0 > Never Executed
+	35	forwbranch < 0, 0 > Never Executed
+	58	forwbranch < 0, 0 > Never Executed
+	70	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToHTML;, getElemDesc, (Ljava/lang/String;)Lorg/apache/xalan/serialize/ElemDesc; >
+	2	forwbranch < 0, 38918 > 0.0% taken
+	15	forwbranch < 0, 39044 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/serialize/ElemDesc;, is, (I)Z >
+	6	forwbranch < 800003, 272911 > 74.563576% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToHTML;, processAttribute, (Ljava/lang/String;Lorg/apache/xalan/serialize/ElemDesc;Ljava/lang/String;)V >
+	10	forwbranch < 194, 5951 > 3.1570382% taken
+	18	forwbranch < 5954, 0 > 100.0% taken
+	27	forwbranch < 194, 0 > 100.0% taken
+	61	forwbranch < 4479, 1665 > 72.90039% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToXML;, childNodesWereAdded, ()Z >
+	7	forwbranch < 168165, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/serialize/ElemDesc;, isAttrFlagSet, (Ljava/lang/String;I)Z >
+	5	forwbranch < 68807, 70339 > 49.449497% taken
+	18	forwbranch < 33732, 36715 > 47.882805% taken
+M 22 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToHTML;, writeAttrURI, (Ljava/lang/String;Z)V >
+	16	forwbranch < 37605, 432065 > 8.006685% taken
+	29	forwbranch < 0, 432524 > 0.0% taken
+	36	forwbranch < 432614, 0 > 100.0% taken
+	40	forwbranch < 0, 0 > Never Executed
+	47	forwbranch < 0, 0 > Never Executed
+	74	forwbranch < 0, 0 > Never Executed
+	139	forwbranch < 0, 0 > Never Executed
+	430	forwbranch < 0, 0 > Never Executed
+	470	forwbranch < 432101, 0 > 100.0% taken
+	486	forwbranch < 432130, 0 > 100.0% taken
+	490	forwbranch < 0, 0 > Never Executed
+M 24 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToHTML;, writeAttrString, (Ljava/lang/String;Ljava/lang/String;)V >
+	16	forwbranch < 15045, 87512 > 14.669891% taken
+	31	forwbranch < 0, 87530 > 0.0% taken
+	43	forwbranch < 0, 87569 > 0.0% taken
+	59	forwbranch < 0, 0 > Never Executed
+	66	forwbranch < 0, 0 > Never Executed
+	82	forwbranch < 0, 0 > Never Executed
+	91	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	132	forwbranch < 0, 0 > Never Executed
+	149	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	224	forwbranch < 0, 0 > Never Executed
+M 24 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToXML;, canConvert, (C)Z >
+	3	forwbranch < 49, 602272 > 0.008135197% taken
+	9	forwbranch < 596837, 15445 > 97.47747% taken
+	15	forwbranch < 15445, 0 > 100.0% taken
+	21	forwbranch < 0, 0 > Never Executed
+	27	forwbranch < 0, 0 > Never Executed
+	39	forwbranch < 0, 49 > 0.0% taken
+	47	forwbranch < 22, 27 > 44.89796% taken
+	71	forwbranch < 27, 0 > 100.0% taken
+	141	forwbranch < 49, 0 > 100.0% taken
+	180	forwbranch < 0, 0 > Never Executed
+	187	forwbranch < 0, 0 > Never Executed
+	226	forwbranch < 0, 49 > 0.0% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToXML;, accumDefaultEntity, (CI[CIZ)I >
+	2	forwbranch < 0, 7473 > 0.0% taken
+	9	forwbranch < 7473, 0 > 100.0% taken
+	39	forwbranch < 0, 7473 > 0.0% taken
+	55	forwbranch < 0, 7475 > 0.0% taken
+M 36 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToXML;, characters, ([CII)V >
+	2	forwbranch < 13276, 0 > 100.0% taken
+	10	forwbranch < 0, 13284 > 0.0% taken
+	20	forwbranch < 13305, 0 > 100.0% taken
+	38	forwbranch < 13282, 0 > 100.0% taken
+	62	forwbranch < 10524, 2786 > 79.06837% taken
+	133	forwbranch < 13336, 202633 > 6.17496% taken
+	144	forwbranch < 180875, 25559 > 87.618805% taken
+	151	forwbranch < 10518, 15180 > 40.929256% taken
+	158	forwbranch < 12048, 3156 > 79.2423% taken
+	165	forwbranch < 0, 3157 > 0.0% taken
+	172	forwbranch < 0, 3154 > 0.0% taken
+	179	forwbranch < 3153, 0 > 100.0% taken
+	196	forwbranch < 0, 203332 > 0.0% taken
+	206	forwbranch < 197682, 8778 > 95.74833% taken
+	213	forwbranch < 7264, 1524 > 82.65817% taken
+	224	forwbranch < 3642, 3628 > 50.096287% taken
+	245	forwbranch < 1965, 5303 > 27.036324% taken
+	299	forwbranch < 1244, 12108 > 9.3169565% taken
+M 26 < SystemAppCL, Lorg/apache/xalan/serialize/CharInfo;, <init>, (Ljava/lang/String;)V >
+	46	forwbranch < 1, 1 > 50.0% taken
+	71	forwbranch < 2, 0 > 100.0% taken
+	95	forwbranch < 0, 2 > 0.0% taken
+	101	forwbranch < 2, 0 > 100.0% taken
+	125	forwbranch < 2, 0 > 100.0% taken
+	145	forwbranch < 2, 0 > 100.0% taken
+	221	forwbranch < 2, 307 > 0.64724916% taken
+	229	forwbranch < 2, 305 > 0.6514658% taken
+	240	forwbranch < 196, 109 > 64.2623% taken
+	264	forwbranch < 0, 196 > 0.0% taken
+	287	forwbranch < 0, 196 > 0.0% taken
+	310	forwbranch < 196, 0 > 100.0% taken
+	433	forwbranch < 0, 2 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xml/utils/Trie;, put, (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object; >
+	17	forwbranch < 10, 184 > 5.1546392% taken
+	39	forwbranch < 84, 100 > 45.652172% taken
+	52	forwbranch < 84, 288 > 22.580645% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/serialize/ElemDesc;, setAttr, (Ljava/lang/String;I)V >
+	5	forwbranch < 22, 24 > 47.826088% taken
+M 20 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToXML;, init, (Ljava/io/Writer;Ljava/util/Properties;Z)V >
+	84	forwbranch < 2331, 0 > 100.0% taken
+	120	forwbranch < 775, 1556 > 33.24753% taken
+	132	forwbranch < 1556, 0 > 100.0% taken
+	145	forwbranch < 778, 1553 > 33.376232% taken
+	200	forwbranch < 2327, 0 > 100.0% taken
+	212	forwbranch < 0, 0 > Never Executed
+	226	forwbranch < 0, 0 > Never Executed
+	273	forwbranch < 0, 0 > Never Executed
+	304	forwbranch < 0, 0 > Never Executed
+	314	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xalan/serialize/Encodings;, getLastPrintable, (Ljava/lang/String;)I >
+	7	forwbranch < 0, 36026 > 0.0% taken
+	22	forwbranch < 1839, 34192 > 5.103938% taken
+	37	forwbranch < 34188, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/serialize/Encodings;, getWriter, (Ljava/io/OutputStream;Ljava/lang/String;)Ljava/io/Writer; >
+	7	forwbranch < 0, 25485 > 0.0% taken
+	22	forwbranch < 16995, 8498 > 66.66536% taken
+M 14 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToXML;, flushWriter, ()V >
+	5	forwbranch < 0, 167680 > 0.0% taken
+	15	forwbranch < 167806, 0 > 100.0% taken
+	22	forwbranch < 0, 0 > Never Executed
+	55	forwbranch < 167762, 0 > 100.0% taken
+	62	forwbranch < 0, 0 > Never Executed
+	82	forwbranch < 167737, 0 > 100.0% taken
+	89	forwbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToXML;, accumDefaultEscape, (CI[CIZ)I >
+	16	forwbranch < 243822, 0 > 100.0% taken
+	25	forwbranch < 0, 0 > Never Executed
+	31	forwbranch < 0, 0 > Never Executed
+	39	forwbranch < 0, 0 > Never Executed
+	78	forwbranch < 0, 0 > Never Executed
+	85	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	205	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToXML;, init, (Ljava/io/OutputStream;Ljava/util/Properties;)V >
+	2	forwbranch < 587, 0 > 100.0% taken
+	42	forwbranch < 587, 0 > 100.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+	78	forwbranch < 0, 0 > Never Executed
+	124	forwbranch < 0, 587 > 0.0% taken
+	136	forwbranch < 0, 587 > 0.0% taken
+	148	forwbranch < 587, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToXML;, endDocument, ()V >
+	4	forwbranch < 8499, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToHTML;, startDocument, ()V >
+	20	forwbranch < 0, 8498 > 0.0% taken
+	28	forwbranch < 0, 8499 > 0.0% taken
+	36	forwbranch < 0, 8499 > 0.0% taken
+	50	forwbranch < 0, 8498 > 0.0% taken
+	78	forwbranch < 8498, 0 > 100.0% taken
+	86	forwbranch < 0, 0 > Never Executed
+M 24 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToHTML;, startElement, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V >
+	2	forwbranch < 0, 13454 > 0.0% taken
+	9	forwbranch < 13462, 0 > 100.0% taken
+	75	forwbranch < 10178, 3338 > 75.303345% taken
+	90	forwbranch < 10182, 0 > 100.0% taken
+	98	forwbranch < 0, 0 > Never Executed
+	105	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	129	forwbranch < 7900, 5617 > 58.44492% taken
+	188	forwbranch < 13478, 5757 > 70.07018% taken
+	251	forwbranch < 13497, 0 > 100.0% taken
+	262	forwbranch < 0, 0 > Never Executed
+	269	forwbranch < 0, 0 > Never Executed
+M 26 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToHTML;, endElement, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V >
+	2	forwbranch < 267, 13823 > 1.894961% taken
+	9	forwbranch < 13830, 0 > 100.0% taken
+	70	forwbranch < 5563, 8552 > 39.411972% taken
+	85	forwbranch < 5563, 0 > 100.0% taken
+	92	forwbranch < 0, 0 > Never Executed
+	97	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 8264, 5855 > 58.53106% taken
+	124	forwbranch < 1286, 12823 > 9.11475% taken
+	129	forwbranch < 12824, 0 > 100.0% taken
+	171	forwbranch < 433, 853 > 33.670296% taken
+	219	forwbranch < 14040, 66 > 99.53211% taken
+	229	forwbranch < 1287, 12821 > 9.122483% taken
+	239	forwbranch < 0, 12819 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToHTML;, characters, ([CII)V >
+	7	forwbranch < 128488, 0 > 100.0% taken
+	23	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xml/utils/CharKey;, equals, (Ljava/lang/Object;)Z >
+	11	forwbranch < 135800, 270284 > 33.441357% taken
+M 4 < SystemAppCL, Lorg/apache/xalan/serialize/Encodings;, convertJava2MimeEncoding, (Ljava/lang/String;)Ljava/lang/String; >
+	7	forwbranch < 1429, 102163 > 1.3794502% taken
+	22	forwbranch < 102086, 0 > 100.0% taken
+M 20 < SystemAppCL, Lorg/apache/xalan/serialize/Encodings;, loadEncodingInfo, ()[Lorg/apache/xalan/serialize/EncodingInfo; >
+	17	forwbranch < 0, 1 > 0.0% taken
+	24	forwbranch < 1, 0 > 100.0% taken
+	37	forwbranch < 0, 1 > 0.0% taken
+	45	forwbranch < 0, 1 > 0.0% taken
+	73	forwbranch < 0, 1 > 0.0% taken
+	95	forwbranch < 0, 1 > 0.0% taken
+	106	forwbranch < 1, 0 > 100.0% taken
+	124	forwbranch < 0, 1 > 0.0% taken
+	164	forwbranch < 1, 72 > 1.369863% taken
+	198	forwbranch < 72, 0 > 100.0% taken
+M 4 < BootstrapCL, Lorg/xml/sax/helpers/AttributesImpl;, clear, ()V >
+	4	forwbranch < 0, 104936 > 0.0% taken
+	16	forwbranch < 105090, 112241 > 48.354813% taken
+M 12 < BootstrapCL, Lorg/xml/sax/helpers/AttributesImpl;, ensureCapacity, (I)V >
+	1	forwbranch < 142068, 0 > 100.0% taken
+	9	forwbranch < 1640, 140471 > 1.1540275% taken
+	17	forwbranch < 140570, 0 > 100.0% taken
+	34	forwbranch < 962, 139644 > 0.68418133% taken
+	48	forwbranch < 2602, 962 > 73.00786% taken
+	67	forwbranch < 1640, 962 > 63.02844% taken
+M 4 < BootstrapCL, Lorg/xml/sax/helpers/AttributesImpl;, getQName, (I)Ljava/lang/String; >
+	1	forwbranch < 0, 26914 > 0.0% taken
+	9	forwbranch < 0, 26921 > 0.0% taken
+M 4 < BootstrapCL, Lorg/xml/sax/helpers/AttributesImpl;, getValue, (I)Ljava/lang/String; >
+	1	forwbranch < 0, 63232 > 0.0% taken
+	9	forwbranch < 0, 63242 > 0.0% taken
+M 4 < BootstrapCL, Lorg/xml/sax/helpers/AttributesImpl;, getIndex, (Ljava/lang/String;)I >
+	11	forwbranch < 135467, 146685 > 48.012066% taken
+	26	forwbranch < 146688, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xml/utils/SuballocatedIntVector;, addElement, (I)V >
+	8	forwbranch < 33956, 64285 > 34.56398% taken
+	57	forwbranch < 33957, 4 > 99.98822% taken
+	108	forwbranch < 33444, 558 > 98.35892% taken
+M 2 < SystemAppCL, Lorg/apache/xml/utils/SuballocatedIntVector;, <init>, (I)V >
+	26	forwbranch < 1535, 14023 > 9.866306% taken
+M 4 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, clearCoRoutine, (Z)V >
+	5	forwbranch < 2325, 0 > 100.0% taken
+	9	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, makeNodeIdentity, (I)I >
+	2	forwbranch < 9452, 0 > 100.0% taken
+	11	forwbranch < 0, 9499 > 0.0% taken
+	29	forwbranch < 9576, 0 > 100.0% taken
+	63	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, _type, (I)S >
+	8	forwbranch < 0, 124304 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, isTextType, (I)Z >
+	2	forwbranch < 202953, 35326 > 85.17452% taken
+	7	forwbranch < 35336, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, _firstch, (I)I >
+	5	forwbranch < 47069, 0 > 100.0% taken
+	25	forwbranch < 47135, 0 > 100.0% taken
+	38	forwbranch < 0, 0 > Never Executed
+	42	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 0, 0 > Never Executed
+	63	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, _level, (I)I >
+	5	forwbranch < 3030, 0 > 100.0% taken
+	14	forwbranch < 0, 0 > Never Executed
+	22	forwbranch < 0, 0 > Never Executed
+	40	forwbranch < 3030, 13886 > 17.912037% taken
+M 6 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, _dataOrQName, (I)I >
+	5	forwbranch < 0, 321094 > 0.0% taken
+	23	forwbranch < 0, 0 > Never Executed
+	33	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, getNextNodeIdentity, (I)I >
+	8	forwbranch < 17173, 0 > 100.0% taken
+	16	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMStringPool;, indexToString, (I)Ljava/lang/String; >
+	2	forwbranch < 187532, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, getExpandedTypeID, (I)I >
+	8	forwbranch < 334327, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xml/utils/SuballocatedIntVector;, setElementAt, (II)V >
+	5	forwbranch < 26152, 71505 > 26.779442% taken
+	39	forwbranch < 26153, 0 > 100.0% taken
+	90	forwbranch < 26154, 0 > 100.0% taken
+	119	forwbranch < 97518, 156 > 99.84029% taken
+M 16 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, declareNamespaceInContext, (II)V >
+	6	forwbranch < 0, 8486 > 0.0% taken
+	71	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 8497, 0 > 100.0% taken
+	141	forwbranch < 0, 0 > Never Executed
+	158	forwbranch < 0, 0 > Never Executed
+	195	forwbranch < 8499, 0 > 100.0% taken
+	210	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, _exptype, (I)I >
+	5	forwbranch < 49695, 0 > 100.0% taken
+	12	backbranch < 0, 0 > Never Executed
+	20	backbranch < 0, 0 > Never Executed
+M 24 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, getPrefix, (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	5	forwbranch < 0, 174158 > 0.0% taken
+	12	forwbranch < 173357, 871 > 99.500084% taken
+	34	backbranch < 0, 871 > 0.0% taken
+	39	forwbranch < 871, 0 > 100.0% taken
+	62	forwbranch < 0, 871 > 0.0% taken
+	79	forwbranch < 871, 0 > 100.0% taken
+	94	forwbranch < 871, 0 > 100.0% taken
+	111	forwbranch < 0, 871 > 0.0% taken
+	136	forwbranch < 0, 173427 > 0.0% taken
+	153	forwbranch < 173666, 0 > 100.0% taken
+	168	forwbranch < 173662, 0 > 100.0% taken
+	185	forwbranch < 173688, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, getFirstAttribute, (I)I >
+	8	forwbranch < 0, 20888 > 0.0% taken
+	25	forwbranch < 0, 21160 > 0.0% taken
+	36	forwbranch < 12540, 8656 > 59.162106% taken
+	48	backbranch < 292, 12250 > 2.3281772% taken
+M 8 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, getNextAttribute, (I)I >
+	8	forwbranch < 0, 76591 > 0.0% taken
+	25	forwbranch < 0, 76613 > 0.0% taken
+	36	forwbranch < 54882, 21731 > 71.63536% taken
+	48	backbranch < 0, 54882 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, makeNodeHandle, (I)I >
+	2	forwbranch < 82081, 7520 > 91.60724% taken
+	10	forwbranch < 82187, 0 > 100.0% taken
+	16	forwbranch < 0, 0 > Never Executed
+M 21 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, addNode, (IIIIIZ)I >
+	25	forwbranch < 129401, 0 > 100.0% taken
+	32	forwbranch < 0, 0 > Never Executed
+	103	forwbranch < 82239, 47543 > 63.36703% taken
+	162	forwbranch < 129605, 0 > 100.0% taken
+	169	forwbranch < 0, 0 > Never Executed
+	231	forwbranch < 0, 0 > Never Executed
+	284	forwbranch < 53537, 76447 > 41.187378% taken
+	299	switch     < 8943, 280, 120536 >
+	339	forwbranch < 280, 120306 > 0.23219943% taken
+	352	forwbranch < 75057, 45572 > 62.221355% taken
+M 6 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, charactersFlush, ()V >
+	4	forwbranch < 6665, 22039 > 23.21976% taken
+	26	forwbranch < 22093, 0 > 100.0% taken
+	43	forwbranch < 22038, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMStringPool;, stringToIndex, (Ljava/lang/String;)I >
+	1	forwbranch < 28790, 0 > 100.0% taken
+	15	forwbranch < 15025, 13784 > 52.15384% taken
+	34	forwbranch < 21971, 11272 > 66.09211% taken
+	50	forwbranch < 4438, 6835 > 39.3684% taken
+	100	forwbranch < 3400, 18566 > 15.478467% taken
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, indexNode, (II)V >
+	15	forwbranch < 0, 267316 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, pushShouldStripWhitespace, (Z)V >
+	10	forwbranch < 0, 260615 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, popShouldStripWhitespace, ()V >
+	5	forwbranch < 0, 370807 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, characters, ([CII)V >
+	5	forwbranch < 56220, 93370 > 37.582726% taken
+	42	forwbranch < 16650, 132825 > 11.138987% taken
+M 10 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, <init>, (Lorg/apache/xml/dtm/DTMManager;Ljavax/xml/transform/Source;ILorg/apache/xml/dtm/DTMWSFilter;Lorg/apache/xml/utils/XMLStringFactory;Z)V >
+	62	forwbranch < 2444, 0 > 100.0% taken
+	161	forwbranch < 0, 2448 > 0.0% taken
+	175	forwbranch < 0, 2448 > 0.0% taken
+	220	forwbranch < 0, 2446 > 0.0% taken
+	252	forwbranch < 0, 2448 > 0.0% taken
+M 12 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, ensureSizeOfIndex, (II)V >
+	5	forwbranch < 90958, 543 > 99.40656% taken
+	28	forwbranch < 91115, 0 > 100.0% taken
+	68	forwbranch < 91298, 545 > 99.40659% taken
+	92	forwbranch < 91308, 0 > 100.0% taken
+	132	forwbranch < 83304, 8584 > 90.658195% taken
+	164	forwbranch < 83263, 32 > 99.961586% taken
+M 8 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, _parent, (I)I >
+	5	forwbranch < 0, 789515 > 0.0% taken
+	27	forwbranch < 0, 0 > Never Executed
+	31	forwbranch < 0, 0 > Never Executed
+	41	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, _prevsib, (I)I >
+	5	forwbranch < 0, 164675 > 0.0% taken
+	27	forwbranch < 0, 0 > Never Executed
+	31	forwbranch < 0, 0 > Never Executed
+	41	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, _nextsib, (I)I >
+	5	forwbranch < 208099, 0 > 100.0% taken
+	25	forwbranch < 208401, 0 > 100.0% taken
+	38	forwbranch < 0, 0 > Never Executed
+	42	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 0, 0 > Never Executed
+	63	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, findNamespaceContext, (I)Lorg/apache/xml/utils/SuballocatedIntVector; >
+	5	forwbranch < 0, 12000 > 0.0% taken
+	19	forwbranch < 12001, 0 > 100.0% taken
+	36	forwbranch < 12001, 0 > 100.0% taken
+	65	forwbranch < 0, 56054 > 0.0% taken
+	70	forwbranch < 0, 56054 > 0.0% taken
+	85	forwbranch < 44062, 12002 > 78.59232% taken
+	103	forwbranch < 0, 44062 > 0.0% taken
+M 10 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, findInSortedSuballocatedIntVector, (Lorg/apache/xml/utils/SuballocatedIntVector;I)I >
+	3	forwbranch < 0, 60994 > 0.0% taken
+	21	forwbranch < 60992, 60992 > 50.0% taken
+	43	forwbranch < 60991, 0 > 100.0% taken
+	50	forwbranch < 60991, 0 > 100.0% taken
+	72	forwbranch < 0, 60992 > 0.0% taken
+M 12 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, getFirstNamespaceNode, (IZ)I >
+	1	forwbranch < 0, 30499 > 0.0% taken
+	15	forwbranch < 0, 30500 > 0.0% taken
+	23	forwbranch < 30500, 0 > 100.0% taken
+	48	forwbranch < 0, 0 > Never Executed
+	62	forwbranch < 0, 0 > Never Executed
+	74	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, getNextNamespaceNode, (IIZ)I >
+	1	forwbranch < 0, 9356 > 0.0% taken
+	17	forwbranch < 9356, 0 > 100.0% taken
+	34	forwbranch < 0, 9356 > 0.0% taken
+	44	forwbranch < 0, 9356 > 0.0% taken
+	74	forwbranch < 0, 0 > Never Executed
+	89	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, getParent, (I)I >
+	7	forwbranch < 64878, 385595 > 14.402195% taken
+M 6 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBase;, isNodeAfter, (II)Z >
+	15	forwbranch < 0, 162895 > 0.0% taken
+	26	forwbranch < 0, 162926 > 0.0% taken
+	38	forwbranch < 0, 162943 > 0.0% taken
+M 28 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBaseTraversers;, getAxisTraverser, (I)Lorg/apache/xml/dtm/DTMAxisTraverser; >
+	5	forwbranch < 536358, 1527 > 99.71611% taken
+	32	forwbranch < 29076, 507570 > 5.418097% taken
+	38	switch     < 1167, 0, 1526, 1525, 0, 0, 0, 0, 0, 0, 1526, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24860, 0 >
+	425	forwbranch < 5742, 0 > 100.0% taken
+M 21 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBaseIterators;, getAxisIterator, (I)Lorg/apache/xml/dtm/DTMAxisIterator; >
+	3	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 121495, 0, 1900, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 24 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, dispatchCharactersEvents, (ILorg/xml/sax/ContentHandler;Z)V >
+	21	forwbranch < 33535, 426710 > 7.2863364% taken
+	60	forwbranch < 427312, 0 > 100.0% taken
+	105	forwbranch < 33155, 388 > 98.84328% taken
+	129	forwbranch < 0, 776 > 0.0% taken
+	140	forwbranch < 388, 388 > 50.0% taken
+	157	forwbranch < 0, 388 > 0.0% taken
+	171	forwbranch < 0, 388 > 0.0% taken
+	214	forwbranch < 0, 388 > 0.0% taken
+	218	forwbranch < 388, 0 > 100.0% taken
+	255	forwbranch < 0, 33150 > 0.0% taken
+	268	forwbranch < 33152, 0 > 100.0% taken
+	301	forwbranch < 33169, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, getNodeName, (I)Ljava/lang/String; >
+	17	forwbranch < 0, 53977 > 0.0% taken
+	31	forwbranch < 53990, 0 > 100.0% taken
+	43	forwbranch < 0, 0 > Never Executed
+	85	forwbranch < 53982, 0 > 100.0% taken
+	120	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, getNodeNameX, (I)Ljava/lang/String; >
+	17	forwbranch < 0, 60997 > 0.0% taken
+	32	forwbranch < 60998, 0 > 100.0% taken
+	57	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, getNodeValue, (I)Ljava/lang/String; >
+	17	forwbranch < 948, 0 > 100.0% taken
+	65	forwbranch < 0, 948 > 0.0% taken
+	71	forwbranch < 0, 948 > 0.0% taken
+	77	forwbranch < 948, 0 > 100.0% taken
+	91	forwbranch < 948, 0 > 100.0% taken
+M 20 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, getStringValue, (I)Lorg/apache/xml/utils/XMLString; >
+	8	forwbranch < 88495, 0 > 100.0% taken
+	27	forwbranch < 88491, 0 > 100.0% taken
+	87	forwbranch < 88514, 0 > 100.0% taken
+	108	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 0 > Never Executed
+	132	forwbranch < 0, 0 > Never Executed
+	145	forwbranch < 0, 0 > Never Executed
+	186	forwbranch < 0, 0 > Never Executed
+	210	forwbranch < 0, 88496 > 0.0% taken
+	222	forwbranch < 88491, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, getElementById, (Ljava/lang/String;)I >
+	16	forwbranch < 41385, 0 > 100.0% taken
+	29	forwbranch < 0, 41397 > 0.0% taken
+	36	forwbranch < 0, 41397 > 0.0% taken
+	49	backbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, endDocument, ()V >
+	23	forwbranch < 6699, 0 > 100.0% taken
+	40	forwbranch < 0, 6698 > 0.0% taken
+M 34 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, startElement, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V >
+	27	forwbranch < 48933, 0 > 100.0% taken
+	71	forwbranch < 0, 48995 > 0.0% taken
+	117	forwbranch < 48701, 291 > 99.40603% taken
+	183	forwbranch < 48995, 0 > 100.0% taken
+	202	forwbranch < 0, 0 > Never Executed
+	288	forwbranch < 48961, 9228 > 84.141335% taken
+	337	forwbranch < 0, 9228 > 0.0% taken
+	347	forwbranch < 0, 9228 > 0.0% taken
+	357	forwbranch < 9228, 0 > 100.0% taken
+	366	forwbranch < 0, 0 > Never Executed
+	396	forwbranch < 9225, 0 > 100.0% taken
+	410	forwbranch < 9226, 0 > 100.0% taken
+	442	forwbranch < 8941, 289 > 96.868904% taken
+	529	forwbranch < 41015, 7972 > 83.726295% taken
+	547	forwbranch < 0, 48938 > 0.0% taken
+	571	forwbranch < 0, 49034 > 0.0% taken
+	584	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, endElement, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V >
+	77	forwbranch < 39645, 1726 > 95.827995% taken
+	98	forwbranch < 0, 39654 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/ref/sax2dtm/SAX2DTM;, comment, ([CII)V >
+	4	forwbranch < 8500, 0 > 100.0% taken
+M 14 < SystemAppCL, Lorg/apache/xml/utils/SuballocatedIntVector;, indexOf, (II)I >
+	5	forwbranch < 7564, 0 > 100.0% taken
+	39	forwbranch < 7564, 0 > 100.0% taken
+	52	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 0, 0 > Never Executed
+	74	forwbranch < 0, 0 > Never Executed
+	130	forwbranch < 0, 7564 > 0.0% taken
+	139	forwbranch < 0, 7564 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMStringPool;, removeAllElements, ()V >
+	12	forwbranch < 5084, 513153 > 0.98101836% taken
+M 8 < SystemAppCL, Lorg/apache/xalan/templates/XUnresolvedVariable;, execute, (Lorg/apache/xpath/XPathContext;)Lorg/apache/xpath/objects/XObject; >
+	4	forwbranch < 3500, 0 > 100.0% taken
+	73	forwbranch < 0, 3500 > 0.0% taken
+	116	forwbranch < 0, 3500 > 0.0% taken
+	135	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/xpath/NodeSetDTM;, addNodes, (Lorg/apache/xml/dtm/DTMIterator;)V >
+	4	forwbranch < 138876, 0 > 100.0% taken
+	23	forwbranch < 0, 138879 > 0.0% taken
+	35	forwbranch < 138919, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/NodeSetDTM;, addNode, (I)V >
+	4	forwbranch < 8496, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/NodeSetDTM;, runTo, (I)V >
+	4	forwbranch < 239638, 0 > 100.0% taken
+	22	forwbranch < 0, 239725 > 0.0% taken
+	33	forwbranch < 0, 239708 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/NodeSetDTM;, removeAllElements, ()V >
+	4	forwbranch < 74084, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/NodeSequence;, hasCache, ()Z >
+	4	forwbranch < 27567, 6272 > 81.46517% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/objects/XNodeSet;, getStringFromNode, (I)Lorg/apache/xml/utils/XMLString; >
+	2	forwbranch < 0, 11542 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/objects/XNodeSet;, xstr, ()Lorg/apache/xml/utils/XMLString; >
+	8	forwbranch < 5611, 15043 > 27.16665% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/objects/XNodeSet;, iter, ()Lorg/apache/xml/dtm/DTMIterator; >
+	4	forwbranch < 43421, 195534 > 18.171204% taken
+M 38 < SystemAppCL, Lorg/apache/xpath/objects/XNodeSet;, compare, (Lorg/apache/xpath/objects/XObject;Lorg/apache/xpath/objects/Comparator;)Z >
+	11	forwbranch < 2500, 0 > 100.0% taken
+	43	forwbranch < 0, 0 > Never Executed
+	57	forwbranch < 0, 0 > Never Executed
+	71	forwbranch < 0, 0 > Never Executed
+	90	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 0 > Never Executed
+	140	forwbranch < 0, 0 > Never Executed
+	159	forwbranch < 0, 0 > Never Executed
+	196	forwbranch < 2500, 0 > 100.0% taken
+	203	forwbranch < 0, 0 > Never Executed
+	234	forwbranch < 2500, 0 > 100.0% taken
+	260	forwbranch < 0, 0 > Never Executed
+	279	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 2500, 0 > 100.0% taken
+	329	forwbranch < 0, 0 > Never Executed
+	348	forwbranch < 0, 0 > Never Executed
+	372	forwbranch < 0, 2500 > 0.0% taken
+	398	forwbranch < 2500, 2500 > 50.0% taken
+	417	forwbranch < 2500, 0 > 100.0% taken
+M 22 < SystemAppCL, Lorg/apache/xpath/axes/NodeSequence;, runTo, (I)V >
+	2	forwbranch < 219765, 0 > 100.0% taken
+	17	forwbranch < 0, 0 > Never Executed
+	36	forwbranch < 0, 219757 > 0.0% taken
+	44	forwbranch < 0, 0 > Never Executed
+	58	forwbranch < 0, 0 > Never Executed
+	74	forwbranch < 0, 0 > Never Executed
+	82	forwbranch < 0, 0 > Never Executed
+	90	forwbranch < 0, 0 > Never Executed
+	100	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+	121	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/NodeSequence;, getDTM, (I)Lorg/apache/xml/dtm/DTM; >
+	7	forwbranch < 0, 9161 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/axes/NodeSequence;, getRoot, ()I >
+	5	forwbranch < 138889, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/xpath/axes/NodeSequence;, allowDetachToRelease, (Z)V >
+	2	forwbranch < 0, 22030 > 0.0% taken
+	9	forwbranch < 15165, 6870 > 68.82233% taken
+	22	forwbranch < 15168, 6872 > 68.82033% taken
+M 2 < SystemAppCL, Lorg/apache/xpath/objects/XNodeSet;, getFresh, ()Lorg/apache/xpath/objects/XObject; >
+	4	forwbranch < 0, 71441 > 0.0% taken
+M 30 < SystemAppCL, Lorg/apache/xalan/serialize/SerializerToText;, writeNormalizedChars, ([CIIZ)V >
+	12	forwbranch < 36759, 391646 > 8.580432% taken
+	26	forwbranch < 392013, 0 > 100.0% taken
+	50	forwbranch < 392138, 0 > 100.0% taken
+	59	forwbranch < 0, 0 > Never Executed
+	64	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+	120	forwbranch < 0, 0 > Never Executed
+	137	forwbranch < 391422, 0 > 100.0% taken
+	146	forwbranch < 0, 0 > Never Executed
+	153	forwbranch < 0, 0 > Never Executed
+	164	forwbranch < 0, 0 > Never Executed
+	175	forwbranch < 0, 0 > Never Executed
+	199	forwbranch < 0, 391329 > 0.0% taken
+	219	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBaseIterators$ParentIterator;, setStartNode, (I)Lorg/apache/xml/dtm/DTMAxisIterator; >
+	4	forwbranch < 0, 5836 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBaseIterators$ParentIterator;, next, ()I >
+	10	forwbranch < 160761, 0 > 100.0% taken
+	28	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBaseTraversers$AttributeTraverser;, next, (II)I >
+	2	forwbranch < 0, 40449 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/transformer/CountersTable;, getCounters, (Lorg/apache/xalan/templates/ElemNumber;)Ljava/util/Vector; >
+	11	forwbranch < 117500, 14154 > 89.24909% taken
+M 6 < SystemAppCL, Lorg/apache/xalan/transformer/Counter;, getPreviouslyCounted, (Lorg/apache/xpath/XPathContext;I)I >
+	20	forwbranch < 0, 72025 > 0.0% taken
+	37	forwbranch < 54570, 17475 > 75.74432% taken
+	74	forwbranch < 0, 54556 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xalan/transformer/CountersTable;, appendBtoFList, (Lorg/apache/xpath/NodeSetDTM;Lorg/apache/xpath/NodeSetDTM;)V >
+	12	forwbranch < 69603, 83630 > 45.422985% taken
+M 4 < SystemAppCL, Lorg/apache/xml/utils/res/XResourceBundle;, getResourceSuffix, (Ljava/util/Locale;)Ljava/lang/String; >
+	45	forwbranch < 2, 0 > 100.0% taken
+	80	forwbranch < 2, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBaseIterators$PrecedingSiblingIterator;, setStartNode, (I)Lorg/apache/xml/dtm/DTMAxisIterator; >
+	4	forwbranch < 0, 2500 > 0.0% taken
+	14	forwbranch < 2500, 0 > 100.0% taken
+	48	forwbranch < 0, 2500 > 0.0% taken
+	54	forwbranch < 2500, 0 > 100.0% taken
+	82	forwbranch < 0, 2500 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/xml/dtm/ref/DTMDefaultBaseIterators$PrecedingSiblingIterator;, next, ()I >
+	8	forwbranch < 0, 2500 > 0.0% taken
+M 6 < SystemAppCL, Ldacapo/FileDigest;, getText, (Ljava/io/File;ZLjava/io/File;)[B >
+	29	forwbranch < 10, 5 > 66.666664% taken
+	33	forwbranch < 0, 5 > 0.0% taken
+	88	forwbranch < 5, 90 > 5.263158% taken
+M 2 < SystemAppCL, Ldacapo/FileDigest;, replaceAllFixed, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	12	forwbranch < 15, 0 > 100.0% taken
+M 8 < BootstrapCL, Ljava/security/Security;, loadProviders, (Ljava/lang/String;Ljava/lang/String;)Z >
+	1	forwbranch < 0, 2 > 0.0% taken
+	5	forwbranch < 2, 0 > 100.0% taken
+	94	forwbranch < 0, 0 > Never Executed
+	151	forwbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Ljava/security/Security;, <clinit>, ()V >
+	44	forwbranch < 0, 1 > 0.0% taken
+	48	forwbranch < 0, 1 > 0.0% taken
+	57	forwbranch < 0, 1 > 0.0% taken
+M 26 < BootstrapCL, Lgnu/java/security/Engine;, getInstance, (Ljava/lang/String;Ljava/lang/String;Ljava/security/Provider;[Ljava/lang/Object;)Ljava/lang/Object; >
+	1	forwbranch < 10, 0 > 100.0% taken
+	23	forwbranch < 10, 0 > 100.0% taken
+	37	forwbranch < 10, 0 > 100.0% taken
+	59	forwbranch < 10, 0 > 100.0% taken
+	73	forwbranch < 10, 0 > 100.0% taken
+	87	forwbranch < 10, 0 > 100.0% taken
+	131	forwbranch < 0, 900 > 0.0% taken
+	174	forwbranch < 890, 10 > 98.888885% taken
+	228	backbranch < 880, 10 > 98.8764% taken
+	245	backbranch < 0, 10 > 0.0% taken
+	257	forwbranch < 10, 0 > 100.0% taken
+	319	forwbranch < 10, 0 > 100.0% taken
+	443	forwbranch < 10, 0 > 100.0% taken
+M 10 < BootstrapCL, Lgnu/java/security/Engine;, getCompatibleConstructor, (Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/reflect/Constructor; >
+	10	forwbranch < 0, 10 > 0.0% taken
+	26	forwbranch < 10, 0 > 100.0% taken
+	40	forwbranch < 10, 0 > 100.0% taken
+	47	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 0, 0 > Never Executed
+M 12 < BootstrapCL, Lgnu/java/security/hash/Sha160;, sha, (IIIII[BI)[I >
+	23	forwbranch < 11, 176 > 5.882353% taken
+	102	forwbranch < 11, 704 > 1.5384616% taken
+	174	forwbranch < 11, 220 > 4.7619047% taken
+	258	forwbranch < 11, 220 > 4.7619047% taken
+	337	forwbranch < 11, 220 > 4.7619047% taken
+	425	forwbranch < 11, 220 > 4.7619047% taken
+M 6 < BootstrapCL, Lgnu/java/security/hash/BaseHash;, update, ([BII)V >
+	39	forwbranch < 0, 11 > 0.0% taken
+	78	forwbranch < 11, 0 > 100.0% taken
+	108	forwbranch < 11, 0 > 100.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/BaseHash;, reset, ()V >
+	12	forwbranch < 11, 704 > 1.5384616% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/BaseHash;, update, (B)V >
+	36	forwbranch < 93, 0 > 100.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/Sha160;, padBuffer, ()[B >
+	13	forwbranch < 0, 11 > 0.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/Sha160;, selfTest, ()Z >
+	3	forwbranch < 9, 1 > 90.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/util/Util;, toString, ([BII)Ljava/lang/String; >
+	15	forwbranch < 1, 20 > 4.7619047% taken

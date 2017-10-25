@@ -1,0 +1,8661 @@
+M 80 < BootstrapCL, Lorg/jikesrvm/Options;, process, (Ljava/lang/String;)Z >
+	6	forwbranch < 0, 0 > Never Executed
+	20	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+	126	forwbranch < 0, 0 > Never Executed
+	143	forwbranch < 0, 0 > Never Executed
+	152	forwbranch < 0, 0 > Never Executed
+	167	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	193	forwbranch < 0, 0 > Never Executed
+	208	forwbranch < 0, 0 > Never Executed
+	225	forwbranch < 0, 0 > Never Executed
+	234	forwbranch < 0, 0 > Never Executed
+	249	forwbranch < 0, 0 > Never Executed
+	266	forwbranch < 0, 0 > Never Executed
+	275	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 0, 0 > Never Executed
+	307	forwbranch < 0, 0 > Never Executed
+	316	forwbranch < 0, 0 > Never Executed
+	331	forwbranch < 0, 0 > Never Executed
+	348	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 0 > Never Executed
+	372	forwbranch < 0, 0 > Never Executed
+	389	forwbranch < 0, 0 > Never Executed
+	398	forwbranch < 0, 0 > Never Executed
+	413	forwbranch < 0, 0 > Never Executed
+	430	forwbranch < 0, 0 > Never Executed
+	448	forwbranch < 0, 0 > Never Executed
+	466	forwbranch < 0, 0 > Never Executed
+	484	forwbranch < 0, 0 > Never Executed
+	502	forwbranch < 0, 0 > Never Executed
+	520	forwbranch < 0, 0 > Never Executed
+	535	forwbranch < 0, 0 > Never Executed
+	553	forwbranch < 0, 0 > Never Executed
+	571	forwbranch < 0, 0 > Never Executed
+	589	forwbranch < 0, 0 > Never Executed
+	607	forwbranch < 0, 0 > Never Executed
+	622	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshake, ()V >
+	9	forwbranch < 0, 3248 > 0.0% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, unlock, ()V >
+	11	forwbranch < 94791, 71952 > 56.848564% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshake, (Lorg/jikesrvm/scheduler/Monitor;Lorg/vmmagic/unboxed/Word;Lorg/jikesrvm/scheduler/Monitor;Lorg/vmmagic/unboxed/Word;)V >
+	5	forwbranch < 1116, 431 > 72.139626% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockNoHandshake, ()V >
+	9	forwbranch < 94928, 68754 > 57.99538% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/RVMThread;, transferExecutionToNewStack, ([BLorg/jikesrvm/architecture/AbstractRegisters;)V >
+	61	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/lang/Package;, <init>, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/URL;Ljava/lang/ClassLoader;)V >
+	5	forwbranch < 399, 0 > 100.0% taken
+M 20 < BootstrapCL, Ljava/lang/reflect/Array;, getLength, (Ljava/lang/Object;)I >
+	4	forwbranch < 29, 210086 > 0.013801966% taken
+	20	forwbranch < 29, 0 > 100.0% taken
+	36	forwbranch < 29, 0 > 100.0% taken
+	52	forwbranch < 23, 6 > 79.31035% taken
+	68	forwbranch < 23, 0 > 100.0% taken
+	84	forwbranch < 0, 23 > 0.0% taken
+	100	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 0 > Never Executed
+	132	forwbranch < 0, 0 > Never Executed
+	145	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljava/lang/VMClassLoader;, <clinit>, ()V >
+	45	forwbranch < 0, 1 > 0.0% taken
+	81	forwbranch < 1, 399 > 0.25% taken
+M 598 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 0, 0 > Never Executed
+	21	forwbranch < 0, 0 > Never Executed
+	34	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 0, 0 > Never Executed
+	70	forwbranch < 0, 0 > Never Executed
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 0, 0 > Never Executed
+	240	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 0, 0 > Never Executed
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 0, 0 > Never Executed
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 0, 0 > Never Executed
+	378	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 0, 0 > Never Executed
+	414	forwbranch < 0, 0 > Never Executed
+	424	forwbranch < 0, 0 > Never Executed
+	441	forwbranch < 0, 0 > Never Executed
+	460	forwbranch < 0, 0 > Never Executed
+	470	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 0, 0 > Never Executed
+	516	forwbranch < 0, 0 > Never Executed
+	533	forwbranch < 0, 0 > Never Executed
+	552	forwbranch < 0, 0 > Never Executed
+	562	forwbranch < 0, 0 > Never Executed
+	579	forwbranch < 0, 0 > Never Executed
+	598	forwbranch < 0, 0 > Never Executed
+	608	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	644	forwbranch < 0, 0 > Never Executed
+	654	forwbranch < 0, 0 > Never Executed
+	671	forwbranch < 0, 0 > Never Executed
+	690	forwbranch < 0, 0 > Never Executed
+	700	forwbranch < 0, 0 > Never Executed
+	717	forwbranch < 0, 0 > Never Executed
+	736	forwbranch < 0, 0 > Never Executed
+	746	forwbranch < 0, 0 > Never Executed
+	763	forwbranch < 0, 0 > Never Executed
+	782	forwbranch < 0, 0 > Never Executed
+	792	forwbranch < 0, 0 > Never Executed
+	809	forwbranch < 0, 0 > Never Executed
+	828	forwbranch < 0, 0 > Never Executed
+	838	forwbranch < 0, 0 > Never Executed
+	855	forwbranch < 0, 0 > Never Executed
+	874	forwbranch < 0, 0 > Never Executed
+	884	forwbranch < 0, 0 > Never Executed
+	901	forwbranch < 0, 0 > Never Executed
+	920	forwbranch < 0, 0 > Never Executed
+	930	forwbranch < 0, 0 > Never Executed
+	947	forwbranch < 0, 0 > Never Executed
+	966	forwbranch < 0, 0 > Never Executed
+	976	forwbranch < 0, 0 > Never Executed
+	993	forwbranch < 0, 0 > Never Executed
+	1012	forwbranch < 0, 0 > Never Executed
+	1022	forwbranch < 0, 0 > Never Executed
+	1039	forwbranch < 0, 0 > Never Executed
+	1058	forwbranch < 0, 0 > Never Executed
+	1068	forwbranch < 0, 0 > Never Executed
+	1085	forwbranch < 0, 0 > Never Executed
+	1104	forwbranch < 0, 0 > Never Executed
+	1114	forwbranch < 0, 0 > Never Executed
+	1131	forwbranch < 0, 0 > Never Executed
+	1150	forwbranch < 0, 0 > Never Executed
+	1160	forwbranch < 0, 0 > Never Executed
+	1177	forwbranch < 0, 0 > Never Executed
+	1196	forwbranch < 0, 0 > Never Executed
+	1206	forwbranch < 0, 0 > Never Executed
+	1223	forwbranch < 0, 0 > Never Executed
+	1242	forwbranch < 0, 0 > Never Executed
+	1252	forwbranch < 0, 0 > Never Executed
+	1269	forwbranch < 0, 0 > Never Executed
+	1288	forwbranch < 0, 0 > Never Executed
+	1298	forwbranch < 0, 0 > Never Executed
+	1315	forwbranch < 0, 0 > Never Executed
+	1334	forwbranch < 0, 0 > Never Executed
+	1344	forwbranch < 0, 0 > Never Executed
+	1361	forwbranch < 0, 0 > Never Executed
+	1380	forwbranch < 0, 0 > Never Executed
+	1390	forwbranch < 0, 0 > Never Executed
+	1407	forwbranch < 0, 0 > Never Executed
+	1426	forwbranch < 0, 0 > Never Executed
+	1436	forwbranch < 0, 0 > Never Executed
+	1453	forwbranch < 0, 0 > Never Executed
+	1472	forwbranch < 0, 0 > Never Executed
+	1482	forwbranch < 0, 0 > Never Executed
+	1499	forwbranch < 0, 0 > Never Executed
+	1518	forwbranch < 0, 0 > Never Executed
+	1528	forwbranch < 0, 0 > Never Executed
+	1545	forwbranch < 0, 0 > Never Executed
+	1564	forwbranch < 0, 0 > Never Executed
+	1574	forwbranch < 0, 0 > Never Executed
+	1591	forwbranch < 0, 0 > Never Executed
+	1610	forwbranch < 0, 0 > Never Executed
+	1620	forwbranch < 0, 0 > Never Executed
+	1637	forwbranch < 0, 0 > Never Executed
+	1656	forwbranch < 0, 0 > Never Executed
+	1666	forwbranch < 0, 0 > Never Executed
+	1683	forwbranch < 0, 0 > Never Executed
+	1702	forwbranch < 0, 0 > Never Executed
+	1712	forwbranch < 0, 0 > Never Executed
+	1729	forwbranch < 0, 0 > Never Executed
+	1748	forwbranch < 0, 0 > Never Executed
+	1758	forwbranch < 0, 0 > Never Executed
+	1775	forwbranch < 0, 0 > Never Executed
+	1794	forwbranch < 0, 0 > Never Executed
+	1804	forwbranch < 0, 0 > Never Executed
+	1821	forwbranch < 0, 0 > Never Executed
+	1840	forwbranch < 0, 0 > Never Executed
+	1850	forwbranch < 0, 0 > Never Executed
+	1867	forwbranch < 0, 0 > Never Executed
+	1886	forwbranch < 0, 0 > Never Executed
+	1896	forwbranch < 0, 0 > Never Executed
+	1913	forwbranch < 0, 0 > Never Executed
+	1932	forwbranch < 0, 0 > Never Executed
+	1942	forwbranch < 0, 0 > Never Executed
+	1959	forwbranch < 0, 0 > Never Executed
+	1978	forwbranch < 0, 0 > Never Executed
+	1988	forwbranch < 0, 0 > Never Executed
+	2005	forwbranch < 0, 0 > Never Executed
+	2024	forwbranch < 0, 0 > Never Executed
+	2034	forwbranch < 0, 0 > Never Executed
+	2051	forwbranch < 0, 0 > Never Executed
+	2070	forwbranch < 0, 0 > Never Executed
+	2080	forwbranch < 0, 0 > Never Executed
+	2097	forwbranch < 0, 0 > Never Executed
+	2116	forwbranch < 0, 0 > Never Executed
+	2126	forwbranch < 0, 0 > Never Executed
+	2143	forwbranch < 0, 0 > Never Executed
+	2162	forwbranch < 0, 0 > Never Executed
+	2172	forwbranch < 0, 0 > Never Executed
+	2189	forwbranch < 0, 0 > Never Executed
+	2208	forwbranch < 0, 0 > Never Executed
+	2218	forwbranch < 0, 0 > Never Executed
+	2235	forwbranch < 0, 0 > Never Executed
+	2254	forwbranch < 0, 0 > Never Executed
+	2264	forwbranch < 0, 0 > Never Executed
+	2281	forwbranch < 0, 0 > Never Executed
+	2300	forwbranch < 0, 0 > Never Executed
+	2310	forwbranch < 0, 0 > Never Executed
+	2327	forwbranch < 0, 0 > Never Executed
+	2346	forwbranch < 0, 0 > Never Executed
+	2356	forwbranch < 0, 0 > Never Executed
+	2373	forwbranch < 0, 0 > Never Executed
+	2392	forwbranch < 0, 0 > Never Executed
+	2402	forwbranch < 0, 0 > Never Executed
+	2419	forwbranch < 0, 0 > Never Executed
+	2438	forwbranch < 0, 0 > Never Executed
+	2448	forwbranch < 0, 0 > Never Executed
+	2465	forwbranch < 0, 0 > Never Executed
+	2484	forwbranch < 0, 0 > Never Executed
+	2494	forwbranch < 0, 0 > Never Executed
+	2511	forwbranch < 0, 0 > Never Executed
+	2530	forwbranch < 0, 0 > Never Executed
+	2540	forwbranch < 0, 0 > Never Executed
+	2557	forwbranch < 0, 0 > Never Executed
+	2576	forwbranch < 0, 0 > Never Executed
+	2586	forwbranch < 0, 0 > Never Executed
+	2603	forwbranch < 0, 0 > Never Executed
+	2622	forwbranch < 0, 0 > Never Executed
+	2632	forwbranch < 0, 0 > Never Executed
+	2649	forwbranch < 0, 0 > Never Executed
+	2668	forwbranch < 0, 0 > Never Executed
+	2678	forwbranch < 0, 0 > Never Executed
+	2695	forwbranch < 0, 0 > Never Executed
+	2714	forwbranch < 0, 0 > Never Executed
+	2724	forwbranch < 0, 0 > Never Executed
+	2741	forwbranch < 0, 0 > Never Executed
+	2760	forwbranch < 0, 0 > Never Executed
+	2770	forwbranch < 0, 0 > Never Executed
+	2787	forwbranch < 0, 0 > Never Executed
+	2806	forwbranch < 0, 0 > Never Executed
+	2816	forwbranch < 0, 0 > Never Executed
+	2833	forwbranch < 0, 0 > Never Executed
+	2852	forwbranch < 0, 0 > Never Executed
+	2862	forwbranch < 0, 0 > Never Executed
+	2879	forwbranch < 0, 0 > Never Executed
+	2898	forwbranch < 0, 0 > Never Executed
+	2908	forwbranch < 0, 0 > Never Executed
+	2925	forwbranch < 0, 0 > Never Executed
+	2944	forwbranch < 0, 0 > Never Executed
+	2954	forwbranch < 0, 0 > Never Executed
+	2971	forwbranch < 0, 0 > Never Executed
+	2990	forwbranch < 0, 0 > Never Executed
+	3000	forwbranch < 0, 0 > Never Executed
+	3017	forwbranch < 0, 0 > Never Executed
+	3036	forwbranch < 0, 0 > Never Executed
+	3046	forwbranch < 0, 0 > Never Executed
+	3063	forwbranch < 0, 0 > Never Executed
+	3082	forwbranch < 0, 0 > Never Executed
+	3092	forwbranch < 0, 0 > Never Executed
+	3109	forwbranch < 0, 0 > Never Executed
+	3128	forwbranch < 0, 0 > Never Executed
+	3138	forwbranch < 0, 0 > Never Executed
+	3155	forwbranch < 0, 0 > Never Executed
+	3174	forwbranch < 0, 0 > Never Executed
+	3184	forwbranch < 0, 0 > Never Executed
+	3201	forwbranch < 0, 0 > Never Executed
+	3220	forwbranch < 0, 0 > Never Executed
+	3230	forwbranch < 0, 0 > Never Executed
+	3247	forwbranch < 0, 0 > Never Executed
+	3266	forwbranch < 0, 0 > Never Executed
+	3276	forwbranch < 0, 0 > Never Executed
+	3293	forwbranch < 0, 0 > Never Executed
+	3312	forwbranch < 0, 0 > Never Executed
+	3322	forwbranch < 0, 0 > Never Executed
+	3339	forwbranch < 0, 0 > Never Executed
+	3358	forwbranch < 0, 0 > Never Executed
+	3368	forwbranch < 0, 0 > Never Executed
+	3385	forwbranch < 0, 0 > Never Executed
+	3404	forwbranch < 0, 0 > Never Executed
+	3414	forwbranch < 0, 0 > Never Executed
+	3431	forwbranch < 0, 0 > Never Executed
+	3450	forwbranch < 0, 0 > Never Executed
+	3460	forwbranch < 0, 0 > Never Executed
+	3477	forwbranch < 0, 0 > Never Executed
+	3496	forwbranch < 0, 0 > Never Executed
+	3506	forwbranch < 0, 0 > Never Executed
+	3523	forwbranch < 0, 0 > Never Executed
+	3543	forwbranch < 0, 0 > Never Executed
+	3553	forwbranch < 0, 0 > Never Executed
+	3570	forwbranch < 0, 0 > Never Executed
+	3590	forwbranch < 0, 0 > Never Executed
+	3600	forwbranch < 0, 0 > Never Executed
+	3617	forwbranch < 0, 0 > Never Executed
+	3637	forwbranch < 0, 0 > Never Executed
+	3647	forwbranch < 0, 0 > Never Executed
+	3664	forwbranch < 0, 0 > Never Executed
+	3684	forwbranch < 0, 0 > Never Executed
+	3694	forwbranch < 0, 0 > Never Executed
+	3711	forwbranch < 0, 0 > Never Executed
+	3731	forwbranch < 0, 0 > Never Executed
+	3741	forwbranch < 0, 0 > Never Executed
+	3758	forwbranch < 0, 0 > Never Executed
+	3778	forwbranch < 0, 0 > Never Executed
+	3788	forwbranch < 0, 0 > Never Executed
+	3805	forwbranch < 0, 0 > Never Executed
+	3825	forwbranch < 0, 0 > Never Executed
+	3835	forwbranch < 0, 0 > Never Executed
+	3852	forwbranch < 0, 0 > Never Executed
+	3872	forwbranch < 0, 0 > Never Executed
+	3879	forwbranch < 0, 0 > Never Executed
+	3913	forwbranch < 0, 0 > Never Executed
+	3935	forwbranch < 0, 0 > Never Executed
+	3954	forwbranch < 0, 0 > Never Executed
+	3973	forwbranch < 0, 0 > Never Executed
+	3984	forwbranch < 0, 0 > Never Executed
+	4002	forwbranch < 0, 0 > Never Executed
+	4020	forwbranch < 0, 0 > Never Executed
+	4038	forwbranch < 0, 0 > Never Executed
+	4058	forwbranch < 0, 0 > Never Executed
+	4080	forwbranch < 0, 0 > Never Executed
+	4103	forwbranch < 0, 0 > Never Executed
+	4125	forwbranch < 0, 0 > Never Executed
+	4147	forwbranch < 0, 0 > Never Executed
+	4169	forwbranch < 0, 0 > Never Executed
+	4180	forwbranch < 0, 0 > Never Executed
+	4198	forwbranch < 0, 0 > Never Executed
+	4216	forwbranch < 0, 0 > Never Executed
+	4236	forwbranch < 0, 0 > Never Executed
+	4259	forwbranch < 0, 0 > Never Executed
+	4282	forwbranch < 0, 0 > Never Executed
+	4304	forwbranch < 0, 0 > Never Executed
+	4326	forwbranch < 0, 0 > Never Executed
+	4348	forwbranch < 0, 0 > Never Executed
+	4370	forwbranch < 0, 0 > Never Executed
+	4393	forwbranch < 0, 0 > Never Executed
+	4415	forwbranch < 0, 0 > Never Executed
+	4437	forwbranch < 0, 0 > Never Executed
+	4459	forwbranch < 0, 0 > Never Executed
+	4481	forwbranch < 0, 0 > Never Executed
+	4504	forwbranch < 0, 0 > Never Executed
+	4527	forwbranch < 0, 0 > Never Executed
+	4550	forwbranch < 0, 0 > Never Executed
+	4573	forwbranch < 0, 0 > Never Executed
+	4596	forwbranch < 0, 0 > Never Executed
+	4619	forwbranch < 0, 0 > Never Executed
+	4642	forwbranch < 0, 0 > Never Executed
+	4665	forwbranch < 0, 0 > Never Executed
+	4688	forwbranch < 0, 0 > Never Executed
+	4710	forwbranch < 0, 0 > Never Executed
+	4733	forwbranch < 0, 0 > Never Executed
+	4744	forwbranch < 0, 0 > Never Executed
+	4762	forwbranch < 0, 0 > Never Executed
+	4780	forwbranch < 0, 0 > Never Executed
+	4800	forwbranch < 0, 0 > Never Executed
+	4807	forwbranch < 0, 0 > Never Executed
+M 16 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, printOptions, ()V >
+	332	forwbranch < 0, 0 > Never Executed
+	345	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 0 > Never Executed
+	370	forwbranch < 0, 0 > Never Executed
+	383	forwbranch < 0, 0 > Never Executed
+	397	forwbranch < 0, 0 > Never Executed
+	410	forwbranch < 0, 0 > Never Executed
+	424	forwbranch < 0, 0 > Never Executed
+M 180 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 4, 0 > 100.0% taken
+	21	forwbranch < 4, 0 > 100.0% taken
+	34	forwbranch < 4, 0 > 100.0% taken
+	50	forwbranch < 0, 4 > 0.0% taken
+	60	forwbranch < 0, 4 > 0.0% taken
+	70	forwbranch < 4, 0 > 100.0% taken
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 4, 0 > 100.0% taken
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 4, 0 > 100.0% taken
+	194	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 3, 1 > 75.0% taken
+	240	forwbranch < 0, 1 > 0.0% taken
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 3, 0 > 100.0% taken
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 3, 0 > 100.0% taken
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 3, 0 > 100.0% taken
+	378	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 0, 0 > Never Executed
+	414	forwbranch < 3, 0 > 100.0% taken
+	424	forwbranch < 0, 0 > Never Executed
+	441	forwbranch < 0, 0 > Never Executed
+	460	forwbranch < 3, 0 > 100.0% taken
+	470	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 3, 0 > 100.0% taken
+	516	forwbranch < 0, 0 > Never Executed
+	533	forwbranch < 0, 0 > Never Executed
+	552	forwbranch < 3, 0 > 100.0% taken
+	562	forwbranch < 0, 0 > Never Executed
+	579	forwbranch < 0, 0 > Never Executed
+	598	forwbranch < 3, 0 > 100.0% taken
+	608	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	644	forwbranch < 3, 0 > 100.0% taken
+	654	forwbranch < 0, 0 > Never Executed
+	671	forwbranch < 0, 0 > Never Executed
+	690	forwbranch < 3, 0 > 100.0% taken
+	700	forwbranch < 0, 0 > Never Executed
+	717	forwbranch < 0, 0 > Never Executed
+	736	forwbranch < 3, 0 > 100.0% taken
+	746	forwbranch < 0, 0 > Never Executed
+	763	forwbranch < 0, 0 > Never Executed
+	782	forwbranch < 3, 0 > 100.0% taken
+	792	forwbranch < 0, 0 > Never Executed
+	809	forwbranch < 0, 0 > Never Executed
+	828	forwbranch < 3, 0 > 100.0% taken
+	838	forwbranch < 0, 0 > Never Executed
+	855	forwbranch < 0, 0 > Never Executed
+	874	forwbranch < 3, 0 > 100.0% taken
+	895	forwbranch < 3, 0 > 100.0% taken
+	905	forwbranch < 0, 0 > Never Executed
+	922	forwbranch < 0, 0 > Never Executed
+	941	forwbranch < 3, 0 > 100.0% taken
+	951	forwbranch < 0, 0 > Never Executed
+	968	forwbranch < 0, 0 > Never Executed
+	987	forwbranch < 3, 0 > 100.0% taken
+	997	forwbranch < 0, 0 > Never Executed
+	1014	forwbranch < 0, 0 > Never Executed
+	1033	forwbranch < 3, 0 > 100.0% taken
+	1043	forwbranch < 0, 0 > Never Executed
+	1060	forwbranch < 0, 0 > Never Executed
+	1079	forwbranch < 3, 0 > 100.0% taken
+	1097	forwbranch < 2, 1 > 66.666664% taken
+	1115	forwbranch < 1, 1 > 50.0% taken
+	1133	forwbranch < 1, 0 > 100.0% taken
+	1151	forwbranch < 1, 0 > 100.0% taken
+	1169	forwbranch < 1, 0 > 100.0% taken
+	1187	forwbranch < 1, 0 > 100.0% taken
+	1208	forwbranch < 1, 0 > 100.0% taken
+	1229	forwbranch < 0, 1 > 0.0% taken
+	1250	forwbranch < 0, 0 > Never Executed
+	1271	forwbranch < 0, 0 > Never Executed
+	1293	forwbranch < 0, 0 > Never Executed
+	1314	forwbranch < 0, 0 > Never Executed
+	1336	forwbranch < 0, 0 > Never Executed
+	1358	forwbranch < 0, 0 > Never Executed
+	1376	forwbranch < 0, 0 > Never Executed
+	1397	forwbranch < 0, 0 > Never Executed
+	1418	forwbranch < 0, 0 > Never Executed
+	1439	forwbranch < 0, 0 > Never Executed
+	1460	forwbranch < 0, 0 > Never Executed
+M 16 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, toString, ()Ljava/lang/String; >
+	696	forwbranch < 0, 0 > Never Executed
+	711	forwbranch < 0, 0 > Never Executed
+	725	forwbranch < 0, 0 > Never Executed
+	740	forwbranch < 0, 0 > Never Executed
+	754	forwbranch < 0, 0 > Never Executed
+	769	forwbranch < 0, 0 > Never Executed
+	783	forwbranch < 0, 0 > Never Executed
+	798	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lgnu/java/net/loader/Resource;, getCodeSource, ()Ljava/security/CodeSource; >
+	6	forwbranch < 0, 615 > 0.0% taken
+M 18 < BootstrapCL, Ljava/lang/reflect/Array;, newInstance, (Ljava/lang/Class;I)Ljava/lang/Object; >
+	4	forwbranch < 0, 402499 > 0.0% taken
+	17	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 0, 0 > Never Executed
+	39	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 0, 0 > Never Executed
+	61	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 0, 0 > Never Executed
+	94	forwbranch < 0, 0 > Never Executed
+M 54 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 2, 0 > 100.0% taken
+	21	forwbranch < 2, 0 > 100.0% taken
+	34	forwbranch < 2, 0 > 100.0% taken
+	50	forwbranch < 0, 2 > 0.0% taken
+	60	forwbranch < 0, 2 > 0.0% taken
+	70	forwbranch < 2, 0 > 100.0% taken
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 2, 0 > 100.0% taken
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 1, 1 > 50.0% taken
+	194	forwbranch < 0, 1 > 0.0% taken
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 1, 0 > 100.0% taken
+	240	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 1, 0 > 100.0% taken
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 1, 0 > 100.0% taken
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 0, 1 > 0.0% taken
+	386	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, printOptions, ()V >
+	53	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, toString, ()Ljava/lang/String; >
+	107	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, printOptions, ()V >
+	1109	forwbranch < 0, 0 > Never Executed
+	1123	forwbranch < 0, 0 > Never Executed
+	1137	forwbranch < 0, 0 > Never Executed
+	1151	forwbranch < 0, 0 > Never Executed
+	1164	forwbranch < 0, 0 > Never Executed
+	1178	forwbranch < 0, 0 > Never Executed
+	1192	forwbranch < 0, 0 > Never Executed
+	1205	forwbranch < 0, 0 > Never Executed
+	1219	forwbranch < 0, 0 > Never Executed
+	1233	forwbranch < 0, 0 > Never Executed
+	1246	forwbranch < 0, 0 > Never Executed
+	1274	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, toString, ()Ljava/lang/String; >
+	2322	forwbranch < 0, 0 > Never Executed
+	2338	forwbranch < 0, 0 > Never Executed
+	2354	forwbranch < 0, 0 > Never Executed
+	2370	forwbranch < 0, 0 > Never Executed
+	2385	forwbranch < 0, 0 > Never Executed
+	2401	forwbranch < 0, 0 > Never Executed
+	2417	forwbranch < 0, 0 > Never Executed
+	2432	forwbranch < 0, 0 > Never Executed
+	2448	forwbranch < 0, 0 > Never Executed
+	2464	forwbranch < 0, 0 > Never Executed
+	2479	forwbranch < 0, 0 > Never Executed
+	2518	forwbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Lorg/jikesrvm/runtime/ReflectionBase;, invoke, (Lorg/jikesrvm/classloader/RVMMethod;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; >
+	1	forwbranch < 68583, 1 > 99.99854% taken
+	19	forwbranch < 68584, 0 > 100.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshakeNoRecImpl, ()V >
+	16	forwbranch < 0, 3267 > 0.0% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, relockWithHandshakeImpl, (I)V >
+	16	forwbranch < 4, 799 > 0.498132% taken
+M 16 < BootstrapCL, Lgnu/classpath/SystemProperties;, <clinit>, ()V >
+	46	forwbranch < 1, 0 > 100.0% taken
+	68	forwbranch < 1, 0 > 100.0% taken
+	89	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 1 > 0.0% taken
+	203	forwbranch < 1, 0 > 100.0% taken
+	225	forwbranch < 1, 0 > 100.0% taken
+	253	forwbranch < 0, 1 > 0.0% taken
+	269	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/lang/reflect/Modifier;, isPublic, (I)Z >
+	3	forwbranch < 0, 1693 > 0.0% taken
+M 2 < BootstrapCL, Ljava/lang/Character;, <clinit>, ()V >
+	22	forwbranch < 1, 128 > 0.7751938% taken
+M 2 < BootstrapCL, Ljava/util/Calendar;, getTime, ()Ljava/util/Date; >
+	4	forwbranch < 5, 0 > 100.0% taken
+M 8 < BootstrapCL, Ljava/lang/ClassLoader$StaticData;, <clinit>, ()V >
+	13	forwbranch < 1, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 0, 0 > Never Executed
+	37	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/net/URL;, <clinit>, ()V >
+	17	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/util/Calendar;, get, (I)I >
+	6	forwbranch < 50, 0 > 100.0% taken
+M 10 < BootstrapCL, Ljava/util/zip/InflaterHuffmanTree;, <clinit>, ()V >
+	12	forwbranch < 1, 144 > 0.6896552% taken
+	30	forwbranch < 1, 112 > 0.88495576% taken
+	48	forwbranch < 1, 24 > 4.0% taken
+	66	forwbranch < 1, 8 > 11.111111% taken
+	101	forwbranch < 1, 32 > 3.030303% taken
+M 10 < BootstrapCL, Ljava/util/zip/DeflaterHuffman;, <clinit>, ()V >
+	131	forwbranch < 1, 144 > 0.6896552% taken
+	166	forwbranch < 1, 112 > 0.88495576% taken
+	202	forwbranch < 1, 24 > 4.0% taken
+	238	forwbranch < 1, 6 > 14.285714% taken
+	288	forwbranch < 1, 30 > 3.2258065% taken
+M 6 < BootstrapCL, Lgnu/java/locale/LocaleHelper;, getFallbackLocale, (Ljava/util/Locale;)Ljava/util/Locale; >
+	26	forwbranch < 2, 0 > 100.0% taken
+	50	forwbranch < 2, 0 > 100.0% taken
+	69	forwbranch < 1, 1 > 50.0% taken
+M 2 < BootstrapCL, Ljava/util/Locale;, <clinit>, ()V >
+	233	forwbranch < 1, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/math/BigInteger;, equals, (Ljava/lang/Object;)Z >
+	4	forwbranch < 450000, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/math/BigInteger;, toString, (I)Ljava/lang/String; >
+	3	forwbranch < 1351, 0 > 100.0% taken
+	19	forwbranch < 150, 1201 > 11.102887% taken
+	36	forwbranch < 0, 150 > 0.0% taken
+M 42 < BootstrapCL, Lgnu/java/security/hash/HashFactory;, getInstance, (Ljava/lang/String;)Lgnu/java/security/hash/IMessageDigest; >
+	1	forwbranch < 10, 0 > 100.0% taken
+	19	forwbranch < 10, 0 > 100.0% taken
+	39	forwbranch < 0, 10 > 0.0% taken
+	48	forwbranch < 10, 0 > 100.0% taken
+	68	forwbranch < 0, 10 > 0.0% taken
+	77	forwbranch < 10, 0 > 100.0% taken
+	97	forwbranch < 10, 0 > 100.0% taken
+	106	forwbranch < 0, 0 > Never Executed
+	115	forwbranch < 0, 0 > Never Executed
+	124	forwbranch < 0, 0 > Never Executed
+	144	forwbranch < 0, 0 > Never Executed
+	164	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	204	forwbranch < 0, 0 > Never Executed
+	224	forwbranch < 0, 0 > Never Executed
+	244	forwbranch < 0, 0 > Never Executed
+	264	forwbranch < 0, 0 > Never Executed
+	284	forwbranch < 0, 0 > Never Executed
+	304	forwbranch < 0, 0 > Never Executed
+	316	forwbranch < 0, 10 > 0.0% taken
+	325	forwbranch < 10, 0 > 100.0% taken
+M 4 < BootstrapCL, Ljava/math/BigInteger;, bitLength, ()I >
+	3	forwbranch < 780, 0 > 100.0% taken
+	18	forwbranch < 0, 780 > 0.0% taken
+M 8 < BootstrapCL, Ljava/util/logging/StreamHandler;, <init>, (Ljava/io/OutputStream;Ljava/lang/String;Ljava/util/logging/Level;Ljava/util/logging/Formatter;Ljava/lang/Class;)V >
+	70	forwbranch < 1, 0 > 100.0% taken
+	144	forwbranch < 1, 0 > 100.0% taken
+	152	forwbranch < 0, 0 > Never Executed
+	180	forwbranch < 0, 1 > 0.0% taken
+M 6 < BootstrapCL, Ljava/util/logging/StreamHandler;, changeWriter, (Ljava/io/OutputStream;Ljava/lang/String;)V >
+	1	forwbranch < 0, 1 > 0.0% taken
+	30	forwbranch < 0, 1 > 0.0% taken
+	37	forwbranch < 1, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/EventObject;, <init>, (Ljava/lang/Object;)V >
+	5	forwbranch < 1, 0 > 100.0% taken
+M 18 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, initialize, ()V >
+	43	forwbranch < 0, 1 > 0.0% taken
+	76	forwbranch < 1, 1 > 50.0% taken
+	124	forwbranch < 1, 0 > 100.0% taken
+	185	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	207	forwbranch < 0, 0 > Never Executed
+	239	forwbranch < 0, 0 > Never Executed
+	273	forwbranch < 0, 0 > Never Executed
+	323	forwbranch < 0, 0 > Never Executed
+M 14 < BootstrapCL, Lgnu/java/net/IndexListParser;, <init>, (Ljava/util/jar/JarFile;Ljava/net/URL;Ljava/net/URL;)V >
+	21	forwbranch < 0, 1 > 0.0% taken
+	67	forwbranch < 1, 0 > 100.0% taken
+	105	forwbranch < 1, 0 > 100.0% taken
+	121	forwbranch < 1, 1 > 50.0% taken
+	153	forwbranch < 0, 519 > 0.0% taken
+	163	forwbranch < 518, 1 > 99.80732% taken
+	197	forwbranch < 1, 0 > 100.0% taken
+M 14 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, getResource, (Ljava/lang/String;)Lgnu/java/net/loader/Resource; >
+	6	forwbranch < 751, 0 > 100.0% taken
+	19	forwbranch < 684, 67 > 91.07856% taken
+	33	forwbranch < 58, 9 > 86.56716% taken
+	53	forwbranch < 2, 65 > 2.9850745% taken
+	62	forwbranch < 685, 1 > 99.854225% taken
+	73	forwbranch < 684, 2 > 99.70846% taken
+	88	forwbranch < 67, 617 > 9.795321% taken
+M 2 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, getManifest, ()Ljava/util/jar/Manifest; >
+	4	forwbranch < 10, 0 > 100.0% taken
+M 74 < SystemAppCL, Ldacapo/TestHarness;, main, ([Ljava/lang/String;)V >
+	2	forwbranch < 1, 0 > 100.0% taken
+	14	forwbranch < 0, 3 > 0.0% taken
+	26	forwbranch < 1, 2 > 33.333332% taken
+	37	forwbranch < 2, 0 > 100.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 2, 0 > 100.0% taken
+	99	forwbranch < 2, 0 > 100.0% taken
+	116	forwbranch < 2, 0 > 100.0% taken
+	134	forwbranch < 1, 1 > 50.0% taken
+	142	forwbranch < 1, 0 > 100.0% taken
+	222	forwbranch < 1, 0 > 100.0% taken
+	281	forwbranch < 0, 1 > 0.0% taken
+	289	forwbranch < 1, 0 > 100.0% taken
+	328	forwbranch < 0, 0 > Never Executed
+	346	forwbranch < 0, 0 > Never Executed
+	354	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+	401	forwbranch < 0, 0 > Never Executed
+	444	forwbranch < 0, 0 > Never Executed
+	452	forwbranch < 0, 0 > Never Executed
+	491	forwbranch < 0, 0 > Never Executed
+	509	forwbranch < 0, 0 > Never Executed
+	527	forwbranch < 0, 0 > Never Executed
+	545	forwbranch < 0, 0 > Never Executed
+	563	forwbranch < 0, 0 > Never Executed
+	581	forwbranch < 0, 0 > Never Executed
+	604	forwbranch < 0, 0 > Never Executed
+	612	forwbranch < 0, 0 > Never Executed
+	728	forwbranch < 1, 0 > 100.0% taken
+	747	forwbranch < 1, 0 > 100.0% taken
+	783	forwbranch < 1, 1 > 50.0% taken
+	819	forwbranch < 0, 1 > 0.0% taken
+	849	forwbranch < 1, 0 > 100.0% taken
+	898	forwbranch < 1, 0 > 100.0% taken
+	912	forwbranch < 1, 0 > 100.0% taken
+	923	forwbranch < 0, 1 > 0.0% taken
+	949	forwbranch < 0, 1 > 0.0% taken
+M 8 < SystemAppCL, Ldacapo/TestHarness;, rmdir, (Ljava/io/File;)V >
+	6	forwbranch < 0, 1 > 0.0% taken
+	14	forwbranch < 1, 0 > 100.0% taken
+	33	forwbranch < 0, 0 > Never Executed
+	44	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Ldacapo/TestHarness;, <init>, (Ljava/io/InputStream;)V >
+	16	forwbranch < 1, 0 > 100.0% taken
+M 40 < SystemAppCL, Ldacapo/TestHarness;, runBenchmark, (Ljava/io/File;Ljava/lang/String;Ldacapo/TestHarness;)V >
+	13	forwbranch < 0, 1 > 0.0% taken
+	37	forwbranch < 0, 1 > 0.0% taken
+	90	forwbranch < 1, 0 > 100.0% taken
+	108	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	148	forwbranch < 0, 0 > Never Executed
+	153	forwbranch < 0, 0 > Never Executed
+	186	forwbranch < 0, 0 > Never Executed
+	192	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	272	forwbranch < 0, 0 > Never Executed
+	277	forwbranch < 0, 0 > Never Executed
+	311	forwbranch < 1, 4 > 20.0% taken
+	326	forwbranch < 0, 4 > 0.0% taken
+	331	forwbranch < 0, 4 > 0.0% taken
+	359	forwbranch < 0, 1 > 0.0% taken
+	364	forwbranch < 0, 1 > 0.0% taken
+	381	forwbranch < 1, 0 > 100.0% taken
+	423	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Ldacapo/Benchmark;, run, (Ldacapo/Callback;Ljava/lang/String;Z)Z >
+	16	forwbranch < 4, 1 > 80.0% taken
+	58	forwbranch < 4, 1 > 80.0% taken
+	80	forwbranch < 4, 1 > 80.0% taken
+M 2 < SystemAppCL, Ldacapo/Benchmark;, cleanup, ()V >
+	3	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormat;, setMaximumFractionDigits, (I)V >
+	1	forwbranch < 520, 516 > 50.19305% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormat;, setMinimumFractionDigits, (I)V >
+	1	forwbranch < 520, 516 > 50.19305% taken
+M 2 < BootstrapCL, Ljava/lang/reflect/Modifier;, isStatic, (I)Z >
+	4	forwbranch < 3238, 616 > 84.01661% taken
+M 24 < BootstrapCL, Ljava/text/DecimalFormat;, applyPatternWithSymbols, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;)V >
+	10	forwbranch < 1036, 0 > 100.0% taken
+	71	forwbranch < 0, 1036 > 0.0% taken
+	87	forwbranch < 0, 1036 > 0.0% taken
+	116	forwbranch < 1036, 0 > 100.0% taken
+	132	forwbranch < 1036, 0 > 100.0% taken
+	149	forwbranch < 1036, 0 > 100.0% taken
+	164	forwbranch < 1036, 0 > 100.0% taken
+	175	forwbranch < 0, 0 > Never Executed
+	183	forwbranch < 0, 0 > Never Executed
+	203	forwbranch < 1036, 0 > 100.0% taken
+	218	forwbranch < 1036, 0 > 100.0% taken
+	226	forwbranch < 0, 0 > Never Executed
+M 46 < BootstrapCL, Ljava/text/DecimalFormat;, formatInternal, (Ljava/math/BigDecimal;ZLjava/lang/StringBuffer;Ljava/text/FieldPosition;)V >
+	2	forwbranch < 1035, 0 > 100.0% taken
+	28	forwbranch < 1035, 0 > 100.0% taken
+	40	forwbranch < 1035, 0 > 100.0% taken
+	124	forwbranch < 1035, 0 > 100.0% taken
+	131	forwbranch < 0, 0 > Never Executed
+	166	forwbranch < 1035, 0 > 100.0% taken
+	218	forwbranch < 1035, 0 > 100.0% taken
+	244	forwbranch < 520, 515 > 50.241547% taken
+	264	forwbranch < 515, 0 > 100.0% taken
+	322	forwbranch < 1035, 0 > 100.0% taken
+	352	forwbranch < 1035, 0 > 100.0% taken
+	357	forwbranch < 0, 0 > Never Executed
+	429	forwbranch < 0, 1035 > 0.0% taken
+	436	forwbranch < 1035, 0 > 100.0% taken
+	454	forwbranch < 0, 0 > Never Executed
+	459	forwbranch < 0, 1035 > 0.0% taken
+	503	forwbranch < 1035, 0 > 100.0% taken
+	514	forwbranch < 0, 0 > Never Executed
+	545	forwbranch < 1035, 0 > 100.0% taken
+	589	forwbranch < 0, 0 > Never Executed
+	654	forwbranch < 0, 0 > Never Executed
+	682	forwbranch < 0, 0 > Never Executed
+	718	forwbranch < 1035, 0 > 100.0% taken
+M 28 < BootstrapCL, Ljava/math/BigDecimal;, <init>, (Ljava/lang/String;)V >
+	32	forwbranch < 1035, 0 > 100.0% taken
+	51	forwbranch < 1035, 0 > 100.0% taken
+	66	forwbranch < 1035, 14685 > 6.5839696% taken
+	81	forwbranch < 13650, 1035 > 92.95199% taken
+	86	forwbranch < 1035, 0 > 100.0% taken
+	110	forwbranch < 0, 13650 > 0.0% taken
+	117	forwbranch < 13650, 0 > 100.0% taken
+	130	forwbranch < 13650, 0 > 100.0% taken
+	169	forwbranch < 0, 1035 > 0.0% taken
+	240	forwbranch < 1035, 0 > 100.0% taken
+	255	forwbranch < 1035, 0 > 100.0% taken
+	296	forwbranch < 1035, 0 > 100.0% taken
+	310	forwbranch < 0, 0 > Never Executed
+	319	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/math/BigDecimal;, setScale, (II)Ljava/math/BigDecimal; >
+	1	forwbranch < 1035, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/NumberFormat;, setMaximumFractionDigits, (I)V >
+	13	forwbranch < 1036, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/NumberFormat;, setMinimumFractionDigits, (I)V >
+	13	forwbranch < 1036, 0 > 100.0% taken
+M 48 < BootstrapCL, Ljava/text/DecimalFormat;, scanFix, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;IZ)I >
+	80	forwbranch < 1036, 0 > 100.0% taken
+	106	forwbranch < 0, 1036 > 0.0% taken
+	119	forwbranch < 0, 1036 > 0.0% taken
+	126	forwbranch < 1036, 0 > 100.0% taken
+	133	forwbranch < 0, 0 > Never Executed
+	176	forwbranch < 0, 1036 > 0.0% taken
+	183	forwbranch < 0, 1036 > 0.0% taken
+	190	forwbranch < 1036, 0 > 100.0% taken
+	197	forwbranch < 0, 0 > Never Executed
+	204	forwbranch < 0, 0 > Never Executed
+	212	forwbranch < 0, 0 > Never Executed
+	219	forwbranch < 0, 0 > Never Executed
+	232	forwbranch < 0, 0 > Never Executed
+	239	forwbranch < 0, 0 > Never Executed
+	258	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 0, 0 > Never Executed
+	325	forwbranch < 0, 0 > Never Executed
+	354	forwbranch < 0, 0 > Never Executed
+	384	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+	406	forwbranch < 0, 0 > Never Executed
+	425	forwbranch < 0, 0 > Never Executed
+	454	forwbranch < 0, 1036 > 0.0% taken
+M 26 < BootstrapCL, Ljava/text/DecimalFormat;, scanNumberInteger, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;I)I >
+	63	forwbranch < 0, 6216 > 0.0% taken
+	78	forwbranch < 1036, 5180 > 16.666666% taken
+	85	forwbranch < 5180, 0 > 100.0% taken
+	95	forwbranch < 5180, 0 > 100.0% taken
+	102	forwbranch < 0, 0 > Never Executed
+	136	forwbranch < 2072, 3108 > 40.0% taken
+	141	forwbranch < 3108, 0 > 100.0% taken
+	195	forwbranch < 1036, 1036 > 50.0% taken
+	221	forwbranch < 0, 1036 > 0.0% taken
+	247	forwbranch < 0, 1036 > 0.0% taken
+	265	forwbranch < 0, 1036 > 0.0% taken
+	272	forwbranch < 0, 1036 > 0.0% taken
+	279	forwbranch < 1036, 0 > 100.0% taken
+M 20 < BootstrapCL, Ljava/text/DecimalFormat;, scanFractionalPortion, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;I)I >
+	47	forwbranch < 1036, 0 > 100.0% taken
+	91	forwbranch < 1036, 3108 > 25.0% taken
+	106	forwbranch < 0, 3108 > 0.0% taken
+	113	forwbranch < 3108, 0 > 100.0% taken
+	123	forwbranch < 0, 3108 > 0.0% taken
+	130	forwbranch < 3108, 0 > 100.0% taken
+	175	forwbranch < 0, 3108 > 0.0% taken
+	188	forwbranch < 0, 0 > Never Executed
+	193	forwbranch < 0, 0 > Never Executed
+	243	forwbranch < 1036, 0 > 100.0% taken
+M 22 < BootstrapCL, Ljava/math/BigDecimal;, toPlainString, ()Ljava/lang/String; >
+	12	forwbranch < 515, 520 > 49.758453% taken
+	24	forwbranch < 515, 0 > 100.0% taken
+	43	forwbranch < 515, 0 > 100.0% taken
+	64	forwbranch < 43, 472 > 8.349515% taken
+	82	forwbranch < 43, 472 > 8.349515% taken
+	86	forwbranch < 472, 0 > 100.0% taken
+	111	forwbranch < 472, 632 > 42.753624% taken
+	132	forwbranch < 472, 0 > 100.0% taken
+	155	forwbranch < 0, 43 > 0.0% taken
+	169	forwbranch < 43, 0 > 100.0% taken
+	203	forwbranch < 0, 0 > Never Executed
+M 10 < BootstrapCL, Ljava/text/DecimalFormat;, appendDigit, (Ljava/lang/String;Ljava/lang/StringBuffer;Z)V >
+	38	forwbranch < 1550, 2869 > 35.07581% taken
+	50	forwbranch < 2869, 0 > 100.0% taken
+	57	forwbranch < 0, 0 > Never Executed
+	67	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+M 44 < BootstrapCL, Ljava/text/DecimalFormat;, handleFractionalPart, (Ljava/lang/StringBuffer;Ljava/lang/String;Ljava/text/FieldPosition;Z)V >
+	13	forwbranch < 0, 1035 > 0.0% taken
+	18	forwbranch < 1035, 0 > 100.0% taken
+	25	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 1035 > 0.0% taken
+	39	forwbranch < 515, 520 > 49.758453% taken
+	46	forwbranch < 520, 0 > 100.0% taken
+	59	forwbranch < 515, 0 > 100.0% taken
+	109	forwbranch < 1035, 0 > 100.0% taken
+	116	forwbranch < 0, 0 > Never Executed
+	123	forwbranch < 515, 520 > 49.758453% taken
+	130	forwbranch < 520, 0 > 100.0% taken
+	153	forwbranch < 515, 0 > 100.0% taken
+	174	forwbranch < 0, 0 > Never Executed
+	205	forwbranch < 515, 1290 > 28.531857% taken
+	215	forwbranch < 915, 375 > 70.93023% taken
+	229	forwbranch < 254, 261 > 49.32039% taken
+	236	forwbranch < 0, 261 > 0.0% taken
+	265	forwbranch < 0, 0 > Never Executed
+	296	forwbranch < 520, 515 > 50.241547% taken
+	312	forwbranch < 520, 515 > 50.241547% taken
+	331	forwbranch < 0, 1035 > 0.0% taken
+	341	forwbranch < 1035, 0 > 100.0% taken
+M 8 < BootstrapCL, Ljava/text/DecimalFormat;, adjustTrailingZeros, (Ljava/lang/String;I)Ljava/lang/String; >
+	7	forwbranch < 515, 0 > 100.0% taken
+	21	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 515, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, <init>, (Ljava/util/Locale;)V >
+	57	forwbranch < 0, 1037 > 0.0% taken
+M 10 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, getInstance, (Ljava/util/Locale;)Ljava/text/DecimalFormatSymbols; >
+	7	forwbranch < 0, 1035 > 0.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	74	forwbranch < 0, 0 > Never Executed
+	89	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljava/text/NumberFormat;, computeInstance, (Ljava/util/Locale;Ljava/lang/String;Ljava/lang/String;)Ljava/text/NumberFormat; >
+	7	forwbranch < 1035, 0 > 100.0% taken
+	34	forwbranch < 1035, 0 > 100.0% taken
+M 8 < BootstrapCL, Ljava/text/NumberFormat;, getNumberInstance, (Ljava/util/Locale;)Ljava/text/NumberFormat; >
+	25	forwbranch < 0, 0 > Never Executed
+	56	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 0 > Never Executed
+M 16 < BootstrapCL, Ljava/text/DecimalFormat;, format, (DLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer; >
+	4	forwbranch < 1035, 0 > 100.0% taken
+	28	forwbranch < 0, 0 > Never Executed
+	39	forwbranch < 0, 0 > Never Executed
+	75	forwbranch < 1035, 0 > 100.0% taken
+	81	forwbranch < 0, 0 > Never Executed
+	120	forwbranch < 0, 0 > Never Executed
+	149	forwbranch < 0, 0 > Never Executed
+	160	forwbranch < 0, 0 > Never Executed
+M 12 < BootstrapCL, Ljava/util/Currency;, getInstance, (Ljava/lang/String;)Ljava/util/Currency; >
+	1	forwbranch < 1037, 0 > 100.0% taken
+	20	forwbranch < 0, 1037 > 0.0% taken
+	47	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 0 > Never Executed
+M 10 < BootstrapCL, Ljava/util/Currency;, getInstance, (Ljava/util/Locale;)Ljava/util/Currency; >
+	6	forwbranch < 0, 1037 > 0.0% taken
+	10	forwbranch < 1037, 0 > 100.0% taken
+	28	forwbranch < 1037, 0 > 100.0% taken
+	53	forwbranch < 1036, 1 > 99.903564% taken
+	71	forwbranch < 1, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, safeGetChar, (Ljava/util/ResourceBundle;Ljava/lang/String;C)C >
+	4	forwbranch < 0, 10370 > 0.0% taken
+	21	forwbranch < 2074, 8296 > 20.0% taken
+	30	forwbranch < 8296, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, safeGetString, (Ljava/util/ResourceBundle;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	1	forwbranch < 0, 2074 > 0.0% taken
+M 10 < BootstrapCL, Ljava/util/Currency;, getSymbol, (Ljava/util/Locale;)Ljava/lang/String; >
+	50	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 0, 0 > Never Executed
+	99	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 0 > Never Executed
+	138	forwbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Ljava/util/Currency;, <init>, (Ljava/util/Locale;)V >
+	15	forwbranch < 1, 0 > 100.0% taken
+	101	forwbranch < 1, 0 > 100.0% taken
+	119	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, LMMTkHarness;, <init>, ()V >
+	55	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/Callback;, start, (Ljava/lang/String;Z)V >
+	48	forwbranch < 1, 4 > 20.0% taken
+M 6 < SystemAppCL, Ldacapo/Callback;, complete, (Ljava/lang/String;ZZ)V >
+	26	forwbranch < 0, 5 > 0.0% taken
+	33	forwbranch < 1, 4 > 20.0% taken
+	98	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Ldacapo/parser/Config;, getSize, (Ljava/lang/String;)Ldacapo/parser/Config$Size; >
+	13	forwbranch < 119, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFile;, <init>, (Ljava/io/InputStream;)V >
+	83	forwbranch < 1, 17 > 5.5555553% taken
+M 10 < SystemAppCL, Ldacapo/parser/ConfigFile;, configFile, ()Ldacapo/parser/Config; >
+	10	forwbranch < 3, 1 > 75.0% taken
+	24	switch     < 1, 3, 0 >
+	97	forwbranch < 0, 4 > 0.0% taken
+	111	switch     < 1, 2, 1 >
+M 2 < SystemAppCL, Ldacapo/parser/Config$OutputFile;, hasDigest, ()Z >
+	4	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/Config$OutputFile;, hasBytes, ()Z >
+	8	forwbranch < 10, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/Config$OutputFile;, hasLines, ()Z >
+	5	forwbranch < 10, 0 > 100.0% taken
+M 4 < SystemAppCL, Ldacapo/parser/Config;, addOutputFile, (Ljava/lang/String;Ljava/lang/String;)V >
+	15	forwbranch < 3, 3 > 50.0% taken
+	24	forwbranch < 0, 3 > 0.0% taken
+M 8 < SystemAppCL, Ldacapo/parser/ConfigFile;, config, ()Ldacapo/parser/Config; >
+	31	forwbranch < 0, 1 > 0.0% taken
+	45	switch     < 1, 0 >
+	91	forwbranch < 0, 1 > 0.0% taken
+	105	switch     < 0, 1 >
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFile;, jj_ntk, ()I >
+	12	forwbranch < 0, 71 > 0.0% taken
+M 5 < SystemAppCL, Ldacapo/parser/ConfigFile;, sizeSpec, (Ldacapo/parser/Config;)V >
+	28	forwbranch < 6, 0 > 100.0% taken
+	42	switch     < 0, 3, 3 >
+M 4 < SystemAppCL, Ldacapo/parser/ConfigFile;, description, (Ldacapo/parser/Config;)V >
+	17	forwbranch < 0, 9 > 0.0% taken
+	31	switch     < 8, 1 >
+M 4 < SystemAppCL, Ldacapo/parser/ConfigFile;, jj_consume_token, (I)Ldacapo/parser/Token; >
+	9	forwbranch < 28, 70 > 28.571428% taken
+	58	forwbranch < 0, 98 > 0.0% taken
+M 17 < SystemAppCL, Ldacapo/parser/ConfigFile;, sizeClause, (Ldacapo/parser/Config;Ljava/lang/String;)V >
+	13	forwbranch < 3, 3 > 50.0% taken
+	27	switch     < 3, 3, 0 >
+	64	forwbranch < 0, 3 > 0.0% taken
+	78	switch     < 3, 0 >
+	114	forwbranch < 0, 16 > 0.0% taken
+	128	switch     < 13, 3 >
+	225	forwbranch < 6, 0 > 100.0% taken
+	239	switch     < 3, 3 >
+M 19 < SystemAppCL, Ldacapo/parser/ConfigFile;, outputFile, (Ldacapo/parser/Config;Ljava/lang/String;)V >
+	5	forwbranch < 0, 6 > 0.0% taken
+	19	switch     < 3, 3, 0, 0 >
+	122	forwbranch < 0, 12 > 0.0% taken
+	136	switch     < 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 6 >
+M 21 < SystemAppCL, Ldacapo/parser/ConfigFile;, outputClause, (Ldacapo/parser/Config;Ljava/lang/String;Ljava/lang/String;)V >
+	5	forwbranch < 6, 0 > 100.0% taken
+	19	switch     < 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0 >
+	84	forwbranch < 0, 6 > 0.0% taken
+	98	switch     < 0, 6 >
+	135	forwbranch < 0, 0 > Never Executed
+	149	switch     < 0, 0 >
+M 29 < SystemAppCL, Ldacapo/parser/ConfigFile;, descId, ()Ljava/lang/String; >
+	5	forwbranch < 0, 9 > 0.0% taken
+	19	switch     < 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0 >
+M 49 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, getNextToken, ()Ldacapo/parser/Token; >
+	52	switch     < 99, 0, 0, 0, 0 >
+	98	forwbranch < 98, 128 > 43.36283% taken
+	113	forwbranch < 0, 128 > 0.0% taken
+	179	forwbranch < 0, 0 > Never Executed
+	188	forwbranch < 0, 0 > Never Executed
+	221	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 0, 0 > Never Executed
+	263	forwbranch < 0, 0 > Never Executed
+	272	forwbranch < 0, 0 > Never Executed
+	287	forwbranch < 0, 98 > 0.0% taken
+	298	forwbranch < 54, 44 > 55.10204% taken
+	340	forwbranch < 0, 98 > 0.0% taken
+	362	forwbranch < 98, 0 > 100.0% taken
+	402	forwbranch < 0, 0 > Never Executed
+	428	forwbranch < 0, 0 > Never Executed
+	437	forwbranch < 0, 0 > Never Executed
+	479	backbranch < 0, 0 > Never Executed
+	510	forwbranch < 0, 0 > Never Executed
+	601	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	634	forwbranch < 0, 0 > Never Executed
+	651	forwbranch < 0, 0 > Never Executed
+	665	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, backup, (I)V >
+	21	forwbranch < 145, 0 > 100.0% taken
+M 6 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, readChar, ()C >
+	4	forwbranch < 1108, 44 > 96.18056% taken
+	32	forwbranch < 44, 0 > 100.0% taken
+	65	forwbranch < 1105, 3 > 99.72924% taken
+M 16 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, FillBuff, ()V >
+	8	forwbranch < 3, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	29	forwbranch < 0, 0 > Never Executed
+	57	forwbranch < 0, 0 > Never Executed
+	89	forwbranch < 0, 0 > Never Executed
+	115	forwbranch < 0, 0 > Never Executed
+	161	forwbranch < 1, 1 > 50.0% taken
+	211	forwbranch < 0, 2 > 0.0% taken
+M 12 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, UpdateLineColumn, (C)V >
+	14	forwbranch < 1082, 24 > 97.83002% taken
+	44	forwbranch < 1082, 0 > 100.0% taken
+	55	forwbranch < 0, 0 > Never Executed
+	82	switch     < 12, 25, 0, 0, 0, 1069 >
+M 2 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, GetImage, ()Ljava/lang/String; >
+	8	forwbranch < 0, 36 > 0.0% taken
+M 47 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjStopStringLiteralDfa_0, (IJ)I >
+	1	switch     < 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	63	forwbranch < 3, 0 > 100.0% taken
+	75	forwbranch < 0, 3 > 0.0% taken
+	95	forwbranch < 1, 0 > 100.0% taken
+	107	forwbranch < 0, 1 > 0.0% taken
+	132	forwbranch < 0, 0 > Never Executed
+	155	forwbranch < 0, 0 > Never Executed
+	169	forwbranch < 0, 0 > Never Executed
+	192	forwbranch < 0, 0 > Never Executed
+	206	forwbranch < 0, 0 > Never Executed
+	229	forwbranch < 0, 0 > Never Executed
+	243	forwbranch < 0, 0 > Never Executed
+	266	forwbranch < 0, 0 > Never Executed
+	280	forwbranch < 0, 0 > Never Executed
+	292	forwbranch < 0, 0 > Never Executed
+	318	forwbranch < 0, 0 > Never Executed
+	344	forwbranch < 0, 0 > Never Executed
+	356	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 0 > Never Executed
+M 136 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveNfa_0, (II)I >
+	36	forwbranch < 794, 0 > 100.0% taken
+	49	forwbranch < 474, 320 > 59.697735% taken
+	70	switch     < 0, 0, 0, 31, 0, 40, 0, 0, 150, 0, 99, 99, 0, 99, 0, 0, 0, 0, 0, 0 >
+	168	forwbranch < 25, 6 > 80.645164% taken
+	175	forwbranch < 0, 6 > 0.0% taken
+	197	forwbranch < 0, 25 > 0.0% taken
+	215	forwbranch < 0, 0 > Never Executed
+	222	forwbranch < 0, 0 > Never Executed
+	243	forwbranch < 0, 0 > Never Executed
+	269	forwbranch < 25, 6 > 80.645164% taken
+	299	forwbranch < 0, 0 > Never Executed
+	330	forwbranch < 0, 0 > Never Executed
+	337	forwbranch < 0, 0 > Never Executed
+	353	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 0 > Never Executed
+	392	forwbranch < 0, 0 > Never Executed
+	415	forwbranch < 2, 38 > 5.0% taken
+	425	forwbranch < 0, 2 > 0.0% taken
+	446	forwbranch < 0, 0 > Never Executed
+	478	forwbranch < 144, 6 > 96.0% taken
+	488	forwbranch < 0, 144 > 0.0% taken
+	522	forwbranch < 0, 0 > Never Executed
+	542	forwbranch < 25, 74 > 25.252525% taken
+	562	forwbranch < 0, 0 > Never Executed
+	580	forwbranch < 74, 25 > 74.747475% taken
+	587	forwbranch < 0, 25 > 0.0% taken
+	605	forwbranch < 0, 0 > Never Executed
+	626	forwbranch < 0, 0 > Never Executed
+	646	forwbranch < 0, 0 > Never Executed
+	678	forwbranch < 0, 0 > Never Executed
+	698	forwbranch < 0, 0 > Never Executed
+	708	forwbranch < 0, 0 > Never Executed
+	728	backbranch < 198, 320 > 38.223938% taken
+	741	forwbranch < 0, 474 > 0.0% taken
+	765	switch     < 0, 0, 1, 0, 42, 0, 6, 96, 0, 329, 329, 0, 335 >
+	836	forwbranch < 43, 0 > 100.0% taken
+	846	forwbranch < 0, 43 > 0.0% taken
+	865	forwbranch < 0, 0 > Never Executed
+	883	forwbranch < 6, 0 > 100.0% taken
+	893	forwbranch < 0, 6 > 0.0% taken
+	917	forwbranch < 96, 0 > 100.0% taken
+	927	forwbranch < 0, 96 > 0.0% taken
+	951	forwbranch < 0, 329 > 0.0% taken
+	969	forwbranch < 329, 0 > 100.0% taken
+	991	forwbranch < 0, 0 > Never Executed
+	1007	backbranch < 664, 474 > 58.34798% taken
+	1047	switch     < 0, 0, 0 >
+	1083	forwbranch < 0, 0 > Never Executed
+	1090	forwbranch < 0, 0 > Never Executed
+	1111	forwbranch < 0, 0 > Never Executed
+	1127	backbranch < 0, 0 > Never Executed
+	1134	forwbranch < 472, 322 > 59.445843% taken
+	1175	forwbranch < 725, 69 > 91.30982% taken
+M 18 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa1_0, (J)I >
+	28	switch     < 0, 0, 2, 5, 2, 10, 1, 2, 4, 6, 4, 0, 0, 1 >
+	151	forwbranch < 0, 0 > Never Executed
+	170	forwbranch < 0, 0 > Never Executed
+M 33 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa2_0, (JJ)I >
+	7	forwbranch < 34, 2 > 94.44444% taken
+	46	switch     < 1, 0, 1, 6, 0, 1, 9, 0, 0, 0, 0, 1, 0, 2, 1, 2, 0, 2, 1, 4, 0, 0, 0, 0, 0, 3, 0 >
+	225	forwbranch < 0, 1 > 0.0% taken
+	307	forwbranch < 0, 0 > Never Executed
+M 38 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa3_0, (JJ)I >
+	7	forwbranch < 32, 0 > 100.0% taken
+	46	switch     < 0, 0, 2, 0, 15, 0, 1, 1, 0, 0, 0, 0, 0, 0, 3, 3, 0, 1, 5, 0, 0, 0, 0, 0, 1, 0 >
+	185	forwbranch < 12, 3 > 80.0% taken
+	213	forwbranch < 0, 1 > 0.0% taken
+	250	forwbranch < 3, 0 > 100.0% taken
+	287	forwbranch < 2, 3 > 40.0% taken
+	315	forwbranch < 0, 0 > Never Executed
+M 32 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa4_0, (JJ)I >
+	7	forwbranch < 25, 0 > 100.0% taken
+	46	switch     < 2, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 5, 7, 1, 6, 0 >
+	214	forwbranch < 7, 0 > 100.0% taken
+	233	forwbranch < 6, 1 > 85.71429% taken
+	252	forwbranch < 6, 0 > 100.0% taken
+	280	forwbranch < 0, 1 > 0.0% taken
+M 43 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa5_0, (JJ)I >
+	7	forwbranch < 23, 0 > 100.0% taken
+	46	switch     < 1, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0, 1, 0, 0, 4, 1, 13, 0, 0, 0, 0, 0, 0 >
+	155	forwbranch < 1, 0 > 100.0% taken
+	210	forwbranch < 3, 1 > 75.0% taken
+	229	forwbranch < 3, 0 > 100.0% taken
+	248	forwbranch < 0, 3 > 0.0% taken
+	267	forwbranch < 1, 0 > 100.0% taken
+	295	forwbranch < 7, 6 > 53.846153% taken
+	314	forwbranch < 4, 3 > 57.142857% taken
+	333	forwbranch < 1, 3 > 25.0% taken
+	361	forwbranch < 0, 0 > Never Executed
+M 30 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa6_0, (JJ)I >
+	7	forwbranch < 7, 0 > 100.0% taken
+	47	switch     < 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 2, 0 >
+	152	forwbranch < 0, 1 > 0.0% taken
+	181	forwbranch < 0, 1 > 0.0% taken
+	210	forwbranch < 1, 1 > 50.0% taken
+	230	forwbranch < 0, 1 > 0.0% taken
+M 6 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa7_0, (JJ)I >
+	7	forwbranch < 3, 0 > 100.0% taken
+	48	switch     < 1, 1, 1, 0 >
+M 10 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa8_0, (JJ)I >
+	7	forwbranch < 3, 0 > 100.0% taken
+	49	switch     < 1, 1, 1, 0 >
+	100	forwbranch < 0, 1 > 0.0% taken
+	120	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa9_0, (JJ)I >
+	7	forwbranch < 1, 0 > 100.0% taken
+	49	switch     < 1, 0 >
+M 6 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa10_0, (JJ)I >
+	7	forwbranch < 1, 0 > 100.0% taken
+	49	switch     < 1, 0 >
+	75	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjCheckNAdd, (I)V >
+	10	forwbranch < 0, 1437 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjCheckNAddStates, (II)V >
+	14	backbranch < 856, 428 > 66.666664% taken
+M 1 < SystemAppCL, Ldacapo/parser/Token;, newToken, (I)Ldacapo/parser/Token; >
+	1	switch     < 99 >
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjFillToken, ()Ldacapo/parser/Token; >
+	27	forwbranch < 63, 36 > 63.636364% taken
+M 80 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa0_0, ()I >
+	4	switch     < 0, 0, 0, 0, 24, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 1, 2, 9, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0, 3, 0, 0, 1, 11, 1, 1, 1, 25 >
+M 8 < SystemAppCL, Ldacapo/Benchmark;, preIteration, (Ljava/lang/String;)V >
+	3	forwbranch < 5, 0 > 100.0% taken
+	28	forwbranch < 0, 0 > Never Executed
+	73	forwbranch < 5, 0 > 100.0% taken
+	81	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Ldacapo/Benchmark;, startIteration, ()V >
+	3	forwbranch < 0, 5 > 0.0% taken
+	23	forwbranch < 1, 4 > 20.0% taken
+M 2 < SystemAppCL, Ldacapo/Benchmark;, stopIteration, ()V >
+	3	forwbranch < 0, 5 > 0.0% taken
+M 44 < SystemAppCL, Ldacapo/Benchmark;, validate, (Ljava/lang/String;)Z >
+	3	forwbranch < 5, 0 > 100.0% taken
+	11	forwbranch < 5, 0 > 100.0% taken
+	76	forwbranch < 5, 10 > 33.333332% taken
+	100	forwbranch < 0, 10 > 0.0% taken
+	179	forwbranch < 10, 0 > 100.0% taken
+	226	forwbranch < 10, 0 > 100.0% taken
+	236	forwbranch < 0, 0 > Never Executed
+	246	forwbranch < 0, 0 > Never Executed
+	259	forwbranch < 10, 0 > 100.0% taken
+	316	forwbranch < 10, 0 > 100.0% taken
+	355	forwbranch < 10, 0 > 100.0% taken
+	438	forwbranch < 0, 0 > Never Executed
+	486	forwbranch < 0, 0 > Never Executed
+	543	forwbranch < 0, 0 > Never Executed
+	582	forwbranch < 10, 0 > 100.0% taken
+	669	forwbranch < 0, 0 > Never Executed
+	718	forwbranch < 0, 0 > Never Executed
+	775	forwbranch < 0, 0 > Never Executed
+	814	forwbranch < 10, 0 > 100.0% taken
+	833	forwbranch < 0, 0 > Never Executed
+	875	forwbranch < 0, 0 > Never Executed
+	910	forwbranch < 5, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/Benchmark;, postIteration, (Ljava/lang/String;)V >
+	3	forwbranch < 0, 5 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/Benchmark;, unpackZipFileResource, (Ljava/lang/String;Ljava/io/File;)V >
+	6	forwbranch < 1, 0 > 100.0% taken
+M 8 < SystemAppCL, Ldacapo/Benchmark;, postIterationCleanup, (Ljava/lang/String;)V >
+	20	forwbranch < 5, 10 > 33.333332% taken
+	39	forwbranch < 0, 10 > 0.0% taken
+	48	forwbranch < 10, 0 > 100.0% taken
+	63	forwbranch < 0, 10 > 0.0% taken
+M 4 < SystemAppCL, Ldacapo/FileDigest;, get, (Ljava/lang/String;ZZLjava/io/File;)[B >
+	1	forwbranch < 0, 10 > 0.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Ldacapo/Digest;, toString, ([B)Ljava/lang/String; >
+	17	forwbranch < 10, 200 > 4.7619047% taken
+	36	forwbranch < 170, 30 > 85.0% taken
+M 6 < SystemAppCL, Ldacapo/Benchmark;, deleteFile, (Ljava/io/File;)V >
+	3	forwbranch < 10, 0 > 100.0% taken
+	38	forwbranch < 0, 10 > 0.0% taken
+	45	forwbranch < 0, 10 > 0.0% taken
+M 6 < SystemAppCL, Ldacapo/Benchmark;, deleteTree, (Ljava/io/File;)V >
+	3	forwbranch < 757, 0 > 100.0% taken
+	38	forwbranch < 20, 737 > 2.6420078% taken
+	59	forwbranch < 20, 755 > 2.580645% taken
+M 10 < SystemAppCL, Ldacapo/Benchmark;, unpackZipStream, (Ljava/io/BufferedInputStream;Ljava/io/File;)V >
+	15	forwbranch < 1, 713 > 0.14005603% taken
+	21	forwbranch < 713, 0 > 100.0% taken
+	70	forwbranch < 696, 17 > 97.61571% taken
+	78	forwbranch < 0, 17 > 0.0% taken
+	136	forwbranch < 696, 2576 > 21.271393% taken
+M 4 < SystemAppCL, Ldacapo/Benchmark;, getURL, (Ljava/lang/String;)Ljava/net/URL; >
+	3	forwbranch < 0, 1 > 0.0% taken
+	34	forwbranch < 1, 0 > 100.0% taken
+M 6 < SystemAppCL, Ldacapo/Benchmark;, <init>, (Ldacapo/parser/Config;Ljava/io/File;)V >
+	22	forwbranch < 0, 1 > 0.0% taken
+	34	forwbranch < 0, 1 > 0.0% taken
+	81	forwbranch < 0, 1 > 0.0% taken
+M 70 < SystemAppCL, Lorg/python/util/jython;, main, ([Ljava/lang/String;)V >
+	13	forwbranch < 6, 0 > 100.0% taken
+	20	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 0, 0 > Never Executed
+	80	forwbranch < 6, 0 > 100.0% taken
+	154	forwbranch < 6, 0 > 100.0% taken
+	199	forwbranch < 0, 6 > 0.0% taken
+	212	forwbranch < 6, 0 > 100.0% taken
+	230	forwbranch < 0, 0 > Never Executed
+	247	forwbranch < 0, 0 > Never Executed
+	264	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	308	forwbranch < 0, 0 > Never Executed
+	338	forwbranch < 0, 0 > Never Executed
+	343	forwbranch < 0, 0 > Never Executed
+	370	forwbranch < 0, 0 > Never Executed
+	397	forwbranch < 0, 0 > Never Executed
+	424	forwbranch < 0, 0 > Never Executed
+	454	forwbranch < 0, 0 > Never Executed
+	501	forwbranch < 0, 0 > Never Executed
+	525	forwbranch < 6, 0 > 100.0% taken
+	537	forwbranch < 0, 0 > Never Executed
+	556	forwbranch < 0, 0 > Never Executed
+	575	forwbranch < 0, 0 > Never Executed
+	594	forwbranch < 0, 0 > Never Executed
+	613	forwbranch < 6, 0 > 100.0% taken
+	638	forwbranch < 0, 6 > 0.0% taken
+	659	forwbranch < 6, 0 > 100.0% taken
+	689	forwbranch < 6, 0 > 100.0% taken
+	711	forwbranch < 6, 0 > 100.0% taken
+	758	forwbranch < 0, 0 > Never Executed
+	795	forwbranch < 6, 0 > 100.0% taken
+	802	forwbranch < 0, 0 > Never Executed
+	822	forwbranch < 0, 0 > Never Executed
+	859	forwbranch < 6, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/Py;, setArgv, (Ljava/lang/String;[Ljava/lang/String;)V >
+	24	forwbranch < 5, 30 > 14.285714% taken
+M 2 < SystemAppCL, Ldacapo/jython/JythonHarness;, iterate, (Ljava/lang/String;)V >
+	41	forwbranch < 5, 30 > 14.285714% taken
+M 2 < SystemAppCL, Ldacapo/TeeOutputStream;, version, ()V >
+	54	forwbranch < 8, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/TeeOutputStream;, flush, ()V >
+	8	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyString;, <init>, (Ljava/lang/String;)V >
+	15	forwbranch < 328219, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyStringMap;, __setitem__, (Ljava/lang/String;Lorg/python/core/PyObject;)V >
+	11	forwbranch < 153738, 15260 > 90.97031% taken
+M 36 < SystemAppCL, Lorg/python/core/Py;, java2py, (Ljava/lang/Object;)Lorg/python/core/PyObject; >
+	4	forwbranch < 168638, 1815 > 98.93519% taken
+	16	forwbranch < 168638, 0 > 100.0% taken
+	33	forwbranch < 168598, 40 > 99.97628% taken
+	40	forwbranch < 0, 40 > 0.0% taken
+	47	forwbranch < 40, 0 > 100.0% taken
+	69	forwbranch < 40, 0 > 100.0% taken
+	91	forwbranch < 40, 0 > 100.0% taken
+	98	forwbranch < 0, 0 > Never Executed
+	105	forwbranch < 0, 0 > Never Executed
+	127	forwbranch < 168268, 330 > 99.80427% taken
+	137	forwbranch < 62, 268 > 18.787878% taken
+	151	forwbranch < 8163, 160105 > 4.8511896% taken
+	162	forwbranch < 8102, 61 > 99.25272% taken
+	181	forwbranch < 2, 8100 > 0.024685264% taken
+	196	forwbranch < 0, 2 > 0.0% taken
+	207	forwbranch < 2, 0 > 100.0% taken
+	230	forwbranch < 2, 0 > 100.0% taken
+	252	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/python/core/Py;, runCode, (Lorg/python/core/PyCode;Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	1	forwbranch < 6, 0 > 100.0% taken
+	5	forwbranch < 0, 0 > Never Executed
+	21	forwbranch < 6, 0 > 100.0% taken
+	38	forwbranch < 0, 6 > 0.0% taken
+M 62 < SystemAppCL, Lorg/python/util/CommandLineOptions;, parse, ([Ljava/lang/String;)Z >
+	5	forwbranch < 0, 6 > 0.0% taken
+	16	forwbranch < 6, 0 > 100.0% taken
+	29	forwbranch < 0, 0 > Never Executed
+	45	forwbranch < 0, 0 > Never Executed
+	61	forwbranch < 0, 0 > Never Executed
+	68	forwbranch < 0, 0 > Never Executed
+	91	forwbranch < 0, 0 > Never Executed
+	113	forwbranch < 0, 0 > Never Executed
+	125	forwbranch < 0, 0 > Never Executed
+	142	forwbranch < 0, 0 > Never Executed
+	162	forwbranch < 0, 0 > Never Executed
+	182	forwbranch < 0, 0 > Never Executed
+	202	forwbranch < 0, 0 > Never Executed
+	218	forwbranch < 0, 0 > Never Executed
+	235	forwbranch < 0, 0 > Never Executed
+	255	forwbranch < 0, 0 > Never Executed
+	280	forwbranch < 0, 0 > Never Executed
+	302	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 0, 0 > Never Executed
+	391	forwbranch < 0, 0 > Never Executed
+	399	forwbranch < 0, 0 > Never Executed
+	439	forwbranch < 0, 0 > Never Executed
+	460	forwbranch < 0, 0 > Never Executed
+	517	forwbranch < 0, 6 > 0.0% taken
+	523	forwbranch < 0, 6 > 0.0% taken
+	530	forwbranch < 0, 6 > 0.0% taken
+	547	forwbranch < 0, 6 > 0.0% taken
+	564	forwbranch < 6, 0 > 100.0% taken
+	591	forwbranch < 0, 6 > 0.0% taken
+	611	forwbranch < 0, 0 > Never Executed
+	639	forwbranch < 6, 30 > 16.666666% taken
+M 2 < SystemAppCL, Lorg/python/core/imp;, addModule, (Ljava/lang/String;)Lorg/python/core/PyModule; >
+	22	forwbranch < 37, 6 > 86.04651% taken
+M 28 < SystemAppCL, Lorg/python/core/Py;, matchException, (Lorg/python/core/PyException;Lorg/python/core/PyObject;)Z >
+	8	forwbranch < 75, 0 > 100.0% taken
+	18	forwbranch < 0, 0 > Never Executed
+	43	forwbranch < 0, 0 > Never Executed
+	52	forwbranch < 75, 0 > 100.0% taken
+	62	forwbranch < 0, 0 > Never Executed
+	87	forwbranch < 0, 0 > Never Executed
+	96	forwbranch < 75, 0 > 100.0% taken
+	106	forwbranch < 0, 0 > Never Executed
+	131	forwbranch < 0, 0 > Never Executed
+	140	forwbranch < 0, 75 > 0.0% taken
+	160	forwbranch < 0, 0 > Never Executed
+	169	forwbranch < 0, 0 > Never Executed
+	185	forwbranch < 0, 0 > Never Executed
+	195	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PyObject;, __getitem__, (I)Lorg/python/core/PyObject; >
+	7	forwbranch < 331205, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyException;, <init>, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;)V >
+	48	forwbranch < 3, 56669 > 0.0052936194% taken
+	55	forwbranch < 56669, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/Py;, getFrame, ()Lorg/python/core/PyFrame; >
+	5	forwbranch < 220136, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyTraceback;, <init>, (Lorg/python/core/PyFrame;)V >
+	13	forwbranch < 3, 160073 > 0.0018741098% taken
+M 16 < SystemAppCL, Lorg/python/core/PyException;, instantiate, ()V >
+	4	forwbranch < 100023, 160075 > 38.45589% taken
+	14	forwbranch < 160075, 0 > 100.0% taken
+	24	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 0, 160075 > 0.0% taken
+	59	forwbranch < 100075, 60000 > 62.51757% taken
+	76	forwbranch < 60000, 0 > 100.0% taken
+	86	forwbranch < 100075, 0 > 100.0% taken
+	123	forwbranch < 60075, 40000 > 60.029976% taken
+M 6 < SystemAppCL, Lorg/python/core/PyType;, lookup, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	10	forwbranch < 38, 92962 > 0.040860213% taken
+	23	forwbranch < 0, 92962 > 0.0% taken
+	36	forwbranch < 280, 92682 > 0.30119833% taken
+M 2 < SystemAppCL, Lorg/python/core/PySystemState;, initialize, ()V >
+	3	forwbranch < 0, 7 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyList;, repeat, (I)Lorg/python/core/PyObject; >
+	18	forwbranch < 17, 2825 > 0.5981703% taken
+M 14 < SystemAppCL, Lorg/python/core/PyJavaClass;, lookup, (Ljava/lang/Class;)Lorg/python/core/PyJavaClass; >
+	3	forwbranch < 28, 1 > 96.55173% taken
+	25	forwbranch < 0, 1 > 0.0% taken
+	52	forwbranch < 1, 0 > 100.0% taken
+	83	forwbranch < 18, 11 > 62.068966% taken
+	100	forwbranch < 18, 0 > 100.0% taken
+	112	forwbranch < 0, 0 > Never Executed
+	123	forwbranch < 0, 18 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PySystemState;, getSystemIn, ()Ljava/io/InputStream; >
+	3	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyModule;, <init>, (Ljava/lang/String;Lorg/python/core/PyObject;)V >
+	5	forwbranch < 7, 37 > 15.909091% taken
+M 26 < SystemAppCL, Lorg/python/core/PySystemState;, findRoot, (Ljava/util/Properties;Ljava/util/Properties;)Ljava/lang/String; >
+	3	forwbranch < 0, 1 > 0.0% taken
+	14	forwbranch < 0, 1 > 0.0% taken
+	25	forwbranch < 1, 0 > 100.0% taken
+	43	forwbranch < 1, 0 > 100.0% taken
+	62	forwbranch < 1, 0 > 100.0% taken
+	82	forwbranch < 0, 1 > 0.0% taken
+	92	forwbranch < 1, 0 > 100.0% taken
+	111	forwbranch < 1, 0 > 100.0% taken
+	123	forwbranch < 1, 0 > 100.0% taken
+	130	forwbranch < 0, 1 > 0.0% taken
+	162	forwbranch < 0, 1 > 0.0% taken
+	175	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PySystemState;, addRegistryFile, (Ljava/io/File;)V >
+	4	forwbranch < 2, 0 > 100.0% taken
+M 20 < SystemAppCL, Lorg/python/core/Options;, setFromRegistry, ()V >
+	87	forwbranch < 1, 0 > 100.0% taken
+	96	forwbranch < 0, 0 > Never Executed
+	112	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	144	forwbranch < 0, 0 > Never Executed
+	160	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 1, 0 > 100.0% taken
+	239	forwbranch < 0, 0 > Never Executed
+	255	forwbranch < 0, 0 > Never Executed
+	271	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/PySystemState;, initialize, (Ljava/util/Properties;Ljava/util/Properties;[Ljava/lang/String;Ljava/lang/ClassLoader;)V >
+	3	forwbranch < 1, 5 > 16.666666% taken
+	65	forwbranch < 1, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/python/core/PySystemState;, initRegistry, (Ljava/util/Properties;Ljava/util/Properties;)V >
+	3	forwbranch < 1, 0 > 100.0% taken
+	33	forwbranch < 0, 1 > 0.0% taken
+	42	forwbranch < 1, 0 > 100.0% taken
+	96	forwbranch < 0, 1 > 0.0% taken
+	110	forwbranch < 1, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PySystemState;, initBuiltins, (Ljava/util/Properties;)V >
+	17	forwbranch < 1, 28 > 3.4482758% taken
+	60	forwbranch < 1, 0 > 100.0% taken
+	101	forwbranch < 1, 28 > 3.4482758% taken
+M 10 < SystemAppCL, Lorg/python/core/PySystemState;, initStaticFields, ()V >
+	130	forwbranch < 0, 1 > 0.0% taken
+	181	forwbranch < 0, 1 > 0.0% taken
+	195	forwbranch < 0, 0 > Never Executed
+	209	forwbranch < 0, 0 > Never Executed
+	223	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/PySystemState;, initPath, (Ljava/util/Properties;)Lorg/python/core/PyList; >
+	11	forwbranch < 0, 1 > 0.0% taken
+	30	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PySystemState;, initArgv, ([Ljava/lang/String;)Lorg/python/core/PyList; >
+	9	forwbranch < 0, 1 > 0.0% taken
+	17	forwbranch < 1, 1 > 50.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PySystemState;, initPackages, (Ljava/util/Properties;)V >
+	7	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PySystemState;, <init>, ()V >
+	190	forwbranch < 0, 1 > 0.0% taken
+	363	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/Py;, setSystemState, (Lorg/python/core/PySystemState;)Lorg/python/core/PySystemState; >
+	12	forwbranch < 13, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/core/Py;, newInteger, (I)Lorg/python/core/PyInteger; >
+	3	forwbranch < 1696808, 1 > 99.99994% taken
+	22	forwbranch < 1, 1000 > 0.0999001% taken
+	50	forwbranch < 0, 1696809 > 0.0% taken
+	57	forwbranch < 6541, 1690268 > 0.3854883% taken
+M 6 < SystemAppCL, Lorg/python/core/PySystemState;, initCacheDirectory, (Ljava/util/Properties;)V >
+	3	forwbranch < 1, 0 > 100.0% taken
+	26	forwbranch < 1, 0 > 100.0% taken
+	58	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/SysPackageManager;, <init>, (Ljava/io/File;Ljava/util/Properties;)V >
+	9	forwbranch < 0, 1 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PySystemState;, addBuiltin, (Ljava/lang/String;)V >
+	9	forwbranch < 22, 6 > 78.57143% taken
+	44	forwbranch < 6, 0 > 100.0% taken
+	79	forwbranch < 0, 28 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PySystemState;, addPaths, (Lorg/python/core/PyList;Ljava/lang/String;)V >
+	16	forwbranch < 2, 1 > 66.666664% taken
+M 4 < SystemAppCL, Lorg/python/core/PackageManager;, makeJavaPackage, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/python/core/PyJavaPackage; >
+	10	forwbranch < 2, 894 > 0.22321428% taken
+	23	forwbranch < 0, 896 > 0.0% taken
+M 18 < SystemAppCL, Lorg/python/core/PySystemState;, __findattr__, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	3	forwbranch < 74, 0 > 100.0% taken
+	14	forwbranch < 0, 0 > Never Executed
+	27	forwbranch < 74, 0 > 100.0% taken
+	38	forwbranch < 0, 0 > Never Executed
+	51	forwbranch < 74, 0 > 100.0% taken
+	62	forwbranch < 0, 0 > Never Executed
+	75	forwbranch < 74, 0 > 100.0% taken
+	81	forwbranch < 0, 0 > Never Executed
+	105	forwbranch < 7, 67 > 9.459459% taken
+M 6 < SystemAppCL, Lorg/python/core/PyType;, fromClass, (Ljava/lang/Class;)Lorg/python/core/PyType; >
+	3	forwbranch < 2024692, 1 > 99.999954% taken
+	19	forwbranch < 0, 1 > 0.0% taken
+	53	forwbranch < 409, 2024284 > 0.020200593% taken
+M 4 < SystemAppCL, Lorg/python/core/PyType;, getFullName, ()Ljava/lang/String; >
+	4	forwbranch < 0, 15 > 0.0% taken
+	18	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/python/core/PyObject;, _eq, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	19	forwbranch < 222275, 0 > 100.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 221116, 1159 > 99.47858% taken
+	99	forwbranch < 221116, 0 > 100.0% taken
+	129	forwbranch < 221001, 115 > 99.94799% taken
+	171	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/PyObject;, safeRepr, ()Ljava/lang/String; >
+	4	forwbranch < 15, 0 > 100.0% taken
+	19	forwbranch < 15, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyString;, internedString, ()Ljava/lang/String; >
+	4	forwbranch < 405698, 328 > 99.91922% taken
+M 6 < SystemAppCL, Lorg/python/core/PySlice;, <init>, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;Lorg/python/core/PyObject;)V >
+	5	forwbranch < 12, 0 > 100.0% taken
+	13	forwbranch < 0, 12 > 0.0% taken
+	21	forwbranch < 0, 12 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyObject;, __getitem__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	7	forwbranch < 2775157, 0 > 100.00001% taken
+M 12 < SystemAppCL, Lorg/python/core/PyObject;, object___findattr__, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	10	forwbranch < 31, 525503 > 0.005898762% taken
+	17	forwbranch < 525318, 185 > 99.9648% taken
+	31	forwbranch < 0, 185 > 0.0% taken
+	44	forwbranch < 525349, 0 > 100.0% taken
+	55	forwbranch < 0, 0 > Never Executed
+	61	forwbranch < 31, 525318 > 0.0059008393% taken
+M 2 < SystemAppCL, Lorg/python/core/PyObject;, __findattr__, (Lorg/python/core/PyString;)Lorg/python/core/PyObject; >
+	1	forwbranch < 351, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/python/core/PyObject;, object___setattr__, (Ljava/lang/String;Lorg/python/core/PyObject;)V >
+	13	forwbranch < 403212, 0 > 100.0% taken
+	24	forwbranch < 0, 0 > Never Executed
+	31	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 0, 403212 > 0.0% taken
+	62	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PyObject;, delete_token, (Lorg/python/core/ThreadState;Lorg/python/core/PyObject;)V >
+	1	forwbranch < 0, 2495739 > 0.0% taken
+M 8 < SystemAppCL, Lorg/python/core/PyObject;, _cmp_unsafe, (Lorg/python/core/PyObject;)I >
+	2	forwbranch < 941577, 12 > 99.99872% taken
+	16	forwbranch < 38, 941539 > 0.0040357825% taken
+	25	forwbranch < 0, 38 > 0.0% taken
+	37	forwbranch < 0, 38 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyObject;, _is, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	2	forwbranch < 301, 63 > 82.69231% taken
+M 10 < SystemAppCL, Lorg/python/core/PyObject;, _cmpeq_unsafe, (Lorg/python/core/PyObject;)I >
+	2	forwbranch < 570123, 1050077 > 35.188435% taken
+	16	forwbranch < 20, 570103 > 0.0035080148% taken
+	25	forwbranch < 0, 20 > 0.0% taken
+	37	forwbranch < 20, 0 > 100.0% taken
+	51	forwbranch < 20, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/Py;, newBoolean, (Z)Lorg/python/core/PyInteger; >
+	1	forwbranch < 907315, 493982 > 64.74823% taken
+M 4 < SystemAppCL, Lorg/python/core/PyObject;, object___contains__, (Lorg/python/core/PyObject;)Z >
+	13	forwbranch < 103, 339 > 23.303167% taken
+	24	backbranch < 287, 52 > 84.66077% taken
+M 4 < SystemAppCL, Lorg/python/core/PyObject;, _add, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	7	forwbranch < 0, 705715 > 0.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/PyObject;, _sub, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	7	forwbranch < 0, 225093 > 0.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/PyObject;, _mul, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	7	forwbranch < 17, 330082 > 0.0051499703% taken
+	19	forwbranch < 0, 17 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyObject;, _div, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	3	forwbranch < 1442013, 0 > 100.0% taken
+	19	forwbranch < 0, 1442013 > 0.0% taken
+	31	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/PyObject;, _mod, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	7	forwbranch < 0, 55315 > 0.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/PyObject;, _lshift, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	7	forwbranch < 0, 513 > 0.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/PyObject;, _and, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	7	forwbranch < 0, 96 > 0.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/PyObject;, _or, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	7	forwbranch < 0, 4 > 0.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PyObject;, __tojava__, (Ljava/lang/Class;)Ljava/lang/Object; >
+	5	forwbranch < 25, 1316 > 1.8642803% taken
+M 6 < SystemAppCL, Lorg/python/core/Py;, JavaError, (Ljava/lang/Throwable;)Lorg/python/core/PyException; >
+	4	forwbranch < 22, 160060 > 0.013742956% taken
+	16	forwbranch < 0, 22 > 0.0% taken
+	34	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PyObject;, __getattr__, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	7	forwbranch < 1124480, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyObject;, isDataDescr, ()Z >
+	7	forwbranch < 55, 789141 > 0.006969118% taken
+	17	forwbranch < 789141, 0 > 99.99999% taken
+M 20 < SystemAppCL, Lorg/python/core/PyObject;, typeSetup, (Lorg/python/core/PyObject;Lorg/python/core/PyType$Newstyle;)V >
+	12	forwbranch < 0, 1 > 0.0% taken
+	51	forwbranch < 1, 0 > 100.0% taken
+	90	forwbranch < 1, 0 > 100.0% taken
+	137	forwbranch < 1, 0 > 100.0% taken
+	184	forwbranch < 1, 0 > 100.0% taken
+	231	forwbranch < 1, 0 > 100.0% taken
+	278	forwbranch < 1, 0 > 100.0% taken
+	325	forwbranch < 1, 0 > 100.0% taken
+	372	forwbranch < 1, 0 > 100.0% taken
+	417	forwbranch < 1, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyObject;, equals, (Ljava/lang/Object;)Z >
+	4	forwbranch < 0, 727277 > 0.0% taken
+	18	forwbranch < 75000, 652277 > 10.312439% taken
+M 30 < SystemAppCL, Lorg/python/core/PyObject;, _callextra, ([Lorg/python/core/PyObject;[Ljava/lang/String;Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	15	forwbranch < 0, 6 > 0.0% taken
+	47	forwbranch < 6, 0 > 100.0% taken
+	61	forwbranch < 0, 0 > Never Executed
+	100	forwbranch < 0, 0 > Never Executed
+	112	forwbranch < 0, 0 > Never Executed
+	173	forwbranch < 0, 6 > 0.0% taken
+	180	forwbranch < 6, 0 > 100.0% taken
+	187	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 6 > 0.0% taken
+	272	forwbranch < 6, 11 > 35.294117% taken
+	279	forwbranch < 0, 11 > 0.0% taken
+	322	forwbranch < 6, 0 > 100.0% taken
+	370	forwbranch < 0, 0 > Never Executed
+	378	forwbranch < 0, 0 > Never Executed
+	450	forwbranch < 6, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyObject;, __getattr__, (Lorg/python/core/PyString;)Lorg/python/core/PyObject; >
+	7	forwbranch < 23, 15 > 60.526318% taken
+M 28 < SystemAppCL, Lorg/python/core/PyObject;, _cmp, (Lorg/python/core/PyObject;)I >
+	20	forwbranch < 225000, 0 > 100.0% taken
+	31	forwbranch < 0, 0 > Never Executed
+	64	forwbranch < 225000, 0 > 100.0% taken
+	72	forwbranch < 0, 0 > Never Executed
+	105	forwbranch < 225000, 0 > 100.0% taken
+	113	forwbranch < 0, 0 > Never Executed
+	146	forwbranch < 225000, 0 > 100.0% taken
+	154	forwbranch < 0, 0 > Never Executed
+	187	forwbranch < 225000, 0 > 100.0% taken
+	195	forwbranch < 0, 0 > Never Executed
+	228	forwbranch < 225000, 0 > 100.0% taken
+	236	forwbranch < 0, 0 > Never Executed
+	269	forwbranch < 225000, 0 > 100.0% taken
+	277	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/python/core/PyObject;, _ne, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	19	forwbranch < 450075, 0 > 100.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 450000, 75 > 99.98334% taken
+	99	forwbranch < 450000, 0 > 100.0% taken
+	129	forwbranch < 225000, 225000 > 50.0% taken
+M 10 < SystemAppCL, Lorg/python/core/PyObject;, _le, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	19	forwbranch < 6, 0 > 100.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+	48	forwbranch < 6, 0 > 100.0% taken
+	82	forwbranch < 6, 0 > 100.0% taken
+	112	forwbranch < 2, 4 > 33.333332% taken
+M 10 < SystemAppCL, Lorg/python/core/PyObject;, _lt, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	19	forwbranch < 421148, 0 > 100.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+	48	forwbranch < 420048, 1100 > 99.73881% taken
+	82	forwbranch < 420048, 0 > 100.0% taken
+	112	forwbranch < 44, 420004 > 0.010474993% taken
+M 10 < SystemAppCL, Lorg/python/core/PyObject;, _ge, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	19	forwbranch < 300054, 0 > 100.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+	48	forwbranch < 54, 300000 > 0.01799676% taken
+	82	forwbranch < 54, 0 > 100.0% taken
+	112	forwbranch < 41, 13 > 75.92593% taken
+M 10 < SystemAppCL, Lorg/python/core/PyObject;, _gt, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	19	forwbranch < 430867, 0 > 100.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+	48	forwbranch < 430867, 0 > 100.0% taken
+	82	forwbranch < 430867, 0 > 100.0% taken
+	112	forwbranch < 430835, 32 > 99.99258% taken
+M 2 < SystemAppCL, Lorg/python/core/PyObject;, _isnot, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	2	forwbranch < 540, 862 > 38.516407% taken
+M 2 < SystemAppCL, Lorg/python/core/PyObject;, _notin, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	5	forwbranch < 30, 6 > 83.333336% taken
+M 2 < SystemAppCL, Lorg/python/core/PyObject;, __not__, ()Lorg/python/core/PyObject; >
+	4	forwbranch < 112, 670 > 14.32225% taken
+M 2 < SystemAppCL, Lorg/python/core/PySystemState;, __delattr__, (Ljava/lang/String;)V >
+	4	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PySystemState;, callExitFunc, ()V >
+	9	forwbranch < 6, 0 > 100.0% taken
+	28	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/core/Options;, getBooleanOption, (Ljava/lang/String;Z)Z >
+	27	forwbranch < 0, 8 > 0.0% taken
+	38	forwbranch < 0, 0 > Never Executed
+	47	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/Options;, getStringOption, (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	27	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/JavaAccessibility;, initialize, ()V >
+	3	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/JavaAccessibility;, accessIsMutable, ()Z >
+	3	forwbranch < 36, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyNone;, __tojava__, (Ljava/lang/Class;)Ljava/lang/Object; >
+	4	forwbranch < 100, 1 > 99.0099% taken
+	22	forwbranch < 0, 101 > 0.0% taken
+	31	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/ArgParser;, getString, (I)Ljava/lang/String; >
+	5	forwbranch < 16, 0 > 100.0% taken
+M 66 < SystemAppCL, Lorg/python/core/PyType;, newType, (Lorg/python/core/PyObject;Lorg/python/core/PyType;Ljava/lang/String;Lorg/python/core/PyTuple;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	3	forwbranch < 16, 0 > 100.0% taken
+	43	forwbranch < 16, 16 > 50.0% taken
+	58	forwbranch < 16, 0 > 100.0% taken
+	72	forwbranch < 16, 0 > 100.0% taken
+	83	forwbranch < 0, 0 > Never Executed
+	106	forwbranch < 0, 16 > 0.0% taken
+	119	forwbranch < 0, 0 > Never Executed
+	144	forwbranch < 16, 0 > 100.0% taken
+	158	forwbranch < 0, 0 > Never Executed
+	164	forwbranch < 0, 0 > Never Executed
+	208	forwbranch < 16, 0 > 100.0% taken
+	238	forwbranch < 0, 16 > 0.0% taken
+	249	forwbranch < 16, 16 > 50.0% taken
+	263	forwbranch < 16, 0 > 100.0% taken
+	271	forwbranch < 0, 0 > Never Executed
+	282	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 0, 16 > 0.0% taken
+	332	forwbranch < 0, 16 > 0.0% taken
+	352	forwbranch < 0, 16 > 0.0% taken
+	425	forwbranch < 16, 0 > 100.0% taken
+	433	forwbranch < 0, 0 > Never Executed
+	462	forwbranch < 16, 0 > 100.0% taken
+	480	forwbranch < 16, 0 > 100.0% taken
+	493	forwbranch < 0, 16 > 0.0% taken
+	531	forwbranch < 0, 16 > 0.0% taken
+	541	forwbranch < 0, 16 > 0.0% taken
+	559	forwbranch < 16, 0 > 100.0% taken
+	595	forwbranch < 16, 0 > 100.0% taken
+	615	forwbranch < 16, 0 > 100.0% taken
+	635	forwbranch < 16, 0 > 100.0% taken
+	654	forwbranch < 16, 16 > 50.0% taken
+	669	forwbranch < 0, 16 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyType;, cleanup_subclasses, ()V >
+	9	forwbranch < 16, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyType;, tail_contains, ([Lorg/python/core/PyObject;ILorg/python/core/PyObject;)Z >
+	11	forwbranch < 32, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/python/core/PyType;, solid_base, (Lorg/python/core/PyType;)Lorg/python/core/PyType; >
+	10	forwbranch < 0, 16 > 0.0% taken
+	21	forwbranch < 0, 16 > 0.0% taken
+	35	forwbranch < 16, 0 > 100.0% taken
+	43	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/PyType;, isSubType, (Lorg/python/core/PyType;)Z >
+	10	forwbranch < 0, 660379 > 0.0% taken
+	17	forwbranch < 288227, 372152 > 43.645695% taken
+M 2 < SystemAppCL, Lorg/python/core/PyType;, invoke_new_, (Lorg/python/core/PyObject;Lorg/python/core/PyType;Z[Lorg/python/core/PyObject;[Ljava/lang/String;)Lorg/python/core/PyObject; >
+	4	forwbranch < 0, 130426 > 0.0% taken
+M 14 < SystemAppCL, Lorg/python/core/PyType;, best_base, ([Lorg/python/core/PyObject;)Lorg/python/core/PyType; >
+	13	forwbranch < 16, 16 > 50.0% taken
+	27	forwbranch < 16, 0 > 100.0% taken
+	38	forwbranch < 16, 0 > 100.0% taken
+	61	forwbranch < 0, 16 > 0.0% taken
+	77	forwbranch < 0, 0 > Never Executed
+	88	forwbranch < 0, 0 > Never Executed
+	112	forwbranch < 16, 0 > 100.0% taken
+M 30 < SystemAppCL, Lorg/python/core/PyType;, type_mro, ()[Lorg/python/core/PyObject; >
+	12	forwbranch < 16, 16 > 50.0% taken
+	28	forwbranch < 16, 0 > 100.0% taken
+	37	forwbranch < 0, 0 > Never Executed
+	63	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 16, 16 > 50.0% taken
+	139	forwbranch < 0, 16 > 0.0% taken
+	163	forwbranch < 0, 0 > Never Executed
+	220	forwbranch < 16, 48 > 25.0% taken
+	238	forwbranch < 16, 32 > 33.333332% taken
+	263	forwbranch < 16, 32 > 33.333332% taken
+	281	forwbranch < 32, 0 > 100.0% taken
+	307	forwbranch < 16, 32 > 33.333332% taken
+	321	forwbranch < 0, 32 > 0.0% taken
+	337	forwbranch < 0, 32 > 0.0% taken
+	370	forwbranch < 0, 16 > 0.0% taken
+M 10 < SystemAppCL, Lorg/python/core/Py;, make_array, (Lorg/python/core/PyObject;)[Lorg/python/core/PyObject; >
+	4	forwbranch < 0, 15 > 0.0% taken
+	48	forwbranch < 0, 0 > Never Executed
+	57	forwbranch < 0, 0 > Never Executed
+	64	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/core/PyGetSetDescr;, <init>, (Lorg/python/core/PyType;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V >
+	49	forwbranch < 37, 0 > 100.0% taken
+	71	forwbranch < 37, 0 > 100.0% taken
+	116	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PyType;, get_non_static_method, (Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method; >
+	14	forwbranch < 0, 1257 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyType;, normalize_name, (Ljava/lang/String;)Ljava/lang/String; >
+	6	forwbranch < 79532, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyType;, ignore, (Ljava/lang/reflect/Method;)Z >
+	10	forwbranch < 2714, 50 > 98.191025% taken
+	19	forwbranch < 49, 1 > 98.0% taken
+	37	forwbranch < 15, 35 > 30.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyReflectedFunction;, addMethod, (Ljava/lang/reflect/Method;)V >
+	9	forwbranch < 1324, 0 > 100.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/core/PyType;, get_descr_method, (Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method; >
+	8	forwbranch < 409, 1228 > 24.984728% taken
+	18	forwbranch < 1228, 0 > 100.0% taken
+	36	forwbranch < 1223, 5 > 99.592834% taken
+M 6 < SystemAppCL, Lorg/python/core/PyType;, decapitalize, (Ljava/lang/String;)Ljava/lang/String; >
+	10	forwbranch < 7, 21 > 25.0% taken
+	18	forwbranch < 0, 21 > 0.0% taken
+	29	forwbranch < 21, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyReflectedConstructor;, addConstructor, (Ljava/lang/reflect/Constructor;)V >
+	9	forwbranch < 75, 0 > 100.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+M 126 < SystemAppCL, Lorg/python/core/PyType;, fillFromClass, (Lorg/python/core/PyType;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Class;ZLjava/lang/reflect/Method;[Ljava/lang/String;)V >
+	1	forwbranch < 4, 407 > 0.973236% taken
+	10	forwbranch < 18, 393 > 4.379562% taken
+	24	forwbranch < 32, 379 > 7.785888% taken
+	54	forwbranch < 18, 14 > 56.25% taken
+	86	forwbranch < 410, 1 > 99.75669% taken
+	104	forwbranch < 410, 1 > 99.75669% taken
+	195	forwbranch < 361, 50 > 87.83455% taken
+	222	forwbranch < 50, 361 > 12.16545% taken
+	233	forwbranch < 361, 0 > 100.0% taken
+	282	forwbranch < 411, 76662 > 0.5332607% taken
+	302	forwbranch < 10462, 66200 > 13.646917% taken
+	311	forwbranch < 63451, 2749 > 95.847435% taken
+	319	forwbranch < 35, 2714 > 1.2731903% taken
+	353	forwbranch < 100, 2614 > 3.6845984% taken
+	358	forwbranch < 2250, 364 > 86.07498% taken
+	395	forwbranch < 2250, 464 > 82.903465% taken
+	400	forwbranch < 0, 464 > 0.0% taken
+	411	forwbranch < 20, 444 > 4.3103447% taken
+	429	forwbranch < 425, 19 > 95.72072% taken
+	434	forwbranch < 9, 10 > 47.36842% taken
+	461	forwbranch < 418, 16 > 96.31336% taken
+	466	forwbranch < 1, 15 > 6.25% taken
+	477	forwbranch < 0, 15 > 0.0% taken
+	504	forwbranch < 406, 13 > 96.89738% taken
+	510	forwbranch < 6, 7 > 46.153847% taken
+	541	forwbranch < 1, 410 > 0.243309% taken
+	553	forwbranch < 2, 408 > 0.4878049% taken
+	565	forwbranch < 406, 2 > 99.5098% taken
+	580	forwbranch < 1, 409 > 0.24390244% taken
+	592	forwbranch < 409, 0 > 100.0% taken
+	606	forwbranch < 411, 76662 > 0.5332607% taken
+	640	forwbranch < 76062, 600 > 99.21735% taken
+	658	forwbranch < 361, 50 > 87.83455% taken
+	675	forwbranch < 50, 156 > 24.271845% taken
+	695	forwbranch < 27, 129 > 17.307692% taken
+	704	forwbranch < 0, 129 > 0.0% taken
+	733	forwbranch < 101, 28 > 78.29457% taken
+	743	forwbranch < 27, 1 > 96.42857% taken
+	751	forwbranch < 0, 1 > 0.0% taken
+	769	forwbranch < 0, 1 > 0.0% taken
+	782	forwbranch < 26, 1 > 96.296295% taken
+	792	forwbranch < 0, 1 > 0.0% taken
+	800	forwbranch < 0, 1 > 0.0% taken
+	818	forwbranch < 0, 1 > 0.0% taken
+	844	forwbranch < 0, 1 > 0.0% taken
+	852	forwbranch < 0, 1 > 0.0% taken
+	934	forwbranch < 50, 28 > 64.10256% taken
+	970	forwbranch < 27, 1 > 96.42857% taken
+	978	forwbranch < 1, 0 > 100.0% taken
+	1025	forwbranch < 10, 18 > 35.714287% taken
+	1060	forwbranch < 3, 25 > 10.714286% taken
+	1122	forwbranch < 0, 3 > 0.0% taken
+	1143	forwbranch < 7, 21 > 25.0% taken
+	1148	backbranch < 0, 21 > 0.0% taken
+	1185	forwbranch < 8, 42 > 16.0% taken
+	1207	forwbranch < 42, 70 > 37.5% taken
+	1254	forwbranch < 49, 1 > 98.0% taken
+	1277	forwbranch < 48, 2 > 96.0% taken
+	1284	forwbranch < 2, 0 > 100.0% taken
+	1303	forwbranch < 0, 2 > 0.0% taken
+	1319	forwbranch < 2, 0 > 100.0% taken
+	1372	forwbranch < 343, 18 > 95.01385% taken
+	1414	forwbranch < 17, 344 > 4.7091413% taken
+M 22 < SystemAppCL, Lorg/python/core/PyType;, addFromClass, (Ljava/lang/Class;)Lorg/python/core/PyType; >
+	5	forwbranch < 410, 1 > 99.75669% taken
+	50	forwbranch < 411, 0 > 100.0% taken
+	74	forwbranch < 411, 0 > 100.0% taken
+	117	forwbranch < 50, 361 > 12.16545% taken
+	143	forwbranch < 4, 357 > 1.1080333% taken
+	154	forwbranch < 1419, 0 > 100.0% taken
+	172	forwbranch < 357, 1062 > 25.158562% taken
+	190	forwbranch < 1062, 0 > 100.0% taken
+	237	forwbranch < 0, 361 > 0.0% taken
+	249	forwbranch < 411, 0 > 100.0% taken
+	267	forwbranch < 410, 1 > 99.75669% taken
+M 12 < SystemAppCL, Lorg/python/core/PyType;, type___findattr__, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	15	forwbranch < 5, 17 > 22.727272% taken
+	22	forwbranch < 1, 16 > 5.882353% taken
+	35	forwbranch < 0, 16 > 0.0% taken
+	50	forwbranch < 6, 0 > 100.0% taken
+	64	forwbranch < 0, 0 > Never Executed
+	71	forwbranch < 5, 1 > 83.333336% taken
+M 4 < SystemAppCL, Lorg/python/core/PyType;, type___call__, ([Lorg/python/core/PyObject;[Ljava/lang/String;)Lorg/python/core/PyObject; >
+	11	forwbranch < 0, 38572 > 0.0% taken
+	15	forwbranch < 38572, 0 > 100.0% taken
+M 20 < SystemAppCL, Lorg/python/core/PyType;, typeSetup, (Lorg/python/core/PyObject;Lorg/python/core/PyType$Newstyle;)V >
+	12	forwbranch < 1, 0 > 100.0% taken
+	51	forwbranch < 1, 0 > 100.0% taken
+	90	forwbranch < 1, 0 > 100.0% taken
+	129	forwbranch < 1, 0 > 100.0% taken
+	168	forwbranch < 1, 0 > 100.0% taken
+	215	forwbranch < 1, 0 > 100.0% taken
+	262	forwbranch < 1, 0 > 100.0% taken
+	309	forwbranch < 1, 0 > 100.0% taken
+	356	forwbranch < 1, 0 > 100.0% taken
+	401	forwbranch < 1, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/python/core/PyType;, type_new, (Lorg/python/core/PyObject;ZLorg/python/core/PyType;[Lorg/python/core/PyObject;[Ljava/lang/String;)Lorg/python/core/PyObject; >
+	3	forwbranch < 16, 42 > 27.586206% taken
+	9	forwbranch < 0, 42 > 0.0% taken
+	26	forwbranch < 16, 0 > 100.0% taken
+	76	forwbranch < 16, 0 > 100.0% taken
+	98	forwbranch < 0, 16 > 0.0% taken
+	106	forwbranch < 16, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyType;, instDict, ()Lorg/python/core/PyObject; >
+	4	forwbranch < 0, 130601 > 0.0% taken
+M 12 < SystemAppCL, Lorg/python/core/PyType;, __tojava__, (Ljava/lang/Class;)Ljava/lang/Object; >
+	4	forwbranch < 6, 0 > 100.0% taken
+	22	forwbranch < 0, 6 > 0.0% taken
+	29	forwbranch < 5, 1 > 83.333336% taken
+	48	forwbranch < 0, 6 > 0.0% taken
+	55	forwbranch < 5, 1 > 83.333336% taken
+	74	forwbranch < 6, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyType;, <clinit>, ()V >
+	16	forwbranch < 0, 1 > 0.0% taken
+	47	forwbranch < 1, 0 > 100.0% taken
+	71	forwbranch < 1, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/python/core/PyStringMap;, resize, (I)V >
+	10	forwbranch < 0, 145752 > 0.0% taken
+	19	forwbranch < 27206, 118546 > 18.665953% taken
+	37	forwbranch < 118546, 0 > 100.0% taken
+	113	forwbranch < 91344, 27202 > 77.053635% taken
+	128	forwbranch < 27202, 211062 > 11.416748% taken
+	140	forwbranch < 119109, 91953 > 56.43318% taken
+M 10 < SystemAppCL, Lorg/python/core/PyStringMap;, insertkey, (Ljava/lang/String;Lorg/python/core/PyObject;)V >
+	38	forwbranch < 39994, 246223 > 13.973314% taken
+	44	forwbranch < 1, 246222 > 4.061359E-4% taken
+	67	forwbranch < 39126, 868 > 97.82967% taken
+	83	forwbranch < 39125, 1 > 99.997444% taken
+	89	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyStringMap;, __setitem__, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;)V >
+	4	forwbranch < 0, 42 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyStringMap;, __finditem__, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	33	forwbranch < 19879, 196 > 99.02366% taken
+	46	forwbranch < 1485, 18394 > 7.470195% taken
+M 4 < SystemAppCL, Lorg/python/core/PyStringMap;, __delitem__, (Ljava/lang/String;)V >
+	32	forwbranch < 8, 0 > 100.0% taken
+	43	forwbranch < 0, 8 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/core/ThreadState;, enterRepr, (Lorg/python/core/PyObject;)Z >
+	4	forwbranch < 5, 1 > 83.333336% taken
+	39	forwbranch < 5, 0 > 100.0% taken
+	51	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/core/ThreadState;, exitRepr, (Lorg/python/core/PyObject;)V >
+	4	forwbranch < 6, 0 > 100.0% taken
+	19	forwbranch < 6, 6 > 50.0% taken
+	31	forwbranch < 0, 6 > 0.0% taken
+M 8 < SystemAppCL, Lorg/python/core/PyStringMap;, keys, ()Lorg/python/core/PyList; >
+	22	forwbranch < 24, 1448 > 1.6304348% taken
+	33	forwbranch < 900, 548 > 62.154697% taken
+	40	forwbranch < 0, 548 > 0.0% taken
+	50	forwbranch < 548, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyStringMap;, __finditem__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 0, 99 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyStringMap;, clear, ()V >
+	8	forwbranch < 1, 31 > 3.125% taken
+M 8 < SystemAppCL, Lorg/python/core/PyStringMap;, update, (Lorg/python/core/PyStringMap;)V >
+	28	forwbranch < 0, 1 > 0.0% taken
+	51	forwbranch < 1, 251 > 0.3968254% taken
+	62	forwbranch < 185, 66 > 73.70518% taken
+	69	forwbranch < 66, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyStringMap;, values, ()Lorg/python/core/PyList; >
+	22	forwbranch < 6, 648 > 0.9174312% taken
+	33	forwbranch < 311, 337 > 47.993828% taken
+M 2 < SystemAppCL, Lorg/python/core/PyReflectedFunction;, _doget, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	1	forwbranch < 203, 10 > 95.30516% taken
+M 16 < SystemAppCL, Lorg/python/core/ReflectedArgs;, <init>, (Ljava/lang/Object;[Ljava/lang/Class;Ljava/lang/Class;Z)V >
+	28	forwbranch < 837, 572 > 59.40383% taken
+	37	forwbranch < 571, 1 > 99.82517% taken
+	55	forwbranch < 546, 26 > 95.454544% taken
+	69	forwbranch < 1115, 268 > 80.62183% taken
+	78	forwbranch < 268, 0 > 100.0% taken
+	96	forwbranch < 214, 54 > 79.850746% taken
+	105	forwbranch < 53, 1 > 98.14815% taken
+	123	forwbranch < 0, 54 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyReflectedFunction;, handles, (Lorg/python/core/ReflectedArgs;)Z >
+	16	forwbranch < 1, 10 > 9.090909% taken
+	31	forwbranch < 1, 9 > 10.0% taken
+	39	forwbranch < 1, 0 > 100.0% taken
+M 34 < SystemAppCL, Lorg/python/core/ReflectedArgs;, compareTo, (Lorg/python/core/ReflectedArgs;)I >
+	13	forwbranch < 1203, 245 > 83.08011% taken
+	24	forwbranch < 224, 21 > 91.42857% taken
+	42	forwbranch < 1117, 86 > 92.851204% taken
+	50	forwbranch < 607, 510 > 54.341988% taken
+	59	forwbranch < 569, 38 > 93.7397% taken
+	66	forwbranch < 38, 0 > 100.0% taken
+	75	forwbranch < 38, 569 > 6.2602963% taken
+	82	forwbranch < 569, 0 > 100.0% taken
+	96	forwbranch < 607, 824 > 42.41789% taken
+	118	forwbranch < 95, 729 > 11.529126% taken
+	125	forwbranch < 700, 29 > 96.02195% taken
+	134	forwbranch < 184, 640 > 22.330097% taken
+	149	forwbranch < 474, 133 > 78.08896% taken
+	154	forwbranch < 34, 99 > 25.56391% taken
+	180	forwbranch < 20, 454 > 4.2194095% taken
+	185	forwbranch < 454, 0 > 100.0% taken
+	197	forwbranch < 454, 20 > 95.780594% taken
+M 12 < SystemAppCL, Lorg/python/core/PyReflectedFunction;, addArgs, (Lorg/python/core/ReflectedArgs;)V >
+	16	forwbranch < 794, 1438 > 35.573475% taken
+	31	forwbranch < 993, 445 > 69.054245% taken
+	40	forwbranch < 973, 20 > 97.9859% taken
+	52	forwbranch < 833, 140 > 85.61151% taken
+	73	forwbranch < 733, 201 > 78.47966% taken
+	107	forwbranch < 934, 213 > 81.42982% taken
+M 38 < SystemAppCL, Lorg/python/core/ReflectedArgs;, matches, (Lorg/python/core/PyObject;[Lorg/python/core/PyObject;[Ljava/lang/String;Lorg/python/core/ReflectedCallData;)Z >
+	5	forwbranch < 0, 10552 > 0.0% taken
+	9	forwbranch < 0, 10552 > 0.0% taken
+	14	forwbranch < 10552, 0 > 100.0% taken
+	23	forwbranch < 308, 10244 > 2.9188778% taken
+	27	forwbranch < 10244, 0 > 100.0% taken
+	36	forwbranch < 308, 0 > 100.0% taken
+	41	forwbranch < 0, 0 > Never Executed
+	78	forwbranch < 10552, 0 > 100.0% taken
+	110	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	145	forwbranch < 9654, 898 > 91.48976% taken
+	169	forwbranch < 898, 0 > 100.0% taken
+	187	forwbranch < 0, 0 > Never Executed
+	210	forwbranch < 9274, 380 > 96.063805% taken
+	222	forwbranch < 9074, 200 > 97.84343% taken
+	240	forwbranch < 200, 0 > 100.0% taken
+	282	forwbranch < 9267, 10226 > 47.540142% taken
+	308	forwbranch < 10219, 7 > 99.93155% taken
+	318	forwbranch < 0, 7 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/ReflectedCallData;, getArgsArray, ()[Ljava/lang/Object; >
+	9	forwbranch < 0, 10165 > 0.0% taken
+M 26 < SystemAppCL, Lorg/python/core/PyReflectedFunction;, __call__, (Lorg/python/core/PyObject;[Lorg/python/core/PyObject;[Ljava/lang/String;)Lorg/python/core/PyObject; >
+	31	forwbranch < 0, 10469 > 0.0% taken
+	51	forwbranch < 369, 10100 > 3.524692% taken
+	72	forwbranch < 10100, 0 > 100.0% taken
+	84	forwbranch < 0, 0 > Never Executed
+	94	forwbranch < 0, 0 > Never Executed
+	120	forwbranch < 199, 9901 > 1.970297% taken
+	125	forwbranch < 9901, 0 > 100.0% taken
+	133	forwbranch < 0, 0 > Never Executed
+	145	forwbranch < 0, 0 > Never Executed
+	177	forwbranch < 0, 0 > Never Executed
+	224	forwbranch < 0, 0 > Never Executed
+	242	forwbranch < 0, 0 > Never Executed
+	258	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/Py;, tojava, (Lorg/python/core/PyObject;Ljava/lang/Class;)Ljava/lang/Object; >
+	10	forwbranch < 14, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/Py;, makeCharacter, (C)Lorg/python/core/PyString; >
+	4	forwbranch < 5878, 4940 > 54.335365% taken
+	29	forwbranch < 5877, 1 > 99.98299% taken
+	47	forwbranch < 1, 256 > 0.38910505% taken
+M 4 < SystemAppCL, Lorg/python/core/PyTableCode;, <init>, (I[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZZLorg/python/core/PyFunctionTable;I[Ljava/lang/String;[Ljava/lang/String;II)V >
+	73	forwbranch < 673, 13 > 98.10496% taken
+	104	forwbranch < 684, 2 > 99.70846% taken
+M 4 < SystemAppCL, Lorg/python/core/Py;, newJavaFunc, (Ljava/lang/Class;Ljava/lang/String;)Lorg/python/core/PyObject; >
+	11	forwbranch < 45, 1 > 97.82609% taken
+	35	forwbranch < 45, 1 > 97.82609% taken
+M 2 < SystemAppCL, Lorg/python/core/JavaCode;, <init>, (Lorg/python/core/PyObject;)V >
+	13	forwbranch < 38, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/imp;, getSyspathJavaLoader, ()Ljava/lang/ClassLoader; >
+	9	forwbranch < 108, 1 > 99.082565% taken
+M 2 < SystemAppCL, Lorg/python/core/imp;, createFromCode, (Ljava/lang/String;Lorg/python/core/PyCode;)Lorg/python/core/PyObject; >
+	11	forwbranch < 0, 36 > 0.0% taken
+M 14 < SystemAppCL, Lorg/python/core/PyInstance;, __init__, ([Lorg/python/core/PyObject;[Ljava/lang/String;)V >
+	15	forwbranch < 36006, 196307 > 15.498918% taken
+	29	forwbranch < 196307, 36006 > 84.50108% taken
+	34	forwbranch < 36006, 0 > 100.0% taken
+	49	forwbranch < 0, 0 > Never Executed
+	75	forwbranch < 196307, 0 > 100.0% taken
+	88	forwbranch < 0, 232313 > 0.0% taken
+	98	forwbranch < 232313, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/Py;, setException, (Ljava/lang/Throwable;Lorg/python/core/PyFrame;)Lorg/python/core/PyException; >
+	10	forwbranch < 0, 29354 > 0.0% taken
+	21	forwbranch < 29354, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/StdoutWrapper;, println, ()V >
+	9	forwbranch < 0, 35 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/Py;, assert_, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;)V >
+	4	forwbranch < 5, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/Py;, makeException, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyException; >
+	4	forwbranch < 100000, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+M 22 < SystemAppCL, Lorg/python/core/PyFrame;, getf_locals, ()Lorg/python/core/PyObject; >
+	4	forwbranch < 282322, 12 > 99.99575% taken
+	22	forwbranch < 0, 282334 > 0.0% taken
+	32	forwbranch < 216, 282118 > 0.07650513% taken
+	39	forwbranch < 0, 282118 > 0.0% taken
+	50	forwbranch < 282118, 846410 > 24.99876% taken
+	61	forwbranch < 46, 846364 > 0.0054347184% taken
+	96	forwbranch < 282118, 0 > 100.0% taken
+	113	forwbranch < 282118, 0 > 100.0% taken
+	127	forwbranch < 0, 0 > Never Executed
+	163	forwbranch < 282118, 0 > 100.0% taken
+	177	forwbranch < 0, 0 > Never Executed
+M 18 < SystemAppCL, Lorg/python/core/PyFrame;, <init>, (Lorg/python/core/PyTableCode;Lorg/python/core/PyObject;Lorg/python/core/PyObject;Lorg/python/core/PyObject;)V >
+	26	forwbranch < 38, 36641 > 0.103601515% taken
+	30	forwbranch < 1, 36640 > 0.002729183% taken
+	39	forwbranch < 36564, 76 > 99.79258% taken
+	46	forwbranch < 76, 0 > 100.0% taken
+	53	forwbranch < 0, 36564 > 0.0% taken
+	87	forwbranch < 1, 36678 > 0.0027263556% taken
+	97	forwbranch < 36678, 0 > 100.0% taken
+	119	forwbranch < 36678, 0 > 100.0% taken
+	139	forwbranch < 36678, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/Py;, getThreadState, (Lorg/python/core/PySystemState;)Lorg/python/core/ThreadState; >
+	3	forwbranch < 276338, 1 > 99.99964% taken
+	9	forwbranch < 0, 1 > 0.0% taken
+	34	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/core/ThreadStateMapping;, makeMapping, ()Lorg/python/core/ThreadStateMapping; >
+	3	forwbranch < 0, 1 > 0.0% taken
+	22	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/core/Py;, py2int, (Lorg/python/core/PyObject;Ljava/lang/String;)I >
+	4	forwbranch < 0, 1127562 > 0.0% taken
+	27	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/python/core/Py;, py2char, (Lorg/python/core/PyObject;Ljava/lang/String;)C >
+	4	forwbranch < 0, 15 > 0.0% taken
+	17	forwbranch < 15, 0 > 100.0% taken
+	38	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 0, 0 > Never Executed
+	66	forwbranch < 0, 0 > Never Executed
+M 24 < SystemAppCL, Lorg/python/core/Py;, makeClass, (Ljava/lang/String;[Lorg/python/core/PyObject;Lorg/python/core/PyCode;Lorg/python/core/PyObject;Ljava/lang/Class;[Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	39	forwbranch < 129, 49 > 72.47191% taken
+	63	forwbranch < 0, 178 > 0.0% taken
+	68	forwbranch < 62, 116 > 34.83146% taken
+	81	forwbranch < 116, 0 > 100.0% taken
+	177	forwbranch < 116, 0 > 100.0% taken
+	192	forwbranch < 0, 62 > 0.0% taken
+	207	forwbranch < 62, 116 > 34.83146% taken
+	215	forwbranch < 100, 16 > 86.206894% taken
+	223	forwbranch < 16, 0 > 100.0% taken
+	237	forwbranch < 0, 0 > Never Executed
+	256	forwbranch < 0, 0 > Never Executed
+	282	forwbranch < 16, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/Py;, compile_flags, (Ljava/io/InputStream;Ljava/lang/String;Ljava/lang/String;Lorg/python/core/CompilerFlags;)Lorg/python/core/PyCode; >
+	19	forwbranch < 6, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/Py;, saveClassFile, (Ljava/lang/String;Ljava/io/ByteArrayOutputStream;)V >
+	5	forwbranch < 0, 6 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/Py;, maybeWrite, (Ljava/lang/String;Ljava/lang/String;I)V >
+	4	forwbranch < 327, 3 > 99.09091% taken
+M 16 < SystemAppCL, Lorg/python/core/PyClass;, isSubClass, (Lorg/python/core/PyClass;)Z >
+	2	forwbranch < 79, 60154 > 0.13115734% taken
+	11	forwbranch < 79, 0 > 100.0% taken
+	18	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+	41	forwbranch < 0, 79 > 0.0% taken
+	48	forwbranch < 79, 0 > 100.0% taken
+	70	forwbranch < 0, 79 > 0.0% taken
+	88	forwbranch < 0, 79 > 0.0% taken
+M 20 < SystemAppCL, Lorg/python/core/Py;, isInstance, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Z >
+	4	forwbranch < 60075, 62 > 99.896904% taken
+	14	forwbranch < 0, 62 > 0.0% taken
+	32	forwbranch < 0, 60075 > 0.0% taken
+	39	forwbranch < 60075, 0 > 100.0% taken
+	66	forwbranch < 0, 0 > Never Executed
+	85	forwbranch < 0, 0 > Never Executed
+	95	forwbranch < 0, 0 > Never Executed
+	107	forwbranch < 0, 0 > Never Executed
+	127	forwbranch < 0, 0 > Never Executed
+	146	forwbranch < 0, 0 > Never Executed
+M 22 < SystemAppCL, Lorg/python/core/Py;, isSubClass, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Z >
+	4	forwbranch < 79, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+	16	forwbranch < 0, 0 > Never Executed
+	37	forwbranch < 0, 79 > 0.0% taken
+	44	forwbranch < 0, 79 > 0.0% taken
+	66	forwbranch < 0, 0 > Never Executed
+	85	forwbranch < 0, 0 > Never Executed
+	95	forwbranch < 0, 0 > Never Executed
+	107	forwbranch < 0, 0 > Never Executed
+	127	forwbranch < 0, 0 > Never Executed
+	144	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/IdImpl;, getInstance, ()Lorg/python/core/IdImpl; >
+	10	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/Py;, relFindClass, (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Class; >
+	6	forwbranch < 0, 2 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/core/Py;, findClassEx, (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Class; >
+	8	forwbranch < 67, 0 > 100.0% taken
+	58	forwbranch < 0, 67 > 0.0% taken
+	74	forwbranch < 0, 67 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/Py;, makeException, (Lorg/python/core/PyObject;)Lorg/python/core/PyException; >
+	4	forwbranch < 40000, 60000 > 40.0% taken
+M 12 < SystemAppCL, Lorg/python/core/Py;, unpackSequence, (Lorg/python/core/PyObject;I)[Lorg/python/core/PyObject; >
+	4	forwbranch < 0, 310755 > 0.0% taken
+	17	forwbranch < 0, 310755 > 0.0% taken
+	48	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 0, 0 > Never Executed
+	94	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/Py;, iter, (Lorg/python/core/PyObject;Ljava/lang/String;)Lorg/python/core/PyObject; >
+	13	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/python/core/Py;, <clinit>, ()V >
+	43	forwbranch < 0, 1 > 0.0% taken
+	68	forwbranch < 0, 1 > 0.0% taken
+	93	forwbranch < 0, 1 > 0.0% taken
+	118	forwbranch < 0, 1 > 0.0% taken
+	144	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/ArgParser;, <init>, (Ljava/lang/String;[Lorg/python/core/PyObject;[Ljava/lang/String;[Ljava/lang/String;I)V >
+	29	forwbranch < 116633, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/ArgParser;, getPyObject, (ILorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	7	forwbranch < 93531, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PySequence;, seq___nonzero__, ()Z >
+	4	forwbranch < 63, 487 > 11.454545% taken
+M 14 < SystemAppCL, Lorg/python/core/PySequence;, cmp, (Lorg/python/core/PyObject;ILorg/python/core/PyObject;I)I >
+	1	forwbranch < 0, 3300 > 0.0% taken
+	10	forwbranch < 0, 3300 > 0.0% taken
+	24	forwbranch < 0, 3300 > 0.0% taken
+	30	forwbranch < 0, 3300 > 0.0% taken
+	51	forwbranch < 0, 3300 > 0.0% taken
+	65	forwbranch < 0, 0 > Never Executed
+	73	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/core/PySequence;, seq___ne__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	8	forwbranch < 1, 0 > 100.0% taken
+	25	forwbranch < 0, 1 > 0.0% taken
+	43	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PySequence;, __finditem__, (I)Lorg/python/core/PyObject; >
+	8	forwbranch < 2049013, 132913 > 93.908455% taken
+M 6 < SystemAppCL, Lorg/python/core/PySequence;, fixindex, (I)I >
+	6	forwbranch < 636, 0 > 100.0% taken
+	14	forwbranch < 0, 636 > 0.0% taken
+	19	forwbranch < 632, 4 > 99.37107% taken
+M 6 < SystemAppCL, Lorg/python/core/PySequence;, seq___finditem__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 0, 607834 > 0.0% taken
+	23	forwbranch < 0, 0 > Never Executed
+	52	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/python/core/PySequence;, getIndex, (Lorg/python/core/PyObject;I)I >
+	4	forwbranch < 45002, 689062 > 6.130528% taken
+	8	forwbranch < 245672, 443390 > 35.653107% taken
+	17	forwbranch < 245672, 0 > 100.0% taken
+	39	forwbranch < 0, 0 > Never Executed
+	54	forwbranch < 0, 0 > Never Executed
+	66	forwbranch < 245672, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PySequence;, getStep, (Lorg/python/core/PyObject;)I >
+	7	forwbranch < 692764, 0 > 100.0% taken
+M 14 < SystemAppCL, Lorg/python/core/PySequence;, getStart, (Lorg/python/core/PyObject;II)I >
+	1	forwbranch < 692764, 0 > 100.0% taken
+	13	forwbranch < 0, 0 > Never Executed
+	21	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 0, 0 > Never Executed
+	45	forwbranch < 547752, 145012 > 79.06762% taken
+	53	forwbranch < 692764, 0 > 100.0% taken
+	60	forwbranch < 692759, 5 > 99.99928% taken
+M 12 < SystemAppCL, Lorg/python/core/PySequence;, getStop, (Lorg/python/core/PyObject;III)I >
+	1	forwbranch < 524688, 0 > 100.0% taken
+	14	forwbranch < 0, 0 > Never Executed
+	26	forwbranch < 0, 0 > Never Executed
+	44	forwbranch < 463688, 61000 > 88.37405% taken
+	55	forwbranch < 524688, 0 > 100.0% taken
+	64	forwbranch < 524676, 12 > 99.99771% taken
+M 6 < SystemAppCL, Lorg/python/core/PySequence;, seq___setitem__, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;)V >
+	4	forwbranch < 0, 29695 > 0.0% taken
+	26	forwbranch < 0, 0 > Never Executed
+	58	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PySequence;, __setitem__, (ILorg/python/core/PyObject;)V >
+	8	forwbranch < 315043, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PySequence;, __lt__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	8	forwbranch < 3300, 0 > 100.0% taken
+	22	forwbranch < 3300, 0 > 100.0% taken
+	27	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/PySequence;, sliceLength, (III)I >
+	1	forwbranch < 0, 202562 > 0.0% taken
+	28	forwbranch < 202562, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PySequence;, __getitem__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	7	forwbranch < 1031136, 15 > 99.99854% taken
+M 4 < SystemAppCL, Lorg/python/core/PySequence;, __tojava__, (Ljava/lang/Class;)Ljava/lang/Object; >
+	4	forwbranch < 275, 0 > 100.0% taken
+	34	forwbranch < 0, 0 > Never Executed
+M 20 < SystemAppCL, Lorg/python/core/PyTuple;, typeSetup, (Lorg/python/core/PyObject;Lorg/python/core/PyType$Newstyle;)V >
+	12	forwbranch < 0, 1 > 0.0% taken
+	59	forwbranch < 1, 0 > 100.0% taken
+	106	forwbranch < 1, 0 > 100.0% taken
+	153	forwbranch < 1, 0 > 100.0% taken
+	200	forwbranch < 1, 0 > 100.0% taken
+	247	forwbranch < 1, 0 > 100.0% taken
+	294	forwbranch < 1, 0 > 100.0% taken
+	341	forwbranch < 1, 0 > 100.0% taken
+	388	forwbranch < 1, 0 > 100.0% taken
+	433	forwbranch < 1, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyTuple;, tuple_new, (Lorg/python/core/PyObject;ZLorg/python/core/PyType;[Lorg/python/core/PyObject;[Ljava/lang/String;)Lorg/python/core/PyObject; >
+	35	forwbranch < 90007, 0 > 100.0% taken
+	51	forwbranch < 90007, 0 > 100.0% taken
+	86	forwbranch < 90007, 540346 > 14.278825% taken
+M 8 < SystemAppCL, Lorg/python/core/PyTuple;, getslice, (III)Lorg/python/core/PyObject; >
+	1	forwbranch < 0, 288751 > 0.0% taken
+	6	forwbranch < 288751, 0 > 100.0% taken
+	34	forwbranch < 0, 288751 > 0.0% taken
+	69	forwbranch < 0, 0 > Never Executed
+M 40 < SystemAppCL, Lorg/python/core/PyClass;, init, (Ljava/lang/String;Lorg/python/core/PyTuple;Lorg/python/core/PyObject;)V >
+	24	forwbranch < 0, 162 > 0.0% taken
+	48	forwbranch < 162, 100 > 61.83206% taken
+	67	forwbranch < 100, 0 > 100.0% taken
+	75	forwbranch < 0, 0 > Never Executed
+	90	forwbranch < 0, 0 > Never Executed
+	136	forwbranch < 0, 0 > Never Executed
+	159	forwbranch < 0, 0 > Never Executed
+	180	forwbranch < 0, 162 > 0.0% taken
+	188	forwbranch < 162, 0 > 100.0% taken
+	207	forwbranch < 0, 0 > Never Executed
+	267	forwbranch < 162, 0 > 100.0% taken
+	295	forwbranch < 0, 0 > Never Executed
+	313	forwbranch < 0, 0 > Never Executed
+	325	backbranch < 0, 0 > Never Executed
+	339	backbranch < 0, 0 > Never Executed
+	384	forwbranch < 0, 0 > Never Executed
+	408	forwbranch < 0, 0 > Never Executed
+	427	forwbranch < 0, 0 > Never Executed
+	492	forwbranch < 0, 0 > Never Executed
+	539	forwbranch < 49, 113 > 30.246914% taken
+M 8 < SystemAppCL, Lorg/python/core/PyClass;, findModule, (Lorg/python/core/PyObject;)V >
+	8	forwbranch < 124, 38 > 76.54321% taken
+	15	forwbranch < 38, 0 > 100.0% taken
+	23	forwbranch < 0, 124 > 0.0% taken
+	39	forwbranch < 0, 124 > 0.0% taken
+M 26 < SystemAppCL, Lorg/python/core/PyJavaClass;, __findattr__, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	3	forwbranch < 621, 2 > 99.67897% taken
+	10	forwbranch < 1, 1 > 50.0% taken
+	25	forwbranch < 621, 0 > 100.0% taken
+	43	forwbranch < 621, 0 > 100.0% taken
+	50	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 621, 0 > 100.0% taken
+	76	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 6, 615 > 0.9661836% taken
+	115	forwbranch < 2, 4 > 33.333332% taken
+	126	forwbranch < 0, 4 > 0.0% taken
+	138	forwbranch < 2, 0 > 100.0% taken
+	150	forwbranch < 2, 0 > 100.0% taken
+	159	forwbranch < 0, 2 > 0.0% taken
+M 8 < SystemAppCL, Lorg/python/core/PyClass;, lookupGivingClass, (Ljava/lang/String;Z)[Lorg/python/core/PyObject; >
+	13	forwbranch < 345157, 15183 > 95.786476% taken
+	20	forwbranch < 0, 15183 > 0.0% taken
+	39	forwbranch < 14775, 2071 > 87.70628% taken
+	69	forwbranch < 1663, 408 > 80.29937% taken
+M 14 < SystemAppCL, Lorg/python/core/PyClass;, __tojava__, (Ljava/lang/Class;)Ljava/lang/Object; >
+	4	forwbranch < 267, 1 > 99.62687% taken
+	22	forwbranch < 0, 268 > 0.0% taken
+	29	forwbranch < 267, 1 > 99.62687% taken
+	47	forwbranch < 0, 268 > 0.0% taken
+	54	forwbranch < 267, 1 > 99.62687% taken
+	72	forwbranch < 268, 0 > 100.0% taken
+	79	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/python/core/PyClass;, __findattr__, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	3	forwbranch < 600231, 0 > 100.0% taken
+	14	forwbranch < 600179, 52 > 99.99133% taken
+	32	forwbranch < 600179, 0 > 100.0% taken
+	50	forwbranch < 600083, 96 > 99.984% taken
+M 12 < SystemAppCL, Lorg/python/core/PyClass;, __setattr__, (Ljava/lang/String;Lorg/python/core/PyObject;)V >
+	3	forwbranch < 300000, 0 > 100.0% taken
+	10	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 300000, 0 > 100.0% taken
+	35	forwbranch < 0, 0 > Never Executed
+	56	forwbranch < 300000, 0 > 100.0% taken
+	63	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PyClass;, __call__, ([Lorg/python/core/PyObject;[Ljava/lang/String;)Lorg/python/core/PyObject; >
+	4	forwbranch < 0, 440464 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/ReflectedCallData;, setLength, (I)V >
+	11	forwbranch < 10076, 96 > 99.05624% taken
+M 32 < SystemAppCL, Lorg/python/core/ReflectedArgs;, precedence, (Ljava/lang/Class;)I >
+	4	forwbranch < 1912, 1 > 99.94772% taken
+	22	forwbranch < 1886, 27 > 98.58861% taken
+	33	forwbranch < 1754, 132 > 93.00106% taken
+	40	forwbranch < 132, 0 > 100.0% taken
+	50	forwbranch < 14, 118 > 10.606061% taken
+	60	forwbranch < 14, 0 > 100.0% taken
+	70	forwbranch < 6, 8 > 42.857143% taken
+	80	forwbranch < 6, 0 > 100.0% taken
+	90	forwbranch < 6, 0 > 100.0% taken
+	100	forwbranch < 6, 0 > 100.0% taken
+	110	forwbranch < 0, 6 > 0.0% taken
+	120	forwbranch < 1753, 1 > 99.942986% taken
+	138	forwbranch < 1414, 340 > 80.61574% taken
+	148	forwbranch < 1147, 267 > 81.1174% taken
+	160	forwbranch < 267, 0 > 100.0% taken
+	178	forwbranch < 265, 2 > 99.25094% taken
+M 16 < SystemAppCL, Lorg/python/core/ReflectedArgs;, compare, (Ljava/lang/Class;Ljava/lang/Class;)I >
+	14	forwbranch < 206, 618 > 25.0% taken
+	21	forwbranch < 82, 536 > 13.268608% taken
+	29	forwbranch < 52, 484 > 9.701492% taken
+	37	forwbranch < 3, 481 > 0.6198347% taken
+	49	forwbranch < 48, 4 > 92.30769% taken
+	70	forwbranch < 12, 36 > 25.0% taken
+	81	forwbranch < 196, 92 > 68.05556% taken
+	90	forwbranch < 25, 171 > 12.755102% taken
+M 2 < BootstrapCL, Ljava/lang/reflect/Modifier;, isAbstract, (I)Z >
+	5	forwbranch < 65, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/lang/reflect/Modifier;, isInterface, (I)Z >
+	5	forwbranch < 60, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyDictionary;, dict___delitem__, (Lorg/python/core/PyObject;)V >
+	10	forwbranch < 300000, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyDictionary;, dict_get, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	7	forwbranch < 9, 3 > 75.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyDictionary;, dict_items, ()Lorg/python/core/PyList; >
+	40	forwbranch < 19, 765 > 2.4234693% taken
+M 2 < SystemAppCL, Lorg/python/core/PyDictionary;, dict_keys, ()Lorg/python/core/PyList; >
+	31	forwbranch < 5, 255 > 1.9230769% taken
+M 56 < SystemAppCL, Lorg/python/core/PyDictionary;, typeSetup, (Lorg/python/core/PyObject;Lorg/python/core/PyType$Newstyle;)V >
+	12	forwbranch < 0, 1 > 0.0% taken
+	59	forwbranch < 1, 0 > 100.0% taken
+	106	forwbranch < 1, 0 > 100.0% taken
+	153	forwbranch < 1, 0 > 100.0% taken
+	200	forwbranch < 1, 0 > 100.0% taken
+	247	forwbranch < 1, 0 > 100.0% taken
+	294	forwbranch < 1, 0 > 100.0% taken
+	341	forwbranch < 1, 0 > 100.0% taken
+	388	forwbranch < 1, 0 > 100.0% taken
+	435	forwbranch < 1, 0 > 100.0% taken
+	482	forwbranch < 1, 0 > 100.0% taken
+	529	forwbranch < 1, 0 > 100.0% taken
+	576	forwbranch < 1, 0 > 100.0% taken
+	623	forwbranch < 1, 0 > 100.0% taken
+	670	forwbranch < 1, 0 > 100.0% taken
+	717	forwbranch < 1, 0 > 100.0% taken
+	764	forwbranch < 1, 0 > 100.0% taken
+	811	forwbranch < 1, 0 > 100.0% taken
+	858	forwbranch < 1, 0 > 100.0% taken
+	905	forwbranch < 1, 0 > 100.0% taken
+	952	forwbranch < 1, 0 > 100.0% taken
+	999	forwbranch < 1, 0 > 100.0% taken
+	1046	forwbranch < 1, 0 > 100.0% taken
+	1093	forwbranch < 1, 0 > 100.0% taken
+	1140	forwbranch < 1, 0 > 100.0% taken
+	1187	forwbranch < 1, 0 > 100.0% taken
+	1234	forwbranch < 1, 0 > 100.0% taken
+	1279	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyDictionary;, <init>, ([Lorg/python/core/PyObject;)V >
+	9	forwbranch < 156575, 234870 > 39.999233% taken
+M 46 < SystemAppCL, Lorg/python/core/PyString;, encode_UnicodeEscape, (Ljava/lang/String;Z)Ljava/lang/String; >
+	24	forwbranch < 0, 6 > 0.0% taken
+	33	forwbranch < 6, 0 > 100.0% taken
+	43	forwbranch < 0, 0 > Never Executed
+	70	forwbranch < 6, 192 > 3.030303% taken
+	85	forwbranch < 0, 192 > 0.0% taken
+	92	forwbranch < 0, 192 > 0.0% taken
+	99	forwbranch < 192, 0 > 100.0% taken
+	125	forwbranch < 192, 0 > 100.0% taken
+	129	forwbranch < 0, 0 > Never Executed
+	134	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 0, 192 > 0.0% taken
+	237	forwbranch < 192, 0 > 100.0% taken
+	251	forwbranch < 0, 192 > 0.0% taken
+	258	forwbranch < 192, 0 > 100.0% taken
+	272	forwbranch < 0, 192 > 0.0% taken
+	279	forwbranch < 192, 0 > 100.0% taken
+	293	forwbranch < 0, 192 > 0.0% taken
+	300	forwbranch < 192, 0 > 100.0% taken
+	314	forwbranch < 0, 192 > 0.0% taken
+	321	forwbranch < 192, 0 > 100.0% taken
+	338	forwbranch < 0, 192 > 0.0% taken
+	345	forwbranch < 192, 0 > 100.0% taken
+	400	forwbranch < 0, 6 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyString;, str___cmp__, (Lorg/python/core/PyObject;)I >
+	4	forwbranch < 0, 31 > 0.0% taken
+	26	forwbranch < 0, 0 > Never Executed
+	34	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/PyString;, str___eq__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	6	forwbranch < 340814, 19 > 99.99442% taken
+	19	forwbranch < 40642, 300172 > 11.924979% taken
+M 2 < SystemAppCL, Lorg/python/core/PyString;, coerce, (Lorg/python/core/PyObject;)Ljava/lang/String; >
+	4	forwbranch < 19, 471598 > 0.004028693% taken
+M 4 < SystemAppCL, Lorg/python/core/PyString;, str___ne__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	6	forwbranch < 74, 0 > 100.0% taken
+	19	forwbranch < 57, 17 > 77.02702% taken
+M 2 < SystemAppCL, Lorg/python/core/PyString;, str_hashCode, ()I >
+	4	forwbranch < 600360, 209 > 99.9652% taken
+M 4 < SystemAppCL, Lorg/python/core/PyString;, str___contains__, (Lorg/python/core/PyObject;)Z >
+	4	forwbranch < 57, 0 > 100.0% taken
+	29	forwbranch < 18, 39 > 31.578947% taken
+M 4 < SystemAppCL, Lorg/python/core/PyString;, repeat, (I)Lorg/python/core/PyObject; >
+	1	forwbranch < 40, 0 > 100.0% taken
+	26	forwbranch < 40, 2470 > 1.5936255% taken
+M 2 < SystemAppCL, Lorg/python/core/PyString;, str___add__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 0, 315732 > 0.0% taken
+M 193 < SystemAppCL, Lorg/python/core/StringFormatter;, format, (Lorg/python/core/PyObject;)Ljava/lang/String; >
+	11	forwbranch < 35, 280 > 11.111111% taken
+	31	forwbranch < 0, 35 > 0.0% taken
+	38	forwbranch < 0, 35 > 0.0% taken
+	45	forwbranch < 20, 15 > 57.142857% taken
+	54	forwbranch < 15, 0 > 100.0% taken
+	76	forwbranch < 315, 6870 > 4.384134% taken
+	111	forwbranch < 1380, 5490 > 20.087336% taken
+	137	forwbranch < 1380, 0 > 100.0% taken
+	141	forwbranch < 0, 0 > Never Executed
+	161	forwbranch < 0, 0 > Never Executed
+	174	forwbranch < 0, 0 > Never Executed
+	187	backbranch < 0, 0 > Never Executed
+	244	switch     < 0, 0, 0, 0, 30, 1380 >
+	340	forwbranch < 1380, 0 > 100.0% taken
+	360	forwbranch < 345, 1035 > 25.0% taken
+	376	forwbranch < 1035, 0 > 100.0% taken
+	391	forwbranch < 1035, 0 > 100.0% taken
+	410	forwbranch < 0, 1380 > 0.0% taken
+	417	forwbranch < 0, 1380 > 0.0% taken
+	424	forwbranch < 1380, 0 > 100.0% taken
+	437	forwbranch < 1380, 0 > 100.0% taken
+	473	forwbranch < 1350, 30 > 97.82609% taken
+	489	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1035, 0, 0, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 300, 0, 0, 0, 0, 0, 0 >
+	720	forwbranch < 0, 300 > 0.0% taken
+	750	forwbranch < 300, 0 > 100.0% taken
+	762	forwbranch < 0, 0 > Never Executed
+	785	forwbranch < 45, 0 > 100.0% taken
+	825	forwbranch < 0, 0 > Never Executed
+	865	forwbranch < 0, 0 > Never Executed
+	899	forwbranch < 0, 0 > Never Executed
+	910	forwbranch < 0, 0 > Never Executed
+	943	forwbranch < 0, 0 > Never Executed
+	984	forwbranch < 0, 0 > Never Executed
+	1017	forwbranch < 0, 0 > Never Executed
+	1058	forwbranch < 0, 0 > Never Executed
+	1121	forwbranch < 0, 0 > Never Executed
+	1151	forwbranch < 0, 0 > Never Executed
+	1158	forwbranch < 0, 0 > Never Executed
+	1210	forwbranch < 0, 0 > Never Executed
+	1221	forwbranch < 0, 0 > Never Executed
+	1258	forwbranch < 0, 0 > Never Executed
+	1274	forwbranch < 0, 0 > Never Executed
+	1331	forwbranch < 0, 0 > Never Executed
+	1350	forwbranch < 0, 0 > Never Executed
+	1467	forwbranch < 1380, 0 > 100.0% taken
+	1479	forwbranch < 1380, 0 > 100.0% taken
+	1491	forwbranch < 1380, 0 > 100.0% taken
+	1502	forwbranch < 1315, 65 > 95.289856% taken
+	1511	forwbranch < 1380, 0 > 100.0% taken
+	1518	forwbranch < 0, 0 > Never Executed
+	1535	forwbranch < 0, 0 > Never Executed
+	1543	forwbranch < 1380, 0 > 100.0% taken
+	1550	forwbranch < 0, 0 > Never Executed
+	1557	forwbranch < 0, 0 > Never Executed
+	1564	forwbranch < 0, 0 > Never Executed
+	1595	forwbranch < 0, 0 > Never Executed
+	1608	forwbranch < 90, 1290 > 6.521739% taken
+	1612	forwbranch < 0, 1290 > 0.0% taken
+	1632	backbranch < 4686, 1290 > 78.41366% taken
+	1639	forwbranch < 30, 1350 > 2.173913% taken
+	1644	forwbranch < 1350, 0 > 100.0% taken
+	1659	forwbranch < 1350, 0 > 100.0% taken
+	1666	forwbranch < 0, 0 > Never Executed
+	1673	forwbranch < 0, 0 > Never Executed
+	1701	forwbranch < 1380, 0 > 100.0% taken
+	1739	backbranch < 1380, 0 > 100.0% taken
+	1760	forwbranch < 0, 315 > 0.0% taken
+	1767	forwbranch < 35, 280 > 11.111111% taken
+	1778	forwbranch < 280, 0 > 100.0% taken
+M 54 < SystemAppCL, Lorg/python/core/PyString;, atoi, (I)I >
+	1	forwbranch < 0, 16 > 0.0% taken
+	6	forwbranch < 0, 16 > 0.0% taken
+	12	forwbranch < 16, 0 > 100.0% taken
+	34	forwbranch < 0, 16 > 0.0% taken
+	48	forwbranch < 16, 0 > 100.0% taken
+	59	forwbranch < 0, 16 > 0.0% taken
+	75	forwbranch < 16, 0 > 100.0% taken
+	89	forwbranch < 0, 16 > 0.0% taken
+	106	forwbranch < 0, 16 > 0.0% taken
+	113	forwbranch < 16, 0 > 100.0% taken
+	121	forwbranch < 0, 0 > Never Executed
+	135	forwbranch < 0, 0 > Never Executed
+	145	forwbranch < 0, 16 > 0.0% taken
+	151	forwbranch < 16, 0 > 100.0% taken
+	164	forwbranch < 0, 0 > Never Executed
+	171	forwbranch < 0, 0 > Never Executed
+	189	forwbranch < 0, 0 > Never Executed
+	202	forwbranch < 0, 0 > Never Executed
+	209	forwbranch < 16, 0 > 100.0% taken
+	222	forwbranch < 0, 16 > 0.0% taken
+	233	forwbranch < 16, 0 > 100.0% taken
+	259	forwbranch < 16, 0 > 100.0% taken
+	266	forwbranch < 0, 0 > Never Executed
+	275	forwbranch < 0, 0 > Never Executed
+	309	forwbranch < 16, 0 > 100.0% taken
+	323	forwbranch < 0, 16 > 0.0% taken
+	332	forwbranch < 16, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/python/core/PyString;, str_title, ()Ljava/lang/String; >
+	19	forwbranch < 21862, 1377076 > 1.5627569% taken
+	29	forwbranch < 1063836, 313240 > 77.25325% taken
+	58	forwbranch < 122010, 1255066 > 8.860078% taken
+	66	forwbranch < 196694, 1058372 > 15.672005% taken
+	74	forwbranch < 1058372, 0 > 100.0% taken
+M 24 < SystemAppCL, Lorg/python/core/PyString;, str_split, (Ljava/lang/String;I)Lorg/python/core/PyList; >
+	1	forwbranch < 5, 17 > 22.727272% taken
+	34	forwbranch < 0, 5 > 0.0% taken
+	50	forwbranch < 5, 5 > 50.0% taken
+	56	forwbranch < 0, 5 > 0.0% taken
+	63	forwbranch < 0, 5 > 0.0% taken
+	74	forwbranch < 5, 0 > 100.0% taken
+	87	forwbranch < 5, 0 > 100.0% taken
+	101	forwbranch < 5, 25 > 16.666666% taken
+	112	forwbranch < 0, 25 > 0.0% taken
+	153	forwbranch < 5, 0 > 100.0% taken
+	164	forwbranch < 0, 0 > Never Executed
+	177	forwbranch < 5, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/python/core/PyString;, splitfields, (Ljava/lang/String;I)Lorg/python/core/PyList; >
+	4	forwbranch < 17, 0 > 100.0% taken
+	32	forwbranch < 0, 17 > 0.0% taken
+	53	forwbranch < 0, 33 > 0.0% taken
+	71	forwbranch < 16, 17 > 48.484848% taken
+	116	forwbranch < 0, 17 > 0.0% taken
+M 14 < BootstrapCL, Ljava/math/BigInteger;, <init>, (Ljava/lang/String;I)V >
+	20	forwbranch < 1357, 0 > 100.0% taken
+	56	forwbranch < 1357, 17233 > 7.2996235% taken
+	77	forwbranch < 17233, 0 > 100.0% taken
+	128	forwbranch < 1357, 0 > 100.0% taken
+	143	forwbranch < 0, 0 > Never Executed
+	185	forwbranch < 751, 606 > 55.342667% taken
+	191	forwbranch < 0, 606 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyString;, str_join, (Lorg/python/core/PyObject;)Ljava/lang/String; >
+	26	forwbranch < 115, 13595 > 0.83880377% taken
+	34	forwbranch < 13595, 0 > 100.0% taken
+	84	forwbranch < 115, 13480 > 0.8458992% taken
+M 12 < SystemAppCL, Lorg/python/core/PyString;, str_islower, ()Z >
+	10	forwbranch < 50000, 0 > 100.0% taken
+	31	forwbranch < 50000, 220000 > 18.518518% taken
+	49	forwbranch < 0, 220000 > 0.0% taken
+	57	forwbranch < 220000, 0 > 100.0% taken
+	63	forwbranch < 130000, 90000 > 59.090908% taken
+	71	forwbranch < 60000, 30000 > 66.666664% taken
+M 12 < SystemAppCL, Lorg/python/core/PyString;, str_isupper, ()Z >
+	10	forwbranch < 18487, 0 > 100.0% taken
+	31	forwbranch < 7400, 33287 > 18.187628% taken
+	49	forwbranch < 11087, 22200 > 33.307297% taken
+	57	forwbranch < 22200, 0 > 100.0% taken
+	63	forwbranch < 0, 22200 > 0.0% taken
+	71	forwbranch < 22200, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/core/PyString;, str_isalpha, ()Z >
+	10	forwbranch < 50000, 0 > 100.0% taken
+	26	forwbranch < 50000, 0 > 100.0% taken
+	35	forwbranch < 30000, 180000 > 14.285714% taken
+	51	forwbranch < 160000, 20000 > 88.888885% taken
+M 8 < SystemAppCL, Lorg/python/core/PyString;, str_isalnum, ()Z >
+	10	forwbranch < 130000, 0 > 100.0% taken
+	27	forwbranch < 130000, 0 > 100.0% taken
+	36	forwbranch < 92000, 460000 > 16.666666% taken
+	53	forwbranch < 422000, 38000 > 91.73913% taken
+M 4 < SystemAppCL, Lorg/python/core/PyString;, _isalnum, (C)Z >
+	4	forwbranch < 1160000, 140000 > 89.23077% taken
+	13	forwbranch < 140000, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/core/PyString;, str_isdecimal, ()Z >
+	10	forwbranch < 150000, 0 > 100.0% taken
+	29	forwbranch < 150000, 0 > 100.0% taken
+	38	forwbranch < 30000, 210000 > 12.5% taken
+	55	forwbranch < 90000, 120000 > 42.857143% taken
+M 2 < SystemAppCL, Lorg/python/core/PyString;, _isdecimal, (C)Z >
+	6	forwbranch < 120000, 90000 > 57.142857% taken
+M 8 < SystemAppCL, Lorg/python/core/PyString;, str_isdigit, ()Z >
+	10	forwbranch < 210000, 0 > 100.0% taken
+	26	forwbranch < 210000, 0 > 100.0% taken
+	35	forwbranch < 42000, 294000 > 12.5% taken
+	51	forwbranch < 126000, 168000 > 42.857143% taken
+M 8 < SystemAppCL, Lorg/python/core/PyString;, str_isnumeric, ()Z >
+	10	forwbranch < 90000, 0 > 100.0% taken
+	27	forwbranch < 90000, 0 > 100.0% taken
+	36	forwbranch < 18000, 126000 > 12.5% taken
+	53	forwbranch < 54000, 72000 > 42.857143% taken
+M 6 < SystemAppCL, Lorg/python/core/PyString;, _isnumeric, (C)Z >
+	8	forwbranch < 54000, 72000 > 42.857143% taken
+	14	forwbranch < 0, 72000 > 0.0% taken
+	20	forwbranch < 72000, 0 > 100.0% taken
+M 18 < SystemAppCL, Lorg/python/core/PyString;, str_istitle, ()Z >
+	10	forwbranch < 50000, 0 > 100.0% taken
+	24	forwbranch < 0, 0 > Never Executed
+	38	forwbranch < 0, 0 > Never Executed
+	57	forwbranch < 20000, 90000 > 18.181818% taken
+	76	forwbranch < 0, 90000 > 0.0% taken
+	84	forwbranch < 90000, 0 > 100.0% taken
+	88	forwbranch < 0, 0 > Never Executed
+	105	forwbranch < 60000, 30000 > 66.666664% taken
+	109	forwbranch < 0, 30000 > 0.0% taken
+M 8 < SystemAppCL, Lorg/python/core/PyString;, str_isspace, ()Z >
+	10	forwbranch < 80000, 0 > 100.0% taken
+	26	forwbranch < 80000, 0 > 100.0% taken
+	35	forwbranch < 16000, 112000 > 12.5% taken
+	51	forwbranch < 48000, 64000 > 42.857143% taken
+M 12 < SystemAppCL, Lorg/python/core/codecs;, decode, (Lorg/python/core/PyString;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	1	forwbranch < 0, 26 > 0.0% taken
+	17	forwbranch < 26, 0 > 100.0% taken
+	31	forwbranch < 0, 26 > 0.0% taken
+	56	forwbranch < 0, 0 > Never Executed
+	89	forwbranch < 0, 0 > Never Executed
+	98	forwbranch < 0, 0 > Never Executed
+M 94 < SystemAppCL, Lorg/python/core/PyString;, typeSetup, (Lorg/python/core/PyObject;Lorg/python/core/PyType$Newstyle;)V >
+	12	forwbranch < 0, 1 > 0.0% taken
+	59	forwbranch < 1, 0 > 100.0% taken
+	106	forwbranch < 1, 0 > 100.0% taken
+	153	forwbranch < 1, 0 > 100.0% taken
+	200	forwbranch < 1, 0 > 100.0% taken
+	247	forwbranch < 1, 0 > 100.0% taken
+	294	forwbranch < 1, 0 > 100.0% taken
+	341	forwbranch < 1, 0 > 100.0% taken
+	388	forwbranch < 1, 0 > 100.0% taken
+	435	forwbranch < 1, 0 > 100.0% taken
+	482	forwbranch < 1, 0 > 100.0% taken
+	529	forwbranch < 1, 0 > 100.0% taken
+	576	forwbranch < 1, 0 > 100.0% taken
+	623	forwbranch < 1, 0 > 100.0% taken
+	670	forwbranch < 1, 0 > 100.0% taken
+	717	forwbranch < 1, 0 > 100.0% taken
+	764	forwbranch < 1, 0 > 100.0% taken
+	811	forwbranch < 1, 0 > 100.0% taken
+	858	forwbranch < 1, 0 > 100.0% taken
+	905	forwbranch < 1, 0 > 100.0% taken
+	952	forwbranch < 1, 0 > 100.0% taken
+	999	forwbranch < 1, 0 > 100.0% taken
+	1046	forwbranch < 1, 0 > 100.0% taken
+	1093	forwbranch < 1, 0 > 100.0% taken
+	1140	forwbranch < 1, 0 > 100.0% taken
+	1187	forwbranch < 1, 0 > 100.0% taken
+	1234	forwbranch < 1, 0 > 100.0% taken
+	1281	forwbranch < 1, 0 > 100.0% taken
+	1328	forwbranch < 1, 0 > 100.0% taken
+	1375	forwbranch < 1, 0 > 100.0% taken
+	1422	forwbranch < 1, 0 > 100.0% taken
+	1469	forwbranch < 1, 0 > 100.0% taken
+	1516	forwbranch < 1, 0 > 100.0% taken
+	1563	forwbranch < 1, 0 > 100.0% taken
+	1610	forwbranch < 1, 0 > 100.0% taken
+	1657	forwbranch < 1, 0 > 100.0% taken
+	1704	forwbranch < 1, 0 > 100.0% taken
+	1751	forwbranch < 1, 0 > 100.0% taken
+	1798	forwbranch < 1, 0 > 100.0% taken
+	1845	forwbranch < 1, 0 > 100.0% taken
+	1892	forwbranch < 1, 0 > 100.0% taken
+	1939	forwbranch < 1, 0 > 100.0% taken
+	1986	forwbranch < 1, 0 > 100.0% taken
+	2033	forwbranch < 1, 0 > 100.0% taken
+	2080	forwbranch < 1, 0 > 100.0% taken
+	2127	forwbranch < 1, 0 > 100.0% taken
+	2172	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyString;, str_new, (Lorg/python/core/PyObject;ZLorg/python/core/PyType;[Lorg/python/core/PyObject;[Ljava/lang/String;)Lorg/python/core/PyObject; >
+	38	forwbranch < 2650, 0 > 100.0% taken
+M 73 < SystemAppCL, Lorg/python/core/PyString;, decode_UnicodeEscape, (Ljava/lang/String;IILjava/lang/String;Z)Ljava/lang/String; >
+	18	forwbranch < 2193, 69394 > 3.0634053% taken
+	33	forwbranch < 137, 69257 > 0.19742341% taken
+	66	switch     < 16, 0, 9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 18, 1, 1, 3, 43, 3, 4, 16, 3, 8, 11 >
+	380	forwbranch < 1, 2 > 33.333332% taken
+	386	forwbranch < 0, 2 > 0.0% taken
+	401	forwbranch < 0, 2 > 0.0% taken
+	408	forwbranch < 2, 0 > 100.0% taken
+	458	forwbranch < 8, 16 > 33.333332% taken
+	464	forwbranch < 0, 16 > 0.0% taken
+	490	forwbranch < 16, 0 > 100.0% taken
+	548	forwbranch < 12, 4 > 75.0% taken
+	575	forwbranch < 12, 0 > 100.0% taken
+	600	forwbranch < 12, 48 > 20.0% taken
+	626	forwbranch < 48, 0 > 100.0% taken
+	681	forwbranch < 0, 0 > Never Executed
+	706	forwbranch < 0, 0 > Never Executed
+	729	forwbranch < 0, 0 > Never Executed
+	764	forwbranch < 0, 0 > Never Executed
+	785	forwbranch < 0, 0 > Never Executed
+	811	forwbranch < 0, 0 > Never Executed
+	822	forwbranch < 0, 0 > Never Executed
+	832	forwbranch < 0, 0 > Never Executed
+	844	forwbranch < 0, 0 > Never Executed
+	855	forwbranch < 0, 0 > Never Executed
+	875	forwbranch < 0, 0 > Never Executed
+	917	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/python/core/PyString;, equals, (Ljava/lang/Object;)Z >
+	4	forwbranch < 600313, 0 > 100.0% taken
+	18	forwbranch < 600313, 0 > 100.0% taken
+	25	forwbranch < 0, 0 > Never Executed
+	36	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/PyString;, __lt__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	6	forwbranch < 1234865, 0 > 100.0% taken
+	19	forwbranch < 1233732, 1133 > 99.90825% taken
+M 4 < SystemAppCL, Lorg/python/core/PyString;, __gt__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	6	forwbranch < 844838, 0 > 100.0% taken
+	19	forwbranch < 300000, 544838 > 35.509766% taken
+M 4 < SystemAppCL, Lorg/python/core/PyString;, __ge__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	6	forwbranch < 600000, 0 > 100.0% taken
+	19	forwbranch < 0, 600000 > 0.0% taken
+M 20 < SystemAppCL, Lorg/python/core/PyString;, __tojava__, (Ljava/lang/Class;)Ljava/lang/Object; >
+	4	forwbranch < 584, 1 > 99.82906% taken
+	25	forwbranch < 401, 184 > 68.54701% taken
+	37	forwbranch < 0, 401 > 0.0% taken
+	44	forwbranch < 400, 1 > 99.750626% taken
+	62	forwbranch < 401, 0 > 100.0% taken
+	73	forwbranch < 0, 0 > Never Executed
+	96	forwbranch < 401, 0 > 100.0% taken
+	106	forwbranch < 0, 0 > Never Executed
+	121	forwbranch < 0, 0 > Never Executed
+	137	forwbranch < 0, 401 > 0.0% taken
+M 8 < SystemAppCL, Lorg/python/core/PyString;, getslice, (III)Lorg/python/core/PyObject; >
+	1	forwbranch < 0, 280106 > 0.0% taken
+	6	forwbranch < 280106, 0 > 100.0% taken
+	13	forwbranch < 0, 280106 > 0.0% taken
+	57	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/PyReflectedField;, _doget, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	12	forwbranch < 60, 14 > 81.08108% taken
+	16	forwbranch < 14, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyJavaClass;, initConstructors, ()V >
+	4	forwbranch < 2, 0 > 100.0% taken
+M 36 < SystemAppCL, Lorg/python/core/PyReflectedConstructor;, __call__, (Lorg/python/core/PyObject;[Lorg/python/core/PyObject;[Ljava/lang/String;)Lorg/python/core/PyObject; >
+	7	forwbranch < 0, 58 > 0.0% taken
+	14	forwbranch < 58, 0 > 100.0% taken
+	54	forwbranch < 57, 1 > 98.27586% taken
+	77	forwbranch < 58, 0 > 100.0% taken
+	88	forwbranch < 58, 0 > 100.0% taken
+	98	forwbranch < 0, 0 > Never Executed
+	145	forwbranch < 0, 58 > 0.0% taken
+	186	forwbranch < 58, 0 > 100.0% taken
+	202	forwbranch < 0, 0 > Never Executed
+	225	forwbranch < 0, 0 > Never Executed
+	283	forwbranch < 58, 0 > 100.0% taken
+	319	forwbranch < 0, 76 > 0.0% taken
+	341	forwbranch < 18, 58 > 23.68421% taken
+	362	forwbranch < 58, 0 > 100.0% taken
+	374	forwbranch < 0, 0 > Never Executed
+	433	forwbranch < 0, 0 > Never Executed
+	455	forwbranch < 0, 0 > Never Executed
+	544	forwbranch < 58, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/ThreadState;, pushInitializingProxy, (Lorg/python/core/PyInstance;)V >
+	4	forwbranch < 57, 1 > 98.27586% taken
+M 4 < SystemAppCL, Lorg/python/core/ThreadState;, popInitializingProxy, ()V >
+	4	forwbranch < 0, 58 > 0.0% taken
+	14	forwbranch < 58, 0 > 100.0% taken
+M 14 < SystemAppCL, Lorg/python/core/PyInstance;, __setattr__, (Ljava/lang/String;Lorg/python/core/PyObject;)V >
+	3	forwbranch < 472948, 0 > 100.0% taken
+	10	forwbranch < 0, 0 > Never Executed
+	34	forwbranch < 472948, 0 > 100.0% taken
+	52	forwbranch < 472948, 0 > 100.0% taken
+	80	forwbranch < 472948, 0 > 100.0% taken
+	96	forwbranch < 0, 0 > Never Executed
+	115	forwbranch < 0, 0 > Never Executed
+M 18 < SystemAppCL, Lorg/python/core/PyReflectedConstructor;, make, ([Lorg/python/core/PyObject;[Ljava/lang/String;)Lorg/python/core/PyObject; >
+	35	forwbranch < 0, 7 > 0.0% taken
+	49	forwbranch < 0, 7 > 0.0% taken
+	67	forwbranch < 7, 0 > 100.0% taken
+	88	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 0 > Never Executed
+	139	forwbranch < 0, 0 > Never Executed
+	160	forwbranch < 7, 0 > 100.0% taken
+	214	forwbranch < 0, 0 > Never Executed
+	228	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/core/PyBuiltinFunction;, typeSetup, (Lorg/python/core/PyObject;Lorg/python/core/PyType$Newstyle;)V >
+	12	forwbranch < 0, 1 > 0.0% taken
+	51	forwbranch < 1, 0 > 100.0% taken
+	90	forwbranch < 1, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyBuiltinFunction$DefaultInfo;, check, (III)Z >
+	2	forwbranch < 116633, 0 > 100.0% taken
+	9	forwbranch < 0, 116633 > 0.0% taken
+	14	forwbranch < 116633, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/core/PyGetSetDescr;, __get__, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	1	forwbranch < 0, 178 > 0.0% taken
+	14	forwbranch < 0, 178 > 0.0% taken
+	25	forwbranch < 178, 0 > 100.0% taken
+	50	forwbranch < 178, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyMethodDescr;, __get__, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	1	forwbranch < 0, 525190 > 0.0% taken
+	14	forwbranch < 525190, 0 > 100.0% taken
+	25	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PyObject$1exposed___setattr__;, __call__, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	22	switch     < 0, 0 >
+M 4 < SystemAppCL, Lorg/python/core/PyObject$1;, new_impl, (ZLorg/python/core/PyType;[Lorg/python/core/PyObject;[Ljava/lang/String;)Lorg/python/core/PyObject; >
+	5	forwbranch < 210000, 0 > 100.0% taken
+	18	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PyObjectArray;, <init>, ()V >
+	4	forwbranch < 23, 1 > 95.833336% taken
+M 4 < SystemAppCL, Lorg/python/core/PyObjectArray;, <init>, ([Lorg/python/core/PyObject;)V >
+	2	forwbranch < 171090, 120 > 99.92991% taken
+	16	forwbranch < 171090, 120 > 99.92991% taken
+M 2 < SystemAppCL, Lorg/python/core/PyObjectArray;, hashCode, ()I >
+	12	forwbranch < 6, 12 > 33.333332% taken
+M 6 < SystemAppCL, Lorg/python/core/PyObjectArray;, get, (I)Lorg/python/core/PyObject; >
+	1	forwbranch < 0, 2044328 > 0.0% taken
+	9	forwbranch < 0, 2044328 > 0.0% taken
+	23	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/PyObjectArray;, set, (ILorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	1	forwbranch < 0, 896373 > 0.0% taken
+	9	forwbranch < 0, 896373 > 0.0% taken
+M 8 < SystemAppCL, Lorg/python/core/AbstractArray;, remove, (II)V >
+	1	forwbranch < 0, 101 > 0.0% taken
+	9	forwbranch < 0, 101 > 0.0% taken
+	14	forwbranch < 0, 101 > 0.0% taken
+	29	forwbranch < 101, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/AbstractArray;, ensureCapacity, (I)V >
+	10	forwbranch < 0, 80531 > 0.0% taken
+	29	forwbranch < 80527, 4 > 99.99503% taken
+M 18 < SystemAppCL, Lorg/python/core/AbstractArray;, clearRangeInternal, (II)V >
+	19	forwbranch < 101, 0 > 100.0% taken
+	27	forwbranch < 0, 0 > Never Executed
+	48	forwbranch < 0, 0 > Never Executed
+	69	forwbranch < 0, 0 > Never Executed
+	90	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+	132	forwbranch < 0, 0 > Never Executed
+	153	forwbranch < 0, 0 > Never Executed
+	174	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/python/core/AbstractArray;, makeInsertSpace, (II)V >
+	6	forwbranch < 0, 110028 > 0.0% taken
+	14	forwbranch < 0, 110028 > 0.0% taken
+	42	forwbranch < 8805, 101223 > 8.002508% taken
+	60	forwbranch < 0, 110028 > 0.0% taken
+M 30 < SystemAppCL, Lorg/python/core/AbstractArray;, replaceSubArray, (IILjava/lang/Object;II)V >
+	12	forwbranch < 210027, 0 > 100.0% taken
+	31	forwbranch < 0, 210027 > 0.0% taken
+	36	forwbranch < 0, 210027 > 0.0% taken
+	44	forwbranch < 210027, 0 > 100.0% taken
+	51	forwbranch < 0, 0 > Never Executed
+	85	forwbranch < 0, 0 > Never Executed
+	131	forwbranch < 0, 0 > Never Executed
+	210	forwbranch < 0, 210027 > 0.0% taken
+	215	forwbranch < 0, 210027 > 0.0% taken
+	222	forwbranch < 210027, 0 > 100.0% taken
+	230	forwbranch < 0, 0 > Never Executed
+	265	forwbranch < 0, 0 > Never Executed
+	312	forwbranch < 0, 0 > Never Executed
+	402	forwbranch < 210027, 0 > 100.0% taken
+	419	forwbranch < 100005, 110022 > 47.615307% taken
+M 2 < SystemAppCL, Lorg/python/core/AbstractArray;, getAddIndex, ()I >
+	20	forwbranch < 268779, 60910 > 81.52501% taken
+M 8 < SystemAppCL, Lorg/python/core/AbstractArray;, remove, (I)V >
+	1	forwbranch < 0, 3 > 0.0% taken
+	9	forwbranch < 0, 3 > 0.0% taken
+	27	forwbranch < 3, 0 > 100.0% taken
+	69	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/ArgParser;, getInt, (II)I >
+	7	forwbranch < 1, 337 > 0.295858% taken
+M 2 < SystemAppCL, Lorg/python/core/PyInteger;, int___nonzero__, ()Z >
+	4	forwbranch < 563104, 2372215 > 19.18374% taken
+M 6 < SystemAppCL, Lorg/python/core/PyInteger;, int___cmp__, (Lorg/python/core/PyObject;)I >
+	4	forwbranch < 75669, 41 > 99.94585% taken
+	20	forwbranch < 137, 75532 > 0.18105169% taken
+	32	forwbranch < 26, 111 > 18.978102% taken
+M 2 < SystemAppCL, Lorg/python/core/PyInteger;, coerce, (Lorg/python/core/PyObject;)I >
+	4	forwbranch < 0, 2341526 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyInteger;, int___add__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 600720, 40000 > 93.75703% taken
+	32	forwbranch < 600720, 0 > 100.0% taken
+	40	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PyInteger;, int___sub__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 113462, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyInteger;, _sub, (II)Lorg/python/core/PyObject; >
+	7	forwbranch < 1155035, 120000 > 90.58849% taken
+	15	forwbranch < 0, 120000 > 0.0% taken
+M 8 < SystemAppCL, Lorg/python/core/PyInteger;, int___mul__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 180058, 17 > 99.99056% taken
+	23	forwbranch < 180058, 0 > 100.0% taken
+	49	forwbranch < 0, 180058 > 0.0% taken
+	57	forwbranch < 0, 180058 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyInteger;, int___div__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 720102, 0 > 100.0% taken
+	12	forwbranch < 720102, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/python/core/PyInteger;, divide, (II)I >
+	1	forwbranch < 360051, 0 > 100.0% taken
+	12	forwbranch < 360051, 0 > 100.0% taken
+	16	forwbranch < 0, 0 > Never Executed
+	22	forwbranch < 0, 0 > Never Executed
+	67	forwbranch < 51, 360000 > 0.01416466% taken
+	73	forwbranch < 360000, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyInteger;, int___mod__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 55000, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyInteger;, int___lshift__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 0, 513 > 0.0% taken
+	23	forwbranch < 513, 0 > 100.0% taken
+	36	forwbranch < 513, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyInteger;, int___and__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 0, 96 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyInteger;, int___or__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 0, 4 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyInteger;, int___neg__, ()Lorg/python/core/PyObject; >
+	10	forwbranch < 122029, 0 > 100.0% taken
+	14	forwbranch < 0, 0 > Never Executed
+M 72 < SystemAppCL, Lorg/python/core/PyInteger;, typeSetup, (Lorg/python/core/PyObject;Lorg/python/core/PyType$Newstyle;)V >
+	12	forwbranch < 1, 0 > 100.0% taken
+	59	forwbranch < 1, 0 > 100.0% taken
+	106	forwbranch < 1, 0 > 100.0% taken
+	153	forwbranch < 1, 0 > 100.0% taken
+	200	forwbranch < 1, 0 > 100.0% taken
+	247	forwbranch < 1, 0 > 100.0% taken
+	294	forwbranch < 1, 0 > 100.0% taken
+	341	forwbranch < 1, 0 > 100.0% taken
+	388	forwbranch < 1, 0 > 100.0% taken
+	435	forwbranch < 1, 0 > 100.0% taken
+	482	forwbranch < 1, 0 > 100.0% taken
+	529	forwbranch < 1, 0 > 100.0% taken
+	576	forwbranch < 1, 0 > 100.0% taken
+	623	forwbranch < 1, 0 > 100.0% taken
+	670	forwbranch < 1, 0 > 100.0% taken
+	717	forwbranch < 1, 0 > 100.0% taken
+	764	forwbranch < 1, 0 > 100.0% taken
+	811	forwbranch < 1, 0 > 100.0% taken
+	858	forwbranch < 1, 0 > 100.0% taken
+	905	forwbranch < 1, 0 > 100.0% taken
+	952	forwbranch < 1, 0 > 100.0% taken
+	999	forwbranch < 1, 0 > 100.0% taken
+	1046	forwbranch < 1, 0 > 100.0% taken
+	1093	forwbranch < 1, 0 > 100.0% taken
+	1140	forwbranch < 1, 0 > 100.0% taken
+	1187	forwbranch < 1, 0 > 100.0% taken
+	1234	forwbranch < 1, 0 > 100.0% taken
+	1281	forwbranch < 1, 0 > 100.0% taken
+	1328	forwbranch < 1, 0 > 100.0% taken
+	1375	forwbranch < 1, 0 > 100.0% taken
+	1422	forwbranch < 1, 0 > 100.0% taken
+	1469	forwbranch < 1, 0 > 100.0% taken
+	1516	forwbranch < 1, 0 > 100.0% taken
+	1563	forwbranch < 1, 0 > 100.0% taken
+	1610	forwbranch < 1, 0 > 100.0% taken
+	1655	forwbranch < 1, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyInteger;, int_new, (Lorg/python/core/PyObject;ZLorg/python/core/PyType;[Lorg/python/core/PyObject;[Ljava/lang/String;)Lorg/python/core/PyObject; >
+	51	forwbranch < 314, 0 > 100.0% taken
+	63	forwbranch < 1, 313 > 0.31847134% taken
+	77	forwbranch < 1, 0 > 100.0% taken
+M 56 < SystemAppCL, Lorg/python/core/PyInteger;, __tojava__, (Ljava/lang/Class;)Ljava/lang/Object; >
+	4	forwbranch < 8363, 46 > 99.452965% taken
+	11	forwbranch < 45, 1 > 97.82609% taken
+	29	forwbranch < 0, 46 > 0.0% taken
+	36	forwbranch < 45, 1 > 97.82609% taken
+	54	forwbranch < 0, 46 > 0.0% taken
+	61	forwbranch < 45, 1 > 97.82609% taken
+	79	forwbranch < 0, 46 > 0.0% taken
+	86	forwbranch < 45, 1 > 97.82609% taken
+	104	forwbranch < 46, 0 > 100.0% taken
+	123	forwbranch < 0, 46 > 0.0% taken
+	130	forwbranch < 45, 1 > 97.82609% taken
+	148	forwbranch < 46, 0 > 100.0% taken
+	159	forwbranch < 0, 0 > Never Executed
+	175	forwbranch < 0, 46 > 0.0% taken
+	182	forwbranch < 45, 1 > 97.82609% taken
+	200	forwbranch < 46, 0 > 100.0% taken
+	220	forwbranch < 0, 46 > 0.0% taken
+	227	forwbranch < 45, 1 > 97.82609% taken
+	245	forwbranch < 46, 0 > 100.0% taken
+	265	forwbranch < 0, 46 > 0.0% taken
+	272	forwbranch < 45, 1 > 97.82609% taken
+	290	forwbranch < 46, 0 > 100.0% taken
+	310	forwbranch < 0, 46 > 0.0% taken
+	317	forwbranch < 45, 1 > 97.82609% taken
+	335	forwbranch < 46, 0 > 100.0% taken
+	355	forwbranch < 0, 46 > 0.0% taken
+	362	forwbranch < 45, 1 > 97.82609% taken
+	380	forwbranch < 46, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyInteger;, <clinit>, ()V >
+	3	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyString$1exposed_replace;, __call__, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	37	switch     < 0, 0, 0, 0 >
+M 3 < SystemAppCL, Lorg/python/core/PyString$1exposed_split;, __call__, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	23	switch     < 0, 0, 0 >
+M 2 < SystemAppCL, Lorg/python/core/PyString$1exposed_startswith;, __call__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	21	switch     < 0, 0 >
+M 4 < SystemAppCL, Lorg/python/core/__builtin__;, chr, (I)C >
+	1	forwbranch < 0, 10486 > 0.0% taken
+	7	forwbranch < 10486, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/core/__builtin__;, min, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	13	forwbranch < 803, 841 > 48.844284% taken
+	17	forwbranch < 803, 38 > 95.48157% taken
+	28	backbranch < 38, 0 > 100.0% taken
+	37	forwbranch < 803, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/core/__builtin__;, range, (III)Lorg/python/core/PyObject; >
+	1	forwbranch < 150040, 0 > 100.0% taken
+	11	forwbranch < 0, 150040 > 0.0% taken
+	38	forwbranch < 150040, 0 > 100.0% taken
+	64	forwbranch < 150040, 154625 > 49.247536% taken
+M 6 < SystemAppCL, Lorg/python/core/__builtin__;, reduce, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	18	forwbranch < 255, 255 > 50.0% taken
+	22	forwbranch < 255, 0 > 100.0% taken
+	43	forwbranch < 255, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyXRange;, <init>, (III)V >
+	5	forwbranch < 255, 0 > 100.0% taken
+	31	forwbranch < 0, 255 > 0.0% taken
+	58	forwbranch < 255, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/__builtin__;, __import__, (Ljava/lang/String;Lorg/python/core/PyObject;Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	7	forwbranch < 73146, 0 > 100.0% taken
+	21	forwbranch < 73146, 0 > 100.0% taken
+	43	forwbranch < 73146, 0 > 100.0% taken
+M 34 < SystemAppCL, Lorg/python/core/__builtin__;, classDictInit, (Lorg/python/core/PyObject;)V >
+	6	forwbranch < 0, 1 > 0.0% taken
+	36	forwbranch < 0, 1 > 0.0% taken
+	66	forwbranch < 0, 1 > 0.0% taken
+	96	forwbranch < 0, 1 > 0.0% taken
+	126	forwbranch < 0, 1 > 0.0% taken
+	156	forwbranch < 0, 1 > 0.0% taken
+	186	forwbranch < 0, 1 > 0.0% taken
+	216	forwbranch < 0, 1 > 0.0% taken
+	246	forwbranch < 0, 1 > 0.0% taken
+	276	forwbranch < 0, 1 > 0.0% taken
+	306	forwbranch < 0, 1 > 0.0% taken
+	336	forwbranch < 0, 1 > 0.0% taken
+	366	forwbranch < 0, 1 > 0.0% taken
+	396	forwbranch < 0, 1 > 0.0% taken
+	426	forwbranch < 0, 1 > 0.0% taken
+	456	forwbranch < 0, 1 > 0.0% taken
+	486	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/__builtin__;, callable, (Lorg/python/core/PyObject;)Z >
+	6	forwbranch < 0, 4 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/core/__builtin__;, hasattr, (Lorg/python/core/PyObject;Lorg/python/core/PyString;)Z >
+	5	forwbranch < 49, 264 > 15.654952% taken
+	22	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/__builtin__;, intern, (Lorg/python/core/PyString;)Lorg/python/core/PyString; >
+	3	forwbranch < 4, 1 > 80.0% taken
+	30	forwbranch < 1, 4 > 20.0% taken
+M 4 < SystemAppCL, Lorg/python/core/__builtin__;, len, (Lorg/python/core/PyObject;)I >
+	13	forwbranch < 0, 0 > Never Executed
+	20	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Lorg/python/core/__builtin__;, map, ([Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	7	forwbranch < 95, 0 > 100.0% taken
+	47	forwbranch < 95, 95 > 50.0% taken
+	106	forwbranch < 13575, 13575 > 50.0% taken
+	119	forwbranch < 95, 13480 > 0.6998158% taken
+	150	forwbranch < 13480, 95 > 99.300186% taken
+	160	forwbranch < 13480, 0 > 100.0% taken
+	165	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/__builtin__;, min, ([Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	3	forwbranch < 38, 765 > 4.732254% taken
+M 10 < SystemAppCL, Lorg/python/core/InternalTables;, createInternalTables, ()Lorg/python/core/InternalTables; >
+	5	forwbranch < 1, 0 > 100.0% taken
+	26	forwbranch < 0, 1 > 0.0% taken
+	41	forwbranch < 0, 1 > 0.0% taken
+	91	forwbranch < 0, 1 > 0.0% taken
+	106	backbranch < 0, 1 > 0.0% taken
+M 22 < SystemAppCL, Lorg/python/core/PyJavaClass;, initialize, ()V >
+	4	forwbranch < 20, 365 > 5.194805% taken
+	11	forwbranch < 17, 348 > 4.657534% taken
+	23	forwbranch < 17, 0 > 100.0% taken
+	48	forwbranch < 17, 0 > 100.0% taken
+	80	forwbranch < 17, 0 > 100.0% taken
+	105	forwbranch < 11, 6 > 64.70588% taken
+	115	forwbranch < 6, 0 > 100.0% taken
+	133	forwbranch < 0, 6 > 0.0% taken
+	151	forwbranch < 6, 0 > 100.0% taken
+	203	forwbranch < 17, 0 > 100.0% taken
+	228	forwbranch < 17, 0 > 100.0% taken
+M 36 < SystemAppCL, Lorg/python/core/PyJavaClass;, init__bases__, (Ljava/lang/Class;)V >
+	4	forwbranch < 17, 0 > 100.0% taken
+	25	forwbranch < 17, 12 > 58.62069% taken
+	39	forwbranch < 11, 1 > 91.666664% taken
+	57	forwbranch < 0, 12 > 0.0% taken
+	65	forwbranch < 11, 1 > 91.666664% taken
+	83	forwbranch < 0, 12 > 0.0% taken
+	91	forwbranch < 11, 1 > 91.666664% taken
+	109	forwbranch < 6, 6 > 50.0% taken
+	135	forwbranch < 6, 11 > 35.294117% taken
+	143	forwbranch < 10, 1 > 90.90909% taken
+	161	forwbranch < 10, 1 > 90.90909% taken
+	210	forwbranch < 17, 12 > 58.62069% taken
+	224	forwbranch < 12, 0 > 100.0% taken
+	242	forwbranch < 0, 12 > 0.0% taken
+	250	forwbranch < 12, 0 > 100.0% taken
+	268	forwbranch < 0, 12 > 0.0% taken
+	276	forwbranch < 12, 0 > 100.0% taken
+	294	forwbranch < 6, 6 > 50.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyJavaClass;, init__dict__, ()V >
+	4	forwbranch < 17, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyJavaClass;, getAccessibleMethods, (Ljava/lang/Class;)[Ljava/lang/reflect/Method; >
+	3	forwbranch < 0, 17 > 0.0% taken
+	21	forwbranch < 0, 0 > Never Executed
+M 62 < SystemAppCL, Lorg/python/core/PyJavaClass;, setBeanInfoCustom, (Ljava/lang/Class;[Ljava/lang/reflect/Method;)V >
+	9	forwbranch < 17, 530 > 3.107861% taken
+	23	forwbranch < 528, 2 > 99.62264% taken
+	35	forwbranch < 259, 269 > 49.053032% taken
+	46	forwbranch < 120, 149 > 44.609665% taken
+	93	forwbranch < 66, 54 > 55.0% taken
+	99	forwbranch < 44, 10 > 81.48148% taken
+	134	forwbranch < 49, 17 > 74.242424% taken
+	140	forwbranch < 4, 13 > 23.529411% taken
+	148	forwbranch < 13, 0 > 100.0% taken
+	183	forwbranch < 41, 8 > 83.67347% taken
+	190	forwbranch < 4, 4 > 50.0% taken
+	237	forwbranch < 61, 0 > 100.0% taken
+	245	forwbranch < 0, 0 > Never Executed
+	277	forwbranch < 0, 0 > Never Executed
+	282	forwbranch < 0, 0 > Never Executed
+	302	forwbranch < 0, 0 > Never Executed
+	314	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 0, 0 > Never Executed
+	330	forwbranch < 0, 0 > Never Executed
+	351	forwbranch < 17, 530 > 3.107861% taken
+	365	forwbranch < 260, 270 > 49.056602% taken
+	376	forwbranch < 120, 150 > 44.444443% taken
+	396	forwbranch < 0, 120 > 0.0% taken
+	406	forwbranch < 112, 8 > 93.333336% taken
+	416	forwbranch < 0, 8 > 0.0% taken
+	444	forwbranch < 0, 0 > Never Executed
+	452	forwbranch < 0, 0 > Never Executed
+	470	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 0 > Never Executed
+	510	forwbranch < 0, 0 > Never Executed
+	535	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Lorg/python/core/PyJavaClass;, setFields, (Ljava/lang/Class;)V >
+	10	forwbranch < 17, 19 > 47.22222% taken
+	24	forwbranch < 19, 0 > 100.0% taken
+	53	forwbranch < 0, 19 > 0.0% taken
+	63	forwbranch < 14, 5 > 73.68421% taken
+	73	forwbranch < 4, 1 > 80.0% taken
+	90	forwbranch < 18, 0 > 100.0% taken
+	98	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/python/core/PyJavaClass;, setMethods, (Ljava/lang/Class;[Ljava/lang/reflect/Method;)V >
+	5	forwbranch < 17, 530 > 3.107861% taken
+	23	forwbranch < 270, 260 > 50.943398% taken
+	41	forwbranch < 270, 0 > 100.0% taken
+	49	forwbranch < 0, 0 > Never Executed
+	57	forwbranch < 0, 0 > Never Executed
+	69	forwbranch < 269, 1 > 99.62963% taken
+M 6 < SystemAppCL, Lorg/python/core/PyJavaClass;, getAccessibleInterfaces, (Ljava/lang/Class;)[Ljava/lang/Class; >
+	18	forwbranch < 17, 12 > 58.62069% taken
+	30	forwbranch < 12, 0 > 100.0% taken
+	55	forwbranch < 0, 17 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyJavaClass;, getAccessibleFields, (Ljava/lang/Class;)[Ljava/lang/reflect/Field; >
+	3	forwbranch < 0, 17 > 0.0% taken
+	20	forwbranch < 0, 0 > Never Executed
+	33	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PyJavaClass;, getName, (Ljava/lang/String;)Ljava/lang/String; >
+	6	forwbranch < 347, 2 > 99.42693% taken
+M 6 < SystemAppCL, Lorg/python/core/PyJavaClass;, ignoreMethod, (Ljava/lang/reflect/Method;)Z >
+	10	forwbranch < 797, 215 > 78.754944% taken
+	19	forwbranch < 214, 1 > 99.53488% taken
+	37	forwbranch < 212, 3 > 98.60465% taken
+M 44 < SystemAppCL, Lorg/python/core/PyJavaClass;, addMethod, (Ljava/lang/reflect/Method;)V >
+	12	forwbranch < 0, 269 > 0.0% taken
+	18	forwbranch < 0, 269 > 0.0% taken
+	24	forwbranch < 0, 269 > 0.0% taken
+	30	forwbranch < 269, 0 > 100.0% taken
+	48	forwbranch < 269, 0 > 100.0% taken
+	60	forwbranch < 0, 0 > Never Executed
+	66	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	78	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 0 > Never Executed
+	90	forwbranch < 0, 0 > Never Executed
+	96	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	108	forwbranch < 0, 0 > Never Executed
+	122	forwbranch < 210, 59 > 78.06692% taken
+	130	forwbranch < 1, 58 > 1.6949153% taken
+	154	forwbranch < 48, 10 > 82.75862% taken
+	163	forwbranch < 1, 9 > 10.0% taken
+	236	forwbranch < 0, 1 > 0.0% taken
+	254	forwbranch < 0, 1 > 0.0% taken
+	262	forwbranch < 0, 1 > 0.0% taken
+	270	forwbranch < 0, 1 > 0.0% taken
+M 8 < SystemAppCL, Lorg/python/core/PyJavaClass;, decapitalize, (Ljava/lang/String;)Ljava/lang/String; >
+	4	forwbranch < 61, 0 > 100.0% taken
+	19	forwbranch < 0, 61 > 0.0% taken
+	27	forwbranch < 0, 61 > 0.0% taken
+	38	forwbranch < 61, 0 > 100.0% taken
+M 24 < SystemAppCL, Lorg/python/core/PyJavaClass;, addProperty, (Ljava/lang/String;Ljava/lang/Class;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;)V >
+	1	forwbranch < 61, 0 > 100.0% taken
+	38	forwbranch < 58, 3 > 95.08197% taken
+	46	forwbranch < 3, 0 > 100.0% taken
+	55	forwbranch < 0, 3 > 0.0% taken
+	75	forwbranch < 0, 3 > 0.0% taken
+	83	forwbranch < 0, 3 > 0.0% taken
+	91	forwbranch < 0, 3 > 0.0% taken
+	99	forwbranch < 3, 0 > 100.0% taken
+	107	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 3 > 0.0% taken
+	136	forwbranch < 3, 0 > 100.0% taken
+	151	forwbranch < 3, 58 > 4.9180326% taken
+M 4 < SystemAppCL, Lorg/python/core/PyJavaClass;, getAccessibleConstructors, (Ljava/lang/Class;)[Ljava/lang/reflect/Constructor; >
+	3	forwbranch < 0, 2 > 0.0% taken
+	21	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/core/PyJavaClass;, ignoreConstructor, (Ljava/lang/reflect/Constructor;)Z >
+	10	forwbranch < 5, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	37	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/python/core/PyJavaClass;, setConstructors, (Ljava/lang/Class;)V >
+	7	forwbranch < 2, 0 > 100.0% taken
+	28	forwbranch < 2, 5 > 28.571428% taken
+	38	forwbranch < 5, 0 > 100.0% taken
+	48	forwbranch < 3, 2 > 60.0% taken
+	88	forwbranch < 0, 2 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyJavaClass;, findClassAttr, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	4	forwbranch < 0, 2 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyJavaClass;, findInnerClass, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	37	forwbranch < 0, 2 > 0.0% taken
+M 12 < SystemAppCL, Lorg/python/core/PyJavaClass;, lookupGivingClass, (Ljava/lang/String;Z)[Lorg/python/core/PyObject; >
+	1	forwbranch < 1814, 0 > 100.0% taken
+	21	forwbranch < 1457, 357 > 80.31973% taken
+	31	forwbranch < 1814, 0 > 100.0% taken
+	57	forwbranch < 1814, 0 > 100.0% taken
+	66	forwbranch < 0, 0 > Never Executed
+	75	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/PyJavaClass;, __setattr__, (Ljava/lang/String;Lorg/python/core/PyObject;)V >
+	8	forwbranch < 0, 1 > 0.0% taken
+	17	forwbranch < 1, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/python/core/PyJavaClass;, __call__, ([Lorg/python/core/PyObject;[Ljava/lang/String;)Lorg/python/core/PyObject; >
+	4	forwbranch < 63, 2 > 96.92308% taken
+	14	forwbranch < 65, 0 > 100.0% taken
+	39	forwbranch < 58, 7 > 89.23077% taken
+	52	forwbranch < 7, 0 > 100.0% taken
+	92	forwbranch < 7, 0 > 100.0% taken
+M 16 < SystemAppCL, Lorg/python/core/InternalTables;, tryImpl, (Ljava/lang/String;)Lorg/python/core/InternalTables; >
+	6	forwbranch < 0, 1 > 0.0% taken
+	20	forwbranch < 0, 1 > 0.0% taken
+	46	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	78	forwbranch < 0, 1 > 0.0% taken
+	92	forwbranch < 0, 1 > 0.0% taken
+	110	forwbranch < 1, 0 > 100.0% taken
+	146	forwbranch < 1, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/InternalTables1;, classesGet, (Ljava/lang/Class;)Ljava/lang/Object; >
+	12	forwbranch < 11, 18 > 37.931034% taken
+	20	forwbranch < 0, 18 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/core/InternalTables1;, classesPut, (Ljava/lang/Class;Ljava/lang/Object;)V >
+	5	forwbranch < 19, 0 > 100.0% taken
+	57	forwbranch < 0, 19 > 0.0% taken
+M 12 < SystemAppCL, Lorg/python/core/PyJavaPackage;, addPackage, (Ljava/lang/String;Ljava/lang/String;)Lorg/python/core/PyJavaPackage; >
+	15	forwbranch < 894, 2749 > 24.540215% taken
+	62	forwbranch < 2689, 954 > 73.81279% taken
+	72	forwbranch < 941, 13 > 98.637314% taken
+	140	forwbranch < 0, 2689 > 0.0% taken
+	152	forwbranch < 2398, 291 > 89.17813% taken
+	163	forwbranch < 894, 2749 > 24.540215% taken
+M 4 < SystemAppCL, Lorg/python/core/PyJavaPackage;, addPlaceholders, (Ljava/lang/String;)V >
+	15	forwbranch < 896, 11856 > 7.0263486% taken
+	41	backbranch < 187, 11669 > 1.5772605% taken
+M 6 < SystemAppCL, Lorg/python/core/PackageManager;, lookupName, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	20	forwbranch < 49, 11 > 81.666664% taken
+	59	forwbranch < 2, 58 > 3.3333333% taken
+	68	backbranch < 0, 2 > 0.0% taken
+M 19 < SystemAppCL, Lorg/python/core/PackageManager;, checkAccess, (Ljava/io/InputStream;)I >
+	28	forwbranch < 2883, 0 > 100.0% taken
+	46	forwbranch < 2883, 396519 > 0.7218291% taken
+	57	switch     < 211885, 0, 7977, 574, 862, 225, 26698, 22709, 18255, 44541, 5515, 57278, 0 >
+	189	forwbranch < 211885, 13 > 99.993866% taken
+M 18 < SystemAppCL, Lorg/python/core/StdoutWrapper;, myFile, ()Lorg/python/core/PyObject; >
+	11	forwbranch < 390, 0 > 100.0% taken
+	44	forwbranch < 390, 0 > 100.0% taken
+	53	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 0, 0 > Never Executed
+	86	forwbranch < 0, 0 > Never Executed
+	115	forwbranch < 0, 0 > Never Executed
+	143	forwbranch < 0, 0 > Never Executed
+	148	forwbranch < 0, 0 > Never Executed
+	171	forwbranch < 0, 0 > Never Executed
+M 22 < SystemAppCL, Lorg/python/core/StdoutWrapper;, print, (Lorg/python/core/PyObject;ZZ)V >
+	17	forwbranch < 0, 355 > 0.0% taken
+	35	forwbranch < 0, 355 > 0.0% taken
+	65	forwbranch < 355, 0 > 100.0% taken
+	103	forwbranch < 355, 0 > 100.0% taken
+	113	forwbranch < 0, 0 > Never Executed
+	138	forwbranch < 0, 0 > Never Executed
+	146	forwbranch < 0, 0 > Never Executed
+	171	forwbranch < 0, 0 > Never Executed
+	186	forwbranch < 0, 0 > Never Executed
+	199	forwbranch < 0, 0 > Never Executed
+	209	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/python/core/PyList;, list___add__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	6	forwbranch < 0, 5 > 0.0% taken
+	80	forwbranch < 0, 0 > Never Executed
+	87	forwbranch < 0, 0 > Never Executed
+	113	forwbranch < 0, 0 > Never Executed
+	117	forwbranch < 0, 0 > Never Executed
+	155	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/core/PyList;, list_toString, ()Ljava/lang/String; >
+	9	forwbranch < 6, 0 > 100.0% taken
+	44	forwbranch < 6, 0 > 100.0% taken
+	77	forwbranch < 0, 6 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyList;, _index, (Lorg/python/core/PyObject;Ljava/lang/String;II)I >
+	29	forwbranch < 0, 3 > 0.0% taken
+	41	forwbranch < 0, 3 > 0.0% taken
+	57	forwbranch < 3, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyList;, calculateIndex, (I)I >
+	6	forwbranch < 6, 0 > 100.0% taken
+	16	forwbranch < 0, 0 > Never Executed
+	26	forwbranch < 6, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyList;, list_insert, (ILorg/python/core/PyObject;)V >
+	1	forwbranch < 6, 0 > 100.0% taken
+	20	forwbranch < 6, 0 > 100.0% taken
+M 38 < SystemAppCL, Lorg/python/core/PyList;, setslice, (IIILorg/python/core/PyObject;)V >
+	2	forwbranch < 210003, 0 > 100.0% taken
+	9	forwbranch < 0, 210003 > 0.0% taken
+	17	forwbranch < 0, 210003 > 0.0% taken
+	41	forwbranch < 0, 210003 > 0.0% taken
+	62	forwbranch < 210003, 0 > 100.0% taken
+	120	forwbranch < 0, 0 > Never Executed
+	152	forwbranch < 0, 0 > Never Executed
+	160	forwbranch < 0, 0 > Never Executed
+	191	forwbranch < 0, 0 > Never Executed
+	196	forwbranch < 0, 0 > Never Executed
+	226	forwbranch < 0, 0 > Never Executed
+	263	forwbranch < 0, 0 > Never Executed
+	271	forwbranch < 0, 0 > Never Executed
+	298	forwbranch < 0, 0 > Never Executed
+	339	forwbranch < 0, 0 > Never Executed
+	347	forwbranch < 0, 0 > Never Executed
+	367	forwbranch < 0, 0 > Never Executed
+	397	forwbranch < 0, 0 > Never Executed
+	432	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/python/core/MergeState;, sort, ()V >
+	7	forwbranch < 20, 0 > 100.0% taken
+	41	forwbranch < 0, 20 > 0.0% taken
+	57	forwbranch < 0, 20 > 0.0% taken
+	63	forwbranch < 20, 0 > 100.0% taken
+	137	backbranch < 0, 20 > 0.0% taken
+M 60 < SystemAppCL, Lorg/python/core/PyList;, typeSetup, (Lorg/python/core/PyObject;Lorg/python/core/PyType$Newstyle;)V >
+	12	forwbranch < 0, 1 > 0.0% taken
+	59	forwbranch < 1, 0 > 100.0% taken
+	106	forwbranch < 1, 0 > 100.0% taken
+	153	forwbranch < 1, 0 > 100.0% taken
+	200	forwbranch < 1, 0 > 100.0% taken
+	247	forwbranch < 1, 0 > 100.0% taken
+	294	forwbranch < 1, 0 > 100.0% taken
+	341	forwbranch < 1, 0 > 100.0% taken
+	388	forwbranch < 1, 0 > 100.0% taken
+	435	forwbranch < 1, 0 > 100.0% taken
+	482	forwbranch < 1, 0 > 100.0% taken
+	529	forwbranch < 1, 0 > 100.0% taken
+	576	forwbranch < 1, 0 > 100.0% taken
+	623	forwbranch < 1, 0 > 100.0% taken
+	670	forwbranch < 1, 0 > 100.0% taken
+	717	forwbranch < 1, 0 > 100.0% taken
+	764	forwbranch < 1, 0 > 100.0% taken
+	811	forwbranch < 1, 0 > 100.0% taken
+	858	forwbranch < 1, 0 > 100.0% taken
+	905	forwbranch < 1, 0 > 100.0% taken
+	952	forwbranch < 1, 0 > 100.0% taken
+	999	forwbranch < 1, 0 > 100.0% taken
+	1046	forwbranch < 1, 0 > 100.0% taken
+	1093	forwbranch < 1, 0 > 100.0% taken
+	1140	forwbranch < 1, 0 > 100.0% taken
+	1187	forwbranch < 1, 0 > 100.0% taken
+	1234	forwbranch < 1, 0 > 100.0% taken
+	1281	forwbranch < 1, 0 > 100.0% taken
+	1328	forwbranch < 1, 0 > 100.0% taken
+	1373	forwbranch < 1, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/core/PyList;, list_init, ([Lorg/python/core/PyObject;[Ljava/lang/String;)V >
+	8	forwbranch < 45002, 0 > 100.0% taken
+	22	forwbranch < 45002, 0 > 100.0% taken
+	36	forwbranch < 0, 45002 > 0.0% taken
+	88	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/python/core/PyList;, getslice, (III)Lorg/python/core/PyObject; >
+	1	forwbranch < 0, 5061 > 0.0% taken
+	6	forwbranch < 5061, 0 > 100.0% taken
+	34	forwbranch < 0, 5061 > 0.0% taken
+	69	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/python/core/PyList;, delRange, (III)V >
+	2	forwbranch < 0, 101 > 0.0% taken
+	16	forwbranch < 0, 0 > Never Executed
+	25	forwbranch < 0, 0 > Never Executed
+	51	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PyList;, <clinit>, ()V >
+	3	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyList$1;, new_impl, (ZLorg/python/core/PyType;[Lorg/python/core/PyObject;[Ljava/lang/String;)Lorg/python/core/PyObject; >
+	5	forwbranch < 0, 10963 > 0.0% taken
+	18	forwbranch < 0, 10963 > 0.0% taken
+M 10 < SystemAppCL, Lorg/python/core/SysPackageManager;, findAllPackages, (Ljava/util/Properties;)V >
+	44	forwbranch < 1, 2 > 33.333332% taken
+	67	forwbranch < 2, 0 > 100.0% taken
+	99	forwbranch < 1, 1 > 50.0% taken
+	122	forwbranch < 1, 0 > 100.0% taken
+	139	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/SysPackageManager;, addJarPath, (Ljava/lang/String;)V >
+	16	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/imp;, caseok, (Ljava/io/File;Ljava/lang/String;I)Z >
+	3	forwbranch < 50, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PathPackageManager$PackageExistsFileFilter;, packageExists, ()Z >
+	4	forwbranch < 0, 13 > 0.0% taken
+	11	forwbranch < 0, 13 > 0.0% taken
+M 10 < SystemAppCL, Lorg/python/core/PathPackageManager;, packageExists, (Lorg/python/core/PyList;Ljava/lang/String;Ljava/lang/String;)Z >
+	43	forwbranch < 107, 180 > 37.28223% taken
+	65	forwbranch < 180, 0 > 100.0% taken
+	89	forwbranch < 167, 13 > 92.77778% taken
+	102	forwbranch < 0, 13 > 0.0% taken
+	132	forwbranch < 13, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/CachedJarsPackageManager;, filterByName, (Ljava/lang/String;Z)Z >
+	7	forwbranch < 13015, 4552 > 74.087776% taken
+M 2 < SystemAppCL, Lorg/python/core/CachedJarsPackageManager;, filterByAccess, (Ljava/lang/String;I)Z >
+	4	forwbranch < 11856, 1159 > 91.09489% taken
+M 14 < SystemAppCL, Lorg/python/core/CachedJarsPackageManager;, addZipEntry, (Ljava/util/Hashtable;Ljava/util/zip/ZipEntry;Ljava/util/zip/ZipInputStream;)V >
+	13	forwbranch < 17567, 1612 > 91.59497% taken
+	33	forwbranch < 17559, 8 > 99.95446% taken
+	52	forwbranch < 17559, 8 > 99.95446% taken
+	105	forwbranch < 13015, 4552 > 74.087776% taken
+	122	forwbranch < 12119, 896 > 93.11564% taken
+	169	forwbranch < 0, 13015 > 0.0% taken
+	180	forwbranch < 1159, 11856 > 8.905109% taken
+M 4 < SystemAppCL, Lorg/python/core/CachedJarsPackageManager;, vectorToString, (Ljava/util/Vector;)Ljava/lang/String; >
+	17	forwbranch < 1113, 13015 > 7.8779726% taken
+	37	forwbranch < 1112, 11903 > 8.543987% taken
+M 46 < SystemAppCL, Lorg/python/core/CachedJarsPackageManager;, addJarToPackages, (Ljava/net/URL;Ljava/io/File;Z)V >
+	4	forwbranch < 0, 3 > 0.0% taken
+	21	forwbranch < 3, 0 > 100.0% taken
+	43	forwbranch < 0, 0 > Never Executed
+	82	forwbranch < 0, 3 > 0.0% taken
+	89	forwbranch < 3, 0 > 100.0% taken
+	110	forwbranch < 0, 3 > 0.0% taken
+	115	forwbranch < 0, 3 > 0.0% taken
+	162	forwbranch < 3, 0 > 100.0% taken
+	180	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 3 > 0.0% taken
+	218	forwbranch < 0, 3 > 0.0% taken
+	248	forwbranch < 0, 0 > Never Executed
+	307	forwbranch < 0, 3 > 0.0% taken
+	312	forwbranch < 0, 3 > 0.0% taken
+	323	forwbranch < 3, 0 > 100.0% taken
+	338	forwbranch < 0, 3 > 0.0% taken
+	343	forwbranch < 0, 3 > 0.0% taken
+	347	forwbranch < 0, 3 > 0.0% taken
+	359	forwbranch < 0, 3 > 0.0% taken
+	374	forwbranch < 3, 0 > 100.0% taken
+	415	forwbranch < 0, 3 > 0.0% taken
+	455	forwbranch < 0, 3 > 0.0% taken
+	497	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/core/CachedJarsPackageManager;, getZipPackages, (Ljava/io/InputStream;)Ljava/util/Hashtable; >
+	24	forwbranch < 3, 19179 > 0.015639663% taken
+	55	forwbranch < 3, 896 > 0.3337041% taken
+	94	forwbranch < 679, 217 > 75.78125% taken
+M 2 < SystemAppCL, Lorg/python/core/CachedJarsPackageManager;, writeCacheFile, (Lorg/python/core/CachedJarsPackageManager$JarXEntry;Ljava/lang/String;Ljava/util/Hashtable;Z)V >
+	65	forwbranch < 3, 896 > 0.3337041% taken
+M 6 < SystemAppCL, Lorg/python/core/CachedJarsPackageManager;, addPackages, (Ljava/util/Hashtable;Ljava/lang/String;)V >
+	11	forwbranch < 3, 896 > 0.3337041% taken
+	47	forwbranch < 679, 217 > 75.78125% taken
+	53	forwbranch < 0, 217 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/core/CachedJarsPackageManager;, outCreateCacheFile, (Lorg/python/core/CachedJarsPackageManager$JarXEntry;Z)Ljava/io/DataOutputStream; >
+	3	forwbranch < 0, 3 > 0.0% taken
+	60	forwbranch < 0, 3 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/CachedJarsPackageManager;, inOpenIndex, ()Ljava/io/DataInputStream; >
+	18	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/CachedJarsPackageManager;, initCache, ()V >
+	22	forwbranch < 0, 1 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/core/CachedJarsPackageManager;, saveCache, ()V >
+	4	forwbranch < 0, 1 > 0.0% taken
+	11	forwbranch < 1, 0 > 100.0% taken
+	45	forwbranch < 1, 3 > 25.0% taken
+M 6 < SystemAppCL, Lorg/python/core/CachedJarsPackageManager;, useCacheDir, (Ljava/io/File;)Z >
+	1	forwbranch < 1, 0 > 100.0% taken
+	10	forwbranch < 0, 1 > 0.0% taken
+	17	forwbranch < 1, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/python/core/PathPackageManager;, addClassPath, (Ljava/lang/String;)V >
+	22	forwbranch < 2, 3 > 40.0% taken
+	42	forwbranch < 3, 0 > 100.0% taken
+	52	forwbranch < 0, 0 > Never Executed
+	88	forwbranch < 0, 0 > Never Executed
+	96	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/SysPackageManager;, findClass, (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Class; >
+	8	forwbranch < 58, 2 > 96.666664% taken
+M 4 < SystemAppCL, Lorg/python/core/SysPackageManager;, findClass, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Class; >
+	1	forwbranch < 0, 60 > 0.0% taken
+	8	forwbranch < 58, 2 > 96.666664% taken
+M 6 < SystemAppCL, Lorg/python/core/SysPackageManager;, packageExists, (Ljava/lang/String;Ljava/lang/String;)Z >
+	10	forwbranch < 60, 0 > 100.0% taken
+	23	forwbranch < 0, 60 > 0.0% taken
+	38	forwbranch < 60, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyJavaPackage;, <init>, (Ljava/lang/String;Lorg/python/core/PackageManager;Ljava/lang/String;)V >
+	15	forwbranch < 955, 0 > 100.0% taken
+M 16 < SystemAppCL, Lorg/python/core/PyJavaPackage;, __findattr__, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	10	forwbranch < 60, 7 > 89.55224% taken
+	27	forwbranch < 60, 0 > 100.0% taken
+	62	forwbranch < 58, 2 > 96.666664% taken
+	75	forwbranch < 58, 0 > 100.0% taken
+	93	forwbranch < 58, 0 > 100.0% taken
+	104	forwbranch < 58, 0 > 100.0% taken
+	118	forwbranch < 58, 0 > 100.0% taken
+	125	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/python/core/PrecompiledImporter;, find_module, (Ljava/lang/String;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	3	forwbranch < 54, 0 > 100.0% taken
+	33	forwbranch < 0, 0 > Never Executed
+	90	forwbranch < 0, 0 > Never Executed
+	115	forwbranch < 0, 0 > Never Executed
+	154	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/JavaImporter;, find_module, (Ljava/lang/String;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	45	forwbranch < 53, 1 > 98.14815% taken
+M 2 < SystemAppCL, Lorg/python/core/ZipFileImporter;, <init>, (Lorg/python/core/PyObject;)V >
+	8	forwbranch < 0, 7 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/ArgParser;, getString, (ILjava/lang/String;)Ljava/lang/String; >
+	5	forwbranch < 51, 1 > 98.07692% taken
+M 10 < SystemAppCL, Lorg/python/core/PyFile$FileWrapper;, setMode, (Ljava/lang/String;)V >
+	7	forwbranch < 2, 1 > 66.666664% taken
+	25	forwbranch < 2, 1 > 66.666664% taken
+	34	forwbranch < 0, 1 > 0.0% taken
+	43	forwbranch < 1, 0 > 100.0% taken
+	61	forwbranch < 3, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyFile$TextWrapper;, <init>, (Lorg/python/core/PyFile$FileWrapper;)V >
+	26	forwbranch < 0, 3 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyFile;, _pb, (Ljava/io/InputStream;Ljava/lang/String;)Ljava/io/InputStream; >
+	6	forwbranch < 0, 1 > 0.0% taken
+	13	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyFile;, <init>, (Lorg/python/core/PyFile$FileWrapper;Ljava/lang/String;Ljava/lang/String;)V >
+	35	forwbranch < 0, 3 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyFile;, file_write, (Ljava/lang/String;)V >
+	4	forwbranch < 390, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyFile;, file_flush, ()V >
+	4	forwbranch < 390, 0 > 100.0% taken
+M 46 < SystemAppCL, Lorg/python/core/PyFile;, typeSetup, (Lorg/python/core/PyObject;Lorg/python/core/PyType$Newstyle;)V >
+	12	forwbranch < 0, 1 > 0.0% taken
+	51	forwbranch < 1, 0 > 100.0% taken
+	90	forwbranch < 1, 0 > 100.0% taken
+	129	forwbranch < 1, 0 > 100.0% taken
+	176	forwbranch < 1, 0 > 100.0% taken
+	223	forwbranch < 1, 0 > 100.0% taken
+	270	forwbranch < 1, 0 > 100.0% taken
+	317	forwbranch < 1, 0 > 100.0% taken
+	364	forwbranch < 1, 0 > 100.0% taken
+	411	forwbranch < 1, 0 > 100.0% taken
+	458	forwbranch < 1, 0 > 100.0% taken
+	505	forwbranch < 1, 0 > 100.0% taken
+	552	forwbranch < 1, 0 > 100.0% taken
+	599	forwbranch < 1, 0 > 100.0% taken
+	646	forwbranch < 1, 0 > 100.0% taken
+	693	forwbranch < 1, 0 > 100.0% taken
+	740	forwbranch < 1, 0 > 100.0% taken
+	787	forwbranch < 1, 0 > 100.0% taken
+	834	forwbranch < 1, 0 > 100.0% taken
+	881	forwbranch < 1, 0 > 100.0% taken
+	928	forwbranch < 1, 0 > 100.0% taken
+	975	forwbranch < 1, 0 > 100.0% taken
+	1020	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyFile;, <clinit>, ()V >
+	3	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyFile$FileWrapper;, getBytes, (Ljava/lang/String;)[B >
+	4	forwbranch < 390, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyFile$OutputStreamWrapper;, write, (Ljava/lang/String;)V >
+	15	forwbranch < 390, 390 > 50.0% taken
+	29	forwbranch < 390, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyFile$TextWrapper;, write, (Ljava/lang/String;)V >
+	4	forwbranch < 390, 0 > 100.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+	65	backbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/io/PushbackInputStream;, <init>, (Ljava/io/InputStream;I)V >
+	6	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyBuiltinFunctionSet;, <init>, (Ljava/lang/String;IIIZLjava/lang/String;)V >
+	51	forwbranch < 0, 97 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyBuiltinFunctionSet;, _doget, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 520, 0 > 100.0% taken
+	14	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/python/core/PyBuiltinFunctionSet;, __call__, ([Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	8	forwbranch < 0, 2130 > 0.0% taken
+	16	forwbranch < 0, 2130 > 0.0% taken
+	24	forwbranch < 2130, 0 > 100.0% taken
+	34	switch     < 0, 2130, 0, 0, 0, 0 >
+M 24 < SystemAppCL, Lorg/python/core/imp;, find_module, (Ljava/lang/String;Ljava/lang/String;Lorg/python/core/PyList;)Lorg/python/core/PyObject; >
+	17	forwbranch < 6, 48 > 11.111111% taken
+	41	forwbranch < 54, 178 > 23.275862% taken
+	62	forwbranch < 0, 178 > 0.0% taken
+	98	forwbranch < 53, 108 > 32.919254% taken
+	130	forwbranch < 12, 96 > 11.111111% taken
+	149	backbranch < 107, 1 > 99.07407% taken
+	166	forwbranch < 45, 8 > 84.90566% taken
+	173	forwbranch < 6, 39 > 13.333333% taken
+	195	forwbranch < 9, 96 > 8.571428% taken
+	228	forwbranch < 96, 0 > 100.0% taken
+	265	forwbranch < 0, 0 > Never Executed
+	285	forwbranch < 60, 36 > 62.5% taken
+M 4 < SystemAppCL, Lorg/python/core/PyModule;, impHook, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	3	forwbranch < 29, 1 > 96.666664% taken
+	46	forwbranch < 0, 30 > 0.0% taken
+M 14 < SystemAppCL, Lorg/python/core/PyModule;, impAttr, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	21	forwbranch < 25, 6 > 80.645164% taken
+	25	forwbranch < 6, 0 > 100.0% taken
+	75	forwbranch < 6, 0 > 100.0% taken
+	85	forwbranch < 0, 6 > 0.0% taken
+	111	forwbranch < 1, 5 > 16.666666% taken
+	126	forwbranch < 5, 1 > 83.333336% taken
+	144	forwbranch < 0, 1 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyModule;, __findattr__, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	10	forwbranch < 35, 611 > 5.417957% taken
+	22	forwbranch < 30, 5 > 85.71429% taken
+	38	forwbranch < 30, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyEnumerate;, typeSetup, (Lorg/python/core/PyObject;Lorg/python/core/PyType$Newstyle;)V >
+	12	forwbranch < 0, 1 > 0.0% taken
+	59	forwbranch < 1, 0 > 100.0% taken
+	104	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyEnumerate;, <clinit>, ()V >
+	3	forwbranch < 0, 1 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyFloat;, float_hashCode, ()I >
+	18	forwbranch < 450000, 0 > 100.0% taken
+	26	forwbranch < 0, 0 > Never Executed
+	34	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/core/PyFloat;, float___cmp__, (Lorg/python/core/PyObject;)I >
+	4	forwbranch < 1050004, 0 > 100.0% taken
+	21	forwbranch < 4, 1050000 > 3.8095092E-4% taken
+	34	forwbranch < 0, 4 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyFloat;, canCoerce, (Lorg/python/core/PyObject;)Z >
+	4	forwbranch < 1210441, 490004 > 71.18378% taken
+	11	forwbranch < 450004, 40000 > 91.8368% taken
+	18	forwbranch < 40000, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyFloat;, coerce, (Lorg/python/core/PyObject;)D >
+	4	forwbranch < 602528, 2055716 > 22.666391% taken
+	19	forwbranch < 0, 602528 > 0.0% taken
+	35	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PyFloat;, float___add__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 86558, 40000 > 68.393936% taken
+M 2 < SystemAppCL, Lorg/python/core/PyFloat;, float___sub__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 288533, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyFloat;, float___mul__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 55350, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyFloat;, float___div__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 180000, 0 > 100.0% taken
+	13	forwbranch < 180000, 0 > 100.0% taken
+	32	forwbranch < 180000, 0 > 100.0% taken
+M 56 < SystemAppCL, Lorg/python/core/PyFloat;, typeSetup, (Lorg/python/core/PyObject;Lorg/python/core/PyType$Newstyle;)V >
+	12	forwbranch < 1, 0 > 100.0% taken
+	59	forwbranch < 1, 0 > 100.0% taken
+	106	forwbranch < 1, 0 > 100.0% taken
+	153	forwbranch < 1, 0 > 100.0% taken
+	200	forwbranch < 1, 0 > 100.0% taken
+	247	forwbranch < 1, 0 > 100.0% taken
+	294	forwbranch < 1, 0 > 100.0% taken
+	341	forwbranch < 1, 0 > 100.0% taken
+	388	forwbranch < 1, 0 > 100.0% taken
+	435	forwbranch < 1, 0 > 100.0% taken
+	482	forwbranch < 1, 0 > 100.0% taken
+	529	forwbranch < 1, 0 > 100.0% taken
+	576	forwbranch < 1, 0 > 100.0% taken
+	623	forwbranch < 1, 0 > 100.0% taken
+	670	forwbranch < 1, 0 > 100.0% taken
+	717	forwbranch < 1, 0 > 100.0% taken
+	764	forwbranch < 1, 0 > 100.0% taken
+	811	forwbranch < 1, 0 > 100.0% taken
+	858	forwbranch < 1, 0 > 100.0% taken
+	905	forwbranch < 1, 0 > 100.0% taken
+	952	forwbranch < 1, 0 > 100.0% taken
+	999	forwbranch < 1, 0 > 100.0% taken
+	1046	forwbranch < 1, 0 > 100.0% taken
+	1093	forwbranch < 1, 0 > 100.0% taken
+	1140	forwbranch < 1, 0 > 100.0% taken
+	1187	forwbranch < 1, 0 > 100.0% taken
+	1234	forwbranch < 1, 0 > 100.0% taken
+	1279	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyFloat;, float_new, (Lorg/python/core/PyObject;ZLorg/python/core/PyType;[Lorg/python/core/PyObject;[Ljava/lang/String;)Lorg/python/core/PyObject; >
+	35	forwbranch < 510, 0 > 100.0% taken
+M 24 < SystemAppCL, Lorg/python/core/PyFloat;, __tojava__, (Ljava/lang/Class;)Ljava/lang/Object; >
+	4	forwbranch < 5, 255 > 1.9230769% taken
+	11	forwbranch < 254, 1 > 99.60784% taken
+	29	forwbranch < 0, 255 > 0.0% taken
+	36	forwbranch < 254, 1 > 99.60784% taken
+	54	forwbranch < 0, 255 > 0.0% taken
+	61	forwbranch < 254, 1 > 99.60784% taken
+	79	forwbranch < 0, 255 > 0.0% taken
+	86	forwbranch < 254, 1 > 99.60784% taken
+	104	forwbranch < 255, 0 > 100.0% taken
+	123	forwbranch < 0, 255 > 0.0% taken
+	130	forwbranch < 254, 1 > 99.60784% taken
+	148	forwbranch < 255, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyFloat;, <clinit>, ()V >
+	3	forwbranch < 0, 1 > 0.0% taken
+M 8 < BootstrapCL, Ljava/math/BigInteger;, valueOf, (J)Ljava/math/BigInteger; >
+	3	forwbranch < 270514, 0 > 100.0% taken
+	29	forwbranch < 30001, 240513 > 11.090368% taken
+	37	forwbranch < 150393, 90120 > 62.53009% taken
+	57	forwbranch < 30153, 150241 > 16.715078% taken
+M 10 < BootstrapCL, Ljava/math/BigInteger;, signum, ()I >
+	3	forwbranch < 5970, 0 > 100.0% taken
+	24	forwbranch < 5460, 510 > 91.45728% taken
+	31	forwbranch < 0, 510 > 0.0% taken
+	40	forwbranch < 5352, 108 > 98.02198% taken
+	63	forwbranch < 5460, 0 > 100.0% taken
+M 8 < BootstrapCL, Ljava/math/BigInteger;, longValue, ()J >
+	3	forwbranch < 901786, 0 > 100.0% taken
+	50	forwbranch < 0, 0 > Never Executed
+	64	forwbranch < 1710, 900076 > 0.1896237% taken
+	78	forwbranch < 1710, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/core/PyLong;, getLong, (JJ)J >
+	10	forwbranch < 0, 38 > 0.0% taken
+	23	forwbranch < 0, 38 > 0.0% taken
+	39	forwbranch < 0, 38 > 0.0% taken
+	46	forwbranch < 0, 38 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyLong;, long___cmp__, (Lorg/python/core/PyObject;)I >
+	4	forwbranch < 1050038, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyLong;, canCoerce, (Lorg/python/core/PyObject;)Z >
+	4	forwbranch < 1603254, 96 > 99.99402% taken
+	11	forwbranch < 0, 96 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyLong;, coerce, (Lorg/python/core/PyObject;)Ljava/math/BigInteger; >
+	4	forwbranch < 96, 525024 > 0.018281536% taken
+	19	forwbranch < 0, 96 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyLong;, long___add__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 75058, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/math/BigInteger;, add, (Ljava/math/BigInteger;)Ljava/math/BigInteger; >
+	3	forwbranch < 375450, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyLong;, long___sub__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 73230, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/math/BigInteger;, subtract, (Ljava/math/BigInteger;)Ljava/math/BigInteger; >
+	3	forwbranch < 225001, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyLong;, long___mul__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 225024, 0 > 100.0% taken
+	23	forwbranch < 225024, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/math/BigInteger;, multiply, (Ljava/math/BigInteger;)Ljava/math/BigInteger; >
+	3	forwbranch < 227619, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/math/BigInteger;, divide, (Ljava/math/BigInteger;)Ljava/math/BigInteger; >
+	3	forwbranch < 89706, 0 > 100.0% taken
+	13	forwbranch < 0, 0 > Never Executed
+	56	forwbranch < 89706, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyLong;, long___div__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 180000, 0 > 100.0% taken
+	12	forwbranch < 180000, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/core/PyLong;, divide, (Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger; >
+	10	forwbranch < 180000, 0 > 100.0% taken
+	24	forwbranch < 180000, 0 > 100.0% taken
+	32	forwbranch < 0, 0 > Never Executed
+	57	forwbranch < 180000, 0 > 100.0% taken
+M 26 < BootstrapCL, Ljava/math/BigInteger;, pow, (I)Ljava/math/BigInteger; >
+	1	forwbranch < 780, 780 > 50.0% taken
+	5	forwbranch < 0, 780 > 0.0% taken
+	26	forwbranch < 780, 0 > 100.0% taken
+	55	forwbranch < 780, 0 > 100.0% taken
+	64	forwbranch < 0, 780 > 0.0% taken
+	93	forwbranch < 780, 0 > 100.0% taken
+	99	forwbranch < 0, 0 > Never Executed
+	141	forwbranch < 518, 2638 > 16.413181% taken
+	181	forwbranch < 2638, 1894 > 58.208298% taken
+	195	forwbranch < 2376, 780 > 75.28517% taken
+	234	forwbranch < 2376, 2340 > 50.38168% taken
+	253	forwbranch < 780, 0 > 100.0% taken
+	261	forwbranch < 780, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/math/BigInteger;, shiftLeft, (I)Ljava/math/BigInteger; >
+	1	forwbranch < 781, 0 > 100.0% taken
+	9	forwbranch < 781, 0 > 100.0% taken
+	21	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/math/BigInteger;, abs, ()Ljava/math/BigInteger; >
+	3	forwbranch < 1035, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyLong;, long___int__, ()Lorg/python/core/PyObject; >
+	13	forwbranch < 0, 38 > 0.0% taken
+	21	forwbranch < 38, 0 > 100.0% taken
+M 70 < SystemAppCL, Lorg/python/core/PyLong;, typeSetup, (Lorg/python/core/PyObject;Lorg/python/core/PyType$Newstyle;)V >
+	12	forwbranch < 0, 1 > 0.0% taken
+	59	forwbranch < 1, 0 > 100.0% taken
+	106	forwbranch < 1, 0 > 100.0% taken
+	153	forwbranch < 1, 0 > 100.0% taken
+	200	forwbranch < 1, 0 > 100.0% taken
+	247	forwbranch < 1, 0 > 100.0% taken
+	294	forwbranch < 1, 0 > 100.0% taken
+	341	forwbranch < 1, 0 > 100.0% taken
+	388	forwbranch < 1, 0 > 100.0% taken
+	435	forwbranch < 1, 0 > 100.0% taken
+	482	forwbranch < 1, 0 > 100.0% taken
+	529	forwbranch < 1, 0 > 100.0% taken
+	576	forwbranch < 1, 0 > 100.0% taken
+	623	forwbranch < 1, 0 > 100.0% taken
+	670	forwbranch < 1, 0 > 100.0% taken
+	717	forwbranch < 1, 0 > 100.0% taken
+	764	forwbranch < 1, 0 > 100.0% taken
+	811	forwbranch < 1, 0 > 100.0% taken
+	858	forwbranch < 1, 0 > 100.0% taken
+	905	forwbranch < 1, 0 > 100.0% taken
+	952	forwbranch < 1, 0 > 100.0% taken
+	999	forwbranch < 1, 0 > 100.0% taken
+	1046	forwbranch < 1, 0 > 100.0% taken
+	1093	forwbranch < 1, 0 > 100.0% taken
+	1140	forwbranch < 1, 0 > 100.0% taken
+	1187	forwbranch < 1, 0 > 100.0% taken
+	1234	forwbranch < 1, 0 > 100.0% taken
+	1281	forwbranch < 1, 0 > 100.0% taken
+	1328	forwbranch < 1, 0 > 100.0% taken
+	1375	forwbranch < 1, 0 > 100.0% taken
+	1422	forwbranch < 1, 0 > 100.0% taken
+	1469	forwbranch < 1, 0 > 100.0% taken
+	1516	forwbranch < 1, 0 > 100.0% taken
+	1563	forwbranch < 1, 0 > 100.0% taken
+	1608	forwbranch < 1, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/python/core/PyLong;, long_new, (Lorg/python/core/PyObject;ZLorg/python/core/PyType;[Lorg/python/core/PyObject;[Ljava/lang/String;)Lorg/python/core/PyObject; >
+	51	forwbranch < 24, 0 > 100.0% taken
+	63	forwbranch < 23, 1 > 95.833336% taken
+	91	forwbranch < 24, 0 > 100.0% taken
+	112	forwbranch < 0, 24 > 0.0% taken
+	126	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/math/BigInteger;, <init>, ()V >
+	23	forwbranch < 629979, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/math/BigInteger;, valueOf, ([BIZI)Ljava/math/BigInteger; >
+	28	forwbranch < 751, 0 > 100.0% taken
+	42	forwbranch < 751, 0 > 100.0% taken
+	55	forwbranch < 751, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/math/BigInteger;, make, ([II)Ljava/math/BigInteger; >
+	1	forwbranch < 1531, 0 > 100.0% taken
+	18	forwbranch < 1531, 0 > 100.0% taken
+	22	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/math/BigInteger;, alloc, (I)Ljava/math/BigInteger; >
+	10	forwbranch < 0, 90168 > 0.0% taken
+M 16 < BootstrapCL, Ljava/math/BigInteger;, wordsNeeded, ([II)I >
+	3	forwbranch < 0, 77986 > 0.0% taken
+	15	forwbranch < 77986, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	29	forwbranch < 0, 0 > Never Executed
+	37	backbranch < 0, 0 > Never Executed
+	44	forwbranch < 77965, 75748 > 50.72115% taken
+	48	forwbranch < 0, 75748 > 0.0% taken
+	58	forwbranch < 21, 75727 > 0.027723504% taken
+M 4 < BootstrapCL, Ljava/math/BigInteger;, isNegative, ()Z >
+	4	forwbranch < 525076, 525076 > 50.0% taken
+	25	forwbranch < 1050114, 38 > 99.99638% taken
+M 24 < BootstrapCL, Ljava/math/BigInteger;, compareTo, (Ljava/math/BigInteger;Ljava/math/BigInteger;)I >
+	3	forwbranch < 525114, 0 > 100.0% taken
+	27	forwbranch < 0, 525114 > 0.0% taken
+	34	forwbranch < 525076, 38 > 99.99276% taken
+	45	forwbranch < 0, 38 > 0.0% taken
+	60	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 525038, 38 > 99.99276% taken
+	85	forwbranch < 38, 0 > 100.0% taken
+	98	forwbranch < 0, 525038 > 0.0% taken
+	115	forwbranch < 525038, 0 > 100.0% taken
+	132	forwbranch < 0, 525038 > 0.0% taken
+	139	forwbranch < 525038, 0 > 100.0% taken
+	148	forwbranch < 525038, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/math/BigInteger;, setAdd, (Ljava/math/BigInteger;I)V >
+	4	forwbranch < 1, 0 > 100.0% taken
+	42	forwbranch < 1, 3 > 25.0% taken
+	93	forwbranch < 1, 0 > 100.0% taken
+M 12 < BootstrapCL, Ljava/math/BigInteger;, canonicalize, ()Ljava/math/BigInteger; >
+	4	forwbranch < 450834, 76454 > 85.50053% taken
+	24	forwbranch < 76454, 0 > 100.0% taken
+	32	forwbranch < 0, 0 > Never Executed
+	54	forwbranch < 76454, 450834 > 14.499476% taken
+	63	forwbranch < 0, 450834 > 0.0% taken
+	73	forwbranch < 69, 450765 > 0.015304968% taken
+M 2 < BootstrapCL, Ljava/math/BigInteger;, set, (J)V >
+	7	forwbranch < 726, 450834 > 0.16077597% taken
+M 16 < BootstrapCL, Ljava/math/BigInteger;, realloc, (I)V >
+	1	forwbranch < 1454, 0 > 100.0% taken
+	8	forwbranch < 0, 0 > Never Executed
+	15	forwbranch < 0, 0 > Never Executed
+	40	forwbranch < 1454, 0 > 100.0% taken
+	49	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 0, 0 > Never Executed
+	71	forwbranch < 0, 1454 > 0.0% taken
+	94	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljava/math/BigInteger;, neg, (Ljava/math/BigInteger;)Ljava/math/BigInteger; >
+	4	forwbranch < 0, 1 > 0.0% taken
+	14	forwbranch < 0, 1 > 0.0% taken
+M 14 < BootstrapCL, Ljava/math/BigInteger;, times, (Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger; >
+	4	forwbranch < 780, 226839 > 0.3426779% taken
+	20	forwbranch < 0, 780 > 0.0% taken
+	50	forwbranch < 0, 0 > Never Executed
+	85	forwbranch < 0, 0 > Never Executed
+	89	forwbranch < 0, 0 > Never Executed
+	129	forwbranch < 0, 0 > Never Executed
+	190	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/math/BigInteger;, add, (Ljava/math/BigInteger;I)Ljava/math/BigInteger; >
+	4	forwbranch < 1, 0 > 100.0% taken
+M 20 < BootstrapCL, Ljava/math/BigInteger;, add, (Ljava/math/BigInteger;Ljava/math/BigInteger;I)Ljava/math/BigInteger; >
+	4	forwbranch < 1, 750450 > 1.332532E-4% taken
+	11	forwbranch < 0, 750450 > 0.0% taken
+	34	forwbranch < 0, 1 > 0.0% taken
+	39	forwbranch < 0, 1 > 0.0% taken
+	64	forwbranch < 1, 0 > 100.0% taken
+	80	forwbranch < 0, 1 > 0.0% taken
+	100	forwbranch < 0, 0 > Never Executed
+	154	forwbranch < 0, 0 > Never Executed
+	172	forwbranch < 0, 0 > Never Executed
+	227	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lgnu/java/math/MPN;, mul_1, ([I[III)I >
+	17	forwbranch < 80801, 155873 > 34.14021% taken
+M 14 < BootstrapCL, Ljava/math/BigInteger;, times, (Ljava/math/BigInteger;I)Ljava/math/BigInteger; >
+	1	forwbranch < 227610, 9 > 99.99605% taken
+	10	forwbranch < 225009, 2601 > 98.857254% taken
+	26	forwbranch < 75000, 150009 > 33.332% taken
+	51	forwbranch < 75000, 0 > 100.0% taken
+	81	forwbranch < 75000, 0 > 100.0% taken
+	86	forwbranch < 0, 0 > Never Executed
+	127	forwbranch < 75000, 0 > 100.0% taken
+M 4 < BootstrapCL, Lgnu/java/math/MPN;, mul, ([I[II[II)V >
+	19	forwbranch < 5014, 0 > 100.0% taken
+	42	forwbranch < 0, 0 > Never Executed
+M 91 < BootstrapCL, Ljava/math/BigInteger;, divide, (Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;I)V >
+	4	forwbranch < 450000, 780 > 99.826965% taken
+	12	forwbranch < 0, 780 > 0.0% taken
+	19	forwbranch < 450000, 780 > 99.826965% taken
+	27	forwbranch < 0, 780 > 0.0% taken
+	48	forwbranch < 0, 450780 > 0.0% taken
+	57	forwbranch < 0, 450780 > 0.0% taken
+	95	forwbranch < 0, 0 > Never Executed
+	123	forwbranch < 0, 0 > Never Executed
+	133	forwbranch < 0, 0 > Never Executed
+	146	forwbranch < 0, 0 > Never Executed
+	176	forwbranch < 0, 0 > Never Executed
+	186	forwbranch < 0, 0 > Never Executed
+	210	forwbranch < 0, 0 > Never Executed
+	242	forwbranch < 0, 0 > Never Executed
+	267	forwbranch < 0, 0 > Never Executed
+	279	forwbranch < 0, 0 > Never Executed
+	289	forwbranch < 0, 0 > Never Executed
+	332	forwbranch < 0, 0 > Never Executed
+	376	forwbranch < 0, 0 > Never Executed
+	425	forwbranch < 0, 0 > Never Executed
+	435	forwbranch < 0, 0 > Never Executed
+	464	forwbranch < 0, 0 > Never Executed
+	482	forwbranch < 0, 0 > Never Executed
+	489	forwbranch < 0, 0 > Never Executed
+	494	switch     < 0, 0, 0, 0, 0 >
+	532	forwbranch < 0, 0 > Never Executed
+	540	forwbranch < 0, 0 > Never Executed
+	550	forwbranch < 0, 0 > Never Executed
+	585	forwbranch < 0, 0 > Never Executed
+	603	forwbranch < 0, 0 > Never Executed
+	614	forwbranch < 0, 0 > Never Executed
+	619	forwbranch < 0, 0 > Never Executed
+	628	forwbranch < 0, 0 > Never Executed
+	639	forwbranch < 0, 0 > Never Executed
+	652	forwbranch < 0, 0 > Never Executed
+	657	forwbranch < 0, 0 > Never Executed
+	676	forwbranch < 0, 0 > Never Executed
+	685	forwbranch < 0, 0 > Never Executed
+	698	forwbranch < 0, 0 > Never Executed
+	705	forwbranch < 0, 0 > Never Executed
+	715	forwbranch < 0, 0 > Never Executed
+	751	forwbranch < 0, 0 > Never Executed
+	766	forwbranch < 0, 0 > Never Executed
+	789	forwbranch < 0, 0 > Never Executed
+M 41 < BootstrapCL, Ljava/math/BigInteger;, divide, (JJLjava/math/BigInteger;Ljava/math/BigInteger;I)V >
+	3	forwbranch < 340920, 0 > 100.0% taken
+	14	forwbranch < 0, 0 > Never Executed
+	47	forwbranch < 340920, 0 > 100.0% taken
+	58	forwbranch < 0, 0 > Never Executed
+	64	forwbranch < 0, 0 > Never Executed
+	69	forwbranch < 0, 0 > Never Executed
+	80	forwbranch < 0, 0 > Never Executed
+	143	forwbranch < 113484, 227436 > 33.287575% taken
+	148	switch     < 0, 0, 227436, 0, 0 >
+	188	forwbranch < 0, 0 > Never Executed
+	196	forwbranch < 0, 0 > Never Executed
+	216	forwbranch < 0, 0 > Never Executed
+	228	forwbranch < 0, 340920 > 0.0% taken
+	233	forwbranch < 340920, 0 > 100.0% taken
+	244	forwbranch < 340920, 0 > 100.0% taken
+	261	forwbranch < 340452, 468 > 99.862724% taken
+	266	forwbranch < 468, 0 > 100.0% taken
+	277	forwbranch < 0, 0 > Never Executed
+	289	forwbranch < 468, 0 > 100.0% taken
+M 8 < BootstrapCL, Ljava/math/BigInteger;, getAbsolute, ([I)V >
+	4	forwbranch < 0, 780 > 0.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 780, 0 > 100.0% taken
+	68	forwbranch < 780, 816 > 48.87218% taken
+M 6 < BootstrapCL, Lgnu/java/math/MPN;, count_leading_zeros, (I)I >
+	1	forwbranch < 780, 0 > 100.0% taken
+	13	forwbranch < 780, 3900 > 16.666666% taken
+	21	forwbranch < 1560, 2340 > 40.0% taken
+M 2 < BootstrapCL, Lgnu/java/math/MPN;, lshift, ([II[III)I >
+	33	forwbranch < 726, 726 > 50.0% taken
+M 12 < BootstrapCL, Ljava/math/BigInteger;, shift, (Ljava/math/BigInteger;I)Ljava/math/BigInteger; >
+	4	forwbranch < 726, 55 > 92.95775% taken
+	8	forwbranch < 55, 0 > 100.0% taken
+	14	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 1, 54 > 1.8181819% taken
+	64	forwbranch < 727, 0 > 100.0% taken
+M 4 < BootstrapCL, Ljava/math/BigInteger;, isZero, ()Z >
+	4	forwbranch < 780, 90486 > 0.85464466% taken
+	11	forwbranch < 90486, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/math/BigInteger;, abs, (Ljava/math/BigInteger;)Ljava/math/BigInteger; >
+	4	forwbranch < 1035, 0 > 100.0% taken
+M 10 < BootstrapCL, Ljava/math/BigInteger;, setShiftLeft, (Ljava/math/BigInteger;I)V >
+	4	forwbranch < 726, 1 > 99.86245% taken
+	10	forwbranch < 1, 0 > 100.0% taken
+	71	forwbranch < 726, 1 > 99.86245% taken
+	89	forwbranch < 1, 1 > 50.0% taken
+	171	forwbranch < 727, 2 > 99.725655% taken
+M 2 < BootstrapCL, Ljava/math/BigInteger;, setShift, (Ljava/math/BigInteger;I)V >
+	1	forwbranch < 0, 727 > 0.0% taken
+M 20 < BootstrapCL, Lgnu/java/math/MPN;, chars_per_word, (I)I >
+	3	forwbranch < 1502, 0 > 100.0% taken
+	9	forwbranch < 0, 0 > Never Executed
+	14	forwbranch < 0, 0 > Never Executed
+	22	forwbranch < 0, 0 > Never Executed
+	30	forwbranch < 0, 0 > Never Executed
+	47	forwbranch < 0, 1502 > 0.0% taken
+	56	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 0, 0 > Never Executed
+	74	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 0 > Never Executed
+M 20 < BootstrapCL, Ljava/math/BigInteger;, equals, (Ljava/math/BigInteger;Ljava/math/BigInteger;)Z >
+	3	forwbranch < 450000, 0 > 100.0% taken
+	17	forwbranch < 0, 0 > Never Executed
+	30	forwbranch < 0, 450000 > 0.0% taken
+	37	forwbranch < 0, 450000 > 0.0% taken
+	48	forwbranch < 450000, 0 > 100.0% taken
+	61	forwbranch < 0, 0 > Never Executed
+	68	forwbranch < 0, 0 > Never Executed
+	79	forwbranch < 0, 0 > Never Executed
+	93	forwbranch < 0, 0 > Never Executed
+	108	backbranch < 0, 0 > Never Executed
+M 20 < BootstrapCL, Lgnu/java/math/MPN;, set_str, ([I[BII)I >
+	8	forwbranch < 751, 0 > 100.0% taken
+	27	forwbranch < 0, 0 > Never Executed
+	47	forwbranch < 0, 0 > Never Executed
+	77	forwbranch < 0, 0 > Never Executed
+	107	forwbranch < 0, 0 > Never Executed
+	134	forwbranch < 751, 1538 > 32.809086% taken
+	147	forwbranch < 751, 787 > 48.829647% taken
+	171	forwbranch < 1538, 11169 > 12.103565% taken
+	199	forwbranch < 787, 751 > 51.170353% taken
+	236	forwbranch < 36, 1502 > 2.3407023% taken
+M 2 < BootstrapCL, Lgnu/java/math/MPN;, intLength, (I)I >
+	3	forwbranch < 780, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/math/BigInteger;, divideAndRemainder, (Ljava/math/BigInteger;)[Ljava/math/BigInteger; >
+	3	forwbranch < 780, 0 > 100.0% taken
+	13	forwbranch < 0, 0 > Never Executed
+	79	forwbranch < 780, 0 > 100.0% taken
+M 4 < BootstrapCL, Ljava/math/BigInteger;, <clinit>, ()V >
+	11	forwbranch < 1, 0 > 100.0% taken
+	61	forwbranch < 1, 1125 > 0.088809945% taken
+M 8 < SystemAppCL, Lorg/python/core/PyComplex;, canCoerce, (Lorg/python/core/PyObject;)Z >
+	4	forwbranch < 760000, 120000 > 86.36364% taken
+	11	forwbranch < 80000, 40000 > 66.666664% taken
+	18	forwbranch < 40000, 0 > 100.0% taken
+	25	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/python/core/PyComplex;, coerce, (Lorg/python/core/PyObject;)Lorg/python/core/PyComplex; >
+	4	forwbranch < 120000, 760000 > 13.636364% taken
+	16	forwbranch < 40000, 80000 > 33.333332% taken
+	39	forwbranch < 0, 40000 > 0.0% taken
+	63	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PyComplex;, complex___add__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	5	forwbranch < 320000, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyComplex;, complex___sub__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	5	forwbranch < 17530, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyComplex;, complex___mul__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	5	forwbranch < 300000, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyComplex;, complex___div__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	5	forwbranch < 600000, 0 > 100.0% taken
+	14	forwbranch < 600000, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/core/PyComplex;, _div, (Lorg/python/core/PyComplex;Lorg/python/core/PyComplex;)Lorg/python/core/PyObject; >
+	6	forwbranch < 120000, 0 > 100.0% taken
+	28	forwbranch < 120000, 0 > 100.0% taken
+	49	forwbranch < 120000, 0 > 100.0% taken
+	55	forwbranch < 0, 0 > Never Executed
+M 64 < SystemAppCL, Lorg/python/core/PyComplex;, typeSetup, (Lorg/python/core/PyObject;Lorg/python/core/PyType$Newstyle;)V >
+	12	forwbranch < 1, 0 > 100.0% taken
+	51	forwbranch < 1, 0 > 100.0% taken
+	90	forwbranch < 1, 0 > 100.0% taken
+	137	forwbranch < 1, 0 > 100.0% taken
+	184	forwbranch < 1, 0 > 100.0% taken
+	231	forwbranch < 1, 0 > 100.0% taken
+	278	forwbranch < 1, 0 > 100.0% taken
+	325	forwbranch < 1, 0 > 100.0% taken
+	372	forwbranch < 1, 0 > 100.0% taken
+	419	forwbranch < 1, 0 > 100.0% taken
+	466	forwbranch < 1, 0 > 100.0% taken
+	513	forwbranch < 1, 0 > 100.0% taken
+	560	forwbranch < 1, 0 > 100.0% taken
+	607	forwbranch < 1, 0 > 100.0% taken
+	654	forwbranch < 1, 0 > 100.0% taken
+	701	forwbranch < 1, 0 > 100.0% taken
+	748	forwbranch < 1, 0 > 100.0% taken
+	795	forwbranch < 1, 0 > 100.0% taken
+	842	forwbranch < 1, 0 > 100.0% taken
+	889	forwbranch < 1, 0 > 100.0% taken
+	936	forwbranch < 1, 0 > 100.0% taken
+	983	forwbranch < 1, 0 > 100.0% taken
+	1030	forwbranch < 1, 0 > 100.0% taken
+	1077	forwbranch < 1, 0 > 100.0% taken
+	1124	forwbranch < 1, 0 > 100.0% taken
+	1171	forwbranch < 1, 0 > 100.0% taken
+	1218	forwbranch < 1, 0 > 100.0% taken
+	1265	forwbranch < 1, 0 > 100.0% taken
+	1312	forwbranch < 1, 0 > 100.0% taken
+	1359	forwbranch < 1, 0 > 100.0% taken
+	1406	forwbranch < 1, 0 > 100.0% taken
+	1451	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyComplex;, <clinit>, ()V >
+	15	forwbranch < 0, 1 > 0.0% taken
+M 18 < SystemAppCL, Lorg/python/core/PyProperty;, typeSetup, (Lorg/python/core/PyObject;Lorg/python/core/PyType$Newstyle;)V >
+	12	forwbranch < 0, 1 > 0.0% taken
+	51	forwbranch < 1, 0 > 100.0% taken
+	90	forwbranch < 1, 0 > 100.0% taken
+	129	forwbranch < 1, 0 > 100.0% taken
+	168	forwbranch < 1, 0 > 100.0% taken
+	215	forwbranch < 1, 0 > 100.0% taken
+	262	forwbranch < 1, 0 > 100.0% taken
+	309	forwbranch < 1, 0 > 100.0% taken
+	354	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyStaticMethod;, typeSetup, (Lorg/python/core/PyObject;Lorg/python/core/PyType$Newstyle;)V >
+	10	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyClassMethod;, typeSetup, (Lorg/python/core/PyObject;Lorg/python/core/PyType$Newstyle;)V >
+	10	forwbranch < 0, 1 > 0.0% taken
+M 14 < SystemAppCL, Lorg/python/core/PySuper;, typeSetup, (Lorg/python/core/PyObject;Lorg/python/core/PyType$Newstyle;)V >
+	12	forwbranch < 0, 1 > 0.0% taken
+	51	forwbranch < 1, 0 > 100.0% taken
+	90	forwbranch < 1, 0 > 100.0% taken
+	129	forwbranch < 1, 0 > 100.0% taken
+	176	forwbranch < 1, 0 > 100.0% taken
+	223	forwbranch < 1, 0 > 100.0% taken
+	268	forwbranch < 1, 0 > 100.0% taken
+M 94 < SystemAppCL, Lorg/python/core/PyUnicode;, typeSetup, (Lorg/python/core/PyObject;Lorg/python/core/PyType$Newstyle;)V >
+	12	forwbranch < 0, 1 > 0.0% taken
+	59	forwbranch < 1, 0 > 100.0% taken
+	106	forwbranch < 1, 0 > 100.0% taken
+	153	forwbranch < 1, 0 > 100.0% taken
+	200	forwbranch < 1, 0 > 100.0% taken
+	247	forwbranch < 1, 0 > 100.0% taken
+	294	forwbranch < 1, 0 > 100.0% taken
+	341	forwbranch < 1, 0 > 100.0% taken
+	388	forwbranch < 1, 0 > 100.0% taken
+	435	forwbranch < 1, 0 > 100.0% taken
+	482	forwbranch < 1, 0 > 100.0% taken
+	529	forwbranch < 1, 0 > 100.0% taken
+	576	forwbranch < 1, 0 > 100.0% taken
+	623	forwbranch < 1, 0 > 100.0% taken
+	670	forwbranch < 1, 0 > 100.0% taken
+	717	forwbranch < 1, 0 > 100.0% taken
+	764	forwbranch < 1, 0 > 100.0% taken
+	811	forwbranch < 1, 0 > 100.0% taken
+	858	forwbranch < 1, 0 > 100.0% taken
+	905	forwbranch < 1, 0 > 100.0% taken
+	952	forwbranch < 1, 0 > 100.0% taken
+	999	forwbranch < 1, 0 > 100.0% taken
+	1046	forwbranch < 1, 0 > 100.0% taken
+	1093	forwbranch < 1, 0 > 100.0% taken
+	1140	forwbranch < 1, 0 > 100.0% taken
+	1187	forwbranch < 1, 0 > 100.0% taken
+	1234	forwbranch < 1, 0 > 100.0% taken
+	1281	forwbranch < 1, 0 > 100.0% taken
+	1328	forwbranch < 1, 0 > 100.0% taken
+	1375	forwbranch < 1, 0 > 100.0% taken
+	1422	forwbranch < 1, 0 > 100.0% taken
+	1469	forwbranch < 1, 0 > 100.0% taken
+	1516	forwbranch < 1, 0 > 100.0% taken
+	1563	forwbranch < 1, 0 > 100.0% taken
+	1610	forwbranch < 1, 0 > 100.0% taken
+	1657	forwbranch < 1, 0 > 100.0% taken
+	1704	forwbranch < 1, 0 > 100.0% taken
+	1751	forwbranch < 1, 0 > 100.0% taken
+	1798	forwbranch < 1, 0 > 100.0% taken
+	1845	forwbranch < 1, 0 > 100.0% taken
+	1892	forwbranch < 1, 0 > 100.0% taken
+	1939	forwbranch < 1, 0 > 100.0% taken
+	1986	forwbranch < 1, 0 > 100.0% taken
+	2033	forwbranch < 1, 0 > 100.0% taken
+	2080	forwbranch < 1, 0 > 100.0% taken
+	2127	forwbranch < 1, 0 > 100.0% taken
+	2172	forwbranch < 1, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyUnicode;, unicode_new, (Lorg/python/core/PyObject;ZLorg/python/core/PyType;[Lorg/python/core/PyObject;[Ljava/lang/String;)Lorg/python/core/PyObject; >
+	66	forwbranch < 26, 0 > 100.0% taken
+	77	forwbranch < 0, 26 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyUnicode;, <clinit>, ()V >
+	3	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/BuiltinFunctions;, __call__, ()Lorg/python/core/PyObject; >
+	4	switch     < 90000, 0 >
+M 14 < SystemAppCL, Lorg/python/core/BuiltinFunctions;, __call__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	switch     < 2386, 32996, 156, 15, 0, 375000, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 12 < SystemAppCL, Lorg/python/core/BuiltinFunctions;, __call__, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	switch     < 10, 0, 0, 0, 375000, 0, 0, 15, 62, 0, 0, 0 >
+M 5 < SystemAppCL, Lorg/python/core/BuiltinFunctions;, __call__, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	switch     < 75000, 0, 0 >
+	58	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/ImportFunction;, load, (Ljava/lang/String;Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	8	forwbranch < 66, 150055 > 0.043964535% taken
+M 14 < SystemAppCL, Lorg/python/core/ImportFunction;, __call__, ([Lorg/python/core/PyObject;[Ljava/lang/String;)Lorg/python/core/PyObject; >
+	3	forwbranch < 0, 150121 > 0.0% taken
+	12	forwbranch < 150121, 0 > 100.0% taken
+	23	forwbranch < 150121, 0 > 100.0% taken
+	48	forwbranch < 0, 150121 > 0.0% taken
+	54	forwbranch < 23, 150098 > 0.015320974% taken
+	68	forwbranch < 0, 150121 > 0.0% taken
+	74	forwbranch < 0, 150121 > 0.0% taken
+M 12 < SystemAppCL, Lorg/python/core/PyMethod;, __call__, ([Lorg/python/core/PyObject;[Ljava/lang/String;)Lorg/python/core/PyObject; >
+	4	forwbranch < 79, 729271 > 0.010831563% taken
+	27	forwbranch < 79, 0 > 100.0% taken
+	36	forwbranch < 79, 0 > 100.0% taken
+	57	forwbranch < 79, 0 > 100.0% taken
+	67	forwbranch < 79, 0 > 100.0% taken
+	77	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/PyFunction;, <init>, (Lorg/python/core/PyObject;[Lorg/python/core/PyObject;Lorg/python/core/PyCode;Lorg/python/core/PyObject;[Lorg/python/core/PyObject;)V >
+	19	forwbranch < 149, 419 > 26.232395% taken
+	50	forwbranch < 568, 0 > 100.0% taken
+M 24 < SystemAppCL, Lorg/python/core/PyFunction;, __setattr__, (Ljava/lang/String;Lorg/python/core/PyObject;)V >
+	3	forwbranch < 0, 1 > 0.0% taken
+	9	forwbranch < 1, 0 > 100.0% taken
+	23	forwbranch < 1, 0 > 100.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 1, 0 > 100.0% taken
+	64	forwbranch < 1, 0 > 100.0% taken
+	71	forwbranch < 0, 0 > Never Executed
+	94	forwbranch < 0, 1 > 0.0% taken
+	100	forwbranch < 1, 0 > 100.0% taken
+	107	forwbranch < 0, 0 > Never Executed
+	114	forwbranch < 0, 0 > Never Executed
+	135	forwbranch < 0, 1 > 0.0% taken
+M 22 < SystemAppCL, Lorg/python/core/PyFunction;, __findattr__, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	3	forwbranch < 8, 0 > 100.0% taken
+	14	forwbranch < 8, 0 > 100.0% taken
+	32	forwbranch < 8, 0 > 100.0% taken
+	39	forwbranch < 0, 0 > Never Executed
+	54	forwbranch < 8, 0 > 100.0% taken
+	62	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 8 > 0.0% taken
+	90	forwbranch < 8, 0 > 100.0% taken
+	97	forwbranch < 0, 0 > Never Executed
+	120	forwbranch < 8, 0 > 100.0% taken
+	133	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/core/ThreadStateMapping2;, getThreadState, (Lorg/python/core/PySystemState;)Lorg/python/core/ThreadState; >
+	11	forwbranch < 1, 263690 > 3.7923176E-4% taken
+	21	forwbranch < 1, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/imp;, compileSource, (Ljava/lang/String;Ljava/io/InputStream;Ljava/lang/String;Ljava/lang/String;)[B >
+	10	forwbranch < 36, 0 > 100.0% taken
+	77	forwbranch < 0, 36 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/imp;, compileSource, (Ljava/lang/String;Ljava/io/InputStream;Ljava/lang/String;)[B >
+	3	forwbranch < 0, 36 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/SyspathArchive;, <init>, (Ljava/lang/String;)V >
+	11	forwbranch < 0, 178 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/imp;, replacePathItem, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 178, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/python/core/imp;, loadBuiltin, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	3	forwbranch < 52, 1 > 98.113205% taken
+	53	forwbranch < 45, 7 > 86.53846% taken
+	64	forwbranch < 0, 7 > 0.0% taken
+	108	forwbranch < 6, 1 > 85.71429% taken
+	130	forwbranch < 7, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/core/imp;, getPathImporter, (Lorg/python/core/PyObject;Lorg/python/core/PyList;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	7	forwbranch < 7, 89 > 7.2916665% taken
+	26	forwbranch < 7, 7 > 50.0% taken
+	49	forwbranch < 7, 0 > 100.0% taken
+	59	forwbranch < 0, 7 > 0.0% taken
+M 28 < SystemAppCL, Lorg/python/core/imp;, loadFromSource, (Ljava/lang/String;Ljava/lang/String;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	24	forwbranch < 96, 0 > 100.0% taken
+	73	forwbranch < 95, 1 > 98.958336% taken
+	83	forwbranch < 0, 1 > 0.0% taken
+	91	forwbranch < 1, 0 > 100.0% taken
+	99	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 1, 95 > 1.0416666% taken
+	276	forwbranch < 60, 36 > 62.5% taken
+	287	forwbranch < 0, 36 > 0.0% taken
+	295	forwbranch < 36, 0 > 100.0% taken
+	306	forwbranch < 0, 0 > Never Executed
+	356	forwbranch < 0, 0 > Never Executed
+	378	forwbranch < 0, 0 > Never Executed
+	432	forwbranch < 60, 0 > 100.0% taken
+	443	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/core/imp;, createFromClass, (Ljava/lang/String;Ljava/lang/Class;)Lorg/python/core/PyObject; >
+	10	forwbranch < 7, 6 > 53.846153% taken
+	19	forwbranch < 5, 1 > 83.333336% taken
+	37	forwbranch < 6, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/imp;, import_first, (Ljava/lang/String;Ljava/lang/StringBuffer;)Lorg/python/core/PyObject; >
+	8	forwbranch < 0, 15 > 0.0% taken
+	15	forwbranch < 7, 8 > 46.666668% taken
+M 12 < SystemAppCL, Lorg/python/core/imp;, import_next, (Lorg/python/core/PyObject;Ljava/lang/StringBuffer;Ljava/lang/String;)Lorg/python/core/PyObject; >
+	4	forwbranch < 300140, 100028 > 75.0035% taken
+	46	forwbranch < 75, 400093 > 0.01874213% taken
+	53	forwbranch < 27, 48 > 36.0% taken
+	82	forwbranch < 28, 47 > 37.333332% taken
+	90	forwbranch < 47, 0 > 100.0% taken
+	102	forwbranch < 36, 11 > 76.59574% taken
+M 8 < SystemAppCL, Lorg/python/core/imp;, getParent, (Lorg/python/core/PyObject;)Ljava/lang/String; >
+	8	forwbranch < 750130, 0 > 100.0% taken
+	26	forwbranch < 750130, 0 > 100.0% taken
+	33	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 0, 750130 > 0.0% taken
+M 8 < SystemAppCL, Lorg/python/core/imp;, import_logic, (Lorg/python/core/PyObject;Ljava/lang/StringBuffer;Ljava/lang/String;)Lorg/python/core/PyObject; >
+	16	forwbranch < 0, 250034 > 0.0% taken
+	48	forwbranch < 30, 250004 > 0.011998368% taken
+	55	forwbranch < 250004, 0 > 100.0% taken
+	89	backbranch < 0, 250004 > 0.0% taken
+M 22 < SystemAppCL, Lorg/python/core/imp;, import_name, (Ljava/lang/String;ZLorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 71112, 0 > 100.0% taken
+	27	forwbranch < 23, 71089 > 0.032343347% taken
+	46	forwbranch < 71089, 0 > 100.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+	71	forwbranch < 26, 71086 > 0.036562044% taken
+	95	forwbranch < 71112, 0 > 100.0% taken
+	126	forwbranch < 0, 71112 > 0.0% taken
+	131	forwbranch < 71108, 4 > 99.99438% taken
+	136	forwbranch < 0, 4 > 0.0% taken
+	181	forwbranch < 71082, 26 > 99.96343% taken
+	202	forwbranch < 43, 71043 > 0.06049011% taken
+M 2 < SystemAppCL, Lorg/python/core/imp;, getStarArg, ()Lorg/python/core/PyTuple; >
+	3	forwbranch < 24, 1 > 96.0% taken
+M 6 < SystemAppCL, Lorg/python/core/imp;, importFromAs, (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;Lorg/python/core/PyFrame;)[Lorg/python/core/PyObject; >
+	14	forwbranch < 22, 25 > 46.80851% taken
+	72	forwbranch < 21, 21 > 50.0% taken
+	88	forwbranch < 21, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/imp;, loadNames, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;Lorg/python/core/PyObject;Z)V >
+	14	forwbranch < 23, 506 > 4.347826% taken
+	28	forwbranch < 0, 506 > 0.0% taken
+	38	forwbranch < 401, 105 > 79.24901% taken
+M 4 < SystemAppCL, Lorg/python/core/imp;, importAll, (Ljava/lang/String;Lorg/python/core/PyFrame;)V >
+	23	forwbranch < 23, 0 > 100.0% taken
+	47	forwbranch < 23, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/python/core/SyspathArchive;, getArchiveName, (Ljava/lang/String;)Ljava/lang/String; >
+	13	forwbranch < 0, 178 > 0.0% taken
+	24	forwbranch < 0, 178 > 0.0% taken
+	36	forwbranch < 0, 0 > Never Executed
+	53	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PySequenceIter;, __iternext__, ()Lorg/python/core/PyObject; >
+	27	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/core/SyspathJavaLoader;, open, (Ljava/lang/String;Ljava/lang/String;)Ljava/io/FileInputStream; >
+	23	forwbranch < 234, 234 > 50.0% taken
+	35	forwbranch < 234, 0 > 100.0% taken
+	89	forwbranch < 234, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/python/core/SyspathJavaLoader;, loadClass, (Ljava/lang/String;Z)Ljava/lang/Class; >
+	8	forwbranch < 399, 0 > 100.0% taken
+	33	forwbranch < 58, 0 > 100.0% taken
+	57	forwbranch < 58, 234 > 19.863014% taken
+	77	forwbranch < 234, 0 > 100.0% taken
+	127	forwbranch < 0, 0 > Never Executed
+	168	forwbranch < 0, 234 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/core/exceptions;, buildClass, (Lorg/python/core/PyObject;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/python/core/PyObject; >
+	6	forwbranch < 1, 37 > 2.631579% taken
+	36	forwbranch < 37, 1 > 97.36842% taken
+M 2 < SystemAppCL, Lorg/python/core/exceptions;, getJavaFunc, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	3	forwbranch < 8, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/ArgParser;, getList, (I)Lorg/python/core/PyObject; >
+	14	forwbranch < 7438, 22360 > 24.961407% taken
+M 6 < SystemAppCL, Lorg/python/core/exceptions;, classDictInit, (Lorg/python/core/PyObject;)V >
+	46	forwbranch < 1, 0 > 100.0% taken
+	84	forwbranch < 0, 1 > 0.0% taken
+	91	forwbranch < 1, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyFrame;, getglobal, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	10	forwbranch < 53790, 833563 > 6.061849% taken
+	19	forwbranch < 53790, 0 > 100.0% taken
+	42	forwbranch < 0, 53790 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyFrame;, setlocal, (Ljava/lang/String;Lorg/python/core/PyObject;)V >
+	4	forwbranch < 1915, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyFrame;, dellocal, (Ljava/lang/String;)V >
+	4	forwbranch < 6, 0 > 100.0% taken
+	31	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PyFrame;, setline, (I)V >
+	9	forwbranch < 358278, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyFrame;, getlocal, (I)Lorg/python/core/PyObject; >
+	4	forwbranch < 0, 2767975 > 0.0% taken
+	15	forwbranch < 0, 2767975 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyFrame;, getname, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	4	forwbranch < 1601, 0 > 100.0% taken
+	20	forwbranch < 242, 1359 > 15.115553% taken
+	39	forwbranch < 232, 10 > 95.86777% taken
+M 2 < SystemAppCL, Lorg/python/core/PyFrame;, setlocal, (ILorg/python/core/PyObject;)V >
+	4	forwbranch < 0, 486277 > 0.0% taken
+M 50 < SystemAppCL, Lorg/python/core/PyTableCode;, call, ([Lorg/python/core/PyObject;[Ljava/lang/String;Lorg/python/core/PyObject;[Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	30	forwbranch < 648952, 21 > 99.996765% taken
+	48	forwbranch < 128, 648845 > 0.019723471% taken
+	62	forwbranch < 0, 648973 > 0.0% taken
+	67	forwbranch < 21932, 627041 > 3.3794935% taken
+	76	forwbranch < 109664, 517377 > 17.489128% taken
+	83	forwbranch < 0, 517377 > 0.0% taken
+	90	forwbranch < 517373, 4 > 99.99923% taken
+	97	forwbranch < 131600, 0 > 100.0% taken
+	116	forwbranch < 131600, 22249 > 85.538414% taken
+	128	forwbranch < 0, 88533 > 0.0% taken
+	145	forwbranch < 66284, 22249 > 74.869255% taken
+	163	forwbranch < 0, 22249 > 0.0% taken
+	171	forwbranch < 22249, 0 > 100.0% taken
+	237	forwbranch < 0, 0 > Never Executed
+	317	forwbranch < 131579, 21 > 99.98404% taken
+	324	forwbranch < 21, 0 > 100.0% taken
+	396	forwbranch < 21, 32 > 39.622643% taken
+	429	forwbranch < 131600, 131899 > 49.943264% taken
+	437	forwbranch < 22249, 109650 > 16.86821% taken
+	450	forwbranch < 109650, 0 > 100.0% taken
+	490	forwbranch < 0, 0 > Never Executed
+	552	forwbranch < 131575, 25 > 99.981% taken
+	557	forwbranch < 21, 4 > 84.0% taken
+	591	forwbranch < 131600, 0 > 100.0% taken
+	612	forwbranch < 648973, 0 > 100.0% taken
+M 24 < SystemAppCL, Lorg/python/core/PyTableCode;, call, (Lorg/python/core/PyFrame;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	8	forwbranch < 476911, 0 > 100.0% taken
+	36	forwbranch < 2, 476909 > 4.1936545E-4% taken
+	43	forwbranch < 1, 476908 > 2.0968361E-4% taken
+	105	forwbranch < 476911, 0 > 100.0% taken
+	136	forwbranch < 476911, 0 > 100.0% taken
+	179	forwbranch < 476911, 0 > 100.0% taken
+	208	forwbranch < 476911, 0 > 100.0% taken
+	256	forwbranch < 15, 0 > 100.0% taken
+	305	forwbranch < 15, 0 > 100.0% taken
+	324	forwbranch < 15, 0 > 100.0% taken
+	363	forwbranch < 476896, 0 > 100.0% taken
+	382	forwbranch < 476896, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/core/PyTableCode;, call, (Lorg/python/core/PyObject;[Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 0, 75000 > 0.0% taken
+	11	forwbranch < 0, 75000 > 0.0% taken
+	18	forwbranch < 75000, 0 > 100.0% taken
+	53	forwbranch < 75000, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/core/PyTableCode;, call, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;[Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	5	forwbranch < 20, 192939 > 0.010364897% taken
+	12	forwbranch < 0, 192939 > 0.0% taken
+	19	forwbranch < 192939, 0 > 100.0% taken
+	68	forwbranch < 192939, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/core/PyTableCode;, call, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;Lorg/python/core/PyObject;[Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	5	forwbranch < 11, 217 > 4.8245616% taken
+	12	forwbranch < 0, 217 > 0.0% taken
+	19	forwbranch < 217, 0 > 100.0% taken
+	81	forwbranch < 217, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/core/PyTableCode;, call, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;Lorg/python/core/PyObject;Lorg/python/core/PyObject;[Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	5	forwbranch < 5, 60051 > 0.008325563% taken
+	12	forwbranch < 0, 60051 > 0.0% taken
+	19	forwbranch < 60051, 0 > 100.0% taken
+	95	forwbranch < 60051, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/util/PythonInterpreter;, <init>, (Lorg/python/core/PyObject;Lorg/python/core/PySystemState;)V >
+	13	forwbranch < 0, 6 > 0.0% taken
+	25	forwbranch < 0, 6 > 0.0% taken
+	33	forwbranch < 6, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyInstance;, __findattr__, (Ljava/lang/String;Z)Lorg/python/core/PyObject; >
+	7	forwbranch < 66149, 316983 > 17.26533% taken
+	27	forwbranch < 44, 66105 > 0.0665165% taken
+M 6 < SystemAppCL, Lorg/python/core/PyInstance;, ifindlocal, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	3	forwbranch < 497192, 0 > 100.0% taken
+	14	forwbranch < 497192, 0 > 100.0% taken
+	26	forwbranch < 497152, 40 > 99.99196% taken
+M 4 < SystemAppCL, Lorg/python/core/PyInstance;, ifindfunction, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	9	forwbranch < 0, 56 > 0.0% taken
+	36	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PyInstance;, getCollection, ()Lorg/python/core/CollectionProxy; >
+	4	forwbranch < 145, 17 > 89.50617% taken
+M 14 < SystemAppCL, Lorg/python/core/CollectionProxy;, findCollection, (Ljava/lang/Object;)Lorg/python/core/CollectionProxy; >
+	1	forwbranch < 0, 17 > 0.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+	47	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 0, 0 > Never Executed
+	68	forwbranch < 0, 0 > Never Executed
+	87	forwbranch < 0, 0 > Never Executed
+	106	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/python/core/PyInstance;, invoke, (Ljava/lang/String;)Lorg/python/core/PyObject; >
+	7	forwbranch < 0, 12 > 0.0% taken
+	18	forwbranch < 0, 12 > 0.0% taken
+	25	forwbranch < 0, 12 > 0.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	55	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/core/PyInstance;, __finditem__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	9	forwbranch < 33, 0 > 100.0% taken
+	28	forwbranch < 33, 0 > 100.0% taken
+	49	forwbranch < 0, 15 > 0.0% taken
+M 18 < SystemAppCL, Lorg/python/core/PyInstance;, trySlice, (Lorg/python/core/PyObject;Ljava/lang/String;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	forwbranch < 12, 81 > 12.903226% taken
+	23	forwbranch < 0, 12 > 0.0% taken
+	34	forwbranch < 12, 0 > 100.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 0, 0 > Never Executed
+	76	forwbranch < 12, 0 > 100.0% taken
+	100	forwbranch < 12, 0 > 100.0% taken
+	113	forwbranch < 0, 12 > 0.0% taken
+	129	forwbranch < 0, 12 > 0.0% taken
+M 10 < SystemAppCL, Lorg/python/core/PyInstance;, invoke, (Ljava/lang/String;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	7	forwbranch < 0, 69 > 0.0% taken
+	18	forwbranch < 0, 69 > 0.0% taken
+	25	forwbranch < 0, 69 > 0.0% taken
+	46	forwbranch < 0, 0 > Never Executed
+	56	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/python/core/PyInstance;, invoke, (Ljava/lang/String;Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	9	forwbranch < 0, 12 > 0.0% taken
+	22	forwbranch < 0, 12 > 0.0% taken
+	30	forwbranch < 0, 12 > 0.0% taken
+	56	forwbranch < 0, 0 > Never Executed
+	68	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/core/PyInstance;, getCollectionIter, ()Lorg/python/core/PyObject; >
+	3	forwbranch < 14, 1 > 93.333336% taken
+	16	forwbranch < 15, 30 > 33.333332% taken
+	33	forwbranch < 30, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyInstance;, initializeIterators, ()V >
+	3	forwbranch < 1, 0 > 100.0% taken
+	69	forwbranch < 1, 2 > 33.333332% taken
+M 6 < SystemAppCL, Lorg/python/core/CollectionIter;, findCollection, (Ljava/lang/Object;)Lorg/python/core/PyObject; >
+	4	forwbranch < 15, 0 > 100.0% taken
+	26	forwbranch < 15, 0 > 100.0% taken
+	45	forwbranch < 15, 0 > 100.0% taken
+M 46 < SystemAppCL, Lorg/python/core/PyInstance;, __tojava__, (Ljava/lang/Class;)Ljava/lang/Object; >
+	4	forwbranch < 84, 1 > 98.82353% taken
+	22	forwbranch < 0, 85 > 0.0% taken
+	29	forwbranch < 84, 1 > 98.82353% taken
+	47	forwbranch < 85, 0 > 100.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+	67	forwbranch < 70, 15 > 82.35294% taken
+	76	forwbranch < 70, 0 > 100.0% taken
+	82	forwbranch < 0, 0 > Never Executed
+	104	forwbranch < 0, 0 > Never Executed
+	135	forwbranch < 0, 0 > Never Executed
+	166	forwbranch < 0, 0 > Never Executed
+	197	forwbranch < 0, 0 > Never Executed
+	228	forwbranch < 0, 0 > Never Executed
+	259	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 0, 0 > Never Executed
+	321	forwbranch < 0, 0 > Never Executed
+	355	forwbranch < 0, 0 > Never Executed
+	364	forwbranch < 70, 0 > 100.0% taken
+	374	forwbranch < 0, 0 > Never Executed
+	389	forwbranch < 6, 64 > 8.571428% taken
+	404	forwbranch < 6, 0 > 100.0% taken
+	427	forwbranch < 0, 0 > Never Executed
+	436	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/python/core/PyInstance;, __nonzero__, ()Z >
+	14	forwbranch < 0, 24 > 0.0% taken
+	26	forwbranch < 24, 0 > 100.0% taken
+	33	forwbranch < 0, 0 > Never Executed
+	54	forwbranch < 24, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyInstance;, __len__, ()I >
+	9	forwbranch < 12, 0 > 100.0% taken
+	28	forwbranch < 0, 12 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyInstance;, __finditem__, (I)Lorg/python/core/PyObject; >
+	9	forwbranch < 33, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyInstance;, __getitem__, (Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	9	forwbranch < 48, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	42	forwbranch < 36, 12 > 75.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyInstance;, __setitem__, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;)V >
+	9	forwbranch < 12, 0 > 100.0% taken
+	27	forwbranch < 12, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/PyInstance;, __iter__, ()Lorg/python/core/PyObject; >
+	6	forwbranch < 15, 0 > 100.0% taken
+	19	forwbranch < 15, 0 > 100.0% taken
+	35	forwbranch < 15, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/ArgParser;, <init>, (Ljava/lang/String;[Lorg/python/core/PyObject;[Ljava/lang/String;)V >
+	20	forwbranch < 52689, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/core/ArgParser;, check, ()V >
+	20	forwbranch < 276724, 0 > 100.0% taken
+	31	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 0, 0 > Never Executed
+	54	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/core/ArgParser;, getArg, (ILjava/lang/Class;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object; >
+	8	forwbranch < 52, 16 > 76.47059% taken
+	30	forwbranch < 0, 52 > 0.0% taken
+	49	forwbranch < 16, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/ArgParser;, getRequiredArg, (I)Lorg/python/core/PyObject; >
+	7	forwbranch < 160123, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/ArgParser;, getOptionalArg, (I)Lorg/python/core/PyObject; >
+	14	forwbranch < 322, 221226 > 0.14534096% taken
+	32	forwbranch < 322, 0 > 100.0% taken
+	50	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/python/core/parser;, prepBufreader, (Ljava/io/InputStream;Lorg/python/core/CompilerFlags;)Ljava/io/BufferedReader; >
+	14	forwbranch < 40, 2 > 95.2381% taken
+	24	forwbranch < 42, 0 > 100.0% taken
+	33	forwbranch < 36, 6 > 85.71429% taken
+	40	forwbranch < 6, 0 > 100.0% taken
+	62	forwbranch < 0, 42 > 0.0% taken
+M 8 < SystemAppCL, Lorg/python/core/parser;, doparse, (Ljava/lang/String;Lorg/python/core/CompilerFlags;Lorg/python/parser/PythonGrammar;)Lorg/python/parser/ast/modType; >
+	3	forwbranch < 36, 6 > 85.71429% taken
+	23	forwbranch < 42, 0 > 100.0% taken
+	40	forwbranch < 0, 42 > 0.0% taken
+	57	forwbranch < 0, 0 > Never Executed
+M 246 < SystemAppCL, Lorg/python/parser/PythonGrammar;, file_input, ()Lorg/python/parser/ast/modType; >
+	37	forwbranch < 38, 748 > 4.8346057% taken
+	51	switch     < 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 0, 0, 0, 5, 15, 0, 183, 82, 0, 0, 0, 0, 0, 0, 0, 38, 42, 4, 0, 0, 0, 1, 0, 307, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 42 >
+	549	forwbranch < 744, 0 > 100.0% taken
+	563	switch     < 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 0, 0, 0, 5, 15, 0, 183, 82, 0, 0, 0, 0, 0, 0, 0, 38, 42, 4, 0, 0, 0, 1, 0, 307, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	1121	forwbranch < 0, 0 > Never Executed
+	1149	forwbranch < 0, 0 > Never Executed
+	1161	forwbranch < 0, 0 > Never Executed
+	1185	forwbranch < 42, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/FixMacReaderBug;, read, ([CII)I >
+	12	forwbranch < 82, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/parser/PythonGrammar;, getToken, (I)Lorg/python/parser/Token; >
+	4	forwbranch < 133004, 0 > 100.0% taken
+	23	forwbranch < 133004, 133004 > 50.0% taken
+	30	forwbranch < 16453, 116551 > 12.370305% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, <init>, (Lorg/python/parser/CharStream;)V >
+	121	forwbranch < 42, 4452 > 0.93457943% taken
+	145	forwbranch < 42, 1050 > 3.8461537% taken
+M 12 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_consume_token, (I)Lorg/python/parser/Token; >
+	9	forwbranch < 4408, 74344 > 5.597318% taken
+	58	forwbranch < 0, 78752 > 0.0% taken
+	84	forwbranch < 77993, 759 > 99.03622% taken
+	100	forwbranch < 759, 18975 > 3.8461537% taken
+	113	forwbranch < 18975, 19519 > 49.293396% taken
+	125	forwbranch < 947, 18572 > 4.851683% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_ntk, ()I >
+	12	forwbranch < 9380, 15908 > 37.092693% taken
+M 6 < SystemAppCL, Lorg/python/parser/PythonGrammar;, simple_stmt, ()V >
+	9	forwbranch < 8443, 18 > 99.78726% taken
+	31	forwbranch < 7771, 672 > 92.04074% taken
+	45	switch     < 0, 8443 >
+M 12 < SystemAppCL, Lorg/python/parser/PythonGrammar;, compound_stmt, ()V >
+	13	forwbranch < 2068, 0 > 100.0% taken
+	27	switch     < 857, 0, 0, 37, 280, 258, 0, 527, 109, 0 >
+M 4 < SystemAppCL, Lorg/python/parser/JJTPythonGrammarState;, closeNodeScope, (Lorg/python/parser/Node;Z)V >
+	6	forwbranch < 64592, 34862 > 64.94661% taken
+	71	forwbranch < 34862, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/JJTPythonGrammarState;, popNode, ()Lorg/python/parser/Node; >
+	15	forwbranch < 58467, 0 > 100.0% taken
+M 107 < SystemAppCL, Lorg/python/parser/PythonGrammar;, stmt, ()V >
+	5	forwbranch < 7742, 2736 > 73.888145% taken
+	19	switch     < 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 857, 0, 0, 37, 280, 258, 0, 527, 109, 0, 511, 426, 38, 41, 398, 0, 172, 46, 45, 135, 6, 0, 4, 0, 5781, 0, 300, 0, 0, 300, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 178, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 16 < SystemAppCL, Lorg/python/parser/PythonGrammar;, SmartTestList, ()V >
+	34	forwbranch < 12141, 870 > 93.31335% taken
+	56	forwbranch < 12141, 0 > 100.0% taken
+	70	switch     < 8, 12133 >
+	114	forwbranch < 0, 0 > Never Executed
+	142	forwbranch < 0, 0 > Never Executed
+	154	forwbranch < 0, 0 > Never Executed
+	178	forwbranch < 0, 12141 > 0.0% taken
+	194	forwbranch < 11652, 489 > 95.97233% taken
+M 96 < SystemAppCL, Lorg/python/parser/PythonGrammar;, AnyName, ()Lorg/python/parser/Token; >
+	5	forwbranch < 48, 4154 > 1.1423132% taken
+	19	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4202, 0 >
+	216	forwbranch < 0, 4202 > 0.0% taken
+	301	forwbranch < 0, 0 > Never Executed
+	388	forwbranch < 0, 0 > Never Executed
+	475	forwbranch < 0, 0 > Never Executed
+	562	forwbranch < 0, 0 > Never Executed
+	649	forwbranch < 0, 0 > Never Executed
+	736	forwbranch < 0, 0 > Never Executed
+	823	forwbranch < 0, 0 > Never Executed
+	910	forwbranch < 0, 0 > Never Executed
+	997	forwbranch < 0, 0 > Never Executed
+	1084	forwbranch < 0, 0 > Never Executed
+	1171	forwbranch < 0, 0 > Never Executed
+	1258	forwbranch < 0, 0 > Never Executed
+	1345	forwbranch < 0, 0 > Never Executed
+	1432	forwbranch < 0, 0 > Never Executed
+	1519	forwbranch < 0, 0 > Never Executed
+	1606	forwbranch < 0, 0 > Never Executed
+	1693	forwbranch < 0, 0 > Never Executed
+	1780	forwbranch < 0, 0 > Never Executed
+	1867	forwbranch < 0, 0 > Never Executed
+	1954	forwbranch < 0, 0 > Never Executed
+	2041	forwbranch < 0, 0 > Never Executed
+	2128	forwbranch < 0, 0 > Never Executed
+	2215	forwbranch < 0, 0 > Never Executed
+	2302	forwbranch < 0, 0 > Never Executed
+	2389	forwbranch < 0, 0 > Never Executed
+	2476	forwbranch < 0, 0 > Never Executed
+	2563	forwbranch < 0, 0 > Never Executed
+	2650	forwbranch < 0, 0 > Never Executed
+	2737	forwbranch < 0, 0 > Never Executed
+	2824	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/python/parser/PythonGrammar;, parameters, ()V >
+	12	forwbranch < 0, 527 > 0.0% taken
+	26	switch     < 0, 7, 0, 0, 502, 18 >
+M 234 < SystemAppCL, Lorg/python/parser/PythonGrammar;, suite, ()V >
+	30	forwbranch < 0, 2769 > 0.0% taken
+	44	switch     < 2736, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 16, 0, 0, 0, 1, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	570	forwbranch < 1108, 8642 > 11.364102% taken
+	584	switch     < 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 576, 0, 0, 27, 209, 197, 0, 330, 9, 0, 330, 0, 7, 8, 237, 0, 79, 0, 30, 9, 2, 0, 3, 0, 4347, 0, 298, 0, 0, 298, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2736 >
+	1076	forwbranch < 0, 0 > Never Executed
+	1104	forwbranch < 0, 0 > Never Executed
+	1116	forwbranch < 0, 0 > Never Executed
+	1140	forwbranch < 0, 2769 > 0.0% taken
+M 29 < SystemAppCL, Lorg/python/parser/PythonGrammar;, varargslist, ()V >
+	5	forwbranch < 516, 0 > 100.0% taken
+	19	switch     < 0, 7, 0, 0, 509, 0 >
+	77	forwbranch < 509, 372 > 57.775257% taken
+	99	forwbranch < 503, 6 > 98.82122% taken
+	118	forwbranch < 509, 0 > 100.0% taken
+	137	forwbranch < 503, 6 > 98.82122% taken
+	151	switch     < 0, 509 >
+	197	forwbranch < 0, 7 > 0.0% taken
+	209	forwbranch < 0, 7 > 0.0% taken
+	223	switch     < 2, 5 >
+	273	forwbranch < 0, 0 > Never Executed
+	287	switch     < 0, 0, 0 >
+M 12 < SystemAppCL, Lorg/python/parser/PythonGrammar;, defaultarg, ()V >
+	34	forwbranch < 0, 881 > 0.0% taken
+	48	switch     < 183, 698 >
+	101	forwbranch < 0, 0 > Never Executed
+	129	forwbranch < 0, 0 > Never Executed
+	141	forwbranch < 0, 0 > Never Executed
+	165	forwbranch < 0, 881 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_2, (I)Z >
+	22	forwbranch < 509, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_3, (I)Z >
+	22	forwbranch < 503, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/parser/PythonGrammar;, ExtraArgList, ()V >
+	43	forwbranch < 0, 0 > Never Executed
+	71	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 0, 0 > Never Executed
+	107	forwbranch < 0, 13 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_4, (I)Z >
+	22	forwbranch < 509, 0 > 100.0% taken
+M 13 < SystemAppCL, Lorg/python/parser/PythonGrammar;, ExtraKeywordList, ()V >
+	30	forwbranch < 0, 2 > 0.0% taken
+	44	switch     < 0, 2, 0 >
+	136	forwbranch < 0, 0 > Never Executed
+	164	forwbranch < 0, 0 > Never Executed
+	176	forwbranch < 0, 0 > Never Executed
+	200	forwbranch < 0, 2 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_5, (I)Z >
+	22	forwbranch < 0, 0 > Never Executed
+M 7 < SystemAppCL, Lorg/python/parser/PythonGrammar;, Name, ()V >
+	30	forwbranch < 17135, 139 > 99.19532% taken
+	44	switch     < 0, 17274, 0 >
+	182	forwbranch < 17274, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/parser/PythonGrammar;, fpdef, ()V >
+	5	forwbranch < 509, 372 > 57.775257% taken
+	19	switch     < 0, 0, 881, 0 >
+M 37 < SystemAppCL, Lorg/python/parser/PythonGrammar;, test, ()V >
+	30	forwbranch < 11114, 8879 > 55.589455% taken
+	44	switch     < 322, 96, 155, 0, 114, 0, 103, 8, 0, 13843, 2844, 0, 27, 586, 1, 1327, 371, 0, 195, 1, 0 >
+	232	forwbranch < 20013, 0 > 100.0% taken
+	246	switch     < 28, 19985 >
+	328	forwbranch < 0, 0 > Never Executed
+	356	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 0, 0 > Never Executed
+	392	forwbranch < 0, 19993 > 0.0% taken
+	408	forwbranch < 19967, 26 > 99.86996% taken
+M 107 < SystemAppCL, Lorg/python/parser/PythonGrammar;, small_stmt, ()V >
+	5	forwbranch < 8443, 18 > 99.78726% taken
+	19	switch     < 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 513, 426, 38, 41, 414, 0, 172, 46, 46, 135, 6, 0, 4, 0, 5813, 0, 300, 0, 0, 300, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 178, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_7, (I)Z >
+	22	forwbranch < 8443, 0 > 100.0% taken
+M 123 < SystemAppCL, Lorg/python/parser/PythonGrammar;, expr_stmt, ()V >
+	9	forwbranch < 6620, 0 > 100.0% taken
+	23	switch     < 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6619 >
+	128	forwbranch < 0, 0 > Never Executed
+	156	forwbranch < 0, 0 > Never Executed
+	168	forwbranch < 0, 0 > Never Executed
+	192	forwbranch < 0, 1 > 0.0% taken
+	258	forwbranch < 0, 0 > Never Executed
+	288	forwbranch < 0, 0 > Never Executed
+	302	forwbranch < 0, 0 > Never Executed
+	329	forwbranch < 0, 0 > Never Executed
+	398	forwbranch < 0, 0 > Never Executed
+	429	forwbranch < 0, 0 > Never Executed
+	443	forwbranch < 0, 0 > Never Executed
+	470	forwbranch < 0, 0 > Never Executed
+	541	forwbranch < 0, 0 > Never Executed
+	572	forwbranch < 0, 0 > Never Executed
+	586	forwbranch < 0, 0 > Never Executed
+	613	forwbranch < 0, 0 > Never Executed
+	684	forwbranch < 0, 0 > Never Executed
+	715	forwbranch < 0, 0 > Never Executed
+	729	forwbranch < 0, 0 > Never Executed
+	756	forwbranch < 0, 0 > Never Executed
+	827	forwbranch < 0, 0 > Never Executed
+	858	forwbranch < 0, 0 > Never Executed
+	872	forwbranch < 0, 0 > Never Executed
+	899	forwbranch < 0, 0 > Never Executed
+	970	forwbranch < 0, 0 > Never Executed
+	1001	forwbranch < 0, 0 > Never Executed
+	1015	forwbranch < 0, 0 > Never Executed
+	1042	forwbranch < 0, 0 > Never Executed
+	1113	forwbranch < 0, 0 > Never Executed
+	1144	forwbranch < 0, 0 > Never Executed
+	1158	forwbranch < 0, 0 > Never Executed
+	1185	forwbranch < 0, 0 > Never Executed
+	1256	forwbranch < 0, 0 > Never Executed
+	1287	forwbranch < 0, 0 > Never Executed
+	1301	forwbranch < 0, 0 > Never Executed
+	1328	forwbranch < 0, 0 > Never Executed
+	1399	forwbranch < 0, 0 > Never Executed
+	1430	forwbranch < 0, 0 > Never Executed
+	1444	forwbranch < 0, 0 > Never Executed
+	1471	forwbranch < 0, 0 > Never Executed
+	1542	forwbranch < 0, 0 > Never Executed
+	1573	forwbranch < 0, 0 > Never Executed
+	1587	forwbranch < 0, 0 > Never Executed
+	1614	forwbranch < 0, 0 > Never Executed
+	1685	forwbranch < 0, 0 > Never Executed
+	1716	forwbranch < 0, 0 > Never Executed
+	1730	forwbranch < 0, 0 > Never Executed
+	1757	forwbranch < 0, 0 > Never Executed
+	1823	forwbranch < 10919, 0 > 100.0% taken
+	1837	switch     < 4300, 6619 >
+	1897	forwbranch < 0, 0 > Never Executed
+	1928	forwbranch < 0, 0 > Never Executed
+	1942	forwbranch < 0, 0 > Never Executed
+	1969	forwbranch < 0, 6619 > 0.0% taken
+M 42 < SystemAppCL, Lorg/python/parser/PythonGrammar;, print_stmt, ()V >
+	5	forwbranch < 513, 0 > 100.0% taken
+	56	forwbranch < 0, 0 > Never Executed
+	70	switch     < 0, 0 >
+	104	forwbranch < 0, 0 > Never Executed
+	115	forwbranch < 0, 0 > Never Executed
+	129	switch     < 0, 0 >
+	188	forwbranch < 0, 0 > Never Executed
+	216	forwbranch < 0, 0 > Never Executed
+	228	forwbranch < 0, 0 > Never Executed
+	252	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 140, 373 > 27.29045% taken
+	320	forwbranch < 373, 5 > 98.677246% taken
+	342	forwbranch < 373, 0 > 100.0% taken
+	356	switch     < 9, 364 >
+	402	forwbranch < 0, 0 > Never Executed
+	430	forwbranch < 0, 0 > Never Executed
+	442	forwbranch < 0, 0 > Never Executed
+	466	forwbranch < 0, 373 > 0.0% taken
+	490	forwbranch < 140, 0 > 100.0% taken
+	504	switch     < 140, 0 >
+	573	forwbranch < 0, 140 > 0.0% taken
+M 8 < SystemAppCL, Lorg/python/parser/PythonGrammar;, del_stmt, ()V >
+	44	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 0 > Never Executed
+	108	forwbranch < 0, 46 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, pass_stmt, ()V >
+	47	forwbranch < 0, 426 > 0.0% taken
+M 15 < SystemAppCL, Lorg/python/parser/PythonGrammar;, flow_stmt, ()V >
+	5	forwbranch < 628, 0 > 100.0% taken
+	19	switch     < 38, 41, 414, 0, 0, 0, 0, 135, 0 >
+	111	forwbranch < 0, 38 > 0.0% taken
+	181	forwbranch < 0, 41 > 0.0% taken
+M 5 < SystemAppCL, Lorg/python/parser/PythonGrammar;, import_stmt, ()V >
+	5	forwbranch < 218, 0 > 100.0% taken
+	19	switch     < 172, 46, 0 >
+M 12 < SystemAppCL, Lorg/python/parser/PythonGrammar;, global_stmt, ()V >
+	41	forwbranch < 0, 12 > 0.0% taken
+	55	switch     < 6, 6 >
+	111	forwbranch < 0, 0 > Never Executed
+	139	forwbranch < 0, 0 > Never Executed
+	151	forwbranch < 0, 0 > Never Executed
+	175	forwbranch < 0, 6 > 0.0% taken
+M 12 < SystemAppCL, Lorg/python/parser/PythonGrammar;, assert_stmt, ()V >
+	41	forwbranch < 4, 0 > 100.0% taken
+	55	switch     < 2, 2 >
+	105	forwbranch < 0, 0 > Never Executed
+	133	forwbranch < 0, 0 > Never Executed
+	145	forwbranch < 0, 0 > Never Executed
+	169	forwbranch < 0, 4 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/JJTPythonGrammarState;, closeNodeScope, (Lorg/python/parser/Node;I)V >
+	75	forwbranch < 17806, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_10, (I)Z >
+	22	forwbranch < 513, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, Comma, ()V >
+	47	forwbranch < 0, 30 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_11, (I)Z >
+	22	forwbranch < 140, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_9, (I)Z >
+	22	forwbranch < 373, 0 > 100.0% taken
+M 16 < SystemAppCL, Lorg/python/parser/PythonGrammar;, exprlist, ()V >
+	34	forwbranch < 328, 36 > 90.10989% taken
+	56	forwbranch < 328, 0 > 100.0% taken
+	70	switch     < 0, 328 >
+	114	forwbranch < 0, 0 > Never Executed
+	142	forwbranch < 0, 0 > Never Executed
+	154	forwbranch < 0, 0 > Never Executed
+	178	forwbranch < 0, 328 > 0.0% taken
+	194	forwbranch < 296, 32 > 90.243904% taken
+M 31 < SystemAppCL, Lorg/python/parser/PythonGrammar;, return_stmt, ()V >
+	37	forwbranch < 0, 414 > 0.0% taken
+	51	switch     < 10, 6, 7, 0, 0, 0, 0, 0, 0, 261, 64, 0, 0, 12, 0, 7, 4, 0, 0, 0, 43 >
+	246	forwbranch < 0, 0 > Never Executed
+	274	forwbranch < 0, 0 > Never Executed
+	286	forwbranch < 0, 0 > Never Executed
+	310	forwbranch < 0, 414 > 0.0% taken
+M 39 < SystemAppCL, Lorg/python/parser/PythonGrammar;, raise_stmt, ()V >
+	37	forwbranch < 0, 135 > 0.0% taken
+	51	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 135, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	229	forwbranch < 135, 0 > 100.0% taken
+	243	switch     < 55, 80 >
+	276	forwbranch < 55, 0 > 100.0% taken
+	290	switch     < 0, 55 >
+	369	forwbranch < 0, 0 > Never Executed
+	397	forwbranch < 0, 0 > Never Executed
+	409	forwbranch < 0, 0 > Never Executed
+	433	forwbranch < 0, 135 > 0.0% taken
+M 12 < SystemAppCL, Lorg/python/parser/PythonGrammar;, Import, ()V >
+	34	forwbranch < 200, 2 > 99.0099% taken
+	48	switch     < 30, 172 >
+	107	forwbranch < 0, 0 > Never Executed
+	135	forwbranch < 0, 0 > Never Executed
+	147	forwbranch < 0, 0 > Never Executed
+	171	forwbranch < 0, 172 > 0.0% taken
+M 81 < SystemAppCL, Lorg/python/parser/PythonGrammar;, ImportFrom, ()V >
+	42	forwbranch < 0, 46 > 0.0% taken
+	56	switch     < 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 0 >
+	341	forwbranch < 26, 1 > 96.296295% taken
+	355	switch     < 4, 23 >
+	426	forwbranch < 23, 0 > 100.0% taken
+	436	forwbranch < 0, 0 > Never Executed
+	484	forwbranch < 0, 0 > Never Executed
+	513	forwbranch < 0, 0 > Never Executed
+	527	forwbranch < 0, 0 > Never Executed
+	553	forwbranch < 23, 23 > 50.0% taken
+M 12 < SystemAppCL, Lorg/python/parser/PythonGrammar;, dotted_as_name, ()V >
+	35	forwbranch < 202, 0 > 100.0% taken
+	49	switch     < 2, 200 >
+	101	forwbranch < 0, 0 > Never Executed
+	129	forwbranch < 0, 0 > Never Executed
+	141	forwbranch < 0, 0 > Never Executed
+	165	forwbranch < 0, 202 > 0.0% taken
+M 12 < SystemAppCL, Lorg/python/parser/PythonGrammar;, dotted_name, ()Ljava/lang/String; >
+	54	forwbranch < 0, 277 > 0.0% taken
+	68	switch     < 29, 248 >
+	180	forwbranch < 0, 0 > Never Executed
+	209	forwbranch < 0, 0 > Never Executed
+	223	forwbranch < 0, 0 > Never Executed
+	249	forwbranch < 248, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/python/parser/PythonGrammar;, import_as_name, ()Ljava/lang/String; >
+	35	forwbranch < 0, 27 > 0.0% taken
+	49	switch     < 1, 26 >
+	124	forwbranch < 0, 0 > Never Executed
+	153	forwbranch < 0, 0 > Never Executed
+	167	forwbranch < 0, 0 > Never Executed
+	193	forwbranch < 27, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/python/parser/PythonGrammar;, expr, ()V >
+	9	forwbranch < 22029, 0 > 100.0% taken
+	23	switch     < 3, 22026 >
+	101	forwbranch < 0, 0 > Never Executed
+	129	forwbranch < 0, 0 > Never Executed
+	141	forwbranch < 0, 0 > Never Executed
+	165	forwbranch < 0, 3 > 0.0% taken
+M 16 < SystemAppCL, Lorg/python/parser/PythonGrammar;, if_stmt, ()V >
+	52	forwbranch < 0, 1008 > 0.0% taken
+	66	switch     < 151, 857 >
+	131	forwbranch < 857, 0 > 100.0% taken
+	145	switch     < 259, 598 >
+	204	forwbranch < 0, 0 > Never Executed
+	232	forwbranch < 0, 0 > Never Executed
+	244	forwbranch < 0, 0 > Never Executed
+	268	forwbranch < 0, 857 > 0.0% taken
+M 12 < SystemAppCL, Lorg/python/parser/PythonGrammar;, while_stmt, ()V >
+	52	forwbranch < 0, 37 > 0.0% taken
+	66	switch     < 0, 37 >
+	124	forwbranch < 0, 0 > Never Executed
+	152	forwbranch < 0, 0 > Never Executed
+	164	forwbranch < 0, 0 > Never Executed
+	188	forwbranch < 0, 37 > 0.0% taken
+M 12 < SystemAppCL, Lorg/python/parser/PythonGrammar;, for_stmt, ()V >
+	63	forwbranch < 0, 280 > 0.0% taken
+	77	switch     < 6, 274 >
+	136	forwbranch < 0, 0 > Never Executed
+	164	forwbranch < 0, 0 > Never Executed
+	176	forwbranch < 0, 0 > Never Executed
+	200	forwbranch < 0, 280 > 0.0% taken
+M 29 < SystemAppCL, Lorg/python/parser/PythonGrammar;, try_stmt, ()V >
+	23	forwbranch < 0, 258 > 0.0% taken
+	37	switch     < 256, 2, 0 >
+	98	forwbranch < 0, 264 > 0.0% taken
+	112	switch     < 8, 256 >
+	154	forwbranch < 256, 0 > 100.0% taken
+	168	switch     < 19, 237 >
+	228	forwbranch < 0, 0 > Never Executed
+	256	forwbranch < 0, 0 > Never Executed
+	268	forwbranch < 0, 0 > Never Executed
+	292	forwbranch < 0, 256 > 0.0% taken
+	373	forwbranch < 0, 0 > Never Executed
+	403	forwbranch < 0, 0 > Never Executed
+	417	forwbranch < 0, 0 > Never Executed
+	444	forwbranch < 0, 2 > 0.0% taken
+M 8 < SystemAppCL, Lorg/python/parser/PythonGrammar;, funcdef, ()V >
+	59	forwbranch < 0, 0 > Never Executed
+	87	forwbranch < 0, 0 > Never Executed
+	99	forwbranch < 0, 0 > Never Executed
+	123	forwbranch < 0, 527 > 0.0% taken
+M 12 < SystemAppCL, Lorg/python/parser/PythonGrammar;, classdef, ()V >
+	41	forwbranch < 0, 109 > 0.0% taken
+	55	switch     < 72, 37 >
+	123	forwbranch < 0, 0 > Never Executed
+	151	forwbranch < 0, 0 > Never Executed
+	163	forwbranch < 0, 0 > Never Executed
+	187	forwbranch < 0, 109 > 0.0% taken
+M 35 < SystemAppCL, Lorg/python/parser/PythonGrammar;, except_clause, ()V >
+	37	forwbranch < 0, 264 > 0.0% taken
+	51	switch     < 3, 0, 0, 0, 0, 0, 0, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 160 >
+	229	forwbranch < 104, 0 > 100.0% taken
+	243	switch     < 30, 74 >
+	318	forwbranch < 0, 0 > Never Executed
+	346	forwbranch < 0, 0 > Never Executed
+	358	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 264 > 0.0% taken
+M 16 < SystemAppCL, Lorg/python/parser/PythonGrammar;, lambdef, ()V >
+	37	forwbranch < 0, 8 > 0.0% taken
+	51	switch     < 0, 0, 0, 0, 7, 1 >
+	137	forwbranch < 0, 0 > Never Executed
+	165	forwbranch < 0, 0 > Never Executed
+	177	forwbranch < 0, 0 > Never Executed
+	201	forwbranch < 0, 8 > 0.0% taken
+M 14 < SystemAppCL, Lorg/python/parser/PythonGrammar;, and_test, ()V >
+	34	forwbranch < 20126, 0 > 100.0% taken
+	48	switch     < 113, 20013 >
+	107	forwbranch < 0, 0 > Never Executed
+	135	forwbranch < 0, 0 > Never Executed
+	147	forwbranch < 0, 0 > Never Executed
+	171	forwbranch < 0, 20013 > 0.0% taken
+	187	forwbranch < 19905, 108 > 99.46035% taken
+M 30 < SystemAppCL, Lorg/python/parser/PythonGrammar;, not_test, ()V >
+	5	forwbranch < 19985, 257 > 98.73036% taken
+	19	switch     < 331, 96, 155, 0, 114, 0, 116, 0, 14073, 2844, 0, 27, 586, 1, 1329, 374, 0, 195, 1, 0 >
+	224	forwbranch < 0, 0 > Never Executed
+	252	forwbranch < 0, 0 > Never Executed
+	264	forwbranch < 0, 0 > Never Executed
+	288	forwbranch < 0, 116 > 0.0% taken
+M 37 < SystemAppCL, Lorg/python/parser/PythonGrammar;, comparison, ()V >
+	34	forwbranch < 21662, 0 > 100.0% taken
+	48	switch     < 315, 344, 497, 20, 17, 2, 110, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 113, 11, 185, 35, 19984 >
+	196	forwbranch < 0, 0 > Never Executed
+	224	forwbranch < 0, 0 > Never Executed
+	236	forwbranch < 0, 0 > Never Executed
+	260	forwbranch < 0, 20126 > 0.0% taken
+	276	forwbranch < 18600, 1526 > 92.41777% taken
+M 55 < SystemAppCL, Lorg/python/parser/PythonGrammar;, comp_op, ()V >
+	5	forwbranch < 1536, 0 > 100.0% taken
+	19	switch     < 315, 344, 497, 20, 17, 2, 110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 185, 35, 0 >
+	175	forwbranch < 0, 344 > 0.0% taken
+	245	forwbranch < 0, 315 > 0.0% taken
+	318	forwbranch < 0, 497 > 0.0% taken
+	393	forwbranch < 0, 17 > 0.0% taken
+	468	forwbranch < 0, 20 > 0.0% taken
+	543	forwbranch < 0, 2 > 0.0% taken
+	618	forwbranch < 0, 110 > 0.0% taken
+	693	forwbranch < 0, 35 > 0.0% taken
+	775	forwbranch < 0, 11 > 0.0% taken
+	812	forwbranch < 103, 82 > 55.675674% taken
+	876	forwbranch < 0, 82 > 0.0% taken
+	902	forwbranch < 103, 0 > 100.0% taken
+	916	switch     < 103, 0 >
+	990	forwbranch < 0, 103 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_12, (I)Z >
+	22	forwbranch < 103, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/python/parser/PythonGrammar;, xor_expr, ()V >
+	9	forwbranch < 22029, 0 > 100.0% taken
+	23	switch     < 0, 22029 >
+	101	forwbranch < 0, 0 > Never Executed
+	129	forwbranch < 0, 0 > Never Executed
+	141	forwbranch < 0, 0 > Never Executed
+	165	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/python/parser/PythonGrammar;, and_expr, ()V >
+	9	forwbranch < 22055, 0 > 100.0% taken
+	23	switch     < 26, 22029 >
+	101	forwbranch < 0, 0 > Never Executed
+	129	forwbranch < 0, 0 > Never Executed
+	141	forwbranch < 0, 0 > Never Executed
+	165	forwbranch < 0, 26 > 0.0% taken
+M 26 < SystemAppCL, Lorg/python/parser/PythonGrammar;, shift_expr, ()V >
+	9	forwbranch < 22057, 0 > 100.0% taken
+	23	switch     < 2, 0, 22055 >
+	70	forwbranch < 2, 0 > 100.0% taken
+	84	switch     < 2, 0, 0 >
+	156	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	196	forwbranch < 0, 0 > Never Executed
+	220	forwbranch < 0, 2 > 0.0% taken
+	286	forwbranch < 0, 0 > Never Executed
+	316	forwbranch < 0, 0 > Never Executed
+	330	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 0 > Never Executed
+M 26 < SystemAppCL, Lorg/python/parser/PythonGrammar;, arith_expr, ()V >
+	9	forwbranch < 22929, 0 > 100.0% taken
+	23	switch     < 654, 218, 22057 >
+	70	forwbranch < 872, 0 > 100.0% taken
+	84	switch     < 654, 218, 0 >
+	156	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	196	forwbranch < 0, 0 > Never Executed
+	220	forwbranch < 0, 654 > 0.0% taken
+	286	forwbranch < 0, 0 > Never Executed
+	316	forwbranch < 0, 0 > Never Executed
+	330	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 218 > 0.0% taken
+M 52 < SystemAppCL, Lorg/python/parser/PythonGrammar;, term, ()V >
+	9	forwbranch < 23962, 0 > 100.0% taken
+	23	switch     < 461, 232, 0, 0, 2, 0, 340, 22927 >
+	86	forwbranch < 1033, 0 > 100.0% taken
+	100	switch     < 461, 232, 0, 0, 0, 0, 340, 0 >
+	188	forwbranch < 0, 0 > Never Executed
+	216	forwbranch < 0, 0 > Never Executed
+	228	forwbranch < 0, 0 > Never Executed
+	252	forwbranch < 0, 461 > 0.0% taken
+	318	forwbranch < 0, 0 > Never Executed
+	348	forwbranch < 0, 0 > Never Executed
+	362	forwbranch < 0, 0 > Never Executed
+	389	forwbranch < 0, 232 > 0.0% taken
+	458	forwbranch < 0, 0 > Never Executed
+	489	forwbranch < 0, 0 > Never Executed
+	503	forwbranch < 0, 0 > Never Executed
+	530	forwbranch < 0, 0 > Never Executed
+	601	forwbranch < 0, 0 > Never Executed
+	632	forwbranch < 0, 0 > Never Executed
+	646	forwbranch < 0, 0 > Never Executed
+	673	forwbranch < 0, 340 > 0.0% taken
+M 45 < SystemAppCL, Lorg/python/parser/PythonGrammar;, factor, ()V >
+	5	forwbranch < 20126, 3950 > 83.59362% taken
+	19	switch     < 568, 96, 156, 0, 114, 0, 0, 16254, 3882, 7, 29, 800, 16, 1530, 427, 0, 195, 2, 0 >
+	216	forwbranch < 0, 0 > Never Executed
+	244	forwbranch < 0, 0 > Never Executed
+	256	forwbranch < 0, 0 > Never Executed
+	280	forwbranch < 0, 0 > Never Executed
+	346	forwbranch < 0, 0 > Never Executed
+	376	forwbranch < 0, 0 > Never Executed
+	390	forwbranch < 0, 0 > Never Executed
+	417	forwbranch < 0, 114 > 0.0% taken
+	486	forwbranch < 0, 0 > Never Executed
+	517	forwbranch < 0, 0 > Never Executed
+	531	forwbranch < 0, 0 > Never Executed
+	558	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/python/parser/PythonGrammar;, power, ()V >
+	9	forwbranch < 23962, 0 > 100.0% taken
+	56	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 0 > Never Executed
+	96	forwbranch < 0, 0 > Never Executed
+	120	forwbranch < 0, 0 > Never Executed
+M 34 < SystemAppCL, Lorg/python/parser/PythonGrammar;, atomtrailer, ()V >
+	9	forwbranch < 2152, 28894 > 6.9316497% taken
+	23	switch     < 2644, 1189, 3251, 23962 >
+	78	forwbranch < 6421, 663 > 90.640884% taken
+	135	forwbranch < 0, 663 > 0.0% taken
+	159	forwbranch < 6421, 0 > 100.0% taken
+	173	switch     < 1981, 1189, 3251, 0 >
+	259	forwbranch < 0, 0 > Never Executed
+	287	forwbranch < 0, 0 > Never Executed
+	299	forwbranch < 0, 0 > Never Executed
+	323	forwbranch < 0, 1981 > 0.0% taken
+	412	forwbranch < 0, 1189 > 0.0% taken
+	482	forwbranch < 0, 0 > Never Executed
+	513	forwbranch < 0, 0 > Never Executed
+	527	forwbranch < 0, 0 > Never Executed
+	554	forwbranch < 0, 3251 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_13, (I)Z >
+	22	forwbranch < 23962, 0 > 100.0% taken
+M 124 < SystemAppCL, Lorg/python/parser/PythonGrammar;, atom, ()V >
+	5	forwbranch < 23959, 3 > 99.98748% taken
+	62	forwbranch < 0, 3 > 0.0% taken
+	86	forwbranch < 23959, 0 > 100.0% taken
+	100	switch     < 565, 96, 156, 0, 16254, 3882, 7, 29, 800, 16, 1530, 427, 0, 195, 2, 0 >
+	244	forwbranch < 0, 565 > 0.0% taken
+	258	switch     < 38, 0, 1, 0, 0, 0, 6, 2, 0, 399, 30, 0, 0, 6, 0, 70, 13, 0, 0, 0, 0 >
+	493	forwbranch < 0, 156 > 0.0% taken
+	507	switch     < 9, 0, 0, 0, 1, 0, 0, 0, 0, 23, 14, 0, 0, 6, 0, 11, 10, 0, 0, 0, 82 >
+	709	forwbranch < 0, 0 > Never Executed
+	737	forwbranch < 0, 0 > Never Executed
+	749	forwbranch < 0, 0 > Never Executed
+	773	forwbranch < 0, 156 > 0.0% taken
+	830	forwbranch < 0, 96 > 0.0% taken
+	844	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 25, 0, 0, 0, 0, 6, 3, 0, 0, 0, 56 >
+	1051	forwbranch < 0, 0 > Never Executed
+	1081	forwbranch < 0, 0 > Never Executed
+	1095	forwbranch < 0, 0 > Never Executed
+	1122	forwbranch < 0, 96 > 0.0% taken
+	1206	forwbranch < 0, 2 > 0.0% taken
+	1250	forwbranch < 0, 2213 > 0.0% taken
+	1264	switch     < 54, 7, 0, 0, 2152 >
+	1356	forwbranch < 0, 0 > Never Executed
+	1387	forwbranch < 0, 0 > Never Executed
+	1401	forwbranch < 0, 0 > Never Executed
+	1428	forwbranch < 0, 61 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_14, (I)Z >
+	22	forwbranch < 6421, 0 > 100.0% taken
+M 143 < SystemAppCL, Lorg/python/parser/PythonGrammar;, arglist, ()V >
+	5	forwbranch < 0, 1981 > 0.0% taken
+	19	switch     < 36, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1412, 0, 245, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 206, 69, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	457	forwbranch < 1978, 0 > 100.0% taken
+	471	switch     < 0, 1978 >
+	500	forwbranch < 0, 0 > Never Executed
+	514	switch     < 0, 0, 0 >
+	545	forwbranch < 0, 0 > Never Executed
+	557	forwbranch < 0, 0 > Never Executed
+	571	switch     < 0, 0 >
+	621	forwbranch < 0, 0 > Never Executed
+	635	switch     < 0, 0, 0 >
+	736	forwbranch < 3, 0 > 100.0% taken
+	750	switch     < 3, 0, 0 >
+	781	forwbranch < 0, 3 > 0.0% taken
+	793	forwbranch < 3, 0 > 100.0% taken
+	807	switch     < 2, 1 >
+	857	forwbranch < 0, 0 > Never Executed
+	871	switch     < 0, 0, 0 >
+M 16 < SystemAppCL, Lorg/python/parser/PythonGrammar;, subscriptlist, ()V >
+	34	forwbranch < 1189, 0 > 100.0% taken
+	56	forwbranch < 1189, 0 > 100.0% taken
+	70	switch     < 0, 1189 >
+	114	forwbranch < 0, 0 > Never Executed
+	142	forwbranch < 0, 0 > Never Executed
+	154	forwbranch < 0, 0 > Never Executed
+	178	forwbranch < 0, 1189 > 0.0% taken
+	194	forwbranch < 1189, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_15, (I)Z >
+	22	forwbranch < 23959, 0 > 100.0% taken
+M 24 < SystemAppCL, Lorg/python/parser/PythonGrammar;, listmaker, ()V >
+	9	forwbranch < 74, 0 > 100.0% taken
+	23	switch     < 2, 72 >
+	49	forwbranch < 2, 0 > 100.0% taken
+	63	switch     < 0, 2 >
+	113	forwbranch < 72, 298 > 19.45946% taken
+	160	forwbranch < 72, 0 > 100.0% taken
+	174	switch     < 13, 59 >
+	218	forwbranch < 0, 0 > Never Executed
+	246	forwbranch < 0, 0 > Never Executed
+	258	forwbranch < 0, 0 > Never Executed
+	282	forwbranch < 0, 72 > 0.0% taken
+	298	forwbranch < 72, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/parser/PythonGrammar;, dictmaker, ()V >
+	20	forwbranch < 40, 140 > 22.222221% taken
+	53	forwbranch < 40, 0 > 100.0% taken
+	67	switch     < 8, 32 >
+M 10 < SystemAppCL, Lorg/python/parser/PythonGrammar;, Number, ()V >
+	30	forwbranch < 4734, 0 > 100.0% taken
+	44	switch     < 3882, 7, 29, 800, 16, 0 >
+	333	forwbranch < 4734, 0 > 100.0% taken
+M 15 < SystemAppCL, Lorg/python/parser/PythonGrammar;, String, ()V >
+	5	forwbranch < 2213, 0 > 100.0% taken
+	19	switch     < 1584, 434, 0, 195, 0 >
+	126	forwbranch < 1584, 0 > 100.0% taken
+	232	forwbranch < 434, 0 > 100.0% taken
+	340	forwbranch < 0, 0 > Never Executed
+	448	forwbranch < 195, 0 > 100.0% taken
+M 49 < SystemAppCL, Lorg/python/parser/PythonGrammar;, subscript, ()V >
+	5	forwbranch < 0, 1189 > 0.0% taken
+	19	switch     < 0, 0, 0, 0, 192, 0, 57, 0, 0, 0, 0, 191, 561, 0, 0, 60, 0, 128, 0, 0, 0, 0, 0 >
+	265	forwbranch < 0, 0 > Never Executed
+	319	forwbranch < 997, 0 > 100.0% taken
+	333	switch     < 236, 761 >
+	380	forwbranch < 0, 0 > Never Executed
+	410	forwbranch < 0, 0 > Never Executed
+	424	forwbranch < 0, 0 > Never Executed
+	451	forwbranch < 0, 997 > 0.0% taken
+	513	forwbranch < 0, 0 > Never Executed
+	544	forwbranch < 0, 0 > Never Executed
+	558	forwbranch < 0, 0 > Never Executed
+	585	forwbranch < 0, 192 > 0.0% taken
+	601	forwbranch < 0, 192 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_16, (I)Z >
+	22	forwbranch < 1189, 0 > 100.0% taken
+M 50 < SystemAppCL, Lorg/python/parser/PythonGrammar;, slice, ()V >
+	9	forwbranch < 0, 428 > 0.0% taken
+	23	switch     < 1, 0, 0, 0, 49, 0, 0, 0, 0, 17, 188, 0, 0, 0, 0, 0, 0, 0, 0, 0, 173 >
+	215	forwbranch < 428, 0 > 100.0% taken
+	229	switch     < 0, 428 >
+	257	forwbranch < 0, 0 > Never Executed
+	271	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, Colon, ()V >
+	47	forwbranch < 0, 428 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_17, (I)Z >
+	22	forwbranch < 328, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_18, (I)Z >
+	22	forwbranch < 12141, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_19, (I)Z >
+	22	forwbranch < 72, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_20, (I)Z >
+	22	forwbranch < 40, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/python/parser/PythonGrammar;, list_for, ()V >
+	52	forwbranch < 3, 0 > 100.0% taken
+	66	switch     < 1, 2 >
+	116	forwbranch < 0, 0 > Never Executed
+	144	forwbranch < 0, 0 > Never Executed
+	156	forwbranch < 0, 0 > Never Executed
+	180	forwbranch < 0, 2 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_21, (I)Z >
+	22	forwbranch < 72, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/parser/PythonGrammar;, testlist, ()V >
+	9	forwbranch < 72, 0 > 100.0% taken
+	31	forwbranch < 72, 0 > 100.0% taken
+	45	switch     < 0, 72 >
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, normalargs, ()V >
+	9	forwbranch < 1978, 998 > 66.46506% taken
+M 8 < SystemAppCL, Lorg/python/parser/PythonGrammar;, ExtraArgValueList, ()V >
+	44	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 0 > Never Executed
+	108	forwbranch < 0, 3 > 0.0% taken
+M 13 < SystemAppCL, Lorg/python/parser/PythonGrammar;, ExtraKeywordValueList, ()V >
+	30	forwbranch < 0, 2 > 0.0% taken
+	44	switch     < 0, 2, 0 >
+	136	forwbranch < 0, 0 > Never Executed
+	164	forwbranch < 0, 0 > Never Executed
+	176	forwbranch < 0, 0 > Never Executed
+	200	forwbranch < 0, 2 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_23, (I)Z >
+	22	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lorg/python/parser/PythonGrammar;, argument, ()V >
+	30	forwbranch < 2856, 120 > 95.96774% taken
+	57	forwbranch < 0, 0 > Never Executed
+	85	forwbranch < 0, 0 > Never Executed
+	97	forwbranch < 0, 0 > Never Executed
+	121	forwbranch < 0, 2976 > 0.0% taken
+	137	forwbranch < 2856, 120 > 95.96774% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_24, (I)Z >
+	22	forwbranch < 1978, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_2_25, (I)Z >
+	22	forwbranch < 2856, 0 > 100.0% taken
+M 16 < SystemAppCL, Lorg/python/parser/PythonGrammar;, makeInt, (Ljava/lang/String;I)Ljava/lang/Object; >
+	6	forwbranch < 316, 3602 > 8.065339% taken
+	15	forwbranch < 3602, 0 > 100.0% taken
+	60	forwbranch < 408, 3662 > 10.02457% taken
+	71	forwbranch < 3194, 468 > 87.2201% taken
+	86	forwbranch < 3602, 0 > 100.0% taken
+	124	forwbranch < 0, 3602 > 0.0% taken
+	130	forwbranch < 35, 3567 > 0.97168237% taken
+	139	forwbranch < 3567, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/parser/PythonGrammar;, makeString, (Ljava/lang/String;I)Ljava/lang/String; >
+	15	forwbranch < 70, 2143 > 3.163127% taken
+	21	forwbranch < 2143, 0 > 100.0% taken
+	40	forwbranch < 20, 2193 > 0.90375054% taken
+	46	forwbranch < 2193, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_save, (II)V >
+	15	forwbranch < 28690, 200 > 99.30772% taken
+	22	forwbranch < 184, 16 > 92.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_2, ()Z >
+	6	forwbranch < 378, 503 > 42.90579% taken
+	15	forwbranch < 0, 6 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_3, ()Z >
+	6	forwbranch < 6, 503 > 1.1787819% taken
+	15	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_4, ()Z >
+	6	forwbranch < 0, 509 > 0.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_5, ()Z >
+	4	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_7, ()Z >
+	6	forwbranch < 18, 8443 > 0.21274081% taken
+	15	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_9, ()Z >
+	6	forwbranch < 14, 364 > 3.7037036% taken
+	15	forwbranch < 0, 9 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_10, ()Z >
+	6	forwbranch < 513, 0 > 100.0% taken
+	17	forwbranch < 0, 513 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_11, ()Z >
+	6	forwbranch < 513, 0 > 100.0% taken
+	15	forwbranch < 0, 140 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_12, ()Z >
+	6	forwbranch < 185, 0 > 100.0% taken
+	17	forwbranch < 0, 103 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_13, ()Z >
+	6	forwbranch < 0, 23962 > 0.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_14, ()Z >
+	6	forwbranch < 2644, 4440 > 37.323547% taken
+	17	forwbranch < 0, 1981 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_15, ()Z >
+	6	forwbranch < 568, 25699 > 2.162409% taken
+	17	forwbranch < 0, 565 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_16, ()Z >
+	6	forwbranch < 0, 1189 > 0.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_17, ()Z >
+	6	forwbranch < 36, 328 > 9.89011% taken
+	15	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_18, ()Z >
+	6	forwbranch < 878, 12133 > 6.748136% taken
+	15	forwbranch < 0, 8 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_19, ()Z >
+	6	forwbranch < 0, 72 > 0.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_20, ()Z >
+	6	forwbranch < 148, 32 > 82.22222% taken
+	15	forwbranch < 0, 8 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_21, ()Z >
+	6	forwbranch < 311, 59 > 84.054054% taken
+	15	forwbranch < 0, 13 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_23, ()Z >
+	4	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_24, ()Z >
+	6	forwbranch < 998, 1978 > 33.534946% taken
+	15	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3_25, ()Z >
+	4	forwbranch < 1947, 1496 > 56.549522% taken
+	15	forwbranch < 0, 1827 > 0.0% taken
+M 18 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_scan_token, (I)Z >
+	8	forwbranch < 77973, 97278 > 44.492184% taken
+	28	forwbranch < 88090, 9188 > 90.5549% taken
+	92	forwbranch < 175251, 0 > 100.0% taken
+	103	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+	126	forwbranch < 0, 0 > Never Executed
+	143	forwbranch < 13167, 162084 > 7.513224% taken
+	152	forwbranch < 9173, 3994 > 69.66659% taken
+	163	forwbranch < 0, 3994 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_45, ()Z >
+	9	forwbranch < 0, 2352 > 0.0% taken
+	21	forwbranch < 0, 178 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_75, ()Z >
+	6	forwbranch < 1943, 1500 > 56.433342% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_76, ()Z >
+	6	forwbranch < 0, 1500 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_77, ()Z >
+	6	forwbranch < 0, 1500 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_78, ()Z >
+	6	forwbranch < 0, 1500 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_79, ()Z >
+	6	forwbranch < 0, 1500 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_80, ()Z >
+	6	forwbranch < 0, 1500 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_81, ()Z >
+	6	forwbranch < 4, 1496 > 0.26666668% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_82, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_83, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_84, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_85, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_86, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_87, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_88, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_89, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_90, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_91, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_92, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_93, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_94, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_95, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_96, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_97, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_98, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_99, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_100, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_101, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_102, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_103, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_104, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_105, ()Z >
+	6	forwbranch < 0, 1496 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_122, ()Z >
+	4	forwbranch < 0, 0 > Never Executed
+M 18 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_44, ()Z >
+	9	forwbranch < 0, 0 > Never Executed
+	21	forwbranch < 0, 0 > Never Executed
+	33	forwbranch < 0, 0 > Never Executed
+	45	forwbranch < 0, 0 > Never Executed
+	57	forwbranch < 0, 0 > Never Executed
+	69	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 0, 0 > Never Executed
+	93	forwbranch < 0, 0 > Never Executed
+	105	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_158, ()Z >
+	6	forwbranch < 0, 318 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_159, ()Z >
+	6	forwbranch < 0, 178 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_160, ()Z >
+	6	forwbranch < 0, 178 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_161, ()Z >
+	6	forwbranch < 0, 178 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_108, ()Z >
+	4	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_56, ()Z >
+	4	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_106, ()Z >
+	6	forwbranch < 0, 1366 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_107, ()Z >
+	6	forwbranch < 0, 1366 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_43, ()Z >
+	9	forwbranch < 0, 6 > 0.0% taken
+	21	forwbranch < 0, 6 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_52, ()Z >
+	9	forwbranch < 0, 1366 > 0.0% taken
+	21	forwbranch < 0, 1366 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_54, ()Z >
+	4	forwbranch < 0, 6 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_55, ()Z >
+	6	forwbranch < 0, 6 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_40, ()Z >
+	4	forwbranch < 0, 6 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_153, ()Z >
+	6	forwbranch < 0, 1360 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_154, ()Z >
+	6	forwbranch < 0, 1359 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_155, ()Z >
+	6	forwbranch < 0, 1071 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_156, ()Z >
+	6	forwbranch < 0, 1023 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_157, ()Z >
+	6	forwbranch < 0, 1023 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_41, ()Z >
+	6	forwbranch < 13, 0 > 100.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+M 62 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_51, ()Z >
+	9	forwbranch < 1943, 1500 > 56.433342% taken
+	21	forwbranch < 0, 1500 > 0.0% taken
+	33	forwbranch < 0, 1500 > 0.0% taken
+	45	forwbranch < 0, 1500 > 0.0% taken
+	57	forwbranch < 0, 1500 > 0.0% taken
+	69	forwbranch < 0, 1500 > 0.0% taken
+	81	forwbranch < 4, 1496 > 0.26666668% taken
+	93	forwbranch < 0, 1496 > 0.0% taken
+	105	forwbranch < 0, 1496 > 0.0% taken
+	117	forwbranch < 0, 1496 > 0.0% taken
+	129	forwbranch < 0, 1496 > 0.0% taken
+	141	forwbranch < 0, 1496 > 0.0% taken
+	153	forwbranch < 0, 1496 > 0.0% taken
+	165	forwbranch < 0, 1496 > 0.0% taken
+	177	forwbranch < 0, 1496 > 0.0% taken
+	189	forwbranch < 0, 1496 > 0.0% taken
+	201	forwbranch < 0, 1496 > 0.0% taken
+	213	forwbranch < 0, 1496 > 0.0% taken
+	225	forwbranch < 0, 1496 > 0.0% taken
+	237	forwbranch < 0, 1496 > 0.0% taken
+	249	forwbranch < 0, 1496 > 0.0% taken
+	261	forwbranch < 0, 1496 > 0.0% taken
+	273	forwbranch < 0, 1496 > 0.0% taken
+	285	forwbranch < 0, 1496 > 0.0% taken
+	297	forwbranch < 0, 1496 > 0.0% taken
+	309	forwbranch < 0, 1496 > 0.0% taken
+	321	forwbranch < 0, 1496 > 0.0% taken
+	333	forwbranch < 0, 1496 > 0.0% taken
+	345	forwbranch < 0, 1496 > 0.0% taken
+	357	forwbranch < 0, 1496 > 0.0% taken
+	369	forwbranch < 0, 1496 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_50, ()Z >
+	9	forwbranch < 0, 467 > 0.0% taken
+	21	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_49, ()Z >
+	6	forwbranch < 3, 0 > 100.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_48, ()Z >
+	4	forwbranch < 0, 178 > 0.0% taken
+M 8 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_152, ()Z >
+	9	forwbranch < 0, 318 > 0.0% taken
+	21	forwbranch < 0, 178 > 0.0% taken
+	33	forwbranch < 0, 178 > 0.0% taken
+	45	forwbranch < 0, 178 > 0.0% taken
+M 10 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_151, ()Z >
+	9	forwbranch < 0, 1360 > 0.0% taken
+	21	forwbranch < 0, 1359 > 0.0% taken
+	33	forwbranch < 0, 1071 > 0.0% taken
+	45	forwbranch < 0, 1023 > 0.0% taken
+	57	forwbranch < 0, 1023 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_143, ()Z >
+	6	forwbranch < 0, 2305 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_144, ()Z >
+	6	forwbranch < 0, 2294 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_145, ()Z >
+	6	forwbranch < 0, 2294 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_146, ()Z >
+	6	forwbranch < 0, 2294 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_147, ()Z >
+	4	forwbranch < 0, 1360 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_148, ()Z >
+	4	forwbranch < 0, 1023 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_149, ()Z >
+	4	forwbranch < 0, 178 > 0.0% taken
+M 8 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_46, ()Z >
+	9	forwbranch < 0, 2388 > 0.0% taken
+	21	forwbranch < 0, 2388 > 0.0% taken
+	33	forwbranch < 0, 2388 > 0.0% taken
+	45	forwbranch < 0, 178 > 0.0% taken
+M 16 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_140, ()Z >
+	9	forwbranch < 0, 2305 > 0.0% taken
+	21	forwbranch < 0, 2305 > 0.0% taken
+	33	forwbranch < 0, 2294 > 0.0% taken
+	45	forwbranch < 0, 2294 > 0.0% taken
+	57	forwbranch < 0, 2294 > 0.0% taken
+	69	forwbranch < 0, 1360 > 0.0% taken
+	81	forwbranch < 0, 1023 > 0.0% taken
+	93	forwbranch < 0, 178 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_132, ()Z >
+	4	forwbranch < 0, 178 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_119, ()Z >
+	4	forwbranch < 0, 178 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_67, ()Z >
+	6	forwbranch < 0, 2388 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_68, ()Z >
+	6	forwbranch < 0, 2388 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_69, ()Z >
+	6	forwbranch < 0, 2388 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_70, ()Z >
+	4	forwbranch < 0, 178 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_150, ()Z >
+	4	forwbranch < 0, 178 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_141, ()Z >
+	4	forwbranch < 0, 178 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_134, ()Z >
+	4	forwbranch < 0, 178 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_121, ()Z >
+	4	forwbranch < 0, 178 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_74, ()Z >
+	4	forwbranch < 0, 178 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_142, ()Z >
+	4	forwbranch < 0, 178 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_118, ()Z >
+	4	forwbranch < 0, 178 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_138, ()Z >
+	6	forwbranch < 0, 2352 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_139, ()Z >
+	4	forwbranch < 0, 178 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_131, ()Z >
+	9	forwbranch < 0, 2352 > 0.0% taken
+	21	forwbranch < 0, 178 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_65, ()Z >
+	4	forwbranch < 0, 2352 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_66, ()Z >
+	4	forwbranch < 0, 178 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammar;, jj_3R_117, ()Z >
+	6	forwbranch < 0, 2352 > 0.0% taken
+M 46 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, getNextToken, ()Lorg/python/parser/Token; >
+	59	switch     < 74456, 768, 10425, 0, 125118, 10040, 0, 21344, 5022, 0, 50843, 0, 0, 0 >
+	140	forwbranch < 62180, 54396 > 53.338596% taken
+	155	forwbranch < 12276, 42120 > 22.567837% taken
+	460	forwbranch < 0, 298016 > 0.0% taken
+	471	forwbranch < 242212, 55804 > 81.27483% taken
+	515	forwbranch < 219900, 78116 > 73.78799% taken
+	542	forwbranch < 59830, 18286 > 76.591225% taken
+	587	forwbranch < 77209, 142691 > 35.11096% taken
+	613	forwbranch < 141611, 1080 > 99.24312% taken
+	622	forwbranch < 362, 718 > 33.51852% taken
+	664	backbranch < 136418, 6273 > 95.60379% taken
+	695	forwbranch < 74996, 2213 > 97.13375% taken
+	796	forwbranch < 0, 0 > Never Executed
+	822	forwbranch < 0, 0 > Never Executed
+	831	forwbranch < 0, 0 > Never Executed
+	848	forwbranch < 0, 0 > Never Executed
+	864	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/parser/ReaderCharStream;, ExpandBuff, (Z)V >
+	35	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/ReaderCharStream;, backup, (I)V >
+	21	forwbranch < 141483, 12 > 99.991516% taken
+M 6 < SystemAppCL, Lorg/python/parser/ReaderCharStream;, readChar, ()C >
+	4	forwbranch < 60416, 7392 > 89.09863% taken
+	31	forwbranch < 7390, 2 > 99.972946% taken
+	71	forwbranch < 60383, 33 > 99.94538% taken
+M 16 < SystemAppCL, Lorg/python/parser/ReaderCharStream;, FillBuff, ()V >
+	8	forwbranch < 82, 138 > 37.272728% taken
+	19	forwbranch < 44, 94 > 31.884058% taken
+	29	forwbranch < 39, 55 > 41.48936% taken
+	57	forwbranch < 1, 38 > 2.5641026% taken
+	89	forwbranch < 0, 44 > 0.0% taken
+	115	forwbranch < 0, 0 > Never Executed
+	161	forwbranch < 178, 42 > 80.90909% taken
+	211	forwbranch < 0, 42 > 0.0% taken
+M 12 < SystemAppCL, Lorg/python/parser/ReaderCharStream;, UpdateLineColumn, (C)V >
+	14	forwbranch < 443385, 17114 > 96.2836% taken
+	44	forwbranch < 443385, 0 > 100.0% taken
+	55	forwbranch < 0, 0 > Never Executed
+	82	switch     < 59, 17154, 0, 0, 0, 443286 >
+M 2 < SystemAppCL, Lorg/python/parser/ReaderCharStream;, GetImage, ()Ljava/lang/String; >
+	8	forwbranch < 48, 40648 > 0.11794771% taken
+M 2 < SystemAppCL, Lorg/python/parser/ReaderCharStream;, GetSuffix, (I)[C >
+	11	forwbranch < 28, 153771 > 0.01820558% taken
+M 2 < SystemAppCL, Lorg/python/parser/IntStack;, push, (I)V >
+	9	forwbranch < 399012, 0 > 100.0% taken
+M 202 < SystemAppCL, Lorg/python/parser/TreeBuilder;, closeNode, (Lorg/python/parser/SimpleNode;I)Lorg/python/parser/SimpleNode; >
+	4	switch     < 0, 0, 42, 0, 527, 0, 13, 2, 881, 524, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6619, 0, 513, 46, 426, 38, 41, 414, 0, 135, 172, 46, 202, 248, 27, 6, 0, 4, 857, 37, 280, 256, 2, 264, 2769, 26, 108, 116, 1526, 344, 315, 497, 17, 20, 112, 35, 11, 82, 103, 3, 0, 26, 2, 0, 654, 218, 461, 232, 0, 340, 0, 114, 0, 0, 2644, 1189, 3251, 156, 96, 2, 61, 8, 0, 0, 1189, 428, 30, 2, 109, 3, 2, 120, 4734, 0, 21476, 2213, 0 >
+	517	forwbranch < 2769, 9801 > 22.028639% taken
+	555	forwbranch < 2348, 4271 > 35.473637% taken
+	684	forwbranch < 373, 140 > 72.70955% taken
+	707	forwbranch < 364, 9 > 97.58713% taken
+	745	forwbranch < 0, 0 > Never Executed
+	798	forwbranch < 274, 6 > 97.85714% taken
+	861	forwbranch < 37, 0 > 100.0% taken
+	903	forwbranch < 598, 259 > 69.7783% taken
+	949	forwbranch < 857, 151 > 85.019844% taken
+	1056	forwbranch < 183, 698 > 20.77185% taken
+	1151	forwbranch < 43, 371 > 10.386474% taken
+	1186	forwbranch < 135, 0 > 100.0% taken
+	1201	forwbranch < 80, 55 > 59.25926% taken
+	1216	forwbranch < 0, 135 > 0.0% taken
+	1257	forwbranch < 0, 0 > Never Executed
+	1272	forwbranch < 0, 0 > Never Executed
+	1305	forwbranch < 2, 2 > 50.0% taken
+	1366	forwbranch < 237, 19 > 92.578125% taken
+	1398	forwbranch < 256, 264 > 49.23077% taken
+	1443	forwbranch < 234, 30 > 88.63636% taken
+	1458	forwbranch < 234, 30 > 88.63636% taken
+	1472	forwbranch < 160, 104 > 60.60606% taken
+	1551	forwbranch < 1526, 1536 > 49.836708% taken
+	1580	switch     < 344, 315, 497, 17, 20, 112, 35, 11, 82, 103, 0 >
+	1930	forwbranch < 663, 1981 > 25.075644% taken
+	1942	forwbranch < 1979, 2 > 99.89904% taken
+	1962	forwbranch < 663, 1981 > 25.075644% taken
+	1974	forwbranch < 1978, 3 > 99.848564% taken
+	2011	forwbranch < 2644, 2976 > 47.046265% taken
+	2031	forwbranch < 2856, 120 > 95.96774% taken
+	2058	forwbranch < 2644, 2856 > 48.072727% taken
+	2099	forwbranch < 2644, 120 > 95.65846% taken
+	2110	forwbranch < 120, 0 > 100.0% taken
+	2244	forwbranch < 82, 74 > 52.564102% taken
+	2254	forwbranch < 72, 2 > 97.297295% taken
+	2272	forwbranch < 2, 2 > 50.0% taken
+	2347	forwbranch < 96, 180 > 34.782608% taken
+	2498	forwbranch < 1189, 1680 > 41.443012% taken
+	2531	forwbranch < 1189, 1680 > 41.443012% taken
+	2544	forwbranch < 1252, 428 > 74.52381% taken
+	2575	forwbranch < 428, 761 > 35.996635% taken
+	2623	forwbranch < 0, 0 > Never Executed
+	2748	forwbranch < 2, 1 > 66.666664% taken
+	2855	forwbranch < 248, 277 > 47.238094% taken
+	2860	forwbranch < 248, 29 > 89.530685% taken
+	2908	forwbranch < 200, 2 > 99.0099% taken
+	2936	forwbranch < 26, 1 > 96.296295% taken
+M 2 < SystemAppCL, Lorg/python/parser/TreeBuilder;, openNode, (I)Lorg/python/parser/SimpleNode; >
+	5	forwbranch < 132932, 72 > 99.94587% taken
+M 2 < SystemAppCL, Lorg/python/parser/TreeBuilder;, makeExprs, (I)[Lorg/python/parser/ast/exprType; >
+	10	forwbranch < 5611, 6868 > 44.96354% taken
+M 2 < SystemAppCL, Lorg/python/parser/TreeBuilder;, makeAliases, (I)[Lorg/python/parser/ast/aliasType; >
+	10	forwbranch < 218, 229 > 48.769573% taken
+M 2 < SystemAppCL, Lorg/python/parser/TreeBuilder;, makeStmts, (I)[Lorg/python/parser/ast/stmtType; >
+	10	forwbranch < 42, 728 > 5.4545455% taken
+M 2 < SystemAppCL, Lorg/python/parser/CtxVisitor;, setStore, ([Lorg/python/parser/SimpleNode;)V >
+	5	forwbranch < 4271, 4300 > 49.830826% taken
+M 2 < SystemAppCL, Lorg/python/parser/CtxVisitor;, setDelete, ([Lorg/python/parser/SimpleNode;)V >
+	5	forwbranch < 46, 46 > 50.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/TreeBuilder;, makeExprs, ()[Lorg/python/parser/ast/exprType; >
+	7	forwbranch < 85, 1100 > 7.1729956% taken
+	19	forwbranch < 1079, 21 > 98.09091% taken
+M 12 < SystemAppCL, Lorg/python/parser/TreeBuilder;, makeArguments, (I)Lorg/python/parser/ast/argumentsType; >
+	5	forwbranch < 19, 516 > 3.5514019% taken
+	17	forwbranch < 514, 2 > 99.612404% taken
+	35	forwbranch < 19, 516 > 3.5514019% taken
+	46	forwbranch < 503, 13 > 97.48062% taken
+	85	forwbranch < 535, 881 > 37.782486% taken
+	134	forwbranch < 698, 183 > 79.22815% taken
+M 2 < SystemAppCL, Lorg/python/parser/TreeBuilder;, makeIdentifiers, ()[Ljava/lang/String; >
+	18	forwbranch < 6, 12 > 33.333332% taken
+M 2 < SystemAppCL, Lorg/python/parser/CtxVisitor;, visitTuple, (Lorg/python/parser/ast/Tuple;)Ljava/lang/Object; >
+	5	forwbranch < 188, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, SwitchTo, (I)V >
+	3	forwbranch < 0, 135198 > 0.0% taken
+	7	forwbranch < 135198, 0 > 100.0% taken
+M 9 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjStopStringLiteralDfa_10, (IJJ)I >
+	1	switch     < 65, 0, 0 >
+	36	forwbranch < 0, 65 > 0.0% taken
+	57	forwbranch < 0, 0 > Never Executed
+	64	forwbranch < 0, 0 > Never Executed
+M 50 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveNfa_10, (II)I >
+	35	forwbranch < 49383, 0 > 100.0% taken
+	48	forwbranch < 35526, 13857 > 71.939735% taken
+	69	switch     < 13798, 16, 43 >
+	104	forwbranch < 0, 13798 > 0.0% taken
+	111	forwbranch < 0, 13798 > 0.0% taken
+	129	forwbranch < 16, 0 > 100.0% taken
+	136	forwbranch < 0, 0 > Never Executed
+	150	backbranch < 0, 13857 > 0.0% taken
+	163	forwbranch < 0, 35526 > 0.0% taken
+	187	switch     < 35464, 0, 40, 22 >
+	216	forwbranch < 0, 35464 > 0.0% taken
+	229	forwbranch < 35408, 56 > 99.842094% taken
+	258	forwbranch < 0, 0 > Never Executed
+	285	forwbranch < 0, 40 > 0.0% taken
+	299	backbranch < 0, 35526 > 0.0% taken
+	364	switch     < 0, 0, 0 >
+	405	forwbranch < 0, 0 > Never Executed
+	412	forwbranch < 0, 0 > Never Executed
+	435	forwbranch < 0, 0 > Never Executed
+	442	forwbranch < 0, 0 > Never Executed
+	456	backbranch < 0, 0 > Never Executed
+	463	forwbranch < 81, 49302 > 0.16402406% taken
+	503	forwbranch < 56, 49327 > 0.11339935% taken
+M 5 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveStringLiteralDfa1_10, (J)I >
+	31	switch     < 1, 195, 64 >
+	63	forwbranch < 1, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveStringLiteralDfa2_10, (JJ)I >
+	7	forwbranch < 195, 0 > 100.0% taken
+	50	switch     < 195, 0 >
+	75	forwbranch < 0, 195 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjCheckNAdd, (I)V >
+	10	forwbranch < 0, 242005 > 0.0% taken
+M 7 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjStopStringLiteralDfa_8, (IJJ)I >
+	1	switch     < 56, 0, 0 >
+	36	forwbranch < 0, 56 > 0.0% taken
+	57	forwbranch < 0, 0 > Never Executed
+M 57 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveNfa_8, (II)I >
+	35	forwbranch < 4588, 0 > 100.0% taken
+	48	forwbranch < 4048, 540 > 88.23016% taken
+	69	switch     < 539, 0, 1, 0, 0 >
+	108	forwbranch < 0, 539 > 0.0% taken
+	115	forwbranch < 0, 539 > 0.0% taken
+	133	forwbranch < 1, 0 > 100.0% taken
+	140	forwbranch < 0, 0 > Never Executed
+	156	forwbranch < 1, 0 > 100.0% taken
+	163	forwbranch < 0, 0 > Never Executed
+	179	forwbranch < 0, 0 > Never Executed
+	186	forwbranch < 0, 0 > Never Executed
+	200	backbranch < 0, 540 > 0.0% taken
+	213	forwbranch < 0, 4048 > 0.0% taken
+	237	switch     < 3993, 0, 55, 0 >
+	268	forwbranch < 0, 3993 > 0.0% taken
+	281	forwbranch < 3993, 0 > 100.0% taken
+	299	forwbranch < 43, 12 > 78.181816% taken
+	306	forwbranch < 0, 12 > 0.0% taken
+	322	forwbranch < 0, 0 > Never Executed
+	338	backbranch < 0, 4048 > 0.0% taken
+	403	switch     < 0, 0 >
+	433	forwbranch < 0, 0 > Never Executed
+	440	forwbranch < 0, 0 > Never Executed
+	454	backbranch < 0, 0 > Never Executed
+	461	forwbranch < 44, 4544 > 0.95902354% taken
+	501	forwbranch < 0, 4588 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveStringLiteralDfa1_8, (J)I >
+	31	switch     < 0, 56 >
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjAddStates, (II)V >
+	26	backbranch < 54747, 27423 > 66.6265% taken
+M 22 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveNfa_2, (II)I >
+	35	forwbranch < 10425, 0 > 100.0% taken
+	48	forwbranch < 0, 10425 > 0.0% taken
+	69	switch     < 10425, 0 >
+	96	forwbranch < 0, 10425 > 0.0% taken
+	110	backbranch < 0, 10425 > 0.0% taken
+	123	forwbranch < 0, 0 > Never Executed
+	147	switch     < 0 >
+	160	backbranch < 0, 0 > Never Executed
+	225	switch     < 0 >
+	240	backbranch < 0, 0 > Never Executed
+	247	forwbranch < 0, 10425 > 0.0% taken
+	287	forwbranch < 0, 10425 > 0.0% taken
+M 22 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveNfa_1, (II)I >
+	35	forwbranch < 768, 0 > 100.0% taken
+	48	forwbranch < 0, 768 > 0.0% taken
+	69	switch     < 768, 0 >
+	96	forwbranch < 0, 768 > 0.0% taken
+	110	backbranch < 0, 768 > 0.0% taken
+	123	forwbranch < 0, 0 > Never Executed
+	147	switch     < 0 >
+	160	backbranch < 0, 0 > Never Executed
+	225	switch     < 0 >
+	240	backbranch < 0, 0 > Never Executed
+	247	forwbranch < 0, 768 > 0.0% taken
+	287	forwbranch < 0, 768 > 0.0% taken
+M 61 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveNfa_4, (II)I >
+	36	forwbranch < 25064, 0 > 100.0% taken
+	49	forwbranch < 17735, 7329 > 70.75886% taken
+	70	switch     < 0, 2802, 0, 0, 4527, 0, 4527, 4527, 0 >
+	124	forwbranch < 661, 2141 > 23.590292% taken
+	131	forwbranch < 0, 2141 > 0.0% taken
+	147	forwbranch < 182, 479 > 27.534039% taken
+	162	forwbranch < 2802, 0 > 100.0% taken
+	191	forwbranch < 0, 0 > Never Executed
+	198	forwbranch < 0, 0 > Never Executed
+	216	forwbranch < 0, 0 > Never Executed
+	223	forwbranch < 0, 0 > Never Executed
+	239	forwbranch < 0, 0 > Never Executed
+	259	forwbranch < 479, 4048 > 10.580958% taken
+	277	forwbranch < 0, 0 > Never Executed
+	284	forwbranch < 0, 0 > Never Executed
+	300	forwbranch < 4527, 0 > 100.0% taken
+	331	forwbranch < 4048, 479 > 89.419044% taken
+	338	forwbranch < 0, 479 > 0.0% taken
+	352	backbranch < 9054, 7329 > 55.264603% taken
+	365	forwbranch < 0, 17735 > 0.0% taken
+	389	switch     < 13037, 30772 >
+	421	backbranch < 26074, 17735 > 59.517452% taken
+	486	switch     < 0, 0 >
+	517	forwbranch < 0, 0 > Never Executed
+	533	backbranch < 0, 0 > Never Executed
+	540	forwbranch < 22444, 2620 > 89.54676% taken
+	581	forwbranch < 17564, 7500 > 70.07661% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjCheckNAddStates, (II)V >
+	14	backbranch < 83717, 24404 > 77.42899% taken
+M 48 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjStopStringLiteralDfa_0, (IJJ)I >
+	1	switch     < 18967, 1429, 19, 10, 0, 0, 0, 0 >
+	51	forwbranch < 2832, 16135 > 14.931196% taken
+	62	forwbranch < 7779, 8356 > 48.21196% taken
+	81	forwbranch < 7779, 0 > 100.0% taken
+	95	forwbranch < 7349, 430 > 94.4723% taken
+	116	forwbranch < 0, 1429 > 0.0% taken
+	127	forwbranch < 1421, 8 > 99.44017% taken
+	140	forwbranch < 8, 1413 > 0.5629838% taken
+	151	forwbranch < 6, 1407 > 0.42462844% taken
+	159	forwbranch < 0, 1415 > 0.0% taken
+	186	forwbranch < 0, 19 > 0.0% taken
+	210	forwbranch < 0, 0 > Never Executed
+	221	forwbranch < 0, 0 > Never Executed
+	237	forwbranch < 10, 0 > 100.0% taken
+	251	forwbranch < 0, 10 > 0.0% taken
+	278	forwbranch < 0, 0 > Never Executed
+	292	forwbranch < 0, 0 > Never Executed
+	319	forwbranch < 0, 0 > Never Executed
+	333	forwbranch < 0, 0 > Never Executed
+	360	forwbranch < 0, 0 > Never Executed
+	374	forwbranch < 0, 0 > Never Executed
+M 436 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveNfa_0, (II)I >
+	36	forwbranch < 160032, 0 > 100.0% taken
+	49	forwbranch < 95779, 64253 > 59.849907% taken
+	70	switch     < 19215, 0, 55, 55, 0, 0, 0, 0, 401, 0, 26017, 87, 87, 109, 755, 87, 210, 280, 87, 0, 7321, 7321, 7321, 7364, 10000, 0, 451, 15, 14, 578, 578, 451, 43, 451, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 87, 87, 87, 87, 0, 0, 7899, 7899, 1833, 1833, 0, 0, 7899, 7899, 18, 42, 7899, 7899, 18, 42, 7899, 7899, 1833, 1833, 0, 0, 0, 28, 7079 >
+	380	forwbranch < 0, 0 > Never Executed
+	398	forwbranch < 0, 0 > Never Executed
+	405	forwbranch < 0, 0 > Never Executed
+	431	forwbranch < 28, 0 > 100.0% taken
+	438	forwbranch < 0, 0 > Never Executed
+	460	forwbranch < 8, 20 > 28.571428% taken
+	490	forwbranch < 8, 0 > 100.0% taken
+	517	forwbranch < 8, 20 > 28.571428% taken
+	524	forwbranch < 0, 20 > 0.0% taken
+	540	forwbranch < 8, 0 > 100.0% taken
+	547	forwbranch < 0, 0 > Never Executed
+	565	forwbranch < 14481, 4734 > 75.363% taken
+	587	forwbranch < 2205, 12276 > 15.226849% taken
+	593	forwbranch < 0, 12276 > 0.0% taken
+	608	forwbranch < 2205, 0 > 100.0% taken
+	628	forwbranch < 1596, 609 > 72.38095% taken
+	658	forwbranch < 82, 1514 > 5.1378446% taken
+	688	forwbranch < 0, 82 > 0.0% taken
+	695	forwbranch < 0, 82 > 0.0% taken
+	716	forwbranch < 15063, 4152 > 78.391884% taken
+	723	forwbranch < 0, 4152 > 0.0% taken
+	747	forwbranch < 14481, 582 > 96.13623% taken
+	754	forwbranch < 0, 582 > 0.0% taken
+	778	forwbranch < 13872, 609 > 95.79449% taken
+	785	forwbranch < 0, 609 > 0.0% taken
+	801	forwbranch < 12358, 1514 > 89.08593% taken
+	808	forwbranch < 0, 1514 > 0.0% taken
+	824	forwbranch < 12358, 0 > 100.0% taken
+	853	forwbranch < 0, 0 > Never Executed
+	859	forwbranch < 0, 0 > Never Executed
+	874	forwbranch < 55, 0 > 100.0% taken
+	905	forwbranch < 0, 55 > 0.0% taken
+	911	forwbranch < 0, 55 > 0.0% taken
+	926	forwbranch < 0, 0 > Never Executed
+	932	forwbranch < 0, 0 > Never Executed
+	947	forwbranch < 0, 0 > Never Executed
+	978	forwbranch < 0, 0 > Never Executed
+	984	forwbranch < 0, 0 > Never Executed
+	999	forwbranch < 0, 0 > Never Executed
+	1009	forwbranch < 0, 0 > Never Executed
+	1033	forwbranch < 319, 82 > 79.551125% taken
+	1043	forwbranch < 0, 319 > 0.0% taken
+	1067	forwbranch < 266, 25751 > 1.0224084% taken
+	1077	forwbranch < 0, 266 > 0.0% taken
+	1099	forwbranch < 17, 70 > 19.54023% taken
+	1106	forwbranch < 0, 70 > 0.0% taken
+	1122	forwbranch < 87, 0 > 100.0% taken
+	1129	forwbranch < 0, 0 > Never Executed
+	1145	forwbranch < 109, 0 > 100.0% taken
+	1152	forwbranch < 0, 0 > Never Executed
+	1168	forwbranch < 646, 109 > 85.56291% taken
+	1198	forwbranch < 17, 70 > 19.54023% taken
+	1228	forwbranch < 15, 195 > 7.142857% taken
+	1235	forwbranch < 0, 195 > 0.0% taken
+	1251	forwbranch < 70, 210 > 25.0% taken
+	1281	forwbranch < 87, 0 > 100.0% taken
+	1313	forwbranch < 0, 0 > Never Executed
+	1323	forwbranch < 0, 0 > Never Executed
+	1349	forwbranch < 4083, 3238 > 55.77107% taken
+	1359	forwbranch < 0, 4083 > 0.0% taken
+	1385	forwbranch < 3238, 4083 > 44.22893% taken
+	1405	forwbranch < 0, 0 > Never Executed
+	1415	forwbranch < 0, 0 > Never Executed
+	1441	forwbranch < 8, 7 > 53.333332% taken
+	1451	forwbranch < 0, 8 > 0.0% taken
+	1477	forwbranch < 127, 451 > 21.972319% taken
+	1487	forwbranch < 0, 127 > 0.0% taken
+	1513	forwbranch < 442, 9 > 98.00443% taken
+	1535	forwbranch < 9, 34 > 20.930233% taken
+	1555	forwbranch < 432, 19 > 95.78714% taken
+	1573	forwbranch < 0, 0 > Never Executed
+	1595	forwbranch < 0, 0 > Never Executed
+	1605	forwbranch < 0, 0 > Never Executed
+	1631	forwbranch < 0, 0 > Never Executed
+	1651	forwbranch < 0, 0 > Never Executed
+	1661	forwbranch < 0, 0 > Never Executed
+	1685	forwbranch < 0, 0 > Never Executed
+	1706	forwbranch < 0, 0 > Never Executed
+	1726	forwbranch < 0, 0 > Never Executed
+	1748	forwbranch < 0, 0 > Never Executed
+	1770	forwbranch < 3689, 4210 > 46.702114% taken
+	1790	forwbranch < 792, 7107 > 10.026586% taken
+	1800	forwbranch < 0, 792 > 0.0% taken
+	1826	forwbranch < 1117, 716 > 60.93835% taken
+	1836	forwbranch < 0, 1117 > 0.0% taken
+	1862	forwbranch < 0, 0 > Never Executed
+	1882	forwbranch < 0, 0 > Never Executed
+	1892	forwbranch < 0, 0 > Never Executed
+	1916	forwbranch < 3689, 4210 > 46.702114% taken
+	1938	forwbranch < 12, 6 > 66.666664% taken
+	1958	forwbranch < 18, 24 > 42.857143% taken
+	1968	forwbranch < 0, 18 > 0.0% taken
+	1992	forwbranch < 3689, 4210 > 46.702114% taken
+	2014	forwbranch < 12, 6 > 66.666664% taken
+	2034	forwbranch < 24, 18 > 57.142857% taken
+	2056	forwbranch < 3689, 4210 > 46.702114% taken
+	2076	forwbranch < 7107, 792 > 89.97341% taken
+	2098	forwbranch < 716, 1117 > 39.06165% taken
+	2120	forwbranch < 0, 0 > Never Executed
+	2140	forwbranch < 0, 0 > Never Executed
+	2158	backbranch < 103199, 64253 > 61.629005% taken
+	2171	forwbranch < 0, 95779 > 0.0% taken
+	2195	switch     < 8099, 0, 0, 0, 0, 0, 0, 0, 1354, 0, 80057, 166, 166, 0, 829, 166, 0, 349, 166, 0, 914, 914, 914, 914, 1121, 0, 131, 12, 6, 131, 131, 131, 0, 131, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 147, 147, 147, 147, 0, 0, 1045, 1045, 76, 76, 0, 0, 1045, 1045, 0, 0, 1045, 1045, 0, 0, 1045, 1045, 76, 76, 0, 0, 3280, 402, 276 >
+	2504	forwbranch < 79139, 1320 > 98.35941% taken
+	2514	forwbranch < 0, 79139 > 0.0% taken
+	2538	forwbranch < 55, 8044 > 0.67909616% taken
+	2545	forwbranch < 0, 8044 > 0.0% taken
+	2567	forwbranch < 0, 55 > 0.0% taken
+	2584	forwbranch < 8080, 19 > 99.7654% taken
+	2606	forwbranch < 7846, 234 > 97.10396% taken
+	2624	forwbranch < 0, 1354 > 0.0% taken
+	2660	forwbranch < 0, 0 > Never Executed
+	2670	forwbranch < 0, 0 > Never Executed
+	2694	forwbranch < 599, 315 > 65.5361% taken
+	2701	forwbranch < 0, 315 > 0.0% taken
+	2719	forwbranch < 599, 315 > 65.5361% taken
+	2751	forwbranch < 1105, 16 > 98.5727% taken
+	2758	forwbranch < 0, 16 > 0.0% taken
+	2776	forwbranch < 124, 7 > 94.65649% taken
+	2796	forwbranch < 12, 0 > 100.0% taken
+	2806	forwbranch < 0, 12 > 0.0% taken
+	2832	forwbranch < 6, 0 > 100.0% taken
+	2839	forwbranch < 0, 0 > Never Executed
+	2857	forwbranch < 130, 1 > 99.23664% taken
+	2864	forwbranch < 0, 1 > 0.0% taken
+	2882	forwbranch < 0, 0 > Never Executed
+	2904	forwbranch < 0, 0 > Never Executed
+	2926	forwbranch < 0, 0 > Never Executed
+	2948	forwbranch < 147, 0 > 100.0% taken
+	2968	forwbranch < 147, 0 > 100.0% taken
+	2988	forwbranch < 147, 0 > 100.0% taken
+	3008	forwbranch < 147, 0 > 100.0% taken
+	3028	forwbranch < 0, 0 > Never Executed
+	3050	forwbranch < 76, 0 > 100.0% taken
+	3072	forwbranch < 1027, 18 > 98.27751% taken
+	3094	forwbranch < 1027, 18 > 98.27751% taken
+	3116	forwbranch < 76, 0 > 100.0% taken
+	3134	backbranch < 14233, 95779 > 12.937679% taken
+	3199	switch     < 0, 0 >
+	3229	forwbranch < 0, 0 > Never Executed
+	3239	forwbranch < 0, 0 > Never Executed
+	3271	backbranch < 0, 0 > Never Executed
+	3278	forwbranch < 44866, 115166 > 28.035643% taken
+	3319	forwbranch < 103028, 57004 > 64.37962% taken
+M 62 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveStringLiteralDfa1_0, (JJ)I >
+	32	switch     < 5, 1, 2, 667, 2, 2030, 2150, 912, 222, 1016, 804, 307, 615, 1581, 1316, 524, 329, 14574 >
+	187	forwbranch < 1, 4 > 20.0% taken
+	219	forwbranch < 1, 0 > 100.0% taken
+	251	forwbranch < 0, 2 > 0.0% taken
+	283	forwbranch < 170, 497 > 25.487257% taken
+	301	forwbranch < 150, 20 > 88.23529% taken
+	319	forwbranch < 133, 17 > 88.666664% taken
+	337	forwbranch < 23, 110 > 17.293234% taken
+	355	forwbranch < 22, 1 > 95.652176% taken
+	373	forwbranch < 22, 0 > 100.0% taken
+	391	forwbranch < 22, 0 > 100.0% taken
+	409	forwbranch < 22, 0 > 100.0% taken
+	427	forwbranch < 22, 0 > 100.0% taken
+	445	forwbranch < 22, 0 > 100.0% taken
+	463	forwbranch < 22, 0 > 100.0% taken
+	481	forwbranch < 22, 0 > 100.0% taken
+	499	forwbranch < 2, 0 > 100.0% taken
+	523	forwbranch < 0, 2 > 0.0% taken
+	574	forwbranch < 54, 858 > 5.9210525% taken
+	638	forwbranch < 148, 467 > 24.06504% taken
+	682	forwbranch < 1268, 48 > 96.352585% taken
+	711	forwbranch < 188, 336 > 35.87786% taken
+	731	forwbranch < 176, 12 > 93.61702% taken
+M 84 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveStringLiteralDfa2_0, (JJJJ)I >
+	16	forwbranch < 5734, 4317 > 57.04905% taken
+	61	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 169, 9, 345, 223, 130, 539, 0, 0, 955, 0, 4, 144, 226, 167, 116, 325, 0, 316, 809, 927, 6, 1, 1, 19, 260, 35 >
+	327	forwbranch < 0, 0 > Never Executed
+	345	forwbranch < 0, 0 > Never Executed
+	363	forwbranch < 0, 0 > Never Executed
+	381	forwbranch < 0, 0 > Never Executed
+	423	forwbranch < 110, 113 > 49.327354% taken
+	456	forwbranch < 0, 539 > 0.0% taken
+	489	forwbranch < 94, 50 > 65.27778% taken
+	558	forwbranch < 24, 292 > 7.594937% taken
+	590	forwbranch < 712, 215 > 76.80691% taken
+	623	forwbranch < 2, 258 > 0.7692308% taken
+M 34 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveStringLiteralDfa3_0, (JJJJ)I >
+	16	forwbranch < 2838, 1116 > 71.77541% taken
+	61	switch     < 40, 25, 8, 6, 554, 151, 0, 0, 0, 0, 0, 37, 52, 609, 218, 0, 0, 0, 675, 44, 414, 5 >
+	188	forwbranch < 0, 8 > 0.0% taken
+	209	forwbranch < 270, 284 > 48.73646% taken
+	240	forwbranch < 0, 151 > 0.0% taken
+	271	forwbranch < 0, 52 > 0.0% taken
+	312	forwbranch < 249, 426 > 36.88889% taken
+M 35 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveStringLiteralDfa4_0, (JJ)I >
+	7	forwbranch < 1898, 8 > 99.58028% taken
+	50	switch     < 7, 2, 0, 8, 172, 0, 0, 0, 41, 0, 38, 2, 0, 0, 0, 266, 0, 636, 109, 609, 8 >
+	160	forwbranch < 8, 0 > 100.0% taken
+	189	forwbranch < 135, 37 > 78.48837% taken
+	209	forwbranch < 0, 135 > 0.0% taken
+	238	forwbranch < 0, 38 > 0.0% taken
+	285	forwbranch < 0, 109 > 0.0% taken
+	305	forwbranch < 0, 609 > 0.0% taken
+M 19 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveStringLiteralDfa5_0, (JJ)I >
+	7	forwbranch < 960, 0 > 100.0% taken
+	50	switch     < 8, 9, 455, 488, 0 >
+	99	forwbranch < 0, 8 > 0.0% taken
+	119	forwbranch < 2, 7 > 22.222221% taken
+	148	forwbranch < 41, 414 > 9.010989% taken
+	177	forwbranch < 222, 266 > 45.491802% taken
+	197	forwbranch < 4, 218 > 1.8018018% taken
+	217	forwbranch < 0, 4 > 0.0% taken
+M 7 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveStringLiteralDfa6_0, (JJ)I >
+	7	forwbranch < 43, 0 > 100.0% taken
+	51	switch     < 41, 2, 0 >
+	92	forwbranch < 0, 2 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveStringLiteralDfa7_0, (JJ)I >
+	7	forwbranch < 41, 0 > 100.0% taken
+	52	switch     < 41, 0 >
+	79	forwbranch < 0, 41 > 0.0% taken
+M 7 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjStopStringLiteralDfa_7, (IJJ)I >
+	1	switch     < 81, 0, 0 >
+	36	forwbranch < 0, 81 > 0.0% taken
+	57	forwbranch < 0, 0 > Never Executed
+M 57 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveNfa_7, (II)I >
+	35	forwbranch < 19760, 0 > 100.0% taken
+	48	forwbranch < 12671, 7089 > 64.1245% taken
+	69	switch     < 7080, 0, 9, 0, 0 >
+	108	forwbranch < 0, 7080 > 0.0% taken
+	115	forwbranch < 0, 7080 > 0.0% taken
+	133	forwbranch < 9, 0 > 100.0% taken
+	140	forwbranch < 0, 0 > Never Executed
+	156	forwbranch < 0, 9 > 0.0% taken
+	163	forwbranch < 0, 9 > 0.0% taken
+	179	forwbranch < 0, 0 > Never Executed
+	186	forwbranch < 0, 0 > Never Executed
+	200	backbranch < 0, 7089 > 0.0% taken
+	213	forwbranch < 0, 12671 > 0.0% taken
+	237	switch     < 12599, 0, 72, 0 >
+	268	forwbranch < 0, 12599 > 0.0% taken
+	281	forwbranch < 12599, 0 > 100.0% taken
+	299	forwbranch < 65, 7 > 90.27778% taken
+	306	forwbranch < 0, 7 > 0.0% taken
+	322	forwbranch < 0, 0 > Never Executed
+	338	backbranch < 0, 12671 > 0.0% taken
+	403	switch     < 0, 0 >
+	433	forwbranch < 0, 0 > Never Executed
+	440	forwbranch < 0, 0 > Never Executed
+	454	backbranch < 0, 0 > Never Executed
+	461	forwbranch < 65, 19695 > 0.32894737% taken
+	501	forwbranch < 0, 19760 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveStringLiteralDfa1_7, (J)I >
+	31	switch     < 0, 81 >
+M 61 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveNfa_5, (II)I >
+	36	forwbranch < 25563, 0 > 100.0% taken
+	49	forwbranch < 19948, 5615 > 78.03466% taken
+	70	switch     < 0, 1494, 0, 0, 4121, 0, 4121, 4121, 0 >
+	124	forwbranch < 1131, 363 > 75.70281% taken
+	131	forwbranch < 0, 363 > 0.0% taken
+	147	forwbranch < 612, 519 > 54.111404% taken
+	162	forwbranch < 1494, 0 > 100.0% taken
+	191	forwbranch < 0, 0 > Never Executed
+	198	forwbranch < 0, 0 > Never Executed
+	216	forwbranch < 0, 0 > Never Executed
+	223	forwbranch < 0, 0 > Never Executed
+	239	forwbranch < 0, 0 > Never Executed
+	259	forwbranch < 519, 3602 > 12.59403% taken
+	277	forwbranch < 0, 0 > Never Executed
+	284	forwbranch < 0, 0 > Never Executed
+	300	forwbranch < 4121, 0 > 100.0% taken
+	331	forwbranch < 3602, 519 > 87.40597% taken
+	338	forwbranch < 0, 519 > 0.0% taken
+	352	backbranch < 8242, 5615 > 59.478962% taken
+	365	forwbranch < 0, 19948 > 0.0% taken
+	389	switch     < 14287, 34235 >
+	421	backbranch < 28574, 19948 > 58.888752% taken
+	486	switch     < 0, 0 >
+	517	forwbranch < 0, 0 > Never Executed
+	533	backbranch < 0, 0 > Never Executed
+	540	forwbranch < 24681, 882 > 96.5497% taken
+	581	forwbranch < 18408, 7155 > 72.01033% taken
+M 1 < SystemAppCL, Lorg/python/parser/Token;, newToken, (I)Lorg/python/parser/Token; >
+	1	switch     < 79238 >
+M 6 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjFillToken, ()Lorg/python/parser/Token; >
+	20	forwbranch < 74358, 4880 > 93.84134% taken
+	27	forwbranch < 0, 4880 > 0.0% taken
+	101	forwbranch < 33662, 40696 > 45.27018% taken
+M 18 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, CommonTokenAction, (Lorg/python/parser/Token;)V >
+	4	forwbranch < 78116, 42 > 99.946266% taken
+	11	forwbranch < 42, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	26	forwbranch < 40, 2 > 95.2381% taken
+	48	forwbranch < 0, 40 > 0.0% taken
+	65	forwbranch < 42, 70 > 37.5% taken
+	90	forwbranch < 0, 42 > 0.0% taken
+	133	forwbranch < 78116, 0 > 100.0% taken
+	140	forwbranch < 0, 0 > Never Executed
+M 95 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveStringLiteralDfa0_0, ()I >
+	4	switch     < 110, 609, 82, 0, 340, 26, 1514, 3811, 3811, 504, 655, 2894, 332, 3280, 232, 582, 1057, 1134, 1014, 413, 323, 118, 41, 37, 15, 3385, 18, 368, 5100, 332, 0, 0, 158, 27, 172, 14, 9, 42, 17, 3, 92, 3, 17, 125, 199, 357, 64, 49, 0, 19, 256, 193, 33, 55, 9, 1, 0, 6, 1345, 55, 1345, 0, 697, 4, 1394, 962, 2334, 1336, 1066, 910, 362, 299, 2552, 153, 91, 961, 841, 648, 1186, 1749, 9, 1307, 2996, 1974, 201, 403, 309, 433, 5, 1, 96, 3, 96, 0, 12276 >
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveStringLiteralDfa0_4, ()I >
+	4	switch     < 39, 0, 117579, 7500 >
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveStringLiteralDfa0_5, ()I >
+	4	switch     < 0, 0, 1243, 1644 >
+M 3 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveStringLiteralDfa0_7, ()I >
+	4	switch     < 1584, 81, 19679 >
+M 3 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveStringLiteralDfa0_8, ()I >
+	4	switch     < 434, 56, 4532 >
+M 4 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, jjMoveStringLiteralDfa0_10, ()I >
+	4	switch     < 1321, 0, 260, 49262 >
+M 47 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, TokenLexicalActions, (Lorg/python/parser/Token;)V >
+	4	switch     < 10425, 4880, 3811, 3811, 96, 96, 1345, 1345, 1584, 434, 0, 195, 50094 >
+	116	forwbranch < 0, 10425 > 0.0% taken
+	211	forwbranch < 0, 4880 > 0.0% taken
+	306	forwbranch < 2144, 2736 > 43.934425% taken
+	352	forwbranch < 0, 2144 > 0.0% taken
+	371	forwbranch < 300, 2368 > 11.244378% taken
+	387	forwbranch < 1844, 524 > 77.87162% taken
+	421	forwbranch < 2144, 0 > 100.0% taken
+	455	forwbranch < 0, 3811 > 0.0% taken
+	509	forwbranch < 0, 3811 > 0.0% taken
+	563	forwbranch < 0, 96 > 0.0% taken
+	617	forwbranch < 0, 96 > 0.0% taken
+	671	forwbranch < 0, 1345 > 0.0% taken
+	725	forwbranch < 0, 1345 > 0.0% taken
+	779	forwbranch < 0, 1584 > 0.0% taken
+	879	forwbranch < 0, 434 > 0.0% taken
+	979	forwbranch < 0, 0 > Never Executed
+	1079	forwbranch < 0, 195 > 0.0% taken
+M 52 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, SkipLexicalActions, (Lorg/python/parser/Token;)V >
+	4	switch     < 12276, 0, 0, 0, 39, 120464, 0, 2504, 6273, 0, 0, 82, 998, 55 >
+	76	forwbranch < 0, 12276 > 0.0% taken
+	162	forwbranch < 1083, 11193 > 8.822092% taken
+	184	forwbranch < 10425, 768 > 93.138565% taken
+	208	forwbranch < 0, 0 > Never Executed
+	217	forwbranch < 0, 0 > Never Executed
+	235	forwbranch < 0, 0 > Never Executed
+	253	forwbranch < 0, 0 > Never Executed
+	358	forwbranch < 0, 0 > Never Executed
+	452	forwbranch < 0, 39 > 0.0% taken
+	557	forwbranch < 0, 120464 > 0.0% taken
+	656	forwbranch < 0, 0 > Never Executed
+	750	forwbranch < 0, 2504 > 0.0% taken
+	836	forwbranch < 2504, 0 > 100.0% taken
+	843	forwbranch < 0, 0 > Never Executed
+	850	forwbranch < 0, 0 > Never Executed
+	857	forwbranch < 0, 0 > Never Executed
+	864	forwbranch < 0, 0 > Never Executed
+	871	forwbranch < 0, 0 > Never Executed
+	894	forwbranch < 0, 998 > 0.0% taken
+M 24 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, MoreLexicalActions, ()V >
+	24	switch     < 0, 0, 0, 0, 0, 0, 19760, 4588, 0, 1321, 0, 51540 >
+	88	forwbranch < 0, 0 > Never Executed
+	174	forwbranch < 0, 0 > Never Executed
+	260	forwbranch < 0, 0 > Never Executed
+	346	forwbranch < 0, 0 > Never Executed
+	432	forwbranch < 0, 0 > Never Executed
+	532	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/parser/PythonGrammarTokenManager;, indenting, (I)V >
+	18	forwbranch < 114731, 9274 > 92.52127% taken
+M 2 < SystemAppCL, Lorg/python/parser/ast/Expr;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 2348 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/ast/Attribute;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 3251 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/ast/keywordType;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 120 > 0.0% taken
+M 18 < SystemAppCL, Lorg/python/parser/ast/Call;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 2644 > 0.0% taken
+	20	forwbranch < 0, 2644 > 0.0% taken
+	31	forwbranch < 2644, 2856 > 48.072727% taken
+	40	forwbranch < 0, 2856 > 0.0% taken
+	64	forwbranch < 0, 2644 > 0.0% taken
+	75	forwbranch < 2644, 120 > 95.65846% taken
+	84	forwbranch < 0, 120 > 0.0% taken
+	108	forwbranch < 2641, 3 > 99.886536% taken
+	124	forwbranch < 2642, 2 > 99.924355% taken
+M 8 < SystemAppCL, Lorg/python/parser/ast/Assign;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 4271 > 0.0% taken
+	15	forwbranch < 4271, 4300 > 49.830826% taken
+	24	forwbranch < 0, 4300 > 0.0% taken
+	48	forwbranch < 0, 4271 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/ast/Return;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 43, 371 > 10.386474% taken
+M 14 < SystemAppCL, Lorg/python/parser/ast/If;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 1008 > 0.0% taken
+	20	forwbranch < 0, 1008 > 0.0% taken
+	31	forwbranch < 1008, 1494 > 40.28777% taken
+	40	forwbranch < 0, 1494 > 0.0% taken
+	64	forwbranch < 598, 410 > 59.325397% taken
+	75	forwbranch < 410, 483 > 45.912655% taken
+	84	forwbranch < 0, 483 > 0.0% taken
+M 16 < SystemAppCL, Lorg/python/parser/ast/For;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 280 > 0.0% taken
+	20	forwbranch < 0, 280 > 0.0% taken
+	36	forwbranch < 0, 280 > 0.0% taken
+	47	forwbranch < 280, 4244 > 6.1892133% taken
+	56	forwbranch < 0, 4244 > 0.0% taken
+	80	forwbranch < 274, 6 > 97.85714% taken
+	91	forwbranch < 6, 11 > 35.294117% taken
+	100	forwbranch < 0, 11 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/parser/ast/Tuple;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 712 > 0.0% taken
+	15	forwbranch < 712, 1965 > 26.596937% taken
+	24	forwbranch < 0, 1965 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/parser/ast/Delete;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 94 > 0.0% taken
+	15	forwbranch < 94, 94 > 50.0% taken
+	24	forwbranch < 0, 94 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/parser/ast/List;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 154 > 0.0% taken
+	15	forwbranch < 154, 370 > 29.389313% taken
+	24	forwbranch < 0, 370 > 0.0% taken
+M 8 < SystemAppCL, Lorg/python/parser/ast/Compare;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 1526 > 0.0% taken
+	20	forwbranch < 0, 1526 > 0.0% taken
+	31	forwbranch < 1526, 1536 > 49.836708% taken
+	40	forwbranch < 0, 1536 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/parser/ast/Slice;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 192, 236 > 44.859814% taken
+	20	forwbranch < 173, 255 > 40.42056% taken
+	36	forwbranch < 428, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/ast/Subscript;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 1189 > 0.0% taken
+	20	forwbranch < 0, 1189 > 0.0% taken
+M 10 < SystemAppCL, Lorg/python/parser/ast/excepthandlerType;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 160, 104 > 60.60606% taken
+	20	forwbranch < 234, 30 > 88.63636% taken
+	36	forwbranch < 0, 264 > 0.0% taken
+	47	forwbranch < 264, 314 > 45.67474% taken
+	56	forwbranch < 0, 314 > 0.0% taken
+M 18 < SystemAppCL, Lorg/python/parser/ast/TryExcept;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 256 > 0.0% taken
+	15	forwbranch < 256, 362 > 41.423946% taken
+	24	forwbranch < 0, 362 > 0.0% taken
+	48	forwbranch < 0, 256 > 0.0% taken
+	59	forwbranch < 256, 264 > 49.23077% taken
+	68	forwbranch < 0, 264 > 0.0% taken
+	92	forwbranch < 237, 19 > 92.578125% taken
+	103	forwbranch < 19, 31 > 38.0% taken
+	112	forwbranch < 0, 31 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/ast/UnaryOp;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 230 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/ast/Index;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 1516 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/parser/ast/BoolOp;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 134 > 0.0% taken
+	15	forwbranch < 134, 275 > 32.762836% taken
+	24	forwbranch < 0, 275 > 0.0% taken
+M 14 < SystemAppCL, Lorg/python/parser/ast/While;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 37 > 0.0% taken
+	20	forwbranch < 0, 37 > 0.0% taken
+	31	forwbranch < 37, 114 > 24.503311% taken
+	40	forwbranch < 0, 114 > 0.0% taken
+	64	forwbranch < 37, 0 > 100.0% taken
+	75	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/python/parser/ast/listcompType;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 2 > 0.0% taken
+	20	forwbranch < 0, 2 > 0.0% taken
+	36	forwbranch < 0, 2 > 0.0% taken
+	47	forwbranch < 2, 1 > 66.666664% taken
+	56	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/ast/BinOp;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 1936 > 0.0% taken
+	20	forwbranch < 0, 1936 > 0.0% taken
+M 8 < SystemAppCL, Lorg/python/parser/ast/Print;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 513, 0 > 100.0% taken
+	20	forwbranch < 140, 373 > 27.29045% taken
+	31	forwbranch < 373, 378 > 49.66711% taken
+	40	forwbranch < 0, 378 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/parser/ast/AugAssign;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 1 > 0.0% taken
+	20	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/parser/ast/Repr;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 2 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/parser/ast/Module;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 42 > 0.0% taken
+	15	forwbranch < 42, 728 > 5.4545455% taken
+	24	forwbranch < 0, 728 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/compiler/Module;, <init>, (Ljava/lang/String;Ljava/lang/String;Z)V >
+	47	forwbranch < 0, 42 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/compiler/Module;, findConstant, (Lorg/python/compiler/Constant;)Lorg/python/compiler/Constant; >
+	13	forwbranch < 332, 285 > 53.80875% taken
+M 40 < SystemAppCL, Lorg/python/compiler/Module;, PyCode, (Lorg/python/parser/ast/modType;Ljava/lang/String;ZLjava/lang/String;ZZILorg/python/compiler/ScopeInfo;Lorg/python/core/CompilerFlags;)Lorg/python/compiler/PyCodeConstant; >
+	11	forwbranch < 0, 686 > 0.0% taken
+	27	forwbranch < 151, 535 > 22.011662% taken
+	93	forwbranch < 50, 636 > 7.2886295% taken
+	209	forwbranch < 686, 0 > 100.0% taken
+	233	forwbranch < 151, 535 > 22.011662% taken
+	244	forwbranch < 535, 0 > 100.0% taken
+	258	forwbranch < 0, 686 > 0.0% taken
+	273	forwbranch < 686, 0 > 100.0% taken
+	280	forwbranch < 0, 0 > Never Executed
+	324	forwbranch < 0, 0 > Never Executed
+	407	forwbranch < 686, 0 > 100.0% taken
+	426	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 0 > Never Executed
+	528	forwbranch < 109, 577 > 15.889213% taken
+	548	forwbranch < 0, 686 > 0.0% taken
+	596	forwbranch < 151, 535 > 22.011662% taken
+	618	forwbranch < 686, 0 > 100.0% taken
+	635	forwbranch < 665, 21 > 96.938774% taken
+	643	forwbranch < 21, 0 > 100.0% taken
+	664	forwbranch < 21, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/compiler/Module;, isJavaIdentifier, (Ljava/lang/String;)Z >
+	7	forwbranch < 686, 0 > 100.0% taken
+	18	forwbranch < 636, 50 > 92.71137% taken
+	28	forwbranch < 636, 4717 > 11.881188% taken
+	37	forwbranch < 4717, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/compiler/ClassFile;, addMethod, (Ljava/lang/String;Ljava/lang/String;I)Lorg/python/compiler/Code; >
+	15	forwbranch < 397, 20 > 95.203835% taken
+M 4 < SystemAppCL, Lorg/python/compiler/Code;, aload, (I)V >
+	1	forwbranch < 0, 44991 > 0.0% taken
+	6	forwbranch < 4525, 40466 > 10.057567% taken
+M 16 < SystemAppCL, Lorg/python/compiler/Code;, iconst, (I)V >
+	2	forwbranch < 0, 35877 > 0.0% taken
+	7	forwbranch < 15217, 20660 > 42.41436% taken
+	26	forwbranch < 0, 15217 > 0.0% taken
+	33	forwbranch < 8506, 6711 > 55.89801% taken
+	46	forwbranch < 6711, 0 > 100.0% taken
+	70	forwbranch < 0, 8506 > 0.0% taken
+	76	forwbranch < 56, 8450 > 0.6583588% taken
+	89	forwbranch < 8450, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, parse, (Lorg/python/parser/ast/modType;Lorg/python/compiler/Code;ZLjava/lang/String;ZLorg/python/compiler/ScopeInfo;Lorg/python/core/CompilerFlags;)V >
+	48	forwbranch < 151, 535 > 22.011662% taken
+	56	forwbranch < 0, 535 > 0.0% taken
+	64	forwbranch < 0, 535 > 0.0% taken
+	84	forwbranch < 577, 109 > 84.11079% taken
+	110	forwbranch < 273, 304 > 47.31369% taken
+M 4 < SystemAppCL, Lorg/python/compiler/ConstantPool;, Fieldref, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I >
+	51	forwbranch < 0, 12331 > 0.0% taken
+	60	forwbranch < 12331, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/compiler/Code;, tableswitch, (Lorg/python/compiler/Label;I[Lorg/python/compiler/Label;)V >
+	32	forwbranch < 42, 84 > 33.333332% taken
+	82	forwbranch < 42, 686 > 5.769231% taken
+M 4 < SystemAppCL, Lorg/python/compiler/Module;, toNameAr, (Ljava/util/Vector;Z)[Ljava/lang/String; >
+	6	forwbranch < 527, 1422 > 27.039507% taken
+	10	forwbranch < 50, 1372 > 3.5161743% taken
+M 10 < SystemAppCL, Lorg/python/compiler/PyCodeConstant;, put, (Lorg/python/compiler/Code;)V >
+	31	forwbranch < 109, 577 > 15.889213% taken
+	94	forwbranch < 673, 13 > 98.10496% taken
+	110	forwbranch < 684, 2 > 99.70846% taken
+	191	forwbranch < 686, 0 > 100.0% taken
+	218	forwbranch < 686, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/compiler/Code;, iload, (I)V >
+	1	forwbranch < 0, 42 > 0.0% taken
+	6	forwbranch < 0, 42 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/compiler/Module;, addConstants, ()V >
+	163	forwbranch < 42, 1875 > 2.1909232% taken
+	194	forwbranch < 42, 686 > 5.769231% taken
+M 4 < SystemAppCL, Lorg/python/compiler/Module;, addFunctions, ()V >
+	36	forwbranch < 42, 686 > 5.769231% taken
+	72	forwbranch < 42, 686 > 5.769231% taken
+M 30 < SystemAppCL, Lorg/python/compiler/Future;, preprocessFutures, (Lorg/python/parser/ast/modType;Lorg/python/core/CompilerFlags;)V >
+	1	forwbranch < 36, 6 > 85.71429% taken
+	21	forwbranch < 0, 42 > 0.0% taken
+	36	forwbranch < 3, 39 > 7.142857% taken
+	46	forwbranch < 16, 23 > 41.025642% taken
+	62	forwbranch < 0, 23 > 0.0% taken
+	75	forwbranch < 0, 0 > Never Executed
+	99	forwbranch < 3, 39 > 7.142857% taken
+	114	forwbranch < 14, 25 > 35.897434% taken
+	135	forwbranch < 0, 14 > 0.0% taken
+	148	forwbranch < 36, 6 > 85.71429% taken
+	156	forwbranch < 0, 6 > 0.0% taken
+	163	forwbranch < 6, 0 > 100.0% taken
+	175	forwbranch < 36, 6 > 85.71429% taken
+	183	forwbranch < 0, 6 > 0.0% taken
+	190	forwbranch < 6, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/compiler/Module;, write, (Ljava/io/OutputStream;)V >
+	29	forwbranch < 0, 42 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/compiler/ClassFile;, fixName, (Ljava/lang/String;)Ljava/lang/String; >
+	7	forwbranch < 7, 77 > 8.333333% taken
+	22	forwbranch < 7, 158 > 4.242424% taken
+	30	forwbranch < 139, 19 > 87.974686% taken
+M 2 < SystemAppCL, Lorg/python/compiler/Code;, <init>, (Ljava/lang/String;Lorg/python/compiler/ConstantPool;Z)V >
+	72	forwbranch < 42, 812 > 4.9180326% taken
+M 2 < SystemAppCL, Lorg/python/compiler/ClassFile;, writeMethods, (Ljava/io/DataOutputStream;Ljava/util/Vector;)V >
+	15	forwbranch < 84, 3457 > 2.3722112% taken
+M 4 < SystemAppCL, Lorg/python/compiler/ClassFile;, write, (Ljava/io/DataOutputStream;)V >
+	86	forwbranch < 42, 42 > 50.0% taken
+	146	forwbranch < 42, 84 > 33.333332% taken
+M 2 < SystemAppCL, Lorg/python/compiler/ClassFile;, writeAttributes, (Ljava/io/DataOutputStream;[Lorg/python/compiler/Attribute;)V >
+	11	forwbranch < 4311, 1537 > 73.717514% taken
+M 4 < SystemAppCL, Lorg/python/compiler/ConstantPool;, addConstant, (I)I >
+	32	forwbranch < 60995, 12668 > 82.802765% taken
+	79	forwbranch < 12636, 32 > 99.7474% taken
+M 21 < SystemAppCL, Lorg/python/compiler/ConstantPool;, sigSize, (Ljava/lang/String;Z)I >
+	27	forwbranch < 9774, 42535 > 18.685122% taken
+	34	switch     < 10628, 81, 0, 20070, 2048, 2661, 7047 >
+	93	forwbranch < 9774, 854 > 91.96462% taken
+	115	forwbranch < 81, 0 > 100.0% taken
+	120	forwbranch < 0, 0 > Never Executed
+	140	forwbranch < 81, 0 > 100.0% taken
+	164	forwbranch < 20070, 433250 > 4.427336% taken
+	172	forwbranch < 19391, 7726 > 71.508644% taken
+M 2 < SystemAppCL, Lorg/python/compiler/PyStringConstant;, equals, (Ljava/lang/Object;)Z >
+	4	forwbranch < 595, 2330 > 20.34188% taken
+M 12 < SystemAppCL, Lorg/python/compiler/Future;, check, (Lorg/python/parser/ast/ImportFrom;)Z >
+	9	forwbranch < 0, 14 > 0.0% taken
+	21	forwbranch < 0, 0 > Never Executed
+	39	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 0, 0 > Never Executed
+	73	forwbranch < 0, 0 > Never Executed
+	91	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/compiler/Future;, checkFromFuture, (Lorg/python/parser/ast/ImportFrom;)V >
+	4	forwbranch < 32, 60 > 34.782608% taken
+	17	forwbranch < 32, 0 > 100.0% taken
+M 48 < SystemAppCL, Lorg/python/compiler/ScopeInfo;, cook, (Lorg/python/compiler/ScopeInfo;Lorg/python/compiler/CompilationContext;)V >
+	1	forwbranch < 644, 42 > 93.87755% taken
+	10	forwbranch < 109, 535 > 16.925467% taken
+	40	forwbranch < 553, 91 > 85.86957% taken
+	66	forwbranch < 644, 510 > 55.805893% taken
+	97	forwbranch < 52, 458 > 10.196078% taken
+	130	forwbranch < 48, 4 > 92.30769% taken
+	137	backbranch < 2, 2 > 50.0% taken
+	144	backbranch < 2, 0 > 100.0% taken
+	166	forwbranch < 0, 0 > Never Executed
+	207	backbranch < 0, 0 > Never Executed
+	242	forwbranch < 271, 373 > 42.080746% taken
+	268	forwbranch < 644, 4826 > 11.773309% taken
+	306	forwbranch < 2474, 2352 > 51.26399% taken
+	314	forwbranch < 2352, 0 > 100.0% taken
+	335	backbranch < 908, 3918 > 18.814753% taken
+	342	forwbranch < 1906, 2012 > 48.64727% taken
+	390	backbranch < 1137, 769 > 59.653725% taken
+	419	forwbranch < 644, 0 > 100.0% taken
+	436	forwbranch < 0, 0 > Never Executed
+	463	forwbranch < 0, 644 > 0.0% taken
+	470	forwbranch < 644, 0 > 100.0% taken
+	475	forwbranch < 0, 0 > Never Executed
+	492	forwbranch < 0, 0 > Never Executed
+	497	forwbranch < 0, 0 > Never Executed
+M 22 < SystemAppCL, Lorg/python/compiler/ScopeInfo;, dump, ()V >
+	4	forwbranch < 0, 1330 > 0.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+	47	forwbranch < 0, 0 > Never Executed
+	107	forwbranch < 0, 0 > Never Executed
+	149	forwbranch < 0, 0 > Never Executed
+	164	forwbranch < 0, 0 > Never Executed
+	183	forwbranch < 0, 0 > Never Executed
+	198	forwbranch < 0, 0 > Never Executed
+	217	forwbranch < 0, 0 > Never Executed
+	233	forwbranch < 0, 0 > Never Executed
+	249	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/compiler/ScopesCompiler;, beginScope, (Ljava/lang/String;ILorg/python/parser/SimpleNode;Lorg/python/compiler/ArgListCompiler;)V >
+	4	forwbranch < 42, 644 > 6.122449% taken
+	21	forwbranch < 151, 535 > 22.011662% taken
+M 2 < SystemAppCL, Lorg/python/compiler/ScopesCompiler;, suite, ([Lorg/python/parser/ast/stmtType;)V >
+	7	forwbranch < 678, 3621 > 15.77111% taken
+M 4 < SystemAppCL, Lorg/python/compiler/ScopesCompiler;, endScope, ()V >
+	8	forwbranch < 151, 535 > 22.011662% taken
+	38	forwbranch < 42, 644 > 6.122449% taken
+M 2 < SystemAppCL, Lorg/python/compiler/ScopeInfo;, addBound, (Ljava/lang/String;)V >
+	13	forwbranch < 2377, 2711 > 46.717766% taken
+M 12 < SystemAppCL, Lorg/python/compiler/ArgListCompiler;, visitArgs, (Lorg/python/parser/ast/argumentsType;)V >
+	8	forwbranch < 535, 881 > 37.782486% taken
+	42	forwbranch < 881, 0 > 100.0% taken
+	107	forwbranch < 522, 13 > 97.57009% taken
+	130	forwbranch < 533, 2 > 99.62617% taken
+	165	forwbranch < 535, 183 > 74.512535% taken
+	174	forwbranch < 183, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/compiler/ScopeInfo;, markFromParam, ()V >
+	14	forwbranch < 535, 896 > 37.386444% taken
+M 4 < SystemAppCL, Lorg/python/compiler/ScopeInfo;, addGlobal, (Ljava/lang/String;)I >
+	5	forwbranch < 12, 0 > 100.0% taken
+	28	forwbranch < 0, 12 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/compiler/ScopeInfo;, addUsed, (Ljava/lang/String;)V >
+	8	forwbranch < 10494, 1539 > 87.210175% taken
+M 6 < SystemAppCL, Lorg/python/compiler/ScopesCompiler;, visitFunctionDef, (Lorg/python/parser/ast/FunctionDef;)Ljava/lang/Object; >
+	40	forwbranch < 527, 183 > 74.22535% taken
+	85	forwbranch < 527, 888 > 37.243816% taken
+	125	forwbranch < 527, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/compiler/ScopesCompiler;, visitLambda, (Lorg/python/parser/ast/Lambda;)Ljava/lang/Object; >
+	32	forwbranch < 8, 0 > 100.0% taken
+	75	forwbranch < 8, 8 > 50.0% taken
+	115	forwbranch < 8, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/compiler/ScopesCompiler;, visitImport, (Lorg/python/parser/ast/Import;)Ljava/lang/Object; >
+	10	forwbranch < 172, 202 > 45.989304% taken
+	22	forwbranch < 200, 2 > 99.0099% taken
+	62	forwbranch < 174, 26 > 87.0% taken
+M 6 < SystemAppCL, Lorg/python/compiler/ScopesCompiler;, visitImportFrom, (Lorg/python/parser/ast/ImportFrom;)Ljava/lang/Object; >
+	11	forwbranch < 23, 23 > 50.0% taken
+	28	forwbranch < 23, 27 > 46.0% taken
+	40	forwbranch < 26, 1 > 96.296295% taken
+M 10 < SystemAppCL, Lorg/python/compiler/ScopesCompiler;, visitGlobal, (Lorg/python/parser/ast/Global;)Ljava/lang/Object; >
+	10	forwbranch < 6, 12 > 33.333332% taken
+	34	forwbranch < 12, 0 > 100.0% taken
+	42	forwbranch < 0, 0 > Never Executed
+	86	forwbranch < 0, 0 > Never Executed
+	96	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/compiler/ScopesCompiler;, visitClassDef, (Lorg/python/parser/ast/ClassDef;)Ljava/lang/Object; >
+	18	forwbranch < 109, 72 > 60.220993% taken
+M 4 < SystemAppCL, Lorg/python/compiler/ScopesCompiler;, visitName, (Lorg/python/parser/ast/Name;)Ljava/lang/Object; >
+	10	forwbranch < 12033, 4221 > 74.031006% taken
+	19	forwbranch < 4221, 0 > 100.0% taken
+M 14 < SystemAppCL, Lorg/python/compiler/ScopeInfo;, setup_closure, (Lorg/python/compiler/ScopeInfo;)V >
+	14	forwbranch < 271, 373 > 42.080746% taken
+	40	forwbranch < 644, 4826 > 11.773309% taken
+	81	backbranch < 2908, 1918 > 60.256943% taken
+	97	forwbranch < 567, 1351 > 29.562044% taken
+	112	forwbranch < 1351, 0 > 100.0% taken
+	138	forwbranch < 582, 769 > 43.0792% taken
+	145	forwbranch < 767, 2 > 99.73992% taken
+M 4 < SystemAppCL, Lorg/python/compiler/ArgListCompiler;, visitName, (Lorg/python/parser/ast/Name;)Ljava/lang/Object; >
+	5	forwbranch < 881, 0 > 100.0% taken
+	21	forwbranch < 881, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, makeStrings, (Lorg/python/compiler/Code;[Ljava/lang/String;I)V >
+	38	forwbranch < 772, 2392 > 24.399494% taken
+M 6 < SystemAppCL, Lorg/python/compiler/Code;, getLocal, (Ljava/lang/String;)I >
+	10	forwbranch < 1377, 25553 > 5.1132565% taken
+	19	forwbranch < 15411, 10142 > 60.309944% taken
+	46	forwbranch < 1377, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/compiler/Code;, freeLocal, (I)V >
+	6	forwbranch < 11261, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/compiler/Label;, fix, ([B)V >
+	21	forwbranch < 4418, 3323 > 57.07273% taken
+	29	forwbranch < 3323, 0 > 100.0% taken
+	51	forwbranch < 7741, 3596 > 68.28085% taken
+	85	forwbranch < 728, 2868 > 20.244717% taken
+M 2 < SystemAppCL, Lorg/python/compiler/Code;, fixLabels, ([B)V >
+	10	forwbranch < 854, 7741 > 9.936009% taken
+M 2 < SystemAppCL, Lorg/python/compiler/Label;, getPosition, ()I >
+	5	forwbranch < 774, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/compiler/Label;, setBranch, (II)V >
+	9	forwbranch < 3595, 1 > 99.97219% taken
+	153	forwbranch < 728, 2868 > 20.244717% taken
+M 4 < SystemAppCL, Lorg/python/compiler/Label;, setStack, (I)V >
+	5	forwbranch < 273, 2595 > 9.518828% taken
+	21	forwbranch < 273, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/compiler/Code;, push, (I)V >
+	18	forwbranch < 187979, 2504 > 98.68545% taken
+	33	forwbranch < 190483, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/compiler/Code;, ldc, (I)V >
+	12	forwbranch < 81, 13392 > 0.6012024% taken
+	19	forwbranch < 8478, 4914 > 63.30645% taken
+M 2 < SystemAppCL, Lorg/python/compiler/Code;, getReturnLocal, ()I >
+	4	forwbranch < 121, 258 > 31.92612% taken
+M 6 < SystemAppCL, Lorg/python/compiler/Code;, write, (Ljava/io/DataOutputStream;)V >
+	37	forwbranch < 171, 683 > 20.023418% taken
+	104	forwbranch < 854, 258 > 76.79856% taken
+	176	forwbranch < 171, 683 > 20.023418% taken
+M 4 < SystemAppCL, Lorg/python/compiler/Code;, astore, (I)V >
+	1	forwbranch < 0, 14293 > 0.0% taken
+	6	forwbranch < 6512, 7781 > 45.560764% taken
+M 2 < SystemAppCL, Lorg/python/compiler/Code;, setline, (I)V >
+	4	forwbranch < 9950, 683 > 93.5766% taken
+M 8 < SystemAppCL, Lorg/python/compiler/Bytes;, equals, (Ljava/lang/Object;)Z >
+	4	forwbranch < 0, 132044 > 0.0% taken
+	24	forwbranch < 45127, 86917 > 34.175728% taken
+	35	forwbranch < 23632, 408527 > 5.4683576% taken
+	49	forwbranch < 387032, 21495 > 94.73841% taken
+M 2 < SystemAppCL, Lorg/python/compiler/Bytes;, hashCode, ()I >
+	13	forwbranch < 39669, 513399 > 7.172536% taken
+M 4 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, setline, (I)V >
+	7	forwbranch < 0, 10633 > 0.0% taken
+	37	forwbranch < 9950, 683 > 93.5766% taken
+M 2 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, set, (Lorg/python/parser/SimpleNode;I)V >
+	4	forwbranch < 6011, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, setLastI, (I)V >
+	7	forwbranch < 153, 573 > 21.07438% taken
+M 2 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, getNone, ()V >
+	7	forwbranch < 31, 316 > 8.933718% taken
+M 12 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitReturn, (Lorg/python/parser/ast/Return;Z)Ljava/lang/Object; >
+	6	forwbranch < 0, 422 > 0.0% taken
+	13	forwbranch < 422, 0 > 100.0% taken
+	33	forwbranch < 43, 379 > 10.189573% taken
+	43	forwbranch < 379, 0 > 100.0% taken
+	95	forwbranch < 422, 0 > 100.0% taken
+	129	forwbranch < 43, 379 > 10.189573% taken
+M 8 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, getName, (Ljava/lang/String;)Ljava/lang/String; >
+	4	forwbranch < 2237, 3820 > 36.932476% taken
+	14	forwbranch < 3370, 450 > 88.219894% taken
+	24	forwbranch < 285, 165 > 63.333332% taken
+	39	forwbranch < 165, 20 > 89.189186% taken
+M 8 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, makeArray, ([Lorg/python/parser/SimpleNode;)V >
+	1	forwbranch < 1306, 0 > 100.0% taken
+	13	forwbranch < 702, 604 > 53.751915% taken
+	23	forwbranch < 397, 207 > 65.72848% taken
+	117	forwbranch < 702, 2105 > 25.008905% taken
+M 6 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, getDocString, ([Lorg/python/parser/ast/stmtType;)V >
+	2	forwbranch < 0, 636 > 0.0% taken
+	11	forwbranch < 445, 191 > 69.96855% taken
+	26	forwbranch < 31, 160 > 16.230366% taken
+M 8 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, makeClosure, (Ljava/util/Vector;)Z >
+	1	forwbranch < 644, 0 > 100.0% taken
+	12	forwbranch < 0, 644 > 0.0% taken
+	24	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, doFinallyPart, (Lorg/python/compiler/CodeCompiler$InFinally;)V >
+	6	forwbranch < 0, 4 > 0.0% taken
+	41	forwbranch < 0, 0 > Never Executed
+	80	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, emitGetGlobal, (Ljava/lang/String;)V >
+	15	forwbranch < 1824, 414 > 81.50134% taken
+M 4 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, suite, ([Lorg/python/parser/ast/stmtType;)Ljava/lang/Object; >
+	7	forwbranch < 2301, 9955 > 18.774477% taken
+	21	forwbranch < 9325, 630 > 93.671524% taken
+M 10 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, doTest, (Lorg/python/compiler/Label;Lorg/python/parser/ast/If;I)Ljava/lang/Object; >
+	33	forwbranch < 913, 96 > 90.48563% taken
+	95	forwbranch < 599, 410 > 59.365707% taken
+	100	forwbranch < 41, 369 > 10.0% taken
+	120	forwbranch < 599, 410 > 59.365707% taken
+	131	forwbranch < 370, 40 > 90.243904% taken
+M 2 < SystemAppCL, Lorg/python/compiler/CodeCompiler$InFinally;, <init>, (Lorg/python/compiler/CodeCompiler;I)V >
+	26	forwbranch < 2, 2 > 50.0% taken
+M 10 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, exceptionTest, (ILorg/python/compiler/Label;Lorg/python/parser/ast/TryExcept;I)V >
+	10	forwbranch < 256, 264 > 49.23077% taken
+	36	forwbranch < 160, 104 > 60.60606% taken
+	64	forwbranch < 44, 60 > 42.307693% taken
+	127	forwbranch < 160, 0 > 100.0% taken
+	151	forwbranch < 234, 30 > 88.63636% taken
+M 13 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, make_cmpop, (I)I >
+	6	forwbranch < 1156, 380 > 75.260414% taken
+	12	switch     < 126, 40, 47, 10, 31, 8, 46, 48, 14, 10, 0 >
+M 6 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, make_binop, (I)I >
+	6	forwbranch < 1502, 433 > 77.62274% taken
+	17	forwbranch < 394, 39 > 90.99307% taken
+	30	forwbranch < 39, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, make_unaryop, (I)I >
+	6	forwbranch < 132, 98 > 57.391304% taken
+M 6 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, make_augbinop, (I)I >
+	6	forwbranch < 0, 1 > 0.0% taken
+	17	forwbranch < 1, 0 > 100.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+M 24 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, Slice, (Lorg/python/parser/ast/Subscript;Lorg/python/parser/ast/Slice;)Ljava/lang/Object; >
+	9	forwbranch < 428, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	48	forwbranch < 192, 236 > 44.859814% taken
+	74	forwbranch < 173, 255 > 40.42056% taken
+	100	forwbranch < 428, 0 > 100.0% taken
+	129	forwbranch < 428, 0 > 100.0% taken
+	139	forwbranch < 0, 0 > Never Executed
+	153	switch     < 410, 16, 2, 0 >
+	187	forwbranch < 0, 2 > 0.0% taken
+	238	forwbranch < 360, 50 > 87.80488% taken
+	300	forwbranch < 10, 6 > 62.5% taken
+M 4 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, seqSet, ([Lorg/python/parser/ast/exprType;)Ljava/lang/Object; >
+	7	forwbranch < 117, 69 > 62.903225% taken
+	92	forwbranch < 186, 534 > 25.833334% taken
+M 2 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, seqDel, ([Lorg/python/parser/ast/exprType;)Ljava/lang/Object; >
+	5	forwbranch < 2, 4 > 33.333332% taken
+M 10 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitModule, (Lorg/python/parser/ast/Module;)Ljava/lang/Object; >
+	7	forwbranch < 0, 42 > 0.0% taken
+	38	forwbranch < 3, 39 > 7.142857% taken
+	50	forwbranch < 16, 23 > 41.025642% taken
+	68	forwbranch < 0, 23 > 0.0% taken
+	122	forwbranch < 6, 36 > 14.285714% taken
+M 8 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitFunctionDef, (Lorg/python/parser/ast/FunctionDef;)Ljava/lang/Object; >
+	51	forwbranch < 403, 124 > 76.47059% taken
+	186	forwbranch < 0, 527 > 0.0% taken
+	196	forwbranch < 403, 124 > 76.47059% taken
+	246	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitExpr, (Lorg/python/parser/ast/Expr;)Ljava/lang/Object; >
+	18	forwbranch < 2344, 0 > 100.0% taken
+	28	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitAssign, (Lorg/python/parser/ast/Assign;)Ljava/lang/Object; >
+	20	forwbranch < 27, 4242 > 0.6324666% taken
+	49	forwbranch < 27, 56 > 32.53012% taken
+M 30 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitPrint, (Lorg/python/parser/ast/Print;)Ljava/lang/Object; >
+	11	forwbranch < 513, 0 > 100.0% taken
+	35	forwbranch < 0, 0 > Never Executed
+	73	forwbranch < 0, 0 > Never Executed
+	112	forwbranch < 0, 0 > Never Executed
+	154	forwbranch < 433, 80 > 84.40546% taken
+	192	forwbranch < 433, 80 > 84.40546% taken
+	231	forwbranch < 433, 80 > 84.40546% taken
+	267	forwbranch < 140, 373 > 27.29045% taken
+	275	forwbranch < 373, 0 > 100.0% taken
+	282	forwbranch < 140, 0 > 100.0% taken
+	315	forwbranch < 373, 378 > 49.66711% taken
+	322	forwbranch < 378, 0 > 100.0% taken
+	349	forwbranch < 9, 369 > 2.3809524% taken
+	361	forwbranch < 5, 364 > 1.3550136% taken
+	394	forwbranch < 513, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitBreak, (Lorg/python/parser/ast/Break;)Ljava/lang/Object; >
+	7	forwbranch < 38, 0 > 100.0% taken
+	36	forwbranch < 38, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitContinue, (Lorg/python/parser/ast/Continue;)Ljava/lang/Object; >
+	7	forwbranch < 41, 0 > 100.0% taken
+	36	forwbranch < 41, 0 > 100.0% taken
+M 14 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitRaise, (Lorg/python/parser/ast/Raise;)Ljava/lang/Object; >
+	14	forwbranch < 135, 0 > 100.0% taken
+	24	forwbranch < 0, 0 > Never Executed
+	71	forwbranch < 55, 80 > 40.74074% taken
+	81	forwbranch < 23, 57 > 28.75% taken
+	128	forwbranch < 0, 55 > 0.0% taken
+	138	forwbranch < 33, 22 > 60.0% taken
+	188	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitImport, (Lorg/python/parser/ast/Import;)Ljava/lang/Object; >
+	13	forwbranch < 172, 202 > 45.989304% taken
+	27	forwbranch < 200, 2 > 99.0099% taken
+	71	forwbranch < 0, 2 > 0.0% taken
+	134	forwbranch < 174, 26 > 87.0% taken
+	169	forwbranch < 140, 60 > 70.0% taken
+M 12 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitImportFrom, (Lorg/python/parser/ast/ImportFrom;)Ljava/lang/Object; >
+	25	forwbranch < 23, 23 > 50.0% taken
+	56	forwbranch < 23, 27 > 46.0% taken
+	91	forwbranch < 1, 26 > 3.7037036% taken
+	129	forwbranch < 4, 19 > 17.391304% taken
+	185	forwbranch < 23, 27 > 46.0% taken
+	259	forwbranch < 13, 10 > 56.52174% taken
+M 8 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitAssert, (Lorg/python/parser/ast/Assert;)Ljava/lang/Object; >
+	31	forwbranch < 3, 1 > 75.0% taken
+	94	forwbranch < 2, 2 > 50.0% taken
+	113	forwbranch < 0, 2 > 0.0% taken
+	164	forwbranch < 0, 2 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitIf, (Lorg/python/parser/ast/If;)Ljava/lang/Object; >
+	6	forwbranch < 599, 410 > 59.365707% taken
+	26	forwbranch < 599, 410 > 59.365707% taken
+M 4 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitWhile, (Lorg/python/parser/ast/While;)Ljava/lang/Object; >
+	84	forwbranch < 37, 0 > 100.0% taken
+	144	forwbranch < 37, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitFor, (Lorg/python/parser/ast/For;)Ljava/lang/Object; >
+	89	forwbranch < 91, 191 > 32.269505% taken
+	202	forwbranch < 91, 191 > 32.269505% taken
+	279	forwbranch < 276, 6 > 97.87234% taken
+M 8 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitTryFinally, (Lorg/python/parser/ast/TryFinally;)Ljava/lang/Object; >
+	53	forwbranch < 2, 0 > 100.0% taken
+	84	forwbranch < 2, 0 > 100.0% taken
+	171	forwbranch < 0, 2 > 0.0% taken
+	239	forwbranch < 0, 2 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitTryExcept, (Lorg/python/parser/ast/TryExcept;)Ljava/lang/Object; >
+	54	forwbranch < 12, 244 > 4.6875% taken
+	90	forwbranch < 192, 64 > 75.0% taken
+	157	forwbranch < 19, 237 > 7.421875% taken
+M 7 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitBoolOp, (Lorg/python/parser/ast/BoolOp;)Ljava/lang/Object; >
+	27	forwbranch < 134, 141 > 48.727272% taken
+	44	forwbranch < 132, 9 > 93.61702% taken
+	90	switch     < 113, 28, 0 >
+M 6 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitCompare, (Lorg/python/parser/ast/Compare;)Ljava/lang/Object; >
+	27	forwbranch < 1368, 158 > 89.64613% taken
+	89	forwbranch < 1526, 10 > 99.34896% taken
+	226	forwbranch < 1516, 10 > 99.34469% taken
+M 44 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitCall, (Lorg/python/parser/ast/Call;)Ljava/lang/Object; >
+	31	forwbranch < 2638, 2848 > 48.086037% taken
+	61	forwbranch < 2638, 120 > 95.64902% taken
+	108	forwbranch < 2638, 0 > 100.0% taken
+	115	forwbranch < 0, 0 > Never Executed
+	122	forwbranch < 0, 0 > Never Executed
+	132	forwbranch < 0, 0 > Never Executed
+	161	forwbranch < 3, 2635 > 0.11372252% taken
+	168	forwbranch < 2635, 0 > 100.0% taken
+	190	forwbranch < 3, 0 > 100.0% taken
+	216	forwbranch < 2, 1 > 66.666664% taken
+	245	forwbranch < 0, 3 > 0.0% taken
+	292	forwbranch < 2575, 60 > 97.72296% taken
+	317	forwbranch < 34, 26 > 56.666668% taken
+	364	switch     < 663, 1273, 419, 202, 5, 13 >
+	407	forwbranch < 482, 181 > 72.69985% taken
+	458	forwbranch < 899, 374 > 70.62058% taken
+	518	forwbranch < 259, 160 > 61.813843% taken
+	586	forwbranch < 143, 59 > 70.792076% taken
+	662	forwbranch < 2, 3 > 40.0% taken
+	751	forwbranch < 9, 4 > 69.23077% taken
+M 20 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitSubscript, (Lorg/python/parser/ast/Subscript;)Ljava/lang/Object; >
+	7	forwbranch < 755, 428 > 63.820793% taken
+	35	forwbranch < 755, 0 > 100.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	86	forwbranch < 755, 0 > 100.0% taken
+	96	forwbranch < 0, 0 > Never Executed
+	110	switch     < 485, 231, 39, 0 >
+	143	forwbranch < 32, 7 > 82.051285% taken
+	193	forwbranch < 380, 105 > 78.35052% taken
+	255	forwbranch < 192, 39 > 83.11688% taken
+M 18 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitAttribute, (Lorg/python/parser/ast/Attribute;)Ljava/lang/Object; >
+	12	forwbranch < 3251, 0 > 100.0% taken
+	22	forwbranch < 0, 0 > Never Executed
+	69	forwbranch < 3251, 0 > 100.0% taken
+	79	forwbranch < 0, 0 > Never Executed
+	93	switch     < 2752, 498, 1, 0 >
+	127	forwbranch < 0, 1 > 0.0% taken
+	178	forwbranch < 2287, 465 > 83.103195% taken
+	240	forwbranch < 417, 81 > 83.73494% taken
+M 6 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitTuple, (Lorg/python/parser/ast/Tuple;)Ljava/lang/Object; >
+	7	forwbranch < 338, 186 > 64.503815% taken
+	26	forwbranch < 336, 2 > 99.40829% taken
+	80	forwbranch < 200, 136 > 59.52381% taken
+M 6 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitList, (Lorg/python/parser/ast/List;)Ljava/lang/Object; >
+	7	forwbranch < 154, 0 > 100.0% taken
+	26	forwbranch < 154, 0 > 100.0% taken
+	80	forwbranch < 67, 87 > 43.506493% taken
+M 8 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitListComp, (Lorg/python/parser/ast/ListComp;)Ljava/lang/Object; >
+	34	forwbranch < 0, 2 > 0.0% taken
+	99	forwbranch < 0, 2 > 0.0% taken
+	247	forwbranch < 2, 2 > 50.0% taken
+	271	forwbranch < 2, 1 > 66.666664% taken
+M 4 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitDict, (Lorg/python/parser/ast/Dict;)Ljava/lang/Object; >
+	46	forwbranch < 96, 180 > 34.782608% taken
+	91	forwbranch < 58, 38 > 60.416668% taken
+M 8 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitLambda, (Lorg/python/parser/ast/Lambda;)Ljava/lang/Object; >
+	74	forwbranch < 3, 5 > 37.5% taken
+	192	forwbranch < 0, 8 > 0.0% taken
+	202	forwbranch < 2, 6 > 25.0% taken
+	253	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitClassDef, (Lorg/python/parser/ast/ClassDef;)Ljava/lang/Object; >
+	107	forwbranch < 0, 109 > 0.0% taken
+	117	forwbranch < 66, 43 > 60.550457% taken
+	169	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitNum, (Lorg/python/parser/ast/Num;)Ljava/lang/Object; >
+	7	forwbranch < 1132, 3598 > 23.932346% taken
+	44	forwbranch < 816, 316 > 72.08481% taken
+	84	forwbranch < 16, 800 > 1.9607843% taken
+	121	forwbranch < 0, 16 > 0.0% taken
+M 68 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitName, (Lorg/python/parser/ast/Name;)Ljava/lang/Object; >
+	4	forwbranch < 2170, 14933 > 12.687833% taken
+	47	forwbranch < 17101, 2 > 99.988304% taken
+	58	switch     < 12014, 5081, 8, 0 >
+	89	forwbranch < 0, 12014 > 0.0% taken
+	103	forwbranch < 64, 11950 > 0.53271186% taken
+	110	forwbranch < 770, 11180 > 6.443515% taken
+	118	forwbranch < 9010, 2170 > 80.59034% taken
+	132	forwbranch < 770, 9010 > 7.8732104% taken
+	140	forwbranch < 9010, 0 > 100.0% taken
+	161	forwbranch < 0, 0 > Never Executed
+	208	forwbranch < 0, 9010 > 0.0% taken
+	229	forwbranch < 8506, 504 > 94.40621% taken
+	277	forwbranch < 770, 0 > 100.0% taken
+	284	forwbranch < 0, 0 > Never Executed
+	305	forwbranch < 0, 0 > Never Executed
+	363	forwbranch < 706, 64 > 91.68831% taken
+	412	forwbranch < 3, 5078 > 0.059043497% taken
+	422	forwbranch < 5066, 12 > 99.76369% taken
+	451	forwbranch < 6, 6 > 50.0% taken
+	498	forwbranch < 3675, 1394 > 72.499504% taken
+	527	forwbranch < 1260, 134 > 90.387375% taken
+	572	forwbranch < 3675, 0 > 100.0% taken
+	608	forwbranch < 3675, 0 > 100.0% taken
+	640	forwbranch < 0, 0 > Never Executed
+	714	forwbranch < 3365, 310 > 91.56463% taken
+	763	forwbranch < 0, 8 > 0.0% taken
+	773	forwbranch < 8, 0 > 100.0% taken
+	791	forwbranch < 0, 0 > Never Executed
+	840	forwbranch < 2, 6 > 25.0% taken
+	858	forwbranch < 4, 2 > 66.666664% taken
+	904	forwbranch < 2, 0 > 100.0% taken
+	940	forwbranch < 2, 0 > 100.0% taken
+	996	forwbranch < 0, 2 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/compiler/CodeCompiler;, visitStr, (Lorg/python/parser/ast/Str;)Ljava/lang/Object; >
+	12	forwbranch < 2335, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/compiler/LineNumberTable;, write, (Ljava/io/DataOutputStream;)V >
+	36	forwbranch < 683, 10633 > 6.0357018% taken
+M 4 < SystemAppCL, Lorg/python/compiler/PyIntegerConstant;, equals, (Ljava/lang/Object;)Z >
+	4	forwbranch < 402, 3417 > 10.526316% taken
+	18	forwbranch < 130, 3287 > 3.8045068% taken
+M 10 < SystemAppCL, Lorg/python/core/BytecodeLoader;, makeLoader, ()Lorg/python/core/Loader; >
+	3	forwbranch < 41, 1 > 97.61905% taken
+	9	forwbranch < 0, 1 > 0.0% taken
+	42	forwbranch < 0, 1 > 0.0% taken
+	60	forwbranch < 0, 0 > Never Executed
+	87	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/core/BytecodeLoader;, makeClass, (Ljava/lang/String;Ljava/util/Vector;[B)Ljava/lang/Class; >
+	5	forwbranch < 42, 0 > 100.0% taken
+	17	forwbranch < 0, 0 > Never Executed
+	40	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/BytecodeLoader;, findParentClass, (Ljava/util/Vector;Ljava/lang/String;)Ljava/lang/Class; >
+	7	forwbranch < 0, 332 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/BytecodeLoader;, compileClass, (Ljava/lang/Class;)V >
+	3	forwbranch < 42, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/python/core/BytecodeLoader2;, loadClass, (Ljava/lang/String;Z)Ljava/lang/Class; >
+	7	forwbranch < 332, 0 > 100.0% taken
+M 40 < org.python.core.BytecodeLoader2@1c8c220d, Lsite$py;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	188	forwbranch < 4, 2 > 66.666664% taken
+	247	backbranch < 6, 1 > 85.71429% taken
+	383	forwbranch < 0, 2 > 0.0% taken
+	425	backbranch < 2, 1 > 66.666664% taken
+	624	forwbranch < 1, 0 > 100.0% taken
+	700	forwbranch < 0, 1 > 0.0% taken
+	729	forwbranch < 0, 1 > 0.0% taken
+	957	forwbranch < 2, 0 > 100.0% taken
+	999	backbranch < 2, 1 > 66.666664% taken
+	1014	backbranch < 1, 1 > 50.0% taken
+	1044	forwbranch < 1, 0 > 100.0% taken
+	1098	forwbranch < 1, 0 > 100.0% taken
+	1344	forwbranch < 0, 1 > 0.0% taken
+	1643	forwbranch < 1, 0 > 100.0% taken
+	1728	forwbranch < 0, 0 > Never Executed
+	1775	forwbranch < 1, 0 > 100.0% taken
+	1822	forwbranch < 1, 0 > 100.0% taken
+	1899	forwbranch < 0, 1 > 0.0% taken
+	1942	forwbranch < 0, 1 > 0.0% taken
+	2023	forwbranch < 1, 0 > 100.0% taken
+M 11 < org.python.core.BytecodeLoader2@1c8c220d, Lsite$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 6, 0, 0, 1, 3, 0, 0, 0, 0, 0 >
+M 4 < SystemAppCL, Lorg/python/modules/os;, classDictInit, (Lorg/python/core/PyObject;)V >
+	46	forwbranch < 1, 42 > 2.3255813% taken
+	88	forwbranch < 0, 1 > 0.0% taken
+M 6 < SystemAppCL, Lorg/python/parser/ast/Raise;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 270 > 0.0% taken
+	20	forwbranch < 160, 110 > 59.25926% taken
+	36	forwbranch < 270, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/parser/ast/ListComp;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 2 > 0.0% taken
+	20	forwbranch < 0, 2 > 0.0% taken
+	31	forwbranch < 2, 2 > 50.0% taken
+	40	forwbranch < 0, 2 > 0.0% taken
+M 12 < SystemAppCL, Lorg/python/parser/ast/Dict;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 96 > 0.0% taken
+	15	forwbranch < 96, 180 > 34.782608% taken
+	24	forwbranch < 0, 180 > 0.0% taken
+	48	forwbranch < 0, 96 > 0.0% taken
+	59	forwbranch < 96, 180 > 34.782608% taken
+	68	forwbranch < 0, 180 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/compiler/PyFloatConstant;, equals, (Ljava/lang/Object;)Z >
+	4	forwbranch < 798, 884 > 47.44352% taken
+	19	forwbranch < 161, 723 > 18.21267% taken
+M 2 < org.python.core.BytecodeLoader2@1c8474ec, Ljavaos$py;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	572	forwbranch < 1, 0 > 100.0% taken
+M 4 < org.python.core.BytecodeLoader2@1c8474ec, Ljavaos$py;, __init__$19, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	85	forwbranch < 1, 0 > 100.0% taken
+	144	forwbranch < 0, 1 > 0.0% taken
+M 47 < org.python.core.BytecodeLoader2@1c8474ec, Ljavaos$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 2 < org.python.core.BytecodeLoader2@1c7de851, Ljavapath$py;, _tostr$1, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	31	forwbranch < 0, 62 > 0.0% taken
+M 4 < org.python.core.BytecodeLoader2@1c7de851, Ljavapath$py;, dirname$2, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	96	forwbranch < 5, 5 > 50.0% taken
+	122	forwbranch < 5, 0 > 100.0% taken
+M 6 < org.python.core.BytecodeLoader2@1c7de851, Ljavapath$py;, join$11, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	185	forwbranch < 0, 6 > 0.0% taken
+	222	forwbranch < 6, 0 > 100.0% taken
+	300	backbranch < 6, 7 > 46.153847% taken
+M 28 < org.python.core.BytecodeLoader2@1c7de851, Ljavapath$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 62, 10, 10, 10, 0, 0, 0, 5, 0, 2, 7, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0 >
+M 12 < SystemAppCL, Lorg/python/parser/ast/TryFinally;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 2 > 0.0% taken
+	15	forwbranch < 2, 4 > 33.333332% taken
+	24	forwbranch < 0, 4 > 0.0% taken
+	48	forwbranch < 0, 2 > 0.0% taken
+	59	forwbranch < 2, 2 > 50.0% taken
+	68	forwbranch < 0, 2 > 0.0% taken
+M 2 < org.python.core.BytecodeLoader2@1c7a0c4e, LUserDict$py;, __init__$2, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	52	forwbranch < 1, 0 > 100.0% taken
+M 26 < org.python.core.BytecodeLoader2@1c7a0c4e, LUserDict$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0 >
+M 11 < org.python.core.BytecodeLoader2@1c79203b, Lstat$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 8 < SystemAppCL, Lorg/python/core/PyJavaInstance;, __init__, ([Lorg/python/core/PyObject;[Ljava/lang/String;)V >
+	9	forwbranch < 0, 58 > 0.0% taken
+	23	forwbranch < 58, 0 > 100.0% taken
+	65	forwbranch < 58, 0 > 100.0% taken
+	116	forwbranch < 58, 0 > 100.0% taken
+M 2 < org.python.core.BytecodeLoader2@1c629baf, Lorg/python/pycode/_pyx0;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 0 >
+M 6 < org.python.core.BytecodeLoader2@1c5b8192, Lorg/python/pycode/_pyx1;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	181	forwbranch < 0, 0 > Never Executed
+	473	forwbranch < 1, 0 > 100.0% taken
+	812	forwbranch < 0, 1 > 0.0% taken
+M 6 < org.python.core.BytecodeLoader2@1c5b8192, Lorg/python/pycode/_pyx1;, get_timer$1, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	23	forwbranch < 0, 1 > 0.0% taken
+	74	forwbranch < 0, 0 > Never Executed
+	125	forwbranch < 0, 0 > Never Executed
+M 12 < org.python.core.BytecodeLoader2@1c5b8192, Lorg/python/pycode/_pyx1;, __init__$14, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	15	forwbranch < 1, 0 > 100.0% taken
+	138	forwbranch < 0, 1 > 0.0% taken
+	193	forwbranch < 0, 1 > 0.0% taken
+	248	forwbranch < 0, 1 > 0.0% taken
+	303	forwbranch < 0, 1 > 0.0% taken
+	381	forwbranch < 1, 0 > 100.0% taken
+M 16 < org.python.core.BytecodeLoader2@1c5b8192, Lorg/python/pycode/_pyx1;, load_tests$17, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	21	forwbranch < 1, 0 > 100.0% taken
+	121	forwbranch < 52, 9 > 85.2459% taken
+	178	forwbranch < 51, 1 > 98.07692% taken
+	210	forwbranch < 51, 0 > 100.0% taken
+	246	forwbranch < 51, 0 > 100.0% taken
+	388	backbranch < 61, 1 > 98.3871% taken
+	470	forwbranch < 1, 0 > 100.0% taken
+	532	backbranch < 0, 0 > Never Executed
+M 6 < org.python.core.BytecodeLoader2@1c5b8192, Lorg/python/pycode/_pyx1;, calibrate$18, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	34	forwbranch < 1, 0 > 100.0% taken
+	293	forwbranch < 51, 0 > 100.0% taken
+	417	backbranch < 51, 1 > 98.07692% taken
+M 12 < org.python.core.BytecodeLoader2@1c5b8192, Lorg/python/pycode/_pyx1;, run$19, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	249	forwbranch < 1, 0 > 100.0% taken
+	439	forwbranch < 51, 0 > 100.0% taken
+	622	forwbranch < 51, 0 > 100.0% taken
+	727	backbranch < 51, 1 > 98.07692% taken
+	785	forwbranch < 1, 0 > 100.0% taken
+	915	backbranch < 1, 1 > 50.0% taken
+M 2 < org.python.core.BytecodeLoader2@1c5b8192, Lorg/python/pycode/_pyx1;, print_header$21, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	217	forwbranch < 1, 0 > 100.0% taken
+M 6 < org.python.core.BytecodeLoader2@1c5b8192, Lorg/python/pycode/_pyx1;, print_benchmark$22, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	221	forwbranch < 51, 0 > 100.0% taken
+	257	forwbranch < 51, 0 > 100.0% taken
+	577	backbranch < 51, 1 > 98.07692% taken
+M 34 < org.python.core.BytecodeLoader2@1c5b8192, Lorg/python/pycode/_pyx1;, main$25, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	294	forwbranch < 1, 0 > 100.0% taken
+	313	forwbranch < 0, 0 > Never Executed
+	676	forwbranch < 0, 1 > 0.0% taken
+	721	forwbranch < 0, 1 > 0.0% taken
+	797	forwbranch < 0, 1 > 0.0% taken
+	867	forwbranch < 1, 0 > 100.0% taken
+	969	forwbranch < 1, 0 > 100.0% taken
+	1137	forwbranch < 0, 0 > Never Executed
+	1254	forwbranch < 1, 0 > 100.0% taken
+	1421	forwbranch < 0, 0 > Never Executed
+	1582	forwbranch < 0, 0 > Never Executed
+	1703	forwbranch < 1, 0 > 100.0% taken
+	2030	forwbranch < 0, 0 > Never Executed
+	2125	forwbranch < 1, 0 > 100.0% taken
+	2283	forwbranch < 1, 0 > 100.0% taken
+	2428	forwbranch < 0, 0 > Never Executed
+	2472	forwbranch < 0, 0 > Never Executed
+M 27 < org.python.core.BytecodeLoader2@1c5b8192, Lorg/python/pycode/_pyx1;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0 >
+M 2 < SystemAppCL, Lorg/python/modules/time;, getDisplayName, (Ljava/util/TimeZone;ZI)Ljava/lang/String; >
+	12	forwbranch < 0, 2 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/modules/time;, getDSTSavings, (Ljava/util/TimeZone;)I >
+	12	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/modules/time;, _timefields, (DLjava/util/TimeZone;)Lorg/python/core/PyTuple; >
+	42	forwbranch < 5, 0 > 100.0% taken
+	215	forwbranch < 5, 0 > 100.0% taken
+M 16 < BootstrapCL, Ljava/util/TimeZone;, getTimeZone, (Ljava/lang/String;)Ljava/util/TimeZone; >
+	6	forwbranch < 0, 1 > 0.0% taken
+	14	forwbranch < 1, 0 > 100.0% taken
+	28	forwbranch < 0, 0 > Never Executed
+	46	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	114	forwbranch < 0, 0 > Never Executed
+	179	forwbranch < 0, 0 > Never Executed
+	293	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/modules/time;, classDictInit, (Lorg/python/core/PyObject;)V >
+	88	forwbranch < 1, 0 > 100.0% taken
+M 24 < BootstrapCL, Ljava/text/DateFormatSymbols;, getStringArray, (Ljava/util/List;Ljava/lang/String;I[Ljava/lang/String;)[Ljava/lang/String; >
+	24	forwbranch < 6, 18 > 25.0% taken
+	63	forwbranch < 18, 138 > 11.538462% taken
+	71	forwbranch < 0, 138 > 0.0% taken
+	79	forwbranch < 0, 138 > 0.0% taken
+	90	forwbranch < 84, 54 > 60.869564% taken
+	101	forwbranch < 12, 42 > 22.222221% taken
+	127	forwbranch < 4, 2 > 66.666664% taken
+	133	forwbranch < 0, 2 > 0.0% taken
+	144	forwbranch < 2, 21 > 8.695652% taken
+	155	forwbranch < 19, 2 > 90.47619% taken
+	162	forwbranch < 0, 2 > 0.0% taken
+	172	forwbranch < 2, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/text/DateFormatSymbols;, getString, (Ljava/util/List;Ljava/lang/String;)Ljava/lang/String; >
+	15	forwbranch < 0, 9 > 0.0% taken
+	37	forwbranch < 0, 9 > 0.0% taken
+	44	forwbranch < 0, 9 > 0.0% taken
+M 2 < BootstrapCL, Ljava/text/DateFormatSymbols;, formatsForKey, (Ljava/util/List;Ljava/lang/String;)[Ljava/lang/String; >
+	15	forwbranch < 2, 8 > 20.0% taken
+M 42 < BootstrapCL, Ljava/text/DateFormatSymbols;, getZoneStrings, (Ljava/util/List;Ljava/util/Locale;)[[Ljava/lang/String; >
+	31	forwbranch < 1, 3 > 25.0% taken
+	79	forwbranch < 3, 541 > 0.5514706% taken
+	132	forwbranch < 0, 541 > 0.0% taken
+	167	forwbranch < 4, 537 > 0.73937154% taken
+	180	forwbranch < 109, 432 > 20.147875% taken
+	211	forwbranch < 432, 838 > 34.015747% taken
+	248	forwbranch < 161, 380 > 29.759705% taken
+	255	forwbranch < 0, 380 > 0.0% taken
+	266	forwbranch < 380, 1520 > 20.0% taken
+	279	forwbranch < 854, 666 > 56.18421% taken
+	340	forwbranch < 1, 161 > 0.61728394% taken
+	364	forwbranch < 159, 2 > 98.75777% taken
+	376	forwbranch < 0, 2 > 0.0% taken
+	399	forwbranch < 2, 642 > 0.310559% taken
+	435	forwbranch < 638, 4 > 99.376945% taken
+	502	forwbranch < 0, 4 > 0.0% taken
+	535	forwbranch < 0, 4 > 0.0% taken
+	605	forwbranch < 1, 0 > 100.0% taken
+	638	forwbranch < 0, 0 > Never Executed
+	654	forwbranch < 0, 0 > Never Executed
+	674	forwbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Ljava/text/DateFormatSymbols;, retrieveData, (Ljava/util/Locale;)Ljava/text/DateFormatSymbols$DFSData; >
+	14	forwbranch < 2, 1 > 66.666664% taken
+	59	forwbranch < 1, 2 > 33.333332% taken
+	200	forwbranch < 1, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/DateFormatSymbols$DFSData;, getZoneStrings, ()[[Ljava/lang/String; >
+	16	forwbranch < 3, 483 > 0.61728394% taken
+M 2 < BootstrapCL, Ljava/text/DateFormatSymbols;, getZoneStrings, ()[[Ljava/lang/String; >
+	4	forwbranch < 2, 0 > 100.0% taken
+M 18 < BootstrapCL, Ljava/util/concurrent/ConcurrentHashMap;, <init>, (IFI)V >
+	7	forwbranch < 0, 1 > 0.0% taken
+	11	forwbranch < 0, 1 > 0.0% taken
+	15	forwbranch < 1, 0 > 100.0% taken
+	29	forwbranch < 1, 0 > 100.0% taken
+	44	forwbranch < 1, 4 > 20.0% taken
+	88	forwbranch < 1, 0 > 100.0% taken
+	106	forwbranch < 1, 0 > 100.0% taken
+	119	forwbranch < 1, 0 > 100.0% taken
+	141	forwbranch < 1, 16 > 5.882353% taken
+M 10 < BootstrapCL, Ljava/util/concurrent/ConcurrentHashMap$Segment;, get, (Ljava/lang/Object;I)Ljava/lang/Object; >
+	4	forwbranch < 1, 2 > 33.333332% taken
+	14	forwbranch < 0, 2 > 0.0% taken
+	22	forwbranch < 0, 2 > 0.0% taken
+	33	forwbranch < 0, 2 > 0.0% taken
+	44	forwbranch < 0, 2 > 0.0% taken
+M 12 < BootstrapCL, Ljava/util/concurrent/ConcurrentHashMap$Segment;, put, (Ljava/lang/Object;ILjava/lang/Object;Z)Ljava/lang/Object; >
+	19	forwbranch < 1, 0 > 100.0% taken
+	54	forwbranch < 1, 0 > 100.0% taken
+	63	forwbranch < 0, 0 > Never Executed
+	75	forwbranch < 0, 0 > Never Executed
+	90	forwbranch < 1, 0 > 100.0% taken
+	102	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/util/concurrent/ConcurrentHashMap;, putIfAbsent, (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; >
+	1	forwbranch < 1, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/util/concurrent/locks/AbstractQueuedSynchronizer;, release, (I)Z >
+	5	forwbranch < 0, 1 > 0.0% taken
+	14	forwbranch < 1, 0 > 100.0% taken
+	21	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljava/util/concurrent/locks/ReentrantLock$Sync;, tryRelease, (I)Z >
+	14	forwbranch < 1, 0 > 100.0% taken
+	28	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/util/concurrent/locks/ReentrantLock$NonfairSync;, lock, ()V >
+	6	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/util/ServiceLoader;, load, (Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader; >
+	1	forwbranch < 1, 0 > 100.0% taken
+M 6 < BootstrapCL, Lgnu/classpath/ServiceFactory;, lookupProviders, (Ljava/lang/Class;Ljava/lang/ClassLoader;Z)Ljava/util/Iterator; >
+	1	forwbranch < 1, 0 > 100.0% taken
+	13	forwbranch < 1, 0 > 100.0% taken
+	67	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljava/util/ServiceLoader$1;, hasNext, ()Z >
+	9	forwbranch < 1, 0 > 100.0% taken
+	21	forwbranch < 0, 1 > 0.0% taken
+M 18 < BootstrapCL, Lgnu/classpath/ServiceFactory$ServiceIterator;, loadNextServiceProvider, ()Ljava/lang/Object; >
+	4	forwbranch < 0, 1 > 0.0% taken
+	15	forwbranch < 0, 1 > 0.0% taken
+	51	forwbranch < 0, 0 > Never Executed
+	86	forwbranch < 0, 0 > Never Executed
+	105	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 0 > Never Executed
+	190	forwbranch < 0, 0 > Never Executed
+	200	forwbranch < 0, 0 > Never Executed
+	243	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lgnu/classpath/ServiceFactory$ServiceIterator;, hasNext, ()Z >
+	4	forwbranch < 1, 0 > 100.0% taken
+M 10 < BootstrapCL, Lgnu/classpath/ServiceFactory$ServiceIterator;, advanceReader, ()V >
+	4	forwbranch < 1, 0 > 100.0% taken
+	48	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 1 > 0.0% taken
+	182	forwbranch < 0, 0 > Never Executed
+	220	backbranch < 0, 0 > Never Executed
+M 4 < org.python.core.BytecodeLoader2@1c322a3f, Lstring$py;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	431	backbranch < 256, 1 > 99.61089% taken
+	1923	forwbranch < 0, 1 > 0.0% taken
+M 4 < org.python.core.BytecodeLoader2@1c322a3f, Lstring$py;, atoi$15, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	57	forwbranch < 0, 0 > Never Executed
+	142	forwbranch < 0, 15 > 0.0% taken
+M 28 < org.python.core.BytecodeLoader2@1c322a3f, Lstring$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 0, 0, 0, 0, 0, 0, 5, 100, 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 0 >
+M 2 < org.python.core.BytecodeLoader2@1c3a1e26, LCommandLine$py;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	896	forwbranch < 1, 0 > 100.0% taken
+M 8 < org.python.core.BytecodeLoader2@1c3a1e26, LCommandLine$py;, _getopt_flags$1, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	109	forwbranch < 35, 50 > 41.17647% taken
+	161	forwbranch < 15, 35 > 30.0% taken
+	209	forwbranch < 30, 5 > 85.71429% taken
+	293	backbranch < 85, 5 > 94.44444% taken
+M 2 < org.python.core.BytecodeLoader2@1c3a1e26, LCommandLine$py;, option_dict$4, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	107	backbranch < 60, 5 > 92.30769% taken
+M 6 < org.python.core.BytecodeLoader2@1c3a1e26, LCommandLine$py;, __init__$8, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	32	forwbranch < 78, 0 > 100.0% taken
+	87	forwbranch < 56, 22 > 71.79487% taken
+	200	forwbranch < 0, 78 > 0.0% taken
+M 2 < org.python.core.BytecodeLoader2@1c3a1e26, LCommandLine$py;, __init__$11, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	63	forwbranch < 0, 48 > 0.0% taken
+M 2 < org.python.core.BytecodeLoader2@1c3a1e26, LCommandLine$py;, __init__$13, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	63	forwbranch < 6, 24 > 20.0% taken
+M 26 < org.python.core.BytecodeLoader2@1c3a1e26, LCommandLine$py;, __init__$15, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	24	forwbranch < 0, 5 > 0.0% taken
+	138	forwbranch < 0, 5 > 0.0% taken
+	258	forwbranch < 5, 0 > 100.0% taken
+	480	forwbranch < 5, 25 > 16.666666% taken
+	523	backbranch < 30, 5 > 85.71429% taken
+	612	forwbranch < 5, 0 > 100.0% taken
+	692	forwbranch < 5, 0 > 100.0% taken
+	772	forwbranch < 0, 5 > 0.0% taken
+	813	forwbranch < 0, 0 > Never Executed
+	849	forwbranch < 0, 0 > Never Executed
+	922	forwbranch < 0, 0 > Never Executed
+	969	forwbranch < 0, 0 > Never Executed
+	1043	forwbranch < 0, 0 > Never Executed
+M 28 < org.python.core.BytecodeLoader2@1c3a1e26, LCommandLine$py;, parse$19, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	102	forwbranch < 25, 60 > 29.411764% taken
+	232	backbranch < 85, 5 > 94.44444% taken
+	404	forwbranch < 0, 5 > 0.0% taken
+	519	forwbranch < 0, 0 > Never Executed
+	613	backbranch < 0, 5 > 0.0% taken
+	731	forwbranch < 0, 0 > Never Executed
+	874	forwbranch < 5, 0 > 100.0% taken
+	1028	forwbranch < 0, 0 > Never Executed
+	1157	forwbranch < 0, 15 > 0.0% taken
+	1182	forwbranch < 15, 0 > 100.0% taken
+	1215	forwbranch < 0, 0 > Never Executed
+	1402	forwbranch < 0, 0 > Never Executed
+	1442	backbranch < 15, 5 > 75.0% taken
+	1512	forwbranch < 5, 0 > 100.0% taken
+M 39 < org.python.core.BytecodeLoader2@1c3a1e26, LCommandLine$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 5, 0, 0, 5, 0, 0, 1, 78, 0, 1, 48, 1, 30, 1, 5, 25, 5, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 4 < SystemAppCL, Lorg/python/parser/ast/Assert;, traverse, (Lorg/python/parser/ast/VisitorIF;)V >
+	4	forwbranch < 0, 4 > 0.0% taken
+	20	forwbranch < 2, 2 > 50.0% taken
+M 2 < org.python.core.BytecodeLoader2@1c2d923f, Lgetopt$py;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	350	forwbranch < 1, 0 > 100.0% taken
+M 12 < org.python.core.BytecodeLoader2@1c2d923f, Lgetopt$py;, getopt$4, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	73	forwbranch < 5, 0 > 100.0% taken
+	173	forwbranch < 15, 0 > 100.0% taken
+	241	forwbranch < 15, 0 > 100.0% taken
+	454	forwbranch < 5, 15 > 25.0% taken
+	484	forwbranch < 0, 15 > 0.0% taken
+	508	backbranch < 15, 5 > 75.0% taken
+M 8 < org.python.core.BytecodeLoader2@1c2d923f, Lgetopt$py;, do_shorts$7, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	120	forwbranch < 0, 15 > 0.0% taken
+	143	forwbranch < 0, 15 > 0.0% taken
+	163	forwbranch < 15, 0 > 100.0% taken
+	461	backbranch < 15, 15 > 50.0% taken
+M 6 < org.python.core.BytecodeLoader2@1c2d923f, Lgetopt$py;, short_has_arg$8, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	82	forwbranch < 100, 15 > 86.95652% taken
+	100	forwbranch < 100, 15 > 86.95652% taken
+	170	backbranch < 115, 0 > 100.0% taken
+M 10 < org.python.core.BytecodeLoader2@1c2d923f, Lgetopt$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 0, 0, 5, 0, 0, 15, 15, 0 >
+M 6 < org.python.core.BytecodeLoader2@1c2f3a11, Lglob$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 0, 0, 0, 0, 0 >
+M 6 < org.python.core.BytecodeLoader2@1c28ac6a, Lfnmatch$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 0, 0, 0, 0, 0 >
+M 2 < org.python.core.BytecodeLoader2@1c29bde6, Lre$py;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	351	backbranch < 23, 1 > 95.833336% taken
+M 2 < org.python.core.BytecodeLoader2@1c29bde6, Lre$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 0 >
+M 2 < org.python.core.BytecodeLoader2@1c23c586, Lsre$py;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	895	forwbranch < 0, 1 > 0.0% taken
+M 10 < org.python.core.BytecodeLoader2@1c23c586, Lsre$py;, _compile$13, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	62	forwbranch < 3, 0 > 100.0% taken
+	174	forwbranch < 3, 0 > 100.0% taken
+	237	forwbranch < 3, 0 > 100.0% taken
+	320	forwbranch < 0, 0 > Never Executed
+	403	forwbranch < 3, 0 > 100.0% taken
+M 23 < org.python.core.BytecodeLoader2@1c23c586, Lsre$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 1, 0, 0, 0 >
+M 4 < org.python.core.BytecodeLoader2@1c1b80d5, Lsre_compile$py;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	93	forwbranch < 0, 1 > 0.0% taken
+	514	forwbranch < 0, 0 > Never Executed
+M 64 < org.python.core.BytecodeLoader2@1c1b80d5, Lsre_compile$py;, _compile$1, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	136	forwbranch < 27, 4 > 87.09677% taken
+	162	forwbranch < 4, 0 > 100.0% taken
+	323	forwbranch < 17, 10 > 62.962963% taken
+	349	forwbranch < 10, 0 > 100.0% taken
+	679	forwbranch < 17, 0 > 100.0% taken
+	705	forwbranch < 0, 0 > Never Executed
+	837	forwbranch < 5, 12 > 29.411764% taken
+	863	forwbranch < 12, 0 > 100.0% taken
+	909	forwbranch < 0, 12 > 0.0% taken
+	931	forwbranch < 0, 12 > 0.0% taken
+	1425	forwbranch < 0, 0 > Never Executed
+	1518	forwbranch < 2, 3 > 40.0% taken
+	1541	forwbranch < 0, 3 > 0.0% taken
+	1669	forwbranch < 0, 3 > 0.0% taken
+	1802	forwbranch < 2, 0 > 100.0% taken
+	1891	forwbranch < 2, 0 > 100.0% taken
+	2000	forwbranch < 0, 0 > Never Executed
+	2120	forwbranch < 0, 0 > Never Executed
+	2306	forwbranch < 2, 0 > 100.0% taken
+	2526	forwbranch < 0, 2 > 0.0% taken
+	2583	forwbranch < 2, 0 > 100.0% taken
+	2654	forwbranch < 2, 0 > 100.0% taken
+	2728	forwbranch < 2, 0 > 100.0% taken
+	2833	forwbranch < 0, 0 > Never Executed
+	3155	backbranch < 0, 0 > Never Executed
+	3270	backbranch < 0, 0 > Never Executed
+	3302	forwbranch < 0, 0 > Never Executed
+	3361	forwbranch < 0, 0 > Never Executed
+	3426	forwbranch < 0, 0 > Never Executed
+	3523	forwbranch < 0, 0 > Never Executed
+	3550	forwbranch < 0, 0 > Never Executed
+	3719	backbranch < 31, 19 > 62.0% taken
+M 20 < org.python.core.BytecodeLoader2@1c1b80d5, Lsre_compile$py;, _compile_charset$4, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	45	forwbranch < 10, 1 > 90.90909% taken
+	217	forwbranch < 11, 0 > 100.0% taken
+	254	forwbranch < 11, 0 > 100.0% taken
+	315	forwbranch < 11, 0 > 100.0% taken
+	418	forwbranch < 9, 2 > 81.818184% taken
+	476	forwbranch < 9, 0 > 100.0% taken
+	534	forwbranch < 0, 9 > 0.0% taken
+	562	forwbranch < 9, 0 > 100.0% taken
+	635	forwbranch < 9, 0 > 100.0% taken
+	751	backbranch < 11, 11 > 50.0% taken
+M 34 < org.python.core.BytecodeLoader2@1c1b80d5, Lsre_compile$py;, _optimize_charset$6, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	151	forwbranch < 15, 0 > 100.0% taken
+	236	forwbranch < 9, 6 > 60.0% taken
+	305	forwbranch < 9, 0 > 100.0% taken
+	432	backbranch < 0, 0 > Never Executed
+	463	forwbranch < 0, 9 > 0.0% taken
+	501	backbranch < 15, 2 > 88.23529% taken
+	523	forwbranch < 0, 0 > Never Executed
+	554	forwbranch < 0, 0 > Never Executed
+	721	forwbranch < 506, 6 > 98.828125% taken
+	746	forwbranch < 0, 6 > 0.0% taken
+	825	forwbranch < 500, 6 > 98.81423% taken
+	952	backbranch < 512, 2 > 99.61089% taken
+	971	forwbranch < 2, 0 > 100.0% taken
+	1057	forwbranch < 2, 0 > 100.0% taken
+	1142	forwbranch < 0, 0 > Never Executed
+	1317	backbranch < 0, 0 > Never Executed
+	1362	forwbranch < 0, 0 > Never Executed
+M 6 < org.python.core.BytecodeLoader2@1c1b80d5, Lsre_compile$py;, _mk_bitmap$7, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	104	forwbranch < 506, 6 > 98.828125% taken
+	193	forwbranch < 480, 32 > 93.75% taken
+	279	backbranch < 512, 2 > 99.61089% taken
+M 8 < org.python.core.BytecodeLoader2@1c1b80d5, Lsre_compile$py;, _simple$9, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	87	forwbranch < 12, 0 > 100.0% taken
+	109	forwbranch < 12, 0 > 100.0% taken
+	159	forwbranch < 0, 12 > 0.0% taken
+	175	forwbranch < 0, 12 > 0.0% taken
+M 66 < org.python.core.BytecodeLoader2@1c1b80d5, Lsre_compile$py;, _compile_info$10, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	82	forwbranch < 3, 1 > 75.0% taken
+	201	forwbranch < 0, 3 > 0.0% taken
+	293	forwbranch < 3, 0 > 100.0% taken
+	330	forwbranch < 0, 0 > Never Executed
+	421	forwbranch < 3, 0 > 100.0% taken
+	455	forwbranch < 3, 0 > 100.0% taken
+	553	forwbranch < 0, 0 > Never Executed
+	609	backbranch < 3, 0 > 100.0% taken
+	632	forwbranch < 0, 3 > 0.0% taken
+	650	forwbranch < 0, 3 > 0.0% taken
+	742	forwbranch < 3, 0 > 100.0% taken
+	761	forwbranch < 3, 0 > 100.0% taken
+	853	forwbranch < 0, 0 > Never Executed
+	935	forwbranch < 0, 0 > Never Executed
+	1017	forwbranch < 0, 0 > Never Executed
+	1112	forwbranch < 0, 0 > Never Executed
+	1190	backbranch < 0, 0 > Never Executed
+	1246	forwbranch < 3, 0 > 100.0% taken
+	1328	forwbranch < 0, 0 > Never Executed
+	1423	forwbranch < 0, 0 > Never Executed
+	1501	backbranch < 0, 0 > Never Executed
+	1556	forwbranch < 2, 1 > 66.666664% taken
+	1728	forwbranch < 3, 0 > 100.0% taken
+	1793	forwbranch < 0, 0 > Never Executed
+	1825	forwbranch < 0, 0 > Never Executed
+	1879	forwbranch < 2, 1 > 66.666664% taken
+	1963	forwbranch < 0, 3 > 0.0% taken
+	2073	forwbranch < 2, 1 > 66.666664% taken
+	2137	forwbranch < 3, 0 > 100.0% taken
+	2522	forwbranch < 0, 0 > Never Executed
+	2583	backbranch < 0, 0 > Never Executed
+	2599	backbranch < 0, 0 > Never Executed
+	2656	forwbranch < 2, 1 > 66.666664% taken
+M 6 < org.python.core.BytecodeLoader2@1c1b80d5, Lsre_compile$py;, compile$12, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	35	forwbranch < 0, 4 > 0.0% taken
+	202	forwbranch < 0, 4 > 0.0% taken
+	442	backbranch < 0, 4 > 0.0% taken
+M 14 < org.python.core.BytecodeLoader2@1c1b80d5, Lsre_compile$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 19, 0, 3, 11, 3, 11, 2, 0, 12, 4, 4, 4, 0 >
+M 2 < SystemAppCL, Lorg/python/modules/sre/PatternObject;, <init>, (Lorg/python/core/PyString;I[CILorg/python/core/PyObject;Lorg/python/core/PyObject;)V >
+	5	forwbranch < 0, 4 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/modules/_sre;, compile, (Lorg/python/core/PyString;ILorg/python/core/PyObject;ILorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/modules/sre/PatternObject; >
+	7	forwbranch < 0, 4 > 0.0% taken
+	29	forwbranch < 4, 186 > 2.1052632% taken
+M 2 < org.python.core.BytecodeLoader2@1c16f85d, Lsre_constants$py;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	3119	forwbranch < 1, 0 > 100.0% taken
+M 2 < org.python.core.BytecodeLoader2@1c16f85d, Lsre_constants$py;, makedict$2, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	145	backbranch < 60, 3 > 95.2381% taken
+M 6 < org.python.core.BytecodeLoader2@1c16f85d, Lsre_constants$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 3, 0, 0, 0 >
+M 4 < SystemAppCL, Lorg/python/core/codecs;, PyUnicode_DecodeASCII, (Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String; >
+	15	forwbranch < 26, 4550 > 0.5681818% taken
+	31	forwbranch < 0, 4550 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/compiler/PyLongConstant;, equals, (Ljava/lang/Object;)Z >
+	4	forwbranch < 6, 310 > 1.8987342% taken
+M 2 < org.python.core.BytecodeLoader2@1c0b1dc8, Lsre_parse$py;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1575	forwbranch < 0, 0 > Never Executed
+M 4 < org.python.core.BytecodeLoader2@1c0b1dc8, Lsre_parse$py;, opengroup$3, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	72	forwbranch < 3, 0 > 100.0% taken
+	146	forwbranch < 0, 0 > Never Executed
+M 2 < org.python.core.BytecodeLoader2@1c0b1dc8, Lsre_parse$py;, __init__$7, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	43	forwbranch < 12, 7 > 63.157894% taken
+M 18 < org.python.core.BytecodeLoader2@1c0b1dc8, Lsre_parse$py;, getwidth$17, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	21	forwbranch < 19, 12 > 61.29032% taken
+	163	forwbranch < 31, 0 > 100.0% taken
+	420	backbranch < 0, 0 > Never Executed
+	517	forwbranch < 31, 0 > 100.0% taken
+	682	forwbranch < 28, 3 > 90.32258% taken
+	883	forwbranch < 16, 12 > 57.142857% taken
+	1174	forwbranch < 2, 14 > 12.5% taken
+	1265	forwbranch < 2, 0 > 100.0% taken
+	1286	backbranch < 31, 19 > 62.0% taken
+M 6 < org.python.core.BytecodeLoader2@1c0b1dc8, Lsre_parse$py;, _Tokenizer__next$20, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	44	forwbranch < 38, 12 > 76.0% taken
+	159	forwbranch < 29, 9 > 76.31579% taken
+	227	forwbranch < 0, 0 > Never Executed
+M 4 < org.python.core.BytecodeLoader2@1c0b1dc8, Lsre_parse$py;, match$21, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	29	forwbranch < 26, 6 > 81.25% taken
+	47	forwbranch < 3, 3 > 50.0% taken
+M 36 < org.python.core.BytecodeLoader2@1c0b1dc8, Lsre_parse$py;, _escape$30, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	51	forwbranch < 0, 9 > 0.0% taken
+	125	forwbranch < 0, 0 > Never Executed
+	179	forwbranch < 0, 0 > Never Executed
+	254	forwbranch < 0, 0 > Never Executed
+	282	backbranch < 0, 0 > Never Executed
+	316	forwbranch < 0, 0 > Never Executed
+	440	forwbranch < 0, 0 > Never Executed
+	515	forwbranch < 0, 0 > Never Executed
+	543	backbranch < 0, 0 > Never Executed
+	652	forwbranch < 0, 0 > Never Executed
+	715	forwbranch < 0, 0 > Never Executed
+	787	forwbranch < 0, 0 > Never Executed
+	815	forwbranch < 0, 0 > Never Executed
+	842	forwbranch < 0, 0 > Never Executed
+	1012	forwbranch < 0, 0 > Never Executed
+	1047	forwbranch < 0, 0 > Never Executed
+	1166	forwbranch < 0, 0 > Never Executed
+	1248	forwbranch < 0, 0 > Never Executed
+M 32 < org.python.core.BytecodeLoader2@1c0b1dc8, Lsre_parse$py;, _parse_sub$31, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	98	forwbranch < 7, 0 > 100.0% taken
+	122	forwbranch < 3, 4 > 42.857143% taken
+	153	forwbranch < 0, 3 > 0.0% taken
+	180	forwbranch < 0, 3 > 0.0% taken
+	223	backbranch < 7, 0 > 100.0% taken
+	257	forwbranch < 0, 7 > 0.0% taken
+	389	forwbranch < 0, 0 > Never Executed
+	420	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 0 > Never Executed
+	508	backbranch < 0, 0 > Never Executed
+	574	backbranch < 0, 0 > Never Executed
+	623	backbranch < 0, 0 > Never Executed
+	686	forwbranch < 0, 0 > Never Executed
+	720	forwbranch < 0, 0 > Never Executed
+	741	backbranch < 0, 0 > Never Executed
+	853	backbranch < 0, 0 > Never Executed
+M 180 < org.python.core.BytecodeLoader2@1c0b1dc8, Lsre_parse$py;, _parse$32, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	88	forwbranch < 35, 3 > 92.10526% taken
+	149	forwbranch < 31, 4 > 88.57143% taken
+	185	forwbranch < 31, 0 > 100.0% taken
+	212	forwbranch < 0, 0 > Never Executed
+	239	forwbranch < 0, 0 > Never Executed
+	326	forwbranch < 0, 0 > Never Executed
+	345	backbranch < 0, 0 > Never Executed
+	367	forwbranch < 0, 31 > 0.0% taken
+	394	forwbranch < 27, 4 > 87.09677% taken
+	483	forwbranch < 26, 1 > 96.296295% taken
+	540	forwbranch < 1, 0 > 100.0% taken
+	683	forwbranch < 3, 1 > 75.0% taken
+	705	forwbranch < 3, 1 > 75.0% taken
+	730	forwbranch < 0, 3 > 0.0% taken
+	754	forwbranch < 3, 0 > 100.0% taken
+	812	forwbranch < 0, 3 > 0.0% taken
+	922	forwbranch < 3, 0 > 100.0% taken
+	976	forwbranch < 0, 0 > Never Executed
+	1010	forwbranch < 0, 0 > Never Executed
+	1170	forwbranch < 0, 0 > Never Executed
+	1301	forwbranch < 0, 0 > Never Executed
+	1329	forwbranch < 0, 0 > Never Executed
+	1436	forwbranch < 0, 0 > Never Executed
+	1574	forwbranch < 3, 0 > 100.0% taken
+	1654	backbranch < 4, 0 > 100.0% taken
+	1690	forwbranch < 1, 0 > 100.0% taken
+	1724	forwbranch < 1, 0 > 100.0% taken
+	1798	forwbranch < 1, 0 > 100.0% taken
+	1834	forwbranch < 0, 0 > Never Executed
+	1868	forwbranch < 1, 0 > 100.0% taken
+	2014	forwbranch < 0, 26 > 0.0% taken
+	2041	forwbranch < 14, 12 > 53.846153% taken
+	2065	forwbranch < 9, 3 > 75.0% taken
+	2165	forwbranch < 3, 6 > 33.333332% taken
+	2269	forwbranch < 0, 3 > 0.0% taken
+	2373	forwbranch < 0, 0 > Never Executed
+	2582	backbranch < 0, 0 > Never Executed
+	2612	forwbranch < 0, 0 > Never Executed
+	2688	backbranch < 0, 0 > Never Executed
+	2747	forwbranch < 0, 0 > Never Executed
+	2859	forwbranch < 0, 0 > Never Executed
+	2911	forwbranch < 0, 0 > Never Executed
+	2972	forwbranch < 0, 0 > Never Executed
+	3036	forwbranch < 0, 12 > 0.0% taken
+	3120	forwbranch < 0, 12 > 0.0% taken
+	3150	forwbranch < 0, 12 > 0.0% taken
+	3184	forwbranch < 12, 0 > 100.0% taken
+	3276	forwbranch < 12, 0 > 100.0% taken
+	3327	forwbranch < 12, 0 > 100.0% taken
+	3541	forwbranch < 14, 0 > 100.0% taken
+	3624	forwbranch < 11, 3 > 78.57143% taken
+	3696	forwbranch < 3, 0 > 100.0% taken
+	3745	forwbranch < 0, 0 > Never Executed
+	3775	forwbranch < 0, 0 > Never Executed
+	3857	forwbranch < 0, 0 > Never Executed
+	3903	forwbranch < 0, 0 > Never Executed
+	3952	backbranch < 0, 0 > Never Executed
+	4002	forwbranch < 0, 0 > Never Executed
+	4056	forwbranch < 0, 0 > Never Executed
+	4138	forwbranch < 0, 0 > Never Executed
+	4184	forwbranch < 0, 0 > Never Executed
+	4233	backbranch < 0, 0 > Never Executed
+	4264	forwbranch < 0, 0 > Never Executed
+	4356	forwbranch < 0, 0 > Never Executed
+	4495	forwbranch < 0, 0 > Never Executed
+	4579	forwbranch < 0, 0 > Never Executed
+	4631	forwbranch < 0, 0 > Never Executed
+	4669	forwbranch < 0, 0 > Never Executed
+	4693	forwbranch < 0, 0 > Never Executed
+	4734	backbranch < 0, 0 > Never Executed
+	4767	forwbranch < 0, 0 > Never Executed
+	4854	forwbranch < 0, 0 > Never Executed
+	4930	forwbranch < 0, 0 > Never Executed
+	4986	forwbranch < 0, 0 > Never Executed
+	5131	forwbranch < 0, 0 > Never Executed
+	5177	forwbranch < 0, 0 > Never Executed
+	5385	forwbranch < 0, 0 > Never Executed
+	5507	backbranch < 0, 0 > Never Executed
+	5525	forwbranch < 0, 3 > 0.0% taken
+	5549	forwbranch < 3, 0 > 100.0% taken
+	5680	forwbranch < 3, 0 > 100.0% taken
+	5729	forwbranch < 0, 3 > 0.0% taken
+	5901	forwbranch < 0, 0 > Never Executed
+	5947	forwbranch < 0, 0 > Never Executed
+	5987	backbranch < 0, 0 > Never Executed
+	6014	forwbranch < 11, 0 > 100.0% taken
+	6096	forwbranch < 9, 2 > 81.818184% taken
+	6173	forwbranch < 0, 9 > 0.0% taken
+	6197	forwbranch < 0, 9 > 0.0% taken
+	6306	backbranch < 38, 0 > 100.0% taken
+M 12 < org.python.core.BytecodeLoader2@1c0b1dc8, Lsre_parse$py;, parse$33, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	56	forwbranch < 0, 4 > 0.0% taken
+	229	forwbranch < 4, 0 > 100.0% taken
+	268	forwbranch < 4, 0 > 100.0% taken
+	317	forwbranch < 4, 0 > 100.0% taken
+	370	forwbranch < 0, 4 > 0.0% taken
+	403	forwbranch < 4, 0 > 100.0% taken
+M 38 < org.python.core.BytecodeLoader2@1c0b1dc8, Lsre_parse$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 4, 3, 3, 0, 1, 19, 0, 0, 36, 0, 69, 12, 12, 0, 19, 31, 1, 4, 50, 32, 43, 0, 0, 0, 0, 0, 0, 0, 9, 7, 7, 4, 0, 0, 0, 0 >
+M 4 < SystemAppCL, Lorg/python/compiler/PyComplexConstant;, equals, (Ljava/lang/Object;)Z >
+	4	forwbranch < 4, 12 > 25.0% taken
+	19	forwbranch < 0, 12 > 0.0% taken
+M 6 < org.python.core.BytecodeLoader2@1c02803f, Lcopy_reg$py;, pickle$1, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	32	forwbranch < 2, 0 > 100.0% taken
+	83	forwbranch < 2, 0 > 100.0% taken
+	160	forwbranch < 0, 2 > 0.0% taken
+M 2 < org.python.core.BytecodeLoader2@1c02803f, Lcopy_reg$py;, constructor$2, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	26	forwbranch < 2, 0 > 100.0% taken
+M 7 < org.python.core.BytecodeLoader2@1c02803f, Lcopy_reg$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 2, 2, 0, 0, 0, 0 >
+M 64 < SystemAppCL, Lorg/python/modules/types;, classDictInit, (Lorg/python/core/PyObject;)V >
+	6	forwbranch < 0, 1 > 0.0% taken
+	36	forwbranch < 0, 1 > 0.0% taken
+	66	forwbranch < 0, 1 > 0.0% taken
+	96	forwbranch < 0, 1 > 0.0% taken
+	126	forwbranch < 0, 1 > 0.0% taken
+	156	forwbranch < 0, 1 > 0.0% taken
+	186	forwbranch < 0, 1 > 0.0% taken
+	216	forwbranch < 1, 0 > 100.0% taken
+	246	forwbranch < 0, 1 > 0.0% taken
+	276	forwbranch < 0, 1 > 0.0% taken
+	306	forwbranch < 0, 1 > 0.0% taken
+	336	forwbranch < 0, 1 > 0.0% taken
+	366	forwbranch < 0, 1 > 0.0% taken
+	396	forwbranch < 0, 1 > 0.0% taken
+	426	forwbranch < 0, 1 > 0.0% taken
+	456	forwbranch < 0, 1 > 0.0% taken
+	486	forwbranch < 1, 0 > 100.0% taken
+	516	forwbranch < 0, 1 > 0.0% taken
+	546	forwbranch < 0, 1 > 0.0% taken
+	576	forwbranch < 1, 0 > 100.0% taken
+	606	forwbranch < 0, 1 > 0.0% taken
+	636	forwbranch < 0, 1 > 0.0% taken
+	666	forwbranch < 0, 1 > 0.0% taken
+	696	forwbranch < 0, 1 > 0.0% taken
+	726	forwbranch < 0, 1 > 0.0% taken
+	756	forwbranch < 0, 1 > 0.0% taken
+	786	forwbranch < 0, 1 > 0.0% taken
+	816	forwbranch < 1, 0 > 100.0% taken
+	846	forwbranch < 1, 0 > 100.0% taken
+	876	forwbranch < 0, 1 > 0.0% taken
+	916	forwbranch < 1, 0 > 100.0% taken
+	943	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/PyXRange;, getInt, (I)I >
+	4	forwbranch < 100545, 0 > 100.0% taken
+M 18 < org.python.core.BytecodeLoader2@1bfaf2cf, Ltraceback$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 7 < org.python.core.BytecodeLoader2@1bf46e95, Llinecache$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 0, 0, 0, 0, 0, 0 >
+M 6 < SystemAppCL, Lorg/python/core/CollectionIter2;, findCollection, (Ljava/lang/Object;)Lorg/python/core/PyObject; >
+	4	forwbranch < 15, 0 > 100.0% taken
+	33	forwbranch < 15, 0 > 100.0% taken
+	57	forwbranch < 15, 0 > 100.0% taken
+M 30 < SystemAppCL, Lorg/python/modules/cPickle;, <clinit>, ()V >
+	67	forwbranch < 0, 1 > 0.0% taken
+	94	forwbranch < 0, 1 > 0.0% taken
+	121	forwbranch < 0, 1 > 0.0% taken
+	148	forwbranch < 0, 1 > 0.0% taken
+	175	forwbranch < 0, 1 > 0.0% taken
+	202	forwbranch < 0, 1 > 0.0% taken
+	229	forwbranch < 0, 1 > 0.0% taken
+	256	forwbranch < 0, 1 > 0.0% taken
+	283	forwbranch < 0, 1 > 0.0% taken
+	310	forwbranch < 0, 1 > 0.0% taken
+	337	forwbranch < 0, 1 > 0.0% taken
+	364	forwbranch < 0, 1 > 0.0% taken
+	391	forwbranch < 0, 1 > 0.0% taken
+	418	forwbranch < 0, 1 > 0.0% taken
+	445	forwbranch < 0, 1 > 0.0% taken
+M 4 < org.python.core.BytecodeLoader2@1be74c52, LSetup$py;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	137	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 0, 0 > Never Executed
+M 2 < org.python.core.BytecodeLoader2@1be74c52, LSetup$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 0 >
+M 2 < org.python.core.BytecodeLoader2@1bde315b, LArithmetic$py;, test$2, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	3329	backbranch < 30000, 5 > 99.98334% taken
+M 2 < org.python.core.BytecodeLoader2@1bde315b, LArithmetic$py;, test$5, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	3422	backbranch < 30000, 5 > 99.98334% taken
+M 2 < org.python.core.BytecodeLoader2@1bde315b, LArithmetic$py;, test$8, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	3422	backbranch < 30000, 5 > 99.98334% taken
+M 2 < org.python.core.BytecodeLoader2@1bde315b, LArithmetic$py;, test$11, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	3422	backbranch < 15000, 5 > 99.966675% taken
+M 2 < org.python.core.BytecodeLoader2@1bde315b, LArithmetic$py;, test$14, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	3512	backbranch < 20000, 5 > 99.975006% taken
+M 17 < org.python.core.BytecodeLoader2@1bde315b, LArithmetic$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 5, 0, 1, 5, 0, 1, 5, 0, 1, 5, 0, 1, 5, 0, 0 >
+M 6 < SystemAppCL, Lorg/python/core/PathPackageManager$PackageExistsFileFilter;, accept, (Ljava/io/File;Ljava/lang/String;)Z >
+	6	forwbranch < 43, 27 > 61.42857% taken
+	15	forwbranch < 3, 24 > 11.111111% taken
+	32	forwbranch < 3, 0 > 100.0% taken
+M 6 < org.python.core.BytecodeLoader2@1bd9fce8, Lpybench$py;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	190	forwbranch < 0, 0 > Never Executed
+	482	forwbranch < 1, 0 > 100.0% taken
+	821	forwbranch < 1, 0 > 100.0% taken
+M 6 < org.python.core.BytecodeLoader2@1bd9fce8, Lpybench$py;, get_timer$1, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	23	forwbranch < 0, 255 > 0.0% taken
+	74	forwbranch < 0, 0 > Never Executed
+	125	forwbranch < 0, 0 > Never Executed
+M 12 < org.python.core.BytecodeLoader2@1bd9fce8, Lpybench$py;, __init__$5, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	25	forwbranch < 0, 255 > 0.0% taken
+	106	forwbranch < 255, 0 > 100.0% taken
+	185	forwbranch < 0, 255 > 0.0% taken
+	208	forwbranch < 255, 0 > 100.0% taken
+	226	forwbranch < 255, 0 > 100.0% taken
+	305	forwbranch < 0, 255 > 0.0% taken
+M 18 < org.python.core.BytecodeLoader2@1bd9fce8, Lpybench$py;, calibrate_test$8, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	27	forwbranch < 0, 255 > 0.0% taken
+	323	backbranch < 0, 0 > Never Executed
+	405	backbranch < 0, 0 > Never Executed
+	457	forwbranch < 0, 0 > Never Executed
+	630	backbranch < 0, 0 > Never Executed
+	735	backbranch < 0, 0 > Never Executed
+	828	forwbranch < 0, 0 > Never Executed
+	882	forwbranch < 0, 0 > Never Executed
+	938	forwbranch < 0, 0 > Never Executed
+M 2 < org.python.core.BytecodeLoader2@1bd9fce8, Lpybench$py;, run$9, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	226	forwbranch < 255, 0 > 100.0% taken
+M 4 < org.python.core.BytecodeLoader2@1bd9fce8, Lpybench$py;, stat$12, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	69	forwbranch < 255, 0 > 100.0% taken
+	341	forwbranch < 0, 255 > 0.0% taken
+M 27 < org.python.core.BytecodeLoader2@1bd9fce8, Lpybench$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 255, 0, 0, 1, 255, 255, 0, 255, 255, 0, 0, 255, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0 >
+M 4 < org.python.core.BytecodeLoader2@1bc7918b, LCalls$py;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	231	forwbranch < 1, 0 > 100.0% taken
+	272	forwbranch < 0, 0 > Never Executed
+M 2 < org.python.core.BytecodeLoader2@1bc7918b, LCalls$py;, test$2, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	2037	backbranch < 15000, 5 > 99.966675% taken
+M 2 < org.python.core.BytecodeLoader2@1bc7918b, LCalls$py;, test$13, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1994	backbranch < 15000, 5 > 99.966675% taken
+M 2 < org.python.core.BytecodeLoader2@1bc7918b, LCalls$py;, test$16, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	2289	backbranch < 7500, 5 > 99.93338% taken
+M 2 < org.python.core.BytecodeLoader2@1bc7918b, LCalls$py;, test$27, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	187	backbranch < 25000, 5 > 99.98% taken
+M 2 < org.python.core.BytecodeLoader2@1bc7918b, LCalls$py;, f$28, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	21	forwbranch < 25000, 225000 > 10.0% taken
+M 32 < org.python.core.BytecodeLoader2@1bc7918b, LCalls$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 5, 75000, 300000, 300000, 150000, 0, 0, 0, 0, 0, 1, 5, 0, 1, 5, 5, 225000, 187500, 150000, 0, 0, 0, 0, 0, 1, 5, 1250000, 0, 0, 0 >
+M 302 < org.python.core.BytecodeLoader2@1bc1e8ba, LConstructs$py;, test$2, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	149	forwbranch < 0, 37500 > 0.0% taken
+	172	forwbranch < 0, 37500 > 0.0% taken
+	195	forwbranch < 37500, 0 > 100.0% taken
+	287	forwbranch < 0, 0 > Never Executed
+	355	forwbranch < 0, 0 > Never Executed
+	423	forwbranch < 0, 37500 > 0.0% taken
+	446	forwbranch < 0, 37500 > 0.0% taken
+	469	forwbranch < 0, 37500 > 0.0% taken
+	561	forwbranch < 0, 0 > Never Executed
+	629	forwbranch < 0, 0 > Never Executed
+	697	forwbranch < 0, 37500 > 0.0% taken
+	720	forwbranch < 37500, 0 > 100.0% taken
+	743	forwbranch < 0, 0 > Never Executed
+	835	forwbranch < 0, 37500 > 0.0% taken
+	903	forwbranch < 0, 0 > Never Executed
+	971	forwbranch < 37500, 0 > 100.0% taken
+	994	forwbranch < 0, 0 > Never Executed
+	1017	forwbranch < 0, 0 > Never Executed
+	1109	forwbranch < 0, 0 > Never Executed
+	1177	forwbranch < 0, 37500 > 0.0% taken
+	1245	forwbranch < 37500, 0 > 100.0% taken
+	1268	forwbranch < 0, 0 > Never Executed
+	1291	forwbranch < 0, 0 > Never Executed
+	1383	forwbranch < 0, 0 > Never Executed
+	1451	forwbranch < 37500, 0 > 100.0% taken
+	1519	forwbranch < 0, 37500 > 0.0% taken
+	1542	forwbranch < 0, 37500 > 0.0% taken
+	1565	forwbranch < 37500, 0 > 100.0% taken
+	1657	forwbranch < 0, 0 > Never Executed
+	1725	forwbranch < 0, 0 > Never Executed
+	1793	forwbranch < 0, 37500 > 0.0% taken
+	1816	forwbranch < 0, 37500 > 0.0% taken
+	1839	forwbranch < 0, 37500 > 0.0% taken
+	1931	forwbranch < 0, 0 > Never Executed
+	1999	forwbranch < 0, 0 > Never Executed
+	2067	forwbranch < 0, 37500 > 0.0% taken
+	2090	forwbranch < 37500, 0 > 100.0% taken
+	2113	forwbranch < 0, 0 > Never Executed
+	2205	forwbranch < 0, 37500 > 0.0% taken
+	2275	forwbranch < 0, 0 > Never Executed
+	2346	forwbranch < 37500, 0 > 100.0% taken
+	2370	forwbranch < 0, 0 > Never Executed
+	2394	forwbranch < 0, 0 > Never Executed
+	2490	forwbranch < 0, 0 > Never Executed
+	2561	forwbranch < 0, 37500 > 0.0% taken
+	2632	forwbranch < 37500, 0 > 100.0% taken
+	2656	forwbranch < 0, 0 > Never Executed
+	2680	forwbranch < 0, 0 > Never Executed
+	2776	forwbranch < 0, 0 > Never Executed
+	2847	forwbranch < 37500, 0 > 100.0% taken
+	2918	forwbranch < 0, 37500 > 0.0% taken
+	2942	forwbranch < 0, 37500 > 0.0% taken
+	2966	forwbranch < 37500, 0 > 100.0% taken
+	3062	forwbranch < 0, 0 > Never Executed
+	3133	forwbranch < 0, 0 > Never Executed
+	3204	forwbranch < 0, 37500 > 0.0% taken
+	3228	forwbranch < 0, 37500 > 0.0% taken
+	3252	forwbranch < 0, 37500 > 0.0% taken
+	3348	forwbranch < 0, 0 > Never Executed
+	3419	forwbranch < 0, 0 > Never Executed
+	3490	forwbranch < 0, 37500 > 0.0% taken
+	3514	forwbranch < 37500, 0 > 100.0% taken
+	3538	forwbranch < 0, 0 > Never Executed
+	3634	forwbranch < 0, 37500 > 0.0% taken
+	3705	forwbranch < 0, 0 > Never Executed
+	3776	forwbranch < 37500, 0 > 100.0% taken
+	3800	forwbranch < 0, 0 > Never Executed
+	3824	forwbranch < 0, 0 > Never Executed
+	3920	forwbranch < 0, 0 > Never Executed
+	3991	forwbranch < 0, 37500 > 0.0% taken
+	4062	forwbranch < 37500, 0 > 100.0% taken
+	4086	forwbranch < 0, 0 > Never Executed
+	4110	forwbranch < 0, 0 > Never Executed
+	4206	forwbranch < 0, 0 > Never Executed
+	4277	forwbranch < 37500, 0 > 100.0% taken
+	4348	forwbranch < 0, 37500 > 0.0% taken
+	4372	forwbranch < 0, 37500 > 0.0% taken
+	4396	forwbranch < 37500, 0 > 100.0% taken
+	4492	forwbranch < 0, 0 > Never Executed
+	4563	forwbranch < 0, 0 > Never Executed
+	4634	forwbranch < 0, 37500 > 0.0% taken
+	4658	forwbranch < 0, 37500 > 0.0% taken
+	4682	forwbranch < 0, 37500 > 0.0% taken
+	4778	forwbranch < 0, 0 > Never Executed
+	4849	forwbranch < 0, 0 > Never Executed
+	4920	forwbranch < 0, 37500 > 0.0% taken
+	4944	forwbranch < 37500, 0 > 100.0% taken
+	4968	forwbranch < 0, 0 > Never Executed
+	5064	forwbranch < 0, 37500 > 0.0% taken
+	5135	forwbranch < 0, 0 > Never Executed
+	5206	forwbranch < 37500, 0 > 100.0% taken
+	5230	forwbranch < 0, 0 > Never Executed
+	5254	forwbranch < 0, 0 > Never Executed
+	5350	forwbranch < 0, 0 > Never Executed
+	5421	forwbranch < 0, 37500 > 0.0% taken
+	5492	forwbranch < 37500, 0 > 100.0% taken
+	5516	forwbranch < 0, 0 > Never Executed
+	5540	forwbranch < 0, 0 > Never Executed
+	5636	forwbranch < 0, 0 > Never Executed
+	5707	forwbranch < 37500, 0 > 100.0% taken
+	5778	forwbranch < 0, 37500 > 0.0% taken
+	5802	forwbranch < 0, 37500 > 0.0% taken
+	5826	forwbranch < 37500, 0 > 100.0% taken
+	5922	forwbranch < 0, 0 > Never Executed
+	5993	forwbranch < 0, 0 > Never Executed
+	6064	forwbranch < 0, 37500 > 0.0% taken
+	6088	forwbranch < 0, 37500 > 0.0% taken
+	6112	forwbranch < 0, 37500 > 0.0% taken
+	6208	forwbranch < 0, 0 > Never Executed
+	6279	forwbranch < 0, 0 > Never Executed
+	6350	forwbranch < 0, 37500 > 0.0% taken
+	6374	forwbranch < 37500, 0 > 100.0% taken
+	6398	forwbranch < 0, 0 > Never Executed
+	6494	forwbranch < 0, 37500 > 0.0% taken
+	6565	forwbranch < 0, 0 > Never Executed
+	6636	forwbranch < 37500, 0 > 100.0% taken
+	6660	forwbranch < 0, 0 > Never Executed
+	6684	forwbranch < 0, 0 > Never Executed
+	6780	forwbranch < 0, 0 > Never Executed
+	6851	forwbranch < 0, 37500 > 0.0% taken
+	6922	forwbranch < 37500, 0 > 100.0% taken
+	6946	forwbranch < 0, 0 > Never Executed
+	6970	forwbranch < 0, 0 > Never Executed
+	7066	forwbranch < 0, 0 > Never Executed
+	7137	forwbranch < 37500, 0 > 100.0% taken
+	7208	forwbranch < 0, 37500 > 0.0% taken
+	7232	forwbranch < 0, 37500 > 0.0% taken
+	7256	forwbranch < 37500, 0 > 100.0% taken
+	7352	forwbranch < 0, 0 > Never Executed
+	7423	forwbranch < 0, 0 > Never Executed
+	7494	forwbranch < 0, 37500 > 0.0% taken
+	7518	forwbranch < 0, 37500 > 0.0% taken
+	7542	forwbranch < 0, 37500 > 0.0% taken
+	7638	forwbranch < 0, 0 > Never Executed
+	7709	forwbranch < 0, 0 > Never Executed
+	7780	forwbranch < 0, 37500 > 0.0% taken
+	7804	forwbranch < 37500, 0 > 100.0% taken
+	7828	forwbranch < 0, 0 > Never Executed
+	7924	forwbranch < 0, 37500 > 0.0% taken
+	7995	forwbranch < 0, 0 > Never Executed
+	8066	forwbranch < 37500, 0 > 100.0% taken
+	8090	forwbranch < 0, 0 > Never Executed
+	8114	forwbranch < 0, 0 > Never Executed
+	8210	forwbranch < 0, 0 > Never Executed
+	8281	forwbranch < 0, 37500 > 0.0% taken
+	8352	forwbranch < 37500, 0 > 100.0% taken
+	8376	forwbranch < 0, 0 > Never Executed
+	8400	forwbranch < 0, 0 > Never Executed
+	8496	forwbranch < 0, 0 > Never Executed
+	8567	forwbranch < 37500, 0 > 100.0% taken
+	8629	backbranch < 37500, 5 > 99.98667% taken
+M 8 < org.python.core.BytecodeLoader2@1bc1e8ba, LConstructs$py;, test$5, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	229	backbranch < 750000, 150000 > 83.333336% taken
+	248	backbranch < 150000, 15000 > 90.90909% taken
+	267	backbranch < 15000, 15 > 99.9001% taken
+	283	backbranch < 15, 1 > 93.75% taken
+M 52 < org.python.core.BytecodeLoader2@1bc1e8ba, LConstructs$py;, test$8, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	117	backbranch < 150000, 1500 > 99.0099% taken
+	170	backbranch < 150000, 1500 > 99.0099% taken
+	223	backbranch < 150000, 1500 > 99.0099% taken
+	276	backbranch < 150000, 1500 > 99.0099% taken
+	329	backbranch < 150000, 1500 > 99.0099% taken
+	382	backbranch < 150000, 1500 > 99.0099% taken
+	435	backbranch < 150000, 1500 > 99.0099% taken
+	488	backbranch < 150000, 1500 > 99.0099% taken
+	541	backbranch < 150000, 1500 > 99.0099% taken
+	594	backbranch < 150000, 1500 > 99.0099% taken
+	647	backbranch < 150000, 1500 > 99.0099% taken
+	700	backbranch < 150000, 1500 > 99.0099% taken
+	753	backbranch < 150000, 1500 > 99.0099% taken
+	806	backbranch < 150000, 1500 > 99.0099% taken
+	859	backbranch < 150000, 1500 > 99.0099% taken
+	912	backbranch < 150000, 1500 > 99.0099% taken
+	965	backbranch < 150000, 1500 > 99.0099% taken
+	1018	backbranch < 150000, 1500 > 99.0099% taken
+	1071	backbranch < 150000, 1500 > 99.0099% taken
+	1124	backbranch < 150000, 1500 > 99.0099% taken
+	1177	backbranch < 150000, 1500 > 99.0099% taken
+	1230	backbranch < 150000, 1500 > 99.0099% taken
+	1283	backbranch < 150000, 1500 > 99.0099% taken
+	1336	backbranch < 150000, 1500 > 99.0099% taken
+	1389	backbranch < 150000, 1500 > 99.0099% taken
+	1405	backbranch < 1500, 3 > 99.8004% taken
+M 11 < org.python.core.BytecodeLoader2@1bc1e8ba, LConstructs$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 2, 0, 1, 2, 0, 1, 2, 0, 0 >
+M 2 < org.python.core.BytecodeLoader2@1bb7d72e, LLookups$py;, test$2, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	3353	backbranch < 25000, 5 > 99.98% taken
+M 2 < org.python.core.BytecodeLoader2@1bb7d72e, LLookups$py;, test$7, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	3440	backbranch < 25000, 5 > 99.98% taken
+M 2 < org.python.core.BytecodeLoader2@1bb7d72e, LLookups$py;, test$12, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	3464	backbranch < 25000, 5 > 99.98% taken
+M 2 < org.python.core.BytecodeLoader2@1bb7d72e, LLookups$py;, test$17, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	3464	backbranch < 25000, 5 > 99.98% taken
+M 2 < org.python.core.BytecodeLoader2@1bb7d72e, LLookups$py;, test$22, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	2829	backbranch < 17500, 5 > 99.971436% taken
+M 25 < org.python.core.BytecodeLoader2@1bb7d72e, LLookups$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 5, 5, 0, 0, 1, 5, 5, 0, 0, 1, 5, 5, 0, 0, 1, 5, 5, 0, 0, 1, 5, 0, 0 >
+M 2 < org.python.core.BytecodeLoader2@1bba0849, LInstances$py;, test$2, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	681	backbranch < 20000, 5 > 99.975006% taken
+M 15 < org.python.core.BytecodeLoader2@1bba0849, LInstances$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 5, 5, 5, 140000, 5, 80000, 0, 0, 0, 0, 0, 0, 0 >
+M 2 < org.python.core.BytecodeLoader2@1bbc1ff7, LNewInstances$py;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	102	forwbranch < 0, 0 > Never Executed
+M 2 < org.python.core.BytecodeLoader2@1bbc1ff7, LNewInstances$py;, test$3, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	717	backbranch < 15000, 5 > 99.966675% taken
+M 16 < org.python.core.BytecodeLoader2@1bbc1ff7, LNewInstances$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 1, 5, 5, 5, 105000, 5, 60000, 0, 0, 0, 0, 0, 0, 0 >
+M 4 < org.python.core.BytecodeLoader2@1bb35a66, LLists$py;, test$2, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	2337	forwbranch < 32405, 95 > 99.707695% taken
+	2369	backbranch < 32500, 5 > 99.98462% taken
+M 4 < org.python.core.BytecodeLoader2@1bb35a66, LLists$py;, test$5, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	401	backbranch < 5000, 200 > 96.15385% taken
+	417	backbranch < 200, 5 > 97.560974% taken
+M 2 < org.python.core.BytecodeLoader2@1bb35a66, LLists$py;, test$8, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	2732	backbranch < 20000, 5 > 99.975006% taken
+M 11 < org.python.core.BytecodeLoader2@1bb35a66, LLists$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 5, 0, 1, 5, 0, 1, 5, 0, 0 >
+M 4 < org.python.core.BytecodeLoader2@1baba864, LTuples$py;, test$2, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	7005	backbranch < 3125, 125 > 96.15385% taken
+	7020	backbranch < 125, 5 > 96.15385% taken
+M 2 < org.python.core.BytecodeLoader2@1baba864, LTuples$py;, test$5, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	5222	backbranch < 22500, 5 > 99.97778% taken
+M 8 < org.python.core.BytecodeLoader2@1baba864, LTuples$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 5, 0, 1, 5, 0, 0 >
+M 2 < org.python.core.BytecodeLoader2@1ba94408, LDict$py;, test$2, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	2660	backbranch < 20000, 5 > 99.975006% taken
+M 2 < org.python.core.BytecodeLoader2@1ba94408, LDict$py;, test$5, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1452	backbranch < 50000, 5 > 99.99% taken
+M 2 < org.python.core.BytecodeLoader2@1ba94408, LDict$py;, test$8, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1488	backbranch < 37500, 5 > 99.98667% taken
+M 2 < org.python.core.BytecodeLoader2@1ba94408, LDict$py;, test$11, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1488	backbranch < 40000, 4 > 99.99% taken
+M 2 < org.python.core.BytecodeLoader2@1ba94408, LDict$py;, test$14, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	2955	backbranch < 25000, 5 > 99.98% taken
+M 17 < org.python.core.BytecodeLoader2@1ba94408, LDict$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 5, 0, 1, 5, 0, 1, 5, 0, 1, 5, 0, 1, 5, 0, 0 >
+M 2 < org.python.core.BytecodeLoader2@1b973c6d, LExceptions$py;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	146	forwbranch < 1, 0 > 100.0% taken
+M 2 < org.python.core.BytecodeLoader2@1b973c6d, LExceptions$py;, test$2, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	362	backbranch < 20000, 5 > 99.975006% taken
+M 2 < org.python.core.BytecodeLoader2@1b973c6d, LExceptions$py;, test$5, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	4369	backbranch < 37500, 5 > 99.98667% taken
+M 8 < org.python.core.BytecodeLoader2@1b973c6d, LExceptions$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 5, 0, 1, 5, 0, 0 >
+M 2 < org.python.core.BytecodeLoader2@1b99991c, LImports$py;, test$2, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	650	backbranch < 10000, 5 > 99.95003% taken
+M 2 < org.python.core.BytecodeLoader2@1b99991c, LImports$py;, test$5, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	650	backbranch < 10000, 5 > 99.95003% taken
+M 2 < org.python.core.BytecodeLoader2@1b99991c, LImports$py;, test$8, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	655	backbranch < 10000, 5 > 99.95003% taken
+M 11 < org.python.core.BytecodeLoader2@1b99991c, LImports$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 5, 0, 1, 5, 0, 1, 5, 0, 0 >
+M 2 < org.python.core.BytecodeLoader2@1b9a4813, Lpackage$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 0 >
+M 2 < org.python.core.BytecodeLoader2@1b9b0b94, Lpackage/submodule$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 0 >
+M 2 < org.python.core.BytecodeLoader2@1b8e7957, LStrings$py;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	309	forwbranch < 0, 1 > 0.0% taken
+M 2 < org.python.core.BytecodeLoader2@1b8e7957, LStrings$py;, test$2, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1155	backbranch < 25000, 5 > 99.98% taken
+M 2 < org.python.core.BytecodeLoader2@1b8e7957, LStrings$py;, test$5, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1183	backbranch < 40000, 4 > 99.99% taken
+M 2 < org.python.core.BytecodeLoader2@1b8e7957, LStrings$py;, test$8, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1184	backbranch < 30000, 2 > 99.99333% taken
+M 2 < org.python.core.BytecodeLoader2@1b8e7957, LStrings$py;, test$11, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1544	backbranch < 50000, 5 > 99.99% taken
+M 2 < org.python.core.BytecodeLoader2@1b8e7957, LStrings$py;, test$14, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	889	backbranch < 40000, 5 > 99.9875% taken
+M 2 < org.python.core.BytecodeLoader2@1b8e7957, LStrings$py;, test$17, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1068	backbranch < 17500, 5 > 99.971436% taken
+M 2 < org.python.core.BytecodeLoader2@1b8e7957, LStrings$py;, test$20, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1728	backbranch < 25000, 5 > 99.98% taken
+M 23 < org.python.core.BytecodeLoader2@1b8e7957, LStrings$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 5, 0, 1, 5, 0, 1, 5, 0, 1, 5, 0, 1, 5, 0, 1, 5, 0, 1, 5, 0, 0 >
+M 2 < org.python.core.BytecodeLoader2@1b83b3b3, LNumbers$py;, test$2, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	2504	backbranch < 30000, 5 > 99.98334% taken
+M 2 < org.python.core.BytecodeLoader2@1b83b3b3, LNumbers$py;, test$5, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	2602	backbranch < 20000, 5 > 99.975006% taken
+M 2 < org.python.core.BytecodeLoader2@1b83b3b3, LNumbers$py;, test$8, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	2602	backbranch < 15000, 5 > 99.966675% taken
+M 2 < org.python.core.BytecodeLoader2@1b83b3b3, LNumbers$py;, test$11, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	2602	backbranch < 17500, 5 > 99.971436% taken
+M 14 < org.python.core.BytecodeLoader2@1b83b3b3, LNumbers$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 5, 0, 1, 5, 0, 1, 5, 0, 1, 5, 0, 0 >
+M 4 < org.python.core.BytecodeLoader2@1b7916ca, LUnicode$py;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	39	forwbranch < 0, 0 > Never Executed
+	427	forwbranch < 0, 1 > 0.0% taken
+M 2 < org.python.core.BytecodeLoader2@1b7916ca, LUnicode$py;, test$2, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1173	backbranch < 15000, 5 > 99.966675% taken
+M 2 < org.python.core.BytecodeLoader2@1b7916ca, LUnicode$py;, test$5, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1206	backbranch < 22500, 3 > 99.98667% taken
+M 2 < org.python.core.BytecodeLoader2@1b7916ca, LUnicode$py;, test$8, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1544	backbranch < 20000, 5 > 99.975006% taken
+M 2 < org.python.core.BytecodeLoader2@1b7916ca, LUnicode$py;, test$11, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	898	backbranch < 35000, 5 > 99.98572% taken
+M 2 < org.python.core.BytecodeLoader2@1b7916ca, LUnicode$py;, test$14, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1068	backbranch < 2500, 5 > 99.8004% taken
+M 2 < org.python.core.BytecodeLoader2@1b7916ca, LUnicode$py;, test$17, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1178	backbranch < 30000, 5 > 99.98334% taken
+M 23 < org.python.core.BytecodeLoader2@1b7916ca, LUnicode$py;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 5, 0, 1, 5, 0, 1, 5, 0, 1, 5, 0, 1, 5, 0, 1, 5, 0, 0, 0, 0, 0 >
+M 6 < SystemAppCL, Lorg/python/core/StringFormatter;, getarg, ()Lorg/python/core/PyObject; >
+	6	switch     < 0, 0, 35, 1345 >
+	71	forwbranch < 1345, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/core/StringFormatter;, formatInteger, (JIZ)Ljava/lang/String; >
+	2	forwbranch < 45, 0 > 100.0% taken
+	8	forwbranch < 0, 0 > Never Executed
+	23	forwbranch < 45, 0 > 100.0% taken
+	50	forwbranch < 45, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/python/core/StringFormatter;, formatFloatDecimal, (DZ)Ljava/lang/String; >
+	17	forwbranch < 1035, 0 > 100.0% taken
+	27	forwbranch < 1035, 0 > 100.0% taken
+	48	forwbranch < 1035, 0 > 100.0% taken
+M 8 < SystemAppCL, Lorg/python/core/StringFormatter;, getNumber, ()I >
+	8	forwbranch < 2415, 0 > 100.0% taken
+	20	forwbranch < 0, 0 > Never Executed
+	41	forwbranch < 65, 2350 > 2.6915114% taken
+	60	forwbranch < 2350, 255 > 90.211136% taken
+M 3 < SystemAppCL, Lorg/python/modules/TimeFunctions;, __call__, ()Lorg/python/core/PyObject; >
+	4	switch     < 515, 0, 0 >
+M 2 < BootstrapCL, Ljava/util/SimpleTimeZone;, <init>, (ILjava/lang/String;IIIIIIII)V >
+	73	forwbranch < 55, 0 > 100.0% taken
+M 16 < BootstrapCL, Ljava/util/TimeZone;, getTimeZoneInternal, (Ljava/lang/String;)Ljava/util/TimeZone; >
+	8	forwbranch < 0, 2 > 0.0% taken
+	29	forwbranch < 1, 1 > 50.0% taken
+	40	forwbranch < 1, 0 > 100.0% taken
+	71	forwbranch < 1, 0 > 100.0% taken
+	104	forwbranch < 0, 1 > 0.0% taken
+	110	forwbranch < 0, 1 > 0.0% taken
+	129	forwbranch < 0, 0 > Never Executed
+	168	forwbranch < 0, 0 > Never Executed
+M 10 < BootstrapCL, Ljava/util/TimeZone;, getDisplayName, (ZILjava/util/Locale;)Ljava/lang/String; >
+	25	forwbranch < 2, 322 > 0.61728394% taken
+	42	forwbranch < 322, 0 > 100.0% taken
+	46	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 0, 0 > Never Executed
+	70	forwbranch < 0, 0 > Never Executed
+M 10 < BootstrapCL, Ljava/util/TimeZone;, getDefaultDisplayName, (Z)Ljava/lang/String; >
+	6	forwbranch < 1, 1 > 50.0% taken
+	13	forwbranch < 0, 1 > 0.0% taken
+	68	forwbranch < 0, 2 > 0.0% taken
+	73	forwbranch < 1, 1 > 50.0% taken
+	78	forwbranch < 0, 1 > 0.0% taken
+M 8 < BootstrapCL, Ljava/util/TimeZone;, timezones, ()Ljava/util/HashMap; >
+	3	forwbranch < 1, 1 > 50.0% taken
+	29	forwbranch < 1, 0 > 100.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	55	forwbranch < 1, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/TimeZone;, setID, (Ljava/lang/String;)V >
+	1	forwbranch < 90, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/TimeZone;, defaultZone, ()Ljava/util/TimeZone; >
+	3	forwbranch < 5, 1 > 83.333336% taken
+M 108 < BootstrapCL, Ljava/util/TimeZone;, getDefaultTimeZone, (Ljava/lang/String;)Ljava/util/TimeZone; >
+	23	forwbranch < 0, 4 > 0.0% taken
+	30	forwbranch < 0, 4 > 0.0% taken
+	37	forwbranch < 0, 4 > 0.0% taken
+	44	forwbranch < 0, 4 > 0.0% taken
+	52	forwbranch < 0, 4 > 0.0% taken
+	57	forwbranch < 0, 4 > 0.0% taken
+	67	backbranch < 3, 1 > 75.0% taken
+	74	forwbranch < 0, 1 > 0.0% taken
+	109	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 0 > Never Executed
+	123	forwbranch < 0, 0 > Never Executed
+	131	forwbranch < 0, 0 > Never Executed
+	138	backbranch < 0, 0 > Never Executed
+	145	forwbranch < 0, 0 > Never Executed
+	173	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	214	forwbranch < 0, 0 > Never Executed
+	227	forwbranch < 0, 0 > Never Executed
+	238	forwbranch < 0, 0 > Never Executed
+	247	forwbranch < 0, 0 > Never Executed
+	275	forwbranch < 0, 0 > Never Executed
+	282	forwbranch < 0, 0 > Never Executed
+	289	forwbranch < 0, 0 > Never Executed
+	296	forwbranch < 0, 0 > Never Executed
+	304	forwbranch < 0, 0 > Never Executed
+	309	forwbranch < 0, 0 > Never Executed
+	319	backbranch < 0, 0 > Never Executed
+	326	forwbranch < 0, 0 > Never Executed
+	337	forwbranch < 0, 0 > Never Executed
+	346	forwbranch < 0, 0 > Never Executed
+	354	forwbranch < 0, 0 > Never Executed
+	389	forwbranch < 0, 0 > Never Executed
+	396	forwbranch < 0, 0 > Never Executed
+	403	forwbranch < 0, 0 > Never Executed
+	411	forwbranch < 0, 0 > Never Executed
+	418	backbranch < 0, 0 > Never Executed
+	425	forwbranch < 0, 0 > Never Executed
+	435	forwbranch < 0, 0 > Never Executed
+	442	forwbranch < 0, 0 > Never Executed
+	449	forwbranch < 0, 0 > Never Executed
+	482	forwbranch < 0, 0 > Never Executed
+	493	forwbranch < 0, 0 > Never Executed
+	523	forwbranch < 0, 0 > Never Executed
+	536	forwbranch < 0, 0 > Never Executed
+	547	forwbranch < 0, 0 > Never Executed
+	556	forwbranch < 0, 0 > Never Executed
+	564	forwbranch < 0, 0 > Never Executed
+	575	forwbranch < 0, 0 > Never Executed
+	599	forwbranch < 0, 0 > Never Executed
+	610	forwbranch < 0, 0 > Never Executed
+	628	forwbranch < 0, 0 > Never Executed
+	639	forwbranch < 0, 0 > Never Executed
+	681	forwbranch < 0, 0 > Never Executed
+	731	forwbranch < 0, 0 > Never Executed
+M 8 < BootstrapCL, Ljava/util/TimeZone$1;, run, ()Ljava/lang/Object; >
+	9	forwbranch < 0, 1 > 0.0% taken
+	18	forwbranch < 0, 1 > 0.0% taken
+	27	forwbranch < 0, 1 > 0.0% taken
+	35	forwbranch < 0, 1 > 0.0% taken
+M 10 < BootstrapCL, Ljava/util/SimpleTimeZone;, getDaysInMonth, (II)I >
+	2	forwbranch < 128, 2 > 98.46154% taken
+	8	forwbranch < 0, 2 > 0.0% taken
+	18	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 0, 0 > Never Executed
+	36	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Ljava/util/SimpleTimeZone;, checkRule, (III)I >
+	1	forwbranch < 0, 110 > 0.0% taken
+	7	forwbranch < 110, 0 > 100.0% taken
+	29	forwbranch < 105, 5 > 95.454544% taken
+	33	forwbranch < 0, 5 > 0.0% taken
+	39	forwbranch < 5, 0 > 100.0% taken
+	55	forwbranch < 4, 101 > 3.8095238% taken
+	70	forwbranch < 101, 0 > 100.0% taken
+	86	forwbranch < 101, 0 > 100.0% taken
+	102	forwbranch < 0, 4 > 0.0% taken
+	111	forwbranch < 4, 0 > 100.0% taken
+	127	forwbranch < 4, 0 > 100.0% taken
+	141	forwbranch < 4, 0 > 100.0% taken
+M 44 < BootstrapCL, Ljava/util/SimpleTimeZone;, getOffset, (IIIIII)I >
+	11	forwbranch < 0, 20 > 0.0% taken
+	18	forwbranch < 20, 0 > 100.0% taken
+	34	forwbranch < 0, 20 > 0.0% taken
+	41	forwbranch < 20, 0 > 100.0% taken
+	55	forwbranch < 0, 20 > 0.0% taken
+	61	forwbranch < 20, 0 > 100.0% taken
+	98	forwbranch < 20, 0 > 100.0% taken
+	103	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+	126	forwbranch < 0, 0 > Never Executed
+	170	forwbranch < 0, 0 > Never Executed
+	193	forwbranch < 0, 0 > Never Executed
+	219	forwbranch < 0, 0 > Never Executed
+	231	forwbranch < 0, 0 > Never Executed
+	248	forwbranch < 0, 0 > Never Executed
+	266	forwbranch < 0, 0 > Never Executed
+	313	forwbranch < 0, 0 > Never Executed
+	327	forwbranch < 0, 0 > Never Executed
+	332	forwbranch < 0, 0 > Never Executed
+	337	forwbranch < 0, 0 > Never Executed
+	355	forwbranch < 0, 0 > Never Executed
+	360	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/util/SimpleTimeZone;, inDaylightTime, (Ljava/util/Date;)Z >
+	16	forwbranch < 5, 0 > 100.0% taken
+M 12 < BootstrapCL, Ljava/util/Calendar;, <init>, (Ljava/util/TimeZone;Ljava/util/Locale;)V >
+	124	forwbranch < 0, 10 > 0.0% taken
+	167	forwbranch < 10, 0 > 100.0% taken
+	182	forwbranch < 0, 10 > 0.0% taken
+	211	forwbranch < 0, 10 > 0.0% taken
+	221	forwbranch < 10, 80 > 11.111111% taken
+	233	forwbranch < 70, 10 > 87.5% taken
+M 2 < BootstrapCL, Ljava/util/GregorianCalendar;, isGregorian, (II)Z >
+	72	forwbranch < 0, 20 > 0.0% taken
+M 2 < BootstrapCL, Ljava/util/GregorianCalendar;, getLinearDay, (IIZ)J >
+	27	forwbranch < 0, 60 > 0.0% taken
+M 8 < BootstrapCL, Ljava/util/GregorianCalendar;, isLeapYear, (I)Z >
+	3	forwbranch < 0, 20 > 0.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+	24	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+M 14 < BootstrapCL, Ljava/util/GregorianCalendar;, calculateDay, ([IJZ)V >
+	13	forwbranch < 20, 0 > 100.0% taken
+	30	forwbranch < 0, 20 > 0.0% taken
+	69	forwbranch < 0, 20 > 0.0% taken
+	90	forwbranch < 0, 20 > 0.0% taken
+	122	forwbranch < 20, 0 > 100.0% taken
+	154	forwbranch < 20, 0 > 100.0% taken
+	172	forwbranch < 20, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/GregorianCalendar;, getWeekDay, (II)I >
+	28	forwbranch < 20, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/Calendar;, clear, ()V >
+	114	forwbranch < 35, 595 > 5.5555553% taken
+M 8 < BootstrapCL, Ljava/util/Calendar;, getInstance, (Ljava/util/TimeZone;Ljava/util/Locale;)Ljava/util/Calendar; >
+	14	forwbranch < 4, 1 > 80.0% taken
+	29	forwbranch < 0, 1 > 0.0% taken
+	44	forwbranch < 0, 5 > 0.0% taken
+	63	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljava/util/Calendar;, complete, ()V >
+	4	forwbranch < 50, 0 > 100.0% taken
+	15	forwbranch < 50, 0 > 100.0% taken
+M 12 < BootstrapCL, Ljava/util/GregorianCalendar;, computeFields, ()V >
+	9	forwbranch < 0, 20 > 0.0% taken
+	65	forwbranch < 20, 0 > 100.0% taken
+	160	forwbranch < 20, 0 > 100.0% taken
+	257	forwbranch < 0, 20 > 0.0% taken
+	339	forwbranch < 20, 0 > 100.0% taken
+	370	forwbranch < 0, 20 > 0.0% taken
+M 2 < SystemAppCL, Lorg/python/core/MergeState;, merge_compute_minrun, (I)I >
+	5	forwbranch < 20, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/python/core/MergeState;, count_run, (II[Z)I >
+	9	forwbranch < 20, 0 > 100.0% taken
+	35	forwbranch < 0, 20 > 0.0% taken
+	48	forwbranch < 0, 20 > 0.0% taken
+	69	forwbranch < 0, 20 > 0.0% taken
+	90	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/MergeState;, reverse_slice, (II)V >
+	5	forwbranch < 20, 20 > 50.0% taken
+M 10 < SystemAppCL, Lorg/python/core/MergeState;, binarysort, (III)V >
+	2	forwbranch < 20, 0 > 100.0% taken
+	10	forwbranch < 20, 980 > 2.0% taken
+	53	forwbranch < 2320, 2040 > 53.21101% taken
+	73	backbranch < 3380, 980 > 77.522934% taken
+	83	forwbranch < 980, 10520 > 8.521739% taken
+M 10 < SystemAppCL, Lorg/python/core/MergeState;, merge_collapse, ()V >
+	5	forwbranch < 20, 0 > 100.0% taken
+	16	forwbranch < 0, 0 > Never Executed
+	42	forwbranch < 0, 0 > Never Executed
+	61	forwbranch < 0, 0 > Never Executed
+	89	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/core/MergeState;, merge_force_collapse, ()V >
+	5	forwbranch < 20, 0 > 100.0% taken
+	16	forwbranch < 0, 0 > Never Executed
+	35	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/python/core/MergeState;, iflt, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Z >
+	4	forwbranch < 0, 4400 > 0.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+	44	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/python/core/PyObjectDerived;, __setattr__, (Ljava/lang/String;Lorg/python/core/PyObject;)V >
+	15	forwbranch < 0, 405000 > 0.0% taken
+M 4 < SystemAppCL, Lorg/python/core/PyObjectDerived;, dispatch__init__, (Lorg/python/core/PyType;[Lorg/python/core/PyObject;[Ljava/lang/String;)V >
+	12	forwbranch < 0, 35821 > 0.0% taken
+	26	forwbranch < 0, 35821 > 0.0% taken
+M 2 < BootstrapCL, Lgnu/java/math/MPN;, add_1, ([I[III)I >
+	14	forwbranch < 787, 823 > 48.88199% taken
+M 7 < BootstrapCL, Ljava/math/BigDecimal;, valueOf, (JI)Ljava/math/BigDecimal; >
+	1	forwbranch < 0, 1035 > 0.0% taken
+	9	forwbranch < 0, 1035 > 0.0% taken
+	14	switch     < 0, 1035, 0 >
+M 44 < BootstrapCL, Ljava/math/BigDecimal;, divide, (Ljava/math/BigDecimal;II)Ljava/math/BigDecimal; >
+	1	forwbranch < 0, 1035 > 0.0% taken
+	7	forwbranch < 1035, 0 > 100.0% taken
+	45	forwbranch < 780, 255 > 75.36232% taken
+	49	forwbranch < 255, 0 > 100.0% taken
+	94	forwbranch < 0, 780 > 0.0% taken
+	155	forwbranch < 780, 0 > 100.0% taken
+	172	forwbranch < 780, 0 > 100.0% taken
+	203	forwbranch < 780, 0 > 100.0% taken
+	208	forwbranch < 0, 0 > Never Executed
+	222	forwbranch < 780, 0 > 100.0% taken
+	227	forwbranch < 0, 0 > Never Executed
+	246	forwbranch < 780, 0 > 100.0% taken
+	270	forwbranch < 780, 0 > 100.0% taken
+	299	switch     < 0, 0, 780, 0 >
+	326	forwbranch < 0, 0 > Never Executed
+	340	forwbranch < 0, 0 > Never Executed
+	354	forwbranch < 392, 388 > 50.25641% taken
+	364	forwbranch < 0, 392 > 0.0% taken
+	378	forwbranch < 0, 0 > Never Executed
+	389	forwbranch < 388, 392 > 49.74359% taken
+	396	forwbranch < 0, 392 > 0.0% taken
+M 37 < SystemAppCL, Lorg/python/modules/OperatorFunctions;, __call__, (Lorg/python/core/PyObject;Lorg/python/core/PyObject;)Lorg/python/core/PyObject; >
+	4	switch     < 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 6 < SystemAppCL, Ldacapo/FileDigest;, getText, (Ljava/io/File;ZLjava/io/File;)[B >
+	29	forwbranch < 10, 0 > 100.0% taken
+	33	forwbranch < 0, 0 > Never Executed
+	88	forwbranch < 0, 0 > Never Executed
+M 8 < BootstrapCL, Ljava/security/Security;, loadProviders, (Ljava/lang/String;Ljava/lang/String;)Z >
+	1	forwbranch < 0, 2 > 0.0% taken
+	5	forwbranch < 2, 0 > 100.0% taken
+	94	forwbranch < 0, 0 > Never Executed
+	151	forwbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Ljava/security/Security;, <clinit>, ()V >
+	44	forwbranch < 0, 1 > 0.0% taken
+	48	forwbranch < 0, 1 > 0.0% taken
+	57	forwbranch < 0, 1 > 0.0% taken
+M 26 < BootstrapCL, Lgnu/java/security/Engine;, getInstance, (Ljava/lang/String;Ljava/lang/String;Ljava/security/Provider;[Ljava/lang/Object;)Ljava/lang/Object; >
+	1	forwbranch < 10, 0 > 100.0% taken
+	23	forwbranch < 10, 0 > 100.0% taken
+	37	forwbranch < 10, 0 > 100.0% taken
+	59	forwbranch < 10, 0 > 100.0% taken
+	73	forwbranch < 10, 0 > 100.0% taken
+	87	forwbranch < 10, 0 > 100.0% taken
+	131	forwbranch < 0, 900 > 0.0% taken
+	174	forwbranch < 890, 10 > 98.888885% taken
+	228	backbranch < 880, 10 > 98.8764% taken
+	245	backbranch < 0, 10 > 0.0% taken
+	257	forwbranch < 10, 0 > 100.0% taken
+	319	forwbranch < 10, 0 > 100.0% taken
+	443	forwbranch < 10, 0 > 100.0% taken
+M 10 < BootstrapCL, Lgnu/java/security/Engine;, getCompatibleConstructor, (Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/reflect/Constructor; >
+	10	forwbranch < 0, 10 > 0.0% taken
+	26	forwbranch < 10, 0 > 100.0% taken
+	40	forwbranch < 10, 0 > 100.0% taken
+	47	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 0, 0 > Never Executed
+M 12 < BootstrapCL, Lgnu/java/security/hash/Sha160;, sha, (IIIII[BI)[I >
+	23	forwbranch < 11, 176 > 5.882353% taken
+	102	forwbranch < 11, 704 > 1.5384616% taken
+	174	forwbranch < 11, 220 > 4.7619047% taken
+	258	forwbranch < 11, 220 > 4.7619047% taken
+	337	forwbranch < 11, 220 > 4.7619047% taken
+	425	forwbranch < 11, 220 > 4.7619047% taken
+M 6 < BootstrapCL, Lgnu/java/security/hash/BaseHash;, update, ([BII)V >
+	39	forwbranch < 0, 11 > 0.0% taken
+	78	forwbranch < 11, 0 > 100.0% taken
+	108	forwbranch < 11, 0 > 100.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/BaseHash;, reset, ()V >
+	12	forwbranch < 11, 704 > 1.5384616% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/BaseHash;, update, (B)V >
+	36	forwbranch < 3, 0 > 100.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/Sha160;, padBuffer, ()[B >
+	13	forwbranch < 0, 11 > 0.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/Sha160;, selfTest, ()Z >
+	3	forwbranch < 9, 1 > 90.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/util/Util;, toString, ([BII)Ljava/lang/String; >
+	15	forwbranch < 1, 20 > 4.7619047% taken
+M 6 < org.python.core.BytecodeLoader2@1cbf8660, Lorg/python/pycode/_pyx2;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	181	forwbranch < 0, 0 > Never Executed
+	473	forwbranch < 1, 0 > 100.0% taken
+	812	forwbranch < 0, 1 > 0.0% taken
+M 6 < org.python.core.BytecodeLoader2@1cbf8660, Lorg/python/pycode/_pyx2;, get_timer$1, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	23	forwbranch < 0, 1 > 0.0% taken
+	74	forwbranch < 0, 0 > Never Executed
+	125	forwbranch < 0, 0 > Never Executed
+M 12 < org.python.core.BytecodeLoader2@1cbf8660, Lorg/python/pycode/_pyx2;, __init__$14, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	15	forwbranch < 1, 0 > 100.0% taken
+	138	forwbranch < 0, 1 > 0.0% taken
+	193	forwbranch < 0, 1 > 0.0% taken
+	248	forwbranch < 0, 1 > 0.0% taken
+	303	forwbranch < 0, 1 > 0.0% taken
+	381	forwbranch < 1, 0 > 100.0% taken
+M 16 < org.python.core.BytecodeLoader2@1cbf8660, Lorg/python/pycode/_pyx2;, load_tests$17, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	21	forwbranch < 1, 0 > 100.0% taken
+	121	forwbranch < 52, 9 > 85.2459% taken
+	178	forwbranch < 51, 1 > 98.07692% taken
+	210	forwbranch < 51, 0 > 100.0% taken
+	246	forwbranch < 51, 0 > 100.0% taken
+	388	backbranch < 61, 1 > 98.3871% taken
+	470	forwbranch < 1, 0 > 100.0% taken
+	532	backbranch < 0, 0 > Never Executed
+M 6 < org.python.core.BytecodeLoader2@1cbf8660, Lorg/python/pycode/_pyx2;, calibrate$18, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	34	forwbranch < 1, 0 > 100.0% taken
+	293	forwbranch < 51, 0 > 100.0% taken
+	417	backbranch < 51, 1 > 98.07692% taken
+M 12 < org.python.core.BytecodeLoader2@1cbf8660, Lorg/python/pycode/_pyx2;, run$19, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	249	forwbranch < 1, 0 > 100.0% taken
+	439	forwbranch < 51, 0 > 100.0% taken
+	622	forwbranch < 51, 0 > 100.0% taken
+	727	backbranch < 51, 1 > 98.07692% taken
+	785	forwbranch < 1, 0 > 100.0% taken
+	915	backbranch < 1, 1 > 50.0% taken
+M 2 < org.python.core.BytecodeLoader2@1cbf8660, Lorg/python/pycode/_pyx2;, print_header$21, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	217	forwbranch < 1, 0 > 100.0% taken
+M 6 < org.python.core.BytecodeLoader2@1cbf8660, Lorg/python/pycode/_pyx2;, print_benchmark$22, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	221	forwbranch < 51, 0 > 100.0% taken
+	257	forwbranch < 51, 0 > 100.0% taken
+	577	backbranch < 51, 1 > 98.07692% taken
+M 34 < org.python.core.BytecodeLoader2@1cbf8660, Lorg/python/pycode/_pyx2;, main$25, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	294	forwbranch < 1, 0 > 100.0% taken
+	313	forwbranch < 0, 0 > Never Executed
+	676	forwbranch < 0, 1 > 0.0% taken
+	721	forwbranch < 0, 1 > 0.0% taken
+	797	forwbranch < 0, 1 > 0.0% taken
+	867	forwbranch < 1, 0 > 100.0% taken
+	969	forwbranch < 1, 0 > 100.0% taken
+	1137	forwbranch < 0, 0 > Never Executed
+	1254	forwbranch < 1, 0 > 100.0% taken
+	1421	forwbranch < 0, 0 > Never Executed
+	1582	forwbranch < 0, 0 > Never Executed
+	1703	forwbranch < 1, 0 > 100.0% taken
+	2030	forwbranch < 0, 0 > Never Executed
+	2125	forwbranch < 1, 0 > 100.0% taken
+	2283	forwbranch < 1, 0 > 100.0% taken
+	2428	forwbranch < 0, 0 > Never Executed
+	2472	forwbranch < 0, 0 > Never Executed
+M 27 < org.python.core.BytecodeLoader2@1cbf8660, Lorg/python/pycode/_pyx2;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0 >
+M 6 < org.python.core.BytecodeLoader2@1aabcb9c, Lorg/python/pycode/_pyx3;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	181	forwbranch < 0, 0 > Never Executed
+	473	forwbranch < 1, 0 > 100.0% taken
+	812	forwbranch < 0, 1 > 0.0% taken
+M 6 < org.python.core.BytecodeLoader2@1aabcb9c, Lorg/python/pycode/_pyx3;, get_timer$1, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	23	forwbranch < 0, 1 > 0.0% taken
+	74	forwbranch < 0, 0 > Never Executed
+	125	forwbranch < 0, 0 > Never Executed
+M 12 < org.python.core.BytecodeLoader2@1aabcb9c, Lorg/python/pycode/_pyx3;, __init__$14, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	15	forwbranch < 1, 0 > 100.0% taken
+	138	forwbranch < 0, 1 > 0.0% taken
+	193	forwbranch < 0, 1 > 0.0% taken
+	248	forwbranch < 0, 1 > 0.0% taken
+	303	forwbranch < 0, 1 > 0.0% taken
+	381	forwbranch < 1, 0 > 100.0% taken
+M 16 < org.python.core.BytecodeLoader2@1aabcb9c, Lorg/python/pycode/_pyx3;, load_tests$17, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	21	forwbranch < 1, 0 > 100.0% taken
+	121	forwbranch < 52, 9 > 85.2459% taken
+	178	forwbranch < 51, 1 > 98.07692% taken
+	210	forwbranch < 51, 0 > 100.0% taken
+	246	forwbranch < 51, 0 > 100.0% taken
+	388	backbranch < 61, 1 > 98.3871% taken
+	470	forwbranch < 1, 0 > 100.0% taken
+	532	backbranch < 0, 0 > Never Executed
+M 6 < org.python.core.BytecodeLoader2@1aabcb9c, Lorg/python/pycode/_pyx3;, calibrate$18, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	34	forwbranch < 1, 0 > 100.0% taken
+	293	forwbranch < 51, 0 > 100.0% taken
+	417	backbranch < 51, 1 > 98.07692% taken
+M 12 < org.python.core.BytecodeLoader2@1aabcb9c, Lorg/python/pycode/_pyx3;, run$19, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	249	forwbranch < 1, 0 > 100.0% taken
+	439	forwbranch < 51, 0 > 100.0% taken
+	622	forwbranch < 51, 0 > 100.0% taken
+	727	backbranch < 51, 1 > 98.07692% taken
+	785	forwbranch < 1, 0 > 100.0% taken
+	915	backbranch < 1, 1 > 50.0% taken
+M 2 < org.python.core.BytecodeLoader2@1aabcb9c, Lorg/python/pycode/_pyx3;, print_header$21, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	217	forwbranch < 1, 0 > 100.0% taken
+M 6 < org.python.core.BytecodeLoader2@1aabcb9c, Lorg/python/pycode/_pyx3;, print_benchmark$22, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	221	forwbranch < 51, 0 > 100.0% taken
+	257	forwbranch < 51, 0 > 100.0% taken
+	577	backbranch < 51, 1 > 98.07692% taken
+M 34 < org.python.core.BytecodeLoader2@1aabcb9c, Lorg/python/pycode/_pyx3;, main$25, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	294	forwbranch < 1, 0 > 100.0% taken
+	313	forwbranch < 0, 0 > Never Executed
+	676	forwbranch < 0, 1 > 0.0% taken
+	721	forwbranch < 0, 1 > 0.0% taken
+	797	forwbranch < 0, 1 > 0.0% taken
+	867	forwbranch < 1, 0 > 100.0% taken
+	969	forwbranch < 1, 0 > 100.0% taken
+	1137	forwbranch < 0, 0 > Never Executed
+	1254	forwbranch < 1, 0 > 100.0% taken
+	1421	forwbranch < 0, 0 > Never Executed
+	1582	forwbranch < 0, 0 > Never Executed
+	1703	forwbranch < 1, 0 > 100.0% taken
+	2030	forwbranch < 0, 0 > Never Executed
+	2125	forwbranch < 1, 0 > 100.0% taken
+	2283	forwbranch < 1, 0 > 100.0% taken
+	2428	forwbranch < 0, 0 > Never Executed
+	2472	forwbranch < 0, 0 > Never Executed
+M 27 < org.python.core.BytecodeLoader2@1aabcb9c, Lorg/python/pycode/_pyx3;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0 >
+M 6 < org.python.core.BytecodeLoader2@1a20984e, Lorg/python/pycode/_pyx4;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	181	forwbranch < 0, 0 > Never Executed
+	473	forwbranch < 1, 0 > 100.0% taken
+	812	forwbranch < 0, 1 > 0.0% taken
+M 6 < org.python.core.BytecodeLoader2@1a20984e, Lorg/python/pycode/_pyx4;, get_timer$1, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	23	forwbranch < 0, 1 > 0.0% taken
+	74	forwbranch < 0, 0 > Never Executed
+	125	forwbranch < 0, 0 > Never Executed
+M 12 < org.python.core.BytecodeLoader2@1a20984e, Lorg/python/pycode/_pyx4;, __init__$14, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	15	forwbranch < 1, 0 > 100.0% taken
+	138	forwbranch < 0, 1 > 0.0% taken
+	193	forwbranch < 0, 1 > 0.0% taken
+	248	forwbranch < 0, 1 > 0.0% taken
+	303	forwbranch < 0, 1 > 0.0% taken
+	381	forwbranch < 1, 0 > 100.0% taken
+M 16 < org.python.core.BytecodeLoader2@1a20984e, Lorg/python/pycode/_pyx4;, load_tests$17, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	21	forwbranch < 1, 0 > 100.0% taken
+	121	forwbranch < 52, 9 > 85.2459% taken
+	178	forwbranch < 51, 1 > 98.07692% taken
+	210	forwbranch < 51, 0 > 100.0% taken
+	246	forwbranch < 51, 0 > 100.0% taken
+	388	backbranch < 61, 1 > 98.3871% taken
+	470	forwbranch < 1, 0 > 100.0% taken
+	532	backbranch < 0, 0 > Never Executed
+M 6 < org.python.core.BytecodeLoader2@1a20984e, Lorg/python/pycode/_pyx4;, calibrate$18, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	34	forwbranch < 1, 0 > 100.0% taken
+	293	forwbranch < 51, 0 > 100.0% taken
+	417	backbranch < 51, 1 > 98.07692% taken
+M 12 < org.python.core.BytecodeLoader2@1a20984e, Lorg/python/pycode/_pyx4;, run$19, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	249	forwbranch < 1, 0 > 100.0% taken
+	439	forwbranch < 51, 0 > 100.0% taken
+	622	forwbranch < 51, 0 > 100.0% taken
+	727	backbranch < 51, 1 > 98.07692% taken
+	785	forwbranch < 1, 0 > 100.0% taken
+	915	backbranch < 1, 1 > 50.0% taken
+M 2 < org.python.core.BytecodeLoader2@1a20984e, Lorg/python/pycode/_pyx4;, print_header$21, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	217	forwbranch < 1, 0 > 100.0% taken
+M 6 < org.python.core.BytecodeLoader2@1a20984e, Lorg/python/pycode/_pyx4;, print_benchmark$22, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	221	forwbranch < 51, 0 > 100.0% taken
+	257	forwbranch < 51, 0 > 100.0% taken
+	577	backbranch < 51, 1 > 98.07692% taken
+M 34 < org.python.core.BytecodeLoader2@1a20984e, Lorg/python/pycode/_pyx4;, main$25, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	294	forwbranch < 1, 0 > 100.0% taken
+	313	forwbranch < 0, 0 > Never Executed
+	676	forwbranch < 0, 1 > 0.0% taken
+	721	forwbranch < 0, 1 > 0.0% taken
+	797	forwbranch < 0, 1 > 0.0% taken
+	867	forwbranch < 1, 0 > 100.0% taken
+	969	forwbranch < 1, 0 > 100.0% taken
+	1137	forwbranch < 0, 0 > Never Executed
+	1254	forwbranch < 1, 0 > 100.0% taken
+	1421	forwbranch < 0, 0 > Never Executed
+	1582	forwbranch < 0, 0 > Never Executed
+	1703	forwbranch < 1, 0 > 100.0% taken
+	2030	forwbranch < 0, 0 > Never Executed
+	2125	forwbranch < 1, 0 > 100.0% taken
+	2283	forwbranch < 1, 0 > 100.0% taken
+	2428	forwbranch < 0, 0 > Never Executed
+	2472	forwbranch < 0, 0 > Never Executed
+M 27 < org.python.core.BytecodeLoader2@1a20984e, Lorg/python/pycode/_pyx4;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0 >
+M 6 < org.python.core.BytecodeLoader2@1bfe65b3, Lorg/python/pycode/_pyx5;, f$0, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	181	forwbranch < 0, 0 > Never Executed
+	473	forwbranch < 1, 0 > 100.0% taken
+	812	forwbranch < 0, 1 > 0.0% taken
+M 6 < org.python.core.BytecodeLoader2@1bfe65b3, Lorg/python/pycode/_pyx5;, get_timer$1, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	23	forwbranch < 0, 1 > 0.0% taken
+	74	forwbranch < 0, 0 > Never Executed
+	125	forwbranch < 0, 0 > Never Executed
+M 12 < org.python.core.BytecodeLoader2@1bfe65b3, Lorg/python/pycode/_pyx5;, __init__$14, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	15	forwbranch < 1, 0 > 100.0% taken
+	138	forwbranch < 0, 1 > 0.0% taken
+	193	forwbranch < 0, 1 > 0.0% taken
+	248	forwbranch < 0, 1 > 0.0% taken
+	303	forwbranch < 0, 1 > 0.0% taken
+	381	forwbranch < 1, 0 > 100.0% taken
+M 16 < org.python.core.BytecodeLoader2@1bfe65b3, Lorg/python/pycode/_pyx5;, load_tests$17, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	21	forwbranch < 1, 0 > 100.0% taken
+	121	forwbranch < 52, 9 > 85.2459% taken
+	178	forwbranch < 51, 1 > 98.07692% taken
+	210	forwbranch < 51, 0 > 100.0% taken
+	246	forwbranch < 51, 0 > 100.0% taken
+	388	backbranch < 61, 1 > 98.3871% taken
+	470	forwbranch < 1, 0 > 100.0% taken
+	532	backbranch < 0, 0 > Never Executed
+M 6 < org.python.core.BytecodeLoader2@1bfe65b3, Lorg/python/pycode/_pyx5;, calibrate$18, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	34	forwbranch < 1, 0 > 100.0% taken
+	293	forwbranch < 51, 0 > 100.0% taken
+	417	backbranch < 51, 1 > 98.07692% taken
+M 12 < org.python.core.BytecodeLoader2@1bfe65b3, Lorg/python/pycode/_pyx5;, run$19, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	249	forwbranch < 1, 0 > 100.0% taken
+	439	forwbranch < 51, 0 > 100.0% taken
+	622	forwbranch < 51, 0 > 100.0% taken
+	727	backbranch < 51, 1 > 98.07692% taken
+	785	forwbranch < 1, 0 > 100.0% taken
+	915	backbranch < 1, 1 > 50.0% taken
+M 2 < org.python.core.BytecodeLoader2@1bfe65b3, Lorg/python/pycode/_pyx5;, print_header$21, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	217	forwbranch < 1, 0 > 100.0% taken
+M 6 < org.python.core.BytecodeLoader2@1bfe65b3, Lorg/python/pycode/_pyx5;, print_benchmark$22, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	221	forwbranch < 51, 0 > 100.0% taken
+	257	forwbranch < 51, 0 > 100.0% taken
+	577	backbranch < 51, 1 > 98.07692% taken
+M 34 < org.python.core.BytecodeLoader2@1bfe65b3, Lorg/python/pycode/_pyx5;, main$25, (Lorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	294	forwbranch < 1, 0 > 100.0% taken
+	313	forwbranch < 0, 0 > Never Executed
+	676	forwbranch < 0, 1 > 0.0% taken
+	721	forwbranch < 0, 1 > 0.0% taken
+	797	forwbranch < 0, 1 > 0.0% taken
+	867	forwbranch < 1, 0 > 100.0% taken
+	969	forwbranch < 1, 0 > 100.0% taken
+	1137	forwbranch < 0, 0 > Never Executed
+	1254	forwbranch < 1, 0 > 100.0% taken
+	1421	forwbranch < 0, 0 > Never Executed
+	1582	forwbranch < 0, 0 > Never Executed
+	1703	forwbranch < 1, 0 > 100.0% taken
+	2030	forwbranch < 0, 0 > Never Executed
+	2125	forwbranch < 1, 0 > 100.0% taken
+	2283	forwbranch < 1, 0 > 100.0% taken
+	2428	forwbranch < 0, 0 > Never Executed
+	2472	forwbranch < 0, 0 > Never Executed
+M 27 < org.python.core.BytecodeLoader2@1bfe65b3, Lorg/python/pycode/_pyx5;, call_function, (ILorg/python/core/PyFrame;)Lorg/python/core/PyObject; >
+	1	switch     < 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0 >
