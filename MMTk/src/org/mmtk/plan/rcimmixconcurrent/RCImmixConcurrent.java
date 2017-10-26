@@ -58,8 +58,8 @@ public class RCImmixConcurrent extends StopTheWorld {
   /** Use backup tracing for cycle collection (currently the only option) */
   public static final boolean CC_BACKUP_TRACE      = true;
 //  public static final boolean CC_BACKUP_TRACE      = false;
-//  public static final boolean RC_SURVIVOR_COPY = true;
-  public static final boolean RC_SURVIVOR_COPY = false;
+  public static final boolean RC_SURVIVOR_COPY = true;
+//  public static final boolean RC_SURVIVOR_COPY = false;
 
   public static boolean performCycleCollection;
   public static boolean performDefrag;
